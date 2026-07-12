@@ -3,10 +3,11 @@ import ArticleCard from "@/components/ArticleCard";
 import RankingCard from "@/components/RankingCard";
 import NewsletterBand from "@/components/NewsletterBand";
 import { getArticles, getAuthors, getCategories } from "@/lib/db";
+import { SITE_NAME, SITE_TAGLINE } from "@/lib/site";
 
 export const metadata = {
   title: {
-    absolute: "Vivahale — Independent Health & Wellness Reviews",
+    absolute: `${SITE_NAME} — ${SITE_TAGLINE}`,
   },
 };
 

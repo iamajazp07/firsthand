@@ -18,7 +18,10 @@ import type { Vertical } from "./types";
  */
 export const health: Vertical = {
   key: "health",
-  name: "Vivahale",
+  // Phase B rebrand: the Health vertical now lives on health.vivahale.com and
+  // brands as "Vivahale Health" (was bare "Vivahale" on the apex). tagline /
+  // description keep the same health-focused copy.
+  name: "Vivahale Health",
   host: "health.vivahale.com",
   tagline: "Independent Health & Wellness Reviews",
   description:

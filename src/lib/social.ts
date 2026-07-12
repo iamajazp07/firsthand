@@ -104,16 +104,28 @@ export const PLATFORM_LABEL: Record<SocialPlatform, string> = {
 };
 
 // ---------------------------------------------------------------------------
-// Site base URL — env-driven with the SAME fallback as src/lib/site.ts, but
-// read INLINE here (no `@/lib/site` / `@/lib/verticals` import) to keep this
-// module Node-script-safe: it must import only Node builtins + supabase-js so
-// it runs under `node --experimental-strip-types` in scripts/. Effective value
-// today is identical (https://vivahale.com). If the domain changes, update the
-// NEXT_PUBLIC_SITE_URL env (and src/lib/site.ts stays the app-side mirror).
+// Site base URL — VERTICAL-AWARE, but resolved via ENV ONLY (no `@/lib/site` /
+// `@/lib/verticals` import) to keep this module Node-script-safe: it must import
+// only Node builtins + supabase-js so it runs under
+// `node --experimental-strip-types` in scripts/. Resolution mirrors
+// src/lib/site.ts's effective value for each vertical:
+//   1. NEXT_PUBLIC_SITE_URL if set (explicit override), else
+//   2. derive from NEXT_PUBLIC_VERTICAL (default "health"):
+//        portal → https://vivahale.com
+//        <name> → https://<name>.vivahale.com   (health → https://health.vivahale.com)
+// If a domain changes, set NEXT_PUBLIC_SITE_URL (src/lib/site.ts stays the
+// app-side mirror).
 // ---------------------------------------------------------------------------
 
-export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://vivahale.com";
+function resolveSiteUrl(): string {
+  const override = process.env.NEXT_PUBLIC_SITE_URL;
+  if (override) return override.replace(/\/+$/, "");
+  const vertical = process.env.NEXT_PUBLIC_VERTICAL || "health";
+  const host = vertical === "portal" ? "vivahale.com" : `${vertical}.vivahale.com`;
+  return `https://${host}`;
+}
+
+export const SITE_URL = resolveSiteUrl();
 
 /** Map a social content_type to the live route base for that content. */
 export function contentRouteBase(type: SocialContentType): string {

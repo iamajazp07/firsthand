@@ -88,10 +88,12 @@ function adminGate(request: NextRequest): NextResponse {
  *  1. /admin auth gate — for admin surfaces ONLY, delegate to `adminGate()`
  *     (identical behavior to the previous implementation). This preserves the
  *     RSC flight-leak defense exactly.
- *  2. Vertical resolution (ADDITIVE, Phase A) — for every other route, resolve
- *     the active vertical from the request host and expose it to downstream
- *     server components via the `x-vivahale-vertical` request header. No
- *     redirect or rewrite is performed (portal routing is Phase B).
+ *  2. Vertical resolution + portal routing — for every other route, resolve the
+ *     active vertical from the request host and expose it to downstream server
+ *     components via the `x-vivahale-vertical` request header. When the host is
+ *     the apex (vivahale.com → "portal"), the site root `/` is REWRITTEN to the
+ *     `/portal` brand hub. Vertical subdomain hosts (health.vivahale.com) are
+ *     never rewritten and behave exactly as before.
  */
 export function proxy(request: NextRequest): NextResponse {
   const { pathname } = request.nextUrl;
@@ -99,7 +101,8 @@ export function proxy(request: NextRequest): NextResponse {
   // Admin surfaces run through the unchanged auth gate. The conditions below
   // reproduce the original matcher semantics exactly ("/admin", "/admin/*",
   // "/api/admin", "/api/admin/*") so no admin path escapes the gate and no
-  // non-admin path is newly gated.
+  // non-admin path is newly gated. This block is intentionally FIRST and
+  // untouched — admin routes on any host hit the same gate as before.
   const isAdminRoute =
     pathname === "/admin" ||
     pathname.startsWith("/admin/") ||
@@ -119,6 +122,19 @@ export function proxy(request: NextRequest): NextResponse {
 
   const requestHeaders = new Headers(request.headers);
   requestHeaders.set("x-vivahale-vertical", vertical);
+
+  // Portal routing: on the apex host (or a portal-mode build), serve the brand
+  // hub at the site root by rewriting `/` → `/portal`. Only the root is
+  // rewritten; all other paths pass through untouched, and non-portal hosts are
+  // completely unaffected.
+  if (vertical === "portal" && pathname === "/") {
+    const url = request.nextUrl.clone();
+    url.pathname = "/portal";
+    return NextResponse.rewrite(url, {
+      request: { headers: requestHeaders },
+    });
+  }
+
   return NextResponse.next({ request: { headers: requestHeaders } });
 }
 

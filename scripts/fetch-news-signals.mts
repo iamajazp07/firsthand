@@ -82,7 +82,7 @@ const SEEN_FILE = path.join(process.cwd(), "data", "news-seen.local.json");
 
 const DEFAULT_MAX_NEW = 3;
 const USER_AGENT =
-  "Mozilla/5.0 (compatible; VivahaleNewsBot/1.0; +https://vivahale.com/editorial-policy)";
+  "Mozilla/5.0 (compatible; VivahaleNewsBot/1.0; +https://health.vivahale.com/editorial-policy)";
 
 // ---------------------------------------------------------------------------
 // Tiny helpers

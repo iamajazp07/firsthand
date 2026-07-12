@@ -5,7 +5,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Analytics from "@/components/Analytics";
-import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
+import { SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/site";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -22,8 +22,8 @@ const sourceSerif = Source_Serif_4({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    template: "Vivahale — %s",
-    default: "Vivahale — Independent Health & Wellness Reviews",
+    template: `${SITE_NAME} — %s`,
+    default: `${SITE_NAME} — ${SITE_TAGLINE}`,
   },
   description: SITE_DESCRIPTION,
   alternates: {

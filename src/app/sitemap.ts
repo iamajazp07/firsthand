@@ -7,7 +7,7 @@ import {
   getReviewers,
 } from "@/lib/db";
 import { listPublishedArticles } from "@/lib/queue";
-import { SITE_URL } from "@/lib/site";
+import { IS_PORTAL, SITE_URL } from "@/lib/site";
 
 /**
  * Kept dynamic (not cached at build) so newly PUBLISHED queue articles appear
@@ -33,6 +33,18 @@ const STATIC_PAGES = [
  * (and is Disallowed in robots.ts).
  */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  // Portal (apex vivahale.com): a single-page brand hub. Emit only its own URL
+  // so a portal build never leaks health content URLs into the sitemap.
+  if (IS_PORTAL) {
+    return [
+      {
+        url: SITE_URL,
+        changeFrequency: "weekly",
+        priority: 1,
+      },
+    ];
+  }
+
   const [categories, authors, reviewers, hubs, products, articles] =
     await Promise.all([
       getCategories(),

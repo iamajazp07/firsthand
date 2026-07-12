@@ -14,12 +14,17 @@
  */
 
 import { ImageResponse } from "next/og";
+import { SITE_URL } from "@/lib/site";
 
 // Brand tokens (mirror of the @theme values in globals.css).
 const NAVY = "#0B3D6E";
 const BLUE = "#1A6FD4";
 const MIST = "#F1F5F9";
 const INK = "#1E293B";
+
+// Host line shown on the OG card, derived from the active vertical's SITE_URL
+// (health → health.vivahale.com) so cards match the canonical host.
+const OG_HOST = SITE_URL.replace(/^https?:\/\//, "");
 
 type Kind = "article" | "hub" | "review";
 
@@ -134,7 +139,7 @@ export function GET(request: Request): ImageResponse {
           }}
         >
           <span style={{ fontSize: 26, fontWeight: 600, color: INK }}>
-            vivahale.com
+            {OG_HOST}
           </span>
           <span style={{ fontSize: 22, color: "#64748B" }}>
             Independent · Evidence-based · No hype

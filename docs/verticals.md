@@ -44,3 +44,55 @@ persistent content therefore requires Supabase** with the `vertical` column from
 migration `0004`: only then can queued drafts, social posts, and subscribers
 survive across runs and be correctly partitioned per vertical. Without Supabase,
 each CI run is stateless and only the committed per-vertical seeds render.
+
+## Phase B verification (2026-07-12)
+
+Phase B rebrands Health onto **health.vivahale.com** and adds the
+**vivahale.com** brand portal. All checks passed on the first run — Health
+renders identically to Phase A apart from the intended host/name rebrand.
+
+### What changed
+- **Health rebrand:** `verticals/health.ts` `name` → `Vivahale Health`
+  (host `health.vivahale.com`; tagline/description unchanged).
+- **`site.ts`:** `SITE_URL` is vertical-aware — `NEXT_PUBLIC_SITE_URL` if set,
+  else `https://${getActiveVertical().host}` (health → `https://health.vivahale.com`,
+  portal → `https://vivahale.com`); trailing slash stripped; name/shape kept.
+  Added `SITE_TAGLINE` and `IS_PORTAL` helpers.
+- **`social.ts`:** script-safe `SITE_URL` (env only, no `@/lib/*` import) —
+  `NEXT_PUBLIC_SITE_URL` else derived from `NEXT_PUBLIC_VERTICAL` (default
+  `health`) as `https://<vertical>.vivahale.com` (portal → apex).
+- **Portal:** `verticals/portal.ts` (minimal non-content registry entry),
+  `src/app/portal/page.tsx` (hero + card grid driven off `contentVerticals()`),
+  `proxy.ts` rewrites apex-host `/` → `/portal` (admin gate untouched, applied
+  first), `sitemap.ts`/`seeds.ts` handle portal mode, `Footer`/`Logo` adapt.
+
+### Rebrand proof (health mode, `next start`, no env)
+- `<title>` = `Vivahale Health — …`; `/` and `/reviews/*` canonical + `og:url`
+  = `https://health.vivahale.com/…`; review JSON-LD `@id`/`url` + `og:image`
+  (`/api/og`) on the health host.
+- `/sitemap.xml`: every `<loc>` on `health.vivahale.com`; `/feed.xml` item
+  links on the health host; `/robots.txt` → `Sitemap: https://health.vivahale.com/sitemap.xml`.
+- `social.ts` standalone via `tsx` → `SITE_URL = https://health.vivahale.com`.
+
+### Portal proof
+- Host-based: `curl -H 'Host: vivahale.com' /` → portal (hero + Health card
+  linking to `https://health.vivahale.com`), canonical `https://vivahale.com`;
+  `curl -H 'Host: health.vivahale.com' /` still the Health homepage.
+- `NEXT_PUBLIC_VERTICAL=portal` build/dev: `/` renders the portal, canonical
+  `https://vivahale.com`, `/sitemap.xml` emits ONLY `https://vivahale.com`,
+  `/robots.txt` references the portal sitemap — no health URLs leak.
+
+### Admin gate (unchanged)
+- Prod + no `ADMIN_PASSWORD` → `/admin`, `/admin/social` = **403**; `/admin/login` = 200.
+- Prod + `ADMIN_PASSWORD` set → `/admin` = **307 → /admin/login** on the default
+  host AND with `Host: vivahale.com` (apex host does not bypass the gate).
+- Dev + no password → `/admin` = **200** dev-open. Env unset afterward.
+
+### Type + build
+- `npx tsc --noEmit` → **exit 0, zero errors.**
+- `npm run build` (default health) → **57 pages** (= baseline 56 + new `/portal`);
+  `ƒ Proxy (Middleware)` present.
+
+### Checkpoint commit
+- `d06d5ec` — *Phase B: health.vivahale.com rebrand + vivahale.com brand portal*.
+  Nothing pushed.

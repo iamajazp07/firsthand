@@ -56,6 +56,18 @@ const SEEDS: Record<string, VerticalSeeds> = {
     products: productsSeed as Product[],
     hubs: hubsSeed as Hub[],
   },
+  // The apex portal is a brand hub with no content of its own. An EMPTY seed set
+  // (rather than none) means a portal-mode build's data-layer calls return []
+  // instead of throwing — so /feed.xml, /sitemap.xml, and the health `/` route
+  // all render harmlessly empty when NEXT_PUBLIC_VERTICAL=portal.
+  portal: {
+    categories: [],
+    authors: [],
+    reviewers: [],
+    articles: [],
+    products: [],
+    hubs: [],
+  },
 };
 
 /**

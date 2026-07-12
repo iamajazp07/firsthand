@@ -4,22 +4,24 @@
  * unchanged so every existing importer (layout, sitemap, robots, feed.xml,
  * api/og, Header, Footer, Breadcrumbs, page metadata) keeps working untouched.
  *
- * For the Health vertical every value below is identical to the previous
- * literals (the health config was authored to carry the exact live values).
+ * For the Health vertical the branding values below come from its config.
  *
- * PARITY EXCEPTION — SITE_URL: this stays env-driven with the SAME fallback as
- * before (`NEXT_PUBLIC_SITE_URL` || `https://vivahale.com`, trailing slash
- * stripped). It is deliberately NOT tied to the vertical `host`; the health
- * subdomain rebrand is a later phase. Callers can safely concatenate
- * `${SITE_URL}/path`.
+ * SITE_URL (Phase B) is now VERTICAL-AWARE: `NEXT_PUBLIC_SITE_URL` if set,
+ * otherwise `https://${activeVertical.host}` (health → https://health.vivahale.com,
+ * portal → https://vivahale.com). The exported name/shape and trailing-slash
+ * stripping are unchanged, so callers can still concatenate `${SITE_URL}/path`.
  */
 import { getActiveVertical } from "@/lib/verticals";
 
 const vertical = getActiveVertical();
 
 export const SITE_NAME = vertical.name;
+/** Short tagline for the active vertical (used in title defaults). */
+export const SITE_TAGLINE = vertical.tagline;
+/** True in a portal-mode build (apex vivahale.com brand hub). */
+export const IS_PORTAL = vertical.key === "portal";
 export const SITE_URL = (
-  process.env.NEXT_PUBLIC_SITE_URL || "https://vivahale.com"
+  process.env.NEXT_PUBLIC_SITE_URL || `https://${vertical.host}`
 ).replace(/\/+$/, "");
 export const SITE_DESCRIPTION = vertical.description;
 

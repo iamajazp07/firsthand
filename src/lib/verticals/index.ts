@@ -1,18 +1,38 @@
 import type { Vertical } from "./types";
 import { health } from "./health";
+import { portal } from "./portal";
 
 export type { Vertical, RatingCriterion, VerticalExtras } from "./types";
 
 /**
- * Registry of known verticals. Add new verticals (money, tech, …) here as their
- * configs are authored. `portal` (the apex vivahale.com hub) has no config yet.
+ * Registry of known verticals. Add new content verticals (money, tech, …) here
+ * as their configs are authored — the vivahale.com portal card grid is driven
+ * off this map, so a new entry automatically gets a portal card.
+ *
+ * `portal` is the apex vivahale.com brand hub. It is a real registry entry (so
+ * `getActiveVertical()` works under NEXT_PUBLIC_VERTICAL=portal) but NOT a
+ * content vertical — `isContentVertical()` filters it out.
  *
  * Keep this module free of Next.js imports so it stays usable from plain Node
  * scripts and the request proxy.
  */
 export const VERTICALS: Record<string, Vertical> = {
   health,
+  portal,
 };
+
+/** The portal is a brand hub, not a content vertical. */
+export function isContentVertical(v: Vertical): boolean {
+  return v.key !== "portal";
+}
+
+/**
+ * Live content verticals in registry order (portal excluded). Drives the
+ * portal's card grid — add a config entry above and its card appears here.
+ */
+export function contentVerticals(): Vertical[] {
+  return Object.values(VERTICALS).filter(isContentVertical);
+}
 
 /** Default vertical when NEXT_PUBLIC_VERTICAL is unset or the host is unknown. */
 export const DEFAULT_VERTICAL = "health";
