@@ -424,4 +424,4 @@ No blogs or aggregators used for product facts; no fabricated experts,
 benchmarks, statistics, test results, or testimonials.
 
 ### Checkpoint commit
-- `PHASE_D_HASH` — *Phase D: Tech vertical (tech.vivahale.com)*. Nothing pushed.
+- `d7038e8` — *Phase D: Tech vertical (tech.vivahale.com)*. Nothing pushed.
