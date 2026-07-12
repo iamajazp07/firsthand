@@ -26,6 +26,7 @@ import {
 } from "@/lib/db";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 import { ogImageUrl } from "@/lib/social";
+import { getActiveVertical } from "@/lib/verticals";
 
 /** Prerender every hub page at build time from the data layer. */
 export async function generateStaticParams() {
@@ -76,10 +77,11 @@ export default async function HubPage({
   const hub = await getHubBySlug(slug);
   if (!hub) notFound();
 
+  const vertical = getActiveVertical();
   const [category, author, reviewer, maybeProducts] = await Promise.all([
     getCategoryBySlug(hub.category_slug),
-    getAuthorBySlug("health-research-analyst"),
-    getReviewerBySlug("editorial-team"),
+    getAuthorBySlug(vertical.defaultAuthorSlug ?? "health-research-analyst"),
+    getReviewerBySlug(vertical.defaultReviewerSlug ?? "editorial-team"),
     // Preserves the hub's editorial rank order.
     Promise.all(hub.product_slugs.map((s) => getProductBySlug(s))),
   ]);
@@ -158,21 +160,43 @@ export default async function HubPage({
         {hub.intro_mdx_or_text}
       </p>
 
-      {/* Methodology summary */}
-      <p className="mt-4 text-sm leading-relaxed text-brand-ink/70">
-        <strong className="font-semibold text-brand-navy">
-          How we scored:
-        </strong>{" "}
-        every product below was rated 0–10 on five weighted criteria — Safety
-        (30%), Evidence (30%), Cost &amp; Value (20%), Transparency (10%), and
-        Support (10%). Commissions never affect scores or rank order.{" "}
-        <Link
-          href="/methodology"
-          className="font-semibold text-brand-blue hover:underline"
-        >
-          Read our full methodology.
-        </Link>
-      </p>
+      {/* Methodology summary. Health renders its original copy verbatim; Money
+          states its own weighted criteria (Fees/Value/Transparency/Security/
+          Support) and advertiser-compensation language, so the summary is
+          factually correct in each vertical. */}
+      {vertical.key === "money" ? (
+        <p className="mt-4 text-sm leading-relaxed text-brand-ink/70">
+          <strong className="font-semibold text-brand-navy">
+            How we scored:
+          </strong>{" "}
+          every product below was rated 0–10 on five weighted criteria — Fees
+          (25%), Value &amp; Returns (25%), Transparency (20%), Security &amp;
+          Trust (15%), and Support (15%). Advertiser compensation never affects
+          scores or rank order; rates and fees are cited to each provider&apos;s
+          official disclosures with an as-of date.{" "}
+          <Link
+            href="/methodology"
+            className="font-semibold text-brand-blue hover:underline"
+          >
+            Read our full methodology.
+          </Link>
+        </p>
+      ) : (
+        <p className="mt-4 text-sm leading-relaxed text-brand-ink/70">
+          <strong className="font-semibold text-brand-navy">
+            How we scored:
+          </strong>{" "}
+          every product below was rated 0–10 on five weighted criteria — Safety
+          (30%), Evidence (30%), Cost &amp; Value (20%), Transparency (10%), and
+          Support (10%). Commissions never affect scores or rank order.{" "}
+          <Link
+            href="/methodology"
+            className="font-semibold text-brand-blue hover:underline"
+          >
+            Read our full methodology.
+          </Link>
+        </p>
+      )}
 
       {/* Ranked comparison table */}
       <h2 className="mt-10 font-serif text-2xl font-bold text-brand-navy">

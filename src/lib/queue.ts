@@ -230,6 +230,10 @@ export async function listQueueItems(
     let query = getSupabase()
       .from("queue_items")
       .select("*")
+      // Partition by the active vertical so a money deployment never reads
+      // another vertical's queued/published items (migration 0004 defaults the
+      // column to 'health', so legacy rows read as health).
+      .eq("vertical", ACTIVE_VERTICAL)
       .order("updated_at", { ascending: false });
     if (statusFilter) query = query.eq("status", statusFilter);
     const { data, error } = await query;
@@ -237,9 +241,15 @@ export async function listQueueItems(
     return (data ?? []).map((r) => fromRow(r as Record<string, unknown>));
   }
   const items = await readLocalQueue();
-  const filtered = statusFilter
-    ? items.filter((i) => i.status === statusFilter)
-    : items;
+  const filtered = items.filter(
+    // The local queue store is a single shared file; scope reads to the active
+    // vertical (legacy rows normalize to "health") so money mode never surfaces
+    // health articles in its sitemap/feed/routes, and vice versa. In health mode
+    // legacy rows read as "health", so output is unchanged.
+    (i) =>
+      i.vertical === ACTIVE_VERTICAL &&
+      (statusFilter ? i.status === statusFilter : true),
+  );
   return filtered.sort((a, b) => b.updated_at.localeCompare(a.updated_at));
 }
 
@@ -703,13 +713,22 @@ export async function getPublishedArticleBySlug(
       .select("*")
       .eq("slug", slug)
       .eq("status", "published")
+      // Scope to the active vertical so a money deployment can't render another
+      // vertical's article at /articles/[slug] (legacy rows default to health).
+      .eq("vertical", ACTIVE_VERTICAL)
       .in("type", PUBLISHED_ARTICLE_TYPES)
       .maybeSingle();
     if (error) throw error;
     return data ? fromRow(data as Record<string, unknown>) : null;
   }
   const items = await readLocalQueue();
-  const match = items.find((i) => i.slug === slug && isPublishedArticle(i));
+  // Same vertical scoping in local mode (legacy rows normalize to "health").
+  const match = items.find(
+    (i) =>
+      i.slug === slug &&
+      isPublishedArticle(i) &&
+      i.vertical === ACTIVE_VERTICAL,
+  );
   return match ?? null;
 }
 

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { NAV_CATEGORIES, IS_PORTAL, SITE_NAME } from "@/lib/site";
-import { VERTICALS } from "@/lib/verticals";
+import { VERTICALS, getActiveVertical } from "@/lib/verticals";
 
 const COMPANY_LINKS = [
   { name: "About", href: "/about" },
@@ -98,8 +98,10 @@ export default function Footer() {
               <>© 2026 {SITE_NAME}. Independent, evidence-first reviews and
               rankings.</>
             ) : (
-              <>© 2026 Vivahale. Vivahale content is for informational
-              purposes only and is not medical advice.</>
+              // Content-vertical footer disclaimer from the active vertical
+              // config: health → "…not medical advice."; money → "…not
+              // financial … advice." Health output is byte-identical.
+              <>© 2026 Vivahale. {getActiveVertical().footerDisclaimer}</>
             )}
           </p>
         </div>

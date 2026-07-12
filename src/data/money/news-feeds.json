@@ -1,0 +1,20 @@
+[
+  {
+    "id": "federal-reserve-press",
+    "name": "Federal Reserve Press Releases",
+    "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+    "category_slug": "money-news",
+    "format": "rss",
+    "enabled": true,
+    "note": "Official Federal Reserve Board press releases (FOMC statements, monetary-policy actions). Primary source for rate-related money coverage."
+  },
+  {
+    "id": "cfpb-newsroom",
+    "name": "CFPB Newsroom",
+    "url": "https://www.consumerfinance.gov/about-us/newsroom/feed/",
+    "category_slug": "money-news",
+    "format": "rss",
+    "enabled": true,
+    "note": "Consumer Financial Protection Bureau newsroom feed — enforcement actions, rules, and consumer advisories. Primary regulatory source."
+  }
+]

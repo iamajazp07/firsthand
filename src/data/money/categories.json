@@ -1,0 +1,51 @@
+[
+  {
+    "id": "cat-high-yield-savings",
+    "slug": "high-yield-savings",
+    "name": "High-Yield Savings",
+    "description": "Independent, evidence-first rankings of high-yield savings accounts — FDIC-insured, fee structures, and variable APYs cited from each bank's official disclosures.",
+    "sort_order": 1
+  },
+  {
+    "id": "cat-budgeting-apps",
+    "slug": "budgeting-apps",
+    "name": "Budgeting Apps",
+    "description": "Neutral reviews of budgeting and money-tracking apps, scored on price, features, transparency, and how they handle your financial data.",
+    "sort_order": 2
+  },
+  {
+    "id": "cat-credit-cards",
+    "slug": "credit-cards",
+    "name": "Credit Cards",
+    "description": "Analysis of credit cards on fees, APRs, and rewards value — with the fine print read from each issuer's official terms.",
+    "sort_order": 3
+  },
+  {
+    "id": "cat-brokerages-investing",
+    "slug": "brokerages-investing",
+    "name": "Brokerages & Investing",
+    "description": "Comparisons of brokerages and investing platforms on fees, account minimums, and the protections that actually apply to your money.",
+    "sort_order": 4
+  },
+  {
+    "id": "cat-personal-loans",
+    "slug": "personal-loans",
+    "name": "Personal Loans",
+    "description": "Clear-eyed coverage of personal-loan lenders on APR ranges, origination fees, and repayment terms drawn from official disclosures.",
+    "sort_order": 5
+  },
+  {
+    "id": "cat-tax-software",
+    "slug": "tax-software",
+    "name": "Tax Software",
+    "description": "Reviews of tax-filing software on price, supported forms, and free-filing eligibility from each provider's official pricing pages.",
+    "sort_order": 6
+  },
+  {
+    "id": "cat-money-news",
+    "slug": "money-news",
+    "name": "Money News",
+    "description": "Original analysis of primary-source financial announcements — from the Federal Reserve, CFPB, FDIC, SEC, and IRS. We read the source, not the headlines.",
+    "sort_order": 7
+  }
+]

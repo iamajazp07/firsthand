@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 
 import Breadcrumbs from "@/components/review/Breadcrumbs";
 import SleepQuiz, { type QuizProduct } from "@/components/quiz/SleepQuiz";
 import { getProductsByCategory } from "@/lib/db";
+import { activeVerticalHasTool } from "@/lib/verticals";
 
 export const metadata: Metadata = {
   title: "Find Your Sleep Supplement — 60-Second Quiz",
@@ -12,6 +14,14 @@ export const metadata: Metadata = {
 };
 
 export default async function SleepQuizPage() {
+  // Vertical-specific tool gating: the sleep quiz is a Health-only tool
+  // (declared in the health config's `extras.tools`). In any vertical that does
+  // not expose /quiz/sleep — e.g. Money — this route returns a real 404 instead
+  // of rendering an empty, broken quiz. Health is unaffected.
+  if (!activeVerticalHasTool("/quiz/sleep")) {
+    notFound();
+  }
+
   const products = await getProductsByCategory("sleep");
 
   // Pass only the minimal, serializable fields the client quiz needs. Names

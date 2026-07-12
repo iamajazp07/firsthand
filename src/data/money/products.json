@@ -1,0 +1,799 @@
+[
+  {
+    "id": "prod-ally-bank-online-savings",
+    "slug": "ally-bank-online-savings",
+    "name": "Ally Bank Online Savings Account",
+    "category_slug": "high-yield-savings",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 9.4,
+    "ratings": {
+      "fees": 10,
+      "value_returns": 9,
+      "transparency": 9,
+      "security_trust": 10,
+      "support": 9
+    },
+    "price_summary": "No monthly maintenance fee; $0 minimum to open or earn APY (as of 2026-07-12)",
+    "pros": [
+      "No monthly maintenance fee and no minimum balance to open or earn interest, per Ally's official disclosures (as of 2026-07-12)",
+      "Savings 'buckets' and optional round-ups help organize goals within one account",
+      "Highly rated mobile app and 24/7 US-based phone support",
+      "FDIC-insured (FDIC Cert #57803), protecting deposits up to $250,000 per depositor, per ownership category"
+    ],
+    "cons": [
+      "APY is variable and set by Ally; it can drop after you open if benchmark rates fall",
+      "No physical branches, so cash deposits are not directly supported",
+      "No in-house physical branch network for in-person help"
+    ],
+    "best_for": "Savers who want a polished app, goal tools, and responsive support without any branch visits",
+    "summary": "Ally Bank Online Savings is our overall pick: no monthly fee, no minimum, strong digital tools, and 24/7 support, all at an FDIC-insured bank (as of 2026-07-12). The APY is variable, so confirm the current rate on Ally's official page.",
+    "verdict_summary": "Ally Bank Online Savings is our overall pick for savers who want a fully online account with minimal friction. Ally's official disclosures confirm no monthly maintenance fee and no minimum balance to open or earn interest (as of 2026-07-12). The APY is variable and set by Ally; it can change before or after you open, so verify the current figure on Ally's official rate page rather than relying on any quoted number. Ally is FDIC-insured (FDIC Cert #57803), so deposits are protected up to $250,000 per depositor, per ownership category. Strengths include savings 'buckets' for goal tracking, optional round-ups, a highly rated mobile app, and 24/7 US-based phone support. The main trade-offs: there are no physical branches, and like every HYSA the rate is not guaranteed and can fall if benchmark rates decline. If you value a strong app and responsive support over in-person banking, Ally is a strong, low-cost home for savings.",
+    "pricing_table": [
+      {
+        "plan": "APY",
+        "price": "Variable — see official rate page (as of 2026-07-12)",
+        "notes": "Set by Ally; can change before or after opening. Confirm current APY at ally.com/bank/savings-account-rates."
+      },
+      {
+        "plan": "Monthly fee",
+        "price": "$0",
+        "notes": "No monthly maintenance fee per Ally's official disclosures (as of 2026-07-12)."
+      },
+      {
+        "plan": "Minimum to open",
+        "price": "$0",
+        "notes": "No minimum balance required to open or earn APY (as of 2026-07-12)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is my money safe at Ally Bank?",
+        "answer": "Yes. Ally Bank is FDIC-insured (FDIC Cert #57803, verifiable on FDIC BankFind). Standard coverage is $250,000 per depositor, per ownership category."
+      },
+      {
+        "question": "Does Ally charge a monthly fee or require a minimum?",
+        "answer": "No. Ally's official disclosures state there is no monthly maintenance fee and no minimum balance to open the Online Savings Account or to earn the APY (as of 2026-07-12)."
+      },
+      {
+        "question": "Is the Ally savings rate fixed?",
+        "answer": "No. The APY is variable and can change at any time before or after you open. Check the current rate on Ally's official rate page before opening."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "No monthly maintenance fee and no minimum balance required to open or earn APY; the rate is variable (as of 2026-07-12).",
+        "source_name": "Ally Bank — Savings Account rates (official)",
+        "source_url": "https://www.ally.com/bank/savings-account-rates/"
+      },
+      {
+        "claim": "Ally Bank Online Savings Account overview, including no monthly fee and free ATM access via Allpoint/MoneyPass (as of 2026-07-12).",
+        "source_name": "Ally Bank — Online Savings Account (official)",
+        "source_url": "https://www.ally.com/bank/online-savings-account/"
+      },
+      {
+        "claim": "Ally Bank is an active FDIC-insured institution, FDIC Cert #57803 (Sandy, UT).",
+        "source_name": "FDIC BankFind — Ally Bank (Cert #57803)",
+        "source_url": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/57803"
+      }
+    ],
+    "last_updated": "2026-07-12"
+  },
+  {
+    "id": "prod-marcus-goldman-sachs-savings",
+    "slug": "marcus-goldman-sachs-savings",
+    "name": "Marcus by Goldman Sachs Online Savings Account",
+    "category_slug": "high-yield-savings",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 9.1,
+    "ratings": {
+      "fees": 10,
+      "value_returns": 9,
+      "transparency": 9,
+      "security_trust": 9,
+      "support": 8
+    },
+    "price_summary": "No monthly fee; $0 minimum to open (as of 2026-07-12)",
+    "pros": [
+      "No monthly fees and no minimum deposit to open, per Marcus's official page (as of 2026-07-12)",
+      "Consistently competitive variable APY from a large, established bank",
+      "Same-day transfers of $100,000 or less to or from other banks, per Marcus (as of 2026-07-12)",
+      "Backed by Goldman Sachs Bank USA, which is FDIC-insured (FDIC Cert #33124)"
+    ],
+    "cons": [
+      "APY is variable and can be lowered at any time after you open",
+      "No ATM card and no linked checking account, so it is savings-only",
+      "No physical branches for in-person service"
+    ],
+    "best_for": "Savers who want a simple, no-fee, savings-only account from a large institution",
+    "summary": "Marcus by Goldman Sachs offers a no-fee, no-minimum online savings account with same-day transfers up to $100,000 and a competitive variable APY, held at FDIC-insured Goldman Sachs Bank USA (as of 2026-07-12). It is savings-only, with no ATM or checking.",
+    "verdict_summary": "Marcus by Goldman Sachs Online Savings is a clean, no-frills choice for savers who simply want a competitive place to park cash. Marcus's official page states there are no monthly fees and no minimum deposit to open, and that same-day transfers of $100,000 or less are available to and from linked external banks (as of 2026-07-12). The account is offered by Goldman Sachs Bank USA, an FDIC-insured institution (FDIC Cert #33124), so balances are covered up to $250,000 per depositor, per ownership category. The APY is competitive but variable, so Goldman can raise or lower it at any time; confirm the current figure on the official Marcus rate page before opening. The main limitations are structural: there is no ATM card, no linked checking account, and no branches, so this is a savings-only product best paired with a checking account elsewhere. For a straightforward, low-cost savings home from a major bank, Marcus is a solid runner-up.",
+    "pricing_table": [
+      {
+        "plan": "APY",
+        "price": "Variable — see official rate page (as of 2026-07-12)",
+        "notes": "Set by Goldman Sachs Bank USA; can change at any time. Confirm at marcus.com/us/en/savings/high-yield-savings."
+      },
+      {
+        "plan": "Monthly fee",
+        "price": "$0",
+        "notes": "No monthly fees per Marcus's official page (as of 2026-07-12)."
+      },
+      {
+        "plan": "Minimum to open",
+        "price": "$0",
+        "notes": "No minimum deposit to open (as of 2026-07-12)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Which bank actually holds my Marcus deposits?",
+        "answer": "Marcus accounts are offered by Goldman Sachs Bank USA, an FDIC-insured institution (FDIC Cert #33124), with coverage up to $250,000 per depositor, per ownership category."
+      },
+      {
+        "question": "Can I get an ATM card with Marcus savings?",
+        "answer": "No. The Marcus Online Savings Account is savings-only, with no ATM card and no linked checking account (as of 2026-07-12)."
+      },
+      {
+        "question": "How fast are transfers?",
+        "answer": "Marcus states that same-day transfers of $100,000 or less are available to and from other banks (as of 2026-07-12). Verify current terms on the official Marcus page."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "No monthly fees, no minimum deposit, and same-day transfers of $100,000 or less; variable APY (as of 2026-07-12).",
+        "source_name": "Marcus by Goldman Sachs — High Yield Online Savings (official)",
+        "source_url": "https://www.marcus.com/us/en/savings/high-yield-savings"
+      },
+      {
+        "claim": "Goldman Sachs Bank USA is an active FDIC-insured institution, FDIC Cert #33124 (New York, NY).",
+        "source_name": "FDIC BankFind — Goldman Sachs Bank USA (Cert #33124)",
+        "source_url": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/33124"
+      }
+    ],
+    "last_updated": "2026-07-12"
+  },
+  {
+    "id": "prod-capital-one-360-performance-savings",
+    "slug": "capital-one-360-performance-savings",
+    "name": "Capital One 360 Performance Savings Account",
+    "category_slug": "high-yield-savings",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 8.2,
+    "ratings": {
+      "fees": 9,
+      "value_returns": 8,
+      "transparency": 7,
+      "security_trust": 9,
+      "support": 8
+    },
+    "price_summary": "No monthly service charge; no minimum balance to open or maintain (as of 2026-07-12)",
+    "pros": [
+      "No monthly cycle service charge and no minimum balance to open or maintain, per Capital One's official disclosures (as of 2026-07-12)",
+      "Access to physical branches and Capital One Cafes for in-person help, unusual among online-first HYSAs",
+      "Same competitive rate paid on the entire balance (no tiers), per Capital One (as of 2026-07-12)",
+      "Offered by Capital One, N.A., which is FDIC-insured (FDIC Cert #4297)"
+    ],
+    "cons": [
+      "APY is variable, effective 7/10/2026 per Capital One, and can change at any time",
+      "Capital One has historically kept a separate, lower-rate legacy '360 Savings' product, so confirm you are opening 360 Performance Savings",
+      "Rate is not shown reliably in the page's static content, so verify it directly before opening"
+    ],
+    "best_for": "Savers who want a competitive online rate plus optional branch and Cafe access",
+    "summary": "Capital One 360 Performance Savings pairs a no-fee, no-minimum online account with rare physical branch and Cafe access, at FDIC-insured Capital One, N.A. (as of 2026-07-12). The APY is variable; watch that you open 360 Performance Savings, not the older legacy 360 Savings product.",
+    "verdict_summary": "Capital One 360 Performance Savings stands out for combining an online high-yield rate with something most competitors lack: physical branches and Capital One Cafes for in-person help. Capital One's official disclosures state there is no monthly cycle service charge and no minimum balance required to open or maintain the account, with the same rate paid on the entire balance (as of 2026-07-12). It is offered by Capital One, N.A., an FDIC-insured institution (FDIC Cert #4297), covering deposits up to $250,000 per depositor, per ownership category. Two cautions keep it from ranking higher. First, the advertised APY is variable and effective 7/10/2026 per Capital One, so confirm the live figure before opening. Second, Capital One has historically maintained a separate, lower-yielding legacy '360 Savings' account, so make sure you are opening 360 Performance Savings. For savers who value branch access alongside a strong rate, it is a well-rounded pick.",
+    "pricing_table": [
+      {
+        "plan": "APY",
+        "price": "Variable — see official rate page (as of 2026-07-12)",
+        "notes": "Capital One states advertised rates are variable and effective 7/10/2026. Confirm at capitalone.com/bank/savings-accounts/online-performance-savings-account."
+      },
+      {
+        "plan": "Monthly fee",
+        "price": "$0",
+        "notes": "No monthly cycle service charge per Capital One's official disclosures (as of 2026-07-12)."
+      },
+      {
+        "plan": "Minimum to open",
+        "price": "$0",
+        "notes": "No minimum balance required to open or maintain the account (as of 2026-07-12)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is Capital One 360 Performance Savings FDIC-insured?",
+        "answer": "Yes. It is offered by Capital One, N.A., an FDIC-insured institution (FDIC Cert #4297), with coverage up to $250,000 per depositor, per ownership category."
+      },
+      {
+        "question": "Is this the same as Capital One 360 Savings?",
+        "answer": "No. Capital One has historically kept a separate, lower-rate legacy '360 Savings' product. Make sure you are opening '360 Performance Savings,' which is the current high-yield account (as of 2026-07-12)."
+      },
+      {
+        "question": "Are there monthly fees or minimums?",
+        "answer": "No. Capital One's disclosures state there is no monthly cycle service charge and no minimum balance to open or maintain the account (as of 2026-07-12)."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "No monthly cycle service charge, no minimum balance to open or maintain, and advertised variable rates effective 7/10/2026 (as of 2026-07-12).",
+        "source_name": "Capital One — 360 Performance Savings (official)",
+        "source_url": "https://www.capitalone.com/bank/savings-accounts/online-performance-savings-account/"
+      },
+      {
+        "claim": "Products and services offered by Capital One, N.A., Member FDIC; account disclosures.",
+        "source_name": "Capital One — 360 Performance Savings Disclosures (official)",
+        "source_url": "https://www.capitalone.com/bank/disclosures/savings-accounts/online-performance-savings-account/"
+      },
+      {
+        "claim": "Capital One, National Association is an active FDIC-insured institution, FDIC Cert #4297 (McLean, VA).",
+        "source_name": "FDIC BankFind — Capital One, N.A. (Cert #4297)",
+        "source_url": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/4297"
+      }
+    ],
+    "last_updated": "2026-07-12"
+  },
+  {
+    "id": "prod-american-express-savings",
+    "slug": "american-express-savings",
+    "name": "American Express High Yield Savings Account",
+    "category_slug": "high-yield-savings",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 8.0,
+    "ratings": {
+      "fees": 9,
+      "value_returns": 7,
+      "transparency": 8,
+      "security_trust": 9,
+      "support": 7
+    },
+    "price_summary": "No monthly fee; $0 minimum to open or earn APY (as of 2026-07-12)",
+    "pros": [
+      "No fee to open and no minimum balance to open, avoid a fee, or earn the APY, per Amex's official page (as of 2026-07-12)",
+      "Interest compounded daily and posted monthly, per Amex (as of 2026-07-12)",
+      "Backed by a large, well-known institution, American Express National Bank",
+      "FDIC-insured (FDIC Cert #27471), protecting deposits up to $250,000 per depositor, per ownership category"
+    ],
+    "cons": [
+      "APY is variable and can change at any time without notice before or after opening, per Amex",
+      "Savings-only: no ATM card, no debit card, and no linked checking account",
+      "External transfers can be slower than at some competitors, and there are no branches"
+    ],
+    "best_for": "Existing American Express customers who want a simple, no-fee savings account",
+    "summary": "American Express High Yield Savings is a no-fee, no-minimum savings-only account from American Express National Bank, an FDIC-insured institution (as of 2026-07-12). Interest compounds daily; the APY is variable and there is no ATM or checking access.",
+    "verdict_summary": "American Express High Yield Savings is a straightforward, no-fee savings account that suits people who already trust the Amex brand. The official page confirms no fee to open and no minimum balance to open the account, avoid a fee, or earn the disclosed APY, with interest compounded daily and posted monthly (as of 2026-07-12). Deposits are held at American Express National Bank, an FDIC-insured institution (FDIC Cert #27471), covering up to $250,000 per depositor, per ownership category. Amex is explicit that the interest rate and APY are variable and subject to change at any time without notice before and after the account is opened, so confirm the current rate on the official page before you commit. The trade-offs are its narrow feature set: it is savings-only with no ATM or debit card, no linked checking, no branches, and external transfers can feel slower than at some rivals. As a simple, safe parking spot it delivers; as a hub for daily banking it does not.",
+    "pricing_table": [
+      {
+        "plan": "APY",
+        "price": "Variable — see official rate page (as of 2026-07-12)",
+        "notes": "Amex states rate/APY are variable and subject to change without notice. The page notes the APY is accurate as of 7/10/2026; confirm the live figure before opening."
+      },
+      {
+        "plan": "Monthly fee",
+        "price": "$0",
+        "notes": "No fee to open and no monthly fee per Amex's official page (as of 2026-07-12)."
+      },
+      {
+        "plan": "Minimum to open",
+        "price": "$0",
+        "notes": "No minimum balance to open, avoid a fee, or earn the APY (as of 2026-07-12)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Who holds American Express savings deposits?",
+        "answer": "Deposits are held by American Express National Bank, Member FDIC (FDIC Cert #27471), with coverage up to $250,000 per depositor, per ownership category."
+      },
+      {
+        "question": "Can I withdraw cash at an ATM?",
+        "answer": "No. The American Express High Yield Savings Account is savings-only, with no ATM or debit card. You move money by transferring to a linked bank account (as of 2026-07-12)."
+      },
+      {
+        "question": "Is the rate guaranteed?",
+        "answer": "No. Amex states the interest rate and APY are variable and subject to change at any time without notice before and after the account is opened."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "No fee to open, no minimum deposit, interest compounded daily and posted monthly, and a variable APY subject to change without notice; APY accurate as of 7/10/2026 (as of 2026-07-12).",
+        "source_name": "American Express — High Yield Savings Account (official)",
+        "source_url": "https://www.americanexpress.com/en-us/banking/online-savings/high-yield-savings-account/"
+      },
+      {
+        "claim": "Accounts offered by American Express National Bank, Member FDIC.",
+        "source_name": "American Express — Online Savings (official)",
+        "source_url": "https://www.americanexpress.com/en-us/banking/online-savings/account/"
+      },
+      {
+        "claim": "American Express National Bank is an active FDIC-insured institution, FDIC Cert #27471 (Sandy, UT).",
+        "source_name": "FDIC BankFind — American Express National Bank (Cert #27471)",
+        "source_url": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/27471"
+      }
+    ],
+    "last_updated": "2026-07-12"
+  },
+  {
+    "id": "prod-discover-online-savings",
+    "slug": "discover-online-savings",
+    "name": "Discover Online Savings Account",
+    "category_slug": "high-yield-savings",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.7,
+    "ratings": {
+      "fees": 9,
+      "value_returns": 8,
+      "transparency": 6,
+      "security_trust": 8,
+      "support": 7
+    },
+    "price_summary": "No monthly maintenance fee; $0 minimum to open (as of 2026-07-12) — now part of Capital One, N.A.",
+    "pros": [
+      "Long-standing reputation for no monthly maintenance fee and no minimum balance on the Online Savings Account (as of 2026-07-12)",
+      "No fees on many common services historically (official checks, stop payments, insufficient funds)",
+      "Deposits are FDIC-insured through Capital One, N.A. (FDIC Cert #4297) following the merger",
+      "Well-regarded US-based customer support history"
+    ],
+    "cons": [
+      "Discover merged into Capital One on May 18, 2025; the Discover Bank charter (FDIC Cert #5649) is now inactive, so the product is in a brand and platform transition",
+      "APY is variable and can change at any time; the current rate is not clearly shown in the page's static content",
+      "New savings customers may be steered toward Capital One's 360 Performance Savings, adding uncertainty about which product you are opening"
+    ],
+    "best_for": "Existing Discover customers tracking the transition into Capital One's banking platform",
+    "summary": "Discover Online Savings has a strong no-fee, no-minimum history, but Discover merged into Capital One on May 18, 2025, and the Discover Bank charter is now inactive. Deposits are FDIC-insured via Capital One, N.A.; the product is in transition, so confirm current terms directly.",
+    "verdict_summary": "Discover Online Savings earned a strong reputation for no monthly maintenance fee, no minimum balance, and few nuisance fees, and historically paid a competitive variable APY (as of 2026-07-12). We rank it last, however, because of a material change savers must understand: Discover merged into Capital One on May 18, 2025, and the discover.com online-banking page now states the two are one company under Capital One, N.A. FDIC records confirm the Discover Bank charter (FDIC Cert #5649) is inactive; Discover-branded deposits are now FDIC-insured through Capital One, N.A. (FDIC Cert #4297), still up to $250,000 per depositor, per ownership category. The APY remains variable and is not shown reliably in the page's static content, and new savers may be routed toward Capital One's 360 Performance Savings. Nothing here suggests your money is at risk, but the product is in a brand and platform transition, so confirm exactly which account you are opening and its current terms before proceeding.",
+    "pricing_table": [
+      {
+        "plan": "APY",
+        "price": "Variable — see official rate page (as of 2026-07-12)",
+        "notes": "Rate is variable and not reliably shown in static page content. Confirm current terms via discover.com/online-banking following the Capital One merger."
+      },
+      {
+        "plan": "Monthly fee",
+        "price": "$0",
+        "notes": "No monthly maintenance fee on the Discover Online Savings Account historically (as of 2026-07-12); confirm post-merger terms."
+      },
+      {
+        "plan": "Minimum to open",
+        "price": "$0",
+        "notes": "No minimum balance to open historically (as of 2026-07-12); confirm current terms after the Capital One merger."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is my Discover savings account still FDIC-insured?",
+        "answer": "Yes. Following the May 18, 2025 merger, Discover-branded deposits are FDIC-insured through Capital One, N.A. (FDIC Cert #4297). FDIC records show the former Discover Bank charter (Cert #5649) is now inactive."
+      },
+      {
+        "question": "Did Discover Bank go away?",
+        "answer": "The separate Discover Bank charter merged into Capital One, N.A. on May 18, 2025, and is now inactive per FDIC BankFind. The Discover brand and website continue, but the bank behind it is Capital One, N.A."
+      },
+      {
+        "question": "Should I open Discover savings or Capital One 360 Performance Savings?",
+        "answer": "Because the accounts are converging under Capital One, confirm on the official site which product you are opening and its current variable APY before applying (as of 2026-07-12)."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "On May 18, 2025, Discover merged into Capital One; the site states they are now one company under Capital One, N.A. (as of 2026-07-12).",
+        "source_name": "Discover — Online Banking (official)",
+        "source_url": "https://www.discover.com/online-banking/"
+      },
+      {
+        "claim": "Discover Bank's FDIC charter (Cert #5649, Greenwood, DE) is inactive, consistent with the merger into Capital One, N.A.",
+        "source_name": "FDIC BankFind — Discover Bank (Cert #5649)",
+        "source_url": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/5649"
+      },
+      {
+        "claim": "Discover-branded deposits are FDIC-insured through Capital One, N.A., an active FDIC-insured institution (FDIC Cert #4297).",
+        "source_name": "FDIC BankFind — Capital One, N.A. (Cert #4297)",
+        "source_url": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/4297"
+      }
+    ],
+    "last_updated": "2026-07-12"
+  },
+  {
+    "id": "prod-ynab",
+    "slug": "ynab",
+    "name": "YNAB (You Need A Budget)",
+    "category_slug": "budgeting-apps",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 7.8,
+    "ratings": {
+      "fees": 5,
+      "value_returns": 9,
+      "transparency": 9,
+      "security_trust": 8,
+      "support": 9
+    },
+    "price_summary": "$14.99/mo or $109/yr; 34-day free trial, no credit card required (as of 2026-07-12)",
+    "pros": [
+      "Proven zero-based method (give every dollar a job) that drives real behavior change",
+      "Excellent education: workshops, guides, and responsive support",
+      "One subscription can be shared with up to six people at no extra cost",
+      "Transparent, single-price plan with a genuine 34-day free trial"
+    ],
+    "cons": [
+      "Steep learning curve; the method requires an upfront time investment and ongoing engagement",
+      "One of the most expensive options at $109/year, and there is no free tier",
+      "Subscription-only; price has risen over past years, so cost can grow over time"
+    ],
+    "best_for": "People who want to actively change spending habits with a disciplined, hands-on budgeting method.",
+    "summary": "YNAB is a subscription budgeting app built around a zero-based, proactive method that assigns every dollar a job. It excels at behavior change and education but carries a steep learning curve and a premium price with no free tier.",
+    "verdict_summary": "YNAB earns our top spot for people who genuinely want to change how they spend rather than just track it. Its zero-based method, forcing you to assign every dollar to a category, is more demanding than automatic dashboards but produces the strongest habit change, backed by unusually good education and support. Pricing is transparent at $14.99/month or $109/year with a 34-day free trial and no credit card required, and one subscription covers up to six people (as of 2026-07-12). The trade-offs are real: the learning curve is steep, ongoing engagement is required, and at $109/year with no free tier it is among the priciest options here. Security is solid, with encryption in transit and at rest and OAuth connections that avoid storing bank credentials, per YNAB's official security page. If you value automation over method, Monarch or Copilot may fit better, but for disciplined budgeting YNAB leads.",
+    "pricing_table": [
+      {
+        "plan": "Monthly",
+        "price": "$14.99/mo (as of 2026-07-12)",
+        "notes": "Billed monthly; plus tax where applicable."
+      },
+      {
+        "plan": "Annual",
+        "price": "$109/yr (as of 2026-07-12)",
+        "notes": "About $9.08/month; saves roughly $70 versus monthly."
+      },
+      {
+        "plan": "Free trial",
+        "price": "$0 for 34 days (as of 2026-07-12)",
+        "notes": "No credit card required when signing up directly; college students can get a 12-month free trial with proof of enrollment."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How much does YNAB cost in 2026?",
+        "answer": "$14.99 per month or $109 per year, with a 34-day free trial and no credit card required, per YNAB's official pricing page (as of 2026-07-12). One subscription can be shared with up to six people."
+      },
+      {
+        "question": "Is YNAB secure?",
+        "answer": "YNAB uses encryption in transit and at rest and connects to banks via aggregation partners using OAuth where available, stating it does not view or store your bank credentials, per YNAB's official security page. Review that page for full details."
+      },
+      {
+        "question": "Does YNAB have a free plan?",
+        "answer": "No. YNAB offers only a paid subscription after the 34-day free trial; there is no permanently free tier, per YNAB's official pricing page (as of 2026-07-12)."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "YNAB costs $14.99/month or $109/year with a 34-day free trial and no credit card required (as of 2026-07-12).",
+        "source_name": "YNAB — official pricing",
+        "source_url": "https://www.ynab.com/pricing"
+      },
+      {
+        "claim": "YNAB uses encryption in transit and at rest and connects via OAuth, stating it does not view or store bank credentials.",
+        "source_name": "YNAB — official security",
+        "source_url": "https://www.ynab.com/security"
+      },
+      {
+        "claim": "One YNAB subscription can be shared with up to six people at no additional cost.",
+        "source_name": "YNAB — official pricing",
+        "source_url": "https://www.ynab.com/pricing"
+      }
+    ],
+    "last_updated": "2026-07-12"
+  },
+  {
+    "id": "prod-monarch-money",
+    "slug": "monarch-money",
+    "name": "Monarch Money",
+    "category_slug": "budgeting-apps",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 7.7,
+    "ratings": {
+      "fees": 6,
+      "value_returns": 9,
+      "transparency": 7,
+      "security_trust": 9,
+      "support": 8
+    },
+    "price_summary": "$14.99/mo or $99.99/yr (Core); 7-day free trial; Plus tier $199/yr (as of 2026-07-12)",
+    "pros": [
+      "All-in-one: budgeting, net worth, investments, and goals in one dashboard",
+      "Strong for couples and shared households with collaborative access",
+      "Documented SOC 2 Type 2 and multi-factor authentication; read-only bank connections",
+      "Grew quickly as a leading Mint replacement with active feature development"
+    ],
+    "cons": [
+      "No permanently free tier; only a short 7-day trial before billing begins",
+      "At $99.99/year (Core) it is a recurring cost, and a newer $199/year Plus tier adds upsell pressure",
+      "Automatic renewal after the trial means you must cancel in time to avoid a charge"
+    ],
+    "best_for": "Couples and households wanting one hub for budgeting plus net-worth and investment tracking.",
+    "summary": "Monarch Money is a comprehensive personal-finance hub combining budgeting, net worth, and investment tracking, with strong support for couples. It is subscription-only with a short trial, and a newer Plus tier adds cost.",
+    "verdict_summary": "Monarch Money is the best all-in-one option here for people who want budgeting alongside net-worth and investment tracking in a single, polished dashboard, and it is especially strong for couples sharing finances. Pricing is $14.99/month or $99.99/year for the Core plan with a 7-day free trial, and a newer Plus tier runs $199/year (as of 2026-07-12). Security is a highlight: Monarch documents SOC 2 Type 2 certification, offers multi-factor authentication, and connects to accounts read-only through Plaid, Finicity, and MX without storing your bank password, per its official help documentation. The main drawbacks are cost and commitment: there is no free tier, the trial is only seven days and auto-renews, and the two-tier structure introduces upsell pressure. If you want a broad financial hub rather than a strict budgeting method, Monarch is an excellent choice; committed budgeters may still prefer YNAB's method-first approach.",
+    "pricing_table": [
+      {
+        "plan": "Monthly",
+        "price": "$14.99/mo (as of 2026-07-12)",
+        "notes": "Core plan billed monthly."
+      },
+      {
+        "plan": "Annual",
+        "price": "$99.99/yr Core; $199/yr Plus (as of 2026-07-12)",
+        "notes": "Annual Core works out to about $8.33/month; Plus is a higher tier."
+      },
+      {
+        "plan": "Free trial",
+        "price": "$0 for 7 days (as of 2026-07-12)",
+        "notes": "Auto-renews to a paid plan unless canceled before the trial ends."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How much is Monarch Money?",
+        "answer": "The Core plan is $14.99 per month or $99.99 per year with a 7-day free trial, and a Plus tier is $199 per year, per Monarch's official pricing page (as of 2026-07-12)."
+      },
+      {
+        "question": "Is Monarch Money safe?",
+        "answer": "Monarch documents 256-bit TLS encryption, SOC 2 Type 2 certification, and multi-factor authentication, and connects to accounts read-only via Plaid, Finicity, and MX without storing your bank password, per its official Privacy and Security help article."
+      },
+      {
+        "question": "Does Monarch sell my data?",
+        "answer": "Monarch states it operates a subscription business and does not sell your financial data or use it to train outside AI models; see its official privacy documentation for details."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Monarch Core is $14.99/month or $99.99/year with a 7-day free trial; Plus is $199/year (as of 2026-07-12).",
+        "source_name": "Monarch — official pricing",
+        "source_url": "https://www.monarch.com/pricing"
+      },
+      {
+        "claim": "Monarch documents SOC 2 Type 2, 256-bit TLS encryption, and read-only connections via Plaid, Finicity, and MX without storing bank passwords.",
+        "source_name": "Monarch — official Privacy and Security help",
+        "source_url": "https://help.monarch.com/hc/en-us/articles/360048393572-Privacy-and-Security"
+      },
+      {
+        "claim": "Monarch offers multi-factor authentication to protect account login.",
+        "source_name": "Monarch — official Multi-Factor Authentication help",
+        "source_url": "https://help.monarch.com/hc/en-us/articles/360054392152-Multi-Factor-Authentication"
+      }
+    ],
+    "last_updated": "2026-07-12"
+  },
+  {
+    "id": "prod-copilot-money",
+    "slug": "copilot-money",
+    "name": "Copilot Money",
+    "category_slug": "budgeting-apps",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 7.5,
+    "ratings": {
+      "fees": 6,
+      "value_returns": 8,
+      "transparency": 8,
+      "security_trust": 9,
+      "support": 7
+    },
+    "price_summary": "$13/mo or $95/yr; 1-month free trial (as of 2026-07-12)",
+    "pros": [
+      "Polished, design-forward interface with smart automatic transaction categorization",
+      "Strong security: 256-bit encryption, TLS, and read-only connections via Plaid, MX, Mastercard, and Akoya",
+      "Subscription-funded with no ads and no selling of user data, per company statements",
+      "Reasonable annual price of $95 with a one-month free trial"
+    ],
+    "cons": [
+      "Apple-first: available on iPhone, iPad, Mac, and Web, with no Android app (verified on the official pricing page as of 2026-07-12)",
+      "No permanently free tier; subscription required after the trial",
+      "Smaller team than incumbents, so support depth and roadmap breadth can be more limited"
+    ],
+    "best_for": "Apple users who want a beautifully designed app with smart automation and strong privacy.",
+    "summary": "Copilot Money is a design-forward budgeting and tracking app with smart categorization and strong security. Its biggest limitation is platform: it runs on iPhone, iPad, Mac, and Web, with no Android app.",
+    "verdict_summary": "Copilot Money is our pick for Apple users who prioritize interface design and privacy. The app is genuinely polished, with intelligent automatic categorization and a clean experience across iPhone, iPad, Mac, and Web. Pricing is $13/month or $95/year with a one-month free trial (as of 2026-07-12), which is competitive for the category. Security is a standout: Copilot documents 256-bit encryption at rest, TLS in transit, and read-only bank connections via aggregators including Plaid, MX, Mastercard, and Akoya, and states it does not store your bank credentials, sell your data, or use it to train external AI models, per its official privacy and security pages. The key limitation is platform reach: there is still no Android app, so Android households should look elsewhere. Support and roadmap depth are narrower than larger rivals. For iPhone-centric users who value design and privacy, Copilot is easy to recommend.",
+    "pricing_table": [
+      {
+        "plan": "Monthly",
+        "price": "$13/mo (as of 2026-07-12)",
+        "notes": "Billed monthly."
+      },
+      {
+        "plan": "Annual",
+        "price": "$95/yr (as of 2026-07-12)",
+        "notes": "About $7.92/month billed yearly."
+      },
+      {
+        "plan": "Free trial",
+        "price": "$0 for 1 month (as of 2026-07-12)",
+        "notes": "Full access; you can try the app before connecting any accounts. Referral codes may extend the trial."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How much does Copilot Money cost?",
+        "answer": "$13 per month or $95 per year (about $7.92/month), with a one-month free trial, per Copilot's official pricing page (as of 2026-07-12)."
+      },
+      {
+        "question": "Does Copilot Money work on Android?",
+        "answer": "No. As of 2026-07-12, Copilot's official pricing page lists availability only on iPhone, iPad, Mac, and Web; there is no Android app."
+      },
+      {
+        "question": "How does Copilot protect my financial data?",
+        "answer": "Copilot documents 256-bit encryption at rest and TLS in transit, connects read-only through aggregators such as Plaid, MX, Mastercard, and Akoya, and states it does not store bank credentials or sell your data, per its official Privacy and Security page."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Copilot Money is $13/month or $95/year with a one-month free trial (as of 2026-07-12).",
+        "source_name": "Copilot Money — official pricing",
+        "source_url": "https://copilot.money/pricing/"
+      },
+      {
+        "claim": "Copilot uses 256-bit encryption and TLS, connects read-only via Plaid, MX, Mastercard, and Akoya, and does not store bank credentials or sell data.",
+        "source_name": "Copilot Money — official Privacy and Security",
+        "source_url": "https://www.copilot.money/privacy-and-security"
+      },
+      {
+        "claim": "Copilot is available on iPhone, iPad, Mac, and Web, with no Android app (as of 2026-07-12).",
+        "source_name": "Copilot Money — official pricing",
+        "source_url": "https://copilot.money/pricing/"
+      }
+    ],
+    "last_updated": "2026-07-12"
+  },
+  {
+    "id": "prod-empower-personal-dashboard",
+    "slug": "empower-personal-dashboard",
+    "name": "Empower Personal Dashboard (formerly Personal Capital)",
+    "category_slug": "budgeting-apps",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.3,
+    "ratings": {
+      "fees": 10,
+      "value_returns": 6,
+      "transparency": 6,
+      "security_trust": 8,
+      "support": 6
+    },
+    "price_summary": "Free dashboard; Empower monetizes via optional wealth-management advisory (tiered AUM fee, $100K+ minimum) (as of 2026-07-12)",
+    "pros": [
+      "The Personal Dashboard is genuinely free to use, per Empower's official pages",
+      "Excellent for net-worth, investment, and retirement tracking across linked accounts",
+      "Read-only account aggregation with bank-level encryption",
+      "Strong free tools like the Retirement Planner and fee analyzer"
+    ],
+    "cons": [
+      "Budgeting features are basic; it is built for investment and net-worth tracking more than day-to-day budgeting or envelopes",
+      "The free dashboard is a lead generator: users with larger balances often receive wealth-advisor sales calls",
+      "Advisory service carries a tiered percentage-of-assets fee with a $100,000+ minimum, which is expensive relative to self-directed investing",
+      "Exact advisory fee percentages are shown as an image on the official page and were not machine-readable for verbatim citation"
+    ],
+    "best_for": "Investors who want a free dashboard to track net worth and portfolios, if they can ignore advisory sales calls.",
+    "summary": "Empower Personal Dashboard (formerly Personal Capital) is a free tool that excels at net-worth and investment tracking. It is monetized indirectly: Empower markets paid wealth-management advisory services to users, who may receive sales calls.",
+    "verdict_summary": "Empower Personal Dashboard, formerly Personal Capital, is the strongest free option here for tracking net worth, investments, and retirement readiness across all your linked accounts, with useful free tools like a retirement planner and fee analyzer. Empower confirms the dashboard is and will remain free. The honest catch is the business model: the free dashboard is a lead generator for Empower's paid Personal Wealth advisory service, which charges a tiered annual fee as a percentage of assets under management and requires sizeable minimums (advisory services start at a $100,000 minimum), per Empower's official wealth-management page (as of 2026-07-12). Users with larger balances commonly receive advisor sales calls. As a budgeting tool it is basic, better for tracking than for zero-based or envelope budgeting. Security is solid, with read-only aggregation and bank-level encryption. Use it free for portfolio tracking; just be ready to decline the advisory pitch.",
+    "pricing_table": [
+      {
+        "plan": "Personal Dashboard",
+        "price": "$0 / Free (as of 2026-07-12)",
+        "notes": "Net-worth, cash-flow, investment, and retirement tracking; Empower states it remains free."
+      },
+      {
+        "plan": "Wealth Management (advisory)",
+        "price": "Tiered annual % of assets under management; $250K minimum (as of 2026-07-12)",
+        "notes": "Optional paid advisory. Exact fee percentages are shown in an image on Empower's official page and were not readable for verbatim citation."
+      },
+      {
+        "plan": "Investment Services / Private Client",
+        "price": "$100K minimum (Investment Services) to $1M minimum (Private Client) (as of 2026-07-12)",
+        "notes": "Higher advisory tiers with larger minimums, per Empower's official wealth-management page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is Empower Personal Dashboard really free?",
+        "answer": "Yes. Empower states the Personal Dashboard and its financial tools are free and will remain free, per its official pages (as of 2026-07-12). Empower makes money from its optional, separate wealth-management advisory service."
+      },
+      {
+        "question": "How does Empower make money if the dashboard is free?",
+        "answer": "Empower monetizes through its Personal Wealth advisory service, charging a tiered annual advisory fee as a percentage of assets under management with account minimums (advisory services start at a $100,000 minimum), per Empower's official wealth-management page (as of 2026-07-12). Free-dashboard users may receive advisor outreach."
+      },
+      {
+        "question": "Is Empower good for everyday budgeting?",
+        "answer": "It is better for tracking net worth and investments than for hands-on budgeting. If you want zero-based budgeting or envelopes, YNAB or Goodbudget are more suitable; Empower shines for portfolio and retirement tracking."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Empower states the Personal Dashboard and its features are free and will remain free (as of 2026-07-12).",
+        "source_name": "Empower — official Personal Wealth transition page",
+        "source_url": "https://www.empower.com/empower-personal-wealth-transition"
+      },
+      {
+        "claim": "Empower's paid wealth-management advisory charges a tiered annual percentage-of-AUM fee with minimums ($100K Investment Services, $250K Wealth Management, $1M Private Client).",
+        "source_name": "Empower — official wealth management",
+        "source_url": "https://www.empower.com/products-solutions/wealth-management"
+      },
+      {
+        "claim": "Empower's free financial tools use read-only account aggregation with bank-level encryption to track net worth and investments.",
+        "source_name": "Empower — official financial tools",
+        "source_url": "https://www.empower.com/tools"
+      }
+    ],
+    "last_updated": "2026-07-12"
+  },
+  {
+    "id": "prod-goodbudget",
+    "slug": "goodbudget",
+    "name": "Goodbudget",
+    "category_slug": "budgeting-apps",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.2,
+    "ratings": {
+      "fees": 8,
+      "value_returns": 6,
+      "transparency": 8,
+      "security_trust": 8,
+      "support": 6
+    },
+    "price_summary": "Free tier (20 envelopes, 1 account, 2 devices, no bank sync); Premium $10/mo or $80/yr (as of 2026-07-12)",
+    "pros": [
+      "Genuinely free tier with 20 envelopes, one account, and two devices",
+      "Classic digital envelope method is simple and good for hands-on, intentional budgeting",
+      "Free tier requires no bank connection, so you never share bank credentials",
+      "Transparent pricing and bank-grade 256-bit SSL encryption, per Goodbudget"
+    ],
+    "cons": [
+      "Free tier has no automatic bank sync; you must enter every transaction manually or import CSV",
+      "Free tier is capped at 20 envelopes, one account, two devices, and one year of history",
+      "The envelope method has a learning curve and the interface feels dated versus newer apps",
+      "Automatic bank sync (US banks only) requires the paid Premium plan"
+    ],
+    "best_for": "Budgeters who want a simple, low-cost digital envelope system and prefer manual, private entry.",
+    "summary": "Goodbudget is a digital envelope-budgeting app with a genuinely free tier. The trade-off is manual entry: automatic bank sync is limited to the paid Premium plan, and the free tier caps envelopes, accounts, and devices.",
+    "verdict_summary": "Goodbudget is a strong pick for budgeters who like the envelope method and want to keep costs low or stay fully manual. The free tier is genuinely usable, with 20 envelopes, one account, two devices, and one year of history, and because it requires no bank connection you never share credentials, a real privacy benefit. Paid Premium is $10/month or $80/year and unlocks unlimited envelopes, unlimited accounts, five devices, seven years of history, and automatic bank sync for US banks (as of 2026-07-12). The trade-offs are clear: the free tier has no automatic bank sync, so you enter transactions manually or import CSV, the envelope method takes some learning, and the interface feels dated next to Monarch or Copilot. Goodbudget states it uses bank-grade 256-bit SSL and does not sell personal information, per its official help documentation. For intentional, envelope-style budgeting on a budget, it is a solid, honest choice.",
+    "pricing_table": [
+      {
+        "plan": "Free",
+        "price": "$0 (as of 2026-07-12)",
+        "notes": "20 envelopes, 1 account, 2 devices, 1 year of history, manual entry only (no automatic bank sync)."
+      },
+      {
+        "plan": "Premium (Monthly)",
+        "price": "$10/mo (as of 2026-07-12)",
+        "notes": "Unlimited envelopes and accounts, 5 devices, 7 years of history, automatic bank sync (US banks only)."
+      },
+      {
+        "plan": "Premium (Annual)",
+        "price": "$80/yr (as of 2026-07-12)",
+        "notes": "About $6.67/month; same Premium features billed yearly."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does Goodbudget's free plan sync with my bank?",
+        "answer": "No. Automatic bank sync (US banks only) is a Premium feature; on the free plan you enter transactions manually or import a CSV, per Goodbudget's official plans page (as of 2026-07-12)."
+      },
+      {
+        "question": "How much is Goodbudget Premium?",
+        "answer": "$10 per month or $80 per year (about $6.67/month), which adds unlimited envelopes and accounts, five devices, seven years of history, and automatic bank sync, per Goodbudget's official plans page (as of 2026-07-12)."
+      },
+      {
+        "question": "Is Goodbudget secure?",
+        "answer": "Goodbudget states it secures information with bank-grade 256-bit SSL and does not sell or rent personally identifiable information; free-tier users share no bank credentials because entry is manual, per its official 'Is my information safe?' help page."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Goodbudget offers a free tier (20 envelopes, 1 account, 2 devices, no automatic bank sync) and Premium at $10/month or $80/year (as of 2026-07-12).",
+        "source_name": "Goodbudget — official plans and pricing",
+        "source_url": "https://goodbudget.com/plans-pricing/"
+      },
+      {
+        "claim": "Goodbudget states it secures information with bank-grade 256-bit SSL and does not sell or rent personally identifiable information.",
+        "source_name": "Goodbudget — official 'Is my information safe?' help",
+        "source_url": "https://goodbudget.com/help/billing/is-my-information-safe/"
+      },
+      {
+        "claim": "Automatic bank sync (US banks only) is available only on the paid Premium plan; the free tier is manual entry.",
+        "source_name": "Goodbudget — official plans and pricing",
+        "source_url": "https://goodbudget.com/plans-pricing/"
+      }
+    ],
+    "last_updated": "2026-07-12"
+  }
+]

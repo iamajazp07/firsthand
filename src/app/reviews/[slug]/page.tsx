@@ -28,6 +28,7 @@ import {
 } from "@/lib/db";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 import { ogImageUrl } from "@/lib/social";
+import { getActiveVertical } from "@/lib/verticals";
 
 /** Prerender every review spoke at build time from the data layer. */
 export async function generateStaticParams() {
@@ -80,11 +81,12 @@ export default async function ReviewPage({
   const product = await getProductBySlug(slug);
   if (!product) notFound();
 
+  const vertical = getActiveVertical();
   const [category, author, reviewer, hubs, categoryProducts] =
     await Promise.all([
       getCategoryBySlug(product.category_slug),
-      getAuthorBySlug("health-research-analyst"),
-      getReviewerBySlug("editorial-team"),
+      getAuthorBySlug(vertical.defaultAuthorSlug ?? "health-research-analyst"),
+      getReviewerBySlug(vertical.defaultReviewerSlug ?? "editorial-team"),
       getHubsByCategory(product.category_slug),
       getProductsByCategory(product.category_slug),
     ]);

@@ -1,8 +1,17 @@
 import type { Vertical } from "./types";
 import { health } from "./health";
+import { money } from "./money";
 import { portal } from "./portal";
 
-export type { Vertical, RatingCriterion, VerticalExtras } from "./types";
+export type {
+  Vertical,
+  RatingCriterion,
+  VerticalExtras,
+  HomepageConfig,
+  HomepageRanking,
+  HomepagePlaceholder,
+  NewsletterConfig,
+} from "./types";
 
 /**
  * Registry of known verticals. Add new content verticals (money, tech, …) here
@@ -18,12 +27,24 @@ export type { Vertical, RatingCriterion, VerticalExtras } from "./types";
  */
 export const VERTICALS: Record<string, Vertical> = {
   health,
+  money,
   portal,
 };
 
 /** The portal is a brand hub, not a content vertical. */
 export function isContentVertical(v: Vertical): boolean {
   return v.key !== "portal";
+}
+
+/**
+ * Does the ACTIVE vertical expose an interactive tool at `path` (via
+ * `extras.tools`)? Used to gate vertical-specific routes (e.g. /quiz/sleep is
+ * health-only): the route 404s and is dropped from nav/sitemap when the active
+ * vertical doesn't list the tool. Health lists /quiz/sleep; money lists none.
+ */
+export function activeVerticalHasTool(path: string): boolean {
+  const tools = getActiveVertical().extras?.tools ?? [];
+  return tools.some((t) => t.path === path);
 }
 
 /**

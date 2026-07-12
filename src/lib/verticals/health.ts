@@ -131,10 +131,91 @@ export const health: Vertical = {
   // Medical disclaimer copied from MedicalDisclaimer.tsx.
   contentDisclaimer:
     "This content is for informational purposes only and is not medical advice. It is not intended to diagnose, treat, cure, or prevent any disease. Consult a healthcare professional before starting any supplement, treatment, or program — especially if you are pregnant, nursing, taking medication, or managing a health condition.",
+  // Bold/aria label — VERBATIM "Medical disclaimer" from MedicalDisclaimer.tsx.
+  contentDisclaimerLabel: "Medical disclaimer",
 
   // Health-specific tools.
   extras: {
     tools: [{ key: "sleep-quiz", label: "Sleep Quiz", path: "/quiz/sleep" }],
+  },
+
+  // Default byline + fact-check reviewer slugs (were hardcoded in hub/review
+  // pages). Values match src/data/health/{authors,reviewers}.json exactly.
+  defaultAuthorSlug: "health-research-analyst",
+  defaultReviewerSlug: "editorial-team",
+
+  // Footer copyright clause — VERBATIM from the previous Footer.tsx literal so
+  // health output stays byte-identical.
+  footerDisclaimer:
+    "Vivahale content is for informational purposes only and is not medical advice.",
+
+  // /methodology meta description — VERBATIM from the previous page metadata.
+  methodologyMetaDescription:
+    "The published methodology behind every Vivahale ranking: Safety, Evidence Quality, Cost & Value, Transparency, and Customer Support — with fixed weights that affiliate partnerships never change.",
+
+  // Newsletter copy — VERBATIM from NewsletterBand.tsx / ArticleNewsletterCta.tsx.
+  newsletter: {
+    brandName: "The Vivahale Brief",
+    bandBlurb:
+      "One weekly email: what the newest health research actually says, and which products hold up. No hype, no spam.",
+    ctaHeading: "Get evidence-based health picks in your inbox — no hype.",
+    ctaBlurb: "Join The Vivahale Brief for a weekly, research-first read.",
+  },
+
+  // Homepage static content — VERBATIM from the previous page.tsx literals so
+  // the health homepage renders byte-for-byte identically.
+  homepage: {
+    heroFallbackTitle: "Health decisions deserve better evidence.",
+    heroFallbackBody:
+      "Vivahale analyzes clinical research to rank supplements, telehealth providers, and health products — clearly and without hype.",
+    trustHeading: "Why trust Vivahale",
+    trustPoints: [
+      "Rankings built from published clinical research, not sponsorships.",
+      "Clear methodology on every comparison page.",
+      "Medical review before any health claim is published.",
+    ],
+    rankingsLabel: "2026 editions",
+    rankings: [
+      {
+        title: "Best Sleep Supplements 2026",
+        category: "Sleep",
+        blurb:
+          "We scored the most-searched sleep supplements against published clinical evidence, dosing transparency, and third-party testing.",
+        href: "/best/best-sleep-supplements",
+      },
+      {
+        title: "Top GLP-1 Telehealth Providers 2026",
+        category: "Weight Loss",
+        blurb:
+          "A side-by-side comparison of telehealth GLP-1 providers on clinical oversight, pricing clarity, and what your monthly fee actually includes.",
+        href: "/best/best-glp1-telehealth-providers",
+      },
+      {
+        title: "Best Whitening & Oral Health Picks 2026",
+        category: "Dental & Oral Health",
+        blurb:
+          "Whitening kits and oral-care picks that hold up to dental research — and the popular ones that don't.",
+        href: "/best/best-teeth-whitening-products",
+      },
+    ],
+    latestPlaceholders: [
+      {
+        title: "Magnesium for Sleep: Separating Signal from Noise",
+        category: "Nutrition & Supplements",
+        excerpt:
+          "Placeholder — a deep dive into the trial data behind magnesium's sleep claims arrives in a later step.",
+        byline: "Vivahale Staff",
+      },
+      {
+        title: "OTC Hearing Aids in 2026: What Changed and Who Benefits",
+        category: "Hearing",
+        excerpt:
+          "Placeholder — our guide to the post-regulation OTC hearing-aid market arrives in a later step.",
+        byline: "Vivahale Staff",
+      },
+    ],
+    browseAllHref: "/category/health-news",
+    browseAllLabel: "Browse all coverage →",
   },
 };
 

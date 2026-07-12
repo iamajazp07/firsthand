@@ -47,6 +47,50 @@ export interface VerticalExtras {
   [key: string]: unknown;
 }
 
+/** A homepage "Top Rankings" / "Latest" card link. */
+export interface HomepageRanking {
+  title: string;
+  category: string;
+  blurb: string;
+  href: string;
+}
+
+/** A homepage "Latest Analysis" placeholder card (rendered when seed content
+ *  is thin). Empty array = render none. */
+export interface HomepagePlaceholder {
+  title: string;
+  category: string;
+  excerpt: string;
+  byline: string;
+}
+
+/**
+ * Homepage content that differs per vertical. The hero + "Latest Analysis"
+ * article grid are data-driven (from the seed articles) and shared, but the
+ * static rankings, trust bullets, placeholders, and the "browse all" link are
+ * vertical-specific and live here so a health-only string never leaks onto a
+ * money page (which would also be a broken link).
+ */
+export interface HomepageConfig {
+  heroFallbackTitle: string;
+  heroFallbackBody: string;
+  trustHeading: string;
+  trustPoints: string[];
+  rankingsLabel: string;
+  rankings: HomepageRanking[];
+  latestPlaceholders: HomepagePlaceholder[];
+  browseAllHref: string;
+  browseAllLabel: string;
+}
+
+/** Newsletter branding copy (band + article CTA), per vertical. */
+export interface NewsletterConfig {
+  brandName: string;
+  bandBlurb: string;
+  ctaHeading: string;
+  ctaBlurb: string;
+}
+
 export interface Vertical {
   /** Machine key, e.g. "health". */
   key: string;
@@ -81,6 +125,32 @@ export interface Vertical {
   disclosureBody: string;
   /** Vertical-appropriate content disclaimer (medical / financial / general). */
   contentDisclaimer: string;
+  /**
+   * Bold label + aria-label for the content-disclaimer banner. Health:
+   * "Medical disclaimer"; Money: "Financial disclaimer". Defaults to
+   * "Disclaimer" when unset (portal).
+   */
+  contentDisclaimerLabel?: string;
   /** Optional vertical-specific tools/extras (e.g. the sleep quiz). */
   extras?: VerticalExtras;
+
+  /**
+   * Slug of the default author used on hub/review bylines (the site's single
+   * research-analyst byline). Kept in config so hub/review pages don't hardcode
+   * a health-specific slug. Content verticals set this; portal omits it.
+   */
+  defaultAuthorSlug?: string;
+  /** Slug of the default editorial fact-check reviewer (e.g. "editorial-team"). */
+  defaultReviewerSlug?: string;
+  /**
+   * Short footer copyright disclaimer clause (rendered after "© 2026 Vivahale.").
+   * Health: "…is not medical advice."; Money: "…is not financial … advice."
+   */
+  footerDisclaimer?: string;
+  /** Meta description for the /methodology page (vertical-specific). */
+  methodologyMetaDescription?: string;
+  /** Newsletter branding copy (band + article CTA). */
+  newsletter?: NewsletterConfig;
+  /** Homepage static content (rankings, trust bullets, placeholders, links). */
+  homepage?: HomepageConfig;
 }

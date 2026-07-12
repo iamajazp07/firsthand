@@ -1,0 +1,70 @@
+[
+  {
+    "id": "hub-best-high-yield-savings",
+    "slug": "best-high-yield-savings-accounts",
+    "title": "Best High-Yield Savings Accounts of 2026",
+    "category_slug": "high-yield-savings",
+    "intro_mdx_or_text": "A high-yield savings account (HYSA) is a deposit account, usually offered by an online-focused bank, that pays a higher variable interest rate than a typical brick-and-mortar savings account while keeping your money liquid. Every account on this list is held at an FDIC-insured bank, so deposits are protected up to $250,000 per depositor, per insured bank, per ownership category. APYs are variable and can change at any time before or after you open; the rates referenced here are described qualitatively and are current only as of 2026-07-12, so confirm the number on each bank's official rate page before opening. We score each account on five weighted criteria: Fees 25%, Value & Returns 25%, Transparency 20%, Security & Trust 15%, and Support 15%. The tone is neutral and evidence-first; affiliate compensation never affects ranking or scores.",
+    "answer_block": "Our top pick is Ally Bank Online Savings, which pairs no monthly maintenance fee and no minimum to open with a well-regarded app and 24/7 US-based phone support (as of 2026-07-12). Every account on this list is FDIC-insured up to $250,000 per depositor, per ownership category, and each APY is variable, meaning it can rise or fall at any time, so treat any rate as accurate only as of 2026-07-12 and confirm it on the bank's official page before opening. Rankings follow a published, weighted methodology (Fees 25%, Value & Returns 25%, Transparency 20%, Security & Trust 15%, Support 15%); affiliate compensation never influences placement or scores. Because bank rate pages update rates dynamically, we describe current APYs qualitatively and link the official rate page rather than repeat a number that may already be stale. The best account depends on your needs, whether you want branch access, a checking bundle, or simply the lowest friction for parking cash.",
+    "product_slugs": [
+      "ally-bank-online-savings",
+      "marcus-goldman-sachs-savings",
+      "capital-one-360-performance-savings",
+      "american-express-savings",
+      "discover-online-savings"
+    ],
+    "faq": [
+      {
+        "question": "Are these high-yield savings accounts FDIC-insured?",
+        "answer": "Yes. Each account is held at an FDIC-insured bank: Ally Bank (FDIC Cert #57803), Goldman Sachs Bank USA/Marcus (Cert #33124), American Express National Bank (Cert #27471), and Capital One, N.A. (Cert #4297). Standard FDIC coverage is $250,000 per depositor, per insured bank, per ownership category. You can verify any bank's status on FDIC BankFind at banks.data.fdic.gov."
+      },
+      {
+        "question": "Why don't you list an exact APY for each account?",
+        "answer": "HYSA APYs are variable and the banks publish them dynamically on their rate pages, so a number can change the day after we cite it. To avoid stating a figure that may already be stale (a real risk with financial content), we describe rates qualitatively and link each bank's official rate page, for example Ally's rates page and Capital One's disclosures, where you can confirm the current APY as of the day you open."
+      },
+      {
+        "question": "What happened to Discover Bank?",
+        "answer": "Discover merged into Capital One on May 18, 2025, and the Discover Bank charter (FDIC Cert #5649) is now inactive per FDIC records. Discover-branded deposits are FDIC-insured through Capital One, N.A. (Cert #4297), and the discover.com online-banking page states the two are now one company under Capital One, N.A. We rank the Discover product last because it is in a brand and platform transition."
+      },
+      {
+        "question": "How do we rank these accounts?",
+        "answer": "We use a fixed, published methodology weighting Fees (25%), Value & Returns (25%), Transparency (20%), Security & Trust (15%), and Support (15%). Facts about fees, minimums, and FDIC status are drawn only from each bank's official disclosures and FDIC BankFind, never from aggregators. Affiliate relationships do not affect scores or order."
+      }
+    ],
+    "last_updated": "2026-07-12"
+  },
+  {
+    "id": "hub-best-budgeting-apps",
+    "slug": "best-budgeting-apps",
+    "title": "Best Budgeting Apps of 2026",
+    "category_slug": "budgeting-apps",
+    "intro_mdx_or_text": "After Intuit shut down Mint in early 2024, millions of budgeters migrated to a new generation of apps, and the market has settled into a few clear leaders. This guide compares five of the most widely used tools for 2026: YNAB, Monarch Money, Empower Personal Dashboard, Copilot Money, and Goodbudget. All prices are cited from each company's official pricing page and are accurate as of 2026-07-12; subscription prices change, so verify before you buy. Every app here connects to your financial institutions through read-only data aggregation (Plaid, MX, Finicity/Akoya) rather than storing your bank password, with encryption in transit and at rest. We score each product on five criteria: Fees (25%), Value & Returns (25%), Transparency (20%), Security & Trust (15%), and Support (15%). For apps, 'Value & Returns' measures the value and features delivered for the price rather than an investment return. The tone throughout is neutral and evidence-first.",
+    "answer_block": "For most people building a durable budgeting habit in 2026, YNAB (You Need A Budget) is our top pick: its zero-based, give-every-dollar-a-job method plus strong education drive the best behavior change, though at $14.99/month or $109/year with a 34-day free trial and no free tier (as of 2026-07-12). Monarch Money ($14.99/month or $99.99/year; 7-day trial) is the best all-in-one for couples and net-worth tracking. Prefer free? Empower's Personal Dashboard is genuinely free for tracking, and Empower earns money from optional wealth-management advisory; Goodbudget offers a free manual envelope tier. Copilot Money suits Apple users who value design. All connect banks via read-only aggregation (Plaid, MX, Finicity) with encryption in transit and at rest. We weight Fees 25%, Value 25%, Transparency 20%, Security 15%, and Support 15%; compensation never affects rankings. The best app depends on your needs: budgeting method, automation, price, or platform.",
+    "product_slugs": [
+      "ynab",
+      "monarch-money",
+      "copilot-money",
+      "empower-personal-dashboard",
+      "goodbudget"
+    ],
+    "faq": [
+      {
+        "question": "Which budgeting app is best after Mint shut down?",
+        "answer": "There is no single winner for everyone. For hands-on, habit-changing budgeting we rank YNAB first; for an all-in-one hub with net-worth and investment tracking, Monarch Money; for free tracking, Empower's Personal Dashboard; for a free manual envelope system, Goodbudget; and for Apple-first design, Copilot Money. Prices verified on each company's official pricing page as of 2026-07-12."
+      },
+      {
+        "question": "Are these budgeting apps safe to connect to my bank?",
+        "answer": "Each app connects through read-only aggregation partners (Plaid, MX, Finicity/Akoya) and does not store your bank login credentials, using encryption in transit and at rest. Monarch documents SOC 2 Type 2 and offers multi-factor authentication. See each company's official security page for specifics; Goodbudget's free tier requires no bank connection at all because you enter transactions manually."
+      },
+      {
+        "question": "Is there a genuinely free budgeting app in this list?",
+        "answer": "Yes. Empower's Personal Dashboard is free for tracking net worth, cash flow, and investments (Empower monetizes through optional wealth-management advisory services with account minimums). Goodbudget also has a free tier with 20 envelopes, one account, and two devices, but it has no automatic bank sync, per Goodbudget's official plans page (as of 2026-07-12)."
+      },
+      {
+        "question": "How do we score and rank these apps?",
+        "answer": "We weight five criteria: Fees (25%), Value & Returns (25%), Transparency (20%), Security & Trust (15%), and Support (15%). 'Value & Returns' reflects features and value for the price, not an investment return. Affiliate compensation, where it exists, never affects rankings or scores; some products here are not monetized at all."
+      }
+    ],
+    "last_updated": "2026-07-12"
+  }
+]

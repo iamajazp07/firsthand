@@ -8,6 +8,7 @@ import {
 } from "@/lib/db";
 import { listPublishedArticles } from "@/lib/queue";
 import { IS_PORTAL, SITE_URL } from "@/lib/site";
+import { activeVerticalHasTool } from "@/lib/verticals";
 
 /**
  * Kept dynamic (not cached at build) so newly PUBLISHED queue articles appear
@@ -87,12 +88,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: "daily" as const,
       priority: 0.8,
     })),
-    // Interactive quiz funnel
-    {
-      url: `${SITE_URL}/quiz/sleep`,
-      changeFrequency: "monthly" as const,
-      priority: 0.6,
-    },
+    // Interactive quiz funnel — only when the ACTIVE vertical exposes the tool
+    // (Health lists /quiz/sleep in its config extras; Money does not, so the
+    // quiz is omitted from the money sitemap and 404s if requested).
+    ...(activeVerticalHasTool("/quiz/sleep")
+      ? [
+          {
+            url: `${SITE_URL}/quiz/sleep`,
+            changeFrequency: "monthly" as const,
+            priority: 0.6,
+          },
+        ]
+      : []),
     ...STATIC_PAGES.map((path) => ({
       url: `${SITE_URL}${path}`,
       changeFrequency: "monthly" as const,

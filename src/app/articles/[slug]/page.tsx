@@ -19,6 +19,7 @@ import { renderMarkdown } from "@/lib/markdown";
 import { getPublishedArticleBySlug } from "@/lib/queue";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 import { ogImageUrl } from "@/lib/social";
+import { getActiveVertical } from "@/lib/verticals";
 
 /**
  * Live rendering of PUBLISHED queue articles (education | reddit_roundup |
@@ -82,7 +83,11 @@ export default async function ArticlePage({
 
   const [category, author, reviewer] = await Promise.all([
     getCategoryBySlug(article.category_slug),
-    getAuthorBySlug(article.author_slug || "health-research-analyst"),
+    getAuthorBySlug(
+      article.author_slug ||
+        getActiveVertical().defaultAuthorSlug ||
+        "health-research-analyst",
+    ),
     article.reviewer_slug
       ? getReviewerBySlug(article.reviewer_slug)
       : Promise.resolve(null),
@@ -216,10 +221,12 @@ export default async function ArticlePage({
         className="mt-12 rounded-lg border border-brand-mist bg-brand-mist/50 px-5 py-6 sm:px-6"
       >
         <h2 className="font-serif text-lg font-bold text-brand-navy">
-          Get evidence-based health picks in your inbox — no hype.
+          {getActiveVertical().newsletter?.ctaHeading ??
+            "Get evidence-based health picks in your inbox — no hype."}
         </h2>
         <p className="mt-1 text-sm text-brand-ink/75">
-          Join The Vivahale Brief for a weekly, research-first read.
+          {getActiveVertical().newsletter?.ctaBlurb ??
+            "Join The Vivahale Brief for a weekly, research-first read."}
         </p>
         <EmailSignup source="article" variant="compact" className="mt-4" />
       </section>
