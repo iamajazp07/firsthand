@@ -245,4 +245,4 @@ American Express, Discover, YNAB, Monarch, Copilot, Empower, Goodbudget
 no fabricated experts, statistics, testimonials, rates, or fees.
 
 ### Checkpoint commit
-- `44377c1` — *Phase C: Money vertical (money.vivahale.com)*. Nothing pushed.
+- `bab34e9` — *Phase C: Money vertical (money.vivahale.com)*. Nothing pushed.
