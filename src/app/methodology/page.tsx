@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { getActiveVertical } from "@/lib/verticals";
 
 export const metadata: Metadata = {
   title: "How Vivahale Ranks and Reviews Products",
@@ -8,38 +9,15 @@ export const metadata: Metadata = {
   alternates: { canonical: "/methodology" },
 };
 
-const CRITERIA = [
-  {
-    name: "Safety",
-    weight: "30%",
-    detail:
-      "Ingredient and provider safety profile, known interactions and contraindications, FDA warning letters and safety communications, and manufacturing standards.",
-  },
-  {
-    name: "Evidence Quality",
-    weight: "30%",
-    detail:
-      "Peer-reviewed clinical research behind the product's core claims. Randomized controlled trials are weighted highest, then systematic reviews, then observational studies. Marketing claims without published evidence score zero here.",
-  },
-  {
-    name: "Cost & Value",
-    weight: "20%",
-    detail:
-      "Price per effective dose or per month of service, compared against alternatives that deliver the same evidence-backed benefit. Hidden fees, forced subscriptions, and cancellation friction lower this score.",
-  },
-  {
-    name: "Transparency",
-    weight: "10%",
-    detail:
-      "Label accuracy, full ingredient disclosure (no proprietary blends hiding doses), third-party testing, and honest marketing that doesn't overstate the science.",
-  },
-  {
-    name: "Customer Support & Experience",
-    weight: "10%",
-    detail:
-      "Responsiveness, refund and return policies, shipping reliability, and the real-world experience reported by verified customers.",
-  },
-];
+// The scoring criteria are driven by the ACTIVE vertical's config so every
+// vertical publishes its own methodology. For Health this yields the exact same
+// five rows (name = longLabel, weight = whole-percent of the fractional weight,
+// detail = per-criterion description) that were previously hardcoded here.
+const CRITERIA = getActiveVertical().criteria.map((c) => ({
+  name: c.longLabel ?? c.label,
+  weight: `${Math.round(c.weight * 100)}%`,
+  detail: c.description ?? "",
+}));
 
 export default function MethodologyPage() {
   return (

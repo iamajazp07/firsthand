@@ -1,7 +1,7 @@
 /**
  * scripts/freshness-check.ts — the "freshness updater".
  *
- * Scans src/data/hubs.json and src/data/products.json for `last_updated` dates
+ * Scans src/data/health/hubs.json and src/data/health/products.json for `last_updated` dates
  * older than N days (default 45; override with a CLI arg), and writes a
  * `hub_update` DRAFT into the content queue for each stale page:
  *   "Refresh pricing + re-verify sources for {title}".
@@ -70,8 +70,8 @@ async function main(): Promise<void> {
 
   const now = Date.now();
   const [hubs, products] = await Promise.all([
-    readJson<HubRow[]>("src/data/hubs.json"),
-    readJson<ProductRow[]>("src/data/products.json"),
+    readJson<HubRow[]>("src/data/health/hubs.json"),
+    readJson<ProductRow[]>("src/data/health/products.json"),
   ]);
 
   const candidates: Candidate[] = [

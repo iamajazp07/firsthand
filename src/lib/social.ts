@@ -23,7 +23,8 @@
  *     - imports ONLY Node builtins and `@supabase/supabase-js`,
  *     - defines all types locally (no cross-file value imports),
  *     - avoids TS enums / namespaces / parameter properties,
- *     - inlines SITE_URL (mirrors src/lib/site.ts) instead of importing it.
+ *     - reads SITE_URL inline from NEXT_PUBLIC_SITE_URL (same fallback as
+ *       src/lib/site.ts) instead of importing @/lib/site or @/lib/verticals.
  *
  * Server-only: may hold the service-role key. Never import from a client
  * component.
@@ -53,6 +54,12 @@ export type SocialStatus =
 
 export interface SocialPost {
   id: string;
+  /**
+   * Owning vertical (health, money, …). New posts are stamped with the active
+   * vertical (NEXT_PUBLIC_VERTICAL, default "health"); legacy rows written
+   * before multi-vertical lack the field and are read as "health".
+   */
+  vertical: string;
   platform: SocialPlatform;
   content_type: SocialContentType;
   content_slug: string;
@@ -97,11 +104,16 @@ export const PLATFORM_LABEL: Record<SocialPlatform, string> = {
 };
 
 // ---------------------------------------------------------------------------
-// Site base URL — inlined to keep this module Node-script-safe (mirror of
-// src/lib/site.ts SITE_URL). If the domain changes, update both.
+// Site base URL — env-driven with the SAME fallback as src/lib/site.ts, but
+// read INLINE here (no `@/lib/site` / `@/lib/verticals` import) to keep this
+// module Node-script-safe: it must import only Node builtins + supabase-js so
+// it runs under `node --experimental-strip-types` in scripts/. Effective value
+// today is identical (https://vivahale.com). If the domain changes, update the
+// NEXT_PUBLIC_SITE_URL env (and src/lib/site.ts stays the app-side mirror).
 // ---------------------------------------------------------------------------
 
-export const SITE_URL = "https://vivahale.com";
+export const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL || "https://vivahale.com";
 
 /** Map a social content_type to the live route base for that content. */
 export function contentRouteBase(type: SocialContentType): string {
@@ -152,6 +164,14 @@ export const DISCLOSURE_TOKEN = "#ad";
 
 const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+/**
+ * Active vertical, read INLINE from NEXT_PUBLIC_VERTICAL (default "health").
+ * Read directly from the env — NOT via @/lib/verticals — to keep this module
+ * Node-script-safe (Node builtins + supabase-js only, no @/ aliases). New posts
+ * are stamped with this; legacy rows without the field read as "health".
+ */
+const ACTIVE_VERTICAL: string = process.env.NEXT_PUBLIC_VERTICAL || "health";
 
 export const isSupabaseConfigured: boolean = Boolean(
   SUPABASE_URL && SUPABASE_SERVICE_ROLE_KEY,
@@ -207,6 +227,8 @@ function normalize(row: Partial<SocialPost>): SocialPost {
   const now = new Date().toISOString();
   return {
     id: row.id ?? randomUUID(),
+    // Legacy rows predate multi-vertical → treated as "health".
+    vertical: row.vertical ?? "health",
     platform: (row.platform ?? "x") as SocialPlatform,
     content_type: (row.content_type ?? "article") as SocialContentType,
     content_slug: row.content_slug ?? "",
@@ -292,6 +314,8 @@ export async function createSocialPost(
   const item = normalize({
     ...input,
     id: input.id ?? randomUUID(),
+    // Stamp NEW posts with the active vertical (callers may override).
+    vertical: input.vertical ?? ACTIVE_VERTICAL,
     status: input.status ?? "draft",
     created_at: input.created_at ?? now,
     updated_at: now,

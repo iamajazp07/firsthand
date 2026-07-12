@@ -1,14 +1,17 @@
 import Link from "next/link";
 import type { CriterionRatings } from "@/lib/types";
+import { getActiveVertical } from "@/lib/verticals";
 
 /**
  * Score displays for reviewed products.
  *
  * - Default export `RatingBadge`: circular (lg) or pill (sm) overall score,
  *   e.g. "8.6/10", in brand navy.
- * - Named export `RatingBreakdown`: the per-criterion variant — lists the 5
- *   methodology criteria with weight labels and bar indicators, linking to
- *   /methodology.
+ * - Named export `RatingBreakdown`: the per-criterion variant — lists the
+ *   ACTIVE vertical's methodology criteria (from `getActiveVertical().criteria`)
+ *   with weight labels and bar indicators, linking to /methodology. This is a
+ *   server component, so it reads the active vertical directly rather than
+ *   taking the criteria as a prop.
  */
 export default function RatingBadge({
   score,
@@ -53,15 +56,6 @@ export default function RatingBadge({
   );
 }
 
-/** The 5 methodology criteria, in weight order (must match /methodology). */
-const CRITERIA: Array<{ key: keyof CriterionRatings; label: string; weight: string }> = [
-  { key: "safety", label: "Safety", weight: "30%" },
-  { key: "evidence", label: "Evidence", weight: "30%" },
-  { key: "cost_value", label: "Cost & Value", weight: "20%" },
-  { key: "transparency", label: "Transparency", weight: "10%" },
-  { key: "support", label: "Support", weight: "10%" },
-];
-
 export function RatingBreakdown({
   ratings,
   className = "",
@@ -69,13 +63,18 @@ export function RatingBreakdown({
   ratings: CriterionRatings;
   className?: string;
 }) {
+  // Drive the breakdown from the active vertical's criteria (key order = weight
+  // order). Weights are fractional (0.3) and rendered as whole-percent labels
+  // ("30%") — matching the previous hardcoded strings exactly for Health.
+  const criteria = getActiveVertical().criteria;
   return (
     <div className={`rounded-lg border border-brand-mist bg-white p-4 ${className}`}>
       <h3 className="font-serif text-sm font-bold text-brand-navy">
         Score breakdown
       </h3>
       <ul className="mt-3 space-y-2.5">
-        {CRITERIA.map(({ key, label, weight }) => {
+        {criteria.map(({ key, label, weight: weightFraction }) => {
+          const weight = `${Math.round(weightFraction * 100)}%`;
           const value = ratings[key];
           return (
             <li key={key}>

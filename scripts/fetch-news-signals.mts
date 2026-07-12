@@ -4,7 +4,7 @@
  * fetch).
  *
  * WHAT IT DOES
- *   1. Reads the PRIMARY-SOURCE feed config in src/data/news-feeds.json.
+ *   1. Reads the PRIMARY-SOURCE feed config in src/data/health/news-feeds.json.
  *   2. Fetches every ENABLED, non-`blocked_from_env` feed (native fetch, with a
  *      browser-like User-Agent). Failures are logged and skipped gracefully —
  *      one dead feed never aborts the run.
@@ -70,7 +70,13 @@ interface SeenStore {
   seen: Record<string, { feed_id: string; title: string; seen_at: string }>;
 }
 
-const FEEDS_FILE = path.join(process.cwd(), "src", "data", "news-feeds.json");
+const FEEDS_FILE = path.join(
+  process.cwd(),
+  "src",
+  "data",
+  "health",
+  "news-feeds.json",
+);
 const BRIEFS_DIR = path.join(process.cwd(), "data", "briefs");
 const SEEN_FILE = path.join(process.cwd(), "data", "news-seen.local.json");
 

@@ -19,6 +19,7 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import { createHmac, timingSafeEqual } from "crypto";
+import { resolveVerticalFromHost } from "@/lib/verticals";
 
 // Mirror of src/lib/admin-auth.ts (kept in sync by hand — both are tiny).
 const ADMIN_COOKIE = "vh_admin_session";
@@ -42,7 +43,12 @@ function safeEqualHex(a: string, b: string): boolean {
   }
 }
 
-export function proxy(request: NextRequest): NextResponse {
+/**
+ * The /admin auth gate — UNCHANGED. This is the exact logic that previously
+ * lived in `proxy()`; it is now invoked only for admin surfaces so the security
+ * boundary behaves byte-for-byte as before. Do not weaken, reorder, or bypass.
+ */
+function adminGate(request: NextRequest): NextResponse {
   const { pathname } = request.nextUrl;
 
   // The login page + its POST handler must stay reachable unauthenticated.
@@ -76,8 +82,49 @@ export function proxy(request: NextRequest): NextResponse {
   return NextResponse.redirect(new URL("/admin/login", request.url));
 }
 
+/**
+ * Request proxy. Two responsibilities, kept strictly separate:
+ *
+ *  1. /admin auth gate — for admin surfaces ONLY, delegate to `adminGate()`
+ *     (identical behavior to the previous implementation). This preserves the
+ *     RSC flight-leak defense exactly.
+ *  2. Vertical resolution (ADDITIVE, Phase A) — for every other route, resolve
+ *     the active vertical from the request host and expose it to downstream
+ *     server components via the `x-vivahale-vertical` request header. No
+ *     redirect or rewrite is performed (portal routing is Phase B).
+ */
+export function proxy(request: NextRequest): NextResponse {
+  const { pathname } = request.nextUrl;
+
+  // Admin surfaces run through the unchanged auth gate. The conditions below
+  // reproduce the original matcher semantics exactly ("/admin", "/admin/*",
+  // "/api/admin", "/api/admin/*") so no admin path escapes the gate and no
+  // non-admin path is newly gated.
+  const isAdminRoute =
+    pathname === "/admin" ||
+    pathname.startsWith("/admin/") ||
+    pathname === "/api/admin" ||
+    pathname.startsWith("/api/admin/");
+  if (isAdminRoute) {
+    return adminGate(request);
+  }
+
+  // Non-admin routes: resolve vertical, fall back to NEXT_PUBLIC_VERTICAL
+  // (default "health") for unrecognized hosts, and forward it as a header.
+  const host = request.headers.get("host") ?? "";
+  const vertical =
+    resolveVerticalFromHost(host) ||
+    process.env.NEXT_PUBLIC_VERTICAL ||
+    "health";
+
+  const requestHeaders = new Headers(request.headers);
+  requestHeaders.set("x-vivahale-vertical", vertical);
+  return NextResponse.next({ request: { headers: requestHeaders } });
+}
+
 export const config = {
-  // Gate every /admin route and the /api/admin surface. Static assets, the
-  // rest of the site, and non-admin APIs are untouched.
-  matcher: ["/admin/:path*", "/api/admin/:path*"],
+  // Run on all routes EXCEPT Next internals and static assets, so the vertical
+  // header reaches every rendered page while the /admin gate (applied inside
+  // `proxy`) still covers every /admin + /api/admin path.
+  matcher: ["/((?!_next/static|_next/image|favicon.ico).*)"],
 };

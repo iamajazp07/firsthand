@@ -9,10 +9,11 @@
  *    `supabase/migrations/0001_init.sql`.
  *
  * 2. If either env var is missing (e.g. local dev before a Supabase project
- *    exists, or CI builds), the accessors TRANSPARENTLY fall back to the seed
- *    JSON files in `src/data/` (categories.json, authors.json, reviewers.json,
- *    articles.json). Pages never need to know which mode is active — the
- *    return types are identical.
+ *    exists, or CI builds), the accessors TRANSPARENTLY fall back to committed
+ *    seed JSON. Those seeds are stored per-vertical under `src/data/<vertical>/`
+ *    and selected for the active vertical by the compile-time registry in
+ *    `@/lib/seeds` (getActiveSeeds). Pages never need to know which mode is
+ *    active — the return types are identical.
  *
  * This module is server-only (it may hold the service-role key). Do not import
  * it from client components.
@@ -24,12 +25,8 @@ import { randomUUID } from "crypto";
 
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 
-import categoriesSeed from "@/data/categories.json";
-import authorsSeed from "@/data/authors.json";
-import reviewersSeed from "@/data/reviewers.json";
-import articlesSeed from "@/data/articles.json";
-import productsSeed from "@/data/products.json";
-import hubsSeed from "@/data/hubs.json";
+import { getActiveSeeds } from "@/lib/seeds";
+import { getActiveVertical } from "@/lib/verticals";
 
 import type {
   Article,
@@ -53,6 +50,16 @@ export const isSupabaseConfigured: boolean = Boolean(
   SUPABASE_URL && SUPABASE_SERVICE_ROLE_KEY,
 );
 
+/**
+ * Active vertical key (from NEXT_PUBLIC_VERTICAL, default "health"). Every
+ * Supabase read below is scoped to it via `.eq("vertical", ACTIVE_VERTICAL)`
+ * against the `vertical` column added in supabase/migrations/0004_verticals.sql.
+ * Local-JSON mode is already vertical-scoped by the seed registry (@/lib/seeds),
+ * so no equivalent filter is needed on the fallback branches. `email_subscribers`
+ * is deliberately unscoped (single cross-vertical newsletter list).
+ */
+const ACTIVE_VERTICAL = getActiveVertical().key;
+
 let cachedClient: SupabaseClient | null = null;
 
 /** Lazily create the Supabase client (only when configured). */
@@ -74,19 +81,25 @@ function getSupabase(): SupabaseClient {
 // Local seed data (fallback mode)
 // ---------------------------------------------------------------------------
 
-const localCategories = categoriesSeed as Category[];
-const localAuthors = authorsSeed as Author[];
+// The active vertical's committed seeds, chosen from the compile-time registry
+// in @/lib/seeds by getActiveVertical().key. For Health this is exactly the set
+// that used to live at src/data/*.json (now src/data/health/*.json).
+const seeds = getActiveSeeds();
+
+const localCategories = seeds.categories;
+const localAuthors = seeds.authors;
 // EDITORIAL FACT-CHECK reviewer (not a licensed physician). "Vivahale
-// Editorial Team" in src/data/reviewers.json has is_placeholder: false and is
-// presented honestly as an editorial fact-check, never as medical review. If a
-// real licensed reviewer is retained later, add them as a separate record.
-const localReviewers = reviewersSeed as Reviewer[];
-const localArticles = articlesSeed as Article[];
+// Editorial Team" in src/data/health/reviewers.json has is_placeholder: false
+// and is presented honestly as an editorial fact-check, never as medical
+// review. If a real licensed reviewer is retained later, add them as a separate
+// record.
+const localReviewers = seeds.reviewers;
+const localArticles = seeds.articles;
 // Researched Phase-1 review content (sleep, weight-loss, GLP-1 telehealth,
 // dental). Monetized items keep the literal VIVAHALE_AFFILIATE_PLACEHOLDER
 // string until real affiliate links are wired in a later step.
-const localProducts = productsSeed as Product[];
-const localHubs = hubsSeed as Hub[];
+const localProducts = seeds.products;
+const localHubs = seeds.hubs;
 
 // ---------------------------------------------------------------------------
 // Accessors — identical signatures in both modes
@@ -97,6 +110,7 @@ export async function getCategories(): Promise<Category[]> {
     const { data, error } = await getSupabase()
       .from("categories")
       .select("*")
+      .eq("vertical", ACTIVE_VERTICAL)
       .order("sort_order", { ascending: true });
     if (error) throw error;
     return data as Category[];
@@ -112,6 +126,7 @@ export async function getCategoryBySlug(
     const { data, error } = await getSupabase()
       .from("categories")
       .select("*")
+      .eq("vertical", ACTIVE_VERTICAL)
       .eq("slug", slug)
       .maybeSingle();
     if (error) throw error;
@@ -122,7 +137,10 @@ export async function getCategoryBySlug(
 
 export async function getAuthors(): Promise<Author[]> {
   if (isSupabaseConfigured) {
-    const { data, error } = await getSupabase().from("authors").select("*");
+    const { data, error } = await getSupabase()
+      .from("authors")
+      .select("*")
+      .eq("vertical", ACTIVE_VERTICAL);
     if (error) throw error;
     return data as Author[];
   }
@@ -134,6 +152,7 @@ export async function getAuthorBySlug(slug: string): Promise<Author | null> {
     const { data, error } = await getSupabase()
       .from("authors")
       .select("*")
+      .eq("vertical", ACTIVE_VERTICAL)
       .eq("slug", slug)
       .maybeSingle();
     if (error) throw error;
@@ -144,7 +163,10 @@ export async function getAuthorBySlug(slug: string): Promise<Author | null> {
 
 export async function getReviewers(): Promise<Reviewer[]> {
   if (isSupabaseConfigured) {
-    const { data, error } = await getSupabase().from("reviewers").select("*");
+    const { data, error } = await getSupabase()
+      .from("reviewers")
+      .select("*")
+      .eq("vertical", ACTIVE_VERTICAL);
     if (error) throw error;
     return data as Reviewer[];
   }
@@ -158,6 +180,7 @@ export async function getReviewerBySlug(
     const { data, error } = await getSupabase()
       .from("reviewers")
       .select("*")
+      .eq("vertical", ACTIVE_VERTICAL)
       .eq("slug", slug)
       .maybeSingle();
     if (error) throw error;
@@ -171,6 +194,7 @@ export async function getArticles(): Promise<Article[]> {
     const { data, error } = await getSupabase()
       .from("articles")
       .select("*")
+      .eq("vertical", ACTIVE_VERTICAL)
       .order("published_at", { ascending: false });
     if (error) throw error;
     return data as Article[];
@@ -187,6 +211,7 @@ export async function getArticlesByCategory(
     const { data, error } = await getSupabase()
       .from("articles")
       .select("*")
+      .eq("vertical", ACTIVE_VERTICAL)
       .eq("category_id", categoryId)
       .order("published_at", { ascending: false });
     if (error) throw error;
@@ -202,6 +227,7 @@ export async function getArticlesByAuthor(
     const { data, error } = await getSupabase()
       .from("articles")
       .select("*")
+      .eq("vertical", ACTIVE_VERTICAL)
       .eq("author_id", authorId)
       .order("published_at", { ascending: false });
     if (error) throw error;
@@ -218,7 +244,8 @@ export async function getArticlesByAuthor(
 // Supabase mode queries a `products` table (rich review shape — added by a
 // future migration; `supabase/migrations/0001_init.sql` currently only has
 // the slimmer `products_providers` table). Fallback mode reads
-// src/data/products.json, which is authoritative until that migration lands.
+// src/data/health/products.json, which is authoritative until that migration
+// lands.
 // ---------------------------------------------------------------------------
 
 export async function getProducts(): Promise<Product[]> {
@@ -226,6 +253,7 @@ export async function getProducts(): Promise<Product[]> {
     const { data, error } = await getSupabase()
       .from("products")
       .select("*")
+      .eq("vertical", ACTIVE_VERTICAL)
       .order("rating_overall", { ascending: false });
     if (error) throw error;
     return data as Product[];
@@ -238,6 +266,7 @@ export async function getProductBySlug(slug: string): Promise<Product | null> {
     const { data, error } = await getSupabase()
       .from("products")
       .select("*")
+      .eq("vertical", ACTIVE_VERTICAL)
       .eq("slug", slug)
       .maybeSingle();
     if (error) throw error;
@@ -253,6 +282,7 @@ export async function getProductsByCategory(
     const { data, error } = await getSupabase()
       .from("products")
       .select("*")
+      .eq("vertical", ACTIVE_VERTICAL)
       .eq("category_slug", categorySlug)
       .order("rating_overall", { ascending: false });
     if (error) throw error;
@@ -269,7 +299,10 @@ export async function getProductsByCategory(
 
 export async function getHubs(): Promise<Hub[]> {
   if (isSupabaseConfigured) {
-    const { data, error } = await getSupabase().from("hubs").select("*");
+    const { data, error } = await getSupabase()
+      .from("hubs")
+      .select("*")
+      .eq("vertical", ACTIVE_VERTICAL);
     if (error) throw error;
     return data as Hub[];
   }
@@ -281,6 +314,7 @@ export async function getHubBySlug(slug: string): Promise<Hub | null> {
     const { data, error } = await getSupabase()
       .from("hubs")
       .select("*")
+      .eq("vertical", ACTIVE_VERTICAL)
       .eq("slug", slug)
       .maybeSingle();
     if (error) throw error;
@@ -366,6 +400,7 @@ export async function getHubsByCategory(categorySlug: string): Promise<Hub[]> {
     const { data, error } = await getSupabase()
       .from("hubs")
       .select("*")
+      .eq("vertical", ACTIVE_VERTICAL)
       .eq("category_slug", categorySlug);
     if (error) throw error;
     return data as Hub[];

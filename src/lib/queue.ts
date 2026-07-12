@@ -67,6 +67,12 @@ export interface QueueCompliance {
 
 export interface QueueItem {
   id: string;
+  /**
+   * Owning vertical (health, money, …). New items are stamped with the active
+   * vertical (NEXT_PUBLIC_VERTICAL, default "health"); legacy rows written
+   * before multi-vertical lack the field and are read as "health".
+   */
+  vertical: string;
   type: QueueItemType;
   title: string;
   slug: string;
@@ -123,6 +129,14 @@ export const MANUAL_COMPLIANCE_LABELS: Record<keyof QueueCompliance, string> = {
 const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
+/**
+ * Active vertical, read INLINE from NEXT_PUBLIC_VERTICAL (default "health").
+ * Read directly from the env — NOT via @/lib/verticals — to keep this module
+ * Node-script-safe (Node builtins + supabase-js only, no @/ aliases). New queue
+ * items are stamped with this; legacy rows without the field read as "health".
+ */
+const ACTIVE_VERTICAL: string = process.env.NEXT_PUBLIC_VERTICAL || "health";
+
 export const isSupabaseConfigured: boolean = Boolean(
   SUPABASE_URL && SUPABASE_SERVICE_ROLE_KEY,
 );
@@ -176,6 +190,8 @@ async function writeLocalQueue(items: QueueItem[]): Promise<void> {
 function normalize(row: Partial<QueueItem>): QueueItem {
   return {
     id: row.id ?? randomUUID(),
+    // Legacy rows predate multi-vertical → treated as "health".
+    vertical: row.vertical ?? "health",
     type: (row.type ?? "education") as QueueItemType,
     title: row.title ?? "",
     slug: row.slug ?? "",
@@ -249,6 +265,8 @@ export async function createQueueItem(input: NewQueueItem): Promise<QueueItem> {
   const item = normalize({
     ...input,
     id: input.id ?? randomUUID(),
+    // Stamp NEW items with the active vertical (callers may override).
+    vertical: input.vertical ?? ACTIVE_VERTICAL,
     status: input.status ?? "draft",
     created_at: input.created_at ?? now,
     updated_at: now,

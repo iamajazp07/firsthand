@@ -2,7 +2,7 @@
  * scripts/generate-briefs.mts — the "brief generator" (no paid AI APIs).
  *
  * Picks N (default 2, override with a CLI arg) topics whose status is `todo`
- * from src/data/topics.json and writes ONE editorial brief markdown file per
+ * from src/data/health/topics.json and writes ONE editorial brief markdown file per
  * topic into the gitignored `data/briefs/` directory (auto-created). Each brief
  * spells out the required GEO structure and the compliance rules so the drafter
  * (a Claude Code session — human-in-the-loop) can write the article, then marks
@@ -30,7 +30,13 @@ interface Topic {
   status: "todo" | "drafted";
 }
 
-const TOPICS_FILE = path.join(process.cwd(), "src", "data", "topics.json");
+const TOPICS_FILE = path.join(
+  process.cwd(),
+  "src",
+  "data",
+  "health",
+  "topics.json",
+);
 const BRIEFS_DIR = path.join(process.cwd(), "data", "briefs");
 
 function slugify(s: string): string {
@@ -127,7 +133,7 @@ async function main(): Promise<void> {
   const todo = topics.filter((t) => t.status === "todo");
   if (todo.length === 0) {
     console.log(
-      "No topics with status 'todo' remain. Add more to src/data/topics.json.",
+      "No topics with status 'todo' remain. Add more to src/data/health/topics.json.",
     );
     return;
   }
@@ -152,7 +158,7 @@ async function main(): Promise<void> {
   );
   for (const w of written) console.log(`  + ${w}`);
   console.log(
-    `\nMarked ${picked.length} topic(s) as 'drafted' in src/data/topics.json.`,
+    `\nMarked ${picked.length} topic(s) as 'drafted' in src/data/health/topics.json.`,
   );
   console.log(
     "Next: draft each article in Claude Code, then `npm run content:ingest -- <file.md>`.",

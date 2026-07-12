@@ -46,14 +46,17 @@ export interface Reviewer {
   is_placeholder: boolean;
 }
 
-/** Per-criterion review scores (0–10), matching the /methodology criteria. */
-export interface CriterionRatings {
-  safety: number;
-  evidence: number;
-  cost_value: number;
-  transparency: number;
-  support: number;
-}
+/**
+ * Per-criterion review scores (0–10), keyed by the ACTIVE vertical's criteria
+ * keys (see `RatingCriterion.key` in src/lib/verticals/types.ts). Previously a
+ * fixed 5-key Health shape; now a generic keyed record so every vertical drives
+ * its own rating dimensions. For the Health vertical the keys are exactly the
+ * original five (`safety`, `evidence`, `cost_value`, `transparency`, `support`),
+ * so src/data/health/products.json needs ZERO changes and Health renders
+ * identically. Rating UI iterates `getActiveVertical().criteria` rather than a
+ * hardcoded key list.
+ */
+export type CriterionRatings = Record<string, number>;
 
 export interface PricingPlan {
   plan: string;

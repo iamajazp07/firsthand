@@ -43,7 +43,7 @@ import {
 } from "../src/lib/queue.ts";
 
 // ---------------------------------------------------------------------------
-// Node-safe content readers (src/data/*.json read directly; queue via lib)
+// Node-safe content readers (src/data/health/*.json read directly; queue via lib)
 // ---------------------------------------------------------------------------
 
 interface ProductLite {
@@ -67,7 +67,7 @@ interface HubLite {
 }
 
 async function readJson<T>(rel: string): Promise<T> {
-  const abs = path.join(process.cwd(), "src", "data", rel);
+  const abs = path.join(process.cwd(), "src", "data", "health", rel);
   return JSON.parse(await fs.readFile(abs, "utf8")) as T;
 }
 
