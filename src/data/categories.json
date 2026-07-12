@@ -1,0 +1,79 @@
+[
+  {
+    "id": "cat-weight-loss",
+    "slug": "weight-loss",
+    "name": "Weight Loss",
+    "description": "Evidence-based analysis of weight-loss programs, GLP-1 telehealth providers, and metabolic health research.",
+    "sort_order": 1
+  },
+  {
+    "id": "cat-dental-oral-health",
+    "slug": "dental-oral-health",
+    "name": "Dental & Oral Health",
+    "description": "Independent reviews of whitening kits, aligners, and oral-care products, grounded in dental research.",
+    "sort_order": 2
+  },
+  {
+    "id": "cat-sleep",
+    "slug": "sleep",
+    "name": "Sleep",
+    "description": "Rankings and research on sleep supplements, sleep tech, and the science of better rest.",
+    "sort_order": 3
+  },
+  {
+    "id": "cat-womens-health",
+    "slug": "womens-health",
+    "name": "Women's Health",
+    "description": "Clear-eyed coverage of women's health products, hormonal health, and telehealth services.",
+    "sort_order": 4
+  },
+  {
+    "id": "cat-hearing",
+    "slug": "hearing",
+    "name": "Hearing",
+    "description": "Comparisons of OTC hearing aids and hearing-health services, translated from clinical evidence.",
+    "sort_order": 5
+  },
+  {
+    "id": "cat-heart-health",
+    "slug": "heart-health",
+    "name": "Heart Health",
+    "description": "Analysis of cardiovascular health tools, supplements, and screening services.",
+    "sort_order": 6
+  },
+  {
+    "id": "cat-nutrition-supplements",
+    "slug": "nutrition-supplements",
+    "name": "Nutrition & Supplements",
+    "description": "Data-driven supplement rankings and nutrition research explained without hype.",
+    "sort_order": 7
+  },
+  {
+    "id": "cat-fitness",
+    "slug": "fitness",
+    "name": "Fitness",
+    "description": "Reviews of fitness programs, recovery tools, and training science.",
+    "sort_order": 8
+  },
+  {
+    "id": "cat-mental-wellness",
+    "slug": "mental-wellness",
+    "name": "Mental Wellness",
+    "description": "Coverage of mental-wellness apps, therapy platforms, and stress-management research.",
+    "sort_order": 9
+  },
+  {
+    "id": "cat-health-news",
+    "slug": "health-news",
+    "name": "Health News",
+    "description": "Timely reporting on studies, recalls, and policy changes that affect consumer health decisions.",
+    "sort_order": 10
+  },
+  {
+    "id": "cat-health-tech-ai",
+    "slug": "health-tech-ai",
+    "name": "Health Tech & AI",
+    "description": "Where healthcare meets technology: AI diagnostics, wearables, and digital health platforms.",
+    "sort_order": 11
+  }
+]

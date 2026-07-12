@@ -1,0 +1,89 @@
+name: Daily social post
+
+# Posts one piece of published content across X, Facebook, Instagram, and
+# LinkedIn each day. Pipeline: generate drafts -> auto-schedule one topic ->
+# dispatch. See docs/social-automation.md for setup.
+#
+# IMPORTANT — persistent store required for CI to be useful:
+#   The local JSON stores (data/queue.local.json, data/social.local.json) are
+#   gitignored, so a fresh CI checkout starts EMPTY. For this workflow to track
+#   content day-to-day it needs Supabase configured via repository secrets
+#   (NEXT_PUBLIC_SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY). Without them each run
+#   is stateless and will usually find "nothing to post".
+#
+# LIVE vs PREVIEW:
+#   Set repository variable SOCIAL_LIVE = "true" to actually schedule + send.
+#   Otherwise the job runs in preview mode (autopilot + send use --dry-run):
+#   it shows exactly what WOULD post and changes nothing.
+
+on:
+  schedule:
+    # 14:00 UTC daily. Adjust to your audience's peak. Cron is UTC.
+    - cron: "0 14 * * *"
+  workflow_dispatch:
+    inputs:
+      live:
+        description: "Actually schedule + send (true) or preview only (false)"
+        type: boolean
+        default: false
+
+concurrency:
+  group: daily-social
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    env:
+      # Content + social store (Supabase). Leave unset to use the ephemeral
+      # local-JSON fallback (fine for a preview, useless for real day-to-day CI).
+      NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      # Optional single-endpoint fan-out (Zapier / Make / Buffer). If set, every
+      # platform routes through this instead of per-platform APIs.
+      SOCIAL_WEBHOOK_URL: ${{ secrets.SOCIAL_WEBHOOK_URL }}
+      # Per-platform API tokens (all optional; missing ones -> skipped_no_credentials).
+      X_API_BEARER_TOKEN: ${{ secrets.X_API_BEARER_TOKEN }}
+      META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+      META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
+      META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+      LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+      LINKEDIN_ORG_URN: ${{ secrets.LINKEDIN_ORG_URN }}
+      # One content unit (all its platform posts) promoted per run.
+      SOCIAL_TOPICS_PER_RUN: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - run: npm ci
+
+      - name: Decide live vs preview
+        id: mode
+        run: |
+          LIVE="${{ vars.SOCIAL_LIVE }}"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            LIVE="${{ inputs.live }}"
+          fi
+          if [ "$LIVE" = "true" ]; then
+            echo "dry=" >> "$GITHUB_OUTPUT"
+            echo "Mode: LIVE (will schedule + send)"
+          else
+            echo "dry=-- --dry-run" >> "$GITHUB_OUTPUT"
+            echo "Mode: PREVIEW (dry-run; nothing is scheduled or sent)"
+          fi
+
+      # 1) Turn newly published articles into per-platform draft posts.
+      - name: Generate drafts for newly published content
+        run: npm run social:generate -- --latest
+
+      # 2) Approve + schedule one topic's drafts (skips FTC-noncompliant posts).
+      - name: Auto-schedule today's topic
+        run: npm run social:autopilot ${{ steps.mode.outputs.dry }}
+
+      # 3) Dispatch due scheduled posts (no tokens -> skipped_no_credentials).
+      - name: Dispatch due posts
+        run: npm run social:send ${{ steps.mode.outputs.dry }}

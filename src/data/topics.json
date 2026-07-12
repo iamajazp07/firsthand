@@ -1,0 +1,110 @@
+[
+  {
+    "id": "topic-mag-threonate-vs-glycinate",
+    "type": "education",
+    "category_slug": "sleep",
+    "working_title": "Magnesium L-Threonate vs Glycinate: Which Form Is Better for Sleep?",
+    "target_query": "magnesium l-threonate vs glycinate for sleep",
+    "angle": "Head-to-head on the two most-hyped magnesium forms for rest; be honest that no direct comparison trial exists and threonate's sleep evidence is a single industry-linked RCT.",
+    "status": "drafted"
+  },
+  {
+    "id": "topic-apigenin-sleep",
+    "type": "education",
+    "category_slug": "sleep",
+    "working_title": "Apigenin for Sleep: What the Evidence Actually Says",
+    "target_query": "does apigenin help you sleep",
+    "angle": "Chamomile-derived flavonoid trending in stacks; separate preclinical mechanism from thin human data and flag chamomile allergy caveats.",
+    "status": "drafted"
+  },
+  {
+    "id": "topic-glycine-timing-sleep",
+    "type": "education",
+    "category_slug": "sleep",
+    "working_title": "Glycine Before Bed: Does Timing and Dose Matter for Sleep?",
+    "target_query": "glycine before bed dose timing sleep",
+    "angle": "3 g glycine ~1 hour before bed in small trials; core-body-temperature mechanism; modest, short-term evidence only.",
+    "status": "todo"
+  },
+  {
+    "id": "topic-urolithin-a",
+    "type": "education",
+    "category_slug": "nutrition-supplements",
+    "working_title": "Urolithin A: What the Research Shows on Muscle and Mitochondria",
+    "target_query": "urolithin a benefits evidence",
+    "angle": "Postbiotic from pomegranate/ellagitannins; mitophagy mechanism; small human trials on muscle endurance; not everyone produces it from food.",
+    "status": "todo"
+  },
+  {
+    "id": "topic-magnesium-forms-explainer",
+    "type": "education",
+    "category_slug": "nutrition-supplements",
+    "working_title": "Magnesium Forms Explained: Glycinate, Citrate, Oxide, Threonate",
+    "target_query": "which magnesium form is best",
+    "angle": "Plain-English guide to absorption and tolerability differences across common salts; when each makes sense; upper-limit caveats.",
+    "status": "todo"
+  },
+  {
+    "id": "topic-probiotic-oral-health-strain",
+    "type": "education",
+    "category_slug": "dental-oral-health",
+    "working_title": "Probiotics for Oral Health: Does L. reuteri Actually Help Gums?",
+    "target_query": "l reuteri probiotic gum health evidence",
+    "angle": "Specific-strain lens (Lactobacillus reuteri) for gingivitis/plaque; small RCTs; honest that it is an adjunct, not a replacement for brushing.",
+    "status": "todo"
+  },
+  {
+    "id": "topic-hydroxyapatite-vs-fluoride",
+    "type": "education",
+    "category_slug": "dental-oral-health",
+    "working_title": "Hydroxyapatite vs Fluoride Toothpaste: What the Evidence Shows",
+    "target_query": "hydroxyapatite vs fluoride toothpaste evidence",
+    "angle": "Compare remineralization and caries-prevention data; be explicit that the strongest HAp results are manufacturer-funded while fluoride has a far larger evidence base.",
+    "status": "todo"
+  },
+  {
+    "id": "topic-reddit-melatonin-gummies",
+    "type": "reddit_roundup",
+    "category_slug": "sleep",
+    "working_title": "What Reddit Really Says About Melatonin Gummies",
+    "target_query": "reddit melatonin gummies experience",
+    "angle": "Summarize public-discussion themes (grogginess, dose creep, label-accuracy doubts) paired with the JAMA labeling analysis; paraphrase only.",
+    "status": "todo"
+  },
+  {
+    "id": "topic-reddit-compounded-semaglutide",
+    "type": "reddit_roundup",
+    "category_slug": "weight-loss",
+    "working_title": "What Reddit Really Says About Compounded Semaglutide",
+    "target_query": "reddit compounded semaglutide experience",
+    "angle": "Paraphrase recurring themes (cost, sourcing anxiety, unit/mg dosing confusion, sterility doubts, 2025 crackdown, gray-market peptides) against FDA primary sources.",
+    "status": "todo"
+  },
+  {
+    "id": "topic-tirzepatide-vs-semaglutide",
+    "type": "education",
+    "category_slug": "weight-loss",
+    "working_title": "Tirzepatide vs Semaglutide: A Plain-English Explainer",
+    "target_query": "tirzepatide vs semaglutide difference explained",
+    "angle": "Explain the single vs dual incretin mechanism, head-to-head trial context, and side-effect profile without hype or off-label sourcing advice.",
+    "status": "todo"
+  },
+  {
+    "id": "topic-glp1-muscle-loss",
+    "type": "education",
+    "category_slug": "weight-loss",
+    "working_title": "GLP-1 Weight Loss and Muscle: What the Evidence Says About Lean Mass",
+    "target_query": "glp-1 weight loss muscle loss protein",
+    "angle": "Lean-mass loss signal in trials; role of resistance training and protein; measured framing, not fear.",
+    "status": "todo"
+  },
+  {
+    "id": "topic-fda-melatonin-news",
+    "type": "news",
+    "category_slug": "health-news",
+    "working_title": "Melatonin Gummy Labeling: Why Regulators Keep Flagging It",
+    "target_query": "melatonin gummy labeling accuracy fda",
+    "angle": "News-style recap of labeling-accuracy findings and pediatric ingestion trends, linked to primary JAMA/CDC sources.",
+    "status": "todo"
+  }
+]

@@ -1,0 +1,1628 @@
+[
+  {
+    "id": "prod-nature-made-melatonin-3mg",
+    "slug": "nature-made-melatonin-3mg",
+    "name": "Nature Made Melatonin 3 mg",
+    "category_slug": "sleep",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 8.2,
+    "ratings": {
+      "safety": 8.5,
+      "evidence": 7.5,
+      "cost_value": 9.5,
+      "transparency": 8.5,
+      "support": 6.5
+    },
+    "price_summary": "$9.99 / 120 tablets (~$0.08/day)",
+    "pros": [
+      "USP Verified — the tablet independently confirmed to contain the melatonin the label claims",
+      "Very inexpensive at roughly $0.08 per tablet, a fraction of boutique brands",
+      "Single-ingredient tablet with the largest human evidence base of any option here",
+      "Widely stocked in pharmacies with no subscription upsells or proprietary blends"
+    ],
+    "cons": [
+      "Red flag: A 2017 analysis cited by NCCIH found many melatonin products didn't match their labels and 26% contained serotonin — always confirm the USP mark on your specific bottle",
+      "3 mg is higher than the 0.5–1 mg doses used in much circadian research; more is not better and can cause grogginess",
+      "Evidence is strong for jet lag and shift work but weak for chronic insomnia",
+      "No direct-to-consumer support; returns depend on the retailer"
+    ],
+    "best_for": "Travelers and shift workers who want a cheap, USP-verified melatonin",
+    "summary": "The budget benchmark of this ranking, and one Vivahale earns no commission on. Cheap, single-ingredient, and USP verified, with the standard caveat that melatonin helps circadian problems far more than routine insomnia.",
+    "verdict_summary": "Nature Made Melatonin 3 mg tops our 2026 ranking at 8.2/10 — and Vivahale earns nothing on it. It is inexpensive, single-ingredient, widely available, and USP verified, meaning an independent body has checked that the tablet contains the melatonin its label claims. Melatonin also has the largest human evidence base here: a 19-trial meta-analysis of 1,683 people found it shortens sleep onset and modestly improves sleep quality. The caveats are the same as for all melatonin — it reliably shifts sleep timing for jet lag, shift work, and delayed sleep phase, but NCCIH says there is not enough strong evidence to recommend it for chronic insomnia, and 3 mg exceeds the 0.5–1 mg doses used in much circadian research. Confirm the USP mark on your specific bottle. It is best for travelers and shift workers who want a vetted, cheap melatonin without subscription upsells. Persistent insomnia deserves a clinician, not escalating doses.",
+    "pricing_table": [
+      {
+        "plan": "Retail (120 count)",
+        "price": "$9.99",
+        "notes": "Typical price at Target/Walmart/pharmacies; ~$0.08 per tablet"
+      },
+      {
+        "plan": "Retail (240 count)",
+        "price": "~$14–16",
+        "notes": "Larger bottle lowers per-tablet cost; price varies by retailer"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is Nature Made Melatonin USP verified?",
+        "answer": "Yes. Nature Made Melatonin 3 mg carries the USP Verified mark, which means USP has independently tested the product's ingredients, potency, and manufacturing. Confirm the mark on your specific bottle, since not every Nature Made SKU is verified."
+      },
+      {
+        "question": "Is 3 mg of melatonin too much?",
+        "answer": "It is more than you likely need. Much of the circadian research uses 0.5–1 mg, and higher doses can cause next-day grogginess without added benefit. You can split a 3 mg tablet or choose a lower-dose product if you are sensitive."
+      },
+      {
+        "question": "Why doesn't Vivahale earn a commission on this product?",
+        "answer": "We include strong non-affiliate options in every ranking so our recommendations aren't limited to products that pay us. Nature Made earns us nothing, and commissions never influence our scores or ordering."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "A meta-analysis of 19 randomized trials in 1,683 people found melatonin decreases sleep onset latency, increases total sleep time, and improves overall sleep quality, though effects are modest.",
+        "source_name": "Ferracioli-Oda et al., meta-analysis of melatonin for primary sleep disorders (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/23691095/"
+      },
+      {
+        "claim": "Melatonin may help with jet lag and is generally safe short-term, but there is not enough strong evidence to recommend it for chronic insomnia, and some products don't contain what the label states.",
+        "source_name": "NIH NCCIH — Melatonin: What You Need To Know",
+        "source_url": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know"
+      }
+    ],
+    "last_updated": "2026-07-11"
+  },
+  {
+    "id": "prod-doctors-best-high-absorption-magnesium",
+    "slug": "doctors-best-high-absorption-magnesium",
+    "name": "Doctor's Best High Absorption Magnesium",
+    "category_slug": "sleep",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 8,
+    "ratings": {
+      "safety": 8.5,
+      "evidence": 7.5,
+      "cost_value": 8.5,
+      "transparency": 8,
+      "support": 7
+    },
+    "price_summary": "$18.99 / 240 tablets = 120 servings (~$0.16/day)",
+    "pros": [
+      "Uses chelated magnesium lysinate glycinate (Albion TRAACS), a well-absorbed, gentle-on-the-gut form",
+      "Fully disclosed dose — 200 mg elemental magnesium per 2-tablet serving, no proprietary blend",
+      "Best human evidence of the non-melatonin options: trials show faster sleep onset in older adults",
+      "Reasonable value at about $0.16 per day; vegan, non-GMO, gluten- and soy-free"
+    ],
+    "cons": [
+      "Red flag: The brand site sells this as a recurring auto-ship 'deferred, subscription, or recurring purchase' — read the cancellation terms before checkout to avoid unwanted repeat shipments",
+      "Magnesium's sleep benefit is best documented in older or magnesium-deficient adults; evidence in well-nourished younger people is weak",
+      "Not third-party quality certified (no USP/NSF mark listed) despite the Albion branding",
+      "Two tablets per dose, and magnesium can loosen stools in sensitive users"
+    ],
+    "best_for": "People who want the best-studied magnesium form for sleep and relaxation",
+    "summary": "A single-ingredient chelated magnesium at an honest dose and price. It carries the strongest human sleep evidence of the non-melatonin picks, but that evidence is concentrated in older and deficient adults, and the brand pushes auto-ship at checkout.",
+    "verdict_summary": "Doctor's Best High Absorption Magnesium scores 8.0/10 and is our best evidence-backed alternative to melatonin. It delivers 200 mg of elemental magnesium as chelated lysinate glycinate (Albion TRAACS) per two-tablet serving — a well-absorbed form that is gentle on the gut — with the full dose printed on the label and no proprietary blend. The evidence is the strongest of our non-melatonin picks but still modest: a meta-analysis found magnesium cut sleep onset latency by about 17 minutes in older adults, and an 8-week RCT in 46 elderly people improved insomnia severity, sleep time, and sleep efficiency. Those benefits concentrate in older or magnesium-deficient people, so well-nourished younger adults may notice little. Stay within the 350 mg/day supplemental limit. The main annoyance is commercial: the brand site defaults to a recurring auto-ship, so check the cancellation terms before buying. It is best for people wanting the best-studied magnesium form for sleep and relaxation.",
+    "pricing_table": [
+      {
+        "plan": "One-time (240 tablets)",
+        "price": "$18.99",
+        "notes": "Brand site; 120 servings of 200 mg, about $0.16/day"
+      },
+      {
+        "plan": "Auto-ship / subscription",
+        "price": "Varies",
+        "notes": "Brand site defaults to recurring purchase; confirm interval and cancellation terms"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does magnesium glycinate make you sleepy?",
+        "answer": "Magnesium is not a sedative and won't knock you out like a sleeping pill. In older or magnesium-deficient adults, trials show modestly faster sleep onset and better sleep quality, likely through calming and stress-hormone effects. In well-nourished younger people the effect is smaller and less consistent."
+      },
+      {
+        "question": "How much magnesium is safe to take for sleep?",
+        "answer": "The Tolerable Upper Intake Level for supplemental magnesium is 350 mg per day for adults. This product's 200 mg serving stays within that. Doses above the limit can cause diarrhea and cramping, and magnesium can interact with certain antibiotics and blood-pressure drugs."
+      },
+      {
+        "question": "Is magnesium glycinate better than magnesium oxide for sleep?",
+        "answer": "Glycinate (and this lysinate glycinate chelate) is better absorbed and far less likely to cause the laxative effect common with cheap magnesium oxide, which is why it is the preferred form for nightly use. It costs more per gram but is gentler and more bioavailable."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "A systematic review and meta-analysis found oral magnesium reduced sleep onset latency by about 17 minutes versus placebo in older adults, though on low-to-very-low quality evidence.",
+        "source_name": "Mah & Pitre, magnesium for insomnia meta-analysis (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/33865376/"
+      },
+      {
+        "claim": "An 8-week double-blind RCT in 46 elderly people found 500 mg/day magnesium significantly improved insomnia severity, sleep time, sleep efficiency, and sleep onset latency, and raised serum melatonin.",
+        "source_name": "Abbasi et al., magnesium and insomnia RCT (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/23853635/"
+      }
+    ],
+    "last_updated": "2026-07-11"
+  },
+  {
+    "id": "prod-now-glycine",
+    "slug": "now-glycine",
+    "name": "NOW Glycine Pure Powder",
+    "category_slug": "sleep",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.6,
+    "ratings": {
+      "safety": 8.5,
+      "evidence": 6.5,
+      "cost_value": 8.5,
+      "transparency": 7.5,
+      "support": 6.5
+    },
+    "price_summary": "~$15.99 / 1 lb = ~151 servings of 3 g (~$0.11/day)",
+    "pros": [
+      "Delivers exactly the 3 g bedtime dose used in the human sleep research, at pennies per serving",
+      "Single-ingredient free-form glycine powder — no fillers, sweeteners, or proprietary blend",
+      "Excellent value at roughly $0.11 per serving, and Vivahale earns no commission on it",
+      "Well tolerated; glycine is a naturally occurring amino acid with a clean short-term safety record"
+    ],
+    "cons": [
+      "Red flag: The sleep evidence rests on small studies — several with fewer than a dozen participants and no independent replication at scale — so treat the benefit as promising, not proven",
+      "Powder must be measured with a spoon (about 3/4 teaspoon); less convenient than a capsule or gummy",
+      "No USP/NSF third-party certification mark listed on the label",
+      "Mildly sweet taste that some users dislike stirred into water"
+    ],
+    "best_for": "Budget-minded users who want the exact 3 g glycine dose from research",
+    "summary": "A no-frills, single-ingredient glycine powder that hits the exact 3 g dose used in the sleep studies for about $0.11 a serving. The evidence base is small but mechanistically interesting, and it is one of two picks here we earn nothing on.",
+    "verdict_summary": "NOW Glycine Pure Powder scores 7.6/10 as our best-value single-ingredient option, and Vivahale earns nothing on it. One 3/4-teaspoon serving delivers 3 g of free-form glycine — precisely the dose used in the human sleep research — for about $0.11, with no fillers or sweeteners. The evidence is intriguing but thin: small trials report that 3 g of glycine before bed improves subjective sleep quality, shortens the latency to slow-wave sleep, and reduces next-day sleepiness, and rat work traces the mechanism to NMDA receptors in the suprachiasmatic nucleus that lower core body temperature to ease sleep onset. The catch is scale — key studies enrolled only a handful of participants, so treat glycine as promising rather than established. It is well tolerated short-term, but the powder format means measuring a spoonful, and there is no third-party certification mark. Best for budget-minded users who want the exact researched glycine dose without a subscription.",
+    "pricing_table": [
+      {
+        "plan": "One-time (1 lb powder)",
+        "price": "~$15.99",
+        "notes": "About 151 servings of 3 g; roughly $0.11 per serving. Price varies $16–19 by retailer"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does glycine help you sleep?",
+        "answer": "Small human studies suggest 3 g of glycine before bed improves subjective sleep quality and shortens the time to reach deep slow-wave sleep, possibly by lowering core body temperature. The trials are small, so the effect is promising rather than proven, but glycine is inexpensive and well tolerated short-term."
+      },
+      {
+        "question": "How much glycine should I take before bed?",
+        "answer": "The dose used in the sleep research is 3 g (about 3/4 of a level teaspoon of this powder) taken roughly 30–60 minutes before bedtime. There is no evidence that higher doses work better for sleep."
+      },
+      {
+        "question": "Is glycine safe to take every night?",
+        "answer": "Glycine is a naturally occurring amino acid and 3 g nightly is well tolerated in short-term studies. Long-term nightly data is limited, and if you take clozapine or other prescription medications, check with a clinician first, since glycine can interact with some drugs."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Low-dose glycine (3 g before bedtime) subjectively improves sleep quality and shortens latency to slow-wave sleep; the effect is mediated by NMDA receptors in the suprachiasmatic nucleus that lower core body temperature.",
+        "source_name": "Kawai et al., mechanism of glycine's sleep-promoting effect (PMC)",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4397399/"
+      },
+      {
+        "claim": "In a crossover trial of sleep-restricted volunteers, 3 g of glycine before bed reduced daytime fatigue and improved psychomotor vigilance performance versus placebo.",
+        "source_name": "Bannai et al., glycine and sleep restriction study (PMC)",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3328957/"
+      }
+    ],
+    "last_updated": "2026-07-11"
+  },
+  {
+    "id": "prod-sports-research-l-theanine",
+    "slug": "sports-research-l-theanine",
+    "name": "Sports Research L-Theanine 200 mg",
+    "category_slug": "sleep",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 7.5,
+    "ratings": {
+      "safety": 8.5,
+      "evidence": 6.5,
+      "cost_value": 7,
+      "transparency": 8.5,
+      "support": 7.5
+    },
+    "price_summary": "$19.95 / 60 softgels (~$0.33/day at 1 softgel)",
+    "pros": [
+      "Uses branded, clinically studied Suntheanine L-theanine at a research-relevant 200 mg dose",
+      "Third-party tested and IGEN non-GMO verified, with the full dose disclosed — no proprietary blend",
+      "Non-sedating: supports calm and relaxation without next-day grogginess",
+      "Single-softgel serving is convenient and easy to combine with other routines"
+    ],
+    "cons": [
+      "Red flag: The strongest human trial measured stress, anxiety, and sleep quality over 4 weeks in just 30 adults — the sleep benefit is real but rests on a single small study, not a body of evidence",
+      "L-theanine promotes relaxation more than sleep itself; it is not a direct sedative",
+      "Pricier per day (~$0.33) than the magnesium, melatonin, and glycine picks",
+      "Softgels use coconut oil and gelatin, so not suitable for vegetarians"
+    ],
+    "best_for": "People whose racing mind and stress keep them awake",
+    "summary": "A cleanly dosed 200 mg Suntheanine L-theanine softgel that is third-party tested and non-sedating. It targets the anxious, wired-before-bed state rather than sleep directly, and the supporting sleep evidence is a single small RCT.",
+    "verdict_summary": "Sports Research L-Theanine scores 7.5/10 as our pick for stress-driven sleeplessness. Each softgel provides 200 mg of Suntheanine — the branded, clinically studied form — third-party tested and non-GMO verified, with the dose printed plainly and no proprietary blend. L-theanine works by promoting a calm, alert relaxation rather than sedating you, so it suits people whose racing thoughts keep them awake more than those with true sleep-maintenance problems. The evidence is encouraging but thin: a randomized controlled trial in 30 adults taking 200 mg daily for four weeks found significant improvements in Pittsburgh Sleep Quality Index scores alongside lower anxiety and depression ratings. That is one small study, so temper expectations. At about $0.33 a day it costs more than our magnesium, melatonin, and glycine picks, and the coconut-oil softgels aren't vegetarian. Best for people whose stress and rumination — not physical restlessness — are the barrier to falling asleep.",
+    "pricing_table": [
+      {
+        "plan": "One-time (60 softgels)",
+        "price": "$19.95",
+        "notes": "Brand site; 1 softgel/day = 60 days, about $0.33/day"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does L-theanine make you sleepy?",
+        "answer": "Not directly. L-theanine promotes a calm, relaxed-but-alert state rather than sedation, which is why it doesn't usually cause next-day grogginess. It may help you fall asleep if stress and a racing mind are what keep you awake, but it is not a sedative like melatonin or a sleeping pill."
+      },
+      {
+        "question": "How much L-theanine should I take for sleep?",
+        "answer": "The dose in the main sleep and stress trial is 200 mg per day, which is exactly what one softgel provides. Some people take it in the evening for relaxation; others use it during the day for calm focus. It is well tolerated at these doses."
+      },
+      {
+        "question": "Can you take L-theanine with melatonin or magnesium?",
+        "answer": "There are no well-documented interactions between L-theanine and melatonin or magnesium, and many combination sleep formulas pair them. Start with one product at a time so you know what is working, and check with a clinician if you take sedatives or blood-pressure medication."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "A randomized controlled trial in 30 healthy adults found 200 mg/day of L-theanine for four weeks significantly improved Pittsburgh Sleep Quality Index scores and reduced anxiety and depression ratings.",
+        "source_name": "Hidese et al., L-theanine randomized controlled trial (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/31623400/"
+      },
+      {
+        "claim": "The same trial reported that four weeks of 200 mg L-theanine improved sleep-related measures including sleep latency, sleep disturbance, and use of sleep medication.",
+        "source_name": "Hidese et al., L-theanine randomized controlled trial (PMC full text)",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6836118/"
+      }
+    ],
+    "last_updated": "2026-07-11"
+  },
+  {
+    "id": "prod-olly-sleep-gummies",
+    "slug": "olly-sleep-gummies",
+    "name": "OLLY Sleep Gummies",
+    "category_slug": "sleep",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 6.6,
+    "ratings": {
+      "safety": 7.5,
+      "evidence": 6,
+      "cost_value": 6,
+      "transparency": 6,
+      "support": 7.5
+    },
+    "price_summary": "$13.99 / 50 gummies = 25 servings (~$0.56/day)",
+    "pros": [
+      "Convenient, good-tasting blackberry gummy that pairs 3 mg melatonin with 100 mg L-theanine",
+      "Doses for melatonin and L-theanine are disclosed on the label, not fully hidden in a blend",
+      "Widely available and easy to find in pharmacies and grocery stores",
+      "Responsive direct-to-consumer support and clear on-pack directions"
+    ],
+    "cons": [
+      "Red flag: A 2023 JAMA analysis found 22 of 25 melatonin gummy products were inaccurately labeled, with actual melatonin ranging from 74% to 347% of the stated amount — gummy dosing is the least reliable format",
+      "Botanical doses are sub-therapeutic: chamomile 17 mg, passionflower 17 mg, and lemon balm 16 mg are far below amounts used in research",
+      "Most expensive per night here at about $0.56, and each serving adds 2 g of sugar",
+      "Combination formula makes it impossible to tell which ingredient (if any) is helping you"
+    ],
+    "best_for": "People who want a tasty all-in-one gummy and accept the trade-offs",
+    "summary": "A popular, palatable combination gummy with disclosed melatonin and L-theanine doses but token botanical amounts. It is the priciest and least evidence-backed pick, and gummies are the format most prone to dose inaccuracy.",
+    "verdict_summary": "OLLY Sleep Gummies score 6.6/10 — the lowest here — as the convenient-but-compromised option. Two gummies deliver 3 mg melatonin and 100 mg L-theanine, both disclosed on the label, plus a botanical trio of chamomile (17 mg), passionflower (17 mg), and lemon balm (16 mg) that is far too small to match research doses, making those herbs largely decorative. The bigger concern is format: a 2023 JAMA analysis found 22 of 25 melatonin gummy products were inaccurately labeled, with measured melatonin spanning 74% to 347% of the stated amount, so what you swallow may not be what the panel says. At roughly $0.56 a night it is the most expensive pick, and each serving carries 2 g of added sugar. The combination also makes it impossible to know which ingredient is working. It is best for people who prize taste and convenience and accept those trade-offs; anyone wanting a precise, verified dose should choose a single-ingredient tablet.",
+    "pricing_table": [
+      {
+        "plan": "One-time (50 count / 25 servings)",
+        "price": "$13.99",
+        "notes": "Brand site; 2 gummies per serving, about $0.56/day"
+      },
+      {
+        "plan": "One-time (70 count / 35 servings)",
+        "price": "$17.99",
+        "notes": "Larger bottle lowers per-serving cost slightly"
+      }
+    ],
+    "faq": [
+      {
+        "question": "How much melatonin is in OLLY Sleep gummies?",
+        "answer": "OLLY Sleep contains 3 mg of melatonin per 2-gummy serving, along with 100 mg L-theanine and small amounts of chamomile, passionflower, and lemon balm. Note that independent testing has found melatonin gummies in general often deviate from their labeled dose, so treat the 3 mg as approximate."
+      },
+      {
+        "question": "Are melatonin gummies accurate?",
+        "answer": "Often not. A 2023 JAMA analysis found 22 of 25 melatonin gummy products were inaccurately labeled, with actual melatonin ranging from 74% to 347% of the amount stated. If precise dosing matters to you, a USP-verified tablet is a safer bet than any gummy."
+      },
+      {
+        "question": "Do the herbs in OLLY Sleep actually work?",
+        "answer": "The chamomile, passionflower, and lemon balm are present at roughly 16–17 mg each — well below the doses studied for relaxation — so they mostly serve as marketing. Any effect you feel is likely from the melatonin and L-theanine, not the botanical blend."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "A 2023 JAMA analysis of 25 melatonin gummy products found 22 were inaccurately labeled, with measured melatonin ranging from 74% to 347% of the declared amount and one product containing CBD instead of melatonin.",
+        "source_name": "Cohen et al., Quantity of Melatonin and CBD in Melatonin Gummies (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/37097362/"
+      },
+      {
+        "claim": "L-theanine at 200 mg/day improved sleep quality in a randomized controlled trial; OLLY's 100 mg per serving is half that studied dose.",
+        "source_name": "Hidese et al., L-theanine randomized controlled trial (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/31623400/"
+      }
+    ],
+    "last_updated": "2026-07-11"
+  },
+  {
+    "id": "prod-alli-orlistat",
+    "slug": "alli-orlistat",
+    "name": "Alli (orlistat 60 mg)",
+    "category_slug": "weight-loss",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.5,
+    "ratings": {
+      "safety": 7,
+      "evidence": 8.5,
+      "cost_value": 6.5,
+      "transparency": 9,
+      "support": 6.5
+    },
+    "price_summary": "About $66 for a 120-capsule bottle (roughly a one-month supply at three capsules per day) at major US retailers",
+    "pros": [
+      "The only FDA-approved over-the-counter weight-loss drug, with a single, clearly labeled active ingredient at a known dose",
+      "Backed by large randomized controlled trials rather than marketing testimonials",
+      "Mechanism is well understood: orlistat blocks a portion of dietary fat from being absorbed",
+      "Sold openly at pharmacies with no auto-ship enrollment or subscription trap",
+      "Modest but real average benefit when combined with a reduced-calorie, low-fat diet"
+    ],
+    "cons": [
+      "Gastrointestinal side effects are common and often unpleasant: oily stools, urgent bowel movements, and flatulence, especially with higher-fat meals",
+      "Average weight-loss benefit is modest, not dramatic, and only holds up alongside diet and exercise",
+      "Requires taking a low-fat diet seriously or side effects worsen",
+      "Red flag: The FDA has updated Alli's label to warn of rare cases of severe liver injury and acute kidney injury, so it is not risk-free despite OTC status"
+    ],
+    "best_for": "Evidence-first buyers who want an FDA-approved option and can tolerate GI side effects",
+    "summary": "Alli is the over-the-counter form of orlistat and the only genuinely evidence-backed choice on this list. It offers a modest, clinically documented benefit alongside diet, at the cost of well-known and sometimes disruptive gastrointestinal effects.",
+    "verdict_summary": "Alli earns the top spot not by hype but by data. In a pooled analysis of 16 orlistat trials totaling more than 10,000 participants, orlistat produced about 2.9 kg more weight loss than placebo over a year, and reduced progression to diabetes. It is the only FDA-approved OTC weight-loss aid here, with one labeled active ingredient at a known dose, so you know exactly what you are taking. The trade-offs are real: it works by blocking some dietary fat absorption, which causes oily stools, urgency, and gas, particularly after fatty meals, and the FDA has flagged rare cases of severe liver and kidney injury. The average benefit is meaningful but modest and depends on pairing it with a reduced-calorie, low-fat diet and exercise. For shoppers who value transparency and proven, if unglamorous, results over aggressive marketing, Alli is the most defensible pick in this category by a wide margin.",
+    "pricing_table": [
+      {
+        "plan": "120-capsule bottle (refill pack)",
+        "price": "About $66",
+        "notes": "Roughly a one-month supply at the standard three-capsules-per-day dose; sold at Walmart and other major retailers"
+      },
+      {
+        "plan": "60-capsule starter pack",
+        "price": "About $35-45",
+        "notes": "Smaller trial size; includes a companion guide"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is Alli FDA approved?",
+        "answer": "Yes. Alli (orlistat 60 mg) is the only weight-loss aid on this list that is an FDA-approved over-the-counter drug, cleared for adults 18 and older when used with a reduced-calorie, low-fat diet."
+      },
+      {
+        "question": "How much weight can you lose on Alli?",
+        "answer": "Modestly more than diet alone. Pooled orlistat trials showed roughly 2.9 kg more weight loss than placebo over a year. Individual results vary and depend heavily on diet and activity."
+      },
+      {
+        "question": "What are the side effects of Alli?",
+        "answer": "The most common are gastrointestinal: oily or loose stools, urgent bowel movements, and gas, which worsen with high-fat meals. Rare but serious liver and kidney injury have been reported, so consult a clinician if you have concerns."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "In a pooled meta-analysis of 16 orlistat randomized trials (over 10,000 participants), orlistat reduced weight by about 2.9 kg more than placebo over a year and improved several cardiometabolic markers, while increasing GI side effects.",
+        "source_name": "BMJ meta-analysis of long-term anti-obesity pharmacotherapy (2007)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/18006966/"
+      },
+      {
+        "claim": "Orlistat is a lipase inhibitor that blocks absorption of a portion of dietary fat; consumer information details its use, dosing, and common gastrointestinal side effects.",
+        "source_name": "MedlinePlus: Orlistat",
+        "source_url": "https://medlineplus.gov/druginfo/meds/a601244.html"
+      }
+    ],
+    "last_updated": "2026-07-11"
+  },
+  {
+    "id": "prod-transparent-labs-fat-burner",
+    "slug": "transparent-labs-fat-burner",
+    "name": "Transparent Labs Fat Burner",
+    "category_slug": "weight-loss",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 6.5,
+    "ratings": {
+      "safety": 7,
+      "evidence": 5,
+      "cost_value": 6.5,
+      "transparency": 8.5,
+      "support": 7
+    },
+    "price_summary": "$54.99 for a 60-serving (about 30-day) bottle; a subscribe-and-save option shaves a few dollars off each order",
+    "pros": [
+      "Fully discloses every ingredient and dose with no proprietary blends, which is rare in this category",
+      "Moderate caffeine content (125 mg per serving) is clearly labeled so you can gauge tolerance",
+      "Ingredient doses (e.g., 300 mg green tea extract, 50 mg Capsimax) are in the range used in some published studies",
+      "Reputable brand with third-party testing and a cancel-anytime subscription rather than a hidden rebill"
+    ],
+    "cons": [
+      "No clinical trial exists on the finished product itself; claims rest on individual ingredients",
+      "The evidence for its key ingredients is weak: a Cochrane review found green tea produced a statistically non-significant weight change outside Japan",
+      "Forskolin (ForsLean) is included, but its main trial showed changes in body composition without a significant difference in body weight",
+      "At about $55 a month it is pricier than plain caffeine plus green tea extract bought separately",
+      "Red flag: Marketing frames it as a clinically dosed fat burner, but clinically dosed ingredients are not the same as a product proven to cause weight loss"
+    ],
+    "best_for": "Shoppers who want a fully transparent, no-proprietary-blend stimulant fat burner",
+    "summary": "Transparent Labs Fat Burner is the most honestly labeled product on this list, disclosing every dose. That transparency is genuinely valuable, but the underlying ingredient evidence is thin and there is no trial on the finished product, so expectations should stay modest.",
+    "verdict_summary": "Transparent Labs Fat Burner rates highest among the branded supplements here almost entirely on transparency: it lists every ingredient and dose, avoids proprietary blends, and sells through a cancel-anytime subscription instead of a hidden rebill. That is worth rewarding. The problem is efficacy. There is no clinical trial on the finished product, and the individual ingredients are underwhelming. A Cochrane review of green tea preparations found a statistically non-significant weight change of roughly 0.04 kg outside Japan, and the ForsLean forskolin study it leans on showed shifts in body composition without a significant difference in actual body weight. Caffeine at 125 mg per serving may nudge energy expenditure but is not a weight-loss solution. At about $55 a month, you pay a premium for honest labeling more than proven results. It may support weight management alongside diet and exercise, but treat it as an optional, well-documented stimulant, not a fat-loss guarantee.",
+    "pricing_table": [
+      {
+        "plan": "One-time purchase (60 servings)",
+        "price": "$54.99",
+        "notes": "About a 30-day supply at two servings per day; free shipping over $99"
+      },
+      {
+        "plan": "Subscribe and save",
+        "price": "Roughly $49 per order",
+        "notes": "Discount of about $6; can pause or cancel anytime"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does Transparent Labs Fat Burner actually work?",
+        "answer": "There is no trial on the product itself. Its ingredients, mainly caffeine, green tea extract, forskolin, and capsaicinoids, have modest or mixed evidence, so any effect is likely small and only meaningful with diet and exercise."
+      },
+      {
+        "question": "How much caffeine is in Transparent Labs Fat Burner?",
+        "answer": "About 125 mg of natural caffeine per serving, plus green tea extract, which also contains caffeine. That is roughly a cup of coffee per serving, so factor in your other caffeine intake."
+      },
+      {
+        "question": "Is Transparent Labs Fat Burner a proprietary blend?",
+        "answer": "No, and that is its main strength. Every ingredient and dose is disclosed on the label, unlike many competitors that hide amounts inside proprietary blends."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "A Cochrane review found green tea preparations produced a small, statistically non-significant weight change (mean difference about -0.04 kg outside Japan) and no meaningful effect on weight maintenance.",
+        "source_name": "Cochrane Review: Green tea for weight loss (2012)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/23235664/"
+      },
+      {
+        "claim": "A systematic review of capsaicinoids estimated they increase energy expenditure by roughly 50 kcal per day, a small effect that would only produce clinically meaningful weight loss over one to two years.",
+        "source_name": "Appetite: Capsaicinoids and weight management systematic review (2012)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/22634197/"
+      },
+      {
+        "claim": "In the commonly cited forskolin (ForsLean) trial, forskolin altered body composition but did not produce a statistically significant reduction in overall body weight versus placebo.",
+        "source_name": "Obesity Research: Forskolin trial in overweight men (2005)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/16129715/"
+      }
+    ],
+    "last_updated": "2026-07-11"
+  },
+  {
+    "id": "prod-instant-knockout",
+    "slug": "instant-knockout",
+    "name": "Instant Knockout Cut",
+    "category_slug": "weight-loss",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 5.3,
+    "ratings": {
+      "safety": 6,
+      "evidence": 4.5,
+      "cost_value": 5,
+      "transparency": 7,
+      "support": 4.5
+    },
+    "price_summary": "$65 for a one-month box (120 capsules); a four-month Ultimate Cutting Stack runs about $195",
+    "pros": [
+      "Discloses its ingredient doses on the label rather than hiding them in a proprietary blend",
+      "Includes ingredients with at least some human data, such as green tea extract and cayenne (capsaicinoids)",
+      "Vegan-friendly capsules and a recognizable brand aimed at athletes cutting weight"
+    ],
+    "cons": [
+      "High caffeine load across the daily four-capsule dose can cause jitteriness, insomnia, and raised heart rate",
+      "No clinical trial on the finished product; efficacy claims are extrapolated from single ingredients",
+      "At $65 per month it is expensive for what is essentially caffeine, green tea extract, glucomannan, and cayenne",
+      "Glucomannan, a headline ingredient, showed a statistically non-significant weight difference versus placebo in a meta-analysis",
+      "Red flag: The refund policy only covers unused, unopened, sealed products, so there is effectively no money-back guarantee if you actually try it"
+    ],
+    "best_for": "Caffeine-tolerant gym-goers who want a labeled-dose stimulant during a cut",
+    "summary": "Instant Knockout Cut is a caffeine-forward fat burner with disclosed doses and a fitness-focused brand. Its ingredients have only modest evidence, the caffeine load is high, and its refund policy excludes opened products, so value and support are weak.",
+    "verdict_summary": "Instant Knockout Cut is marketed to athletes cutting weight, and it does one thing well: it lists its doses instead of hiding them in a proprietary blend. Beyond that, the case weakens. It is a caffeine-heavy stimulant, and its other headline ingredients underperform in the literature. A meta-analysis of glucomannan found a statistically non-significant weight difference of about -0.22 kg versus placebo, and green tea extract fares little better. There is no trial on the finished product, so the marketing rests on extrapolation. At $65 for a one-month box it is costly for the formula, and the refund policy is the real sting: it only applies to unused, unopened, sealed products, which means trying the product forfeits any money back. It may support weight management alongside diet and exercise, but the high caffeine content can cause jitteriness and sleep problems. For most people, cheaper caffeine and honest expectations would serve better.",
+    "pricing_table": [
+      {
+        "plan": "One-month box (120 capsules)",
+        "price": "$65",
+        "notes": "Standard dose is four capsules per day"
+      },
+      {
+        "plan": "Ultimate Cutting Stack (four-month supply)",
+        "price": "About $195",
+        "notes": "Bulk discount off the per-box price"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does Instant Knockout actually work?",
+        "answer": "There is no trial on the product itself. Its ingredients, mainly caffeine, green tea extract, glucomannan, and cayenne, have modest or non-significant evidence, so any effect is small and depends on diet and training."
+      },
+      {
+        "question": "Does Instant Knockout have a money-back guarantee?",
+        "answer": "Not a meaningful one. The refund policy only covers unused, unopened, sealed products within a limited window, so once you start taking it you cannot get a refund."
+      },
+      {
+        "question": "How much caffeine is in Instant Knockout?",
+        "answer": "It is a caffeine-forward formula, and the full daily four-capsule dose delivers a substantial amount, enough to cause jitteriness or insomnia in caffeine-sensitive people. Account for coffee and other sources."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "A meta-analysis of eight glucomannan randomized trials found a statistically non-significant difference in weight loss versus placebo (mean difference about -0.22 kg).",
+        "source_name": "Journal of the American College of Nutrition: Glucomannan meta-analysis (2014)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/24533610/"
+      },
+      {
+        "claim": "A dose-response meta-analysis of 13 RCTs found caffeine intake was associated with only modest reductions in weight, BMI, and fat mass.",
+        "source_name": "Critical Reviews in Food Science and Nutrition: Caffeine and weight loss (2019)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/30335479/"
+      }
+    ],
+    "last_updated": "2026-07-11"
+  },
+  {
+    "id": "prod-phenq",
+    "slug": "phenq",
+    "name": "PhenQ",
+    "category_slug": "weight-loss",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 5,
+    "ratings": {
+      "safety": 5.5,
+      "evidence": 4,
+      "cost_value": 5.5,
+      "transparency": 5,
+      "support": 6
+    },
+    "price_summary": "$69.99 per bottle, with heavily promoted multi-bottle bundles (e.g., buy-two-get-one around $139.99)",
+    "pros": [
+      "Offers a genuine 60-day money-back guarantee (return terms require original packaging, with a small handling fee)",
+      "Includes caffeine and chromium, ingredients with at least some human data",
+      "Widely available with clear bundle pricing on the official site"
+    ],
+    "cons": [
+      "Relies on a proprietary blend (a-Lacys Reset) that obscures exact ingredient doses",
+      "Chromium, one of its ingredients, showed only a debatable ~1.1 kg effect of low-quality evidence in a Cochrane review",
+      "No independent clinical trial on the PhenQ product itself; company-cited research is on individual components",
+      "Aggressive bundle upsells push large multi-bottle purchases far beyond a trial size",
+      "Red flag: The brand's marketing implies dramatic fat burning, but a systematic review of 315 supplement trials found only 16 showed any significant weight difference versus control"
+    ],
+    "best_for": "Buyers drawn to bundle deals who want a money-back guarantee despite thin evidence",
+    "summary": "PhenQ is a popular multi-ingredient fat burner sold through bundle offers with a real 60-day guarantee. Its reliance on a proprietary blend and the weak evidence behind its ingredients keep expectations and its score low.",
+    "verdict_summary": "PhenQ is one of the most heavily marketed direct-response fat burners, and it does offer a real 60-day money-back guarantee, which sets it slightly apart. But the substance is thin. Its centerpiece is a proprietary blend called a-Lacys Reset, which hides exact doses, and the broader formula leans on ingredients with weak data. A Cochrane review of chromium picolinate found only a debatable roughly 1.1 kg effect built on low-quality evidence. There is no independent trial on the finished PhenQ product; the research the company cites is on isolated components. The marketing implies dramatic results, yet a systematic review of 315 randomized supplement trials found only 16 showed any statistically significant weight difference versus control. At $69.99 a bottle with pushy multi-bottle upsells, the value case is shaky. It may support weight management alongside diet and exercise, but nothing here justifies the confident promises, so approach the bundles with a cool head.",
+    "pricing_table": [
+      {
+        "plan": "One bottle",
+        "price": "$69.99",
+        "notes": "About a one-month supply; 60-day money-back guarantee"
+      },
+      {
+        "plan": "Two bottles plus one free",
+        "price": "About $139.99",
+        "notes": "Most-promoted bundle; larger commitment"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is PhenQ FDA approved?",
+        "answer": "No. PhenQ is a dietary supplement, and dietary supplements are not FDA-approved for effectiveness before sale. It legally cannot claim to treat or cure any condition."
+      },
+      {
+        "question": "Does PhenQ actually work?",
+        "answer": "There is no independent trial on PhenQ itself. Its ingredients have weak or debatable evidence, so any effect is likely small and only meaningful alongside a reduced-calorie diet and exercise."
+      },
+      {
+        "question": "Does PhenQ have a money-back guarantee?",
+        "answer": "Yes, a 60-day money-back guarantee, though the stated terms require returning products in original packaging and deduct a small handling fee. Read the return conditions before buying a large bundle."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "A Cochrane review of chromium picolinate for overweight or obese adults found an effect on body weight of debatable clinical relevance, about -1.1 kg, based on low-quality evidence.",
+        "source_name": "Cochrane Review: Chromium picolinate supplementation (2013)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/24293292/"
+      },
+      {
+        "claim": "A systematic review of 315 randomized trials of purported weight-loss supplements found only 16 demonstrated a statistically significant weight difference versus control (range about 0.3 to 4.93 kg).",
+        "source_name": "Obesity: Systematic review of dietary supplements for weight loss (2021)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/34159755/"
+      }
+    ],
+    "last_updated": "2026-07-11"
+  },
+  {
+    "id": "prod-java-burn",
+    "slug": "java-burn",
+    "name": "Java Burn",
+    "category_slug": "weight-loss",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 4.4,
+    "ratings": {
+      "safety": 5,
+      "evidence": 3.5,
+      "cost_value": 4.5,
+      "transparency": 4,
+      "support": 6
+    },
+    "price_summary": "Sold in pouch bundles from about $49 to $79 per pouch (e.g., $207 for three pouches), plus shipping on smaller orders",
+    "pros": [
+      "Advertises a 60-day money-back guarantee, including on used pouches, processed through a third-party platform",
+      "Contains green tea extract and chromium, ingredients with at least some published human data",
+      "Tasteless powder format that mixes into coffee is convenient for some users"
+    ],
+    "cons": [
+      "Uses a proprietary blend that does not disclose the exact dose of each ingredient",
+      "No clinical trial exists on the Java Burn product, and its green-tea-extract basis has weak evidence",
+      "Green tea extract carries a documented signal for rare liver injury, per NIH LiverTox",
+      "Only sold through the official funnel with heavy upsells and per-pouch pricing that rewards large orders",
+      "Red flag: Marketing promises it boosts metabolism to burn fat, but the underlying green tea evidence shows a statistically non-significant weight change in pooled trials"
+    ],
+    "best_for": "Coffee drinkers curious about a powder add-in despite very thin evidence",
+    "summary": "Java Burn is a powdered proprietary-blend supplement sold through a direct-response funnel to mix into coffee. With no product trial, an undisclosed formula, and only weak ingredient evidence, it scores near the bottom despite a stated guarantee.",
+    "verdict_summary": "Java Burn is a classic direct-response product: a tasteless powder you stir into coffee, sold only through an official funnel with per-pouch pricing that pushes large orders. It advertises a 60-day money-back guarantee, even on used pouches, which is a point in its favor. Almost everything else counts against it. The formula is a proprietary blend that hides individual doses, and there is no clinical trial on the product itself. Its green-tea-extract foundation is weak: a Cochrane review found green tea produced a statistically non-significant weight change of roughly 0.04 kg outside Japan. Green tea extract also carries a documented, if rare, liver-injury signal in the NIH LiverTox database, which the marketing never mentions. The copy promises a metabolism boost that melts fat, a claim the evidence simply does not support. It may, at best, support weight management alongside diet and exercise, but on transparency and evidence this is among the weakest options here.",
+    "pricing_table": [
+      {
+        "plan": "Two pouches",
+        "price": "About $158 ($79 per pouch)",
+        "notes": "Plus shipping; 60-day supply"
+      },
+      {
+        "plan": "Six pouches",
+        "price": "About $294 ($49 per pouch)",
+        "notes": "Free shipping; largest upsell tier"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does Java Burn actually work?",
+        "answer": "There is no trial on Java Burn, and its green-tea-extract basis showed a statistically non-significant weight change in pooled studies. Any effect is likely negligible and only relevant alongside diet and exercise."
+      },
+      {
+        "question": "Is Java Burn safe?",
+        "answer": "The proprietary blend hides doses, which complicates safety assessment. Green tea extract, a key ingredient, has a documented rare signal for liver injury, so anyone with liver concerns should be cautious and consult a clinician."
+      },
+      {
+        "question": "Does Java Burn have a money-back guarantee?",
+        "answer": "It advertises a 60-day money-back guarantee processed through a third-party platform, said to apply even to used pouches. Confirm the current return terms at checkout, as they exclude shipping and handling."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "A Cochrane review found green tea preparations induced a small, statistically non-significant weight change and no significant effect on weight maintenance.",
+        "source_name": "Cochrane Review: Green tea for weight loss (2012)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/23235664/"
+      },
+      {
+        "claim": "NIH LiverTox documents that green tea extract, especially in concentrated supplement form, has been linked to rare cases of clinically apparent liver injury.",
+        "source_name": "NIH LiverTox: Green Tea",
+        "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK547925/"
+      }
+    ],
+    "last_updated": "2026-07-11"
+  },
+  {
+    "id": "prod-ikaria-lean-belly-juice",
+    "slug": "ikaria-lean-belly-juice",
+    "name": "Ikaria Lean Belly Juice",
+    "category_slug": "weight-loss",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 4,
+    "ratings": {
+      "safety": 4.5,
+      "evidence": 3,
+      "cost_value": 4,
+      "transparency": 3.5,
+      "support": 6
+    },
+    "price_summary": "$69 per bottle (30-day), dropping to about $59 or $39 per bottle in three- and six-bottle bundles, sold via ClickBank",
+    "pros": [
+      "Advertises a long 180-day money-back guarantee administered through the ClickBank reseller platform",
+      "Stimulant-free powder, which may suit people who cannot tolerate caffeine-based fat burners",
+      "Contains individual components (such as green tea polyphenols) that have been studied in isolation"
+    ],
+    "cons": [
+      "Relies on undisclosed proprietary polyphenol and probiotic blends that hide every ingredient dose",
+      "No clinical trial exists on the product, and no credible evidence supports the specific formula",
+      "Sold exclusively through a high-pressure ClickBank funnel known for aggressive upsells; verify any recurring or rebill terms at checkout",
+      "Green tea polyphenols carry a rare liver-injury signal documented by NIH LiverTox",
+      "Red flag: The official site literally promises your excess fat will melt from your frame, a disease-adjacent fat-loss claim with no supporting evidence for the product"
+    ],
+    "best_for": "Caffeine-avoidant shoppers curious about the product despite negligible evidence",
+    "summary": "Ikaria Lean Belly Juice is a stimulant-free proprietary-blend powder sold through a ClickBank funnel with dramatic fat-melting claims. With no product evidence, hidden doses, and aggressive marketing, it lands at the bottom of our list despite a long stated guarantee.",
+    "verdict_summary": "Ikaria Lean Belly Juice is the archetype of a direct-response weight-loss product, and it ranks last here. It is sold only through a ClickBank funnel that promises, in its own words, that your excess fat will melt from your frame, an unsupported and disease-adjacent claim. The formula is built on undisclosed proprietary polyphenol and probiotic blends, so you cannot see a single ingredient dose, and no clinical trial exists on the product. Broader context is damning: a systematic review of 315 randomized supplement trials found only 16 showed any statistically significant weight difference versus control. Its green tea polyphenols also carry a rare liver-injury signal in the NIH LiverTox database. The one genuine positive is a 180-day money-back guarantee via the reseller, though ClickBank funnels are notorious for upsells, so confirm any recurring charges at checkout. At $69 a bottle for a hidden formula with no evidence, this is a hard pass on the merits.",
+    "pricing_table": [
+      {
+        "plan": "One bottle (30-day)",
+        "price": "$69",
+        "notes": "Plus shipping; sold via ClickBank"
+      },
+      {
+        "plan": "Six bottles (180-day)",
+        "price": "About $234 ($39 per bottle)",
+        "notes": "Free shipping; largest bundle tier"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does Ikaria Lean Belly Juice actually work?",
+        "answer": "There is no clinical trial on the product and no credible evidence for its specific formula. The dramatic fat-melting claims are unsupported. Any effect would be minimal and only relevant alongside diet and exercise."
+      },
+      {
+        "question": "Is Ikaria Lean Belly Juice a scam?",
+        "answer": "We cannot label it that, but it shows the hallmarks buyers should scrutinize: a ClickBank funnel, hidden proprietary blends, exaggerated claims, and heavy upsells. There is a stated 180-day guarantee, but verify all recurring charges before purchasing."
+      },
+      {
+        "question": "Is Ikaria Lean Belly Juice FDA approved?",
+        "answer": "No. It is a dietary supplement, which the FDA does not approve for effectiveness before sale. It cannot legally claim to treat or cure any disease, despite its marketing tone."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "A systematic review of 315 randomized trials of purported weight-loss supplements found only 16 showed a statistically significant weight difference versus control, underscoring how weak the category's evidence is.",
+        "source_name": "Obesity: Systematic review of dietary supplements for weight loss (2021)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/34159755/"
+      },
+      {
+        "claim": "NIH LiverTox documents rare cases of clinically apparent liver injury linked to concentrated green tea extract, a component of many polyphenol-based weight-loss formulas.",
+        "source_name": "NIH LiverTox: Green Tea",
+        "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK547925/"
+      }
+    ],
+    "last_updated": "2026-07-11"
+  },
+  {
+    "id": "prod-ro-body-glp1",
+    "slug": "ro-body-glp1",
+    "name": "Ro (Ro Body)",
+    "category_slug": "weight-loss",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 8.4,
+    "ratings": {
+      "safety": 8,
+      "evidence": 9,
+      "cost_value": 7.5,
+      "transparency": 9,
+      "support": 9
+    },
+    "price_summary": "$39 first month, then $149/mo membership ($74/mo prepaid annually) + medication: Wegovy pill from $149/mo, Wegovy pen from $199/mo, Zepbound KwikPen $299-$449/mo cash-pay",
+    "pros": [
+      "Prescribes only FDA-approved GLP-1s (Wegovy, Zepbound, Ozempic, orforglipron) since the compounding wind-down",
+      "Medication priced at manufacturer direct-pay rates, matching NovoCare, LillyDirect, and TrumpRx",
+      "Insurance concierge checks coverage and handles prior-authorization paperwork at no extra charge",
+      "Transparent public pricing page listing membership and every medication tier separately",
+      "Membership fee only begins if you are found eligible for treatment"
+    ],
+    "cons": [
+      "Red flag: Lilly's 45-day refill check-in window applies to discounted high-dose Zepbound; miss it and refills reprice at $499-$699/month full cash price",
+      "Monthly-plan membership of $149/month is billed separately and adds meaningfully to total cost versus going direct to NovoCare or LillyDirect yourself",
+      "Intake is primarily an asynchronous questionnaire; routine baseline lab work is not required",
+      "Best pricing requires prepaying an annual membership up front"
+    ],
+    "best_for": "Cash-pay patients who want branded GLP-1s at manufacturer direct rates with insurance-coordination help",
+    "summary": "Ro Body pairs a telehealth membership with FDA-approved GLP-1 medications sold at manufacturer direct-pay prices, plus an insurance concierge. Membership is $39 the first month and up to $149/month after, with medication billed separately. All medications require a provider evaluation and prescription.",
+    "verdict_summary": "Ro Body is Ro's weight-loss membership: $39 for the first month, then $149/month on a monthly plan or as low as $74/month when you prepay annually, with GLP-1 medication always billed separately. Ro now prescribes only FDA-approved medications and passes through manufacturer direct-pay pricing, with Wegovy pen from $199/month, Wegovy pill from $149/month, and Zepbound KwikPen at $299-$449/month, the same rates as NovoCare and LillyDirect. An insurance concierge handles coverage checks and prior authorizations for insured patients. In the STEP 1 trial, semaglutide 2.4 mg produced a 14.9% mean body-weight reduction over 68 weeks versus 2.4% with placebo; that result belongs to the medication, not to Ro. Watch the fine print: intake is largely questionnaire-based, routine baseline labs are not required, and Lilly's 45-day refill check-in window means a missed check-in reprices high-dose Zepbound refills at $499-$699. A prescription after provider evaluation is required, and eligibility is not guaranteed.",
+    "pricing_table": [
+      {
+        "plan": "Ro Body membership",
+        "price": "$39 first month, then $149/mo (monthly) or ~$74/mo prepaid annually",
+        "notes": "Provider evaluation, coaching, insurance concierge; medication billed separately"
+      },
+      {
+        "plan": "Wegovy (pill or pen), cash-pay",
+        "price": "Pill $149 first month then $199-$299/mo; pen $199 first month then $199-$399/mo",
+        "notes": "NovoCare pass-through pricing; Prepay & Save discounts on annual plans"
+      },
+      {
+        "plan": "Zepbound KwikPen, cash-pay",
+        "price": "$299/mo (2.5 mg), $399/mo (5 mg), $449/mo (7.5-15 mg with manufacturer offer)",
+        "notes": "LillyDirect pass-through; 45-day refill check-in required to keep discounted high-dose pricing"
+      }
+    ],
+    "faq": [
+      {
+        "question": "How much is Wegovy through Ro?",
+        "answer": "Cash-pay Wegovy through Ro starts at $149 for the first month of the pill ($199-$299/month thereafter) and $199 for the first month of the pen ($199-$399/month thereafter, dose-dependent), matching NovoCare direct pricing. The Ro Body membership ($39 first month, then up to $149/month) is billed separately, and a prescription from a Ro-affiliated provider is required."
+      },
+      {
+        "question": "Does Ro still sell compounded semaglutide?",
+        "answer": "No. Following the FDA's 2025 shortage resolution and the compounding wind-down, Ro's weight-loss program lists only FDA-approved medications: Wegovy, Zepbound, Ozempic (off-label), and orforglipron."
+      },
+      {
+        "question": "Does Ro accept insurance for GLP-1 medication?",
+        "answer": "Ro's membership fee is cash-pay, but its insurance concierge will check your coverage for free and handle prior authorizations, so insured patients may pay only their copay for medication picked up at a pharmacy."
+      },
+      {
+        "question": "What happens if I miss Ro's 45-day refill check-in for Zepbound?",
+        "answer": "The discounted $449/month pricing on 7.5-15 mg Zepbound doses depends on completing a refill check-in within 45 days of your last delivery. Miss the window and Ro states refills are charged at full price: $499 for 7.5 mg and $699 for 10-15 mg."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "In the STEP 1 randomized trial, adults taking semaglutide 2.4 mg weekly had a mean body-weight change of -14.9% at week 68, versus -2.4% with placebo.",
+        "source_name": "STEP 1 trial (NEJM 2021): Once-Weekly Semaglutide in Adults with Overweight or Obesity",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/33567185/"
+      },
+      {
+        "claim": "In SURMOUNT-1, tirzepatide produced mean body-weight reductions of 15.0% (5 mg), 19.5% (10 mg), and 20.9% (15 mg) at 72 weeks.",
+        "source_name": "SURMOUNT-1 trial (NEJM 2022): Tirzepatide Once Weekly for the Treatment of Obesity",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/35658024/"
+      },
+      {
+        "claim": "Semaglutide injection is a prescription-only medication and carries a boxed warning about thyroid C-cell tumors observed in rodent studies.",
+        "source_name": "MedlinePlus: Semaglutide Injection",
+        "source_url": "https://medlineplus.gov/druginfo/meds/a618008.html"
+      }
+    ],
+    "last_updated": "2026-07-11"
+  },
+  {
+    "id": "prod-weightwatchers-clinic-glp1",
+    "slug": "weightwatchers-clinic-glp1",
+    "name": "WeightWatchers Clinic (WW Med+)",
+    "category_slug": "weight-loss",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 8.3,
+    "ratings": {
+      "safety": 9,
+      "evidence": 9,
+      "cost_value": 7,
+      "transparency": 7,
+      "support": 8
+    },
+    "price_summary": "$25 first month, then $74/mo Med+ membership on a 12-month plan; GLP-1 medication billed separately (insurance or cash-pay via manufacturer programs)",
+    "pros": [
+      "Prescribes only FDA-approved medications (Wegovy, Zepbound, Saxenda, Wegovy pill); never sold mass-compounded GLP-1s as its core offer",
+      "Dedicated insurance coordinator calls your insurer, manages pre-authorizations, and handles refills",
+      "Med+ includes the GLP-1 Success Program, care-team check-ins, workshops, and the WW behavioral app",
+      "Clinician-led screening determines whether medication is appropriate before you are charged ongoing fees"
+    ],
+    "cons": [
+      "Red flag: the 12-month Med+ plan auto-renews for another 12-month period at the same monthly rate, and the parent company only emerged from Chapter 11 bankruptcy in mid-2025",
+      "Medication prices are not published on the WW site; total cost is hard to estimate before signing up",
+      "Its headline claim that Clinic members lose 21% of body weight at 12 months comes from an internal observational study of 3,250 patients, not a randomized trial",
+      "Effectively a 12-month commitment to get the advertised $25 first-month rate"
+    ],
+    "best_for": "Insured patients who want hands-on prior-authorization help plus a structured behavioral program",
+    "summary": "WeightWatchers Clinic combines telehealth prescribing of FDA-approved GLP-1s with WW's behavioral program and a dedicated insurance coordinator. Med+ membership is $25 for the first month on a 12-month plan, then $74/month, with medication billed separately. Prescriptions depend on clinician eligibility screening.",
+    "verdict_summary": "WeightWatchers Clinic (built from the 2023 Sequence acquisition) pairs telehealth prescribing with WW's behavioral program. The Med+ membership runs $25 for the first month on a 12-month plan, then $74/month, with medication always billed separately. The clinic prescribes only FDA-approved medications, including Wegovy, Zepbound, Saxenda, and the new Wegovy pill, and a dedicated insurance coordinator manages prior authorizations and refills, a genuine differentiator for insured patients. WeightWatchers filed a prepackaged Chapter 11 in May 2025 and relisted in July 2025; it operates today, but the restructuring is worth knowing about before committing to a 12-month plan that auto-renews for another 12 months. WW cites internal data of 21% average weight loss at 12 months; treat that as company-reported, not trial evidence. In the randomized SCALE trial, liraglutide 3.0 mg produced 8.0% mean weight loss at 56 weeks versus 2.6% with placebo. All medications require eligibility screening and a clinician's prescription.",
+    "pricing_table": [
+      {
+        "plan": "Med+ membership (12-month plan)",
+        "price": "$25 first month, then $74/mo",
+        "notes": "Clinician visits, insurance coordination, GLP-1 Success Program, WW app; auto-renews for another 12 months; medication not included"
+      },
+      {
+        "plan": "GLP-1 medication",
+        "price": "Copay with insurance; cash-pay via manufacturer direct programs (varies by drug and dose)",
+        "notes": "Wegovy, Zepbound, Saxenda, Wegovy pill; insurance coordinator pursues coverage first"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is WeightWatchers Clinic still in business after the bankruptcy?",
+        "answer": "Yes. WeightWatchers completed a prepackaged Chapter 11 restructuring and relisted in July 2025, and the WW Clinic telehealth program (Med+) is actively enrolling as of July 2026. The bankruptcy restructured debt; clinical operations continued throughout."
+      },
+      {
+        "question": "How much is WeightWatchers Clinic per month?",
+        "answer": "The Med+ membership is $25 for your first month with a 12-month plan, then $74/month for the remainder of the plan. GLP-1 medication is billed separately, through insurance or cash-pay manufacturer programs."
+      },
+      {
+        "question": "Does WeightWatchers Clinic take insurance for GLP-1s?",
+        "answer": "The membership itself is self-pay, but an assigned insurance coordinator works with your insurer on coverage and pre-authorizations for the medication, and cash-pay options exist when coverage is denied."
+      },
+      {
+        "question": "Does WeightWatchers Clinic prescribe compounded semaglutide?",
+        "answer": "No. WW states it prescribes only FDA-approved weight-loss medications such as Wegovy, Zepbound, and Saxenda, plus off-label options like metformin where appropriate."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "In the SCALE randomized trial, liraglutide 3.0 mg daily produced a mean weight loss of 8.0% at 56 weeks versus 2.6% with placebo.",
+        "source_name": "SCALE trial (NEJM 2015): 3.0 mg Liraglutide in Weight Management",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/26132939/"
+      },
+      {
+        "claim": "Semaglutide 2.4 mg weekly produced a 14.9% mean body-weight reduction at 68 weeks in the randomized STEP 1 trial.",
+        "source_name": "STEP 1 trial (NEJM 2021): Once-Weekly Semaglutide in Adults with Overweight or Obesity",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/33567185/"
+      },
+      {
+        "claim": "Tirzepatide injection is prescription-only and requires medical supervision, with dose titration managed by a licensed prescriber.",
+        "source_name": "MedlinePlus: Tirzepatide Injection",
+        "source_url": "https://medlineplus.gov/druginfo/meds/a622044.html"
+      }
+    ],
+    "last_updated": "2026-07-11"
+  },
+  {
+    "id": "prod-sesame-weight-loss-glp1",
+    "slug": "sesame-weight-loss-glp1",
+    "name": "Sesame (Success by Sesame)",
+    "category_slug": "weight-loss",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 8.2,
+    "ratings": {
+      "safety": 8,
+      "evidence": 8.5,
+      "cost_value": 9,
+      "transparency": 8,
+      "support": 6.5
+    },
+    "price_summary": "$99/mo program ($59/mo with annual plan) incl. labs and video visits + medication: Wegovy pill $149-$299/mo, Wegovy pen $349/mo standard self-pay, Zepbound KwikPen $299-$698/mo",
+    "pros": [
+      "Labs are included in the program fee, which is rare among GLP-1 telehealth programs",
+      "Synchronous video visits with a dedicated clinician rather than questionnaire-only intake",
+      "Insurance accepted for medications, with copays as low as $25/month for covered patients",
+      "Cash-pay medication prices published per dose and aligned with NovoCare/LillyDirect direct rates",
+      "Offers the newest FDA-approved oral GLP-1, orforglipron (Foundayo), from $149/month"
+    ],
+    "cons": [
+      "Red flag: Sesame is a marketplace where clinicians set their own prices, so the advertised $59-$99/month rate is a floor, not a guarantee, and care continuity depends on the individual provider you book",
+      "Annual plan needed for the lowest $59/month rate; month-to-month costs $99",
+      "Site FAQ still cites an introductory Wegovy/Ozempic pricing offer whose stated terms expired June 30, 2026, so confirm current pricing before enrolling",
+      "Higher Zepbound doses reach $698/month cash-pay, among the priciest tiers in this directory"
+    ],
+    "best_for": "Budget-conscious patients who want labs and live video visits included in a low program fee",
+    "summary": "Success by Sesame bundles video visits, messaging, and lab work into a program starting at $59-$99/month, with FDA-approved GLP-1s billed separately at manufacturer-aligned cash prices or through insurance. As a marketplace, individual clinicians set their own prices. All medications require a prescription after clinician evaluation.",
+    "verdict_summary": "Success by Sesame is one of the cheaper full-service programs: $99/month billed monthly or $59/month on an annual plan, and unlike most rivals the subscription includes lab work alongside video visits and messaging. Sesame accepts insurance for medications, and cash-pay prices track manufacturer direct rates: Wegovy pill $149-$299/month, Wegovy pen $349/month standard self-pay after a $199 introductory period, Zepbound KwikPen $299-$698/month by dose, and the new oral GLP-1 orforglipron (Foundayo) from $149/month. Because Sesame is a marketplace, clinicians set their own visit prices, so your actual subscription rate can vary by provider, and continuity depends on who you book. Note that the site's FAQ still describes an introductory Wegovy offer whose stated terms ran through June 30, 2026. In SURMOUNT-1, tirzepatide produced up to 20.9% mean body-weight reduction at 72 weeks at the 15 mg dose; that is medication trial data, not a Sesame outcome. Prescriptions always require a licensed clinician's evaluation.",
+    "pricing_table": [
+      {
+        "plan": "Success by Sesame program",
+        "price": "$99/mo month-to-month; $59/mo with annual plan",
+        "notes": "Video visits, unlimited messaging, and labs included; clinicians set their own prices so rates can vary"
+      },
+      {
+        "plan": "Wegovy, cash-pay",
+        "price": "Pill $149/mo (1.5/4 mg) or $299/mo (9/25 mg); pen $199/mo first two months, then $349/mo",
+        "notes": "Intro pen offer terms listed as valid through June 30, 2026; with insurance as low as $25/mo"
+      },
+      {
+        "plan": "Zepbound KwikPen / Foundayo (orforglipron), cash-pay",
+        "price": "Zepbound $299-$698/mo by dose; Foundayo $149-$349/mo by dose",
+        "notes": "Dose-tiered LillyDirect-aligned pricing; prescription required"
+      }
+    ],
+    "faq": [
+      {
+        "question": "How much is the Sesame weight loss program?",
+        "answer": "The Success by Sesame subscription starts at $59/month with an annual plan or $99/month billed monthly, and includes video visits, messaging, and labs. Medication is separate: for example, cash-pay Wegovy pills run $149-$299/month and Zepbound KwikPens $299-$698/month depending on dose."
+      },
+      {
+        "question": "Does Sesame include lab work?",
+        "answer": "Yes. Lab testing to monitor your treatment is included in the Success by Sesame subscription fee, which most competing GLP-1 telehealth programs do not offer."
+      },
+      {
+        "question": "How much is Zepbound through Sesame?",
+        "answer": "Without insurance, the Zepbound KwikPen through Sesame is $299/month at 2.5 mg, $398/month at 5 mg, $499/month at 7.5 mg, and $698/month at 10-15 mg. With insurance it can be as low as $25/month. A clinician must prescribe it after evaluating your eligibility."
+      },
+      {
+        "question": "Does Sesame prescribe compounded semaglutide?",
+        "answer": "Sesame's weight-loss program lists FDA-approved medications: Wegovy pill and pen, Ozempic, Zepbound, and Foundayo (orforglipron). It is not built around compounded GLP-1s."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Tirzepatide produced mean body-weight reductions of 15.0-20.9% at 72 weeks across the 5-15 mg doses in the SURMOUNT-1 randomized trial.",
+        "source_name": "SURMOUNT-1 trial (NEJM 2022): Tirzepatide Once Weekly for the Treatment of Obesity",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/35658024/"
+      },
+      {
+        "claim": "Semaglutide 2.4 mg weekly produced a 14.9% mean body-weight reduction at 68 weeks versus 2.4% for placebo in STEP 1.",
+        "source_name": "STEP 1 trial (NEJM 2021): Once-Weekly Semaglutide in Adults with Overweight or Obesity",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/33567185/"
+      },
+      {
+        "claim": "Tirzepatide is available only by prescription, and treatment requires medical evaluation and supervised dose titration.",
+        "source_name": "MedlinePlus: Tirzepatide Injection",
+        "source_url": "https://medlineplus.gov/druginfo/meds/a622044.html"
+      }
+    ],
+    "last_updated": "2026-07-11"
+  },
+  {
+    "id": "prod-hims-hers-weight-loss-glp1",
+    "slug": "hims-hers-weight-loss-glp1",
+    "name": "Hims & Hers Weight Loss",
+    "category_slug": "weight-loss",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.7,
+    "ratings": {
+      "safety": 7.5,
+      "evidence": 8,
+      "cost_value": 8,
+      "transparency": 7,
+      "support": 7.5
+    },
+    "price_summary": "$39 first month, then $149/mo membership + medication: Wegovy pill from $149/mo, Wegovy pen from $199/mo, Zepbound vial/KwikPen from $299/mo cash-pay",
+    "pros": [
+      "Branded FDA-approved lineup post-settlement: Wegovy pill and pen, Ozempic, Zepbound vial and KwikPen, Foundayo",
+      "Cash-pay medication prices aligned with manufacturer direct programs, starting at $149/month",
+      "24/7 provider messaging and app-based check-ins included in membership",
+      "Wide state coverage and fast, fully online intake"
+    ],
+    "cons": [
+      "Red flag: Hims marketed compounded semaglutide at scale until Novo Nordisk's February 2026 patent lawsuit; it exited compounding via the March 9, 2026 settlement, and grandfathered compounded patients are being transitioned off through mid-2026",
+      "Membership is billed separately, does not include medication, and 'does not include or guarantee a prescription'",
+      "Asynchronous-first model: no routine baseline labs and typically no live video visit unless requested or state-required",
+      "Membership auto-renews at $149/month after the $39 first-month teaser"
+    ],
+    "best_for": "Existing Hims/Hers users who want branded GLP-1s with app-first, async care",
+    "summary": "Hims & Hers offers branded GLP-1s (Wegovy, Ozempic, Zepbound, Foundayo) from $149/month medication cost plus a $39-then-$149/month membership, after exiting compounded semaglutide in a March 2026 settlement with Novo Nordisk. Intake is async-first, and a provider evaluation and prescription are required.",
+    "verdict_summary": "Hims & Hers sells weight-loss care through a $39 first-month membership that renews at $149/month, with medication billed separately at what it calls no-markup prices: Wegovy pill or Ozempic pill from $149/month, Wegovy pen from $199/month, and Zepbound vials or KwikPens from $299/month cash-pay. The company built its weight business on cheap compounded semaglutide, then exited compounding for new customers after settling Novo Nordisk's patent lawsuit on March 9, 2026; it now distributes branded GLP-1s, with remaining compounded patients being phased out. Care is asynchronous-first with 24/7 messaging; routine baseline labs are not required, and Hims states plainly that membership does not include or guarantee a prescription. For medication context, semaglutide 2.4 mg produced a 14.9% mean body-weight reduction at 68 weeks in the randomized STEP 1 trial. Every GLP-1 on the platform requires eligibility screening and a licensed provider's prescription, and the membership fee continues billing regardless of whether medication ships.",
+    "pricing_table": [
+      {
+        "plan": "Hims/Hers Weight Loss membership",
+        "price": "$39 first month, auto-renews at $149/mo",
+        "notes": "24/7 messaging, nutrition guidance, clinical check-ins; billed separately; does not guarantee a prescription"
+      },
+      {
+        "plan": "Branded GLP-1 medication, cash-pay",
+        "price": "Wegovy pill/Ozempic pill/Foundayo from $149/mo; Wegovy pen/Ozempic from $199/mo; Zepbound vial or KwikPen from $299/mo",
+        "notes": "Manufacturer-aligned pricing at all dose levels; retail Zepbound/Mounjaro without programs listed at $1,899/mo"
+      }
+    ],
+    "faq": [
+      {
+        "question": "How much is Wegovy through Hims?",
+        "answer": "Cash-pay Wegovy through Hims & Hers starts at $149/month for the pill and $199/month for the pen, at all dosage levels, plus the separate weight-loss membership ($39 first month, then $149/month). A licensed provider must evaluate you and prescribe it; with commercial insurance and manufacturer savings, some patients pay $0-$25/month."
+      },
+      {
+        "question": "Does Hims still sell compounded semaglutide?",
+        "answer": "Not to new customers. After Novo Nordisk's patent lawsuit, Hims settled on March 9, 2026, agreed to stop marketing compounded GLP-1s except where medically necessary, and now sells branded Wegovy and Ozempic; remaining compounded patients are being phased out through mid-2026."
+      },
+      {
+        "question": "Does the Hims membership include the medication?",
+        "answer": "No. The $149/month membership covers provider access and support only; medication is billed separately, and Hims states membership does not include or guarantee a prescription."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "In STEP 1, semaglutide 2.4 mg weekly resulted in -14.9% mean body weight at week 68 versus -2.4% with placebo.",
+        "source_name": "STEP 1 trial (NEJM 2021): Once-Weekly Semaglutide in Adults with Overweight or Obesity",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/33567185/"
+      },
+      {
+        "claim": "Peer-reviewed analysis of the post-shortage landscape notes compounded GLP-1 copies face legal wind-down and quality-control concerns now that FDA-approved supply has stabilized.",
+        "source_name": "PMC review: The Future of Compounded GLP-1 Receptor Agonists for Weight Loss",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12331335/"
+      },
+      {
+        "claim": "Semaglutide is prescription-only; MedlinePlus advises use under medical supervision with prescriber-managed dose escalation.",
+        "source_name": "MedlinePlus: Semaglutide Injection",
+        "source_url": "https://medlineplus.gov/druginfo/meds/a618008.html"
+      }
+    ],
+    "last_updated": "2026-07-11"
+  },
+  {
+    "id": "prod-mochi-health-glp1",
+    "slug": "mochi-health-glp1",
+    "name": "Mochi Health",
+    "category_slug": "weight-loss",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 7.2,
+    "ratings": {
+      "safety": 7.5,
+      "evidence": 5.5,
+      "cost_value": 8.5,
+      "transparency": 8.5,
+      "support": 7.5
+    },
+    "price_summary": "$79/mo membership ($39 first month promo) + compounded semaglutide $99/mo or compounded tirzepatide $199/mo (all doses, shipping included); branded Wegovy/Zepbound also prescribable",
+    "pros": [
+      "Flat medication pricing at every dose: $99/mo compounded semaglutide, $199/mo compounded tirzepatide, shipping included",
+      "Care led by board-certified obesity-medicine physicians with regular synchronous visits",
+      "Membership covers unlimited visits and messaging with no per-visit fees",
+      "Can prescribe branded Wegovy/Zepbound and offers interim options while insurance approval is pending",
+      "Unusually transparent FAQ that publishes exact membership and medication prices"
+    ],
+    "cons": [
+      "Red flag: the core offering is compounded semaglutide and tirzepatide, which are not FDA-reviewed for safety, effectiveness, or quality, and whose legal availability is uncertain now that the FDA shortages resolved in 2025 ended the main basis for mass compounding",
+      "Compounded vials lack the dosing safeguards of manufactured pens; a published poison-center case series documented 10-fold dosing errors with compounded semaglutide",
+      "The $79/month membership bills even while you are waiting for insurance approval or between medication fills",
+      "Total cost with tirzepatide ($278/month) approaches branded entry-dose pricing available elsewhere"
+    ],
+    "best_for": "Cash-pay patients prioritizing flat, dose-independent pricing who accept compounded-medication tradeoffs",
+    "summary": "Mochi Health charges a flat $79/month membership plus $99/month for compounded semaglutide or $199/month for compounded tirzepatide at any dose, with obesity-medicine physicians and unlimited visits. Branded options are available too. Compounded GLP-1s are not FDA-approved, and all medications require provider evaluation and a prescription.",
+    "verdict_summary": "Mochi Health is a flat-fee obesity practice: membership is $79/month (a $39 first-month promotion was running at review time), with provider visits and messaging included. Its signature economics are compounded medications at one price for every dose: $99/month for compounded semaglutide and $199/month for compounded tirzepatide, shipping included, so costs do not rise as doses titrate. Mochi can also prescribe branded Wegovy or Zepbound and coordinates insurance approvals. The appeal is real, including board-certified obesity-medicine physicians and predictable pricing; the tradeoff is regulatory. Since the FDA declared the semaglutide and tirzepatide shortages resolved in 2025, mass-compounded copies sit on uncertain legal ground, and a poison-center case series documented 10-fold dosing errors with compounded semaglutide vials. Compounded drugs are not FDA-reviewed for safety, effectiveness, or quality, and membership bills even while you wait on insurance approval. Every medication requires a provider evaluation, a prescription, and BMI-based eligibility.",
+    "pricing_table": [
+      {
+        "plan": "Mochi Health membership",
+        "price": "$79/mo ($39 first month promo); 12 months $799",
+        "notes": "Provider visits, messaging, and care coordination included; medication separate"
+      },
+      {
+        "plan": "Compounded semaglutide",
+        "price": "$99/mo, all doses (0.22-2.67 mg weekly), shipping included",
+        "notes": "Compounded drugs are not FDA-reviewed for safety, effectiveness, or quality"
+      },
+      {
+        "plan": "Compounded tirzepatide",
+        "price": "$199/mo, all doses (2.2-16.6 mg weekly), shipping included",
+        "notes": "Branded Wegovy/Zepbound prescribable as alternatives, incl. via insurance"
+      }
+    ],
+    "faq": [
+      {
+        "question": "How much is Mochi Health per month?",
+        "answer": "Membership is $79/month (or $799/year), with a $39 first-month promotion at the time of review. Medication is extra: $99/month for compounded semaglutide or $199/month for compounded tirzepatide at any dose, shipping included, so typical all-in costs are $178-$278/month."
+      },
+      {
+        "question": "Is compounded semaglutide still legal in 2026?",
+        "answer": "It occupies a gray zone. Mass compounding was permitted while FDA listed semaglutide and tirzepatide in shortage; those shortages were declared resolved in 2025, so compounders may now only prepare versions for patients whose medical needs cannot be met by the FDA-approved product. Compounded copies are not FDA-reviewed for safety, effectiveness, or quality."
+      },
+      {
+        "question": "Does Mochi Health take insurance?",
+        "answer": "The membership is cash-pay, but Mochi's care team coordinates insurance approval for branded medications like Wegovy and Zepbound and can offer interim options while prior authorization is pending."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "A poison control center case series documented adverse events after patients self-administered 10-fold overdoses of compounded semaglutide drawn from vials.",
+        "source_name": "J Am Pharm Assoc case series: compounded semaglutide administration errors",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/37392810/"
+      },
+      {
+        "claim": "Post-shortage, compounded GLP-1 receptor agonists face restricted legal availability and documented quality-control and dosing-error concerns.",
+        "source_name": "PMC review: The Future of Compounded GLP-1 Receptor Agonists for Weight Loss",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12331335/"
+      },
+      {
+        "claim": "FDA-approved tirzepatide produced up to 20.9% mean body-weight reduction at 72 weeks in the SURMOUNT-1 trial; compounded copies have no equivalent trial data.",
+        "source_name": "SURMOUNT-1 trial (NEJM 2022): Tirzepatide Once Weekly for the Treatment of Obesity",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/35658024/"
+      }
+    ],
+    "last_updated": "2026-07-11"
+  },
+  {
+    "id": "prod-noom-med-glp1",
+    "slug": "noom-med-glp1",
+    "name": "Noom Med",
+    "category_slug": "weight-loss",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.7,
+    "ratings": {
+      "safety": 6.5,
+      "evidence": 6,
+      "cost_value": 7.5,
+      "transparency": 6.5,
+      "support": 8
+    },
+    "price_summary": "GLP-1Rx: $129 to start, then $249/mo all-inclusive (compounded semaglutide); Microdose $199/mo; GLP-1Rx Plus $299/mo; branded-med telehealth tier $99/mo + medication cost",
+    "pros": [
+      "All-inclusive pricing: clinical care, medication, and the Noom app in one quarterly-billed fee",
+      "Strong behavioral program with psychology-based coaching alongside medication",
+      "Multiple tiers, including a lower-cost microdose option and a $99/month branded-medication pathway",
+      "FSA/HSA-eligible plans and no insurance required"
+    ],
+    "cons": [
+      "Red flag: core GLP-1Rx tiers are built on compounded semaglutide and tirzepatide even after the FDA declared the shortages resolved in 2025, and Noom's own disclosure notes compounded drugs are not FDA-reviewed for safety, efficacy, or quality",
+      "Red flag: over 1,000 BBB complaints, with a recurring pattern of continued charges after users attempt to cancel",
+      "Marketing leans on self-reported user outcomes (e.g., 'lose up to 33 pounds in 6 months' from top-quartile users) rather than clinical trials",
+      "Quarterly billing means a cancellation misstep can cost a full three-month cycle",
+      "Microdosing GLP-1s below trial-tested doses lacks published efficacy evidence"
+    ],
+    "best_for": "App-driven users who want one all-inclusive bill and accept compounded-medication and billing caveats",
+    "summary": "Noom Med wraps clinician care, medication, and Noom's coaching app into all-inclusive plans from $199-$299/month, most built on compounded GLP-1s, plus a $99/month tier for branded prescriptions. Compounded drugs are not FDA-approved, and every plan requires eligibility screening and a clinician's prescription.",
+    "verdict_summary": "Noom Med bundles clinician care, medication, and Noom's behavior-change app into quarterly-billed packages: the GLP-1Rx program is $129 to start, then $249/month all-inclusive for compounded semaglutide; a Microdose tier runs $79 to start, then $199/month; GLP-1Rx Plus with a compounded GLP-1/GIP (tirzepatide) is $299/month; and a branded-medication telehealth tier costs $99/month plus medication. All-inclusive pricing is genuinely simple, and the app coaching is Noom's strength. The concerns are equally concrete: Noom's core tiers still rely on compounded GLP-1s, which are not FDA-reviewed for safety, effectiveness, or quality now that the shortages permitting mass compounding were resolved in 2025. Noom's BBB file exceeds 1,000 complaints, with recurring reports of continued billing after cancellation. Its advertised results come from self-reported user data, not trials; the randomized STEP 1 trial attributes 14.9% mean weight loss at 68 weeks to semaglutide 2.4 mg. All prescriptions require clinician evaluation and eligibility screening.",
+    "pricing_table": [
+      {
+        "plan": "GLP-1Rx (compounded semaglutide)",
+        "price": "$129 to start, then $249/mo (billed quarterly)",
+        "notes": "Clinical care, medication, and digital program included; no insurance required"
+      },
+      {
+        "plan": "Microdose GLP-1Rx / GLP-1Rx Plus",
+        "price": "$79 start then $199/mo; Plus $149 start then $299/mo",
+        "notes": "Microdose caps at low semaglutide doses; Plus uses a compounded GLP-1/GIP (tirzepatide)"
+      },
+      {
+        "plan": "Telehealth for Branded Med",
+        "price": "$39 to start, then $99/mo (quarterly)",
+        "notes": "Prescription and clinical care for branded GLP-1s; medication cost NOT included"
+      }
+    ],
+    "faq": [
+      {
+        "question": "How much is Noom Med per month?",
+        "answer": "Noom's GLP-1Rx program costs $129 to start and then $249/month billed quarterly, all-inclusive of compounded semaglutide, clinical care, and the app. The Microdose tier is $199/month, GLP-1Rx Plus is $299/month, and a branded-medication tier is $99/month plus the medication's own cost."
+      },
+      {
+        "question": "Is Noom GLP-1 compounded or brand name?",
+        "answer": "Both exist, but the flagship tiers ship compounded semaglutide or a compounded GLP-1/GIP. Compounded versions are made in FDA-registered facilities but are not FDA-reviewed for safety, effectiveness, or quality. A separate $99/month tier arranges prescriptions for branded medications instead."
+      },
+      {
+        "question": "Is it hard to cancel Noom Med?",
+        "answer": "Noom's BBB profile exceeds 1,000 complaints, and a recurring theme is being billed after attempting to cancel, including quarterly renewals landing on or after the cancellation date. Cancel well before your renewal date and keep written confirmation."
+      },
+      {
+        "question": "Do you need insurance for Noom Med?",
+        "answer": "No. Noom Med plans are cash-pay and FSA/HSA-eligible; the compounded tiers include medication in the price, so insurance is not part of the flow."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Randomized-trial evidence for semaglutide 2.4 mg (STEP 1) shows 14.9% mean weight loss at 68 weeks; Noom's advertised outcomes are self-reported user data, not trial results.",
+        "source_name": "STEP 1 trial (NEJM 2021): Once-Weekly Semaglutide in Adults with Overweight or Obesity",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/33567185/"
+      },
+      {
+        "claim": "2025 clinical guidance details what providers must consider with compounded semaglutide, including quality variability and the narrowed legal basis for compounding after shortage resolution.",
+        "source_name": "Am J Manag Care 2025: Navigating compounded semaglutide",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/40966636/"
+      },
+      {
+        "claim": "Case reports to a poison control center documented 10-fold administration errors with compounded semaglutide, a risk absent from manufactured prefilled pens.",
+        "source_name": "J Am Pharm Assoc case series: compounded semaglutide administration errors",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/37392810/"
+      }
+    ],
+    "last_updated": "2026-07-11"
+  },
+  {
+    "id": "prod-crest-3d-whitestrips-professional-effects",
+    "slug": "crest-3d-whitestrips-professional-effects",
+    "name": "Crest 3D Whitestrips Professional Effects",
+    "category_slug": "dental-oral-health",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 8.5,
+    "ratings": {
+      "safety": 8.5,
+      "evidence": 9.2,
+      "cost_value": 8.5,
+      "transparency": 8,
+      "support": 7
+    },
+    "price_summary": "About $45-$51 for 22 treatments (44 strips) at major retailers; Walmart lists it at $50.99 and it is frequently discounted toward $33",
+    "pros": [
+      "Best clinical evidence of any at-home format, using hydrogen peroxide strips with published randomized trial data",
+      "Eligible for the ADA Seal of Acceptance category for whitening strips",
+      "Low cost per treatment (roughly $2 per session) with no subscription required",
+      "Widely stocked at drugstores and online, so no direct-to-consumer lock-in",
+      "Enamel-safe when used as directed, with clear wear-time instructions"
+    ],
+    "cons": [
+      "Commonly causes temporary tooth sensitivity and can irritate gums where the strip overlaps",
+      "Strips can slip and cover teeth unevenly, leaving edges or gaps less whitened",
+      "Results are gradual, requiring a full multi-day course rather than one session",
+      "Red flag: Crest markets some kits with a blue-light tray, but a systematic review and meta-analysis found light activation adds no meaningful whitening benefit with strong peroxide while raising sensitivity odds about 3.5-fold, so you are paying for a light that does little"
+    ],
+    "best_for": "the best-evidenced, no-subscription whitening for most people",
+    "summary": "The most studied at-home whitener you can buy, using hydrogen peroxide strips backed by real clinical trials. It is inexpensive per treatment, sold everywhere, and carries no subscription, which is why it outranks pricier LED kits and boutique strips.",
+    "verdict_summary": "Crest 3D Whitestrips Professional Effects earns our top spot because peroxide strips have the deepest clinical record of any over-the-counter whitener, and Crest sells them without a subscription. In a randomized controlled trial, 10% hydrogen peroxide strips produced statistically significant whitening within one week, with the reduction in yellowness clearly outpacing lower-concentration controls. The trade-off is well documented: tooth sensitivity occurs in roughly 15-78% of people across bleaching studies, and gums can sting where strips overlap, though both are mild and reversible. At about $45-$51 for 22 treatments, near $2 a session, the value is hard to beat. Ignore any add-on blue light; a meta-analysis found light activation offers no meaningful efficacy gain with strong peroxide while roughly tripling sensitivity risk. Follow the wear time, avoid overuse, and check with a dentist first if you have crowns, veneers, gum recession or untreated decay, since peroxide will not whiten restorations.",
+    "pricing_table": [
+      {
+        "plan": "Professional Effects, 22 treatments (44 strips)",
+        "price": "$50.99 (Walmart) / about $45-$65 across retailers",
+        "notes": "Frequently discounted toward $33; no subscription required, one-time purchase"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Do crest whitestrips damage enamel?",
+        "answer": "Used as directed, Crest strips have not been shown to permanently damage enamel. The most common effects are temporary tooth sensitivity and mild gum irritation where the strip overlaps the gumline, both of which typically fade after you finish the course."
+      },
+      {
+        "question": "How long do crest 3d whitestrips take to work?",
+        "answer": "In clinical testing, hydrogen peroxide strips produce measurable whitening within about one week of twice-daily or daily use, with fuller results over the full multi-day course. Deeper or older stains take the entire kit."
+      },
+      {
+        "question": "Are crest whitestrips better than led whitening kits?",
+        "answer": "For evidence and value, yes. Strips deliver peroxide directly to teeth with strong trial data, while a meta-analysis found the LED light in kits adds little whitening beyond the gel and increases sensitivity risk."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "In a randomized controlled trial, 10% hydrogen peroxide whitening strips produced statistically significant whitening from baseline within one week, outperforming 6% strips.",
+        "source_name": "PubMed: Randomized controlled trial of 10% hydrogen peroxide whitening strips",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/16305009/"
+      },
+      {
+        "claim": "Tooth sensitivity is experienced in 15-78% of patients undergoing external tooth bleaching, and is usually mild and temporary.",
+        "source_name": "PubMed: Hydrogen peroxide tooth-whitening products, review of adverse effects and safety",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/16607324/"
+      },
+      {
+        "claim": "The ADA grants its Seal of Acceptance to certain over-the-counter whitening products, including whitening strips, that meet safety and effectiveness standards.",
+        "source_name": "American Dental Association: Whitening (Oral Health Topics)",
+        "source_url": "https://www.ada.org/resources/ada-library/oral-health-topics/whitening"
+      }
+    ],
+    "last_updated": "2026-07-11"
+  },
+  {
+    "id": "prod-colgate-optic-white-pro-series",
+    "slug": "colgate-optic-white-pro-series",
+    "name": "Colgate Optic White Pro Series Whitening Toothpaste (5% Hydrogen Peroxide)",
+    "category_slug": "dental-oral-health",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 8.1,
+    "ratings": {
+      "safety": 8.5,
+      "evidence": 7.5,
+      "cost_value": 9.5,
+      "transparency": 7.5,
+      "support": 6.5
+    },
+    "price_summary": "$9.99 for a 3.0 oz tube on Colgate's official store; often cheaper in multi-packs at drugstores",
+    "pros": [
+      "Contains 5% hydrogen peroxide, Colgate's highest OTC toothpaste concentration, so it whitens beyond surface polishing",
+      "Very low cost and fits into an existing twice-daily brushing routine",
+      "Enamel-safe, vegan, gluten-free and sugar-free formulation",
+      "Widely available at drugstores, grocery and online with no subscription"
+    ],
+    "cons": [
+      "Peroxide contact time while brushing is short, so color change is modest compared to strips or trays",
+      "Whitening claims are measured over about two weeks of twice-daily use, not overnight",
+      "Can cause transient tooth sensitivity, like other peroxide products",
+      "Red flag: dramatic before-and-after marketing implies strip-level results, but a toothpaste's brief peroxide exposure cannot match the sustained gel contact that clinical whitening actually requires"
+    ],
+    "best_for": "an inexpensive daily-use whitener for surface and mild set-in stains",
+    "summary": "A rare whitening toothpaste that includes real hydrogen peroxide (5%) rather than only abrasives. It is cheap and easy to use daily, but the short contact time means it lifts stains gradually and cannot rival strips or trays for deep color change.",
+    "verdict_summary": "Colgate Optic White Pro Series stands out among whitening toothpastes because it actually contains 5% hydrogen peroxide, Colgate's highest over-the-counter toothpaste level, rather than relying only on abrasives to scrub surface stains. That gives it a genuine, if modest, bleaching mechanism at about $9.99 a tube, which is why it scores so well on value. The catch is chemistry: whitening depends on peroxide concentration and contact time, and the seconds of exposure during brushing cannot match a strip that sits on teeth for 30 minutes. Colgate's own claim of removing years of stains is pegged to twice-daily use for two weeks, so treat it as a slow maintainer, not a transformation. Expect the same peroxide caveat as other products, since tooth sensitivity appears in 15-78% of people across bleaching studies. As a low-cost daily habit alongside a strip course, it is a smart buy; as a standalone dramatic whitener, it will disappoint.",
+    "pricing_table": [
+      {
+        "plan": "3.0 oz tube (single)",
+        "price": "$9.99 (shop.colgate.com)",
+        "notes": "Often sold in 2-packs at drugstores and Amazon for a lower per-tube price"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does whitening toothpaste actually whiten teeth?",
+        "answer": "Most whitening toothpastes only polish surface stains with abrasives. This one adds 5% hydrogen peroxide, so it can lighten tooth color slightly over about two weeks of twice-daily use, but far less than peroxide strips or professional trays."
+      },
+      {
+        "question": "Is colgate optic white pro series safe for enamel?",
+        "answer": "Colgate markets it as enamel-safe for daily use, and peroxide toothpastes used as directed have not been shown to harm enamel. Some people notice temporary tooth sensitivity, which typically resolves after use."
+      },
+      {
+        "question": "How long does colgate optic white take to work?",
+        "answer": "Colgate's stain-removal claims are based on brushing twice daily for about two weeks. Results are gradual, so it works best as ongoing maintenance rather than a quick fix."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "The ADA notes that whitening products work through hydrogen or carbamide peroxide oxidizing stain compounds, and that OTC formulas use lower peroxide concentrations that require longer treatment than professional systems.",
+        "source_name": "American Dental Association: Whitening (Oral Health Topics)",
+        "source_url": "https://www.ada.org/resources/ada-library/oral-health-topics/whitening"
+      },
+      {
+        "claim": "Across bleaching studies, tooth sensitivity is reported in 15-78% of patients and is typically mild and transient.",
+        "source_name": "PubMed: Hydrogen peroxide tooth-whitening products, review of adverse effects and safety",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/16607324/"
+      }
+    ],
+    "last_updated": "2026-07-11"
+  },
+  {
+    "id": "prod-auraglow-led-whitening-kit",
+    "slug": "auraglow-led-whitening-kit",
+    "name": "AuraGlow LED Teeth Whitening Kit (35% Carbamide Peroxide)",
+    "category_slug": "dental-oral-health",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 6.1,
+    "ratings": {
+      "safety": 6,
+      "evidence": 5.5,
+      "cost_value": 6.5,
+      "transparency": 6.5,
+      "support": 7
+    },
+    "price_summary": "$48 one-time on auraglow.com; includes an LED light, tray, case and two 35% carbamide peroxide gel syringes (about 30 sessions)",
+    "pros": [
+      "Uses a genuinely strong 35% carbamide peroxide gel, so the active ingredient can whiten effectively",
+      "Reusable LED light, tray and charging case make repeat courses cheaper over time",
+      "60-day money-back guarantee and a 2-year warranty on the light",
+      "One-time purchase with no forced auto-ship subscription"
+    ],
+    "cons": [
+      "35% carbamide peroxide is a high concentration for an unsupervised at-home tray, raising sensitivity and gum-irritation risk",
+      "The one-size tray fits poorly for many users, letting gel touch gums",
+      "Marketed shade claims (up to 10 shades in 7 days) are company figures, not independent trial data",
+      "Red flag: the LED light is the headline feature, but a systematic review and meta-analysis found light activation gives no meaningful whitening benefit with high-concentration peroxide while raising the odds of tooth sensitivity roughly 3.5-fold, so the gel does the work and the light mainly adds risk"
+    ],
+    "best_for": "DIY tray whitening if you accept higher sensitivity risk",
+    "summary": "A reusable LED kit built around a potent 35% carbamide peroxide gel. The peroxide can whiten, but the marquee LED light adds little per the research, the generic tray fits poorly, and the high concentration makes sensitivity more likely.",
+    "verdict_summary": "AuraGlow is a competent gel wrapped in questionable hardware. Its 35% carbamide peroxide is genuinely strong, so with enough sessions it can lighten teeth, and the $48 one-time price with a reusable light and 60-day guarantee beats subscription kits. But the whole pitch rests on the LED, and the evidence does not support it: a systematic review and meta-analysis of in-office bleaching found light activation delivered no meaningful efficacy gain with high-concentration peroxide, while roughly tripling the odds of tooth sensitivity (odds ratio about 3.53). That matters here because at-home tray bleaching already carries an average tooth-sensitivity risk near 51%, and a one-size tray lets that potent gel seep onto gums. The shade claims (up to 10 shades in 7 days) are AuraGlow's own, not independent data. If you want the peroxide, fine, but the light is largely theater. Load trays sparingly, wipe excess gel off the gumline, and stop if sensitivity flares.",
+    "pricing_table": [
+      {
+        "plan": "AuraGlow Teeth Whitening Kit",
+        "price": "$48 one-time (auraglow.com)",
+        "notes": "Includes LED light, tray, case, cable and two 35% carbamide peroxide gel syringes (~30 sessions); 60-day money-back guarantee"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Do led teeth whitening lights work?",
+        "answer": "Research says the light does little. A systematic review and meta-analysis found LED and other light activation added no meaningful whitening benefit with high-concentration peroxide, while increasing tooth sensitivity. The peroxide gel is what whitens your teeth."
+      },
+      {
+        "question": "Is 35 percent carbamide peroxide safe at home?",
+        "answer": "It is a high concentration for unsupervised use. It can whiten well but raises the chance of tooth sensitivity and gum irritation, especially with an ill-fitting tray. Use small gel amounts, protect your gums, and consult a dentist first."
+      },
+      {
+        "question": "How many shades whiter with auraglow?",
+        "answer": "AuraGlow advertises up to 10 shades in 7 days, but that is a company claim without published independent trial support. Real-world results vary with stain type, tray fit and how consistently you complete the sessions."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "A systematic review and meta-analysis found light activation produced no meaningful bleaching benefit with high-concentration peroxide and increased tooth sensitivity, with an odds ratio of about 3.53.",
+        "source_name": "PubMed: The effects of light on bleaching and tooth sensitivity during in-office vital bleaching",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/22525016/"
+      },
+      {
+        "claim": "Clinical trials show the average absolute risk of tooth sensitivity is about 51% for at-home bleaching and 63% for in-office bleaching.",
+        "source_name": "PMC: High-concentration carbamide peroxide can reduce sensitivity caused by in-office bleaching",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6007969/"
+      }
+    ],
+    "last_updated": "2026-07-11"
+  },
+  {
+    "id": "prod-lumineux-whitening-strips",
+    "slug": "lumineux-whitening-strips",
+    "name": "Lumineux Peroxide-Free Whitening Strips",
+    "category_slug": "dental-oral-health",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 6,
+    "ratings": {
+      "safety": 7.5,
+      "evidence": 5,
+      "cost_value": 5,
+      "transparency": 6,
+      "support": 6.5
+    },
+    "price_summary": "$50 one-time for the 21-treatment Super Pack on lumineuxhealth.com, or $42.50 on subscription",
+    "pros": [
+      "Peroxide-free formula (sea salt, coconut and essential oils) is gentler and better suited to sensitivity-prone users",
+      "Enamel-safe positioning with no hydrogen or carbamide peroxide",
+      "30-day money-back guarantee direct from the brand",
+      "Reasonable per-strip cost within a large 21-treatment pack"
+    ],
+    "cons": [
+      "Without peroxide, the bleaching mechanism is weaker, so expect more surface-stain lifting than true color change",
+      "Subscription pricing nudges you into recurring shipments you may not need",
+      "Direct-to-consumer stock runs out, and the brand sells mainly through its own channel",
+      "Red flag: peroxide-free 'whitening' has thin clinical support; a 2025 systematic review found hydrogen-peroxide-free correctors reached a mean color change (delta-E00) around 3, versus up to 8.9 for carbamide peroxide, and rested on only six mostly-laboratory studies with a single small clinical trial"
+    ],
+    "best_for": "sensitive teeth that cannot tolerate peroxide",
+    "summary": "A peroxide-free strip that trades whitening power for gentleness. It is a reasonable pick if peroxide products hurt your teeth, but the evidence for meaningful color change is weak, and the subscription model and boutique price undercut its value.",
+    "verdict_summary": "Lumineux answers a real problem, peroxide sensitivity, by dropping peroxide entirely in favor of sea salt and essential oils. For people whose teeth or gums cannot tolerate hydrogen or carbamide peroxide, that gentleness is a legitimate draw, and the enamel-safe formula lives up to its billing. The weakness is the whitening itself. A 2025 systematic review of hydrogen-peroxide-free correctors found they achieved a mean color change (delta-E00) of about 2.8 to 3.5, perceptible but far below the up-to-8.9 seen with carbamide peroxide, and that conclusion rested on just six small, mostly laboratory studies with only one clinical trial of 60 participants. So expect surface-stain lifting and a subtle brightening rather than dramatic shade jumps. At $50 for 21 treatments (or $42.50 on subscription), you pay a premium over better-proven peroxide strips, and the auto-ship option can quietly renew. Buy it for gentleness, not for maximum whitening, and cancel the subscription if you do not need refills.",
+    "pricing_table": [
+      {
+        "plan": "Super Pack, 21 treatments (one-time)",
+        "price": "$50 (lumineuxhealth.com)",
+        "notes": "30-day money-back guarantee"
+      },
+      {
+        "plan": "Super Pack, 21 treatments (subscription)",
+        "price": "$42.50 per shipment",
+        "notes": "15% subscriber discount; recurring auto-ship you must cancel to stop"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Do peroxide free whitening strips work?",
+        "answer": "They lift surface stains and can produce a subtle, perceptible brightening, but a 2025 systematic review found peroxide-free correctors deliver far less color change than carbamide peroxide and rest on limited, mostly laboratory evidence. They suit sensitive teeth, not dramatic whitening."
+      },
+      {
+        "question": "Is lumineux better than crest whitestrips?",
+        "answer": "Lumineux is gentler because it has no peroxide, so it is friendlier to sensitive teeth. Crest's peroxide strips whiten more and have far stronger clinical evidence. Choose Lumineux for comfort, Crest for results."
+      },
+      {
+        "question": "Does lumineux have a subscription?",
+        "answer": "Yes. Lumineux offers a discounted subscription (about $42.50 versus $50 one-time) that ships automatically. If you only want a single pack, choose the one-time option or cancel the subscription after your first order."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "A 2025 systematic review found hydrogen-peroxide-free color correctors achieved a mean color change (delta-E00) of roughly 2.8 to 3.5, versus up to 8.9 for carbamide peroxide, based on only six small, mostly laboratory studies.",
+        "source_name": "PMC: Hydrogen Peroxide-Free Color Correctors for Tooth Whitening, systematic review",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12384575/"
+      },
+      {
+        "claim": "The ADA explains that whitening works through peroxide oxidizing stain molecules, the mechanism peroxide-free products lack.",
+        "source_name": "American Dental Association: Whitening (Oral Health Topics)",
+        "source_url": "https://www.ada.org/resources/ada-library/oral-health-topics/whitening"
+      }
+    ],
+    "last_updated": "2026-07-11"
+  },
+  {
+    "id": "prod-prodentim-oral-probiotic",
+    "slug": "prodentim-oral-probiotic",
+    "name": "ProDentim Oral Probiotic",
+    "category_slug": "dental-oral-health",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 4.4,
+    "ratings": {
+      "safety": 5.5,
+      "evidence": 3.5,
+      "cost_value": 4,
+      "transparency": 4,
+      "support": 4.5
+    },
+    "price_summary": "$69 for one bottle (30-day) on the official site; $59/bottle for 3 ($177) and $49/bottle for 6 ($294), plus shipping; 60-day money-back guarantee",
+    "pros": [
+      "Uses named, generally-recognized probiotic strains (Lactobacillus paracasei, L. reuteri, Streptococcus salivarius)",
+      "60-day money-back guarantee offers some purchase protection",
+      "Chewable format is easy to add to a routine",
+      "Does not whiten teeth, and is honest that it is a supplement, not a bleaching product"
+    ],
+    "cons": [
+      "High price ($49-$69 per bottle) for a supplement with limited proof it does what is implied",
+      "Bulk-bundle pricing and free-bonus offers pressure you toward buying multiple bottles up front",
+      "Sold through a shifting set of look-alike official-style domains, which complicates trust and returns",
+      "Marketing implies gum and tooth-disease benefits that the clinical evidence does not establish",
+      "Red flag: a systematic review and meta-analysis concluded current evidence is insufficient to recommend probiotics for managing dental caries, so ProDentim's stronger-teeth and healthier-gums framing outruns the science"
+    ],
+    "best_for": "shoppers curious about oral probiotics who want the evidence caveats first",
+    "summary": "A chewable oral probiotic sold with bold gum-and-teeth claims and aggressive bulk pricing. The strains are real, but the clinical evidence for oral probiotics preventing dental disease is weak, and the multi-bottle upsell plus look-alike sales sites earn caution.",
+    "verdict_summary": "ProDentim is a nutraceutical marketed like a breakthrough, and it lands at the bottom of this list on evidence. It supplies named strains (Lactobacillus paracasei, L. reuteri and Streptococcus salivarius) at about 3.5 billion CFU, which are legitimate oral-cavity probiotics, and it does not pretend to whiten teeth. But the core promise, stronger teeth and healthier gums, sits well ahead of the science: a systematic review and meta-analysis concluded that current evidence is insufficient to recommend probiotics for managing dental caries, with high risk of bias across the studies reviewed. The commercial model compounds the problem, with $49-$69 bottles, bulk bundles pushing six-bottle orders, free-bonus lures, and a rotating cast of official-looking domains. If you want to try an oral probiotic, do it with clear eyes, keep brushing and flossing, and lean on the 60-day guarantee. This is not a substitute for whitening or for dental care, and its claims should be read skeptically.",
+    "pricing_table": [
+      {
+        "plan": "1 bottle (30-day)",
+        "price": "$69 + shipping",
+        "notes": "Highest per-bottle cost"
+      },
+      {
+        "plan": "3 bottles (90-day)",
+        "price": "$59 per bottle ($177) + free bonuses",
+        "notes": "Bundle upsell; 60-day money-back guarantee"
+      },
+      {
+        "plan": "6 bottles (180-day)",
+        "price": "$49 per bottle ($294) + free bonuses",
+        "notes": "Largest upfront commitment for lowest per-bottle price"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does prodentim actually work for teeth and gums?",
+        "answer": "The strains are real oral probiotics, but the clinical evidence is thin. A systematic review and meta-analysis found current evidence insufficient to recommend probiotics for managing dental caries, so treat ProDentim's stronger-teeth and healthier-gums claims with skepticism and keep up standard oral care."
+      },
+      {
+        "question": "Is prodentim a scam?",
+        "answer": "It is a real product with named strains and a money-back guarantee, but its marketing overstates the evidence and it is sold through many look-alike official-style sites with heavy bulk upsells. Buy cautiously, from a verifiable seller, and rely on the refund policy."
+      },
+      {
+        "question": "Can oral probiotics replace brushing or whitening?",
+        "answer": "No. Oral probiotics do not whiten teeth and are not a proven replacement for brushing, flossing or dental care. Whitening requires peroxide; disease prevention requires established hygiene and professional cleanings."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "A systematic review and meta-analysis concluded that current evidence is insufficient for recommending probiotics for managing dental caries.",
+        "source_name": "PubMed: Probiotics for managing caries and periodontitis, systematic review and meta-analysis",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/26965080/"
+      },
+      {
+        "claim": "The ADA frames whitening as a peroxide-based cosmetic process, underscoring that a probiotic supplement is not a whitening treatment.",
+        "source_name": "American Dental Association: Whitening (Oral Health Topics)",
+        "source_url": "https://www.ada.org/resources/ada-library/oral-health-topics/whitening"
+      }
+    ],
+    "last_updated": "2026-07-11"
+  }
+]

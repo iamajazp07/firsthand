@@ -1,0 +1,57 @@
+[
+  {
+    "id": "fda-press-announcements",
+    "name": "FDA Press Announcements",
+    "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml",
+    "category_slug": "health-news",
+    "format": "rss",
+    "enabled": true,
+    "note": "Official FDA news releases (approvals, clearances, safety actions). Verified HTTP 200 + parseable RSS from this environment on 2026-07-12. NOTE: a prior step reported fda.gov blocking non-browser curl agents; the RSS endpoints and press-announcement pages DID resolve (200) here, so it is enabled. A browser-like User-Agent is sent at runtime as a safety margin."
+  },
+  {
+    "id": "cdc-online-newsroom",
+    "name": "CDC Online Newsroom",
+    "url": "https://tools.cdc.gov/api/v2/resources/media/132608.rss",
+    "category_slug": "health-news",
+    "format": "rss",
+    "enabled": true,
+    "note": "CDC's official newsroom feed served via the curl-friendly tools.cdc.gov content API (www.cdc.gov itself is JS-rendered). Verified HTTP 200 + parseable RSS. High-volume; the fetcher only takes the freshest new items."
+  },
+  {
+    "id": "fda-medwatch-safety-alerts",
+    "name": "FDA MedWatch Safety Alerts",
+    "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/medwatch/rss.xml",
+    "category_slug": "health-news",
+    "format": "rss",
+    "enabled": true,
+    "note": "FDA MedWatch recalls and safety communications. Verified HTTP 200 + parseable RSS from this environment on 2026-07-12."
+  },
+  {
+    "id": "arxiv-ai-healthcare",
+    "name": "arXiv — AI in Healthcare (preprints)",
+    "url": "https://export.arxiv.org/api/query?search_query=abs:%22artificial%20intelligence%22%20AND%20abs:healthcare&sortBy=submittedDate&sortOrder=descending&max_results=15",
+    "category_slug": "health-tech-ai",
+    "format": "atom",
+    "enabled": true,
+    "note": "arXiv API (Atom) query for the newest AI-in-healthcare preprints. A primary source for research signals — but preprints are NOT peer-reviewed, so briefs flag this and require independent verification before publication. Verified HTTP 200 + parseable Atom on 2026-07-12."
+  },
+  {
+    "id": "nih-news-releases",
+    "name": "NIH News Releases",
+    "url": "https://www.nih.gov/news-events/news-releases",
+    "category_slug": "health-news",
+    "format": "rss",
+    "enabled": false,
+    "blocked_from_env": true,
+    "note": "NIH News Releases. Kept in config but DISABLED: www.nih.gov is behind Cloudflare and returns HTTP 403 ('Just a moment...') to non-browser agents (curl AND native fetch) from this environment. The fetcher skips blocked_from_env feeds gracefully. Re-enable if the environment gains a browser-capable fetch path."
+  },
+  {
+    "id": "clinicaltrials-gov-new",
+    "name": "ClinicalTrials.gov — recently posted studies",
+    "url": "https://clinicaltrials.gov/ct2/results/rss.xml?rcv_d=14&cond=&term=&sel_rss=new14",
+    "category_slug": "health-news",
+    "format": "rss",
+    "enabled": false,
+    "note": "ClinicalTrials.gov new-study RSS. Verified reachable (HTTP 200 + parseable RSS), but DISABLED by default: the unfiltered new-studies feed is very high-volume and noisy for an editorial signal. Enable only when scoped to a specific condition/term for a targeted brief."
+  }
+]

@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/*
+ * Vivahale brand design system — clean news-style blue/white.
+ * Tailwind v4 theme tokens (usable as e.g. `bg-brand-navy`, `text-brand-blue`,
+ * `bg-brand-mist`, `text-brand-ink`, `font-serif`, `font-sans`).
+ */
+@theme {
+  /* Brand palette */
+  --color-brand-navy: #0b3d6e; /* deep navy — primary, headers, footer */
+  --color-brand-blue: #1a6fd4; /* bright link blue — links & CTAs */
+  --color-brand-mist: #f1f5f9; /* light blue-gray — section bg / stripes */
+  --color-brand-ink: #1e293b; /* dark slate — body text */
+  --color-brand-white: #ffffff; /* page background */
+
+  /* Typography — set via next/font CSS variables in layout.tsx */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-source-serif), ui-serif, Georgia, serif;
+}
+
+body {
+  background: #ffffff;
+  color: var(--color-brand-ink);
+  font-family: var(--font-sans);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-serif);
+}

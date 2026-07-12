@@ -1,0 +1,35 @@
+{
+  "name": "vivahale",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "queue:publish": "node --experimental-strip-types scripts/publish-scheduled.mts",
+    "freshness:check": "node --experimental-strip-types scripts/freshness-check.mts",
+    "content:briefs": "node --experimental-strip-types scripts/generate-briefs.mts",
+    "content:ingest": "node --experimental-strip-types scripts/ingest-draft.mts",
+    "news:fetch": "node --experimental-strip-types scripts/fetch-news-signals.mts",
+    "social:generate": "node --experimental-strip-types scripts/social-generate.mts",
+    "social:autopilot": "node --experimental-strip-types scripts/social-autopilot.mts",
+    "social:send": "node --experimental-strip-types scripts/social-send.mts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.110.2",
+    "next": "16.2.10",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.10",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

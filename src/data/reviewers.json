@@ -1,0 +1,12 @@
+[
+  {
+    "id": "reviewer-editorial-team",
+    "name": "Vivahale Editorial Team",
+    "slug": "editorial-team",
+    "photo_url": null,
+    "bio": "Vivahale's editorial team fact-checks health content against the cited primary sources before publication. The team is not a substitute for a licensed medical professional and does not provide medical advice.",
+    "credentials": "Editorial fact-check",
+    "credential_type": "Editorial",
+    "is_placeholder": false
+  }
+]

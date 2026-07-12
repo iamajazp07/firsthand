@@ -1,0 +1,50 @@
+[
+  {
+    "id": "article-best-sleep-supplements-2026",
+    "slug": "best-sleep-supplements-2026",
+    "type": "hub",
+    "category_id": "cat-sleep",
+    "title": "Best Sleep Supplements of 2026: What the Evidence Actually Supports",
+    "body_mdx": "Placeholder body. Full ranked analysis of sleep supplements — melatonin, magnesium glycinate, L-theanine, and newer formulations — arrives in a later step.",
+    "author_id": "author-health-research-analyst",
+    "reviewer_id": "reviewer-editorial-team",
+    "status": "draft",
+    "scheduled_at": null,
+    "published_at": "2026-07-01T09:00:00Z",
+    "last_updated_at": "2026-07-08T09:00:00Z",
+    "compliance_json": null,
+    "sources_json": []
+  },
+  {
+    "id": "article-glp1-providers-compared-2026",
+    "slug": "top-glp1-weight-loss-providers-2026",
+    "type": "hub",
+    "category_id": "cat-weight-loss",
+    "title": "Top GLP-1 Weight-Loss Providers of 2026, Compared",
+    "body_mdx": "Placeholder body. A side-by-side comparison of telehealth GLP-1 providers — pricing, clinical oversight, and what published trials say — arrives in a later step.",
+    "author_id": "author-health-research-analyst",
+    "reviewer_id": "reviewer-editorial-team",
+    "status": "draft",
+    "scheduled_at": null,
+    "published_at": "2026-07-03T09:00:00Z",
+    "last_updated_at": "2026-07-09T09:00:00Z",
+    "compliance_json": null,
+    "sources_json": []
+  },
+  {
+    "id": "article-ai-health-tools-explained",
+    "slug": "ai-symptom-checkers-what-studies-show",
+    "type": "education",
+    "category_id": "cat-health-tech-ai",
+    "title": "AI Symptom Checkers: What the Studies Actually Show",
+    "body_mdx": "Placeholder body. A plain-language look at the accuracy research behind consumer AI symptom checkers arrives in a later step.",
+    "author_id": "author-health-research-analyst",
+    "reviewer_id": null,
+    "status": "draft",
+    "scheduled_at": null,
+    "published_at": "2026-07-05T09:00:00Z",
+    "last_updated_at": "2026-07-05T09:00:00Z",
+    "compliance_json": null,
+    "sources_json": []
+  }
+]
