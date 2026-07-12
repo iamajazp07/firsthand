@@ -1,0 +1,58 @@
+[
+  {
+    "id": "cat-online-learning-platforms",
+    "slug": "online-learning-platforms",
+    "name": "Online Learning Platforms",
+    "description": "Evidence-first coverage of online course platforms — pricing, curriculum, credentialing, and support read from each provider's official documentation, not independent audits or student surveys.",
+    "sort_order": 1
+  },
+  {
+    "id": "cat-coding-bootcamps",
+    "slug": "coding-bootcamps",
+    "name": "Coding Bootcamps",
+    "description": "Neutral analysis of coding and tech bootcamps based on published pricing, curriculum, and standardized outcomes reporting (e.g. CIRR) — with self-reported figures clearly labeled as self-reported.",
+    "sort_order": 2
+  },
+  {
+    "id": "cat-professional-certifications",
+    "slug": "professional-certifications",
+    "name": "Professional Certifications",
+    "description": "Industry and professional certifications assessed from official exam, pricing, and recognition documentation published by the certifying bodies.",
+    "sort_order": 3
+  },
+  {
+    "id": "cat-test-prep",
+    "slug": "test-prep",
+    "name": "Test Prep",
+    "description": "Test-preparation platforms and courses reviewed from official pricing, published content coverage, and stated guarantees — not from our own score studies.",
+    "sort_order": 4
+  },
+  {
+    "id": "cat-language-learning",
+    "slug": "language-learning",
+    "name": "Language Learning",
+    "description": "Language-learning apps and programs compared on official pricing, documented teaching methods and features, and free-tier limits — reported from each provider's own documentation, not efficacy marketing.",
+    "sort_order": 5
+  },
+  {
+    "id": "cat-online-degrees",
+    "slug": "online-degrees",
+    "name": "Online Degrees",
+    "description": "Online degree programs analyzed from accreditor databases, the U.S. Department of Education's College Scorecard, and each institution's published cost and program documentation.",
+    "sort_order": 6
+  },
+  {
+    "id": "cat-study-tools",
+    "slug": "study-tools",
+    "name": "Study Tools",
+    "description": "Study and productivity tools for learners reviewed from official pricing, documented features, and stated data-handling policies.",
+    "sort_order": 7
+  },
+  {
+    "id": "cat-education-news",
+    "slug": "education-news",
+    "name": "Education News",
+    "description": "Original analysis of primary-source education announcements — pricing changes, accreditation decisions, published outcomes data, and policy from the U.S. Department of Education and standards bodies. We read the source, not the headlines.",
+    "sort_order": 8
+  }
+]

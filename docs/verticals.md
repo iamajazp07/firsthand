@@ -425,3 +425,193 @@ benchmarks, statistics, test results, or testimonials.
 
 ### Checkpoint commit
 - `d7038e8` — *Phase D: Tech vertical (tech.vivahale.com)*. Nothing pushed.
+
+## Phase E verification (2026-07-12)
+
+Phase E builds the **Education vertical** (`education.vivahale.com`) end to end:
+an evidence-first publisher reviewing learning programs and education tools on
+the shared codebase. Education overlaps YMYL (career and financial outcomes), so
+the honesty bar is high. **Critical honesty constraint: Vivahale does NOT
+independently audit schools or programs and does NOT conduct student surveys.**
+Every rating is derived from analysis of officially published data — accreditor
+databases and the U.S. Department of Education's DAPIP, College Scorecard, the
+Bureau of Labor Statistics, standardized bootcamp reports (CIRR), and each
+provider's own published pricing, curriculum, and outcomes documentation. Every
+disputable number cites a primary source with an "as of 2026-07-12" qualifier;
+self-reported outcome figures are labeled self-reported (never presented as
+verified); every review carries at least one genuine con. Health, Money, and
+Tech render identically to Phase D.
+
+### What changed (grouped)
+- **Config:** `src/lib/verticals/education.ts` (new) — key `education`, name
+  `Vivahale Education`, host `education.vivahale.com`; 5 criteria **Outcomes 30 /
+  Cost & Value 25 / Academics 20 / Support Services 15 / Flexibility 10**;
+  education `methodologyIntro` with an explicit no-independent-audit / no-student-
+  survey statement; `disclosureLabel: "Affiliate Disclosure"` + house-style
+  affiliate `disclosureBody` ("commission if you enroll or subscribe");
+  not-academic/career/financial-advice `contentDisclaimer`
+  (`contentDisclaimerLabel: "Education disclaimer"`); shared Vivahale palette read
+  from config; no `extras`/quiz; `newsCategorySlugs: ["education-news"]`.
+  Registered in `verticals/index.ts` (host resolution is generic, so
+  `education.vivahale.com` **and** `education.localhost` → `education`).
+- **Data:** `src/data/education/` — `categories.json` (8 sections),
+  `authors.json` (one honest "Education Research Analyst" byline, explicitly a
+  research/data-analysis role, NOT an academic advisor, admissions counselor, or
+  licensed counselor), `reviewers.json` ("Vivahale Editorial Team", `Editorial`,
+  `is_placeholder:false`, states Vivahale does not audit programs or survey
+  students), `products.json` (11 reviews), `hubs.json` (2), `articles.json` (3),
+  empty-valid `news-feeds.json`/`topics.json`. Registered in `src/lib/seeds.ts`.
+- **Components/pages (config-driven, health byte-identical):** `methodology/page.tsx`
+  (+ `EducationMethodology` branch with a repeated no-audit/no-survey disclosure
+  and self-reported-labeling section), `best/[slug]/page.tsx` (+ education
+  methodology summary with the no-audit disclosure).
+
+### The two hubs + ranked providers (key primary sources; as-of 2026-07-12)
+All prices are **US list prices as of 2026-07-12** and are explicitly flagged in
+the seeds as varying by region and frequent promotions; each cites the provider's
+official pricing page. Efficacy/"learn a language in X hours" claims were
+**omitted entirely** (they are company-commissioned), and each review says so.
+**No candidate was invented or padded** — every candidate in both hubs was
+verified from primary/official sources; none had to be dropped.
+
+- **Best Online Learning Platforms of 2026** (`/best/best-online-learning-platforms`):
+  1. **Coursera** — Coursera Plus ~$59/mo or $399/yr; free-to-audit courses;
+     certificate ladder up to accredited partner-university degrees. Con: Plus
+     excludes some certificates and all degrees; auditing withholds graded work.
+     src: coursera.org/courseraplus, /degrees. *(monetized)*
+  2. **edX** — most courses free to audit; verified certificates ~$50–$300;
+     founded by MIT/Harvard, now 2U-owned. Con: audit tightened since the 2021 2U
+     acquisition (time-limited windows). src: help.edx.org (audit vs verified),
+     edx.org/verified-certificate. *(not monetized)*
+  3. **Khan Academy** — completely free 501(c)(3) nonprofit, no ads. Con: grants
+     no accredited degrees/credentials; academic (K-12/early-college) focus. src:
+     support.khanacademy.org (cost + not-for-profit articles). *(not monetized)*
+  4. **LinkedIn Learning** — subscription (~$239.88/yr, ~$19.99/mo billed
+     annually), 1-mo trial, bundled with LinkedIn Premium, library access. Con:
+     certificates of **completion**, not accredited credentials. src:
+     linkedin.com/learning/subscription/products. *(monetized)*
+  5. **Udemy** — à-la-carte courses (frequent discounts) + Personal Plan
+     subscription; 30-day refund. Con: **open marketplace → highly variable course
+     quality** (per Udemy's own instructor model). src: udemy.com/pricing,
+     /teaching. *(monetized)*
+  6. **Skillshare** — subscription only ~$167.88/yr ($13.99/mo billed annually).
+     Con: **no permanent free tier** (trial only); creative/introductory skew;
+     not accredited. src: skillshare.com/en/pricing. *(monetized)*
+- **Best Language Learning Apps of 2026** (`/best/best-language-learning-apps`):
+  1. **Babbel** — ~$14.99/mo m2m, ~$7.99/mo on 12-mo (~$95.88/yr), Lifetime
+     ~$249–$299; Babbel Live extra. Con: only the first lesson is free; low rate
+     needs an up-front annual commitment. src: babbel.com/prices,
+     support.babbel.com. *(monetized)*
+  2. **Duolingo** — genuinely usable free (ad-supported) tier; Super ~$12.99/mo /
+     $95.99/yr; Max ~$29.99/mo / $167.99/yr; Family ~$119.99/yr. Con: ads/friction
+     on free tier; limited real speaking practice. src: duolingo.com/super.
+     *(monetized)*
+  3. **Busuu** — free Basic tier; Premium ~$5–$14/mo; native-speaker community
+     feedback. Con: community-correction quality uneven (anyone can correct
+     regardless of proficiency); free tier limited. src: busuu.com/en/premium-plans,
+     help.busuu.com. *(monetized)*
+  4. **Pimsleur** — audio-first; Premium ~$19.95/mo, All Access ~$20.95/mo, 7-day
+     trial. Con: limited reading/writing practice; among the priciest; no real
+     free tier. src: pimsleur.com. *(monetized)*
+  5. **Rosetta Stone** — 12-mo ~$143.40; Lifetime listed ~$399, often promo
+     ~$179–$219; TruAccent pronunciation feedback. Con: immersion method minimizes
+     explicit grammar; lifetime list price high/promo-dependent; feedback is
+     automated, not human. src: rosettastone.com/buy. *(monetized)*
+
+  Monetized items set `is_monetized:true` + `affiliate_url:
+  "VIVAHALE_AFFILIATE_PLACEHOLDER"`; both hubs render the Affiliate Disclosure and
+  state the weighted, no-audit/no-survey methodology. **Self-reported outcomes:**
+  none were used as ratings — where numbers could not be verified from a primary
+  source (e.g. promotion-sensitive prices, region-specific figures) they are
+  described qualitatively and flagged as US list prices subject to change.
+
+### Editorial articles (`src/data/education/articles.json`, honest author + editorial reviewer)
+`how-to-check-if-an-online-program-is-accredited` (cites ope.ed.gov/dapip,
+ed.gov/accreditation, CHEA), `what-a-certificate-of-completion-means-for-your-resume`
+(cites ed.gov/accreditation, DAPIP, CHEA), `how-to-evaluate-a-coding-bootcamp-outcome-claims`
+(cites CIRR standards + school-data, BLS Occupational Outlook Handbook). Every
+claim cited to authoritative sources; each carries the education content
+disclaimer. As in Health/Money/Tech, `status:draft` seeds surface as
+non-clickable cards; full `/articles/[slug]` pages come from the runtime queue,
+so they are correctly absent from the crawl/sitemap.
+
+### Education-mode crawl (production build + `next start`, `NEXT_PUBLIC_VERTICAL=education`, no Supabase env)
+- **32 routes** crawled recursively from `/` (home, 2 hubs, 11 reviews, 8
+  categories, author, reviewer, 6 static/legal, favicon). **All HTTP 200.
+  Broken links = 0. Soft-404s = 0** (smallest real body ~23 KB).
+- Both hubs render the **Affiliate Disclosure**. Of the 11 reviews, the **9
+  monetized** render the Affiliate Disclosure banner (education body: "commission
+  if you enroll or subscribe"); the **2 non-monetized** (edX, Khan Academy) render
+  the neutral "does not earn a commission" note. **Every review renders a Cons
+  section** (≥1 genuine con).
+- `/methodology` renders education criteria **Outcomes 30% / Cost & Value 25% /
+  Academic Quality 20% / Support Services 15% / Flexibility & Access 10%** with
+  the education intro and an explicit no-independent-audit disclosure ("does NOT
+  independently audit schools", "do not audit schools or survey students", "not
+  conduct student surveys"), plus a self-reported-labeling section. The content
+  **Education disclaimer** renders instead of the medical/financial one (no
+  medical/financial disclaimer leaks).
+- `/sitemap.xml` → **31 `<loc>`s, all on `https://education.vivahale.com`**, no
+  quiz, no health/money/tech URLs. `/robots.txt` + `/feed.xml` use the education
+  host. Review canonical/`og:title` on the education host and say "Vivahale
+  Education".
+- **Tool gating:** `/quiz/sleep` → **404** in education mode, absent from nav and
+  sitemap (Health keeps it working: 200).
+- **Portal:** `/portal` and the apex-host rewrite (`Host: vivahale.com`) now show
+  **all four** cards — Health, Money, Tech, **Education** — automatically from the
+  registry; the Education card links to `https://education.vivahale.com`.
+
+### Health / Money / Tech parity spot-checks
+- **Health** (default build): `/`, `/methodology`, `/quiz/sleep` (200),
+  `/best/best-sleep-supplements`, `/reviews/nature-made-melatonin-3mg`,
+  `/sitemap.xml` all **200**, title **"Vivahale Health"**; methodology
+  **30/30/20/10/10**; monetized review shows the **Medical disclaimer**; sitemap
+  on `health.vivahale.com`.
+- **Money** (`NEXT_PUBLIC_VERTICAL=money`): `/methodology` **25/25/20/15/15**; hub
+  renders the **Advertiser Disclosure**; sitemap on `money.vivahale.com`.
+- **Tech** (`NEXT_PUBLIC_VERTICAL=tech`): `/methodology` **30/25/20/15/10** with
+  the **no-lab-testing** intro ("do not run independent benchmarks"); hub 200;
+  sitemap on `tech.vivahale.com`.
+
+### Compliance gate (education mode; local stores backed up + restored byte-identically)
+Backed up `data/social.local.json` (SHA `4cbdbbe5…`, 13 rows). Fresh test:
+monetized social post with no disclosure → `transitionSocialStatus(→approved)`
+**REFUSED**: *"Approval blocked: this is a monetized link but the caption is
+missing an FTC disclosure ('#ad' or 'affiliate')."* New record stamped
+`vertical:"education"`. Adding `#ad` → transition **succeeds** (→approved,
+vertical education). `data/social.local.json` restored byte-identically (SHA
+`4cbdbbe5…` before and after; `diff` identical). No external API called.
+
+### Admin gate (education mode)
+`ADMIN_PASSWORD` set → `/admin` and `/admin/social` = **307 → /admin/login**;
+`/admin/login` = 200. Password lived only in the test subshell. Proxy `/admin`
+boundary untouched.
+
+### Script safety
+`npx tsx` loads `src/lib/social.ts` standalone; with
+`NEXT_PUBLIC_VERTICAL=education` it resolves `SITE_URL =
+https://education.vivahale.com` (default → `https://health.vivahale.com`).
+
+### Type + build (all four content modes)
+- `npx tsc --noEmit` → **exit 0, 0 errors.**
+- `npm run build` (default health) → **57 pages** (matches Phase D; education
+  content absent, health intact).
+- `NEXT_PUBLIC_VERTICAL=money npm run build` → **succeeds** (39 pages).
+- `NEXT_PUBLIC_VERTICAL=tech npm run build` → **succeeds** (40 pages).
+- `NEXT_PUBLIC_VERTICAL=education npm run build` → **succeeds**: **41 pages** — 2
+  hubs, 11 reviews, education author/reviewer; `ƒ Proxy (Middleware)` present.
+
+### Authoritative sources cited (Education)
+U.S. Department of Education (Accreditation in the United States, DAPIP at
+ope.ed.gov/dapip, College Scorecard); Council for Higher Education Accreditation
+(CHEA); Council on Integrity in Results Reporting (CIRR — standards + school
+data); U.S. Bureau of Labor Statistics (Occupational Outlook Handbook); Khan
+Academy Help Center (cost + 501(c)(3) not-for-profit); and each provider's
+official pricing/curriculum/security documentation — Coursera, edX, LinkedIn
+Learning, Udemy, Skillshare, Babbel, Duolingo, Busuu, Pimsleur, Rosetta Stone.
+No blogs or aggregators used as the source of record; no fabricated experts,
+outcome statistics, salary figures, acceptance/graduation rates, or testimonials.
+
+### Checkpoint commit
+- `d96434b` — *Phase E: Education vertical (education.vivahale.com)*.
+  Nothing pushed.

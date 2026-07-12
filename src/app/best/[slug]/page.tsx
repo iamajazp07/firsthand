@@ -199,6 +199,25 @@ export default async function HubPage({
             Read our full methodology.
           </Link>
         </p>
+      ) : vertical.key === "education" ? (
+        <p className="mt-4 text-sm leading-relaxed text-brand-ink/70">
+          <strong className="font-semibold text-brand-navy">
+            How we scored:
+          </strong>{" "}
+          every program below was rated 0–10 on five weighted criteria —
+          Outcomes (30%), Cost &amp; Value (25%), Academics (20%), Support
+          Services (15%), and Flexibility (10%). Vivahale does not audit schools
+          or survey students: ratings analyze officially published data and each
+          provider&apos;s own documentation, and each figure is cited to a
+          primary source with an as-of date; self-reported outcomes are labeled
+          as such. Affiliate commissions never affect scores or rank order.{" "}
+          <Link
+            href="/methodology"
+            className="font-semibold text-brand-blue hover:underline"
+          >
+            Read our full methodology.
+          </Link>
+        </p>
       ) : (
         <p className="mt-4 text-sm leading-relaxed text-brand-ink/70">
           <strong className="font-semibold text-brand-navy">

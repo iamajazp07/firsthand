@@ -30,6 +30,9 @@ export default function MethodologyPage() {
   if (getActiveVertical().key === "tech") {
     return <TechMethodology />;
   }
+  if (getActiveVertical().key === "education") {
+    return <EducationMethodology />;
+  }
   return (
     <>
       <section className="border-b border-brand-mist bg-brand-mist/60">
@@ -616,6 +619,217 @@ function TechMethodology() {
           competitors. This content is informational only and is not
           professional advice; verify current specifications and pricing on the
           manufacturer&apos;s official page before purchasing.
+        </p>
+      </section>
+    </>
+  );
+}
+
+/**
+ * Education-vertical methodology page. Same layout/styling as the other
+ * verticals, but the prose describes how learning programs and education tools
+ * are evaluated — from officially published data (accreditor databases, U.S.
+ * Department of Education sources, provider documentation) rather than
+ * independent audits of schools or student surveys. The no-independent-audit
+ * disclosure is stated explicitly and repeatedly, and self-reported outcome
+ * figures are described as such. The criteria table + intro read from the same
+ * config-driven `CRITERIA` array (education weights: Outcomes 30%, Cost & Value
+ * 25%, Academics 20%, Support Services 15%, Flexibility 10%).
+ */
+function EducationMethodology() {
+  const vertical = getActiveVertical();
+  return (
+    <>
+      <section className="border-b border-brand-mist bg-brand-mist/60">
+        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
+          <p className="text-xs font-semibold uppercase tracking-wider text-brand-blue">
+            Methodology
+          </p>
+          <h1 className="mt-2 max-w-3xl font-serif text-3xl font-bold text-brand-navy sm:text-4xl">
+            How Vivahale Education Ranks and Reviews Programs
+          </h1>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
+        {/* Self-contained answer block (GEO / AI-citation style) */}
+        <div className="rounded-lg border-l-4 border-brand-navy bg-brand-mist px-5 py-4">
+          <h2 className="font-serif text-lg font-bold text-brand-navy">
+            Vivahale Education&apos;s methodology in brief
+          </h2>
+          <p className="mt-2 text-sm leading-relaxed text-brand-ink/90">
+            Vivahale Education scores every learning program and tool on five
+            published, fixed-weight criteria: Outcomes (30%), Cost &amp; Value
+            (25%), Academics (20%), Support Services (15%), and Flexibility
+            (10%). Crucially, Vivahale does NOT independently audit schools or
+            programs, and it does NOT conduct student surveys. Every rating is
+            built from analysis of officially published data — accreditor
+            databases and the U.S. Department of Education&apos;s Database of
+            Accredited Postsecondary Institutions and Programs (DAPIP), U.S.
+            Department of Education sources such as College Scorecard, the Bureau
+            of Labor Statistics, and each provider&apos;s own published pricing,
+            curriculum, accreditation, and outcomes documentation. Because prices
+            and programs change, every number is cited to a primary source with
+            an &quot;as of&quot; date; where a figure cannot be verified we
+            describe it qualitatively or omit it rather than guess. When a
+            provider&apos;s completion, placement, or salary numbers are
+            self-reported and unaudited, we label them as self-reported and never
+            present them as independently verified. Vivahale Education is
+            reader-supported and may earn affiliate commissions, but that
+            compensation never changes a score or a ranking. Every review lists
+            at least one genuine con and is editorially fact-checked against its
+            cited sources before publication. This is informational content, not
+            academic, career, or financial advice.
+          </p>
+        </div>
+
+        <div className="mt-10 space-y-4 text-base leading-relaxed text-brand-ink/90">
+          <p>{vertical.methodologyIntro}</p>
+        </div>
+
+        <h2 className="mt-12 font-serif text-2xl font-bold text-brand-navy">
+          The five scoring criteria
+        </h2>
+        <div className="mt-6 overflow-x-auto">
+          <table className="w-full min-w-[560px] border-collapse text-left text-sm">
+            <thead>
+              <tr className="border-b-2 border-brand-navy">
+                <th scope="col" className="py-3 pr-4 font-sans font-semibold text-brand-navy">
+                  Criterion
+                </th>
+                <th scope="col" className="py-3 pr-4 font-sans font-semibold text-brand-navy">
+                  Weight
+                </th>
+                <th scope="col" className="py-3 font-sans font-semibold text-brand-navy">
+                  What we evaluate
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {CRITERIA.map((c) => (
+                <tr key={c.name} className="border-b border-brand-mist align-top">
+                  <th scope="row" className="py-3 pr-4 font-sans font-semibold text-brand-ink">
+                    {c.name}
+                  </th>
+                  <td className="py-3 pr-4 font-semibold text-brand-blue">
+                    {c.weight}
+                  </td>
+                  <td className="py-3 leading-relaxed text-brand-ink/85">
+                    {c.detail}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <h2 className="mt-12 font-serif text-2xl font-bold text-brand-navy">
+          We analyze published data — we do not audit schools or survey students
+        </h2>
+        <div className="mt-4 space-y-4 text-base leading-relaxed text-brand-ink/90">
+          <p>
+            This is the most important thing to understand about our education
+            ratings: Vivahale does not independently audit schools or programs,
+            and we do not conduct student surveys. We do not verify a
+            provider&apos;s internal completion, placement, or salary figures
+            ourselves, and we will not present a self-reported number as if it
+            were independently confirmed.
+          </p>
+          <p>
+            Instead, every criterion is assessed from primary documentation:
+            accreditor databases and the Department of Education&apos;s DAPIP for
+            accreditation, College Scorecard and the Bureau of Labor Statistics
+            for outcome and wage context, standardized bootcamp reports such as
+            CIRR where they exist, and each provider&apos;s own published pricing,
+            curriculum, and outcomes pages. When a provider reports its own
+            outcomes, we label them as self-reported and cite the primary
+            document. Where a claim cannot be verified from a primary source, we
+            describe it qualitatively or leave it out. We never invent a price,
+            an accreditation status, a placement rate, or a salary figure.
+          </p>
+        </div>
+
+        <h2 className="mt-12 font-serif text-2xl font-bold text-brand-navy">
+          Independence: how compensation never touches the scores
+        </h2>
+        <ul className="mt-4 list-disc space-y-3 pl-6 text-base leading-relaxed text-brand-ink/90">
+          <li>
+            <strong className="font-semibold">
+              We review programs we don&apos;t earn from.
+            </strong>{" "}
+            Category rankings include programs with no affiliate relationship —
+            including free, nonprofit options. If the best option in a category
+            pays us nothing, it still ranks where the rubric puts it.
+          </li>
+          <li>
+            <strong className="font-semibold">Rankings are never sold.</strong>{" "}
+            No provider can pay for a position, a score, or a favorable sentence.
+            There are no &quot;sponsored&quot; slots inside our rankings.
+          </li>
+          <li>
+            <strong className="font-semibold">
+              Affiliate commissions never change scores.
+            </strong>{" "}
+            Scoring is completed against the rubric before monetization is
+            considered.{" "}
+            <Link
+              href="/affiliate-disclosure"
+              className="font-semibold text-brand-blue hover:underline"
+            >
+              Read our full affiliate disclosure.
+            </Link>
+          </li>
+          <li>
+            <strong className="font-semibold">
+              Every review lists at least one genuine con.
+            </strong>{" "}
+            If we recommend a program, we also tell you where it falls short — a
+            missing free tier, a certificate that isn&apos;t accreditation, an
+            open marketplace with variable quality, or a subscription cost.
+          </li>
+          <li>
+            <strong className="font-semibold">
+              Self-reported outcomes are labeled as self-reported.
+            </strong>{" "}
+            When a provider publishes its own completion, placement, or salary
+            numbers, we attribute them to the provider and never present them as
+            independently verified. Vivahale does not audit programs; this is
+            documentation analysis and editorial fact-checking, not an audit or a
+            survey. See our{" "}
+            <Link
+              href="/editorial-policy"
+              className="font-semibold text-brand-blue hover:underline"
+            >
+              editorial policy
+            </Link>
+            .
+          </li>
+          <li>
+            <strong className="font-semibold">
+              Pages carry as-of dates.
+            </strong>{" "}
+            Prices, programs, and accreditation change. Each ranking and review
+            shows when it was last updated and dates every figure that can
+            change, and we re-check pages when pricing, curriculum, or
+            accreditation changes.
+          </li>
+        </ul>
+
+        <h2 className="mt-12 font-serif text-2xl font-bold text-brand-navy">
+          What a score means
+        </h2>
+        <p className="mt-4 text-base leading-relaxed text-brand-ink/90">
+          Each criterion is scored 0–10 against the rubric above, multiplied by
+          its weight, and summed into a final score out of 10. Programs in the
+          same category are scored against the same rubric, so scores are
+          directly comparable within a ranking. A high score is not a guarantee
+          of a job, a credential&apos;s value, or a learning outcome — it means
+          the program looked strong, on its published pricing, curriculum,
+          accreditation, and documented outcomes, on outcomes, cost and value,
+          academics, support, and flexibility relative to its competitors. This
+          content is informational only and is not academic, career, or
+          financial advice; verify current details with the provider and
+          official sources before enrolling.
         </p>
       </section>
     </>

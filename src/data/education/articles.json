@@ -1,0 +1,89 @@
+[
+  {
+    "id": "article-how-to-check-if-an-online-program-is-accredited",
+    "slug": "how-to-check-if-an-online-program-is-accredited",
+    "type": "education",
+    "category_id": "cat-online-degrees",
+    "title": "How to Check Whether an Online Program Is Accredited",
+    "body_mdx": "Accreditation is the single most important thing to verify before enrolling in an online degree or program — and it is something you can check yourself, for free, in official databases. Here is how it works and where to look.\n\nFirst, a key clarification: in the United States, the U.S. Department of Education does not accredit institutions. Instead, accreditation is performed by private accrediting agencies, and the Department's role is oversight — it reviews and recognizes accrediting agencies that it determines to be reliable authorities on educational quality. So when a school says it is \"accredited,\" the meaningful question is: accredited by whom, and is that accreditor recognized?\n\nThere are two authoritative places to check. The first is the Department of Education's Database of Accredited Postsecondary Institutions and Programs (DAPIP), hosted at ope.ed.gov/dapip. DAPIP contains information reported to the Department directly by recognized accrediting agencies and state approval agencies, and you can search it by institution to see its accreditation. The Department is explicit that this reported information is not audited, so treat it as the accreditors' record rather than an independent guarantee. The second is the Council for Higher Education Accreditation (CHEA) at chea.org, a national association that also recognizes accrediting organizations and lets you search accredited institutions and the accreditors it recognizes. Cross-checking both is a good habit.\n\nA few practical cautions. \"Accreditation\" claims can be misleading if the accreditor itself is not recognized by the Department of Education or CHEA — so-called accreditation mills exist. Confirm the accreditor's name, then confirm that accreditor appears on the Department's or CHEA's recognized list. Also check what exactly is accredited: sometimes an institution is accredited but a specific program is not, or vice versa. And if you plan to transfer credits or pursue licensure, verify separately that the receiving institution or licensing board accepts that accreditation, because acceptance is their decision, not the school's.\n\nThe practical takeaway: get the accreditor's exact name from the school, then verify it in DAPIP (ope.ed.gov/dapip) and CHEA (chea.org), confirm the accreditor is recognized, and check whether the accreditation covers the institution, the specific program, or both. This article is educational and cites official sources; Vivahale does not audit schools or accreditors, and this is not admissions or legal advice.",
+    "author_id": "author-education-research-analyst",
+    "reviewer_id": "reviewer-editorial-team",
+    "status": "draft",
+    "scheduled_at": null,
+    "published_at": "2026-07-06T09:00:00Z",
+    "last_updated_at": "2026-07-11T09:00:00Z",
+    "compliance_json": null,
+    "sources_json": [
+      {
+        "name": "U.S. Department of Education — Database of Accredited Postsecondary Institutions and Programs (DAPIP) (official)",
+        "url": "https://ope.ed.gov/dapip/#/home"
+      },
+      {
+        "name": "U.S. Department of Education — Accreditation in the United States (official)",
+        "url": "https://www.ed.gov/accreditation"
+      },
+      {
+        "name": "Council for Higher Education Accreditation (CHEA) — Search accredited institutions (official)",
+        "url": "https://www.chea.org/search-institutions"
+      }
+    ]
+  },
+  {
+    "id": "article-what-a-certificate-of-completion-means-for-your-resume",
+    "slug": "what-a-certificate-of-completion-means-for-your-resume",
+    "type": "education",
+    "category_id": "cat-professional-certifications",
+    "title": "What a Certificate of Completion Actually Means for Your Resume",
+    "body_mdx": "Finish an online course and you often get a \"certificate of completion.\" It can be a genuinely useful thing to list on a resume — but only if you are clear about what it is and, just as importantly, what it is not. The confusion is worth clearing up because several very different things get called \"certificates.\"\n\nStart with the distinction that matters most. A certificate of completion confirms that you finished a course or set of lessons. It is issued by the platform or provider and, on most consumer learning platforms, is not tied to any accreditation. That is different from an accredited academic credential — a degree or for-credit certificate conferred by an accredited institution — and different again from a professional certification, which is typically earned by passing an exam administered by an industry or professional body (for example, a cloud, networking, or project-management certification) and is often recognized by employers in that field.\n\nWhy the difference matters on a resume: a certificate of completion signals initiative and self-directed learning, and it can help you demonstrate a specific skill. But it does not carry the independent verification that accreditation or a proctored certification exam provides. An employer reading your resume knows this distinction, so it is best to represent the credential accurately — name the provider and the course, and don't imply accreditation or a formal qualification that the certificate doesn't confer.\n\nHow to judge a given certificate's value, then, comes down to a few checks. Who issued it, and is that issuer recognized in the relevant field? Was there any assessment — a graded project or a proctored exam — or only lesson completion? And does the field you're targeting actually value that specific credential, or does it look for accredited degrees or named professional certifications instead? For accredited credentials, you can confirm the institution's accreditation in the U.S. Department of Education's DAPIP database or through the Council for Higher Education Accreditation. For professional certifications, the certifying body's own site defines what the credential requires and what it signifies.\n\nThe practical takeaway: list certificates of completion honestly as evidence of skill-building and initiative, not as accreditation; reserve stronger language for accredited credentials and exam-based professional certifications you have actually earned; and, when a credential's value matters, verify the issuer and what it required. This article is educational and cites official definitions and databases; Vivahale does not audit programs, and this is not career or legal advice.",
+    "author_id": "author-education-research-analyst",
+    "reviewer_id": "reviewer-editorial-team",
+    "status": "draft",
+    "scheduled_at": null,
+    "published_at": "2026-07-08T09:00:00Z",
+    "last_updated_at": "2026-07-11T09:00:00Z",
+    "compliance_json": null,
+    "sources_json": [
+      {
+        "name": "U.S. Department of Education — Accreditation in the United States (official)",
+        "url": "https://www.ed.gov/accreditation"
+      },
+      {
+        "name": "U.S. Department of Education — Database of Accredited Postsecondary Institutions and Programs (DAPIP) (official)",
+        "url": "https://ope.ed.gov/dapip/#/home"
+      },
+      {
+        "name": "Council for Higher Education Accreditation (CHEA) — About accreditation (official)",
+        "url": "https://www.chea.org/about-accreditation"
+      }
+    ]
+  },
+  {
+    "id": "article-how-to-evaluate-a-coding-bootcamp-outcome-claims",
+    "slug": "how-to-evaluate-a-coding-bootcamp-outcome-claims",
+    "type": "education",
+    "category_id": "cat-coding-bootcamps",
+    "title": "How to Evaluate a Coding Bootcamp's Outcome Claims",
+    "body_mdx": "Coding bootcamps often advertise eye-catching job-placement rates and salaries. Before you trust a number like \"90% of graduates hired,\" it pays to ask how that figure was produced — because the same headline can mean very different things depending on the methodology behind it.\n\nThe core problem is that, historically, bootcamps computed and reported outcomes however they chose. A placement rate depends entirely on definitions: Who counts as a graduate? Who is excluded (for example, people who dropped out, or who were \"not seeking\" a job)? What counts as a placement — a full-time in-field role, or any job at all, including part-time or unrelated work? Over what time window — 90, 180, or 360 days? And crucially, was the number verified by anyone independent, or is it self-reported? A 90% rate that excludes non-graduates and counts any employment is not comparable to a 90% rate limited to in-field, full-time roles verified with offer letters.\n\nThis is exactly the gap the Council on Integrity in Results Reporting (CIRR) was created to close. Formed in 2016 by a coalition of bootcamps, CIRR publishes graduation and job-placement data in a single standardized framework, defines categories precisely (in-field versus out-of-field roles, employment timeframes, salary distributions), requires member schools to report on essentially all of their students rather than a favorable subset, and calls for documentation and third-party verification of the data. When a school reports through CIRR, you can compare its numbers to another CIRR school's on a like-for-like basis and read the underlying report at cirr.org.\n\nWhen a school does not use a standard like CIRR, treat its outcome claims as self-reported and unaudited, and read the fine print for the definitions above. It is also worth grounding any salary claim against a neutral benchmark: the U.S. Bureau of Labor Statistics publishes occupation-level employment and wage data in its Occupational Outlook Handbook (bls.gov/ooh), which is a better reality check than a marketing page. Vivahale never presents a bootcamp's self-reported figures as independently verified; when we cite them at all, we label them as self-reported and point to the primary document.\n\nThe practical takeaway: for any outcome claim, find the methodology — graduate definition, exclusions, what counts as a placement, the time window, and whether it is third-party verified. Prefer schools that report through a standard like CIRR, treat non-standardized claims as self-reported, and sanity-check salaries against BLS data. This article is educational and cites official methodology and government sources; Vivahale does not audit bootcamps or verify their placement data, and this is not career or financial advice.",
+    "author_id": "author-education-research-analyst",
+    "reviewer_id": "reviewer-editorial-team",
+    "status": "draft",
+    "scheduled_at": null,
+    "published_at": "2026-07-10T09:00:00Z",
+    "last_updated_at": "2026-07-12T09:00:00Z",
+    "compliance_json": null,
+    "sources_json": [
+      {
+        "name": "Council on Integrity in Results Reporting (CIRR) — Reporting Standards (official)",
+        "url": "https://www.cirr.org/our-standards"
+      },
+      {
+        "name": "Council on Integrity in Results Reporting (CIRR) — School outcomes data (official)",
+        "url": "https://www.cirr.org/schooldata"
+      },
+      {
+        "name": "U.S. Bureau of Labor Statistics — Occupational Outlook Handbook (official)",
+        "url": "https://www.bls.gov/ooh/"
+      }
+    ]
+  }
+]

@@ -34,6 +34,13 @@ import techArticlesSeed from "@/data/tech/articles.json";
 import techProductsSeed from "@/data/tech/products.json";
 import techHubsSeed from "@/data/tech/hubs.json";
 
+import educationCategoriesSeed from "@/data/education/categories.json";
+import educationAuthorsSeed from "@/data/education/authors.json";
+import educationReviewersSeed from "@/data/education/reviewers.json";
+import educationArticlesSeed from "@/data/education/articles.json";
+import educationProductsSeed from "@/data/education/products.json";
+import educationHubsSeed from "@/data/education/hubs.json";
+
 import { getActiveVertical } from "@/lib/verticals";
 
 import type {
@@ -92,6 +99,19 @@ const SEEDS: Record<string, VerticalSeeds> = {
     articles: techArticlesSeed as Article[],
     products: techProductsSeed as Product[],
     hubs: techHubsSeed as Hub[],
+  },
+  // Education vertical (education.vivahale.com) — evidence-first reviews of
+  // learning programs and education tools. Seeds live in src/data/education/;
+  // ratings analyze officially published data and provider documentation, NOT
+  // independent audits of schools or student surveys, and every figure cites a
+  // primary source with an as-of date. Self-reported outcomes are labeled.
+  education: {
+    categories: educationCategoriesSeed as Category[],
+    authors: educationAuthorsSeed as Author[],
+    reviewers: educationReviewersSeed as Reviewer[],
+    articles: educationArticlesSeed as Article[],
+    products: educationProductsSeed as Product[],
+    hubs: educationHubsSeed as Hub[],
   },
   // The apex portal is a brand hub with no content of its own. An EMPTY seed set
   // (rather than none) means a portal-mode build's data-layer calls return []

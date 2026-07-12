@@ -1,0 +1,12 @@
+[
+  {
+    "id": "reviewer-editorial-team",
+    "name": "Vivahale Editorial Team",
+    "slug": "editorial-team",
+    "photo_url": null,
+    "bio": "Vivahale's editorial team fact-checks every education article against the primary sources it cites — accreditor databases and the U.S. Department of Education's DAPIP, College Scorecard, Bureau of Labor Statistics data, standardized outcomes reports such as CIRR, and each provider's official pricing, curriculum, accreditation, and outcomes documentation — before publication. Vivahale Education does NOT independently audit schools or programs and does NOT conduct student surveys: our ratings are based on analysis of officially published data, and this is editorial fact-checking against primary sources, not an independent audit. Where a provider's outcome numbers are self-reported and unaudited, we label them as self-reported and never present them as independently verified.",
+    "credentials": "Editorial fact-check",
+    "credential_type": "Editorial",
+    "is_placeholder": false
+  }
+]
