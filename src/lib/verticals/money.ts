@@ -35,6 +35,9 @@ export const money: Vertical = {
 
   navPrimaryCount: 6,
 
+  // The money-news section renders the timely news-list layout.
+  newsCategorySlugs: ["money-news"],
+
   categories: [
     "high-yield-savings",
     "budgeting-apps",

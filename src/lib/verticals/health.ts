@@ -38,6 +38,11 @@ export const health: Vertical = {
 
   navPrimaryCount: 6,
 
+  // Category slugs that render the news-list layout on /category/[slug].
+  // Copied VERBATIM from the previous hardcoded NEWS_CATEGORIES set in
+  // src/app/category/[slug]/page.tsx so health output stays byte-identical.
+  newsCategorySlugs: ["health-news", "health-tech-ai"],
+
   // Ordered category slugs from src/lib/site.ts NAV_CATEGORIES (same order).
   categories: [
     "weight-loss",

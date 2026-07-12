@@ -1,0 +1,697 @@
+[
+  {
+    "id": "prod-bitwarden",
+    "slug": "bitwarden",
+    "name": "Bitwarden",
+    "category_slug": "software-saas",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 9.0,
+    "ratings": {
+      "performance": 9,
+      "value": 10,
+      "reliability": 9,
+      "ease_of_use": 8,
+      "support": 8
+    },
+    "price_summary": "Free tier (unlimited passwords and devices); Premium $19.80/yr; Families $47.88/yr for 6 users (as of 2026-07-12)",
+    "pros": [
+      "Genuinely useful free tier with unlimited passwords and unlimited devices, passkey management, and a generator, per Bitwarden's official pricing page (as of 2026-07-12)",
+      "Fully open source under AGPLv3, so the code can be independently reviewed on GitHub, per Bitwarden's documentation",
+      "Documented independent third-party audits (Cure53, and a 2025 cryptography audit by ETH Zurich) plus SOC 2 Type 2, SOC 3, and ISO 27001, per Bitwarden's official audit page",
+      "Premium remains inexpensive at $19.80/year for the individual plan"
+    ],
+    "cons": [
+      "The interface is more utilitarian and less polished than 1Password or Dashlane, a widely noted trade-off of its function-first design",
+      "Premium roughly doubled from $9.99 to $19.80 per year in early 2026 — its first price change in about a decade — so the historically famous $10 price no longer applies",
+      "Some conveniences (integrated authenticator, file attachments, emergency access) require the paid Premium tier"
+    ],
+    "best_for": "Anyone who wants a strong, transparent, open-source password manager with a real free tier and the lowest paid price.",
+    "summary": "Bitwarden is our top pick on value: a genuinely capable free tier, the lowest-cost paid plan here, open-source code, and a documented audit and certification trail. The trade-off is a more utilitarian interface than its glossier rivals.",
+    "verdict_summary": "Bitwarden earns our top spot for most people because it pairs a genuinely useful free tier with the strongest transparency story in the category. Its official pricing page confirms the free plan includes unlimited passwords and unlimited devices, passkeys, and a generator, while Premium is $19.80/year and Families is $47.88/year for six users (as of 2026-07-12). Security is well documented: the code is open source under AGPLv3 and reviewable on GitHub, and Bitwarden publishes independent third-party audits (including Cure53 assessments and a 2025 ETH Zurich cryptography audit) alongside SOC 2 Type 2, SOC 3, and ISO 27001 certifications. The honest trade-offs: the interface is more functional than polished compared with 1Password or Dashlane, and Premium roughly doubled from $9.99 to $19.80 in early 2026, so the long-famous $10 price is gone (it is still the cheapest paid tier here). Note that this rating reflects analysis of Bitwarden's published documentation, not independent lab testing. For value and transparency, Bitwarden leads.",
+    "pricing_table": [
+      {
+        "plan": "Free",
+        "price": "$0 (as of 2026-07-12)",
+        "notes": "Unlimited passwords, unlimited devices, passkey management, generator, and Bitwarden Send, per the official pricing page."
+      },
+      {
+        "plan": "Premium (individual)",
+        "price": "$19.80/yr ($1.65/mo billed annually) (as of 2026-07-12)",
+        "notes": "Adds integrated authenticator, 5 GB file attachments, emergency access, and vault health reports."
+      },
+      {
+        "plan": "Families",
+        "price": "$47.88/yr ($3.99/mo) for up to 6 users (as of 2026-07-12)",
+        "notes": "Premium for each of up to six members with unlimited sharing."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is Bitwarden really free?",
+        "answer": "Yes. Bitwarden's official pricing page states the free plan includes unlimited passwords, unlimited devices, passkey management, and a generator at no cost (as of 2026-07-12). Premium ($19.80/year) adds extras like an integrated authenticator and file attachments."
+      },
+      {
+        "question": "Has Bitwarden been independently audited?",
+        "answer": "Yes. Bitwarden's official 'Is Bitwarden audited?' page documents regular third-party audits (including Cure53 and a 2025 ETH Zurich cryptography audit) and lists SOC 2 Type 2, SOC 3, and ISO 27001 certifications. The code is also open source under AGPLv3 on GitHub."
+      },
+      {
+        "question": "Why did Bitwarden's price change?",
+        "answer": "Bitwarden's official pricing page now lists Premium at $19.80/year ($1.65/month billed annually), roughly double the previous $9.99/year — its first individual-Premium price change in about a decade (as of 2026-07-12). It remains the least expensive paid tier in this comparison."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Free plan includes unlimited passwords and devices and passkeys; Premium is $19.80/year ($1.65/mo billed annually); Families is $47.88/year for up to 6 users (as of 2026-07-12).",
+        "source_name": "Bitwarden — official pricing",
+        "source_url": "https://bitwarden.com/pricing/"
+      },
+      {
+        "claim": "Bitwarden documents third-party audits (Cure53, 2025 ETH Zurich cryptography audit) and holds SOC 2 Type 2, SOC 3, and ISO 27001 certifications.",
+        "source_name": "Bitwarden — Is Bitwarden audited? (official)",
+        "source_url": "https://bitwarden.com/help/is-bitwarden-audited/"
+      }
+    ],
+    "last_updated": "2026-07-12"
+  },
+  {
+    "id": "prod-1password",
+    "slug": "1password",
+    "name": "1Password",
+    "category_slug": "software-saas",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 8.8,
+    "ratings": {
+      "performance": 9,
+      "value": 8,
+      "reliability": 9,
+      "ease_of_use": 10,
+      "support": 8
+    },
+    "price_summary": "Individual $2.99/mo billed annually ($35.88/yr); Families $4.49/mo billed annually ($53.88/yr); no free tier, 14-day trial (as of 2026-07-12)",
+    "pros": [
+      "Polished, consistent apps across platforms make it one of the easiest password managers to adopt",
+      "A 128-bit Secret Key is combined with your account password so a stolen password alone cannot decrypt your vault, per 1Password's official security documentation",
+      "SOC 2 Type 2 certified with a published security white paper and independent security audits, per 1Password",
+      "Transparent single price: Individual $2.99/month and Families $4.49/month, both billed annually (as of 2026-07-12)"
+    ],
+    "cons": [
+      "No permanently free tier — only a 14-day trial, per 1Password's official pricing page (as of 2026-07-12)",
+      "The Individual plan at $35.88/year is more expensive than Bitwarden's or Proton Pass's paid tiers",
+      "The Secret Key model adds a step when setting up a new device (you must supply the key), which some users find less convenient"
+    ],
+    "best_for": "People who want the most polished, beginner-friendly experience and don't need a free tier.",
+    "summary": "1Password is the most polished option here, with excellent cross-platform apps and a distinctive Secret Key that strengthens account security. The trade-offs are a higher price than Bitwarden and no free tier.",
+    "verdict_summary": "1Password is the easiest password manager to recommend to someone who wants a refined, low-friction experience. Its official pricing page lists Individual at $2.99/month and Families at $4.49/month, both billed annually ($35.88 and $53.88 per year), with a 14-day trial and no permanently free tier (as of 2026-07-12). Security is a strength: 1Password's documentation describes a dual-key model in which a 128-bit Secret Key is combined with your account password, so a stolen password alone cannot decrypt your data, and the company holds SOC 2 Type 2 certification with a published security white paper and independent audits. The honest drawbacks are price and the missing free tier: at $35.88/year the Individual plan costs more than Bitwarden or Proton Pass, and there is no free option, only a trial. The Secret Key also adds a setup step on each new device. This rating reflects analysis of 1Password's published documentation, not independent lab testing. For polish and ease of use, 1Password leads.",
+    "pricing_table": [
+      {
+        "plan": "Individual",
+        "price": "$2.99/mo billed annually ($35.88/yr); $3.99/mo monthly (as of 2026-07-12)",
+        "notes": "Single user; unlimited items and devices. No free tier."
+      },
+      {
+        "plan": "Families",
+        "price": "$4.49/mo billed annually ($53.88/yr); $5.99/mo monthly (as of 2026-07-12)",
+        "notes": "Up to 5 family members with shared vaults and admin controls."
+      },
+      {
+        "plan": "Free trial",
+        "price": "$0 for 14 days (as of 2026-07-12)",
+        "notes": "Full-feature trial; no permanent free plan."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does 1Password have a free version?",
+        "answer": "No. 1Password's official pricing page offers a 14-day free trial but no permanently free tier (as of 2026-07-12). Paid plans are Individual ($2.99/month) and Families ($4.49/month), both billed annually."
+      },
+      {
+        "question": "What is the 1Password Secret Key?",
+        "answer": "Per 1Password's security documentation, your account is protected by two layers: your account password (which the company never stores) and a 128-bit Secret Key. Both are required to decrypt your vault, so a stolen password by itself is not enough."
+      },
+      {
+        "question": "Is 1Password audited?",
+        "answer": "1Password states it holds SOC 2 Type 2 certification, publishes a security white paper describing its design, and works with external experts on independent security audits, per its official security page."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Individual is $2.99/month and Families is $4.49/month, both billed annually, with a 14-day trial and no free tier (as of 2026-07-12).",
+        "source_name": "1Password — official pricing",
+        "source_url": "https://1password.com/pricing"
+      },
+      {
+        "claim": "1Password uses a dual-key model (account password plus a 128-bit Secret Key) and holds SOC 2 Type 2 certification with a published security white paper.",
+        "source_name": "1Password — official security",
+        "source_url": "https://1password.com/security"
+      }
+    ],
+    "last_updated": "2026-07-12"
+  },
+  {
+    "id": "prod-proton-pass",
+    "slug": "proton-pass",
+    "name": "Proton Pass",
+    "category_slug": "software-saas",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 8.4,
+    "ratings": {
+      "performance": 8,
+      "value": 9,
+      "reliability": 9,
+      "ease_of_use": 8,
+      "support": 7
+    },
+    "price_summary": "Free tier (unlimited logins, 10 hide-my-email aliases); Pass Plus $1.99/mo billed annually ($23.88/yr) (as of 2026-07-12)",
+    "pros": [
+      "Strong free tier with unlimited logins, notes, and cards, unlimited devices, passkeys, and 10 hide-my-email aliases, per Proton's official pricing page (as of 2026-07-12)",
+      "Open source with publicly available independent third-party audit reports and a public bug-bounty program, per Proton's official security documentation",
+      "End-to-end encryption using 256-bit AES-GCM, with metadata also encrypted, per Proton",
+      "Pass Plus is inexpensive at $1.99/month billed annually, reduced from $3.99 per Proton's official blog"
+    ],
+    "cons": [
+      "The newest major password manager here, so it has a shorter public track record than 1Password, Bitwarden, or Keeper",
+      "Several conveniences — unlimited hide-my-email aliases, an integrated 2FA authenticator, and Dark Web Monitoring — require the paid Pass Plus tier",
+      "Proton's official page emphasizes the annual Plus price; a standalone monthly rate is not highlighted, so month-to-month buyers should confirm terms at checkout"
+    ],
+    "best_for": "Privacy-focused users who want strong encryption, open-source code, and a capable free tier.",
+    "summary": "Proton Pass pairs a capable free tier with strong, well-documented encryption and open-source, independently audited code from a Swiss privacy company. It is the newest option here, with a shorter track record than the incumbents.",
+    "verdict_summary": "Proton Pass is our pick for privacy-minded users who want strong encryption without paying much. Proton's official pricing page shows a free tier with unlimited logins, notes, and cards, unlimited devices, passkeys, and 10 hide-my-email aliases, while Pass Plus is $1.99/month billed annually ($23.88/year), reduced from $3.99 per Proton's official blog (as of 2026-07-12). Security is well documented: the apps are open source with publicly available independent audit reports and a public bug-bounty program, and Proton describes 256-bit AES-GCM end-to-end encryption in which even metadata is encrypted, operated under Swiss jurisdiction. The honest trade-offs: Proton Pass is the newest major manager here, so its public track record is shorter than 1Password's, Bitwarden's, or Keeper's, and several conveniences (unlimited aliases, an integrated authenticator, Dark Web Monitoring) require Pass Plus. This rating reflects analysis of Proton's published documentation, not independent lab testing. For privacy and value, Proton Pass is a strong, honest choice.",
+    "pricing_table": [
+      {
+        "plan": "Proton Free",
+        "price": "$0 (as of 2026-07-12)",
+        "notes": "Unlimited logins, notes, and cards; unlimited devices; passkeys; 10 hide-my-email aliases."
+      },
+      {
+        "plan": "Pass Plus",
+        "price": "$1.99/mo billed annually ($23.88/yr) (as of 2026-07-12)",
+        "notes": "Reduced from $3.99/month per Proton's official blog. Adds unlimited aliases, integrated 2FA authenticator, and Dark Web Monitoring."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is Proton Pass free?",
+        "answer": "Yes. Proton's official pricing page lists a free tier with unlimited logins, notes, and cards, unlimited devices, passkeys, and 10 hide-my-email aliases (as of 2026-07-12). Pass Plus ($1.99/month billed annually) adds unlimited aliases and more."
+      },
+      {
+        "question": "Is Proton Pass open source and audited?",
+        "answer": "Yes. Proton states all Proton Pass apps are open source and can be independently reviewed, that it has been audited by independent third-party experts with public reports, and that it runs a public bug-bounty program, per its official security page."
+      },
+      {
+        "question": "How is my data encrypted?",
+        "answer": "Proton documents 256-bit AES-GCM end-to-end encryption in which all metadata is also encrypted so that not even Proton can access it, operated from Switzerland, per its official security documentation."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Free tier includes unlimited logins and 10 hide-my-email aliases; Pass Plus is $1.99/month billed annually (as of 2026-07-12).",
+        "source_name": "Proton Pass — official pricing",
+        "source_url": "https://proton.me/pass/pricing"
+      },
+      {
+        "claim": "Proton decreased Pass Plus from $3.99 to $1.99 per month on the annual subscription for new and existing customers.",
+        "source_name": "Proton — official blog (Pass Plus price change)",
+        "source_url": "https://proton.me/blog/proton-pass-price-change"
+      },
+      {
+        "claim": "Proton Pass apps are open source, independently audited with public reports, and use 256-bit AES-GCM end-to-end encryption including metadata.",
+        "source_name": "Proton Pass — official security",
+        "source_url": "https://proton.me/pass/security"
+      }
+    ],
+    "last_updated": "2026-07-12"
+  },
+  {
+    "id": "prod-keeper",
+    "slug": "keeper-password-manager",
+    "name": "Keeper Password Manager",
+    "category_slug": "software-saas",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 8.0,
+    "ratings": {
+      "performance": 8,
+      "value": 7,
+      "reliability": 10,
+      "ease_of_use": 8,
+      "support": 8
+    },
+    "price_summary": "Keeper Unlimited $42.99/yr; Keeper Family $91.99/yr for 5 users; 30-day free trial (as of 2026-07-12)",
+    "pros": [
+      "The deepest certification trail here: SOC 2 Type II maintained for over ten years, ISO 27001/27017/27018, and a FedRAMP High authorization, per Keeper's official security page",
+      "Zero-knowledge architecture in which encryption and decryption occur locally on the user's device, per Keeper",
+      "Keeper Family covers 5 users with 10 GB of secure file storage and emergency access (as of 2026-07-12)",
+      "30-day free trial to evaluate before paying, per Keeper's official pricing page"
+    ],
+    "cons": [
+      "The most expensive individual plan in this comparison at $42.99/year, versus $19.80 for Bitwarden Premium (as of 2026-07-12)",
+      "BreachWatch dark-web monitoring and additional secure file storage are paid add-ons rather than being included in the base personal plan",
+      "No permanently free tier — only a 30-day trial"
+    ],
+    "best_for": "Users and families who prioritize the strongest documented certifications and are willing to pay more for them.",
+    "summary": "Keeper backs its password manager with an unusually deep set of documented certifications, including FedRAMP High. The trade-offs are the highest individual price here and dark-web monitoring being a paid add-on.",
+    "verdict_summary": "Keeper is the pick for buyers who weight documented certifications most heavily. Its official security page describes a zero-knowledge architecture, SOC 2 Type II compliance maintained for over ten years under the AICPA framework, ISO 27001/27017/27018 certifications, and a FedRAMP High authorization hosted in AWS GovCloud — the deepest compliance trail in this comparison. Pricing, per Keeper's official knowledge base, is $42.99/year for Keeper Unlimited (individual) and $91.99/year for Keeper Family, which covers five users with 10 GB of storage and emergency access, and there is a 30-day trial (as of 2026-07-12). The honest drawbacks are cost and packaging: at $42.99/year the individual plan is the most expensive here, more than double Bitwarden Premium, and BreachWatch dark-web monitoring plus extra secure file storage are paid add-ons rather than base features. There is also no permanently free tier. This rating reflects analysis of Keeper's published documentation, not independent lab testing. For certification depth, Keeper stands out; for pure value, cheaper options win.",
+    "pricing_table": [
+      {
+        "plan": "Keeper Unlimited (individual)",
+        "price": "$42.99/yr (as of 2026-07-12)",
+        "notes": "Unlimited password storage, unlimited devices and sync, 24/7 support. BreachWatch and extra file storage are paid add-ons."
+      },
+      {
+        "plan": "Keeper Family",
+        "price": "$91.99/yr for 5 users (as of 2026-07-12)",
+        "notes": "All personal features plus 10 GB secure file storage and emergency access."
+      },
+      {
+        "plan": "Free trial",
+        "price": "$0 for 30 days (as of 2026-07-12)",
+        "notes": "Evaluate before paying; no permanent free tier."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How much does Keeper cost?",
+        "answer": "Per Keeper's official knowledge base, Keeper Unlimited (individual) is $42.99/year and Keeper Family (5 users) is $91.99/year, with a 30-day free trial (as of 2026-07-12)."
+      },
+      {
+        "question": "What certifications does Keeper have?",
+        "answer": "Keeper's official security page lists SOC 2 Type II (maintained over ten years), ISO 27001/27017/27018, and a FedRAMP High authorization in AWS GovCloud, alongside a zero-knowledge architecture where encryption and decryption occur locally on your device."
+      },
+      {
+        "question": "Is dark-web monitoring included?",
+        "answer": "Keeper's BreachWatch dark-web monitoring is offered as a paid add-on rather than being bundled into the base personal plan, per Keeper's official pricing page (as of 2026-07-12)."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Keeper Unlimited (individual) is $42.99/year and Keeper Family (5 users) is $91.99/year (as of 2026-07-12).",
+        "source_name": "Keeper Security — How much is Keeper? (official knowledge base)",
+        "source_url": "https://help.keeper.io/article/158-how-much-is-keeper"
+      },
+      {
+        "claim": "Keeper documents SOC 2 Type II (10+ years), ISO 27001/27017/27018, FedRAMP High, and a zero-knowledge architecture with local encryption/decryption.",
+        "source_name": "Keeper Security — official security",
+        "source_url": "https://www.keepersecurity.com/security.html"
+      },
+      {
+        "claim": "Keeper personal and family plans and their features (with a 30-day free trial) are listed on the official personal-and-family pricing page.",
+        "source_name": "Keeper Security — Personal & Family pricing (official)",
+        "source_url": "https://www.keepersecurity.com/pricing/personal-and-family.html"
+      }
+    ],
+    "last_updated": "2026-07-12"
+  },
+  {
+    "id": "prod-dashlane",
+    "slug": "dashlane",
+    "name": "Dashlane",
+    "category_slug": "software-saas",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 7.6,
+    "ratings": {
+      "performance": 8,
+      "value": 6,
+      "reliability": 9,
+      "ease_of_use": 8,
+      "support": 7
+    },
+    "price_summary": "Paid-only (no free plan; 14-day trial); Premium includes a VPN; Friends & Family covers 10 members (as of 2026-07-12)",
+    "pros": [
+      "Premium bundles a VPN for public Wi-Fi, unusual among password managers, per Dashlane's official pricing page (as of 2026-07-12)",
+      "Friends & Family covers 10 members under one subscription, more than most rivals' family plans",
+      "Zero-knowledge architecture with AES-256 vault encryption and Argon2d key derivation, and 8 granted security patents, per Dashlane's official security page",
+      "Uses AWS Nitro Enclaves to extend zero-knowledge protection to cloud operations, per Dashlane"
+    ],
+    "cons": [
+      "No free tier — Dashlane is paid-only with a 14-day trial, per its official pricing page, so free-tier seekers should look at Bitwarden or Proton Pass (as of 2026-07-12)",
+      "Dashlane's official personal pricing page renders prices dynamically and did not expose a static, machine-readable figure for verbatim citation, so confirm the current price at checkout",
+      "On Friends & Family, only the plan manager receives the full Premium account with VPN; other members get everything except the VPN, per Dashlane"
+    ],
+    "best_for": "Users who want a polished manager that bundles a VPN and a large family plan, and don't need a free tier.",
+    "summary": "Dashlane is a polished password manager that bundles a VPN and a generous 10-member family plan, backed by a well-documented, patented zero-knowledge design. Its main drawbacks are the lack of a free tier and pricing that isn't shown statically on its site.",
+    "verdict_summary": "Dashlane suits users who want a polished manager with extras most rivals don't bundle. Its official personal pricing page confirms Premium includes a VPN for public Wi-Fi and that Friends & Family covers 10 members under one subscription, with no free plan — only a 14-day trial (as of 2026-07-12). Security is well documented: Dashlane's official security page describes a zero-knowledge architecture with AES-256 vault encryption and Argon2d key derivation, 8 granted patents, and the use of AWS Nitro Enclaves to extend zero-knowledge protection to cloud operations. The honest trade-offs are real: there is no free tier, so anyone wanting a free option should consider Bitwarden or Proton Pass, and Dashlane's pricing page renders prices dynamically rather than as static text, so we describe the pricing qualitatively and recommend confirming the current figure at checkout rather than repeating an unverified number. On Friends & Family, only the manager gets the VPN. This rating reflects analysis of Dashlane's published documentation, not independent lab testing.",
+    "pricing_table": [
+      {
+        "plan": "Premium",
+        "price": "Paid subscription — confirm current price on the official pricing page (as of 2026-07-12)",
+        "notes": "Includes a VPN for public Wi-Fi and dark-web monitoring. The official page renders the price dynamically, so it is described qualitatively here rather than quoted from an unverified figure."
+      },
+      {
+        "plan": "Friends & Family",
+        "price": "Paid subscription for 10 members — confirm current price on the official pricing page (as of 2026-07-12)",
+        "notes": "Covers 10 accounts under one subscription; only the plan manager receives the VPN (other members get everything except the VPN)."
+      },
+      {
+        "plan": "Free trial",
+        "price": "$0 for 14 days (as of 2026-07-12)",
+        "notes": "No permanently free plan; a 14-day trial is offered instead."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does Dashlane have a free plan?",
+        "answer": "No. Dashlane's official personal pricing page offers a 14-day free trial but no permanently free tier (as of 2026-07-12). If you want a free password manager, Bitwarden and Proton Pass both offer capable free tiers."
+      },
+      {
+        "question": "Does Dashlane include a VPN?",
+        "answer": "Yes. Dashlane's official pricing page lists a VPN for public Wi-Fi as a Premium feature. On the Friends & Family plan, only the plan manager receives the VPN; other members get everything except the VPN (as of 2026-07-12)."
+      },
+      {
+        "question": "How is Dashlane secured?",
+        "answer": "Dashlane's official security page describes a zero-knowledge architecture with AES-256 vault encryption and Argon2d key derivation, 8 granted security patents, and AWS Nitro Enclaves used to extend zero-knowledge protection to cloud operations."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Dashlane Premium includes a VPN, Friends & Family covers 10 members (only the manager gets the VPN), and there is no free plan — a 14-day trial instead (as of 2026-07-12).",
+        "source_name": "Dashlane — official personal pricing",
+        "source_url": "https://www.dashlane.com/pricing-personal"
+      },
+      {
+        "claim": "Dashlane documents a zero-knowledge architecture with AES-256 encryption and Argon2d key derivation, 8 granted patents, and AWS Nitro Enclaves for cloud operations.",
+        "source_name": "Dashlane — official security",
+        "source_url": "https://www.dashlane.com/security"
+      }
+    ],
+    "last_updated": "2026-07-12"
+  },
+  {
+    "id": "prod-airpods-pro-3",
+    "slug": "apple-airpods-pro-3",
+    "name": "Apple AirPods Pro 3",
+    "category_slug": "headphones-audio",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 9.0,
+    "ratings": {
+      "performance": 9,
+      "value": 9,
+      "reliability": 8,
+      "ease_of_use": 9,
+      "support": 8
+    },
+    "price_summary": "$249 (as of 2026-07-12)",
+    "pros": [
+      "Apple's newest H2 headphone chip and a second-generation Ultra Wideband chip in the case, per Apple's official specifications",
+      "Manufacturer-rated up to 8 hours of listening with Active Noise Cancellation and up to 24 hours total with the charging case, per Apple (as of 2026-07-12)",
+      "Adds a heart-rate sensor for workouts that pairs with the iPhone Fitness app, per Apple",
+      "Apple markets substantially improved in-ear Active Noise Cancellation over the prior generation"
+    ],
+    "cons": [
+      "Ecosystem lock-in: features such as heart-rate sensing require an iPhone running iOS 26 or later, per Apple, so Android users cannot access the full experience",
+      "Total battery with the case (up to 24 hours) is lower than the up to 30 hours cited for the previous-generation AirPods Pro 2 and than the Pixel Buds Pro 2's up to 30 hours",
+      "At $249 it is more expensive than the Google Pixel Buds Pro 2 ($229)"
+    ],
+    "best_for": "iPhone owners who want the most seamless setup, strong ANC, and workout heart-rate sensing.",
+    "summary": "The AirPods Pro 3 pair Apple's newest H2 chip with manufacturer-rated up to 8 hours of ANC listening and a new heart-rate sensor. The catch is ecosystem lock-in: the full experience requires an iPhone.",
+    "verdict_summary": "The AirPods Pro 3 are the easiest wireless earbuds to recommend to iPhone owners. Apple's official specifications list the newest H2 headphone chip, a second-generation Ultra Wideband chip in the case, manufacturer-rated up to 8 hours of listening with Active Noise Cancellation and up to 24 hours total with the charging case, and a new heart-rate sensor for workouts that pairs with the iPhone Fitness app (as of 2026-07-12). Apple markets significantly improved in-ear ANC over the prior generation; because we do not run a lab, we report that as a manufacturer claim, not a measured result. The honest trade-offs are ecosystem lock-in and battery: heart-rate sensing requires an iPhone running iOS 26 or later, so Android users cannot access the full feature set, and the up to 24 hours of total battery trails both the previous AirPods Pro 2 (up to 30 hours) and the Pixel Buds Pro 2 (up to 30 hours). At $249 it also costs more than the $229 Pixel Buds Pro 2. All figures are manufacturer-rated and cited to Apple, not independently tested.",
+    "pricing_table": [
+      {
+        "plan": "AirPods Pro 3",
+        "price": "$249 (as of 2026-07-12)",
+        "notes": "Apple official list price; includes the MagSafe charging case."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How long do the AirPods Pro 3 last on a charge?",
+        "answer": "Apple's official specifications rate the AirPods Pro 3 at up to 8 hours of listening with Active Noise Cancellation on a single charge, and up to 24 hours of total listening time with the charging case (as of 2026-07-12). These are manufacturer-rated figures, not lab-measured."
+      },
+      {
+        "question": "Do the AirPods Pro 3 work fully with Android?",
+        "answer": "No. Per Apple, features such as heart-rate sensing require an iPhone running iOS 26 or later. The earbuds can pair with Android over Bluetooth, but the full advertised experience is tied to the Apple ecosystem (as of 2026-07-12)."
+      },
+      {
+        "question": "What chip do they use?",
+        "answer": "Apple's specifications list the Apple H2 headphone chip in the earbuds and a second-generation Ultra Wideband chip in the charging case."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "AirPods Pro 3 use the Apple H2 chip, are manufacturer-rated up to 8 hours of ANC listening and up to 24 hours total with the case, and include a heart-rate sensor requiring iOS 26 or later (as of 2026-07-12).",
+        "source_name": "Apple — AirPods Pro 3 Tech Specs (official)",
+        "source_url": "https://www.apple.com/airpods-pro/specs/"
+      },
+      {
+        "claim": "AirPods Pro 3 US list price and overview.",
+        "source_name": "Apple — AirPods Pro (official)",
+        "source_url": "https://www.apple.com/airpods-pro/"
+      }
+    ],
+    "last_updated": "2026-07-12"
+  },
+  {
+    "id": "prod-sony-wf-1000xm6",
+    "slug": "sony-wf-1000xm6",
+    "name": "Sony WF-1000XM6",
+    "category_slug": "headphones-audio",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 8.6,
+    "ratings": {
+      "performance": 9,
+      "value": 7,
+      "reliability": 8,
+      "ease_of_use": 9,
+      "support": 8
+    },
+    "price_summary": "$329.99 (as of 2026-07-12)",
+    "pros": [
+      "New HD Noise Canceling Processor QN3e, which Sony positions as its flagship noise-canceling silicon, per Sony's official launch release",
+      "Manufacturer-rated up to 8 hours of listening with noise canceling and up to 24 hours total with the charging case, per Sony (as of 2026-07-12)",
+      "Four microphones, an upgrade from the previous model's three, per Sony's official release",
+      "Cross-platform: works over standard Bluetooth with both iOS and Android, avoiding single-vendor lock-in"
+    ],
+    "cons": [
+      "At $329.99 it is the most expensive pair in this comparison, per Sony's official pricing (as of 2026-07-12)",
+      "Total battery with the case (up to 24 hours) matches the AirPods Pro 3 but trails the Pixel Buds Pro 2's up to 30 hours",
+      "Sony's launch release markets 'Hi-Res Audio Wireless' but does not enumerate specific codecs (such as LDAC) or state a water-resistance (IP) rating, so buyers who need a particular codec or ruggedness spec should confirm the full spec sheet before purchase"
+    ],
+    "best_for": "Listeners who want Sony's newest flagship noise-canceling earbuds and platform flexibility.",
+    "summary": "The Sony WF-1000XM6 is Sony's newest flagship, built around its QN3e noise-canceling processor with manufacturer-rated up to 8 hours of ANC listening. The trade-off is the highest price here, at $329.99.",
+    "verdict_summary": "The Sony WF-1000XM6 is Sony's newest flagship wireless earbuds, and it works equally well across iOS and Android. Sony's official launch release describes a new HD Noise Canceling Processor QN3e, four microphones (up from three on the prior model), and manufacturer-rated up to 8 hours of listening with noise canceling plus up to 24 hours total with the charging case, at a US price of $329.99 (as of 2026-07-12). Sony markets these as its best-noise-canceling earbuds; because we do not run a lab, we report that as a manufacturer claim rather than a measured result. The honest trade-offs are price and battery: at $329.99 this is the most expensive pair here, its up to 24 hours of total battery trails the Pixel Buds Pro 2's up to 30 hours, and Sony's launch release markets 'Hi-Res Audio Wireless' but does not enumerate a specific codec (such as LDAC) or state a water-resistance (IP) rating, so buyers who need a particular codec or ruggedness spec should confirm the full spec sheet first. All figures are manufacturer-rated and cited to Sony, not independently tested.",
+    "pricing_table": [
+      {
+        "plan": "Sony WF-1000XM6",
+        "price": "$329.99 (as of 2026-07-12)",
+        "notes": "Sony official US launch price; available in Black and Platinum Silver."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How long does the Sony WF-1000XM6 battery last?",
+        "answer": "Sony's official launch release rates the WF-1000XM6 at up to 8 hours of listening on a single charge and up to 24 hours with the charging case, when using noise canceling and a Bluetooth connection (as of 2026-07-12). These are manufacturer-rated figures, not lab-measured."
+      },
+      {
+        "question": "What noise-canceling processor does it use?",
+        "answer": "Per Sony's official release, the WF-1000XM6 uses a new HD Noise Canceling Processor QN3e and has four microphones, an upgrade from the previous model's three."
+      },
+      {
+        "question": "Does it work with iPhone and Android?",
+        "answer": "Yes. The WF-1000XM6 connects over standard Bluetooth to both iOS and Android devices, so it is not locked to a single vendor's ecosystem."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "WF-1000XM6 US price $329.99; new QN3e noise-canceling processor; four microphones (up from three); manufacturer-rated up to 8 hours ANC and up to 24 hours with the case (as of 2026-07-12).",
+        "source_name": "Sony Electronics — WF-1000XM6 launch (official press release)",
+        "source_url": "https://www.prnewswire.com/news-releases/sony-electronics-launches-wf-1000xm6-truly-wireless-earbuds--the-best-noise-canceling1-with-premium-sound-302685878.html"
+      }
+    ],
+    "last_updated": "2026-07-12"
+  },
+  {
+    "id": "prod-pixel-buds-pro-2",
+    "slug": "google-pixel-buds-pro-2",
+    "name": "Google Pixel Buds Pro 2",
+    "category_slug": "headphones-audio",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 8.4,
+    "ratings": {
+      "performance": 8,
+      "value": 9,
+      "reliability": 8,
+      "ease_of_use": 8,
+      "support": 8
+    },
+    "price_summary": "$229 (as of 2026-07-12)",
+    "pros": [
+      "Lowest official price among the flagship earbuds here at $229, per Google's official store (as of 2026-07-12)",
+      "Manufacturer-rated up to 8 hours of listening with Active Noise Cancellation and up to 30 hours total with the charging case, the longest total in this comparison, per Google",
+      "Powered by the Google Tensor A1 chip with multi-path processing, per Google",
+      "Google states Active Noise Cancellation is twice as strong as the previous generation"
+    ],
+    "cons": [
+      "The deepest feature integration (including Gemini AI assistant features) is tied to Google Pixel and Android devices, so iPhone users get a reduced experience",
+      "Google's specifications list an IP54 rating for the earbuds, which is less dust/water resistant than the Samsung Galaxy Buds3 Pro's IP57",
+      "As a smaller audio ecosystem than Apple or Sony, third-party accessory and long-term support breadth is narrower"
+    ],
+    "best_for": "Android and Pixel users who want the best battery-and-price combination in a flagship earbud.",
+    "summary": "The Pixel Buds Pro 2 offer the lowest price and the longest manufacturer-rated total battery here, powered by Google's Tensor A1 chip. The catch is that the deepest features are tied to Pixel and Android.",
+    "verdict_summary": "The Google Pixel Buds Pro 2 are the value leader among these flagship earbuds. Google's official store lists a $229 price — the lowest here — with manufacturer-rated up to 8 hours of listening with Active Noise Cancellation and up to 30 hours total with the charging case, the longest total battery in this comparison, powered by the Google Tensor A1 chip with multi-path processing (as of 2026-07-12). Google states ANC is twice as strong as the previous generation; because we do not run a lab, we report that as a manufacturer claim, not a measured result. The honest trade-offs are ecosystem and durability: the deepest features, including Gemini assistant integration, are tied to Pixel and Android, so iPhone users get a reduced experience, and the IP54 rating is less dust- and water-resistant than the Samsung Galaxy Buds3 Pro's IP57. Google's audio ecosystem is also smaller than Apple's or Sony's. All figures are manufacturer-rated and cited to Google, not independently tested.",
+    "pricing_table": [
+      {
+        "plan": "Google Pixel Buds Pro 2",
+        "price": "$229 (as of 2026-07-12)",
+        "notes": "Google official store price; includes the charging case."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How long do the Pixel Buds Pro 2 last?",
+        "answer": "Google's official specifications rate them at up to 8 hours of listening with Active Noise Cancellation on a single charge, and up to 30 hours total with the charging case — the longest total battery among the earbuds in this guide (as of 2026-07-12). These are manufacturer-rated figures, not lab-measured."
+      },
+      {
+        "question": "Do they work with iPhone?",
+        "answer": "They pair over Bluetooth with any device, but the deepest features — including Gemini assistant integration — are tied to Google Pixel and Android, so iPhone users get a reduced experience (as of 2026-07-12)."
+      },
+      {
+        "question": "How water resistant are they?",
+        "answer": "Google lists an IP54 rating for the Pixel Buds Pro 2 earbuds, which offers dust and splash protection but is a lower rating than the Samsung Galaxy Buds3 Pro's IP57."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Pixel Buds Pro 2 are $229, use the Tensor A1 chip, and are manufacturer-rated up to 8 hours ANC and up to 30 hours total with the case (as of 2026-07-12).",
+        "source_name": "Google Store — Pixel Buds Pro 2 (official)",
+        "source_url": "https://store.google.com/product/pixel_buds_pro_2"
+      },
+      {
+        "claim": "Pixel Buds Pro 2 technical specifications, including battery and IP54 rating.",
+        "source_name": "Google Store — Pixel Buds Pro 2 tech specs (official)",
+        "source_url": "https://store.google.com/product/pixel_buds_pro_2_specs"
+      }
+    ],
+    "last_updated": "2026-07-12"
+  },
+  {
+    "id": "prod-galaxy-buds3-pro",
+    "slug": "samsung-galaxy-buds3-pro",
+    "name": "Samsung Galaxy Buds3 Pro",
+    "category_slug": "headphones-audio",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 8.2,
+    "ratings": {
+      "performance": 8,
+      "value": 8,
+      "reliability": 9,
+      "ease_of_use": 8,
+      "support": 8
+    },
+    "price_summary": "$249 (as of 2026-07-12)",
+    "pros": [
+      "IP57 water- and dust-resistance rating — among the highest here, matching the AirPods Pro 3's IP57 and ahead of the Pixel Buds Pro 2's IP54 — per Samsung's official specifications",
+      "Manufacturer-rated up to 6 hours per earbud with ANC on, and up to 26 hours total with the case (up to 30 hours with ANC off), per Samsung (as of 2026-07-12)",
+      "Bluetooth 5.4 with a two-way speaker and dual-amp design, per Samsung",
+      "Samsung's current flagship Galaxy Buds model as of 2026, with active feature development"
+    ],
+    "cons": [
+      "Advanced AI features (such as real-time interpretation) and the fullest experience require a Samsung Galaxy phone, so non-Samsung users get a reduced feature set",
+      "Per-earbud battery with ANC (up to 6 hours) trails the AirPods Pro 3, Pixel Buds Pro 2, and Sony WF-1000XM6 (each up to 8 hours)",
+      "At $249 it costs more than the Pixel Buds Pro 2 ($229) while offering less total case battery than the Pixel Buds Pro 2 (up to 26 vs up to 30 hours with ANC)"
+    ],
+    "best_for": "Samsung Galaxy phone owners who want the most durable earbuds with tight Galaxy integration.",
+    "summary": "The Galaxy Buds3 Pro lead this group on durability with an IP57 rating and integrate tightly with Samsung phones. The trade-offs are shorter per-earbud ANC battery and AI features that require a Galaxy device.",
+    "verdict_summary": "The Samsung Galaxy Buds3 Pro are the pick for Samsung Galaxy owners who value durability and tight ecosystem integration. Samsung's official specifications list an IP57 water- and dust-resistance rating — among the highest in this guide, matching the AirPods Pro 3's IP57 and ahead of the Pixel Buds Pro 2's IP54 — Bluetooth 5.4, a two-way speaker with a dual-amp design, and manufacturer-rated up to 6 hours per earbud with ANC on, up to 26 hours total with the case (up to 30 hours with ANC off), at a $249 price (as of 2026-07-12). The honest trade-offs are ecosystem and battery: the most advanced AI features, including real-time interpretation, require a Samsung Galaxy phone, so non-Samsung users get a reduced experience, and the up to 6 hours of per-earbud ANC battery trails the AirPods Pro 3, Pixel Buds Pro 2, and Sony WF-1000XM6 (each rated up to 8 hours). At $249 it also costs more than the $229 Pixel Buds Pro 2 while offering less total case battery. All figures are manufacturer-rated and cited to Samsung, not independently tested.",
+    "pricing_table": [
+      {
+        "plan": "Samsung Galaxy Buds3 Pro",
+        "price": "$249 (as of 2026-07-12)",
+        "notes": "Samsung official list price; includes the charging case."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How durable are the Galaxy Buds3 Pro?",
+        "answer": "Samsung's official specifications list an IP57 water- and dust-resistance rating for the Galaxy Buds3 Pro — among the highest in this guide, matching the AirPods Pro 3's IP57 and ahead of the Pixel Buds Pro 2's IP54 (as of 2026-07-12)."
+      },
+      {
+        "question": "What is the battery life?",
+        "answer": "Samsung rates the Galaxy Buds3 Pro at up to 6 hours per earbud with ANC on and up to 26 hours total with the charging case (up to 7 hours and 30 hours respectively with ANC off). These are manufacturer-rated figures, not lab-measured."
+      },
+      {
+        "question": "Do I need a Samsung phone?",
+        "answer": "You can pair them with any Bluetooth device, but the most advanced features — including real-time interpretation and the fullest Galaxy AI integration — require a Samsung Galaxy phone (as of 2026-07-12)."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Galaxy Buds3 Pro have an IP57 rating, Bluetooth 5.4, and are manufacturer-rated up to 6 hours per earbud with ANC (up to 26 hours total with the case; up to 30 with ANC off) (as of 2026-07-12).",
+        "source_name": "Samsung — Galaxy Buds3 Pro (official)",
+        "source_url": "https://www.samsung.com/us/mobile-audio/galaxy-buds3-pro/"
+      },
+      {
+        "claim": "Samsung support overview of the Galaxy Buds3, Buds3 Pro, and Buds3 FE, including specifications.",
+        "source_name": "Samsung — Galaxy Buds3 lineup support (official)",
+        "source_url": "https://www.samsung.com/us/support/answer/ANS10003393/"
+      }
+    ],
+    "last_updated": "2026-07-12"
+  },
+  {
+    "id": "prod-bose-qc-ultra-earbuds-2",
+    "slug": "bose-quietcomfort-ultra-earbuds-2nd-gen",
+    "name": "Bose QuietComfort Ultra Earbuds (2nd Gen)",
+    "category_slug": "headphones-audio",
+    "is_monetized": true,
+    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "rating_overall": 8.0,
+    "ratings": {
+      "performance": 8,
+      "value": 7,
+      "reliability": 8,
+      "ease_of_use": 9,
+      "support": 8
+    },
+    "price_summary": "$299 (as of 2026-07-12)",
+    "pros": [
+      "Bose's Immersive Audio spatialized-sound feature, a signature capability of the QuietComfort Ultra line, per Bose's official product page",
+      "Cross-platform: pairs over standard Bluetooth with both iOS and Android, avoiding single-vendor lock-in",
+      "Case supports wireless charging with a compatible third-party charger, per Bose (as of 2026-07-12)",
+      "Well-established noise-cancellation heritage from Bose's QuietComfort line"
+    ],
+    "cons": [
+      "Shortest battery life in this comparison: manufacturer-rated up to 6 hours per earbud, dropping to up to 4 hours with Immersive Audio enabled, per Bose (as of 2026-07-12)",
+      "At $299 it is more expensive than the AirPods Pro 3 ($249), Galaxy Buds3 Pro ($249), and Pixel Buds Pro 2 ($229)",
+      "A wireless charger is not included; Bose notes you must supply a compatible third-party charger"
+    ],
+    "best_for": "Listeners who want Bose's Immersive Audio and noise-cancellation heritage in a cross-platform earbud.",
+    "summary": "The Bose QuietComfort Ultra Earbuds (2nd Gen) bring Bose's Immersive Audio and noise-cancellation heritage in a cross-platform design. The main trade-off is the shortest manufacturer-rated battery life in this guide.",
+    "verdict_summary": "The Bose QuietComfort Ultra Earbuds (2nd Gen) suit listeners who want Bose's Immersive Audio and its long noise-cancellation heritage, and they work across both iOS and Android. Bose's official product page lists a $299 price, manufacturer-rated up to 6 hours of battery per earbud (dropping to up to 4 hours with Immersive Audio enabled), a case that holds up to three additional charges, and support for wireless charging with a compatible third-party charger (as of 2026-07-12). The honest trade-offs are battery and price: the up to 6 hours per earbud — and only up to 4 hours with Immersive Audio on — is the shortest in this comparison, well behind the up to 8 hours rated for the AirPods Pro 3, Sony WF-1000XM6, and Pixel Buds Pro 2, and at $299 it costs more than three of the four rivals here. A wireless charger is not included. All figures are manufacturer-rated and cited to Bose, not independently tested.",
+    "pricing_table": [
+      {
+        "plan": "Bose QuietComfort Ultra Earbuds (2nd Gen)",
+        "price": "$299 (as of 2026-07-12)",
+        "notes": "Bose official list price; USB-C charging case (wireless charging requires a compatible third-party charger)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How long do the Bose QuietComfort Ultra Earbuds last?",
+        "answer": "Bose's official product page rates the earbuds at up to 6 hours per charge, dropping to up to 4 hours with Immersive Audio enabled, with the case holding up to three additional charges (as of 2026-07-12). These are manufacturer-rated figures, not lab-measured."
+      },
+      {
+        "question": "Do they support wireless charging?",
+        "answer": "The case supports wireless charging, but Bose notes you must use a compatible third-party wireless charger, which is not included (as of 2026-07-12)."
+      },
+      {
+        "question": "Do they work with both iPhone and Android?",
+        "answer": "Yes. The QuietComfort Ultra Earbuds connect over standard Bluetooth to both iOS and Android, so they are not locked to one vendor's ecosystem."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Bose QuietComfort Ultra Earbuds (2nd Gen) are $299, manufacturer-rated up to 6 hours (up to 4 with Immersive Audio), with a case holding up to three charges and third-party wireless charging support (as of 2026-07-12).",
+        "source_name": "Bose — QuietComfort Ultra Earbuds (2nd Gen) (official)",
+        "source_url": "https://www.bose.com/p/earbuds/bose-quietcomfort-ultra-earbuds-2nd-gen/QCUE2-HEADPHONEIN.html"
+      }
+    ],
+    "last_updated": "2026-07-12"
+  }
+]

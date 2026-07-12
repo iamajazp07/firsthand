@@ -27,6 +27,13 @@ import moneyArticlesSeed from "@/data/money/articles.json";
 import moneyProductsSeed from "@/data/money/products.json";
 import moneyHubsSeed from "@/data/money/hubs.json";
 
+import techCategoriesSeed from "@/data/tech/categories.json";
+import techAuthorsSeed from "@/data/tech/authors.json";
+import techReviewersSeed from "@/data/tech/reviewers.json";
+import techArticlesSeed from "@/data/tech/articles.json";
+import techProductsSeed from "@/data/tech/products.json";
+import techHubsSeed from "@/data/tech/hubs.json";
+
 import { getActiveVertical } from "@/lib/verticals";
 
 import type {
@@ -73,6 +80,18 @@ const SEEDS: Record<string, VerticalSeeds> = {
     articles: moneyArticlesSeed as Article[],
     products: moneyProductsSeed as Product[],
     hubs: moneyHubsSeed as Hub[],
+  },
+  // Tech vertical (tech.vivahale.com) — evidence-first technology and software
+  // reviews. Seeds live in src/data/tech/; ratings analyze published specs and
+  // official documentation, NOT independent lab testing, and every figure cites
+  // a primary source with an as-of date.
+  tech: {
+    categories: techCategoriesSeed as Category[],
+    authors: techAuthorsSeed as Author[],
+    reviewers: techReviewersSeed as Reviewer[],
+    articles: techArticlesSeed as Article[],
+    products: techProductsSeed as Product[],
+    hubs: techHubsSeed as Hub[],
   },
   // The apex portal is a brand hub with no content of its own. An EMPTY seed set
   // (rather than none) means a portal-mode build's data-layer calls return []

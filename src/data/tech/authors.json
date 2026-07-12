@@ -1,0 +1,10 @@
+[
+  {
+    "id": "author-technology-research-analyst",
+    "name": "Technology Research Analyst",
+    "slug": "technology-research-analyst",
+    "photo_url": null,
+    "bio": "A research analyst who reads primary technology documentation — manufacturer specification sheets, official pricing pages, published security-audit and certification reports (SOC 2, ISO 27001, FedRAMP), FCC filings, and standards-body publications — and turns them into clear, side-by-side comparisons. This byline is a research-and-documentation-analysis role. It is NOT a hands-on hardware reviewer or engineer: Vivahale Tech does not operate a lab, does not run independent benchmarks, and does not conduct hands-on audio, battery, or performance testing. Ratings reflect analysis of published specifications and official documentation, and every figure that can change is cited to a primary source with an 'as of' date.",
+    "credentials": "Research & documentation analysis; not a lab tester or hardware engineer"
+  }
+]

@@ -109,6 +109,13 @@ export interface Vertical {
   /** Ordered category slugs shown in nav. */
   categories: string[];
   /**
+   * Category slugs whose /category/[slug] page renders the timely "news-list"
+   * layout (headline + date + one-line excerpt) instead of the default
+   * card grid. Health: ["health-news", "health-tech-ai"]; Money: ["money-news"].
+   * Optional — defaults to no news categories when unset.
+   */
+  newsCategorySlugs?: string[];
+  /**
    * Ordered nav entries (display name + slug) for the header/footer. Carries
    * the human labels alongside slugs so the client Header — which never touches
    * the server data layer — can render nav from config alone. Order and count

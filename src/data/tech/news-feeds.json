@@ -1,0 +1,20 @@
+[
+  {
+    "id": "fcc-headlines",
+    "name": "FCC Headlines",
+    "url": "https://www.fcc.gov/news-events/headlines/feed",
+    "category_slug": "tech-news",
+    "format": "rss",
+    "enabled": true,
+    "note": "Official U.S. Federal Communications Commission headlines feed — equipment authorizations, rules, and enforcement. Primary regulatory source for device (FCC filing) coverage."
+  },
+  {
+    "id": "bluetooth-sig-blog",
+    "name": "Bluetooth SIG Blog",
+    "url": "https://www.bluetooth.com/feed/",
+    "category_slug": "tech-news",
+    "format": "rss",
+    "enabled": true,
+    "note": "Official Bluetooth Special Interest Group blog — LE Audio, LC3, and wireless-standard updates. Primary standards-body source for audio-codec and connectivity claims."
+  }
+]

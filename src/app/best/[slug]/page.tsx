@@ -161,9 +161,8 @@ export default async function HubPage({
       </p>
 
       {/* Methodology summary. Health renders its original copy verbatim; Money
-          states its own weighted criteria (Fees/Value/Transparency/Security/
-          Support) and advertiser-compensation language, so the summary is
-          factually correct in each vertical. */}
+          and Tech each state their own weighted criteria and disclosure
+          language, so the summary is factually correct in each vertical. */}
       {vertical.key === "money" ? (
         <p className="mt-4 text-sm leading-relaxed text-brand-ink/70">
           <strong className="font-semibold text-brand-navy">
@@ -174,6 +173,25 @@ export default async function HubPage({
           Trust (15%), and Support (15%). Advertiser compensation never affects
           scores or rank order; rates and fees are cited to each provider&apos;s
           official disclosures with an as-of date.{" "}
+          <Link
+            href="/methodology"
+            className="font-semibold text-brand-blue hover:underline"
+          >
+            Read our full methodology.
+          </Link>
+        </p>
+      ) : vertical.key === "tech" ? (
+        <p className="mt-4 text-sm leading-relaxed text-brand-ink/70">
+          <strong className="font-semibold text-brand-navy">
+            How we scored:
+          </strong>{" "}
+          every product below was rated 0–10 on five weighted criteria —
+          Performance (30%), Value (25%), Reliability &amp; Security (20%), Ease
+          of Use (15%), and Support (10%). Vivahale does not run a lab: ratings
+          analyze manufacturer-published specifications and official
+          documentation, not independent benchmarks, and each figure is cited to
+          a primary source with an as-of date. Affiliate commissions never affect
+          scores or rank order.{" "}
           <Link
             href="/methodology"
             className="font-semibold text-brand-blue hover:underline"

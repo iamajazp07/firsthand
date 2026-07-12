@@ -27,6 +27,9 @@ export default function MethodologyPage() {
   if (getActiveVertical().key === "money") {
     return <MoneyMethodology />;
   }
+  if (getActiveVertical().key === "tech") {
+    return <TechMethodology />;
+  }
   return (
     <>
       <section className="border-b border-brand-mist bg-brand-mist/60">
@@ -409,6 +412,210 @@ function MoneyMethodology() {
           competitors. This content is informational only and is not financial,
           investment, tax, or legal advice; consider consulting a qualified
           financial professional about your situation.
+        </p>
+      </section>
+    </>
+  );
+}
+
+/**
+ * Tech-vertical methodology page. Same layout/styling as the Health/Money
+ * versions, but the prose describes how technology products are evaluated —
+ * from manufacturer specifications and official documentation rather than
+ * hands-on lab testing. The no-lab-testing disclosure is stated explicitly and
+ * repeatedly. The criteria table + intro read from the same config-driven
+ * `CRITERIA` array (tech weights: Performance 30%, Value 25%, Reliability &
+ * Security 20%, Ease of Use 15%, Support 10%).
+ */
+function TechMethodology() {
+  const vertical = getActiveVertical();
+  return (
+    <>
+      <section className="border-b border-brand-mist bg-brand-mist/60">
+        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
+          <p className="text-xs font-semibold uppercase tracking-wider text-brand-blue">
+            Methodology
+          </p>
+          <h1 className="mt-2 max-w-3xl font-serif text-3xl font-bold text-brand-navy sm:text-4xl">
+            How Vivahale Tech Ranks and Reviews Products
+          </h1>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
+        {/* Self-contained answer block (GEO / AI-citation style) */}
+        <div className="rounded-lg border-l-4 border-brand-navy bg-brand-mist px-5 py-4">
+          <h2 className="font-serif text-lg font-bold text-brand-navy">
+            Vivahale Tech&apos;s methodology in brief
+          </h2>
+          <p className="mt-2 text-sm leading-relaxed text-brand-ink/90">
+            Vivahale Tech scores every product on five published, fixed-weight
+            criteria: Performance (30%), Value (25%), Reliability &amp; Security
+            (20%), Ease of Use (15%), and Support (10%). Crucially, Vivahale
+            does NOT operate a hardware or audio lab: we do not run independent
+            benchmarks and we do not conduct hands-on performance, audio, or
+            battery testing. Every rating is built from analysis of primary
+            documentation — manufacturer-published specification sheets, official
+            pricing pages, official security and audit documentation (SOC 2, ISO
+            27001, FedRAMP), FCC filings, and publicly documented third-party
+            audits and certifications. Because specs and prices change, every
+            number is cited to a primary source with an &quot;as of&quot; date;
+            where a figure cannot be verified we describe it qualitatively or
+            omit it rather than guess. Manufacturer-rated figures are reported as
+            manufacturer-rated, never as measured results, and we never present a
+            subjective quality judgment as if it came from testing we did not do.
+            Vivahale Tech is reader-supported and may earn affiliate commissions,
+            but that compensation never changes a score or a ranking. Every
+            review lists at least one genuine con and is editorially
+            fact-checked against its cited sources before publication.
+          </p>
+        </div>
+
+        <div className="mt-10 space-y-4 text-base leading-relaxed text-brand-ink/90">
+          <p>{vertical.methodologyIntro}</p>
+        </div>
+
+        <h2 className="mt-12 font-serif text-2xl font-bold text-brand-navy">
+          The five scoring criteria
+        </h2>
+        <div className="mt-6 overflow-x-auto">
+          <table className="w-full min-w-[560px] border-collapse text-left text-sm">
+            <thead>
+              <tr className="border-b-2 border-brand-navy">
+                <th scope="col" className="py-3 pr-4 font-sans font-semibold text-brand-navy">
+                  Criterion
+                </th>
+                <th scope="col" className="py-3 pr-4 font-sans font-semibold text-brand-navy">
+                  Weight
+                </th>
+                <th scope="col" className="py-3 font-sans font-semibold text-brand-navy">
+                  What we evaluate
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {CRITERIA.map((c) => (
+                <tr key={c.name} className="border-b border-brand-mist align-top">
+                  <th scope="row" className="py-3 pr-4 font-sans font-semibold text-brand-ink">
+                    {c.name}
+                  </th>
+                  <td className="py-3 pr-4 font-semibold text-brand-blue">
+                    {c.weight}
+                  </td>
+                  <td className="py-3 leading-relaxed text-brand-ink/85">
+                    {c.detail}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <h2 className="mt-12 font-serif text-2xl font-bold text-brand-navy">
+          We analyze documentation — we do not run a lab
+        </h2>
+        <div className="mt-4 space-y-4 text-base leading-relaxed text-brand-ink/90">
+          <p>
+            This is the most important thing to understand about our tech
+            ratings: Vivahale does not conduct independent lab testing. We do not
+            benchmark processors, we do not measure noise cancellation or audio
+            quality, and we do not run our own battery-drain tests. Any site that
+            claims a &quot;best sound we heard&quot; verdict is describing a
+            hands-on test; we are not, and we will not present a rating as if we
+            did one.
+          </p>
+          <p>
+            Instead, Performance and the other criteria are assessed from primary
+            documentation: manufacturer specification sheets, official pricing
+            pages, published security and audit reports, FCC equipment filings,
+            and standards-body publications. When a manufacturer rates a battery
+            at &quot;up to 8 hours,&quot; we report it as a manufacturer-rated
+            figure and cite the official source with an &quot;as of&quot; date —
+            we do not restate it as a measured result. Where a claim cannot be
+            verified from a primary source, we describe it qualitatively or leave
+            it out. We never invent a specification, a benchmark, or a test
+            result.
+          </p>
+        </div>
+
+        <h2 className="mt-12 font-serif text-2xl font-bold text-brand-navy">
+          Independence: how compensation never touches the scores
+        </h2>
+        <ul className="mt-4 list-disc space-y-3 pl-6 text-base leading-relaxed text-brand-ink/90">
+          <li>
+            <strong className="font-semibold">
+              We review products we don&apos;t earn from.
+            </strong>{" "}
+            Category rankings include products with no affiliate relationship. If
+            the best product in a category pays us nothing, it still ranks where
+            the rubric puts it.
+          </li>
+          <li>
+            <strong className="font-semibold">Rankings are never sold.</strong>{" "}
+            No company can pay for a position, a score, or a favorable sentence.
+            There are no &quot;sponsored&quot; slots inside our rankings.
+          </li>
+          <li>
+            <strong className="font-semibold">
+              Affiliate commissions never change scores.
+            </strong>{" "}
+            Scoring is completed against the rubric before monetization is
+            considered.{" "}
+            <Link
+              href="/affiliate-disclosure"
+              className="font-semibold text-brand-blue hover:underline"
+            >
+              Read our full affiliate disclosure.
+            </Link>
+          </li>
+          <li>
+            <strong className="font-semibold">
+              Every review lists at least one genuine con.
+            </strong>{" "}
+            If we recommend a product, we also tell you where it falls short —
+            ecosystem lock-in, a subscription cost, a shorter battery rating, or
+            a missing feature.
+          </li>
+          <li>
+            <strong className="font-semibold">
+              Every review is editorially fact-checked.
+            </strong>{" "}
+            Our editorial team checks each figure against its cited primary
+            source before a page is published. Vivahale does not run a lab; this
+            is documentation analysis and editorial fact-checking, not a hands-on
+            test. See our{" "}
+            <Link
+              href="/editorial-policy"
+              className="font-semibold text-brand-blue hover:underline"
+            >
+              editorial policy
+            </Link>
+            .
+          </li>
+          <li>
+            <strong className="font-semibold">
+              Pages carry as-of dates.
+            </strong>{" "}
+            Specs and prices change. Each ranking and review shows when it was
+            last updated and dates every figure that can change, and we re-check
+            pages when a spec, price, or model changes.
+          </li>
+        </ul>
+
+        <h2 className="mt-12 font-serif text-2xl font-bold text-brand-navy">
+          What a score means
+        </h2>
+        <p className="mt-4 text-base leading-relaxed text-brand-ink/90">
+          Each criterion is scored 0–10 against the rubric above, multiplied by
+          its weight, and summed into a final score out of 10. Products in the
+          same category are scored against the same rubric, so scores are
+          directly comparable within a ranking. A high score is not a guarantee
+          of quality — it means the product looked strong, on its documented
+          specifications and official pricing, on performance, value,
+          reliability and security, ease of use, and support relative to its
+          competitors. This content is informational only and is not
+          professional advice; verify current specifications and pricing on the
+          manufacturer&apos;s official page before purchasing.
         </p>
       </section>
     </>

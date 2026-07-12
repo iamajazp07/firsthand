@@ -1,0 +1,58 @@
+[
+  {
+    "id": "cat-laptops",
+    "slug": "laptops",
+    "name": "Laptops",
+    "description": "Evidence-first laptop coverage — processors, memory, storage, display, and battery read from each manufacturer's official specification sheet, not from lab benchmarks.",
+    "sort_order": 1
+  },
+  {
+    "id": "cat-smartphones",
+    "slug": "smartphones",
+    "name": "Smartphones",
+    "description": "Neutral smartphone analysis based on manufacturer-published specs, official pricing, and documented update commitments.",
+    "sort_order": 2
+  },
+  {
+    "id": "cat-wearables",
+    "slug": "wearables",
+    "name": "Wearables",
+    "description": "Smartwatches and fitness trackers assessed from published sensor specs, battery ratings, and official documentation.",
+    "sort_order": 3
+  },
+  {
+    "id": "cat-smart-home",
+    "slug": "smart-home",
+    "name": "Smart Home",
+    "description": "Smart speakers, displays, and home devices reviewed from official specifications, privacy documentation, and stated ecosystem support.",
+    "sort_order": 4
+  },
+  {
+    "id": "cat-headphones-audio",
+    "slug": "headphones-audio",
+    "name": "Headphones & Audio",
+    "description": "Headphones and wireless earbuds compared on manufacturer-rated battery life, published audio and noise-cancellation specs, and official prices — reported as manufacturer-rated, not lab-tested.",
+    "sort_order": 5
+  },
+  {
+    "id": "cat-software-saas",
+    "slug": "software-saas",
+    "name": "Software & SaaS",
+    "description": "Apps and subscription software scored on official pricing, documented security audits and certifications (SOC 2, ISO 27001, FedRAMP), and platform support.",
+    "sort_order": 6
+  },
+  {
+    "id": "cat-ai-tools",
+    "slug": "ai-tools",
+    "name": "AI Tools",
+    "description": "AI assistants and productivity tools reviewed from official pricing, documented data-handling policies, and published capabilities.",
+    "sort_order": 7
+  },
+  {
+    "id": "cat-tech-news",
+    "slug": "tech-news",
+    "name": "Tech News",
+    "description": "Original analysis of primary-source technology announcements — manufacturer spec sheets, official pricing changes, security disclosures, and standards-body publications. We read the source, not the headlines.",
+    "sort_order": 8
+  }
+]

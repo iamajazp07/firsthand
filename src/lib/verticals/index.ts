@@ -1,6 +1,7 @@
 import type { Vertical } from "./types";
 import { health } from "./health";
 import { money } from "./money";
+import { tech } from "./tech";
 import { portal } from "./portal";
 
 export type {
@@ -28,6 +29,7 @@ export type {
 export const VERTICALS: Record<string, Vertical> = {
   health,
   money,
+  tech,
   portal,
 };
 

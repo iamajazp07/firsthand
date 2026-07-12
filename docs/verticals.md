@@ -246,3 +246,182 @@ no fabricated experts, statistics, testimonials, rates, or fees.
 
 ### Checkpoint commit
 - `bab34e9` — *Phase C: Money vertical (money.vivahale.com)*. Nothing pushed.
+
+## Phase D verification (2026-07-12)
+
+Phase D builds the **Tech vertical** (`tech.vivahale.com`) end to end: an
+evidence-first technology product & software publisher on the shared codebase,
+plus the config-driven `NEWS_CATEGORIES` cleanup carried from Phase C. Critical
+honesty constraint: **Vivahale does not run a hardware/audio/security lab.**
+Every rating is derived from analysis of primary documentation (manufacturer
+spec sheets, official pricing pages, published security-audit/certification
+reports, FCC filings, standards-body publications) — NOT independent lab
+testing. Every disputable number cites a primary source with an "as of
+2026-07-12" qualifier; every product review carries at least one genuine con.
+Health and Money render identically to Phase C.
+
+### What changed (grouped)
+- **Config:** `src/lib/verticals/tech.ts` (new) — key `tech`, name `Vivahale
+  Tech`, host `tech.vivahale.com`; 5 criteria **Performance 30 / Value 25 /
+  Reliability & Security 20 / Ease of Use 15 / Support 10**; tech
+  `methodologyIntro` with an explicit no-lab-testing statement; `disclosureLabel:
+  "Affiliate Disclosure"` + health-style affiliate `disclosureBody`; general
+  editorial `contentDisclaimer` (`contentDisclaimerLabel: "Editorial
+  disclaimer"`); shared Vivahale palette read from config; no `extras`/quiz.
+  Registered in `verticals/index.ts` (`resolveVerticalFromHost` maps
+  `tech.vivahale.com` **and** `tech.localhost` → `tech`, port-stripped).
+- **Config-driven cleanup (Phase C carry-over):** `src/app/category/[slug]/page.tsx`
+  now reads `getActiveVertical().newsCategorySlugs ?? []` instead of the hardcoded
+  `NEWS_CATEGORIES` set. `Vertical.newsCategorySlugs?: string[]` added to
+  `verticals/types.ts`; `health.ts` = `["health-news","health-tech-ai"]`
+  (verbatim → byte-identical health output), `money.ts` = `["money-news"]`,
+  `tech.ts` = `["tech-news"]`.
+- **Data:** `src/data/tech/` — `categories.json` (8 sections),
+  `authors.json` (one honest "Technology Research Analyst" byline, explicitly a
+  documentation-analysis role, NOT a lab tester/engineer), `reviewers.json`
+  ("Vivahale Editorial Team", `Editorial`, `is_placeholder:false`, states Vivahale
+  does not conduct independent lab testing), `products.json` (10 reviews),
+  `hubs.json` (2), `articles.json` (3), empty-valid `news-feeds.json`/`topics.json`.
+  Registered in `src/lib/seeds.ts`.
+- **Components/pages (config-driven, health byte-identical):** `methodology/page.tsx`
+  (+ `TechMethodology` branch), `best/[slug]/page.tsx` (+ tech methodology
+  summary with the no-lab-testing line).
+
+### The two hubs + ranked products (key primary sources; as-of 2026-07-12)
+All prices/specs independently re-verified against primary sources on
+2026-07-12. **One correction applied:** the Sony WF-1000XM6 con that claimed the
+launch release "does not specify hi-res codec support" was misleading (the
+release touts "Hi-Res Audio Wireless"); reworded to state the release markets
+Hi-Res Audio Wireless but does not enumerate a specific codec (e.g. LDAC) or an
+IP rating. **0 fabricated experts, benchmarks, statistics, or testimonials.**
+
+- **Best Password Managers of 2026** (`/best/best-password-managers`):
+  1. **Bitwarden** — Free (unlimited pw/devices), Premium **$19.80/yr** (raised
+     from $9.99 in Jan 2026, first increase in ~10 yrs), Families $47.88/yr;
+     open-source (AGPLv3), Cure53 + 2025 ETH Zurich audits, SOC 2 Type 2 / SOC 3
+     / ISO 27001. Con: utilitarian UI; price doubled. src: bitwarden.com/pricing,
+     /help/is-bitwarden-audited. *(monetized)*
+  2. **1Password** — Individual **$2.99/mo** annual ($35.88/yr), Families
+     $4.49/mo, 14-day trial, **no free tier**; 128-bit Secret Key, SOC 2 Type 2.
+     Con: no free tier; pricier than Bitwarden. src: 1password.com/pricing,
+     /security. *(monetized)*
+  3. **Proton Pass** — Free (unlimited logins, 10 aliases), Pass Plus **$1.99/mo**
+     annual ($23.88/yr, reduced from $3.99); open-source, public audits, 256-bit
+     AES-GCM. Con: newest/shortest track record. src: proton.me/pass/pricing,
+     /blog/proton-pass-price-change, /pass/security. *(not monetized)*
+  4. **Keeper** — Unlimited **$42.99/yr**, Family $91.99/yr (5 users), 30-day
+     trial; SOC 2 Type II (10+ yrs), ISO 27001/27017/27018, **FedRAMP High**.
+     Con: most expensive individual plan; BreachWatch a paid add-on. src:
+     help.keeper.io/article/158, keepersecurity.com/security.html. *(monetized)*
+  5. **Dashlane** — paid-only (14-day trial), Premium bundles a VPN, Friends &
+     Family covers 10; AES-256 + Argon2d, AWS Nitro Enclaves. Con: no free tier;
+     price rendered dynamically so quoted qualitatively (not invented). src:
+     dashlane.com/pricing-personal, /security. *(monetized)*
+- **Best Wireless Earbuds of 2026** (`/best/best-wireless-earbuds`):
+  1. **Apple AirPods Pro 3** — **$249**, H2 chip, mfr-rated up to 8h ANC / 24h
+     with case, heart-rate sensor (requires iPhone iOS 26+). Con: ecosystem
+     lock-in; 24h total trails rivals. src: apple.com/airpods-pro/specs. *(monetized)*
+  2. **Sony WF-1000XM6** — **$329.99**, QN3e processor, 4 mics (up from 3),
+     up to 8h ANC / 24h. Con: most expensive here; battery trails Pixel. src:
+     Sony official launch press release (prnewswire 302685878). *(monetized)*
+  3. **Google Pixel Buds Pro 2** — **$229** (lowest), Tensor A1, up to 8h ANC /
+     **30h** total (longest), IP54. Con: deepest features tied to Pixel/Android;
+     IP54 < Galaxy's IP57. src: store.google.com/product/pixel_buds_pro_2(_specs).
+     *(monetized)*
+  4. **Samsung Galaxy Buds3 Pro** — **$249**, **IP57** (most durable), BT 5.4,
+     up to 6h ANC / 26h (30h ANC off). Con: AI features need a Galaxy phone; 6h
+     per-bud trails rivals. src: samsung.com/us/mobile-audio/galaxy-buds3-pro.
+     *(not monetized)*
+  5. **Bose QuietComfort Ultra Earbuds (2nd Gen)** — **$299**, Immersive Audio,
+     up to 6h (4h w/ Immersive), IPX4, case holds 3 charges, third-party wireless
+     charging. Con: shortest battery here; priciest of 3 rivals; no wireless
+     charger included. src: bose.com official product page. *(monetized)*
+
+  Monetized items set `is_monetized:true` + `affiliate_url:
+  "VIVAHALE_AFFILIATE_PLACEHOLDER"`; both hubs render the Affiliate Disclosure
+  and state the weighted, no-lab-testing methodology. No candidate had to be
+  swapped or dropped — all 10 verified from primary sources.
+
+### Editorial articles (`src/data/tech/articles.json`, honest author + editorial reviewer)
+`what-soc2-and-third-party-audits-tell-you` (cites AICPA/CIMA SOC suite, ISO
+27001, FedRAMP), `wireless-earbud-codecs-and-battery-claims-explained` (cites
+Bluetooth SIG LE Audio / LC3), `how-to-read-a-laptop-spec-sheet` (cites Intel
+ARK, AMD, USB-IF). Every claim cited; each carries the tech editorial
+disclaimer. As in Health/Money, `status:draft` seeds surface as non-clickable
+cards; full `/articles/[slug]` pages come from the runtime queue, so they are
+correctly absent from the crawl/sitemap.
+
+### Tech-mode crawl (production build + `next start`, `NEXT_PUBLIC_VERTICAL=tech`, no Supabase env)
+- **34 URLs** crawled recursively from `/` (incl. static assets): home, 2 hubs,
+  10 reviews, 8 categories, author, reviewer, 6 static/legal. **All HTTP 200.
+  Broken links = 0. Redirects = 0. Soft-404s = 0** (smallest real page ~23 KB).
+- Both hubs render the **Affiliate Disclosure**. Of 10 reviews, the **8
+  monetized** render the Affiliate Disclosure banner; the **2 non-monetized**
+  (Proton Pass, Galaxy Buds3 Pro) render the neutral "does not earn a
+  commission" note. **Every review renders a Cons section** (≥1 genuine con).
+- `/methodology` renders tech criteria **Performance 30% / Value 25% /
+  Reliability & Security 20% / Ease of Use 15% / Support 10%** with the tech
+  intro and an explicit no-lab-testing disclosure ("does NOT operate a hardware
+  or audio lab", "we do not run independent benchmarks").
+- `/sitemap.xml` → **30 `<loc>`s, all on `https://tech.vivahale.com`**, no quiz,
+  no health/money URLs. `/robots.txt` + `/feed.xml` use the tech host. Review
+  canonical/`og:url`/`og:title` on the tech host and say "Vivahale Tech".
+- **Tool gating:** `/quiz/sleep` → **404** in tech mode, absent from nav and
+  sitemap (Health keeps it working: 200).
+
+### Health parity + NEWS_CATEGORIES refactor proof (health build, `next start`, no env)
+`/`, `/methodology`, `/quiz/sleep` (200), `/best/best-sleep-supplements`,
+`/reviews/nature-made-melatonin-3mg`, `/category/health-news`,
+`/category/health-tech-ai`, `/sitemap.xml` all **200**, titled **"Vivahale
+Health"**; methodology **30/30/20/10/10**; monetized review shows Affiliate +
+**Medical disclaimer**; sitemap on `health.vivahale.com`. **Refactor proof:**
+captured `/category/health-news`, `/category/health-tech-ai` (news-list layout),
+`/category/sleep` (card grid), and `/methodology`, then reverted the tracked
+Phase D files to HEAD (`git stash`), rebuilt, and diffed — **rendered content
+BYTE-IDENTICAL** in all four (only volatile Turbopack chunk hashes differed).
+
+### Money parity spot-check (`NEXT_PUBLIC_VERTICAL=money` build, `next start`)
+`/`, `/methodology`, `/best/best-high-yield-savings-accounts`, `/sitemap.xml`
+all **200**, titled **"Vivahale Money"**; methodology **25/25/20/15/15**; hub
+renders the **Advertiser Disclosure**; sitemap 100% on `money.vivahale.com`;
+`/quiz/sleep` → 404.
+
+### Compliance gate (tech mode; local stores backed up + restored byte-identically)
+Cleaned a stale test record left by a prior session (14→13 legitimate rows,
+clean SHA `4cbdbbe5…`). Fresh test: monetized social post with no disclosure →
+`transitionSocialStatus(→approved)` **REFUSED**: *"Approval blocked: this is a
+monetized link but the caption is missing an FTC disclosure ('#ad' or
+'affiliate')."* New record stamped `vertical:"tech"`. Adding `#ad` → transition
+**succeeds** (→approved). `data/social.local.json` restored to the clean 13-row
+baseline (SHA `4cbdbbe5…`, 0 TEST records). No external API called.
+
+### Admin gate (tech mode)
+`ADMIN_PASSWORD` set → `/admin` and `/admin/social` = **307 → /admin/login**;
+`/admin/login` = 200. Password lived only in the test subshell. Proxy `/admin`
+boundary untouched.
+
+### Script safety
+`npx tsx` loads `src/lib/social.ts` standalone; with `NEXT_PUBLIC_VERTICAL=tech`
+it resolves `SITE_URL = https://tech.vivahale.com` (default → health host).
+
+### Type + build
+- `npx tsc --noEmit` → **exit 0, 0 errors.**
+- `npm run build` (default health) → **57 pages** (matches Phase C; tech content
+  absent, health intact).
+- `NEXT_PUBLIC_VERTICAL=money npm run build` → **succeeds** (39 pages).
+- `NEXT_PUBLIC_VERTICAL=tech npm run build` → **succeeds**: 40 pages — 2 hubs,
+  10 reviews, tech author/reviewer; `ƒ Proxy (Middleware)` present.
+
+### Authoritative sources cited (Tech)
+Apple (AirPods Pro 3 tech specs), Sony (WF-1000XM6 official launch press
+release), Google Store (Pixel Buds Pro 2 + specs), Samsung (Galaxy Buds3 Pro),
+Bose (QC Ultra Earbuds 2nd Gen product page); Bitwarden (pricing + audit page),
+1Password (pricing + security), Proton (Pass pricing + price-change blog +
+security), Keeper (pricing KB + security page), Dashlane (pricing + security);
+plus standards/framework bodies for the editorials — AICPA/CIMA (SOC 2 suite),
+ISO (27001), FedRAMP, Bluetooth SIG (LE Audio / LC3), Intel ARK, AMD, USB-IF.
+No blogs or aggregators used for product facts; no fabricated experts,
+benchmarks, statistics, test results, or testimonials.
+
+### Checkpoint commit
+- `PHASE_D_HASH` — *Phase D: Tech vertical (tech.vivahale.com)*. Nothing pushed.

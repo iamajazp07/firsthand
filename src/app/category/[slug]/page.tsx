@@ -13,6 +13,7 @@ import {
   getProductsByCategory,
 } from "@/lib/db";
 import { listPublishedArticlesByCategory } from "@/lib/queue";
+import { getActiveVertical } from "@/lib/verticals";
 
 /**
  * Category pages are dynamic so newly PUBLISHED queue articles (which appear
@@ -58,7 +59,9 @@ export default async function CategoryPage({
   ]);
 
   // The timely "news" layer: original analysis of primary-source announcements.
-  const NEWS_CATEGORIES = new Set(["health-news", "health-tech-ai"]);
+  // Config-driven per vertical (health: health-news/health-tech-ai;
+  // money: money-news) rather than a hardcoded health-only set.
+  const NEWS_CATEGORIES = new Set(getActiveVertical().newsCategorySlugs ?? []);
   const isNewsCategory = NEWS_CATEGORIES.has(category.slug);
 
   const formatDate = (iso: string | null | undefined) => {
