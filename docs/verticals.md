@@ -613,5 +613,5 @@ No blogs or aggregators used as the source of record; no fabricated experts,
 outcome statistics, salary figures, acceptance/graduation rates, or testimonials.
 
 ### Checkpoint commit
-- `d96434b` — *Phase E: Education vertical (education.vivahale.com)*.
+- `ced03b9` — *Phase E: Education vertical (education.vivahale.com)*.
   Nothing pushed.
