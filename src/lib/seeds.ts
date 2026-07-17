@@ -41,6 +41,13 @@ import educationArticlesSeed from "@/data/education/articles.json";
 import educationProductsSeed from "@/data/education/products.json";
 import educationHubsSeed from "@/data/education/hubs.json";
 
+import travelCategoriesSeed from "@/data/travel/categories.json";
+import travelAuthorsSeed from "@/data/travel/authors.json";
+import travelReviewersSeed from "@/data/travel/reviewers.json";
+import travelArticlesSeed from "@/data/travel/articles.json";
+import travelProductsSeed from "@/data/travel/products.json";
+import travelHubsSeed from "@/data/travel/hubs.json";
+
 import { getActiveVertical } from "@/lib/verticals";
 
 import type {
@@ -112,6 +119,21 @@ const SEEDS: Record<string, VerticalSeeds> = {
     articles: educationArticlesSeed as Article[],
     products: educationProductsSeed as Product[],
     hubs: educationHubsSeed as Hub[],
+  },
+  // Travel vertical (travel.vivahale.com) — evidence-first reviews of travel
+  // services and gear. Seeds live in src/data/travel/; ratings analyze official
+  // published documentation (DOT rules, policy wording, spec sheets, warranty
+  // terms), NOT press trips, claims experience, lab tests, or traveler surveys,
+  // and every figure cites a primary source with an as-of date. Quote-based
+  // products (travel insurance) are compared on published plan structure, and
+  // state-by-state benefit variation is disclosed.
+  travel: {
+    categories: travelCategoriesSeed as Category[],
+    authors: travelAuthorsSeed as Author[],
+    reviewers: travelReviewersSeed as Reviewer[],
+    articles: travelArticlesSeed as Article[],
+    products: travelProductsSeed as Product[],
+    hubs: travelHubsSeed as Hub[],
   },
   // The apex portal is a brand hub with no content of its own. An EMPTY seed set
   // (rather than none) means a portal-mode build's data-layer calls return []

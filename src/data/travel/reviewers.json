@@ -1,0 +1,12 @@
+[
+  {
+    "id": "reviewer-editorial-team",
+    "name": "Vivahale Editorial Team",
+    "slug": "editorial-team",
+    "photo_url": null,
+    "bio": "Vivahale's editorial team fact-checks every travel article against the primary sources it cites — U.S. Department of Transportation rules and consumer protection pages, insurers' official plan documents and policy wording, manufacturers' published specifications and warranty terms, and airlines' and providers' official policy pages — before publication. Vivahale Travel does NOT take press trips, file insurance claims, lab-test gear, or survey travelers, and it is not an insurance agency or broker: our ratings are based on analysis of officially published documentation, and this is editorial fact-checking against primary sources, not first-hand testing or an independent audit. Where pricing is quote-based or varies by state, we say so rather than presenting a single number as universal.",
+    "credentials": "Editorial fact-check",
+    "credential_type": "Editorial",
+    "is_placeholder": false
+  }
+]

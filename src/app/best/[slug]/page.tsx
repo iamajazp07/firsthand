@@ -218,6 +218,26 @@ export default async function HubPage({
             Read our full methodology.
           </Link>
         </p>
+      ) : vertical.key === "travel" ? (
+        <p className="mt-4 text-sm leading-relaxed text-brand-ink/70">
+          <strong className="font-semibold text-brand-navy">
+            How we scored:
+          </strong>{" "}
+          every product below was rated 0–10 on five weighted criteria — Value
+          (30%), Experience (25%), Flexibility (20%), Transparency (15%), and
+          Service (10%). Vivahale does not take trips, file claims, or lab-test
+          gear: ratings analyze official published documentation (plan wording,
+          spec sheets, warranty and policy terms), each verifiable figure is
+          cited to a primary source with an as-of date, and quote-based pricing
+          is compared on published plan structure. Affiliate commissions never
+          affect scores or rank order.{" "}
+          <Link
+            href="/methodology"
+            className="font-semibold text-brand-blue hover:underline"
+          >
+            Read our full methodology.
+          </Link>
+        </p>
       ) : (
         <p className="mt-4 text-sm leading-relaxed text-brand-ink/70">
           <strong className="font-semibold text-brand-navy">

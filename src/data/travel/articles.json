@@ -1,0 +1,105 @@
+[
+  {
+    "id": "article-dot-automatic-refund-rule-explained",
+    "slug": "dot-automatic-refund-rule-explained",
+    "type": "education",
+    "category_id": "cat-flights-airlines",
+    "title": "What the DOT's Automatic Refund Rule Means for Your Canceled Flight",
+    "body_mdx": "If an airline cancels or significantly changes your flight, you are owed a cash refund — automatically, without filing a claim or accepting a voucher. That is the core of the U.S. Department of Transportation's final rule on refunds, issued April 24, 2024, and it is worth understanding before you spend money protecting a trip, because these rights apply regardless of whether you bought travel insurance.\n\nHere is what the rule requires, per DOT's own pages. When an airline cancels a flight or makes a significant change and you don't accept the alternative offered (rebooking or a voucher), the airline must refund you — and DOT is explicit that \"a refund must be issued to you automatically without you having to make a request.\" The refund must come in cash or your original form of payment, must cover the full amount including government- and airline-imposed taxes and fees (minus any portion of the trip you already flew), and the airline may not substitute a voucher or travel credit unless you affirmatively accept one.\n\nWhat counts as a \"significant change\"? DOT defines it concretely: your departure or arrival moves by three or more hours on a domestic flight (six or more internationally), your origin or destination airport changes, connections increase, you are involuntarily downgraded to a lower class of service — or, for passengers with a disability, you are routed through a different connecting airport or onto substitute aircraft without accessibility features you need.\n\nThe rule also covers two things travelers routinely eat the cost of. First, checked bag fees: if you file a mishandled-baggage report and your bag isn't delivered within 12 hours of your domestic flight arriving at the gate (15 or 30 hours for international, depending on flight length), the bag fee must be refunded. Second, ancillary fees: if you paid for Wi-Fi, seat selection, or another extra and the airline didn't provide it, that fee is refundable too.\n\nTiming is specified: refunds are due within 7 business days for credit card purchases and 20 calendar days for other payment methods. And if you are unable to travel because of a serious communicable disease, the rule requires transferable travel credits or vouchers valid for at least five years.\n\nTwo honest caveats. The rule was issued with phased implementation periods — DOT describes six months for automatic refunds and twelve for the communicable-disease vouchers — so the protections phased in from late 2024; we did not find a single consolidated effective-date list on DOT's pages, and we cite the periods as DOT states them. And the refund obligation runs on flights the airline cancels or significantly changes: if you cancel a nonrefundable ticket yourself, this rule does not make it refundable — that is the gap products like trip-cancellation insurance and Cancel For Any Reason upgrades exist to fill.\n\nBefore you pay for any protection product, know what you already get free: airline-caused cancellations and significant changes are refundable in cash, automatically, by federal rule.",
+    "author_id": "author-travel-research-analyst",
+    "reviewer_id": "reviewer-editorial-team",
+    "status": "draft",
+    "scheduled_at": null,
+    "published_at": "2026-07-14T09:00:00Z",
+    "last_updated_at": "2026-07-18T09:00:00Z",
+    "compliance_json": null,
+    "sources_json": [
+      {
+        "name": "U.S. DOT — Refunds and Other Consumer Protections final rule, April 2024 (official)",
+        "url": "https://www.transportation.gov/airconsumer/refundsfinalruleapril2024"
+      },
+      {
+        "name": "U.S. DOT — Aviation Consumer Protection: Refunds (official)",
+        "url": "https://www.transportation.gov/individuals/aviation-consumer-protection/refunds"
+      },
+      {
+        "name": "U.S. DOT — What airline passengers need to know about DOT's automatic refund rule (official)",
+        "url": "https://www.transportation.gov/briefing-room/what-airline-passengers-need-know-about-dots-automatic-refund-rule"
+      }
+    ]
+  },
+  {
+    "id": "article-cancel-for-any-reason-travel-insurance-explained",
+    "slug": "cancel-for-any-reason-travel-insurance-explained",
+    "type": "education",
+    "category_id": "cat-travel-insurance",
+    "title": "What \"Cancel For Any Reason\" Travel Insurance Actually Covers",
+    "body_mdx": "\"Cancel For Any Reason\" is the most seductive phrase in travel insurance — and the most misunderstood. The name is accurate as far as it goes: a CFAR upgrade lets you cancel for reasons your base policy would never cover, from a change of heart to worry about the news. But three published conditions define what you actually get, and every one of them matters.\n\nFirst, CFAR is partial reimbursement, never full. Published rates among major US providers run from \"typically 50%\" of your insured trip cost at Travel Guard, to 75% at Travelex (capped at $7,500, on trips costing $10,000 or less) and on Seven Corners' and World Nomads' higher tiers, to 80% under Allianz's Cancel Anytime upgrade — the highest published figure we found. Whatever the percentage, the rest of your nonrefundable trip cost is gone.\n\nSecond, you must buy it early — usually when you buy the base plan, within a window measured from your first trip payment. Published windows include 14 days (Allianz), 15 days (Travel Guard), and 21 days (Travelex, which also requires purchasing at least 31 days before departure). Decide after the window closes and the option is off the table.\n\nThird, you must cancel before you leave — commonly at least 48 hours before departure (Travel Guard, Travelex, World Nomads publish two-day deadlines). Allianz's Cancel Anytime is the published exception, allowing cancellation up to and including the day of scheduled departure, as long as you haven't left.\n\nTwo more conditions hide in plain sight. CFAR is an add-on, not a standard feature — typically attached only to specific plans (Travelex sells it only with its top Ultimate tier; Allianz's version rides on OneTrip Prime and Premier). And it is not sold everywhere: providers' own pages state it is unavailable in some states, with New York the most commonly named — Travelex substitutes a modified \"cancel for any fortuitous reason\" version for NY residents.\n\nBefore you pay the premium, check two free alternatives. If the airline cancels or significantly changes your flight, the Department of Transportation's automatic refund rule already entitles you to a cash refund — no insurance required. And your base trip-cancellation policy already covers its listed reasons (illness, certain emergencies) at 100%, not CFAR's 50–80%. CFAR earns its cost only for cancellation reasons nobody will list: the ones that are entirely yours.\n\nVivahale is not an insurance agency or broker, and this is informational content, not insurance advice. Every figure above is cited from the provider's official pages as of 2026-07-18; terms vary by state and plan, so confirm the exact conditions in the policy documents you are actually offered.",
+    "author_id": "author-travel-research-analyst",
+    "reviewer_id": "reviewer-editorial-team",
+    "status": "draft",
+    "scheduled_at": null,
+    "published_at": "2026-07-16T09:00:00Z",
+    "last_updated_at": "2026-07-18T09:00:00Z",
+    "compliance_json": null,
+    "sources_json": [
+      {
+        "name": "Travel Guard — Cancel For Any Reason travel insurance (official)",
+        "url": "https://www.travelguard.com/travel-insurance/optional-coverage/cancel-for-any-reason"
+      },
+      {
+        "name": "Travelex — Cancel For Any Reason upgrade (official)",
+        "url": "https://www.travelexinsurance.com/travel-insurance/upgrades/cancel-for-any-reason"
+      },
+      {
+        "name": "Allianz Travel — Cancel Anytime explained (official)",
+        "url": "https://www.allianztravelinsurance.com/travel/insurance-101/cancel-anytime-explained.htm"
+      },
+      {
+        "name": "U.S. DOT — Aviation Consumer Protection: Refunds (official)",
+        "url": "https://www.transportation.gov/individuals/aviation-consumer-protection/refunds"
+      }
+    ]
+  },
+  {
+    "id": "article-carry-on-size-limits-us-airlines",
+    "slug": "carry-on-size-limits-us-airlines",
+    "type": "education",
+    "category_id": "cat-travel-gear",
+    "title": "Carry-On Size Limits at the Big US Airlines — Measured the Way Airlines Measure",
+    "body_mdx": "Luggage marketing and airline rules measure differently, and the gap is where gate-check fees live. Airlines measure your bag's total exterior — and most say so explicitly, wheels and handles included. Here are the published limits at six major US airlines, from their official baggage pages as of 2026-07-18.\n\nFive of the six converge on the same number: 22 x 14 x 9 inches. American states the limit includes \"the handles and wheels.\" Delta says the measurements \"include any handles or wheels\" and adds a 45-linear-inch cap (length + width + height). United tells you to \"include the handle and wheels\" when measuring. Alaska publishes the same 22 x 14 x 9 with wheels and handles included, plus the 45-linear-inch total. JetBlue writes it the same way: \"including wheels and handles.\" The outlier is Southwest, which publishes a more generous 24 x 16 x 10 inches.\n\nPersonal items — the bag that goes under the seat — vary more. American allows up to 18 x 14 x 8 inches. United publishes 17 x 10 x 9 inches, and JetBlue 17 x 13 x 8. Delta, Southwest, and Alaska describe a personal item (purse, briefcase, laptop bag) without publishing exact dimensions on their main baggage pages.\n\nWhat about weight? For US domestic economy, none of these six airlines publishes a carry-on weight limit on the pages we reviewed — JetBlue is the only one that says so explicitly, noting it \"does not currently have a weight restriction for carry-on bags.\" The practical constraints they do publish: you must be able to lift the bag into the overhead bin yourself (Alaska says this directly), and it must actually fit in the sizer.\n\nThree practical consequences follow. First, measure your suitcase the airline's way: manufacturers sometimes publish a flattering \"case\" dimension separately from the true exterior with wheels — a bag sold as 21 inches can stand 23 inches tall at the airport. Second, expandable bags obey the rule only zipped down: expansion depths of 10 to 11 inches exceed every 9-inch depth limit above, so treat expansion as packing room for the trip home. Third, basic-economy fares can change the math entirely — United's page states basic economy includes only a personal item on most routes, with a full carry-on reserved for select international itineraries.\n\nA final honesty note: these are the airlines' published limits, which change; sizers, aircraft type, and gate agents decide the outcome on the day. Check your airline's current baggage page before you fly, and when in doubt, measure the bag yourself — wheels, handles, and all.",
+    "author_id": "author-travel-research-analyst",
+    "reviewer_id": "reviewer-editorial-team",
+    "status": "draft",
+    "scheduled_at": null,
+    "published_at": "2026-07-17T09:00:00Z",
+    "last_updated_at": "2026-07-18T09:00:00Z",
+    "compliance_json": null,
+    "sources_json": [
+      {
+        "name": "American Airlines — Carry-on baggage (official)",
+        "url": "https://www.aa.com/i18n/travel-info/baggage/carry-on-baggage.jsp"
+      },
+      {
+        "name": "Delta — Carry-on baggage (official)",
+        "url": "https://www.delta.com/us/en/baggage/carry-on-baggage"
+      },
+      {
+        "name": "United — Carry-on bags (official)",
+        "url": "https://www.united.com/en/us/fly/baggage/carry-on-bags.html"
+      },
+      {
+        "name": "Southwest — Travel fees & optional charges (official)",
+        "url": "https://www.southwest.com/html/customer-service/travel-fees.html"
+      },
+      {
+        "name": "Alaska Airlines — Carry-on luggage (official)",
+        "url": "https://www.alaskaair.com/content/travel-info/baggage/carry-on-luggage"
+      },
+      {
+        "name": "JetBlue — Carry-on bags (official)",
+        "url": "https://www.jetblue.com/help/carry-on-bags"
+      }
+    ]
+  }
+]

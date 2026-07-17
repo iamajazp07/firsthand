@@ -615,3 +615,194 @@ outcome statistics, salary figures, acceptance/graduation rates, or testimonials
 ### Checkpoint commit
 - `ced03b9` — *Phase E: Education vertical (education.vivahale.com)*.
   Nothing pushed.
+
+## Phase F verification (2026-07-18)
+
+Phase F builds the **Travel vertical** (`travel.vivahale.com`) end to end: an
+evidence-first publisher reviewing travel services and gear on the shared
+codebase. Travel insurance is YMYL-adjacent (financial protection), so the
+honesty bar is high. **Critical honesty constraints: Vivahale does NOT take
+press trips, stay in hotels for review, file insurance claims, lab-test gear,
+or survey travelers — and it is NOT an insurance agency, broker, or producer.**
+Every rating is derived from analysis of officially published documentation —
+U.S. DOT aviation consumer protection rules, insurers' published plan pages and
+policy wording, manufacturers' published specs and warranty terms. Travel
+pricing is uniquely dynamic, so the vertical adds an explicit rule: quote-based
+products (all five insurers) are compared on **published plan structure** — no
+"representative premium" is ever invented — while gear cites US list prices "as
+of 2026-07-18". State-by-state benefit variation is disclosed wherever it
+applies. Health, Money, Tech, and Education render identically to Phase E.
+
+### Spec deviation (deliberate, documented)
+The build prompt's example Travel criteria (`location`, `amenities`) only fit
+ranking specific hotels, which cannot be honestly scored from published
+documentation alone. Per the spec's own instruction to "refine to what you can
+source credibly", Travel uses **Value 30 / Experience 25 / Flexibility 20 /
+Transparency 15 / Service 10** — a rubric a published-documentation methodology
+can honestly apply across insurance, gear, and booking services. Flexibility
+(change/cancellation/refund/free-look terms) is weighted high because published
+policy terms are travel's most consequential, most verifiable dimension.
+
+### What changed (grouped)
+- **Config:** `src/lib/verticals/travel.ts` (new) — key `travel`, name
+  `Vivahale Travel`, host `travel.vivahale.com`; the 5 criteria above; travel
+  `methodologyIntro` with explicit no-press-trips / no-claims / no-lab-tests /
+  no-surveys / not-an-insurance-broker statements; `disclosureLabel:
+  "Affiliate Disclosure"` (per spec) + house-style `disclosureBody`;
+  not-travel/insurance/financial/legal-advice `contentDisclaimer`
+  (`contentDisclaimerLabel: "Travel disclaimer"`); shared Vivahale palette; no
+  `extras`/quiz; `newsCategorySlugs: ["travel-news"]`. Registered in
+  `verticals/index.ts` (host resolution generic: `travel.vivahale.com` and
+  `travel.localhost` → `travel`; portal card grid picks Travel up
+  automatically).
+- **Data:** `src/data/travel/` — `categories.json` (8 sections: Travel
+  Insurance, Travel Gear, Flights & Airlines, Hotels & Lodging, Travel Cards
+  [description cross-links Vivahale Money per spec], Cruises, Destinations,
+  Travel News), `authors.json` (one honest "Travel Research Analyst" byline,
+  explicitly NOT a travel agent, insurance agent, broker, or licensed advisor),
+  `reviewers.json` ("Vivahale Editorial Team", `Editorial`,
+  `is_placeholder:false`), `products.json` (9 reviews), `hubs.json` (2),
+  `articles.json` (3), empty-valid `news-feeds.json`/`topics.json`. Registered
+  in `src/lib/seeds.ts`.
+- **Components/pages (config-driven, other verticals byte-identical):**
+  `methodology/page.tsx` (+ `TravelMethodology` branch with repeated
+  no-testing/no-claims disclosures and a quote-based-pricing section),
+  `best/[slug]/page.tsx` (+ travel "How we scored" summary with the same
+  disclosures).
+
+### The two hubs + ranked items (key primary sources; as-of 2026-07-18)
+Insurance facts cite only the five official insurer domains; gear prices are US
+list prices from official brand pages. **No candidate was invented or padded**;
+one was **dropped for verification failure** (below).
+
+- **Best Travel Insurance Providers of 2026** (`/best/best-travel-insurance`):
+  1. **Allianz** (8.1) — Cancel Anytime upgrade: 80% reimbursement (highest
+     published here), cancellable through day of departure; conditions: insure
+     full trip cost within 14 days of first payment, depart ≥30 days out, not
+     all states. OneTrip ×4 + AllTrips ×4 lineups; 15-day free look
+     (state-dependent); underwriters BCS / Jefferson (NY). src:
+     allianztravelinsurance.com (Cancel Anytime, hotline-assistance,
+     underwriters pages). *(monetized)*
+  2. **Travel Guard (AIG)** (7.8) — widest documented add-on menu (pre-existing
+     waiver, adventure, pet, wedding, quarantine, rental-vehicle) + Pack N' Go
+     and Medevac plans; CFAR "typically 50%" (lowest here), 15-day window,
+     cancel ≥48h; Annual plan excludes WA; Zurich cos + National Union Fire
+     underwriters. src: travelguard.com (plans, CFAR, deluxe). *(not monetized)*
+  3. **Seven Corners** (7.7) — 75% CFAR on BOTH mid-market plans (Basic,
+     Choice) + only IFAR here; in-house Seven Corners Assist; cons: NY/WA
+     cannot purchase at all; annual plan differs materially (Spinnaker
+     underwriter, battleface assistance, 10- vs 14-day free look); Elite page
+     erroring at review time. src: sevencorners.com. *(monetized)*
+  4. **World Nomads** (7.6) — buy/extend while already traveling (unique);
+     250–340+ documented activities; CFAR 50%/$5k (Explorer), 75%/$11,250
+     (Epic), not NY; cons: free-look length unpublished (state-dependent), CFAR
+     purchase window unpublished; US Fire underwriter. src:
+     worldnomads.com/usa/travel-insurance. *(monetized)*
+  5. **Travelex** (7.4) — longest free look (21 days); simple 3-tier lineup;
+     single named underwriter (Zurich American NAIC #16535); cons: CFAR only on
+     Ultimate with the heaviest condition stack (75%/$7,500 cap, trip ≤$10k,
+     21-day + ≥31-days-before-departure windows, NY modified); no annual plan;
+     published $50 deductible in 7 states. src: travelexinsurance.com.
+     *(monetized)*
+- **Best Carry-On Luggage of 2026** (`/best/best-carry-on-luggage`):
+  1. **Travelpro Platinum Elite 21″** (8.2, $390) — 46 L (largest), lifetime
+     limited warranty + Trusted Companion Promise (airline damage, shipping
+     paid), 100 Day Trial refunds a USED bag, return shipping paid. Cons:
+     heaviest-but-one 7.8 lb; 23×14.5×9 with-wheels exterior exceeds the
+     big-three 22×14×9 limit. src: travelpro.com product page. *(monetized)*
+  2. **Briggs & Riley Baseline Essential** (8.1, $695) — only unconditional
+     lifetime guarantee ("even by an airline… free of charge, no proof of
+     purchase"); CX® 41→51 L. Cons: price 2.5× rivals; 8.6 lb heaviest;
+     expanded depth exceeds all published limits. src: briggs-riley.com.
+     *(not monetized)*
+  3. **Away The Carry-On** (8.0, $275) — best-documented all-rounder (41 L /
+     7.5 lb polycarbonate, compression, TSA lock); LifetimeCare™ 5-yr
+     complimentary repairs + replacement, then lifetime repair support. Cons:
+     complimentary window is 5 yr (Pro is paid); 100-day returns unused-only;
+     width 0.4″ over big-three limit. src: awaytravel.com. *(monetized)*
+  4. **Monos Carry-On** (7.5, $275) — lightest verified (7.01 lb), only exact
+     22×14×9 match; lifetime warranty + 100-day trial. Cons: key specs NOT on
+     the product page (verified via brand's compare pages — scored down on
+     Transparency); warranty wording thin; smallest capacity (39.9 L). src:
+     monos.com (product, compare-sizes, faq). *(monetized)*
+- **Dropped for verification failure:** **Samsonite Freeform Carry-On** —
+  shop.samsonite.com blocks automated fetch (HTTP 307/redirect wall); only
+  price/overall-dims were visible via search index, with weight, warranty, and
+  materials unverifiable from official pages at review time. Excluded rather
+  than padded with guesses; the hub intro discloses this. (Osprey Farpoint 40
+  was evaluated as an alternate and also dropped — osprey.com returns 403 and
+  its search-index data was internally inconsistent.)
+
+### The three articles (cited to primary sources)
+1. **DOT automatic refund rule explained** (`flights-airlines`) — automatic
+   cash refunds for cancels/significant changes (3h dom / 6h intl), bag-fee
+   refunds (12h dom / 15–30h intl), ancillary-fee refunds, 7-business-day /
+   20-calendar-day timing, 5-year communicable-disease vouchers. Deliberately
+   states the April 24, 2024 issuance + DOT's own "six months / twelve months"
+   implementation wording because a consolidated calendar effective date was
+   NOT verifiable on transportation.gov — we cite what DOT states, no more.
+   src: transportation.gov ×3.
+2. **What CFAR actually covers** (`travel-insurance`) — partial reimbursement
+   (50→80% published range), purchase windows (14/15/21 days), cancellation
+   deadlines (48h vs Allianz day-of), state restrictions (NY), and the two free
+   alternatives (DOT refunds; base-policy covered reasons at 100%). src:
+   travelguard.com, travelexinsurance.com, allianztravelinsurance.com,
+   transportation.gov.
+3. **Carry-on size limits, measured the airline's way** (`travel-gear`) —
+   AA/Delta/United/Alaska/JetBlue all publish 22×14×9 **including wheels and
+   handles** (verified per-airline); Southwest 24×16×10; no carry-on weight
+   limits published for US domestic economy on any of the six pages (JetBlue
+   explicitly states none); United basic-economy personal-item-only caveat.
+   src: six official airline baggage pages.
+
+### Verification method caveats (research provenance)
+- **allianztravelinsurance.com** and **aa.com / united.com / alaskaair.com /
+  transportation.gov** block automated fetches (403/404). Allianz facts were
+  verified via domain-restricted search of indexed official Allianz pages only;
+  DOT/AA/United/Alaska facts via Internet Archive snapshots (May–July 2026) of
+  the exact official URLs. delta.com, jetblue.com, southwest.com,
+  travelguard.com, travelexinsurance.com, sevencorners.com, worldnomads.com,
+  travelpro.com, awaytravel.com, briggs-riley.com, monos.com were fetched live
+  on 2026-07-18. An operator re-visit of the Allianz URLs before production
+  publish is recommended (they are cited in seeds).
+- Monos dims/weight/capacity/trial terms come from official monos.com
+  comparison/FAQ pages, not the product page (which omits them) — this gap is
+  itself disclosed as a con in the review.
+
+### Compliance checks
+- Both hubs + all 9 reviews: verdict/answer blocks measured 130–170 words
+  (checked programmatically: 144–163); every review carries ≥1 genuine
+  red-flag con; weighted criterion math reproduces every `rating_overall`
+  (round-half-up, one decimal).
+- `Affiliate Disclosure` renders above the fold on hubs and reviews;
+  `VIVAHALE_AFFILIATE_PLACEHOLDER` used on 7 monetized items (Travel Guard and
+  Briggs & Riley deliberately non-monetized so both rankings contain
+  no-commission entries, and both hub FAQs say so).
+- `/quiz/sleep` correctly 404s under travel (health-only tool gating).
+
+### Type + build (travel + regression)
+- `npx tsc --noEmit` → **exit 0, 0 errors**; `npm run lint` → clean.
+- `NEXT_PUBLIC_VERTICAL=travel npm run build` → **succeeds**; full crawl of the
+  running build: **30 routes checked, broken = 0** — homepage, both hubs, all 9
+  reviews, methodology, all 8 categories (empty ones render the empty state),
+  about/editorial-policy/affiliate-disclosure, reviewer + author pages,
+  sitemap.xml / feed.xml / robots.txt all 200. Draft-status articles 404 on
+  live routes and are excluded from the sitemap — identical to every other
+  vertical's seed behavior.
+- `npm run build` (default health) → **succeeds**; health homepage, sleep hub,
+  original methodology copy (Safety 30% / Evidence Quality), `/quiz/sleep`, and
+  review spokes all render unchanged.
+- `NEXT_PUBLIC_VERTICAL=portal npm run build` → **succeeds**; the portal card
+  grid now lists **Vivahale Travel → travel.vivahale.com** automatically via
+  `contentVerticals()` (no portal code change needed).
+
+### Authoritative sources cited (Travel)
+U.S. Department of Transportation (refunds final rule, aviation consumer
+protection refunds page, automatic-refund explainer); official insurer domains
+(allianztravelinsurance.com, travelguard.com, travelexinsurance.com,
+sevencorners.com, worldnomads.com) including named underwriters with NAIC
+numbers; official airline baggage pages (aa.com, delta.com, united.com,
+southwest.com, alaskaair.com, jetblue.com); official gear-brand pages
+(travelpro.com, briggs-riley.com, awaytravel.com, monos.com). No blogs,
+aggregators, or review sites used as the source of record; no invented
+premiums, coverage limits, specs, or testimonials; no fabricated experts.

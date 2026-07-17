@@ -3,6 +3,7 @@ import { health } from "./health";
 import { money } from "./money";
 import { tech } from "./tech";
 import { education } from "./education";
+import { travel } from "./travel";
 import { portal } from "./portal";
 
 export type {
@@ -32,6 +33,7 @@ export const VERTICALS: Record<string, Vertical> = {
   money,
   tech,
   education,
+  travel,
   portal,
 };
 

@@ -33,6 +33,9 @@ export default function MethodologyPage() {
   if (getActiveVertical().key === "education") {
     return <EducationMethodology />;
   }
+  if (getActiveVertical().key === "travel") {
+    return <TravelMethodology />;
+  }
   return (
     <>
       <section className="border-b border-brand-mist bg-brand-mist/60">
@@ -830,6 +833,228 @@ function EducationMethodology() {
           content is informational only and is not academic, career, or
           financial advice; verify current details with the provider and
           official sources before enrolling.
+        </p>
+      </section>
+    </>
+  );
+}
+
+/**
+ * Travel-vertical methodology page. Same layout/styling as the other verticals,
+ * but the prose describes how travel services and gear are evaluated — from
+ * officially published documentation (DOT consumer protection rules, insurers'
+ * plan documents and policy wording, manufacturers' spec sheets and warranty
+ * terms) rather than press trips, claims experience, lab testing, or traveler
+ * surveys. The no-first-hand-testing disclosure is stated explicitly and
+ * repeatedly, quote-based pricing is compared on published plan structure, and
+ * state-by-state insurance variation is disclosed. The criteria table + intro
+ * read from the same config-driven `CRITERIA` array (travel weights: Value 30%,
+ * Experience 25%, Flexibility 20%, Transparency 15%, Service 10%).
+ */
+function TravelMethodology() {
+  const vertical = getActiveVertical();
+  return (
+    <>
+      <section className="border-b border-brand-mist bg-brand-mist/60">
+        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
+          <p className="text-xs font-semibold uppercase tracking-wider text-brand-blue">
+            Methodology
+          </p>
+          <h1 className="mt-2 max-w-3xl font-serif text-3xl font-bold text-brand-navy sm:text-4xl">
+            How Vivahale Travel Ranks and Reviews Services &amp; Gear
+          </h1>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
+        {/* Self-contained answer block (GEO / AI-citation style) */}
+        <div className="rounded-lg border-l-4 border-brand-navy bg-brand-mist px-5 py-4">
+          <h2 className="font-serif text-lg font-bold text-brand-navy">
+            Vivahale Travel&apos;s methodology in brief
+          </h2>
+          <p className="mt-2 text-sm leading-relaxed text-brand-ink/90">
+            Vivahale Travel scores every travel service and product on five
+            published, fixed-weight criteria: Value (30%), Experience (25%),
+            Flexibility (20%), Transparency (15%), and Service (10%).
+            Crucially, Vivahale does NOT take press trips, stay in hotels for
+            review, file insurance claims, lab-test gear, or survey travelers —
+            and it is not an insurance agency, broker, or producer. Every
+            rating is built from analysis of officially published
+            documentation: U.S. Department of Transportation aviation consumer
+            protection rules, each insurer&apos;s own published plan pages and
+            policy wording, each manufacturer&apos;s published specifications
+            and warranty terms, and each provider&apos;s official policy pages.
+            Travel pricing is unusually dynamic — insurance premiums are
+            quote-based and vary by trip cost, traveler age, dates, and state —
+            so quote-based products are compared on published plan structure
+            rather than a single price, every verifiable figure is cited to a
+            primary source with an &quot;as of&quot; date, and where a figure
+            cannot be verified we describe it qualitatively or omit it rather
+            than guess. Insurance benefits and availability vary by state, and
+            we say so wherever it applies. Vivahale Travel is reader-supported
+            and may earn affiliate commissions, but that compensation never
+            changes a score or a ranking. Every review lists at least one
+            genuine con and is editorially fact-checked against its cited
+            sources before publication. This is informational content, not
+            travel, insurance, financial, or legal advice.
+          </p>
+        </div>
+
+        <div className="mt-10 space-y-4 text-base leading-relaxed text-brand-ink/90">
+          <p>{vertical.methodologyIntro}</p>
+        </div>
+
+        <h2 className="mt-12 font-serif text-2xl font-bold text-brand-navy">
+          The five scoring criteria
+        </h2>
+        <div className="mt-6 overflow-x-auto">
+          <table className="w-full min-w-[560px] border-collapse text-left text-sm">
+            <thead>
+              <tr className="border-b-2 border-brand-navy">
+                <th scope="col" className="py-3 pr-4 font-sans font-semibold text-brand-navy">
+                  Criterion
+                </th>
+                <th scope="col" className="py-3 pr-4 font-sans font-semibold text-brand-navy">
+                  Weight
+                </th>
+                <th scope="col" className="py-3 font-sans font-semibold text-brand-navy">
+                  What we evaluate
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {CRITERIA.map((c) => (
+                <tr key={c.name} className="border-b border-brand-mist align-top">
+                  <th scope="row" className="py-3 pr-4 font-sans font-semibold text-brand-ink">
+                    {c.name}
+                  </th>
+                  <td className="py-3 pr-4 font-semibold text-brand-blue">
+                    {c.weight}
+                  </td>
+                  <td className="py-3 leading-relaxed text-brand-ink/85">
+                    {c.detail}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <h2 className="mt-12 font-serif text-2xl font-bold text-brand-navy">
+          We analyze published documentation — we do not test, travel, or file
+          claims
+        </h2>
+        <div className="mt-4 space-y-4 text-base leading-relaxed text-brand-ink/90">
+          <p>
+            This is the most important thing to understand about our travel
+            ratings: Vivahale does not take press trips or review stays, does
+            not file insurance claims, does not lab-test luggage or gear, and
+            does not survey travelers. We are also not an insurance agency,
+            broker, or producer, and we do not sell policies. We will not
+            present a claims experience we never had, a durability result we
+            never measured, or a service reputation we cannot verify.
+          </p>
+          <p>
+            Instead, every criterion is assessed from primary documentation:
+            the U.S. Department of Transportation&apos;s aviation consumer
+            protection rules for the refund and delay rights that apply
+            regardless of what you bought, each insurer&apos;s published plan
+            pages and state-specific policy wording for what a plan actually
+            covers, each manufacturer&apos;s published dimensions, weights,
+            materials, warranty, and trial terms for gear, and each
+            provider&apos;s official policy pages for cancellation, change, and
+            support commitments. Where pricing is quote-based — as travel
+            insurance is — we compare published plan structures and say the
+            price varies rather than inventing a representative premium. Where
+            a claim cannot be verified from a primary source, we describe it
+            qualitatively or leave it out. We never invent a price, a coverage
+            limit, a warranty term, or a policy condition.
+          </p>
+        </div>
+
+        <h2 className="mt-12 font-serif text-2xl font-bold text-brand-navy">
+          Independence: how compensation never touches the scores
+        </h2>
+        <ul className="mt-4 list-disc space-y-3 pl-6 text-base leading-relaxed text-brand-ink/90">
+          <li>
+            <strong className="font-semibold">
+              We review products we don&apos;t earn from.
+            </strong>{" "}
+            Category rankings include products and providers with no affiliate
+            relationship. If the best option in a category pays us nothing, it
+            still ranks where the rubric puts it.
+          </li>
+          <li>
+            <strong className="font-semibold">Rankings are never sold.</strong>{" "}
+            No provider can pay for a position, a score, or a favorable
+            sentence. There are no &quot;sponsored&quot; slots inside our
+            rankings.
+          </li>
+          <li>
+            <strong className="font-semibold">
+              Affiliate commissions never change scores.
+            </strong>{" "}
+            Scoring is completed against the rubric before monetization is
+            considered.{" "}
+            <Link
+              href="/affiliate-disclosure"
+              className="font-semibold text-brand-blue hover:underline"
+            >
+              Read our full affiliate disclosure.
+            </Link>
+          </li>
+          <li>
+            <strong className="font-semibold">
+              Every review lists at least one genuine con.
+            </strong>{" "}
+            If we recommend a product or provider, we also tell you where it
+            falls short — a quote-only price you can&apos;t compare easily, a
+            warranty that excludes airline damage, a short review period, or a
+            benefit that varies by state.
+          </li>
+          <li>
+            <strong className="font-semibold">
+              State variation and conditions are disclosed.
+            </strong>{" "}
+            Travel insurance benefits, Cancel For Any Reason availability, and
+            policy terms vary by state and by traveler. When a benefit is
+            conditional — a purchase window, a cancellation deadline, a
+            partial-reimbursement cap — we state the condition instead of
+            presenting the headline benefit alone. See our{" "}
+            <Link
+              href="/editorial-policy"
+              className="font-semibold text-brand-blue hover:underline"
+            >
+              editorial policy
+            </Link>
+            .
+          </li>
+          <li>
+            <strong className="font-semibold">
+              Pages carry as-of dates.
+            </strong>{" "}
+            Prices, plans, warranties, and policies change. Each ranking and
+            review shows when it was last updated and dates every figure that
+            can change, and we re-check pages when a provider&apos;s published
+            documentation changes.
+          </li>
+        </ul>
+
+        <h2 className="mt-12 font-serif text-2xl font-bold text-brand-navy">
+          What a score means
+        </h2>
+        <p className="mt-4 text-base leading-relaxed text-brand-ink/90">
+          Each criterion is scored 0–10 against the rubric above, multiplied by
+          its weight, and summed into a final score out of 10. Products and
+          providers in the same category are scored against the same rubric, so
+          scores are directly comparable within a ranking. A high score is not a
+          guarantee of a smooth trip, an approved claim, or a durable product —
+          it means the product or service looked strong, on its published
+          pricing, documentation, policies, and support commitments, on value,
+          experience, flexibility, transparency, and service relative to its
+          competitors. This content is informational only and is not travel,
+          insurance, financial, or legal advice; verify current terms in the
+          provider&apos;s official documents before buying or booking.
         </p>
       </section>
     </>
