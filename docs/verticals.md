@@ -806,3 +806,7 @@ southwest.com, alaskaair.com, jetblue.com); official gear-brand pages
 (travelpro.com, briggs-riley.com, awaytravel.com, monos.com). No blogs,
 aggregators, or review sites used as the source of record; no invented
 premiums, coverage limits, specs, or testimonials; no fabricated experts.
+
+### Checkpoint commit
+- `1acb2bc` — *Phase F: Travel vertical (travel.vivahale.com)*. Pushed to
+  origin/main (phases A–E were pushed the same day; the remote is current).
