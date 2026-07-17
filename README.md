@@ -71,6 +71,23 @@ npm run start      # serve the production build → http://localhost:3000
 npm run lint       # ESLint (must exit 0)
 ```
 
+### Preview the whole network at once
+
+A single build serves ONE vertical (whichever `NEXT_PUBLIC_VERTICAL` was baked
+in). To click through the entire network — the vivahale.com brand portal plus
+all five verticals — before any DNS exists:
+
+```bash
+bash scripts/preview-all.sh          # builds all six modes, serves them
+bash scripts/preview-all.sh --serve  # reuse existing .next-* builds
+```
+
+Portal → http://localhost:3000 · health 3001 · money 3002 · tech 3003 ·
+education 3004 · travel 3005. The portal's vertical cards link across the
+local ports (via `NEXT_PUBLIC_LOCAL_VERTICAL_PORTS`) instead of the production
+subdomains; each mode builds into its own dist dir (`.next-<mode>` via
+`NEXT_DIST_DIR`). Stop with Ctrl-C or `pkill -f "next start"`.
+
 **The entire site runs with ZERO credentials.** Out of the box it uses
 **local-JSON mode**: `src/lib/db.ts` (and `queue.ts` / `social.ts`) read the
 committed seed data in `src/data/*.json`, and any runtime writes (queue, social

@@ -28,6 +28,8 @@
 
 # next.js
 /.next/
+# per-vertical local-preview build dirs (scripts/preview-all.sh)
+/.next-*/
 /out/
 
 # production

@@ -54,6 +54,28 @@ function hostLabel(host: string): string {
   return host;
 }
 
+/**
+ * Optional local-preview port map, e.g. "health=3001,money=3002,…". When set
+ * (by scripts/preview-all.sh), portal cards link to http://localhost:<port>
+ * instead of the production subdomains so the whole network is clickable
+ * before any DNS exists. Unset in production → links unchanged.
+ */
+const LOCAL_PORTS: Record<string, string> = Object.fromEntries(
+  (process.env.NEXT_PUBLIC_LOCAL_VERTICAL_PORTS ?? "")
+    .split(",")
+    .map((pair) => pair.split("=").map((s) => s.trim()))
+    .filter((kv): kv is [string, string] => kv.length === 2 && !!kv[0] && !!kv[1]),
+);
+
+/** Card link + label for a vertical: local-preview port when mapped, else the
+ *  production host. */
+function cardLink(key: string, host: string): { url: string; label: string } {
+  const port = LOCAL_PORTS[key];
+  return port
+    ? { url: `http://localhost:${port}`, label: `localhost:${port}` }
+    : { url: `https://${host}`, label: hostLabel(host) };
+}
+
 export default function PortalPage() {
   const verticals = contentVerticals();
 
@@ -91,7 +113,7 @@ export default function PortalPage() {
 
         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {verticals.map((v) => {
-            const url = `https://${v.host}`;
+            const { url, label } = cardLink(v.key, v.host);
             return (
               <a
                 key={v.key}
@@ -105,7 +127,7 @@ export default function PortalPage() {
                   {v.tagline}
                 </p>
                 <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand-blue group-hover:underline">
-                  Visit {hostLabel(v.host)}
+                  Visit {label}
                   <span aria-hidden="true">→</span>
                 </span>
               </a>
