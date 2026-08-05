@@ -1,10 +1,10 @@
 import type { Vertical } from "./types";
 
 /**
- * Tech vertical config — Vivahale Tech (tech.vivahale.com).
+ * Tech vertical config — Firsthand Tech (tech.readfirsthand.com).
  *
  * Evidence-first technology product and software reviews. CRITICAL honesty
- * constraint: Vivahale does NOT run a hardware lab. Every rating and claim is
+ * constraint: Firsthand does NOT run a hardware lab. Every rating and claim is
  * derived from analysis of primary documentation — manufacturer-published
  * specifications, official pricing pages, official security/audit documentation
  * (e.g. SOC 2, ISO 27001, FedRAMP), FCC filings, and publicly documented
@@ -14,7 +14,7 @@ import type { Vertical } from "./types";
  * rating for a lab result. We never state a subjective quality judgment
  * ("best sound we heard") as if it came from testing.
  *
- * Brand consistency (like U.S. News): Tech shares the SAME Vivahale brand
+ * Brand consistency (like U.S. News): Tech shares the SAME Firsthand brand
  * palette as Health/Money for now. `theme` is read from this config wherever
  * brand tokens are wired, so differentiating later is a one-line change here.
  *
@@ -22,13 +22,13 @@ import type { Vertical } from "./types";
  */
 export const tech: Vertical = {
   key: "tech",
-  name: "Vivahale Tech",
-  host: "tech.vivahale.com",
+  name: "Firsthand Tech",
+  host: "readfirsthand.com",
   tagline: "Evidence-First Technology & Software Reviews",
   description:
-    "Vivahale Tech is an independent technology review site. We read the primary documentation — manufacturer spec sheets, official pricing pages, and published security audits — to rank laptops, earbuds, apps, and other tech clearly and without hype. We do not run a hardware lab; our ratings come from analysis of published specifications and official documentation, not independent benchmarks.",
+    "Firsthand Tech is an independent technology review site. We read the primary documentation — manufacturer spec sheets, official pricing pages, and published security audits — to rank laptops, earbuds, apps, and other tech clearly and without hype. We do not run a hardware lab; our ratings come from analysis of published specifications and official documentation, not independent benchmarks.",
 
-  // SAME shared Vivahale brand palette as Health/Money (brand consistency).
+  // SAME shared Firsthand brand palette as Health/Money (brand consistency).
   theme: {
     brandNavy: "#0b3d6e",
     brandBlue: "#1a6fd4",
@@ -113,11 +113,11 @@ export const tech: Vertical = {
   ],
 
   methodologyIntro:
-    "Technology reviews are only as trustworthy as the evidence behind them, so we are explicit about ours. Vivahale Tech does not operate a hardware lab: we do not run independent benchmarks, and we do not conduct hands-on audio, battery, or performance testing. Instead, every rating is built from analysis of primary documentation — manufacturer-published specification sheets, official pricing pages, official security and audit documentation, FCC filings, and publicly documented third-party audits and certifications. Because specs and prices change, every number in our reviews is cited to a primary source with an 'as of' date, and where we cannot verify a figure we describe it qualitatively or omit it rather than guess. We never present a subjective judgment as if it came from testing we did not do.",
+    "Technology reviews are only as trustworthy as the evidence behind them, so we are explicit about ours. Firsthand Tech does not operate a hardware lab: we do not run independent benchmarks, and we do not conduct hands-on audio, battery, or performance testing. Instead, every rating is built from analysis of primary documentation — manufacturer-published specification sheets, official pricing pages, official security and audit documentation, FCC filings, and publicly documented third-party audits and certifications. Because specs and prices change, every number in our reviews is cited to a primary source with an 'as of' date, and where we cannot verify a figure we describe it qualitatively or omit it rather than guess. We never present a subjective judgment as if it came from testing we did not do.",
 
   disclosureLabel: "Affiliate Disclosure",
   disclosureBody:
-    "Vivahale Tech is reader-supported. We may earn a commission if you buy through links on this page — at no extra cost to you. Commissions never affect our rankings, ratings, or which products we cover: placement follows the published methodology, not payment.",
+    "Firsthand Tech is reader-supported. We may earn a commission if you buy through links on this page — at no extra cost to you. Commissions never affect our rankings, ratings, or which products we cover: placement follows the published methodology, not payment.",
 
   // General editorial disclaimer (replaces the medical/financial one).
   contentDisclaimer:
@@ -130,24 +130,24 @@ export const tech: Vertical = {
   defaultReviewerSlug: "editorial-team",
 
   footerDisclaimer:
-    "Vivahale Tech content is for informational purposes only and is not professional advice; ratings are based on published documentation, not independent lab testing.",
+    "Firsthand Tech content is for informational purposes only and is not professional advice; ratings are based on published documentation, not independent lab testing.",
 
   methodologyMetaDescription:
-    "The published methodology behind every Vivahale Tech ranking: Performance, Value, Reliability & Security, Ease of Use, and Support — rated from manufacturer specifications and official documentation, not independent lab testing.",
+    "The published methodology behind every Firsthand Tech ranking: Performance, Value, Reliability & Security, Ease of Use, and Support — rated from manufacturer specifications and official documentation, not independent lab testing.",
 
   newsletter: {
-    brandName: "The Vivahale Tech Brief",
+    brandName: "The Firsthand Tech Brief",
     bandBlurb:
       "One weekly email: what changed in the specs, prices, and security documentation behind the tech you use — read from the primary sources. No hype, no spam.",
     ctaHeading: "Get evidence-based tech picks in your inbox — no hype.",
-    ctaBlurb: "Join The Vivahale Tech Brief for a weekly, research-first read.",
+    ctaBlurb: "Join The Firsthand Tech Brief for a weekly, research-first read.",
   },
 
   homepage: {
     heroFallbackTitle: "Tech decisions deserve better evidence.",
     heroFallbackBody:
-      "Vivahale Tech reads the primary documentation — manufacturer spec sheets, official pricing pages, and published security audits — to rank laptops, earbuds, apps, and other tech clearly and without hype. We don't run a lab; our ratings come from published specifications and official documentation.",
-    trustHeading: "Why trust Vivahale Tech",
+      "Firsthand Tech reads the primary documentation — manufacturer spec sheets, official pricing pages, and published security audits — to rank laptops, earbuds, apps, and other tech clearly and without hype. We don't run a lab; our ratings come from published specifications and official documentation.",
+    trustHeading: "Why trust Firsthand Tech",
     trustPoints: [
       "Rankings built from manufacturer specs and official documentation, not sponsorships.",
       "Clear methodology and cited, as-of-dated figures on every page — no invented benchmarks.",

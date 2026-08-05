@@ -1,7 +1,7 @@
 /**
  * PrimarySourceNote — a mist box rendered near the top of `type: news`
  * articles at /articles/[slug]. It makes the editorial contract explicit:
- * Vivahale news pieces are ORIGINAL analysis of a primary-source announcement,
+ * Firsthand news pieces are ORIGINAL analysis of a primary-source announcement,
  * and the reader should always read the source themselves.
  *
  * It links the trigger primary source prominently. The trigger is, by
@@ -38,7 +38,7 @@ export default function PrimarySourceNote({
       ) : (
         <span className="italic">see the linked sources below</span>
       )}{" "}
-      — Vivahale analysis is original commentary; always read the source.
+      — Firsthand analysis is original commentary; always read the source.
     </aside>
   );
 }

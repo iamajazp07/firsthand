@@ -12,9 +12,12 @@ import type { Reviewer } from "@/lib/types";
 export default function MedicalReviewerBadge({
   reviewer,
   className = "",
+  verticalKey,
 }: {
   reviewer: Reviewer;
   className?: string;
+  /** Which vertical this renders inside — links and config come from it. */
+  verticalKey: string;
 }) {
   // PLACEHOLDER REVIEWER — swap name/credential before publishing money pages.
   const showPlaceholderWarning =
@@ -49,7 +52,7 @@ export default function MedicalReviewerBadge({
         <span>
           Fact-checked by{" "}
           <Link
-            href={`/reviewers/${reviewer.slug}`}
+            href={`/${verticalKey}/reviewers/${reviewer.slug}`}
             className="font-semibold text-brand-navy hover:text-brand-blue hover:underline"
           >
             {reviewer.name}

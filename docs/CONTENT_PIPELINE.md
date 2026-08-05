@@ -1,4 +1,4 @@
-# Vivahale content pipeline
+# Firsthand content pipeline
 
 How an editorial article goes from an idea in the backlog to a live page at
 `/articles/[slug]` — with no paid AI APIs anywhere in the loop. The drafting
@@ -92,7 +92,7 @@ news-feeds.json ─▶ news:fetch ─▶ news brief ─▶ draft ORIGINAL analys
   trigger source**), plus: link the primary source **prominently near the top**.
 - On the live page, `type: news` articles render a **`PrimarySourceNote`** mist
   box near the top (leading with the first/trigger source): *"Primary source:
-  [linked name] — Vivahale analysis is original commentary; always read the
+  [linked name] — Firsthand analysis is original commentary; always read the
   source."* — analogous to the `reddit_roundup` paraphrase note.
 
 ### Separation rule (important)

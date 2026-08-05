@@ -1,11 +1,11 @@
 import type { Vertical } from "./types";
 
 /**
- * Education vertical config — Vivahale Education (education.vivahale.com).
+ * Education vertical config — Firsthand Education (education.readfirsthand.com).
  *
  * Evidence-first reviews and rankings of learning programs and education tools.
  * Education overlaps YMYL (career and financial outcomes), so the honesty bar is
- * high. CRITICAL honesty constraint: Vivahale does NOT independently audit
+ * high. CRITICAL honesty constraint: Firsthand does NOT independently audit
  * schools or programs and does NOT conduct student surveys. Every rating is
  * built from analysis of officially published data — accreditor databases
  * (e.g. the U.S. Department of Education's DAPIP, CHEA), U.S. Department of
@@ -17,7 +17,7 @@ import type { Vertical } from "./types";
  * source with an "as of" date; where a figure cannot be verified we describe it
  * qualitatively or omit it rather than guess.
  *
- * Brand consistency (like U.S. News): Education shares the SAME Vivahale brand
+ * Brand consistency (like U.S. News): Education shares the SAME Firsthand brand
  * palette as Health/Money/Tech for now. `theme` is read from this config
  * wherever brand tokens are wired, so differentiating later is a one-line change.
  *
@@ -25,13 +25,13 @@ import type { Vertical } from "./types";
  */
 export const education: Vertical = {
   key: "education",
-  name: "Vivahale Education",
-  host: "education.vivahale.com",
+  name: "Firsthand Education",
+  host: "readfirsthand.com",
   tagline: "Evidence-First Reviews of Learning Programs & Education Tools",
   description:
-    "Vivahale Education is an independent education review site. We read the official record — accreditor databases, U.S. Department of Education sources, and each provider's own published pricing, curriculum, and outcomes documentation — to rank online learning platforms, bootcamps, certifications, and study tools clearly and without hype. We do not audit schools or survey students; our ratings analyze published data, not independent audits.",
+    "Firsthand Education is an independent education review site. We read the official record — accreditor databases, U.S. Department of Education sources, and each provider's own published pricing, curriculum, and outcomes documentation — to rank online learning platforms, bootcamps, certifications, and study tools clearly and without hype. We do not audit schools or survey students; our ratings analyze published data, not independent audits.",
 
-  // SAME shared Vivahale brand palette as Health/Money/Tech (brand consistency).
+  // SAME shared Firsthand brand palette as Health/Money/Tech (brand consistency).
   theme: {
     brandNavy: "#0b3d6e",
     brandBlue: "#1a6fd4",
@@ -72,7 +72,7 @@ export const education: Vertical = {
   // Support Services 15%, Flexibility 10% → sums to 1.00. Every "what we
   // evaluate" description is written honestly: assessment is from officially
   // published or provider-disclosed data, clearly labeled when self-reported,
-  // NOT from Vivahale-conducted audits or student surveys.
+  // NOT from Firsthand-conducted audits or student surveys.
   criteria: [
     {
       key: "outcomes",
@@ -80,7 +80,7 @@ export const education: Vertical = {
       longLabel: "Outcomes",
       weight: 0.3,
       description:
-        "What the credential or program is designed to lead to — and what the officially published or provider-disclosed data shows. We read outcomes evidence from primary sources: the U.S. Department of Education's College Scorecard, accreditor databases, and, for bootcamps, standardized reports (e.g. CIRR). When a provider's completion, placement, or salary figures are self-reported and not independently audited, we say so explicitly and never present them as verified. Vivahale does not survey students or audit outcomes; where a figure cannot be verified from a primary source we describe it qualitatively or omit it.",
+        "What the credential or program is designed to lead to — and what the officially published or provider-disclosed data shows. We read outcomes evidence from primary sources: the U.S. Department of Education's College Scorecard, accreditor databases, and, for bootcamps, standardized reports (e.g. CIRR). When a provider's completion, placement, or salary figures are self-reported and not independently audited, we say so explicitly and never present them as verified. Firsthand does not survey students or audit outcomes; where a figure cannot be verified from a primary source we describe it qualitatively or omit it.",
     },
     {
       key: "cost_value",
@@ -117,11 +117,11 @@ export const education: Vertical = {
   ],
 
   methodologyIntro:
-    "Education reviews carry real weight because they touch careers and money, so we are explicit about our evidence. Vivahale Education does not independently audit schools or programs, and it does not conduct student surveys. Instead, every rating is built from analysis of officially published data — accreditor databases and the U.S. Department of Education's Database of Accredited Postsecondary Institutions and Programs (DAPIP), U.S. Department of Education sources such as College Scorecard, the Bureau of Labor Statistics, and each provider's own published pricing, curriculum, accreditation, and outcomes documentation. Because prices and programs change, every number in our reviews is cited to a primary source with an 'as of' date, and where we cannot verify a figure we describe it qualitatively or omit it rather than guess. When a provider's completion, placement, or salary numbers are self-reported and unaudited, we label them as self-reported and never present them as independently verified.",
+    "Education reviews carry real weight because they touch careers and money, so we are explicit about our evidence. Firsthand Education does not independently audit schools or programs, and it does not conduct student surveys. Instead, every rating is built from analysis of officially published data — accreditor databases and the U.S. Department of Education's Database of Accredited Postsecondary Institutions and Programs (DAPIP), U.S. Department of Education sources such as College Scorecard, the Bureau of Labor Statistics, and each provider's own published pricing, curriculum, accreditation, and outcomes documentation. Because prices and programs change, every number in our reviews is cited to a primary source with an 'as of' date, and where we cannot verify a figure we describe it qualitatively or omit it rather than guess. When a provider's completion, placement, or salary numbers are self-reported and unaudited, we label them as self-reported and never present them as independently verified.",
 
   disclosureLabel: "Affiliate Disclosure",
   disclosureBody:
-    "Vivahale Education is reader-supported. We may earn a commission if you enroll or subscribe through links on this page — at no extra cost to you. Commissions never affect our rankings, ratings, or which programs we cover: placement follows the published methodology, not payment.",
+    "Firsthand Education is reader-supported. We may earn a commission if you enroll or subscribe through links on this page — at no extra cost to you. Commissions never affect our rankings, ratings, or which programs we cover: placement follows the published methodology, not payment.",
 
   // Not-academic/career/financial-advice content disclaimer.
   contentDisclaimer:
@@ -134,25 +134,25 @@ export const education: Vertical = {
   defaultReviewerSlug: "editorial-team",
 
   footerDisclaimer:
-    "Vivahale Education content is for informational purposes only and is not academic, career, or financial advice; ratings are based on published data, not independent audits of schools or programs.",
+    "Firsthand Education content is for informational purposes only and is not academic, career, or financial advice; ratings are based on published data, not independent audits of schools or programs.",
 
   methodologyMetaDescription:
-    "The published methodology behind every Vivahale Education ranking: Outcomes, Cost & Value, Academics, Support Services, and Flexibility — rated from officially published data and provider documentation, not independent audits or student surveys.",
+    "The published methodology behind every Firsthand Education ranking: Outcomes, Cost & Value, Academics, Support Services, and Flexibility — rated from officially published data and provider documentation, not independent audits or student surveys.",
 
   newsletter: {
-    brandName: "The Vivahale Education Brief",
+    brandName: "The Firsthand Education Brief",
     bandBlurb:
       "One weekly email: what changed in the pricing, accreditation, and published outcomes behind the learning programs and tools you're considering — read from the primary sources. No hype, no spam.",
     ctaHeading: "Get evidence-based education picks in your inbox — no hype.",
     ctaBlurb:
-      "Join The Vivahale Education Brief for a weekly, research-first read.",
+      "Join The Firsthand Education Brief for a weekly, research-first read.",
   },
 
   homepage: {
     heroFallbackTitle: "Education decisions deserve better evidence.",
     heroFallbackBody:
-      "Vivahale Education reads the official record — accreditor databases, U.S. Department of Education sources, and each provider's own published pricing, curriculum, and outcomes documentation — to rank online learning platforms, bootcamps, certifications, and study tools clearly and without hype. We don't audit schools or survey students; our ratings come from published data.",
-    trustHeading: "Why trust Vivahale Education",
+      "Firsthand Education reads the official record — accreditor databases, U.S. Department of Education sources, and each provider's own published pricing, curriculum, and outcomes documentation — to rank online learning platforms, bootcamps, certifications, and study tools clearly and without hype. We don't audit schools or survey students; our ratings come from published data.",
+    trustHeading: "Why trust Firsthand Education",
     trustPoints: [
       "Rankings built from officially published data and provider documentation, not sponsorships.",
       "Clear methodology and cited, as-of-dated figures on every page — self-reported outcomes are labeled as self-reported.",

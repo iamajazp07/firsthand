@@ -1,4 +1,4 @@
--- Vivahale — multi-vertical support (Phase A, part 3)
+-- Firsthand — multi-vertical support (Phase A, part 3)
 -- Adds a `vertical` discriminator column to every content-bearing table so a
 -- single Supabase project can hold rows for multiple verticals
 -- (health, money, tech, …). The app filters reads by the active vertical
@@ -16,7 +16,7 @@
 --
 -- 0001_init.sql created `reviewer_credential as enum ('RD','MD')`, but the TS
 -- type Reviewer.credential_type is "RD" | "MD" | "Editorial" and the live seed
--- ("Vivahale Editorial Team") uses 'Editorial'. In Supabase mode that row would
+-- ("Firsthand Editorial Team") uses 'Editorial'. In Supabase mode that row would
 -- violate the enum. Add the missing value here.
 --
 -- NOTE: `ALTER TYPE ... ADD VALUE` cannot run inside a transaction block in

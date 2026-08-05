@@ -1,12 +1,12 @@
-# Vivahale — Refactor Baseline
+# Firsthand — Refactor Baseline
 
 Read-only reconnaissance snapshot taken **before** any multi-vertical refactor.
 This is the parity reference: Health must render identically after later changes.
 
 ## Provenance
 
-- **Copied from (SOURCE, never modified):** `/Users/ajazahamed/prompt-loop/workspaces/run-2026-07-10T21-54-40/vivahale`
-- **Copied to (this workspace):** `/Users/ajazahamed/prompt-loop/workspaces/run-2026-07-12T11-23-59/vivahale`
+- **Copied from (SOURCE, never modified):** `/Users/ajazahamed/prompt-loop/workspaces/run-2026-07-10T21-54-40/firsthand`
+- **Copied to (this workspace):** `/Users/ajazahamed/prompt-loop/workspaces/run-2026-07-12T11-23-59/firsthand`
 - **Copy method:** `rsync -a` excluding `node_modules`, `.next`, `tsconfig.tsbuildinfo`, `.DS_Store`. `.git` and all dotfiles preserved. Old workspace `state.json` NOT copied.
 - **Git integrity:** SOURCE and COPY both at HEAD `b5d2343`. SOURCE `git status` shows only the pre-existing untracked `docs/prompts/` (present before copy) — source untouched. `npm install` re-run in the copy: **added 370 packages, exit 0** (2 moderate audit vulns, non-blocking). `node_modules/next/dist/docs/` confirmed present after install.
 
@@ -36,7 +36,7 @@ Confirmed present (Next 16 renames `middleware` → `proxy`). It is the **PRIMAR
 
 - Exports `proxy(request)` + `config.matcher: ["/admin/:path*", "/api/admin/:path*"]`.
 - **Why it exists (from the file's own header):** a layout gate runs too late — Next still renders the protected PAGE to produce its RSC flight payload, leaking queue items / social drafts into the HTML body even behind a 403. A proxy runs *before* any route renders, so an unauthenticated request never executes the page.
-- Auth: mirrors `src/lib/admin-auth.ts` exactly — cookie `vh_admin_session`, HMAC key `vivahale-admin-session-v1`, token = `HMAC-SHA256(key, ADMIN_PASSWORD)`, compared with `timingSafeEqual`.
+- Auth: mirrors `src/lib/admin-auth.ts` exactly — cookie `vh_admin_session`, HMAC key `firsthand-admin-session-v1`, token = `HMAC-SHA256(key, ADMIN_PASSWORD)`, compared with `timingSafeEqual`.
 - `/admin/login` + `/api/admin/login` stay reachable unauthenticated.
 - **No `ADMIN_PASSWORD` set:** production → hard `403` (blocks flight-data leak); development → dev-open (layout shows a banner).
 - Runs on Node.js runtime (Next 16 proxy default; `runtime` segment option is disallowed in proxy).
@@ -126,7 +126,7 @@ export interface CriterionRatings {
 
 ## Part 2f — Branding seam (`src/lib/site.ts`)
 
-Exports: `SITE_NAME` (`"Vivahale"`), `SITE_URL` (`NEXT_PUBLIC_SITE_URL` || `https://vivahale.com`, trailing slash stripped), `SITE_DESCRIPTION`, `NAV_PRIMARY_COUNT` (`6`), `NAV_CATEGORIES` (11 name/slug pairs — static so the client Header needs no server data layer).
+Exports: `SITE_NAME` (`"Firsthand"`), `SITE_URL` (`NEXT_PUBLIC_SITE_URL` || `https://readfirsthand.com`, trailing slash stripped), `SITE_DESCRIPTION`, `NAV_PRIMARY_COUNT` (`6`), `NAV_CATEGORIES` (11 name/slug pairs — static so the client Header needs no server data layer).
 
 ### Files importing from `@/lib/site`
 - `src/app/articles/[slug]/page.tsx` — SITE_NAME, SITE_URL
@@ -206,7 +206,7 @@ Files: `0001_init.sql`, `0002_queue.sql`, `0003_social.sql`.
 ### `src/lib/social.ts`
 `SITE_URL` is **inlined** (line 104) and social.ts does **NOT** import `@/lib/site` — confirmed (only mentions it in comments as "mirrors src/lib/site.ts"):
 ```ts
-export const SITE_URL = "https://vivahale.com";
+export const SITE_URL = "https://readfirsthand.com";
 ```
 Disclosure helper + approval gate:
 ```ts
@@ -288,18 +288,18 @@ No errors to report for either. Nothing was fixed (read-only baseline).
 
 | Route | HTTP | `<title>` / body |
 |---|---|---|
-| `/` | 200 | Vivahale — Independent Health & Wellness Reviews |
-| `/methodology` | 200 | Vivahale — How Vivahale Ranks and Reviews Products |
-| `/about` | 200 | Vivahale — About |
-| `/feed.xml` | 200 | RSS 2.0, channel `<title>Vivahale</title>` |
-| `/sitemap.xml` | 200 | valid urlset, `<loc>https://vivahale.com</loc>` first |
-| `/robots.txt` | 200 | `User-Agent: * / Allow: / / Disallow: /admin / Sitemap: https://vivahale.com/sitemap.xml` |
-| `/category/sleep` | 200 | Vivahale — Sleep |
-| `/best/best-sleep-supplements` | 200 | Vivahale — Best Sleep Supplements of 2026 |
-| `/reviews/nature-made-melatonin-3mg` | 200 | Vivahale — Nature Made Melatonin 3 mg Review 2026 |
+| `/` | 200 | Firsthand — Independent Health & Wellness Reviews |
+| `/methodology` | 200 | Firsthand — How Firsthand Ranks and Reviews Products |
+| `/about` | 200 | Firsthand — About |
+| `/feed.xml` | 200 | RSS 2.0, channel `<title>Firsthand</title>` |
+| `/sitemap.xml` | 200 | valid urlset, `<loc>https://readfirsthand.com</loc>` first |
+| `/robots.txt` | 200 | `User-Agent: * / Allow: / / Disallow: /admin / Sitemap: https://readfirsthand.com/sitemap.xml` |
+| `/category/sleep` | 200 | Firsthand — Sleep |
+| `/best/best-sleep-supplements` | 200 | Firsthand — Best Sleep Supplements of 2026 |
+| `/reviews/nature-made-melatonin-3mg` | 200 | Firsthand — Nature Made Melatonin 3 mg Review 2026 |
 | `/articles/ai-symptom-checkers-what-studies-show` | **404** | seed article is `status: draft` — see note |
-| `/articles/magnesium-l-threonate-vs-glycinate-sleep` | 200 | Vivahale — Magnesium L-Threonate vs Glycinate: Which Form Is Better for Sleep? |
-| `/articles/news-otc-cgm-for-kids-stelo-clearance` | 200 | Vivahale — OTC Glucose Monitors for Kids: What Dexcom's Stelo Clearance Actually Means |
+| `/articles/magnesium-l-threonate-vs-glycinate-sleep` | 200 | Firsthand — Magnesium L-Threonate vs Glycinate: Which Form Is Better for Sleep? |
+| `/articles/news-otc-cgm-for-kids-stelo-clearance` | 200 | Firsthand — OTC Glucose Monitors for Kids: What Dexcom's Stelo Clearance Actually Means |
 
 > **Article-route note (expected behavior, not a bug):** `/articles/[slug]` serves **published** items from the dual-mode **queue store** (`data/queue.local.json`), not from `src/data/articles.json`. All three `articles.json` seeds are `status: "draft"` → they 404. Two items in the local queue store are `published` and render 200 (used above). If the local queue store is not carried forward, no article page will render — a parity consideration for later.
 
@@ -326,7 +326,7 @@ the baseline above.
 
 ### Crawl (production build + `next start`, port 3111)
 - **Routes discovered/crawled:** 50 (recursive same-origin `<a href>` crawl from
-  `/`; the sitemap enumerates the same 50 `<loc>`s, on the `vivahale.com`
+  `/`; the sitemap enumerates the same 50 `<loc>`s, on the `readfirsthand.com`
   canonical origin). Enumerated `/sitemap.xml` and followed every internal link.
 - **Statuses:** 50/50 → **HTTP 200**. **Broken internal links: 0.**
   **Redirects: 0. Soft-404s: 0** (every 200 rendered a real, non-placeholder body;
@@ -350,7 +350,7 @@ the baseline above.
   from `Math.round(weight*100)`.
 
 ### Other surfaces
-- `/feed.xml` → 200, valid RSS 2.0 (`<title>Vivahale</title>`).
+- `/feed.xml` → 200, valid RSS 2.0 (`<title>Firsthand</title>`).
 - `/robots.txt` → 200 (`Allow: /`, `Disallow: /admin`, sitemap URL).
 - `/quiz/sleep` → 200 (renders the Sleep Quiz).
 
@@ -373,8 +373,8 @@ the baseline above.
 ### Vertical resolution sanity
 - `getActiveVertical()` → `health` by default; throws
   `Unknown vertical "bogus" (from NEXT_PUBLIC_VERTICAL). Known verticals: health.`
-- `resolveVerticalFromHost`: `health.vivahale.com`→`health`,
-  `vivahale.com`/`www.vivahale.com`→`portal`, `unknown-host.example`→`null`.
+- `resolveVerticalFromHost`: `health.readfirsthand.com`→`health`,
+  `readfirsthand.com`/`www.readfirsthand.com`→`portal`, `unknown-host.example`→`null`.
 
 ### Type + build
 - `npx tsc --noEmit` → **exit 0, zero errors.**

@@ -1,5 +1,5 @@
 /**
- * Shared entity types for the Vivahale data layer.
+ * Shared entity types for the Firsthand data layer.
  * These mirror the Postgres schema in supabase/migrations/0001_init.sql
  * and the local seed JSON in src/data/.
  */
@@ -80,7 +80,7 @@ export interface EvidencePoint {
  * A reviewed product/provider (spoke page unit). Seeded from
  * src/data/products.json; Supabase table arrives in a later migration.
  * `affiliate_url` for monetized items is the literal placeholder string
- * "VIVAHALE_AFFILIATE_PLACEHOLDER" until real affiliate links are wired.
+ * "FIRSTHAND_AFFILIATE_PLACEHOLDER" until real affiliate links are wired.
  */
 export interface Product {
   id: string;

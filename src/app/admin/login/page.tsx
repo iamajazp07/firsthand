@@ -34,7 +34,7 @@ export default async function AdminLoginPage({
 
   return (
     <main className="mx-auto flex min-h-[60vh] max-w-md flex-col justify-center px-6 py-16">
-      <h1 className="font-serif text-2xl text-brand-navy">Vivahale admin</h1>
+      <h1 className="font-serif text-2xl text-brand-navy">Firsthand admin</h1>
       <p className="mt-2 text-sm text-brand-ink/70">
         Sign in to the content review queue.
       </p>

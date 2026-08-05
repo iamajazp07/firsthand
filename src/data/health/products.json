@@ -28,8 +28,8 @@
       "No direct-to-consumer support; returns depend on the retailer"
     ],
     "best_for": "Travelers and shift workers who want a cheap, USP-verified melatonin",
-    "summary": "The budget benchmark of this ranking, and one Vivahale earns no commission on. Cheap, single-ingredient, and USP verified, with the standard caveat that melatonin helps circadian problems far more than routine insomnia.",
-    "verdict_summary": "Nature Made Melatonin 3 mg tops our 2026 ranking at 8.2/10 — and Vivahale earns nothing on it. It is inexpensive, single-ingredient, widely available, and USP verified, meaning an independent body has checked that the tablet contains the melatonin its label claims. Melatonin also has the largest human evidence base here: a 19-trial meta-analysis of 1,683 people found it shortens sleep onset and modestly improves sleep quality. The caveats are the same as for all melatonin — it reliably shifts sleep timing for jet lag, shift work, and delayed sleep phase, but NCCIH says there is not enough strong evidence to recommend it for chronic insomnia, and 3 mg exceeds the 0.5–1 mg doses used in much circadian research. Confirm the USP mark on your specific bottle. It is best for travelers and shift workers who want a vetted, cheap melatonin without subscription upsells. Persistent insomnia deserves a clinician, not escalating doses.",
+    "summary": "The budget benchmark of this ranking, and one Firsthand earns no commission on. Cheap, single-ingredient, and USP verified, with the standard caveat that melatonin helps circadian problems far more than routine insomnia.",
+    "verdict_summary": "Nature Made Melatonin 3 mg tops our 2026 ranking at 8.2/10 — and Firsthand earns nothing on it. It is inexpensive, single-ingredient, widely available, and USP verified, meaning an independent body has checked that the tablet contains the melatonin its label claims. Melatonin also has the largest human evidence base here: a 19-trial meta-analysis of 1,683 people found it shortens sleep onset and modestly improves sleep quality. The caveats are the same as for all melatonin — it reliably shifts sleep timing for jet lag, shift work, and delayed sleep phase, but NCCIH says there is not enough strong evidence to recommend it for chronic insomnia, and 3 mg exceeds the 0.5–1 mg doses used in much circadian research. Confirm the USP mark on your specific bottle. It is best for travelers and shift workers who want a vetted, cheap melatonin without subscription upsells. Persistent insomnia deserves a clinician, not escalating doses.",
     "pricing_table": [
       {
         "plan": "Retail (120 count)",
@@ -52,7 +52,7 @@
         "answer": "It is more than you likely need. Much of the circadian research uses 0.5–1 mg, and higher doses can cause next-day grogginess without added benefit. You can split a 3 mg tablet or choose a lower-dose product if you are sensitive."
       },
       {
-        "question": "Why doesn't Vivahale earn a commission on this product?",
+        "question": "Why doesn't Firsthand earn a commission on this product?",
         "answer": "We include strong non-affiliate options in every ranking so our recommendations aren't limited to products that pay us. Nature Made earns us nothing, and commissions never influence our scores or ordering."
       }
     ],
@@ -76,7 +76,7 @@
     "name": "Doctor's Best High Absorption Magnesium",
     "category_slug": "sleep",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 8,
     "ratings": {
       "safety": 8.5,
@@ -160,7 +160,7 @@
     "pros": [
       "Delivers exactly the 3 g bedtime dose used in the human sleep research, at pennies per serving",
       "Single-ingredient free-form glycine powder — no fillers, sweeteners, or proprietary blend",
-      "Excellent value at roughly $0.11 per serving, and Vivahale earns no commission on it",
+      "Excellent value at roughly $0.11 per serving, and Firsthand earns no commission on it",
       "Well tolerated; glycine is a naturally occurring amino acid with a clean short-term safety record"
     ],
     "cons": [
@@ -171,7 +171,7 @@
     ],
     "best_for": "Budget-minded users who want the exact 3 g glycine dose from research",
     "summary": "A no-frills, single-ingredient glycine powder that hits the exact 3 g dose used in the sleep studies for about $0.11 a serving. The evidence base is small but mechanistically interesting, and it is one of two picks here we earn nothing on.",
-    "verdict_summary": "NOW Glycine Pure Powder scores 7.6/10 as our best-value single-ingredient option, and Vivahale earns nothing on it. One 3/4-teaspoon serving delivers 3 g of free-form glycine — precisely the dose used in the human sleep research — for about $0.11, with no fillers or sweeteners. The evidence is intriguing but thin: small trials report that 3 g of glycine before bed improves subjective sleep quality, shortens the latency to slow-wave sleep, and reduces next-day sleepiness, and rat work traces the mechanism to NMDA receptors in the suprachiasmatic nucleus that lower core body temperature to ease sleep onset. The catch is scale — key studies enrolled only a handful of participants, so treat glycine as promising rather than established. It is well tolerated short-term, but the powder format means measuring a spoonful, and there is no third-party certification mark. Best for budget-minded users who want the exact researched glycine dose without a subscription.",
+    "verdict_summary": "NOW Glycine Pure Powder scores 7.6/10 as our best-value single-ingredient option, and Firsthand earns nothing on it. One 3/4-teaspoon serving delivers 3 g of free-form glycine — precisely the dose used in the human sleep research — for about $0.11, with no fillers or sweeteners. The evidence is intriguing but thin: small trials report that 3 g of glycine before bed improves subjective sleep quality, shortens the latency to slow-wave sleep, and reduces next-day sleepiness, and rat work traces the mechanism to NMDA receptors in the suprachiasmatic nucleus that lower core body temperature to ease sleep onset. The catch is scale — key studies enrolled only a handful of participants, so treat glycine as promising rather than established. It is well tolerated short-term, but the powder format means measuring a spoonful, and there is no third-party certification mark. Best for budget-minded users who want the exact researched glycine dose without a subscription.",
     "pricing_table": [
       {
         "plan": "One-time (1 lb powder)",
@@ -213,7 +213,7 @@
     "name": "Sports Research L-Theanine 200 mg",
     "category_slug": "sleep",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 7.5,
     "ratings": {
       "safety": 8.5,
@@ -279,7 +279,7 @@
     "name": "OLLY Sleep Gummies",
     "category_slug": "sleep",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 6.6,
     "ratings": {
       "safety": 7.5,
@@ -422,7 +422,7 @@
     "name": "Transparent Labs Fat Burner",
     "category_slug": "weight-loss",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 6.5,
     "ratings": {
       "safety": 7,
@@ -499,7 +499,7 @@
     "name": "Instant Knockout Cut",
     "category_slug": "weight-loss",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 5.3,
     "ratings": {
       "safety": 6,
@@ -570,7 +570,7 @@
     "name": "PhenQ",
     "category_slug": "weight-loss",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 5,
     "ratings": {
       "safety": 5.5,
@@ -641,7 +641,7 @@
     "name": "Java Burn",
     "category_slug": "weight-loss",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 4.4,
     "ratings": {
       "safety": 5,
@@ -712,7 +712,7 @@
     "name": "Ikaria Lean Belly Juice",
     "category_slug": "weight-loss",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 4,
     "ratings": {
       "safety": 4.5,
@@ -783,7 +783,7 @@
     "name": "Ro (Ro Body)",
     "category_slug": "weight-loss",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 8.4,
     "ratings": {
       "safety": 8,
@@ -949,7 +949,7 @@
     "name": "Sesame (Success by Sesame)",
     "category_slug": "weight-loss",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 8.2,
     "ratings": {
       "safety": 8,
@@ -1111,7 +1111,7 @@
     "name": "Mochi Health",
     "category_slug": "weight-loss",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 7.2,
     "ratings": {
       "safety": 7.5,
@@ -1351,7 +1351,7 @@
     "name": "Colgate Optic White Pro Series Whitening Toothpaste (5% Hydrogen Peroxide)",
     "category_slug": "dental-oral-health",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 8.1,
     "ratings": {
       "safety": 8.5,
@@ -1417,7 +1417,7 @@
     "name": "AuraGlow LED Teeth Whitening Kit (35% Carbamide Peroxide)",
     "category_slug": "dental-oral-health",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 6.1,
     "ratings": {
       "safety": 6,
@@ -1483,7 +1483,7 @@
     "name": "Lumineux Peroxide-Free Whitening Strips",
     "category_slug": "dental-oral-health",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 6,
     "ratings": {
       "safety": 7.5,
@@ -1554,7 +1554,7 @@
     "name": "ProDentim Oral Probiotic",
     "category_slug": "dental-oral-health",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 4.4,
     "ratings": {
       "safety": 5.5,

@@ -1,4 +1,4 @@
-import { getActiveVertical } from "@/lib/verticals";
+import { getVertical } from "@/lib/verticals";
 
 /**
  * Content disclaimer for the bottom of articles / money pages. The label and
@@ -11,10 +11,13 @@ import { getActiveVertical } from "@/lib/verticals";
  */
 export default function MedicalDisclaimer({
   className = "",
+  verticalKey,
 }: {
   className?: string;
+  /** Which vertical this renders inside — links and config come from it. */
+  verticalKey: string;
 }) {
-  const { contentDisclaimer, contentDisclaimerLabel } = getActiveVertical();
+  const { contentDisclaimer, contentDisclaimerLabel } = getVertical(verticalKey);
   const label = contentDisclaimerLabel ?? "Disclaimer";
   return (
     <aside

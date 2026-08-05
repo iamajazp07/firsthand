@@ -91,7 +91,7 @@ const CATEGORY_TAGS: Record<string, string[]> = {
 
 function tagsFor(categorySlug: string): string[] {
   const base = CATEGORY_TAGS[categorySlug] ?? ["Health", "Wellness"];
-  return [...base, "Vivahale"];
+  return [...base, "Firsthand"];
 }
 
 // ---------------------------------------------------------------------------
@@ -248,7 +248,7 @@ function buildInstagram(u: ContentUnit): Draft {
   const caption =
     `${u.title} 🔍\n\n` +
     `${u.excerpt}\n\n` +
-    `Full analysis is linked in our bio — search Vivahale.${affiliate}\n\n` +
+    `Full analysis is linked in our bio — search Firsthand.${affiliate}\n\n` +
     `${hashtagString(igTags)}`;
   return { caption: withDisclosure(caption, u.monetized), hashtags: igTags };
 }

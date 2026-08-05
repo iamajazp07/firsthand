@@ -1,7 +1,7 @@
 import type { Vertical } from "./types";
 
 /**
- * Health vertical config — the original Vivahale site.
+ * Health vertical config — the original Firsthand site.
  *
  * PARITY CONTRACT: every value here is copied verbatim from the current live
  * source so the Health site renders EXACTLY as before. Provenance per field:
@@ -18,14 +18,14 @@ import type { Vertical } from "./types";
  */
 export const health: Vertical = {
   key: "health",
-  // Phase B rebrand: the Health vertical now lives on health.vivahale.com and
-  // brands as "Vivahale Health" (was bare "Vivahale" on the apex). tagline /
+  // Phase B rebrand: the Health vertical now lives on health.readfirsthand.com and
+  // brands as "Firsthand Health" (was bare "Firsthand" on the apex). tagline /
   // description keep the same health-focused copy.
-  name: "Vivahale Health",
-  host: "health.vivahale.com",
+  name: "Firsthand Health",
+  host: "readfirsthand.com",
   tagline: "Independent Health & Wellness Reviews",
   description:
-    "Vivahale is an independent health & wellness review site. We analyze clinical research to rank supplements, telehealth providers, and health products — clearly and without hype.",
+    "Firsthand is an independent health & wellness review site. We analyze clinical research to rank supplements, telehealth providers, and health products — clearly and without hype.",
 
   // Brand color tokens copied from globals.css (@theme --color-brand-*).
   theme: {
@@ -126,12 +126,12 @@ export const health: Vertical = {
 
   // Intro paragraph copied from /methodology page.
   methodologyIntro:
-    "Most review sites keep their scoring rules vague, which makes it impossible to tell an honest recommendation from a paid one. We take the opposite approach: the exact criteria and weights behind every Vivahale ranking are published on this page, and they apply to every product in a category — whether or not we have any financial relationship with its maker.",
+    "Most review sites keep their scoring rules vague, which makes it impossible to tell an honest recommendation from a paid one. We take the opposite approach: the exact criteria and weights behind every Firsthand ranking are published on this page, and they apply to every product in a category — whether or not we have any financial relationship with its maker.",
 
   // Affiliate disclosure copied from AffiliateDisclosure.tsx (banner body).
   disclosureLabel: "Affiliate disclosure",
   disclosureBody:
-    "Vivahale is reader-supported. We earn a commission if you buy through links on this page — at no extra cost to you. Commissions never influence our rankings.",
+    "Firsthand is reader-supported. We earn a commission if you buy through links on this page — at no extra cost to you. Commissions never influence our rankings.",
 
   // Medical disclaimer copied from MedicalDisclaimer.tsx.
   contentDisclaimer:
@@ -152,19 +152,19 @@ export const health: Vertical = {
   // Footer copyright clause — VERBATIM from the previous Footer.tsx literal so
   // health output stays byte-identical.
   footerDisclaimer:
-    "Vivahale content is for informational purposes only and is not medical advice.",
+    "Firsthand content is for informational purposes only and is not medical advice.",
 
   // /methodology meta description — VERBATIM from the previous page metadata.
   methodologyMetaDescription:
-    "The published methodology behind every Vivahale ranking: Safety, Evidence Quality, Cost & Value, Transparency, and Customer Support — with fixed weights that affiliate partnerships never change.",
+    "The published methodology behind every Firsthand ranking: Safety, Evidence Quality, Cost & Value, Transparency, and Customer Support — with fixed weights that affiliate partnerships never change.",
 
   // Newsletter copy — VERBATIM from NewsletterBand.tsx / ArticleNewsletterCta.tsx.
   newsletter: {
-    brandName: "The Vivahale Brief",
+    brandName: "The Firsthand Brief",
     bandBlurb:
       "One weekly email: what the newest health research actually says, and which products hold up. No hype, no spam.",
     ctaHeading: "Get evidence-based health picks in your inbox — no hype.",
-    ctaBlurb: "Join The Vivahale Brief for a weekly, research-first read.",
+    ctaBlurb: "Join The Firsthand Brief for a weekly, research-first read.",
   },
 
   // Homepage static content — VERBATIM from the previous page.tsx literals so
@@ -172,8 +172,8 @@ export const health: Vertical = {
   homepage: {
     heroFallbackTitle: "Health decisions deserve better evidence.",
     heroFallbackBody:
-      "Vivahale analyzes clinical research to rank supplements, telehealth providers, and health products — clearly and without hype.",
-    trustHeading: "Why trust Vivahale",
+      "Firsthand analyzes clinical research to rank supplements, telehealth providers, and health products — clearly and without hype.",
+    trustHeading: "Why trust Firsthand",
     trustPoints: [
       "Rankings built from published clinical research, not sponsorships.",
       "Clear methodology on every comparison page.",
@@ -209,14 +209,14 @@ export const health: Vertical = {
         category: "Nutrition & Supplements",
         excerpt:
           "Placeholder — a deep dive into the trial data behind magnesium's sleep claims arrives in a later step.",
-        byline: "Vivahale Staff",
+        byline: "Firsthand Staff",
       },
       {
         title: "OTC Hearing Aids in 2026: What Changed and Who Benefits",
         category: "Hearing",
         excerpt:
           "Placeholder — our guide to the post-regulation OTC hearing-aid market arrives in a later step.",
-        byline: "Vivahale Staff",
+        byline: "Firsthand Staff",
       },
     ],
     browseAllHref: "/category/health-news",

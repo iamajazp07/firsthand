@@ -9,9 +9,12 @@ import type { Author } from "@/lib/types";
 export default function AuthorByline({
   author,
   className = "",
+  verticalKey,
 }: {
   author: Author;
   className?: string;
+  /** Which vertical this renders inside — links and config come from it. */
+  verticalKey: string;
 }) {
   return (
     <div className={`flex items-center gap-2 ${className}`}>
@@ -19,7 +22,7 @@ export default function AuthorByline({
       <span className="text-sm text-brand-ink/80">
         By{" "}
         <Link
-          href={`/authors/${author.slug}`}
+          href={`/${verticalKey}/authors/${author.slug}`}
           className="font-semibold text-brand-navy hover:text-brand-blue hover:underline"
         >
           {author.name}

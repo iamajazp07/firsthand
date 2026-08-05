@@ -3,7 +3,7 @@
     "id": "cat-travel-insurance",
     "slug": "travel-insurance",
     "name": "Travel Insurance",
-    "description": "Evidence-first coverage of travel insurance providers — plan structures, Cancel For Any Reason terms, review periods, and assistance services read from each insurer's official plan documents and policy wording, not from claims experience or customer surveys. Vivahale is not an insurance agency or broker; benefits and availability vary by state.",
+    "description": "Evidence-first coverage of travel insurance providers — plan structures, Cancel For Any Reason terms, review periods, and assistance services read from each insurer's official plan documents and policy wording, not from claims experience or customer surveys. Firsthand is not an insurance agency or broker; benefits and availability vary by state.",
     "sort_order": 1
   },
   {
@@ -31,7 +31,7 @@
     "id": "cat-travel-cards",
     "slug": "travel-cards",
     "name": "Travel Cards",
-    "description": "Travel credit cards and their published rewards, fees, and protections. For full card-by-card analysis, see Vivahale Money — our personal-finance vertical — which covers fees, rates, and terms from official card agreements.",
+    "description": "Travel credit cards and their published rewards, fees, and protections. For full card-by-card analysis, see Firsthand Money — our personal-finance vertical — which covers fees, rates, and terms from official card agreements.",
     "sort_order": 5
   },
   {

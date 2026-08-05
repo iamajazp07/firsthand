@@ -1,6 +1,6 @@
 # Multi-vertical architecture
 
-Vivahale runs multiple verticals (health, and later money/tech/…) from one
+Firsthand runs multiple verticals (health, and later money/tech/…) from one
 codebase. The active vertical is chosen by `NEXT_PUBLIC_VERTICAL` (default
 `health`) and resolved through `src/lib/verticals/` (`getActiveVertical()`).
 
@@ -47,45 +47,45 @@ each CI run is stateless and only the committed per-vertical seeds render.
 
 ## Phase B verification (2026-07-12)
 
-Phase B rebrands Health onto **health.vivahale.com** and adds the
-**vivahale.com** brand portal. All checks passed on the first run — Health
+Phase B rebrands Health onto **health.readfirsthand.com** and adds the
+**readfirsthand.com** brand portal. All checks passed on the first run — Health
 renders identically to Phase A apart from the intended host/name rebrand.
 
 ### What changed
-- **Health rebrand:** `verticals/health.ts` `name` → `Vivahale Health`
-  (host `health.vivahale.com`; tagline/description unchanged).
+- **Health rebrand:** `verticals/health.ts` `name` → `Firsthand Health`
+  (host `health.readfirsthand.com`; tagline/description unchanged).
 - **`site.ts`:** `SITE_URL` is vertical-aware — `NEXT_PUBLIC_SITE_URL` if set,
-  else `https://${getActiveVertical().host}` (health → `https://health.vivahale.com`,
-  portal → `https://vivahale.com`); trailing slash stripped; name/shape kept.
+  else `https://${getActiveVertical().host}` (health → `https://health.readfirsthand.com`,
+  portal → `https://readfirsthand.com`); trailing slash stripped; name/shape kept.
   Added `SITE_TAGLINE` and `IS_PORTAL` helpers.
 - **`social.ts`:** script-safe `SITE_URL` (env only, no `@/lib/*` import) —
   `NEXT_PUBLIC_SITE_URL` else derived from `NEXT_PUBLIC_VERTICAL` (default
-  `health`) as `https://<vertical>.vivahale.com` (portal → apex).
+  `health`) as `https://<vertical>.readfirsthand.com` (portal → apex).
 - **Portal:** `verticals/portal.ts` (minimal non-content registry entry),
   `src/app/portal/page.tsx` (hero + card grid driven off `contentVerticals()`),
   `proxy.ts` rewrites apex-host `/` → `/portal` (admin gate untouched, applied
   first), `sitemap.ts`/`seeds.ts` handle portal mode, `Footer`/`Logo` adapt.
 
 ### Rebrand proof (health mode, `next start`, no env)
-- `<title>` = `Vivahale Health — …`; `/` and `/reviews/*` canonical + `og:url`
-  = `https://health.vivahale.com/…`; review JSON-LD `@id`/`url` + `og:image`
+- `<title>` = `Firsthand Health — …`; `/` and `/reviews/*` canonical + `og:url`
+  = `https://health.readfirsthand.com/…`; review JSON-LD `@id`/`url` + `og:image`
   (`/api/og`) on the health host.
-- `/sitemap.xml`: every `<loc>` on `health.vivahale.com`; `/feed.xml` item
-  links on the health host; `/robots.txt` → `Sitemap: https://health.vivahale.com/sitemap.xml`.
-- `social.ts` standalone via `tsx` → `SITE_URL = https://health.vivahale.com`.
+- `/sitemap.xml`: every `<loc>` on `health.readfirsthand.com`; `/feed.xml` item
+  links on the health host; `/robots.txt` → `Sitemap: https://health.readfirsthand.com/sitemap.xml`.
+- `social.ts` standalone via `tsx` → `SITE_URL = https://health.readfirsthand.com`.
 
 ### Portal proof
-- Host-based: `curl -H 'Host: vivahale.com' /` → portal (hero + Health card
-  linking to `https://health.vivahale.com`), canonical `https://vivahale.com`;
-  `curl -H 'Host: health.vivahale.com' /` still the Health homepage.
+- Host-based: `curl -H 'Host: readfirsthand.com' /` → portal (hero + Health card
+  linking to `https://health.readfirsthand.com`), canonical `https://readfirsthand.com`;
+  `curl -H 'Host: health.readfirsthand.com' /` still the Health homepage.
 - `NEXT_PUBLIC_VERTICAL=portal` build/dev: `/` renders the portal, canonical
-  `https://vivahale.com`, `/sitemap.xml` emits ONLY `https://vivahale.com`,
+  `https://readfirsthand.com`, `/sitemap.xml` emits ONLY `https://readfirsthand.com`,
   `/robots.txt` references the portal sitemap — no health URLs leak.
 
 ### Admin gate (unchanged)
 - Prod + no `ADMIN_PASSWORD` → `/admin`, `/admin/social` = **403**; `/admin/login` = 200.
 - Prod + `ADMIN_PASSWORD` set → `/admin` = **307 → /admin/login** on the default
-  host AND with `Host: vivahale.com` (apex host does not bypass the gate).
+  host AND with `Host: readfirsthand.com` (apex host does not bypass the gate).
 - Dev + no password → `/admin` = **200** dev-open. Env unset afterward.
 
 ### Type + build
@@ -94,12 +94,12 @@ renders identically to Phase A apart from the intended host/name rebrand.
   `ƒ Proxy (Middleware)` present.
 
 ### Checkpoint commit
-- `8840d70` — *Phase B: health.vivahale.com rebrand + vivahale.com brand portal*.
+- `8840d70` — *Phase B: health.readfirsthand.com rebrand + readfirsthand.com brand portal*.
   Nothing pushed.
 
 ## Phase C verification (2026-07-12)
 
-Phase C builds the **Money vertical** (`money.vivahale.com`) end to end: an
+Phase C builds the **Money vertical** (`money.readfirsthand.com`) end to end: an
 evidence-first personal-finance publisher sharing the one codebase. YMYL content,
 so every disputable number cites a primary source with an "as of 2026-07-12"
 qualifier, and every product review carries at least one genuine con. Health
@@ -107,18 +107,18 @@ renders identically to Phase B.
 
 ### What changed (grouped)
 - **Config:** `src/lib/verticals/money.ts` (new) — key `money`, name
-  `Vivahale Money`, host `money.vivahale.com`; 5 criteria **Fees 25 / Value &
+  `Firsthand Money`, host `money.readfirsthand.com`; 5 criteria **Fees 25 / Value &
   Returns 25 / Transparency 20 / Security & Trust 15 / Support 15**; money
   `methodologyIntro`; `disclosureLabel: "Advertiser Disclosure"` +
   advertiser-compensation `disclosureBody`; not-financial-advice
   `contentDisclaimer` (`contentDisclaimerLabel: "Financial disclaimer"`); shared
-  Vivahale palette read from config; no `extras`/quiz. Registered in
-  `verticals/index.ts` (`resolveVerticalFromHost` maps `money.vivahale.com` **and**
+  Firsthand palette read from config; no `extras`/quiz. Registered in
+  `verticals/index.ts` (`resolveVerticalFromHost` maps `money.readfirsthand.com` **and**
   `money.localhost` → `money`, port-stripped).
 - **Data:** `src/data/money/` — `categories.json` (7 sections),
   `authors.json` (one honest "Consumer Finance Analyst" byline, explicitly NOT a
-  CFP/CFA/advisor), `reviewers.json` ("Vivahale Editorial Team", `Editorial`,
-  `is_placeholder:false`, states Vivahale employs no licensed financial advisor),
+  CFP/CFA/advisor), `reviewers.json` ("Firsthand Editorial Team", `Editorial`,
+  `is_placeholder:false`, states Firsthand employs no licensed financial advisor),
   `products.json` (10 reviews), `hubs.json` (2), `articles.json` (3),
   empty-valid `news-feeds.json`/`topics.json`. Registered in `src/lib/seeds.ts`.
 - **Components/pages (config-driven, health byte-identical):**
@@ -165,7 +165,7 @@ contradicted figures**.
      Premium $10/mo or $80/yr. src: goodbudget.com/plans-pricing. *(not monetized)*
 
   Monetized items set `is_monetized:true` + `affiliate_url:
-  "VIVAHALE_AFFILIATE_PLACEHOLDER"`; each hub renders the Advertiser Disclosure
+  "FIRSTHAND_AFFILIATE_PLACEHOLDER"`; each hub renders the Advertiser Disclosure
   and states its weighted methodology.
 
 ### Editorial articles (`src/data/money/articles.json`, honest author + editorial reviewer)
@@ -187,26 +187,26 @@ so they are correctly absent from the crawl/sitemap here — parity with Health.
 - `/methodology` renders the money criteria **Fees 25% / Value & Returns 25% /
   Transparency 20% / Security & Trust 15% / Customer Support 15%** with the money
   intro and money prose.
-- `/sitemap.xml` → **29 `<loc>`s, all on `https://money.vivahale.com`**, no quiz,
+- `/sitemap.xml` → **29 `<loc>`s, all on `https://money.readfirsthand.com`**, no quiz,
   no health URLs. `/robots.txt` + `/feed.xml` use the money host. Review
-  canonical/`og:url`/`og:title` on the money host and say "Vivahale Money".
+  canonical/`og:url`/`og:title` on the money host and say "Firsthand Money".
 - **Tool gating:** `/quiz/sleep` → **404** in money mode, absent from nav and
   sitemap (Health keeps it working: 200).
 
 ### Health parity spot-check (`next start`, health build, no env)
 `/`, `/methodology`, `/quiz/sleep`, `/best/best-sleep-supplements`,
 `/reviews/nature-made-melatonin-3mg`, `/sitemap.xml` all **200**, titled
-**"Vivahale Health"**; methodology **30/30/20/10/10**; monetized review shows the
+**"Firsthand Health"**; methodology **30/30/20/10/10**; monetized review shows the
 **Affiliate disclosure** label + **Medical disclaimer**; sitemap/robots on
-`health.vivahale.com`. `/quiz/sleep` still 200. Byte-identical to Phase B.
+`health.readfirsthand.com`. `/quiz/sleep` still 200. Byte-identical to Phase B.
 
 ### Host routing (documented behavior)
 `resolveVerticalFromHost` (used by `src/proxy.ts`) maps
-`money.vivahale.com`/`money.localhost` → `money`, `health.vivahale.com` → `health`,
+`money.readfirsthand.com`/`money.localhost` → `money`, `health.readfirsthand.com` → `health`,
 apex → `portal`, unknown → `null`. The proxy forwards the active vertical as the
-`x-vivahale-vertical` **request** header to server components. **Page CONTENT is
+`x-firsthand-vertical` **request** header to server components. **Page CONTENT is
 chosen by `NEXT_PUBLIC_VERTICAL` at build time**, so serving the Money site on
-`money.vivahale.com` requires a **per-vertical build/deployment**
+`money.readfirsthand.com` requires a **per-vertical build/deployment**
 (`NEXT_PUBLIC_VERTICAL=money npm run build`) behind that host — a single build
 cannot serve two verticals' content by Host header alone. The proxy header is for
 request-scoped resolution/routing (e.g. the apex `/`→`/portal` rewrite), not for
@@ -226,7 +226,7 @@ vertical money). `data/social.local.json` restored (SHA
 
 ### Script safety
 `npx tsx` loads `src/lib/social.ts` standalone; with `NEXT_PUBLIC_VERTICAL=money`
-it resolves `SITE_URL = https://money.vivahale.com` (default → health host).
+it resolves `SITE_URL = https://money.readfirsthand.com` (default → health host).
 
 ### Type + build
 - `npx tsc --noEmit` → **exit 0, 0 errors.**
@@ -245,14 +245,14 @@ American Express, Discover, YNAB, Monarch, Copilot, Empower, Goodbudget
 no fabricated experts, statistics, testimonials, rates, or fees.
 
 ### Checkpoint commit
-- `bab34e9` — *Phase C: Money vertical (money.vivahale.com)*. Nothing pushed.
+- `bab34e9` — *Phase C: Money vertical (money.readfirsthand.com)*. Nothing pushed.
 
 ## Phase D verification (2026-07-12)
 
-Phase D builds the **Tech vertical** (`tech.vivahale.com`) end to end: an
+Phase D builds the **Tech vertical** (`tech.readfirsthand.com`) end to end: an
 evidence-first technology product & software publisher on the shared codebase,
 plus the config-driven `NEWS_CATEGORIES` cleanup carried from Phase C. Critical
-honesty constraint: **Vivahale does not run a hardware/audio/security lab.**
+honesty constraint: **Firsthand does not run a hardware/audio/security lab.**
 Every rating is derived from analysis of primary documentation (manufacturer
 spec sheets, official pricing pages, published security-audit/certification
 reports, FCC filings, standards-body publications) — NOT independent lab
@@ -261,15 +261,15 @@ testing. Every disputable number cites a primary source with an "as of
 Health and Money render identically to Phase C.
 
 ### What changed (grouped)
-- **Config:** `src/lib/verticals/tech.ts` (new) — key `tech`, name `Vivahale
-  Tech`, host `tech.vivahale.com`; 5 criteria **Performance 30 / Value 25 /
+- **Config:** `src/lib/verticals/tech.ts` (new) — key `tech`, name `Firsthand
+  Tech`, host `tech.readfirsthand.com`; 5 criteria **Performance 30 / Value 25 /
   Reliability & Security 20 / Ease of Use 15 / Support 10**; tech
   `methodologyIntro` with an explicit no-lab-testing statement; `disclosureLabel:
   "Affiliate Disclosure"` + health-style affiliate `disclosureBody`; general
   editorial `contentDisclaimer` (`contentDisclaimerLabel: "Editorial
-  disclaimer"`); shared Vivahale palette read from config; no `extras`/quiz.
+  disclaimer"`); shared Firsthand palette read from config; no `extras`/quiz.
   Registered in `verticals/index.ts` (`resolveVerticalFromHost` maps
-  `tech.vivahale.com` **and** `tech.localhost` → `tech`, port-stripped).
+  `tech.readfirsthand.com` **and** `tech.localhost` → `tech`, port-stripped).
 - **Config-driven cleanup (Phase C carry-over):** `src/app/category/[slug]/page.tsx`
   now reads `getActiveVertical().newsCategorySlugs ?? []` instead of the hardcoded
   `NEWS_CATEGORIES` set. `Vertical.newsCategorySlugs?: string[]` added to
@@ -279,7 +279,7 @@ Health and Money render identically to Phase C.
 - **Data:** `src/data/tech/` — `categories.json` (8 sections),
   `authors.json` (one honest "Technology Research Analyst" byline, explicitly a
   documentation-analysis role, NOT a lab tester/engineer), `reviewers.json`
-  ("Vivahale Editorial Team", `Editorial`, `is_placeholder:false`, states Vivahale
+  ("Firsthand Editorial Team", `Editorial`, `is_placeholder:false`, states Firsthand
   does not conduct independent lab testing), `products.json` (10 reviews),
   `hubs.json` (2), `articles.json` (3), empty-valid `news-feeds.json`/`topics.json`.
   Registered in `src/lib/seeds.ts`.
@@ -338,7 +338,7 @@ IP rating. **0 fabricated experts, benchmarks, statistics, or testimonials.**
      charger included. src: bose.com official product page. *(monetized)*
 
   Monetized items set `is_monetized:true` + `affiliate_url:
-  "VIVAHALE_AFFILIATE_PLACEHOLDER"`; both hubs render the Affiliate Disclosure
+  "FIRSTHAND_AFFILIATE_PLACEHOLDER"`; both hubs render the Affiliate Disclosure
   and state the weighted, no-lab-testing methodology. No candidate had to be
   swapped or dropped — all 10 verified from primary sources.
 
@@ -363,18 +363,18 @@ correctly absent from the crawl/sitemap.
   Reliability & Security 20% / Ease of Use 15% / Support 10%** with the tech
   intro and an explicit no-lab-testing disclosure ("does NOT operate a hardware
   or audio lab", "we do not run independent benchmarks").
-- `/sitemap.xml` → **30 `<loc>`s, all on `https://tech.vivahale.com`**, no quiz,
+- `/sitemap.xml` → **30 `<loc>`s, all on `https://tech.readfirsthand.com`**, no quiz,
   no health/money URLs. `/robots.txt` + `/feed.xml` use the tech host. Review
-  canonical/`og:url`/`og:title` on the tech host and say "Vivahale Tech".
+  canonical/`og:url`/`og:title` on the tech host and say "Firsthand Tech".
 - **Tool gating:** `/quiz/sleep` → **404** in tech mode, absent from nav and
   sitemap (Health keeps it working: 200).
 
 ### Health parity + NEWS_CATEGORIES refactor proof (health build, `next start`, no env)
 `/`, `/methodology`, `/quiz/sleep` (200), `/best/best-sleep-supplements`,
 `/reviews/nature-made-melatonin-3mg`, `/category/health-news`,
-`/category/health-tech-ai`, `/sitemap.xml` all **200**, titled **"Vivahale
+`/category/health-tech-ai`, `/sitemap.xml` all **200**, titled **"Firsthand
 Health"**; methodology **30/30/20/10/10**; monetized review shows Affiliate +
-**Medical disclaimer**; sitemap on `health.vivahale.com`. **Refactor proof:**
+**Medical disclaimer**; sitemap on `health.readfirsthand.com`. **Refactor proof:**
 captured `/category/health-news`, `/category/health-tech-ai` (news-list layout),
 `/category/sleep` (card grid), and `/methodology`, then reverted the tracked
 Phase D files to HEAD (`git stash`), rebuilt, and diffed — **rendered content
@@ -382,8 +382,8 @@ BYTE-IDENTICAL** in all four (only volatile Turbopack chunk hashes differed).
 
 ### Money parity spot-check (`NEXT_PUBLIC_VERTICAL=money` build, `next start`)
 `/`, `/methodology`, `/best/best-high-yield-savings-accounts`, `/sitemap.xml`
-all **200**, titled **"Vivahale Money"**; methodology **25/25/20/15/15**; hub
-renders the **Advertiser Disclosure**; sitemap 100% on `money.vivahale.com`;
+all **200**, titled **"Firsthand Money"**; methodology **25/25/20/15/15**; hub
+renders the **Advertiser Disclosure**; sitemap 100% on `money.readfirsthand.com`;
 `/quiz/sleep` → 404.
 
 ### Compliance gate (tech mode; local stores backed up + restored byte-identically)
@@ -402,7 +402,7 @@ boundary untouched.
 
 ### Script safety
 `npx tsx` loads `src/lib/social.ts` standalone; with `NEXT_PUBLIC_VERTICAL=tech`
-it resolves `SITE_URL = https://tech.vivahale.com` (default → health host).
+it resolves `SITE_URL = https://tech.readfirsthand.com` (default → health host).
 
 ### Type + build
 - `npx tsc --noEmit` → **exit 0, 0 errors.**
@@ -424,14 +424,14 @@ No blogs or aggregators used for product facts; no fabricated experts,
 benchmarks, statistics, test results, or testimonials.
 
 ### Checkpoint commit
-- `d7038e8` — *Phase D: Tech vertical (tech.vivahale.com)*. Nothing pushed.
+- `d7038e8` — *Phase D: Tech vertical (tech.readfirsthand.com)*. Nothing pushed.
 
 ## Phase E verification (2026-07-12)
 
-Phase E builds the **Education vertical** (`education.vivahale.com`) end to end:
+Phase E builds the **Education vertical** (`education.readfirsthand.com`) end to end:
 an evidence-first publisher reviewing learning programs and education tools on
 the shared codebase. Education overlaps YMYL (career and financial outcomes), so
-the honesty bar is high. **Critical honesty constraint: Vivahale does NOT
+the honesty bar is high. **Critical honesty constraint: Firsthand does NOT
 independently audit schools or programs and does NOT conduct student surveys.**
 Every rating is derived from analysis of officially published data — accreditor
 databases and the U.S. Department of Education's DAPIP, College Scorecard, the
@@ -444,21 +444,21 @@ Tech render identically to Phase D.
 
 ### What changed (grouped)
 - **Config:** `src/lib/verticals/education.ts` (new) — key `education`, name
-  `Vivahale Education`, host `education.vivahale.com`; 5 criteria **Outcomes 30 /
+  `Firsthand Education`, host `education.readfirsthand.com`; 5 criteria **Outcomes 30 /
   Cost & Value 25 / Academics 20 / Support Services 15 / Flexibility 10**;
   education `methodologyIntro` with an explicit no-independent-audit / no-student-
   survey statement; `disclosureLabel: "Affiliate Disclosure"` + house-style
   affiliate `disclosureBody` ("commission if you enroll or subscribe");
   not-academic/career/financial-advice `contentDisclaimer`
-  (`contentDisclaimerLabel: "Education disclaimer"`); shared Vivahale palette read
+  (`contentDisclaimerLabel: "Education disclaimer"`); shared Firsthand palette read
   from config; no `extras`/quiz; `newsCategorySlugs: ["education-news"]`.
   Registered in `verticals/index.ts` (host resolution is generic, so
-  `education.vivahale.com` **and** `education.localhost` → `education`).
+  `education.readfirsthand.com` **and** `education.localhost` → `education`).
 - **Data:** `src/data/education/` — `categories.json` (8 sections),
   `authors.json` (one honest "Education Research Analyst" byline, explicitly a
   research/data-analysis role, NOT an academic advisor, admissions counselor, or
-  licensed counselor), `reviewers.json` ("Vivahale Editorial Team", `Editorial`,
-  `is_placeholder:false`, states Vivahale does not audit programs or survey
+  licensed counselor), `reviewers.json` ("Firsthand Editorial Team", `Editorial`,
+  `is_placeholder:false`, states Firsthand does not audit programs or survey
   students), `products.json` (11 reviews), `hubs.json` (2), `articles.json` (3),
   empty-valid `news-feeds.json`/`topics.json`. Registered in `src/lib/seeds.ts`.
 - **Components/pages (config-driven, health byte-identical):** `methodology/page.tsx`
@@ -519,7 +519,7 @@ verified from primary/official sources; none had to be dropped.
      automated, not human. src: rosettastone.com/buy. *(monetized)*
 
   Monetized items set `is_monetized:true` + `affiliate_url:
-  "VIVAHALE_AFFILIATE_PLACEHOLDER"`; both hubs render the Affiliate Disclosure and
+  "FIRSTHAND_AFFILIATE_PLACEHOLDER"`; both hubs render the Affiliate Disclosure and
   state the weighted, no-audit/no-survey methodology. **Self-reported outcomes:**
   none were used as ratings — where numbers could not be verified from a primary
   source (e.g. promotion-sensitive prices, region-specific figures) they are
@@ -551,27 +551,27 @@ so they are correctly absent from the crawl/sitemap.
   conduct student surveys"), plus a self-reported-labeling section. The content
   **Education disclaimer** renders instead of the medical/financial one (no
   medical/financial disclaimer leaks).
-- `/sitemap.xml` → **31 `<loc>`s, all on `https://education.vivahale.com`**, no
+- `/sitemap.xml` → **31 `<loc>`s, all on `https://education.readfirsthand.com`**, no
   quiz, no health/money/tech URLs. `/robots.txt` + `/feed.xml` use the education
-  host. Review canonical/`og:title` on the education host and say "Vivahale
+  host. Review canonical/`og:title` on the education host and say "Firsthand
   Education".
 - **Tool gating:** `/quiz/sleep` → **404** in education mode, absent from nav and
   sitemap (Health keeps it working: 200).
-- **Portal:** `/portal` and the apex-host rewrite (`Host: vivahale.com`) now show
+- **Portal:** `/portal` and the apex-host rewrite (`Host: readfirsthand.com`) now show
   **all four** cards — Health, Money, Tech, **Education** — automatically from the
-  registry; the Education card links to `https://education.vivahale.com`.
+  registry; the Education card links to `https://education.readfirsthand.com`.
 
 ### Health / Money / Tech parity spot-checks
 - **Health** (default build): `/`, `/methodology`, `/quiz/sleep` (200),
   `/best/best-sleep-supplements`, `/reviews/nature-made-melatonin-3mg`,
-  `/sitemap.xml` all **200**, title **"Vivahale Health"**; methodology
+  `/sitemap.xml` all **200**, title **"Firsthand Health"**; methodology
   **30/30/20/10/10**; monetized review shows the **Medical disclaimer**; sitemap
-  on `health.vivahale.com`.
+  on `health.readfirsthand.com`.
 - **Money** (`NEXT_PUBLIC_VERTICAL=money`): `/methodology` **25/25/20/15/15**; hub
-  renders the **Advertiser Disclosure**; sitemap on `money.vivahale.com`.
+  renders the **Advertiser Disclosure**; sitemap on `money.readfirsthand.com`.
 - **Tech** (`NEXT_PUBLIC_VERTICAL=tech`): `/methodology` **30/25/20/15/10** with
   the **no-lab-testing** intro ("do not run independent benchmarks"); hub 200;
-  sitemap on `tech.vivahale.com`.
+  sitemap on `tech.readfirsthand.com`.
 
 ### Compliance gate (education mode; local stores backed up + restored byte-identically)
 Backed up `data/social.local.json` (SHA `4cbdbbe5…`, 13 rows). Fresh test:
@@ -590,7 +590,7 @@ boundary untouched.
 ### Script safety
 `npx tsx` loads `src/lib/social.ts` standalone; with
 `NEXT_PUBLIC_VERTICAL=education` it resolves `SITE_URL =
-https://education.vivahale.com` (default → `https://health.vivahale.com`).
+https://education.readfirsthand.com` (default → `https://health.readfirsthand.com`).
 
 ### Type + build (all four content modes)
 - `npx tsc --noEmit` → **exit 0, 0 errors.**
@@ -613,15 +613,15 @@ No blogs or aggregators used as the source of record; no fabricated experts,
 outcome statistics, salary figures, acceptance/graduation rates, or testimonials.
 
 ### Checkpoint commit
-- `ced03b9` — *Phase E: Education vertical (education.vivahale.com)*.
+- `ced03b9` — *Phase E: Education vertical (education.readfirsthand.com)*.
   Nothing pushed.
 
 ## Phase F verification (2026-07-18)
 
-Phase F builds the **Travel vertical** (`travel.vivahale.com`) end to end: an
+Phase F builds the **Travel vertical** (`travel.readfirsthand.com`) end to end: an
 evidence-first publisher reviewing travel services and gear on the shared
 codebase. Travel insurance is YMYL-adjacent (financial protection), so the
-honesty bar is high. **Critical honesty constraints: Vivahale does NOT take
+honesty bar is high. **Critical honesty constraints: Firsthand does NOT take
 press trips, stay in hotels for review, file insurance claims, lab-test gear,
 or survey travelers — and it is NOT an insurance agency, broker, or producer.**
 Every rating is derived from analysis of officially published documentation —
@@ -645,22 +645,22 @@ policy terms are travel's most consequential, most verifiable dimension.
 
 ### What changed (grouped)
 - **Config:** `src/lib/verticals/travel.ts` (new) — key `travel`, name
-  `Vivahale Travel`, host `travel.vivahale.com`; the 5 criteria above; travel
+  `Firsthand Travel`, host `travel.readfirsthand.com`; the 5 criteria above; travel
   `methodologyIntro` with explicit no-press-trips / no-claims / no-lab-tests /
   no-surveys / not-an-insurance-broker statements; `disclosureLabel:
   "Affiliate Disclosure"` (per spec) + house-style `disclosureBody`;
   not-travel/insurance/financial/legal-advice `contentDisclaimer`
-  (`contentDisclaimerLabel: "Travel disclaimer"`); shared Vivahale palette; no
+  (`contentDisclaimerLabel: "Travel disclaimer"`); shared Firsthand palette; no
   `extras`/quiz; `newsCategorySlugs: ["travel-news"]`. Registered in
-  `verticals/index.ts` (host resolution generic: `travel.vivahale.com` and
+  `verticals/index.ts` (host resolution generic: `travel.readfirsthand.com` and
   `travel.localhost` → `travel`; portal card grid picks Travel up
   automatically).
 - **Data:** `src/data/travel/` — `categories.json` (8 sections: Travel
   Insurance, Travel Gear, Flights & Airlines, Hotels & Lodging, Travel Cards
-  [description cross-links Vivahale Money per spec], Cruises, Destinations,
+  [description cross-links Firsthand Money per spec], Cruises, Destinations,
   Travel News), `authors.json` (one honest "Travel Research Analyst" byline,
   explicitly NOT a travel agent, insurance agent, broker, or licensed advisor),
-  `reviewers.json` ("Vivahale Editorial Team", `Editorial`,
+  `reviewers.json` ("Firsthand Editorial Team", `Editorial`,
   `is_placeholder:false`), `products.json` (9 reviews), `hubs.json` (2),
   `articles.json` (3), empty-valid `news-feeds.json`/`topics.json`. Registered
   in `src/lib/seeds.ts`.
@@ -775,7 +775,7 @@ one was **dropped for verification failure** (below).
   red-flag con; weighted criterion math reproduces every `rating_overall`
   (round-half-up, one decimal).
 - `Affiliate Disclosure` renders above the fold on hubs and reviews;
-  `VIVAHALE_AFFILIATE_PLACEHOLDER` used on 7 monetized items (Travel Guard and
+  `FIRSTHAND_AFFILIATE_PLACEHOLDER` used on 7 monetized items (Travel Guard and
   Briggs & Riley deliberately non-monetized so both rankings contain
   no-commission entries, and both hub FAQs say so).
 - `/quiz/sleep` correctly 404s under travel (health-only tool gating).
@@ -793,7 +793,7 @@ one was **dropped for verification failure** (below).
   original methodology copy (Safety 30% / Evidence Quality), `/quiz/sleep`, and
   review spokes all render unchanged.
 - `NEXT_PUBLIC_VERTICAL=portal npm run build` → **succeeds**; the portal card
-  grid now lists **Vivahale Travel → travel.vivahale.com** automatically via
+  grid now lists **Firsthand Travel → travel.readfirsthand.com** automatically via
   `contentVerticals()` (no portal code change needed).
 
 ### Authoritative sources cited (Travel)
@@ -808,5 +808,5 @@ aggregators, or review sites used as the source of record; no invented
 premiums, coverage limits, specs, or testimonials; no fabricated experts.
 
 ### Checkpoint commit
-- `1acb2bc` — *Phase F: Travel vertical (travel.vivahale.com)*. Pushed to
+- `1acb2bc` — *Phase F: Travel vertical (travel.readfirsthand.com)*. Pushed to
   origin/main (phases A–E were pushed the same day; the remote is current).

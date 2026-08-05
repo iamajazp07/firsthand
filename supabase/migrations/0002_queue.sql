@@ -1,4 +1,4 @@
--- Vivahale — admin content QUEUE (step 6)
+-- Firsthand — admin content QUEUE (step 6)
 -- Draft/review pipeline, kept SEPARATE from the live seeded content tables.
 -- Mirrors the QueueItem type + local JSON store in src/lib/queue.ts. When
 -- Supabase creds are absent, src/lib/queue.ts falls back to

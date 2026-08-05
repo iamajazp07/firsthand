@@ -2,10 +2,18 @@ import type { Metadata } from "next";
 import { Inter, Source_Serif_4 } from "next/font/google";
 import "./globals.css";
 
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import Analytics from "@/components/Analytics";
-import { SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/site";
+import { NETWORK_NAME, SITE_URL } from "@/lib/site";
+
+/**
+ * Root layout — shared document shell for the WHOLE network.
+ *
+ * Header and Footer are no longer rendered here: they are vertical-branded and
+ * now live in `src/app/[vertical]/layout.tsx`, which knows which vertical the
+ * request is for. Root-level pages (portal, about, privacy, terms, contact,
+ * editorial-policy, affiliate-disclosure) render their own chrome via
+ * `PortalChrome`, so nothing is double-wrapped.
+ */
 
 const inter = Inter({
   variable: "--font-inter",
@@ -22,30 +30,17 @@ const sourceSerif = Source_Serif_4({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    template: `${SITE_NAME} — %s`,
-    default: `${SITE_NAME} — ${SITE_TAGLINE}`,
+    template: `${NETWORK_NAME} — %s`,
+    default: `${NETWORK_NAME} — Independent, evidence-first reviews and rankings`,
   },
-  description: SITE_DESCRIPTION,
-  alternates: {
-    canonical: "./",
-    types: {
-      "application/rss+xml": `${SITE_URL}/feed.xml`,
-    },
-  },
+  description:
+    "Firsthand publishes independent, evidence-first reviews and rankings across health, money, tech, education, and travel.",
+  alternates: { canonical: "./" },
   openGraph: {
-    siteName: SITE_NAME,
+    siteName: NETWORK_NAME,
     type: "website",
     url: SITE_URL,
   },
-};
-
-/** Organization JSON-LD for the site (rendered once in the root layout). */
-const organizationJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  name: SITE_NAME,
-  url: SITE_URL,
-  description: SITE_DESCRIPTION,
 };
 
 export default function RootLayout({
@@ -59,16 +54,8 @@ export default function RootLayout({
       className={`${inter.variable} ${sourceSerif.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col bg-white">
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(organizationJsonLd),
-          }}
-        />
         <Analytics />
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
+        {children}
       </body>
     </html>
   );

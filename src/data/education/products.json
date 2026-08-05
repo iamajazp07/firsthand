@@ -5,7 +5,7 @@
     "name": "Coursera",
     "category_slug": "online-learning-platforms",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 8.8,
     "ratings": {
       "outcomes": 9,
@@ -220,7 +220,7 @@
     "name": "LinkedIn Learning",
     "category_slug": "online-learning-platforms",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 7.8,
     "ratings": {
       "outcomes": 8,
@@ -290,7 +290,7 @@
     "name": "Udemy",
     "category_slug": "online-learning-platforms",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 7.3,
     "ratings": {
       "outcomes": 7,
@@ -360,7 +360,7 @@
     "name": "Skillshare",
     "category_slug": "online-learning-platforms",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 6.8,
     "ratings": {
       "outcomes": 6,
@@ -430,7 +430,7 @@
     "name": "Babbel",
     "category_slug": "language-learning",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 7.9,
     "ratings": {
       "outcomes": 8,
@@ -510,7 +510,7 @@
     "name": "Duolingo",
     "category_slug": "language-learning",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 7.6,
     "ratings": {
       "outcomes": 7,
@@ -580,7 +580,7 @@
     "name": "Busuu",
     "category_slug": "language-learning",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 7.5,
     "ratings": {
       "outcomes": 7,
@@ -650,7 +650,7 @@
     "name": "Pimsleur",
     "category_slug": "language-learning",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 6.8,
     "ratings": {
       "outcomes": 7,
@@ -720,7 +720,7 @@
     "name": "Rosetta Stone",
     "category_slug": "language-learning",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 6.3,
     "ratings": {
       "outcomes": 6,

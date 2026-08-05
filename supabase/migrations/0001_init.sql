@@ -1,4 +1,4 @@
--- Vivahale — initial schema
+-- Firsthand — initial schema
 -- Mirrors the TypeScript types in src/lib/types.ts and the local seed JSON
 -- in src/data/ (used as fallback when Supabase credentials are absent).
 

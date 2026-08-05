@@ -6,7 +6,7 @@
  * bundler can inline them — a seed cannot be dynamically imported by a runtime
  * string. So every vertical's seeds are imported statically here and collected
  * into one typed `SEEDS` map keyed by vertical. `db.ts` picks the active set
- * with `getActiveVertical().key`.
+ * with an explicit vertical key.
  *
  * This only affects LOCAL JSON mode. Supabase mode never touches this module.
  *
@@ -48,7 +48,6 @@ import travelArticlesSeed from "@/data/travel/articles.json";
 import travelProductsSeed from "@/data/travel/products.json";
 import travelHubsSeed from "@/data/travel/hubs.json";
 
-import { getActiveVertical } from "@/lib/verticals";
 
 import type {
   Article,
@@ -84,7 +83,7 @@ const SEEDS: Record<string, VerticalSeeds> = {
     products: productsSeed as Product[],
     hubs: hubsSeed as Hub[],
   },
-  // Money vertical (money.vivahale.com) — evidence-first personal-finance
+  // Money vertical (money.readfirsthand.com) — evidence-first personal-finance
   // reviews. Seeds live in src/data/money/; every number cites a primary
   // source with an as-of date.
   money: {
@@ -95,7 +94,7 @@ const SEEDS: Record<string, VerticalSeeds> = {
     products: moneyProductsSeed as Product[],
     hubs: moneyHubsSeed as Hub[],
   },
-  // Tech vertical (tech.vivahale.com) — evidence-first technology and software
+  // Tech vertical (tech.readfirsthand.com) — evidence-first technology and software
   // reviews. Seeds live in src/data/tech/; ratings analyze published specs and
   // official documentation, NOT independent lab testing, and every figure cites
   // a primary source with an as-of date.
@@ -107,7 +106,7 @@ const SEEDS: Record<string, VerticalSeeds> = {
     products: techProductsSeed as Product[],
     hubs: techHubsSeed as Hub[],
   },
-  // Education vertical (education.vivahale.com) — evidence-first reviews of
+  // Education vertical (education.readfirsthand.com) — evidence-first reviews of
   // learning programs and education tools. Seeds live in src/data/education/;
   // ratings analyze officially published data and provider documentation, NOT
   // independent audits of schools or student surveys, and every figure cites a
@@ -120,7 +119,7 @@ const SEEDS: Record<string, VerticalSeeds> = {
     products: educationProductsSeed as Product[],
     hubs: educationHubsSeed as Hub[],
   },
-  // Travel vertical (travel.vivahale.com) — evidence-first reviews of travel
+  // Travel vertical (travel.readfirsthand.com) — evidence-first reviews of travel
   // services and gear. Seeds live in src/data/travel/; ratings analyze official
   // published documentation (DOT rules, policy wording, spec sheets, warranty
   // terms), NOT press trips, claims experience, lab tests, or traveler surveys,
@@ -150,12 +149,11 @@ const SEEDS: Record<string, VerticalSeeds> = {
 };
 
 /**
- * The seed set for the currently active vertical (from NEXT_PUBLIC_VERTICAL).
- * Throws loudly if a vertical is active but has no registered seeds, so a
- * misconfiguration fails fast rather than silently serving an empty site.
+ * The seed set for an EXPLICIT vertical. Used by network-wide consumers (the
+ * sitemap covers all five verticals in one file) that must not depend on
+ * whichever vertical happens to be active for the current request.
  */
-export function getActiveSeeds(): VerticalSeeds {
-  const key = getActiveVertical().key;
+export function getSeedsFor(key: string): VerticalSeeds {
   const seeds = SEEDS[key];
   if (!seeds) {
     throw new Error(
@@ -165,3 +163,4 @@ export function getActiveSeeds(): VerticalSeeds {
   }
   return seeds;
 }
+

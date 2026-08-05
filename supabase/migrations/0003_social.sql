@@ -1,4 +1,4 @@
--- Vivahale — SOCIAL distribution store (step 9)
+-- Firsthand — SOCIAL distribution store (step 9)
 -- Extends the minimal `social_posts` table from 0001_init.sql into the rich,
 -- platform-native shape mirrored by the SocialPost type + local JSON store in
 -- src/lib/social.ts. When Supabase creds are absent, src/lib/social.ts falls

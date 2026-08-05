@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getActiveVertical } from "@/lib/verticals";
+import { getVertical } from "@/lib/verticals";
 
 /**
  * Compact, always-visible monetization disclosure banner for monetized pages.
@@ -14,10 +14,13 @@ import { getActiveVertical } from "@/lib/verticals";
  */
 export default function AffiliateDisclosure({
   className = "",
+  verticalKey,
 }: {
   className?: string;
+  /** Which vertical this renders inside — links and config come from it. */
+  verticalKey: string;
 }) {
-  const { disclosureLabel, disclosureBody } = getActiveVertical();
+  const { disclosureLabel, disclosureBody } = getVertical(verticalKey);
   return (
     <aside
       aria-label={disclosureLabel}

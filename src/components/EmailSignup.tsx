@@ -49,7 +49,7 @@ export default function EmailSignup({
 
       if (res.ok && data.ok) {
         setStatus("success");
-        setMessage("You're subscribed — welcome to Vivahale.");
+        setMessage("You're subscribed — welcome to Firsthand.");
         setEmail("");
       } else {
         setStatus("error");

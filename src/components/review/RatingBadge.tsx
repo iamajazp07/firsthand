@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { CriterionRatings } from "@/lib/types";
-import { getActiveVertical } from "@/lib/verticals";
+import { getVertical } from "@/lib/verticals";
 
 /**
  * Score displays for reviewed products.
@@ -8,14 +8,16 @@ import { getActiveVertical } from "@/lib/verticals";
  * - Default export `RatingBadge`: circular (lg) or pill (sm) overall score,
  *   e.g. "8.6/10", in brand navy.
  * - Named export `RatingBreakdown`: the per-criterion variant — lists the
- *   ACTIVE vertical's methodology criteria (from `getActiveVertical().criteria`)
+ *   ACTIVE vertical's methodology criteria (from `getVertical(verticalKey).criteria`)
  *   with weight labels and bar indicators, linking to /methodology. This is a
  *   server component, so it reads the active vertical directly rather than
  *   taking the criteria as a prop.
  */
 export default function RatingBadge({
   score,
+
   size = "md",
+
   className = "",
 }: {
   /** Overall rating 0–10, one decimal. */
@@ -59,14 +61,17 @@ export default function RatingBadge({
 export function RatingBreakdown({
   ratings,
   className = "",
+  verticalKey,
 }: {
   ratings: CriterionRatings;
   className?: string;
+  /** Which vertical this renders inside — criteria come from its config. */
+  verticalKey: string;
 }) {
   // Drive the breakdown from the active vertical's criteria (key order = weight
   // order). Weights are fractional (0.3) and rendered as whole-percent labels
   // ("30%") — matching the previous hardcoded strings exactly for Health.
-  const criteria = getActiveVertical().criteria;
+  const criteria = getVertical(verticalKey).criteria;
   return (
     <div className={`rounded-lg border border-brand-mist bg-white p-4 ${className}`}>
       <h3 className="font-serif text-sm font-bold text-brand-navy">
@@ -106,7 +111,7 @@ export function RatingBreakdown({
       <p className="mt-3 text-xs text-brand-ink/70">
         Scored per{" "}
         <Link
-          href="/methodology"
+          href={`/${verticalKey}/methodology`}
           className="font-semibold text-brand-blue hover:underline"
         >
           our review methodology

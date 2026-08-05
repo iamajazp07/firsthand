@@ -1,6 +1,6 @@
-# Vivahale
+# Firsthand
 
-**Vivahale** is an independent health & wellness authority and review-directory
+**Firsthand** is an independent health & wellness authority and review-directory
 site. It analyzes clinical research to rank supplements, telehealth providers,
 and health products using a **hub-and-spoke** content model: ranked "Best X of
 YYYY" **hubs** (`/best/[slug]`) link down to in-depth product **review spokes**
@@ -34,10 +34,10 @@ monetization.
   those pages **cannot be approved for publish in production**. (In Supabase
   mode, update the corresponding row in the `reviewers` table too.)
 - [ ] **2. Wire real affiliate links.** The string
-  `VIVAHALE_AFFILIATE_PLACEHOLDER` appears **15×** in
+  `FIRSTHAND_AFFILIATE_PLACEHOLDER` appears **15×** in
   **`src/data/products.json`** (find them with
-  `grep -c VIVAHALE_AFFILIATE_PLACEHOLDER src/data/products.json`, or
-  `grep -rn VIVAHALE_AFFILIATE_PLACEHOLDER src/data/`). Replace each with the
+  `grep -c FIRSTHAND_AFFILIATE_PLACEHOLDER src/data/products.json`, or
+  `grep -rn FIRSTHAND_AFFILIATE_PLACEHOLDER src/data/`). Replace each with the
   real **ClickBank hoplink** (`https://<nickname>.<vendor>.hop.clickbank.net`)
   or **PerformCB campaign URL**. The CTA component
   (`src/components/review/AffiliateCta.tsx`) renders these; leaving them as
@@ -51,11 +51,11 @@ monetization.
   "failed").
 - [ ] **5. Analytics & Search Console.** Set `NEXT_PUBLIC_GA4_ID`
   (`G-XXXXXXXXXX`), then verify the domain in **Google Search Console** and
-  submit the sitemap: **`https://vivahale.com/sitemap.xml`**.
-- [ ] **6. Swap the contact email.** `CONTACT_EMAIL = "hello@vivahale.com"` in
+  submit the sitemap: **`https://readfirsthand.com/sitemap.xml`**.
+- [ ] **6. Swap the contact email.** `CONTACT_EMAIL = "hello@readfirsthand.com"` in
   **`src/app/contact/page.tsx`** is a placeholder — replace with the real
   monitored inbox.
-- [ ] **7. Point the domain at Vercel.** Add `vivahale.com` in the Vercel
+- [ ] **7. Point the domain at Vercel.** Add `readfirsthand.com` in the Vercel
   project's Domains tab and update DNS, then set `NEXT_PUBLIC_SITE_URL` to the
   live origin (see [Deploying to Vercel](#deploying-to-vercel)).
 
@@ -74,7 +74,7 @@ npm run lint       # ESLint (must exit 0)
 ### Preview the whole network at once
 
 A single build serves ONE vertical (whichever `NEXT_PUBLIC_VERTICAL` was baked
-in). To click through the entire network — the vivahale.com brand portal plus
+in). To click through the entire network — the readfirsthand.com brand portal plus
 all five verticals — before any DNS exists:
 
 ```bash
@@ -126,7 +126,7 @@ required to build or run** (local-JSON fallback). Never commit `.env.local`.
 
 | Variable | Purpose | Where to get it |
 | --- | --- | --- |
-| `NEXT_PUBLIC_SITE_URL` | Absolute production origin for canonical URLs, sitemap, robots, RSS, JSON-LD. Defaults to `https://vivahale.com`. | Your live origin (Vercel preview URL, then the real domain). |
+| `NEXT_PUBLIC_SITE_URL` | Absolute production origin for canonical URLs, sitemap, robots, RSS, JSON-LD. Defaults to `https://readfirsthand.com`. | Your live origin (Vercel preview URL, then the real domain). |
 | `NEXT_PUBLIC_SUPABASE_URL` | Supabase project URL. Set **with** the service-role key to enable Supabase mode. | Supabase → Project Settings → API. |
 | `SUPABASE_SERVICE_ROLE_KEY` | Server-only service-role key (full DB access — never expose to the client). | Supabase → Project Settings → API. |
 | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Public anon key (reserved for future client-side reads). | Supabase → Project Settings → API. |
@@ -210,7 +210,7 @@ cadence (keeps "Last updated" honest and helps rankings).
 
 ## Social posting how-to
 
-Full detail lives in **`docs/SOCIAL.md`**. Vivahale turns published content into
+Full detail lives in **`docs/SOCIAL.md`**. Firsthand turns published content into
 platform-native posts for **X, Facebook, Instagram, and LinkedIn**. It is
 **fully functional without any accounts or tokens** — generate, review, approve,
 schedule, and dispatch in local + dry-run + webhook mode. **Nothing is ever
@@ -278,21 +278,21 @@ These are enforced in code (`src/lib/queue.ts`) and stated on the public
 
 ## Deploying to Vercel
 
-1. **Import** the repository (this `vivahale/` folder as the project root) into
+1. **Import** the repository (this `firsthand/` folder as the project root) into
    Vercel. The framework is **auto-detected as Next.js** — no custom build
    command needed; the default Next build output works, so **no `vercel.json`
    is required**.
 2. **Set environment variables** in the Vercel dashboard (Project → Settings →
    Environment Variables) for Production (and Preview as desired):
    - **`NEXT_PUBLIC_SITE_URL`** = your live origin (start with the
-     `*.vercel.app` URL, switch to `https://vivahale.com` once DNS is live).
+     `*.vercel.app` URL, switch to `https://readfirsthand.com` once DNS is live).
    - **`ADMIN_PASSWORD`** — required, or `/admin` returns 403 in production.
    - **`NEXT_PUBLIC_SUPABASE_URL` + `SUPABASE_SERVICE_ROLE_KEY`** — see the hard
      requirement below.
    - Optional: `NEXT_PUBLIC_GA4_ID`, `SOCIAL_WEBHOOK_URL` / social tokens,
      affiliate vars.
-3. **Domain** — add `vivahale.com` under Project → Domains and update DNS; then
-   set `NEXT_PUBLIC_SITE_URL` to `https://vivahale.com`.
+3. **Domain** — add `readfirsthand.com` under Project → Domains and update DNS; then
+   set `NEXT_PUBLIC_SITE_URL` to `https://readfirsthand.com`.
 
 > ### ⛔ HARD REQUIREMENT: Supabase is mandatory in production
 > The local-JSON fallback writes to the `data/` directory on the **local
@@ -313,14 +313,14 @@ added in this step** — this is documented as the intended next move so infra
 isn't built prematurely.
 
 The production base URL is configurable via `NEXT_PUBLIC_SITE_URL`
-(`src/lib/site.ts`), which defaults to `https://vivahale.com`.
+(`src/lib/site.ts`), which defaults to `https://readfirsthand.com`.
 
 ---
 
 ## Project structure
 
 ```
-vivahale/
+firsthand/
 ├─ src/
 │  ├─ app/                    # App Router routes
 │  │  ├─ page.tsx             # homepage

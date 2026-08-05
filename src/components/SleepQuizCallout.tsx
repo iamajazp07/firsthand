@@ -6,8 +6,11 @@ import Link from "next/link";
  */
 export default function SleepQuizCallout({
   className = "",
+  verticalKey,
 }: {
   className?: string;
+  /** Which vertical this renders inside — links and config come from it. */
+  verticalKey: string;
 }) {
   return (
     <div
@@ -23,7 +26,7 @@ export default function SleepQuizCallout({
         </p>
       </div>
       <Link
-        href="/quiz/sleep"
+        href={`/${verticalKey}/quiz/sleep`}
         className="shrink-0 rounded-md bg-brand-navy px-5 py-2.5 text-sm font-semibold text-white hover:bg-brand-blue"
       >
         Take the sleep quiz →

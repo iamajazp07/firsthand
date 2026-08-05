@@ -52,7 +52,7 @@ export async function tryWebhook(
     const res = await fetch(url, {
       method: "POST",
       headers: { "content-type": "application/json" },
-      body: JSON.stringify({ source: "vivahale", post }),
+      body: JSON.stringify({ source: "firsthand", post }),
     });
     if (res.status >= 200 && res.status < 300) {
       return {

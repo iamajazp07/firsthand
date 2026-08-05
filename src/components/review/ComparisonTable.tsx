@@ -14,9 +14,12 @@ import type { Product } from "@/lib/types";
 export default function ComparisonTable({
   products,
   className = "",
+  verticalKey,
 }: {
   products: Product[];
   className?: string;
+  /** Which vertical this renders inside — links and config come from it. */
+  verticalKey: string;
 }) {
   return (
     <div className={`overflow-x-auto rounded-lg border border-brand-mist ${className}`}>
@@ -54,7 +57,7 @@ export default function ComparisonTable({
               </td>
               <td className="px-4 py-3">
                 <Link
-                  href={`/reviews/${p.slug}`}
+                  href={`/${verticalKey}/reviews/${p.slug}`}
                   className="font-semibold text-brand-navy hover:text-brand-blue hover:underline"
                 >
                   {p.name}
@@ -89,7 +92,7 @@ export default function ComparisonTable({
                     </a>
                   )}
                   <Link
-                    href={`/reviews/${p.slug}`}
+                    href={`/${verticalKey}/reviews/${p.slug}`}
                     className="inline-block rounded border border-brand-blue px-3 py-1.5 text-center text-xs font-semibold text-brand-blue transition-colors hover:bg-brand-mist"
                   >
                     Read review

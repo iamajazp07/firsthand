@@ -1,5 +1,5 @@
 /**
- * Vivahale request proxy (Next 16's renamed `middleware`) — /admin auth gate.
+ * Firsthand request proxy (Next 16's renamed `middleware`) — /admin auth gate.
  *
  * WHY THIS EXISTS: the /admin layout already re-checks auth, but a layout gate
  * runs too late — Next still renders the protected PAGE to produce its RSC
@@ -19,11 +19,10 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import { createHmac, timingSafeEqual } from "crypto";
-import { resolveVerticalFromHost } from "@/lib/verticals";
 
 // Mirror of src/lib/admin-auth.ts (kept in sync by hand — both are tiny).
 const ADMIN_COOKIE = "vh_admin_session";
-const HMAC_KEY = "vivahale-admin-session-v1";
+const HMAC_KEY = "firsthand-admin-session-v1";
 
 function adminPassword(): string | undefined {
   const p = process.env.ADMIN_PASSWORD;
@@ -83,17 +82,12 @@ function adminGate(request: NextRequest): NextResponse {
 }
 
 /**
- * Request proxy. Two responsibilities, kept strictly separate:
+ * Request proxy — now a single responsibility: the /admin auth gate.
  *
- *  1. /admin auth gate — for admin surfaces ONLY, delegate to `adminGate()`
- *     (identical behavior to the previous implementation). This preserves the
- *     RSC flight-leak defense exactly.
- *  2. Vertical resolution + portal routing — for every other route, resolve the
- *     active vertical from the request host and expose it to downstream server
- *     components via the `x-vivahale-vertical` request header. When the host is
- *     the apex (vivahale.com → "portal"), the site root `/` is REWRITTEN to the
- *     `/portal` brand hub. Vertical subdomain hosts (health.vivahale.com) are
- *     never rewritten and behave exactly as before.
+ * Host-based vertical resolution and the apex `/` → `/portal` rewrite are GONE.
+ * Verticals are path segments (`/health`, `/money`, …) on one origin, so the
+ * active vertical comes from the `[vertical]` route param and the portal is a
+ * real page at `/`. Nothing needs to be derived from the Host header any more.
  */
 export function proxy(request: NextRequest): NextResponse {
   const { pathname } = request.nextUrl;
@@ -112,35 +106,10 @@ export function proxy(request: NextRequest): NextResponse {
     return adminGate(request);
   }
 
-  // Non-admin routes: resolve vertical, fall back to NEXT_PUBLIC_VERTICAL
-  // (default "health") for unrecognized hosts, and forward it as a header.
-  const host = request.headers.get("host") ?? "";
-  const vertical =
-    resolveVerticalFromHost(host) ||
-    process.env.NEXT_PUBLIC_VERTICAL ||
-    "health";
-
-  const requestHeaders = new Headers(request.headers);
-  requestHeaders.set("x-vivahale-vertical", vertical);
-
-  // Portal routing: on the apex host (or a portal-mode build), serve the brand
-  // hub at the site root by rewriting `/` → `/portal`. Only the root is
-  // rewritten; all other paths pass through untouched, and non-portal hosts are
-  // completely unaffected.
-  if (vertical === "portal" && pathname === "/") {
-    const url = request.nextUrl.clone();
-    url.pathname = "/portal";
-    return NextResponse.rewrite(url, {
-      request: { headers: requestHeaders },
-    });
-  }
-
-  return NextResponse.next({ request: { headers: requestHeaders } });
+  return NextResponse.next();
 }
 
 export const config = {
-  // Run on all routes EXCEPT Next internals and static assets, so the vertical
-  // header reaches every rendered page while the /admin gate (applied inside
-  // `proxy`) still covers every /admin + /api/admin path.
-  matcher: ["/((?!_next/static|_next/image|favicon.ico).*)"],
+  // Only admin surfaces need the proxy now that vertical resolution is routing.
+  matcher: ["/admin", "/admin/:path*", "/api/admin", "/api/admin/:path*"],
 };

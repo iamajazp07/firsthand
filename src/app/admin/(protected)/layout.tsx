@@ -54,7 +54,7 @@ export default async function ProtectedAdminLayout({
               href="/admin"
               className="font-serif text-lg font-semibold text-brand-navy"
             >
-              Vivahale Admin
+              Firsthand Admin
             </Link>
             <span className="rounded-full bg-brand-mist px-2 py-0.5 text-xs text-brand-ink/70">
               queue store: {QUEUE_STORAGE_MODE}

@@ -15,6 +15,10 @@ import {
   type QueueCompliance,
 } from "@/lib/queue";
 
+/** The admin console is a single surface; it reviews the env-configured
+ *  vertical (default "health"), not a per-request one. */
+const ADMIN_VERTICAL = process.env.NEXT_PUBLIC_VERTICAL || "health";
+
 /** Re-validate auth on EVERY mutation (never trust a disabled UI button). */
 async function requireAdmin(): Promise<void> {
   if (!(await isAuthed())) {
@@ -79,7 +83,7 @@ export async function doTransition(
   // Look up the attached reviewer's placeholder flag for the compliance gate.
   let reviewerIsPlaceholder = false;
   if (item.reviewer_slug) {
-    const reviewer = await getReviewerBySlug(item.reviewer_slug);
+    const reviewer = await getReviewerBySlug(ADMIN_VERTICAL, item.reviewer_slug);
     reviewerIsPlaceholder = reviewer?.is_placeholder ?? false;
   }
 

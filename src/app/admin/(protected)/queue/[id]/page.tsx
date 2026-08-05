@@ -9,6 +9,10 @@ import {
 } from "@/lib/queue";
 import QueueEditor from "./QueueEditor";
 
+/** The admin console is a single surface; it reviews the env-configured
+ *  vertical (default "health"), not a per-request one. */
+const ADMIN_VERTICAL = process.env.NEXT_PUBLIC_VERTICAL || "health";
+
 export const dynamic = "force-dynamic";
 
 export default async function QueueDetailPage({
@@ -21,13 +25,13 @@ export default async function QueueDetailPage({
   if (!item) notFound();
 
   const [authors, reviewers, categories] = await Promise.all([
-    getAuthors(),
-    getReviewers(),
-    getCategories(),
+    getAuthors(ADMIN_VERTICAL),
+    getReviewers(ADMIN_VERTICAL),
+    getCategories(ADMIN_VERTICAL),
   ]);
 
   const reviewer = item.reviewer_slug
-    ? await getReviewerBySlug(item.reviewer_slug)
+    ? await getReviewerBySlug(ADMIN_VERTICAL, item.reviewer_slug)
     : null;
   const reviewerIsPlaceholder = reviewer?.is_placeholder ?? false;
 

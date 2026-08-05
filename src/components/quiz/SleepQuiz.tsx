@@ -208,7 +208,18 @@ function scoreProducts(answers: Answers, products: QuizProduct[]): Scored[] {
   return picks;
 }
 
-export default function SleepQuiz({ products }: { products: QuizProduct[] }) {
+export default function SleepQuiz({
+  products,
+  basePath,
+}: {
+  products: QuizProduct[];
+  /** Vertical link prefix, e.g. "/health" — a client component cannot read
+   *  the request-scoped active vertical, so the page passes it in. */
+  basePath: string;
+}) {
+  // Client component: it cannot read server config, but basePath already
+  // encodes the vertical ("/health"), so derive the key from it.
+  const verticalKey = basePath.replace(/^\//, "");
   const [step, setStep] = useState(0);
   const [answers, setAnswers] = useState<Answers>({});
   const [showResult, setShowResult] = useState(false);
@@ -259,7 +270,7 @@ export default function SleepQuiz({ products }: { products: QuizProduct[] }) {
             </p>
             <div className="mt-4 flex flex-wrap gap-3">
               <Link
-                href={`/best/${HUB_SLUG}`}
+                href={`${basePath}/best/${HUB_SLUG}`}
                 className="rounded-md bg-brand-navy px-5 py-2.5 text-sm font-semibold text-white hover:bg-brand-blue"
               >
                 See the Best Sleep Supplements ranking
@@ -311,13 +322,13 @@ export default function SleepQuiz({ products }: { products: QuizProduct[] }) {
                   </p>
                   <div className="mt-4 flex flex-wrap gap-4">
                     <Link
-                      href={`/reviews/${product.slug}`}
+                      href={`${basePath}/reviews/${product.slug}`}
                       className="text-sm font-semibold text-brand-blue hover:underline"
                     >
                       Read the full review →
                     </Link>
                     <Link
-                      href={`/best/${HUB_SLUG}`}
+                      href={`${basePath}/best/${HUB_SLUG}`}
                       className="text-sm font-semibold text-brand-blue hover:underline"
                     >
                       Compare all sleep picks →
@@ -349,7 +360,7 @@ export default function SleepQuiz({ products }: { products: QuizProduct[] }) {
           ↺ Retake the quiz
         </button>
 
-        <MedicalDisclaimer className="mt-8" />
+        <MedicalDisclaimer className="mt-8" verticalKey={verticalKey} />
       </div>
     );
   }

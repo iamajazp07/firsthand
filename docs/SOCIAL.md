@@ -1,6 +1,6 @@
 # Social automation (step 9)
 
-Vivahale turns published content into platform-native social posts for **X,
+Firsthand turns published content into platform-native social posts for **X,
 Facebook, Instagram, and LinkedIn**. Everything is **token-ready but fully
 functional without any accounts or API tokens**: you can generate, review,
 approve, schedule, and dispatch entirely in a local/dry-run + webhook-fallback
@@ -115,7 +115,7 @@ touching the network.
 ## OG images — `/api/og`
 
 `GET /api/og?title=...&kind=article|hub|review` renders a branded 1200×630 card
-with `next/og` (navy band, `Vivahale` wordmark, kind label, title, `vivahale.com`).
+with `next/og` (navy band, `Firsthand` wordmark, kind label, title, `readfirsthand.com`).
 It's wired into `openGraph.images` (+ `twitter` card) on `/articles/[slug]`,
 `/best/[slug]`, and `/reviews/[slug]`, and each social post's `image_url` points
 at it.

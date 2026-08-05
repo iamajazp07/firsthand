@@ -5,7 +5,7 @@ import { AFFILIATE_REL, affiliateHref, isAffiliatePlaceholder } from "@/lib/affi
  *
  * - href uses the product's affiliate_url with rel="sponsored nofollow noopener".
  * - Tiny inline "(affiliate link)" label — always visible (FTC clarity).
- * - If affiliate_url is still the VIVAHALE_AFFILIATE_PLACEHOLDER string, the
+ * - If affiliate_url is still the FIRSTHAND_AFFILIATE_PLACEHOLDER string, the
  *   button renders visually but points to "#", and non-production builds show
  *   an amber "AFFILIATE LINK PLACEHOLDER" note (same pattern as
  *   MedicalReviewerBadge's placeholder warning).

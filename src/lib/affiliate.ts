@@ -6,7 +6,7 @@
  * NEVER ship a real link from this file's constants.
  */
 
-export const AFFILIATE_PLACEHOLDER = "VIVAHALE_AFFILIATE_PLACEHOLDER";
+export const AFFILIATE_PLACEHOLDER = "FIRSTHAND_AFFILIATE_PLACEHOLDER";
 
 /** Attribute value required on every monetized outbound CTA. */
 export const AFFILIATE_REL = "sponsored nofollow noopener";

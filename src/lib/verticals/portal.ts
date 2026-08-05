@@ -1,8 +1,8 @@
 import type { Vertical } from "./types";
 
 /**
- * Portal "vertical" — the apex vivahale.com brand hub (health.vivahale.com,
- * money.vivahale.com, … all link back here).
+ * Portal "vertical" — the apex readfirsthand.com brand hub (health.readfirsthand.com,
+ * money.readfirsthand.com, … all link back here).
  *
  * It is NOT a content vertical: it ships no categories, no rating criteria, and
  * no product seeds. It exists in the registry for one reason — so
@@ -18,11 +18,11 @@ import type { Vertical } from "./types";
  */
 export const portal: Vertical = {
   key: "portal",
-  name: "Vivahale",
-  host: "vivahale.com",
+  name: "Firsthand",
+  host: "readfirsthand.com",
   tagline: "Independent, evidence-first reviews and rankings",
   description:
-    "Vivahale publishes independent, evidence-first reviews and rankings — clear analysis and transparent methodology across health and, soon, more. No hype, no pay-to-play.",
+    "Firsthand publishes independent, evidence-first reviews and rankings — clear analysis and transparent methodology across health and, soon, more. No hype, no pay-to-play.",
 
   // Same brand tokens as the content verticals so shared chrome stays on-brand.
   theme: {

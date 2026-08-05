@@ -3,10 +3,10 @@
  *
  * Renders a clean 1200×630 branded card with next/og (ImageResponse / Satori):
  *   - white background, a navy top band + navy hairline border,
- *   - the "Vivahale" wordmark (Viva navy + hale blue),
+ *   - the "Firsthand" wordmark (Viva navy + hale blue),
  *   - a small kind label (ANALYSIS / RANKINGS / REVIEW),
  *   - the title in large bold,
- *   - the vivahale.com host line.
+ *   - the readfirsthand.com host line.
  *
  * No external images or fonts are required — Satori's bundled default font is
  * used, so the endpoint works offline and in local/CI builds. This single
@@ -23,7 +23,7 @@ const MIST = "#F1F5F9";
 const INK = "#1E293B";
 
 // Host line shown on the OG card, derived from the active vertical's SITE_URL
-// (health → health.vivahale.com) so cards match the canonical host.
+// (health → health.readfirsthand.com) so cards match the canonical host.
 const OG_HOST = SITE_URL.replace(/^https?:\/\//, "");
 
 type Kind = "article" | "hub" | "review";
@@ -44,7 +44,7 @@ export function GET(request: Request): ImageResponse {
   const rawTitle = (searchParams.get("title") ?? "").trim();
   // Keep the card readable: clamp very long titles.
   const title =
-    rawTitle.length > 120 ? `${rawTitle.slice(0, 117)}…` : rawTitle || "Vivahale";
+    rawTitle.length > 120 ? `${rawTitle.slice(0, 117)}…` : rawTitle || "Firsthand";
   const kind = coerceKind(searchParams.get("kind"));
 
   return new ImageResponse(

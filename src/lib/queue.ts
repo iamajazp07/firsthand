@@ -1,5 +1,5 @@
 /**
- * Vivahale content QUEUE — DUAL MODE (Supabase OR local JSON), step 6.
+ * Firsthand content QUEUE — DUAL MODE (Supabase OR local JSON), step 6.
  *
  * This is the admin-side draft/review pipeline, kept SEPARATE from the live,
  * seeded content in src/data/. Items here move through a validated status
@@ -225,6 +225,9 @@ function fromRow(row: Record<string, unknown>): QueueItem {
 /** List queue items, newest-updated first, optionally filtered by status. */
 export async function listQueueItems(
   statusFilter?: QueueStatus,
+  /** Vertical to scope to. Defaults to the env vertical (the admin console's
+   *  view); vertical PAGES pass their own route param explicitly. */
+  vertical: string = ACTIVE_VERTICAL,
 ): Promise<QueueItem[]> {
   if (isSupabaseConfigured) {
     let query = getSupabase()
@@ -233,7 +236,7 @@ export async function listQueueItems(
       // Partition by the active vertical so a money deployment never reads
       // another vertical's queued/published items (migration 0004 defaults the
       // column to 'health', so legacy rows read as health).
-      .eq("vertical", ACTIVE_VERTICAL)
+      .eq("vertical", vertical)
       .order("updated_at", { ascending: false });
     if (statusFilter) query = query.eq("status", statusFilter);
     const { data, error } = await query;
@@ -247,7 +250,7 @@ export async function listQueueItems(
     // health articles in its sitemap/feed/routes, and vice versa. In health mode
     // legacy rows read as "health", so output is unchanged.
     (i) =>
-      i.vertical === ACTIVE_VERTICAL &&
+      i.vertical === vertical &&
       (statusFilter ? i.status === statusFilter : true),
   );
   return filtered.sort((a, b) => b.updated_at.localeCompare(a.updated_at));
@@ -680,8 +683,10 @@ function isPublishedArticle(item: QueueItem): boolean {
  * category pages, sitemap, and RSS feed so newly published items surface
  * without a rebuild (callers are dynamic / revalidated).
  */
-export async function listPublishedArticles(): Promise<QueueItem[]> {
-  const published = await listQueueItems("published");
+export async function listPublishedArticles(
+  vertical: string,
+): Promise<QueueItem[]> {
+  const published = await listQueueItems("published", vertical);
   return published
     .filter((i) => PUBLISHED_ARTICLE_TYPES.includes(i.type))
     .sort((a, b) =>
@@ -693,9 +698,10 @@ export async function listPublishedArticles(): Promise<QueueItem[]> {
 
 /** Published article-type queue items in a single category (by slug). */
 export async function listPublishedArticlesByCategory(
+  vertical: string,
   categorySlug: string,
 ): Promise<QueueItem[]> {
-  const all = await listPublishedArticles();
+  const all = await listPublishedArticles(vertical);
   return all.filter((i) => i.category_slug === categorySlug);
 }
 
@@ -705,6 +711,7 @@ export async function listPublishedArticlesByCategory(
  * can 404 correctly.
  */
 export async function getPublishedArticleBySlug(
+  vertical: string,
   slug: string,
 ): Promise<QueueItem | null> {
   if (isSupabaseConfigured) {
@@ -715,7 +722,7 @@ export async function getPublishedArticleBySlug(
       .eq("status", "published")
       // Scope to the active vertical so a money deployment can't render another
       // vertical's article at /articles/[slug] (legacy rows default to health).
-      .eq("vertical", ACTIVE_VERTICAL)
+      .eq("vertical", vertical)
       .in("type", PUBLISHED_ARTICLE_TYPES)
       .maybeSingle();
     if (error) throw error;
@@ -727,7 +734,7 @@ export async function getPublishedArticleBySlug(
     (i) =>
       i.slug === slug &&
       isPublishedArticle(i) &&
-      i.vertical === ACTIVE_VERTICAL,
+      i.vertical === vertical,
   );
   return match ?? null;
 }

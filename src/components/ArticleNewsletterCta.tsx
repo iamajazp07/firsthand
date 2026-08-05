@@ -1,5 +1,5 @@
 import EmailSignup from "@/components/EmailSignup";
-import { getActiveVertical } from "@/lib/verticals";
+import { getVertical } from "@/lib/verticals";
 
 /**
  * Compact newsletter call-to-action placed above the footer on hub and spoke
@@ -8,10 +8,13 @@ import { getActiveVertical } from "@/lib/verticals";
  */
 export default function ArticleNewsletterCta({
   className = "",
+  verticalKey,
 }: {
   className?: string;
+  /** Which vertical this renders inside — links and config come from it. */
+  verticalKey: string;
 }) {
-  const { newsletter } = getActiveVertical();
+  const { newsletter } = getVertical(verticalKey);
   return (
     <section
       aria-label="Newsletter signup"
@@ -23,7 +26,7 @@ export default function ArticleNewsletterCta({
       </h2>
       <p className="mt-1 text-sm text-brand-ink/75">
         {newsletter?.ctaBlurb ??
-          "Join The Vivahale Brief for a weekly, research-first read."}
+          "Join The Firsthand Brief for a weekly, research-first read."}
       </p>
       <EmailSignup source="article" variant="compact" className="mt-4" />
     </section>

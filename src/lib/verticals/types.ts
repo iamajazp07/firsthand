@@ -1,8 +1,8 @@
 /**
  * Multi-vertical config abstraction.
  *
- * Vivahale is evolving from a single health-review site into a config-driven
- * multi-vertical publisher (health.vivahale.com, money.vivahale.com, …), all in
+ * Firsthand is evolving from a single health-review site into a config-driven
+ * multi-vertical publisher (health.readfirsthand.com, money.readfirsthand.com, …), all in
  * one codebase. A `Vertical` captures everything that differs between verticals:
  * branding, nav, rating methodology, and legal/compliance copy.
  *
@@ -96,7 +96,7 @@ export interface Vertical {
   key: string;
   /** Site name for this vertical (SITE_NAME). */
   name: string;
-  /** Primary host, e.g. "health.vivahale.com". */
+  /** Primary host, e.g. "health.readfirsthand.com". */
   host: string;
   /** Short tagline. */
   tagline: string;
@@ -150,7 +150,7 @@ export interface Vertical {
   /** Slug of the default editorial fact-check reviewer (e.g. "editorial-team"). */
   defaultReviewerSlug?: string;
   /**
-   * Short footer copyright disclaimer clause (rendered after "© 2026 Vivahale.").
+   * Short footer copyright disclaimer clause (rendered after "© 2026 Firsthand.").
    * Health: "…is not medical advice."; Money: "…is not financial … advice."
    */
   footerDisclaimer?: string;

@@ -1,5 +1,5 @@
 /**
- * Vivahale data layer — DUAL MODE (Supabase OR local JSON seed).
+ * Firsthand data layer — DUAL MODE (Supabase OR local JSON seed).
  *
  * HOW IT WORKS
  * ------------
@@ -25,8 +25,7 @@ import { randomUUID } from "crypto";
 
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 
-import { getActiveSeeds } from "@/lib/seeds";
-import { getActiveVertical } from "@/lib/verticals";
+import { getSeedsFor } from "@/lib/seeds";
 
 import type {
   Article,
@@ -52,13 +51,12 @@ export const isSupabaseConfigured: boolean = Boolean(
 
 /**
  * Active vertical key (from NEXT_PUBLIC_VERTICAL, default "health"). Every
- * Supabase read below is scoped to it via `.eq("vertical", ACTIVE_VERTICAL)`
+ * Supabase read below is scoped to it via `.eq("vertical", vertical)`
  * against the `vertical` column added in supabase/migrations/0004_verticals.sql.
  * Local-JSON mode is already vertical-scoped by the seed registry (@/lib/seeds),
  * so no equivalent filter is needed on the fallback branches. `email_subscribers`
  * is deliberately unscoped (single cross-vertical newsletter list).
  */
-const ACTIVE_VERTICAL = getActiveVertical().key;
 
 let cachedClient: SupabaseClient | null = null;
 
@@ -81,159 +79,165 @@ function getSupabase(): SupabaseClient {
 // Local seed data (fallback mode)
 // ---------------------------------------------------------------------------
 
-// The active vertical's committed seeds, chosen from the compile-time registry
-// in @/lib/seeds by getActiveVertical().key. For Health this is exactly the set
-// that used to live at src/data/*.json (now src/data/health/*.json).
-const seeds = getActiveSeeds();
-
-const localCategories = seeds.categories;
-const localAuthors = seeds.authors;
-// EDITORIAL FACT-CHECK reviewer (not a licensed physician). "Vivahale
+// The active vertical's committed seeds, chosen per REQUEST from the
+// compile-time registry in @/lib/seeds. These were module constants while one
+// build served one vertical; they are now accessor functions so a single build
+// can serve /health and /money concurrently without cross-contamination.
+const localCategories = (vertical: string) => getSeedsFor(vertical).categories;
+const localAuthors = (vertical: string) => getSeedsFor(vertical).authors;
+// EDITORIAL FACT-CHECK reviewer (not a licensed physician). "Firsthand
 // Editorial Team" in src/data/health/reviewers.json has is_placeholder: false
 // and is presented honestly as an editorial fact-check, never as medical
 // review. If a real licensed reviewer is retained later, add them as a separate
 // record.
-const localReviewers = seeds.reviewers;
-const localArticles = seeds.articles;
+const localReviewers = (vertical: string) => getSeedsFor(vertical).reviewers;
+const localArticles = (vertical: string) => getSeedsFor(vertical).articles;
 // Researched Phase-1 review content (sleep, weight-loss, GLP-1 telehealth,
-// dental). Monetized items keep the literal VIVAHALE_AFFILIATE_PLACEHOLDER
+// dental). Monetized items keep the literal FIRSTHAND_AFFILIATE_PLACEHOLDER
 // string until real affiliate links are wired in a later step.
-const localProducts = seeds.products;
-const localHubs = seeds.hubs;
+const localProducts = (vertical: string) => getSeedsFor(vertical).products;
+const localHubs = (vertical: string) => getSeedsFor(vertical).hubs;
 
 // ---------------------------------------------------------------------------
 // Accessors — identical signatures in both modes
 // ---------------------------------------------------------------------------
 
-export async function getCategories(): Promise<Category[]> {
+export async function getCategories(vertical: string): Promise<Category[]> {
   if (isSupabaseConfigured) {
     const { data, error } = await getSupabase()
       .from("categories")
       .select("*")
-      .eq("vertical", ACTIVE_VERTICAL)
+      .eq("vertical", vertical)
       .order("sort_order", { ascending: true });
     if (error) throw error;
     return data as Category[];
   }
   // Fallback: local JSON seed
-  return [...localCategories].sort((a, b) => a.sort_order - b.sort_order);
+  return [...localCategories(vertical)].sort((a, b) => a.sort_order - b.sort_order);
 }
 
 export async function getCategoryBySlug(
+  vertical: string,
   slug: string,
 ): Promise<Category | null> {
   if (isSupabaseConfigured) {
     const { data, error } = await getSupabase()
       .from("categories")
       .select("*")
-      .eq("vertical", ACTIVE_VERTICAL)
+      .eq("vertical", vertical)
       .eq("slug", slug)
       .maybeSingle();
     if (error) throw error;
     return (data as Category) ?? null;
   }
-  return localCategories.find((c) => c.slug === slug) ?? null;
+  return localCategories(vertical).find((c) => c.slug === slug) ?? null;
 }
 
-export async function getAuthors(): Promise<Author[]> {
+export async function getAuthors(vertical: string): Promise<Author[]> {
   if (isSupabaseConfigured) {
     const { data, error } = await getSupabase()
       .from("authors")
       .select("*")
-      .eq("vertical", ACTIVE_VERTICAL);
+      .eq("vertical", vertical);
     if (error) throw error;
     return data as Author[];
   }
-  return localAuthors;
+  return localAuthors(vertical);
 }
 
-export async function getAuthorBySlug(slug: string): Promise<Author | null> {
+export async function getAuthorBySlug(
+  vertical: string,
+  slug: string,
+): Promise<Author | null> {
   if (isSupabaseConfigured) {
     const { data, error } = await getSupabase()
       .from("authors")
       .select("*")
-      .eq("vertical", ACTIVE_VERTICAL)
+      .eq("vertical", vertical)
       .eq("slug", slug)
       .maybeSingle();
     if (error) throw error;
     return (data as Author) ?? null;
   }
-  return localAuthors.find((a) => a.slug === slug) ?? null;
+  return localAuthors(vertical).find((a) => a.slug === slug) ?? null;
 }
 
-export async function getReviewers(): Promise<Reviewer[]> {
+export async function getReviewers(vertical: string): Promise<Reviewer[]> {
   if (isSupabaseConfigured) {
     const { data, error } = await getSupabase()
       .from("reviewers")
       .select("*")
-      .eq("vertical", ACTIVE_VERTICAL);
+      .eq("vertical", vertical);
     if (error) throw error;
     return data as Reviewer[];
   }
-  return localReviewers;
+  return localReviewers(vertical);
 }
 
 export async function getReviewerBySlug(
+  vertical: string,
   slug: string,
 ): Promise<Reviewer | null> {
   if (isSupabaseConfigured) {
     const { data, error } = await getSupabase()
       .from("reviewers")
       .select("*")
-      .eq("vertical", ACTIVE_VERTICAL)
+      .eq("vertical", vertical)
       .eq("slug", slug)
       .maybeSingle();
     if (error) throw error;
     return (data as Reviewer) ?? null;
   }
-  return localReviewers.find((r) => r.slug === slug) ?? null;
+  return localReviewers(vertical).find((r) => r.slug === slug) ?? null;
 }
 
-export async function getArticles(): Promise<Article[]> {
+export async function getArticles(vertical: string): Promise<Article[]> {
   if (isSupabaseConfigured) {
     const { data, error } = await getSupabase()
       .from("articles")
       .select("*")
-      .eq("vertical", ACTIVE_VERTICAL)
+      .eq("vertical", vertical)
       .order("published_at", { ascending: false });
     if (error) throw error;
     return data as Article[];
   }
-  return [...localArticles].sort((a, b) =>
+  return [...localArticles(vertical)].sort((a, b) =>
     (b.published_at ?? "").localeCompare(a.published_at ?? ""),
   );
 }
 
 export async function getArticlesByCategory(
+  vertical: string,
   categoryId: string,
 ): Promise<Article[]> {
   if (isSupabaseConfigured) {
     const { data, error } = await getSupabase()
       .from("articles")
       .select("*")
-      .eq("vertical", ACTIVE_VERTICAL)
+      .eq("vertical", vertical)
       .eq("category_id", categoryId)
       .order("published_at", { ascending: false });
     if (error) throw error;
     return data as Article[];
   }
-  return localArticles.filter((a) => a.category_id === categoryId);
+  return localArticles(vertical).filter((a) => a.category_id === categoryId);
 }
 
 export async function getArticlesByAuthor(
+  vertical: string,
   authorId: string,
 ): Promise<Article[]> {
   if (isSupabaseConfigured) {
     const { data, error } = await getSupabase()
       .from("articles")
       .select("*")
-      .eq("vertical", ACTIVE_VERTICAL)
+      .eq("vertical", vertical)
       .eq("author_id", authorId)
       .order("published_at", { ascending: false });
     if (error) throw error;
     return data as Article[];
   }
-  return localArticles
+  return localArticles(vertical)
     .filter((a) => a.author_id === authorId)
     .sort((a, b) => (b.published_at ?? "").localeCompare(a.published_at ?? ""));
 }
@@ -248,47 +252,51 @@ export async function getArticlesByAuthor(
 // lands.
 // ---------------------------------------------------------------------------
 
-export async function getProducts(): Promise<Product[]> {
+export async function getProducts(vertical: string): Promise<Product[]> {
   if (isSupabaseConfigured) {
     const { data, error } = await getSupabase()
       .from("products")
       .select("*")
-      .eq("vertical", ACTIVE_VERTICAL)
+      .eq("vertical", vertical)
       .order("rating_overall", { ascending: false });
     if (error) throw error;
     return data as Product[];
   }
-  return [...localProducts].sort((a, b) => b.rating_overall - a.rating_overall);
+  return [...localProducts(vertical)].sort((a, b) => b.rating_overall - a.rating_overall);
 }
 
-export async function getProductBySlug(slug: string): Promise<Product | null> {
+export async function getProductBySlug(
+  vertical: string,
+  slug: string,
+): Promise<Product | null> {
   if (isSupabaseConfigured) {
     const { data, error } = await getSupabase()
       .from("products")
       .select("*")
-      .eq("vertical", ACTIVE_VERTICAL)
+      .eq("vertical", vertical)
       .eq("slug", slug)
       .maybeSingle();
     if (error) throw error;
     return (data as Product) ?? null;
   }
-  return localProducts.find((p) => p.slug === slug) ?? null;
+  return localProducts(vertical).find((p) => p.slug === slug) ?? null;
 }
 
 export async function getProductsByCategory(
+  vertical: string,
   categorySlug: string,
 ): Promise<Product[]> {
   if (isSupabaseConfigured) {
     const { data, error } = await getSupabase()
       .from("products")
       .select("*")
-      .eq("vertical", ACTIVE_VERTICAL)
+      .eq("vertical", vertical)
       .eq("category_slug", categorySlug)
       .order("rating_overall", { ascending: false });
     if (error) throw error;
     return data as Product[];
   }
-  return localProducts
+  return localProducts(vertical)
     .filter((p) => p.category_slug === categorySlug)
     .sort((a, b) => b.rating_overall - a.rating_overall);
 }
@@ -297,30 +305,33 @@ export async function getProductsByCategory(
 // Hubs ("Best X of YYYY" ranked money pages)
 // ---------------------------------------------------------------------------
 
-export async function getHubs(): Promise<Hub[]> {
+export async function getHubs(vertical: string): Promise<Hub[]> {
   if (isSupabaseConfigured) {
     const { data, error } = await getSupabase()
       .from("hubs")
       .select("*")
-      .eq("vertical", ACTIVE_VERTICAL);
+      .eq("vertical", vertical);
     if (error) throw error;
     return data as Hub[];
   }
-  return localHubs;
+  return localHubs(vertical);
 }
 
-export async function getHubBySlug(slug: string): Promise<Hub | null> {
+export async function getHubBySlug(
+  vertical: string,
+  slug: string,
+): Promise<Hub | null> {
   if (isSupabaseConfigured) {
     const { data, error } = await getSupabase()
       .from("hubs")
       .select("*")
-      .eq("vertical", ACTIVE_VERTICAL)
+      .eq("vertical", vertical)
       .eq("slug", slug)
       .maybeSingle();
     if (error) throw error;
     return (data as Hub) ?? null;
   }
-  return localHubs.find((h) => h.slug === slug) ?? null;
+  return localHubs(vertical).find((h) => h.slug === slug) ?? null;
 }
 
 // ---------------------------------------------------------------------------
@@ -395,15 +406,18 @@ export async function addSubscriber(
   return { ok: true, duplicate: false };
 }
 
-export async function getHubsByCategory(categorySlug: string): Promise<Hub[]> {
+export async function getHubsByCategory(
+  vertical: string,
+  categorySlug: string,
+): Promise<Hub[]> {
   if (isSupabaseConfigured) {
     const { data, error } = await getSupabase()
       .from("hubs")
       .select("*")
-      .eq("vertical", ACTIVE_VERTICAL)
+      .eq("vertical", vertical)
       .eq("category_slug", categorySlug);
     if (error) throw error;
     return data as Hub[];
   }
-  return localHubs.filter((h) => h.category_slug === categorySlug);
+  return localHubs(vertical).filter((h) => h.category_slug === categorySlug);
 }

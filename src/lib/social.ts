@@ -1,5 +1,5 @@
 /**
- * Vivahale SOCIAL post store — DUAL MODE (Supabase OR local JSON), step 9.
+ * Firsthand SOCIAL post store — DUAL MODE (Supabase OR local JSON), step 9.
  *
  * Platform-native social drafts (X / Facebook / Instagram / LinkedIn) generated
  * from published content. Posts move through a small status machine
@@ -111,8 +111,8 @@ export const PLATFORM_LABEL: Record<SocialPlatform, string> = {
 // src/lib/site.ts's effective value for each vertical:
 //   1. NEXT_PUBLIC_SITE_URL if set (explicit override), else
 //   2. derive from NEXT_PUBLIC_VERTICAL (default "health"):
-//        portal → https://vivahale.com
-//        <name> → https://<name>.vivahale.com   (health → https://health.vivahale.com)
+//        portal → https://readfirsthand.com
+//        <name> → https://<name>.readfirsthand.com   (health → https://health.readfirsthand.com)
 // If a domain changes, set NEXT_PUBLIC_SITE_URL (src/lib/site.ts stays the
 // app-side mirror).
 // ---------------------------------------------------------------------------
@@ -121,7 +121,7 @@ function resolveSiteUrl(): string {
   const override = process.env.NEXT_PUBLIC_SITE_URL;
   if (override) return override.replace(/\/+$/, "");
   const vertical = process.env.NEXT_PUBLIC_VERTICAL || "health";
-  const host = vertical === "portal" ? "vivahale.com" : `${vertical}.vivahale.com`;
+  const host = vertical === "portal" ? "readfirsthand.com" : `${vertical}.readfirsthand.com`;
   return `https://${host}`;
 }
 

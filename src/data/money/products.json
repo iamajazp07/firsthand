@@ -5,7 +5,7 @@
     "name": "Ally Bank Online Savings Account",
     "category_slug": "high-yield-savings",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 9.4,
     "ratings": {
       "fees": 10,
@@ -85,7 +85,7 @@
     "name": "Marcus by Goldman Sachs Online Savings Account",
     "category_slug": "high-yield-savings",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 9.1,
     "ratings": {
       "fees": 10,
@@ -160,7 +160,7 @@
     "name": "Capital One 360 Performance Savings Account",
     "category_slug": "high-yield-savings",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 8.2,
     "ratings": {
       "fees": 9,
@@ -400,7 +400,7 @@
     "name": "YNAB (You Need A Budget)",
     "category_slug": "budgeting-apps",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 7.8,
     "ratings": {
       "fees": 5,
@@ -480,7 +480,7 @@
     "name": "Monarch Money",
     "category_slug": "budgeting-apps",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 7.7,
     "ratings": {
       "fees": 6,
@@ -560,7 +560,7 @@
     "name": "Copilot Money",
     "category_slug": "budgeting-apps",
     "is_monetized": true,
-    "affiliate_url": "VIVAHALE_AFFILIATE_PLACEHOLDER",
+    "affiliate_url": "FIRSTHAND_AFFILIATE_PLACEHOLDER",
     "rating_overall": 7.5,
     "ratings": {
       "fees": 6,

@@ -18,7 +18,7 @@ import { cookies } from "next/headers";
 import { createHmac, timingSafeEqual } from "crypto";
 
 export const ADMIN_COOKIE = "vh_admin_session";
-const HMAC_KEY = "vivahale-admin-session-v1";
+const HMAC_KEY = "firsthand-admin-session-v1";
 
 export type AuthMode = "configured" | "dev-open" | "prod-blocked";
 

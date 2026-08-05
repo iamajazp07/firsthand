@@ -3,23 +3,38 @@
 import { useState } from "react";
 import Link from "next/link";
 import Logo from "@/components/Logo";
-import { NAV_CATEGORIES, NAV_PRIMARY_COUNT } from "@/lib/site";
 
 /**
  * Sticky news-style header: logo left, category nav center (first 6 + "More"
  * dropdown), Subscribe button right. Collapses to a hamburger menu on mobile.
+ *
+ * A client component, so it cannot read the request-scoped active vertical —
+ * the server layout passes branding and nav in as props. `verticalKey` prefixes
+ * every link so nav stays inside the current vertical (`/health/category/x`).
  */
-export default function Header() {
+export default function Header({
+  verticalKey,
+  brandName,
+  categories,
+  primaryCount,
+}: {
+  verticalKey: string;
+  brandName: string;
+  categories: Array<{ name: string; slug: string }>;
+  primaryCount: number;
+}) {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [moreOpen, setMoreOpen] = useState(false);
 
-  const primary = NAV_CATEGORIES.slice(0, NAV_PRIMARY_COUNT);
-  const more = NAV_CATEGORIES.slice(NAV_PRIMARY_COUNT);
+  // Portal pages live at the root; vertical pages are nested under /<key>.
+  const base = verticalKey === "portal" ? "" : `/${verticalKey}`;
+  const primary = categories.slice(0, primaryCount);
+  const more = categories.slice(primaryCount);
 
   return (
     <header className="sticky top-0 z-50 border-b-4 border-brand-navy bg-white shadow-sm">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
-        <Logo />
+        <Logo brandName={brandName} verticalKey={verticalKey} />
 
         {/* Desktop nav */}
         <nav
@@ -29,7 +44,7 @@ export default function Header() {
           {primary.map((c) => (
             <Link
               key={c.slug}
-              href={`/category/${c.slug}`}
+              href={`${base}/category/${c.slug}`}
               className="rounded px-2.5 py-1.5 text-sm font-medium text-brand-ink hover:bg-brand-mist hover:text-brand-navy"
             >
               {c.name}
@@ -68,7 +83,7 @@ export default function Header() {
                 {more.map((c) => (
                   <Link
                     key={c.slug}
-                    href={`/category/${c.slug}`}
+                    href={`${base}/category/${c.slug}`}
                     className="block px-4 py-2 text-sm text-brand-ink hover:bg-brand-mist hover:text-brand-navy"
                     onClick={() => setMoreOpen(false)}
                   >
@@ -83,7 +98,7 @@ export default function Header() {
         <div className="flex items-center gap-2">
           {/* Subscribe → homepage newsletter band anchor */}
           <Link
-            href="/#newsletter"
+            href={`${base}/#newsletter`}
             className="hidden rounded-md bg-brand-blue px-4 py-2 text-sm font-semibold text-white hover:bg-brand-navy sm:block"
           >
             Subscribe
@@ -131,10 +146,10 @@ export default function Header() {
           className="border-t border-brand-mist bg-white lg:hidden"
         >
           <div className="mx-auto max-w-7xl px-4 py-2 sm:px-6">
-            {NAV_CATEGORIES.map((c) => (
+            {categories.map((c) => (
               <Link
                 key={c.slug}
-                href={`/category/${c.slug}`}
+                href={`${base}/category/${c.slug}`}
                 className="block rounded px-2 py-2.5 text-sm font-medium text-brand-ink hover:bg-brand-mist hover:text-brand-navy"
                 onClick={() => setMobileOpen(false)}
               >
@@ -142,7 +157,7 @@ export default function Header() {
               </Link>
             ))}
             <Link
-              href="/#newsletter"
+              href={`${base}/#newsletter`}
               onClick={() => setMobileOpen(false)}
               className="mt-2 mb-3 block w-full rounded-md bg-brand-blue px-4 py-2 text-center text-sm font-semibold text-white"
             >
