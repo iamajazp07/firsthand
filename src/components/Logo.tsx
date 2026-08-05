@@ -1,31 +1,45 @@
 import Link from "next/link";
-import { SITE_NAME } from "@/lib/site";
+import LogoMark from "@/components/LogoMark";
 
 /**
- * Vivahale wordmark — text-based logo.
- * "Viva" in brand navy + "hale" in link blue, set in the serif headline face.
+ * Firsthand logo — the Ridgeline symbol followed by the wordmark.
+ * "First" in brand navy + "hand" in link blue, set in the serif headline face.
  *
- * Phase B: when the active vertical brands as "Vivahale <Suffix>" (e.g.
- * "Vivahale Health"), the suffix renders as a lighter companion word after the
- * wordmark, so the header reads naturally as "Vivahale Health". The apex portal
- * (SITE_NAME "Vivahale") shows the bare wordmark with no suffix.
+ * When the vertical brands as "Firsthand <Suffix>" (e.g. "Firsthand Health"),
+ * the suffix renders as a lighter companion word after the wordmark, so the
+ * header reads naturally as "Firsthand Health". The apex portal ("Firsthand")
+ * shows the bare wordmark with no suffix.
+ *
+ * Branding arrives as a prop because a single build now serves every vertical —
+ * it can no longer be read from a module constant. The logo links to the
+ * vertical's own home (`/health`), not the network root.
  */
-const BRAND_SUFFIX = SITE_NAME.replace(/^Vivahale\s*/i, "").trim();
+export default function Logo({
+  brandName,
+  verticalKey,
+  className = "",
+}: {
+  brandName: string;
+  verticalKey: string;
+  className?: string;
+}) {
+  const suffix = brandName.replace(/^Firsthand\s*/i, "").trim();
+  const href = verticalKey === "portal" ? "/" : `/${verticalKey}`;
 
-export default function Logo({ className = "" }: { className?: string }) {
   return (
     <Link
-      href="/"
-      aria-label={`${SITE_NAME} home`}
-      className={`flex items-baseline gap-1.5 font-serif text-2xl font-bold tracking-tight ${className}`}
+      href={href}
+      aria-label={`${brandName} home`}
+      className={`flex items-center gap-2 font-serif text-2xl font-bold tracking-tight ${className}`}
     >
+      <LogoMark className="h-7 w-7 shrink-0" />
       <span>
-        <span className="text-brand-navy">Viva</span>
-        <span className="text-brand-blue">hale</span>
+        <span className="text-brand-navy">First</span>
+        <span className="text-brand-blue">hand</span>
       </span>
-      {BRAND_SUFFIX && (
+      {suffix && (
         <span className="text-lg font-semibold text-brand-ink/70">
-          {BRAND_SUFFIX}
+          {suffix}
         </span>
       )}
     </Link>
