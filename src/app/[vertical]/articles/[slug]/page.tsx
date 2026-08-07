@@ -126,6 +126,12 @@ export default async function ArticlePage({
       "@type": "Organization",
       name: getVertical(verticalKey).name,
       url: SITE_URL,
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}/brand/icon-512.png`,
+        width: 512,
+        height: 512,
+      },
     },
     mainEntityOfPage: { "@type": "WebPage", "@id": pageUrl },
     citation: httpSources.map((s) => ({

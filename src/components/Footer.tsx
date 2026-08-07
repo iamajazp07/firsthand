@@ -1,4 +1,5 @@
 import Link from "next/link";
+import LogoMark from "@/components/LogoMark";
 import { getVertical } from "@/lib/verticals";
 
 /**
@@ -32,6 +33,13 @@ export default function Footer({ verticalKey }: { verticalKey: string }) {
   return (
     <footer className="bg-brand-navy text-white">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
+        {/* Brand line — reversed tone, since the footer sits on brand navy. */}
+        <div className="mb-10 flex items-center gap-2">
+          <LogoMark className="h-7 w-7 shrink-0" tone="reversed" />
+          <span className="font-serif text-2xl font-bold tracking-tight text-white">
+            First<span className="text-blue-300">hand</span>
+          </span>
+        </div>
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-3">
           {/* Categories — omitted for verticals without a category nav (portal). */}
           {categories.length > 0 && (

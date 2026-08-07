@@ -3,7 +3,7 @@
  *
  * Renders a clean 1200×630 branded card with next/og (ImageResponse / Satori):
  *   - white background, a navy top band + navy hairline border,
- *   - the "Firsthand" wordmark (Viva navy + hale blue),
+ *   - the Ridgeline mark + "Firsthand" wordmark, reversed on the navy band,
  *   - a small kind label (ANALYSIS / RANKINGS / REVIEW),
  *   - the title in large bold,
  *   - the readfirsthand.com host line.
@@ -25,6 +25,15 @@ const INK = "#1E293B";
 // Host line shown on the OG card, derived from the active vertical's SITE_URL
 // (health → health.readfirsthand.com) so cards match the canonical host.
 const OG_HOST = SITE_URL.replace(/^https?:\/\//, "");
+
+/**
+ * The Ridgeline mark, reversed (white arcs + pale blue rules) for the navy
+ * band. Inlined as a data URI because Satori cannot fetch relative URLs at
+ * render time and this route must keep working offline and in CI.
+ * Source: public/brand/firsthand-mark-reversed.svg — keep the two in sync.
+ */
+const MARK_REVERSED =
+  "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgZmlsbD0ibm9uZSI+CjxnIGZpbGw9Im5vbmUiIHN0cm9rZS13aWR0aD0iNi41IiBzdHJva2UtbGluZWNhcD0icm91bmQiPgo8cGF0aCBzdHJva2U9IiNGRkZGRkYiIGQ9Ik0xMi40LDU3LjggQTQwLDM2IDAgMSAxIDg3LjYsNTcuOCIvPgo8cGF0aCBzdHJva2U9IiNGRkZGRkYiIGQ9Ik0yMi43LDU0LjQgQTI5LDI2IDAgMSAxIDc3LjMsNTQuNCIvPgo8cGF0aCBzdHJva2U9IiNGRkZGRkYiIGQ9Ik0zMy4xLDUxIEExOCwxNiAwIDEgMSA2Ni45LDUxIi8+CjxwYXRoIHN0cm9rZT0iIzdGQjRGNSIgZD0iTTEwLDY5IEg5MCIvPgo8cGF0aCBzdHJva2U9IiM3RkI0RjUiIGQ9Ik0xMCw4MCBIOTAiLz4KPHBhdGggc3Ryb2tlPSIjN0ZCNEY1IiBkPSJNMTAsOTEgSDU4Ii8+PC9nPgo8L3N2Zz4K";
 
 type Kind = "article" | "hub" | "review";
 
@@ -70,13 +79,17 @@ export function GET(request: Request): ImageResponse {
             padding: "34px 56px",
           }}
         >
-          <div style={{ display: "flex", alignItems: "baseline" }}>
-            <span style={{ fontSize: 46, fontWeight: 700, color: "#FFFFFF" }}>
-              Viva
-            </span>
-            <span style={{ fontSize: 46, fontWeight: 700, color: "#8EC0FF" }}>
-              hale
-            </span>
+          <div style={{ display: "flex", alignItems: "center" }}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={MARK_REVERSED} width={58} height={58} alt="" />
+            <div style={{ display: "flex", alignItems: "baseline", marginLeft: 18 }}>
+              <span style={{ fontSize: 46, fontWeight: 700, color: "#FFFFFF" }}>
+                First
+              </span>
+              <span style={{ fontSize: 46, fontWeight: 700, color: "#8EC0FF" }}>
+                hand
+              </span>
+            </div>
           </div>
           <span
             style={{
@@ -86,7 +99,7 @@ export function GET(request: Request): ImageResponse {
               fontWeight: 600,
             }}
           >
-            HEALTH &amp; WELLNESS REVIEWS
+            INDEPENDENT REVIEWS &amp; RANKINGS
           </span>
         </div>
 

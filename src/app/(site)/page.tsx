@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import LogoMark from "@/components/LogoMark";
 import { VERTICALS, contentVerticals } from "@/lib/verticals";
 import { SITE_URL, verticalPath } from "@/lib/site";
 
@@ -73,6 +74,7 @@ export default function PortalPage() {
       {/* Hero */}
       <section className="border-b border-brand-mist bg-brand-mist/60">
         <div className="mx-auto max-w-5xl px-4 py-20 text-center sm:px-6 lg:py-28">
+          <LogoMark className="mx-auto mb-6 h-14 w-14" />
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-blue">
             The Firsthand network
           </p>

@@ -122,7 +122,17 @@ export default async function ReviewPage({
             url: `${SITE_URL}/authors/${author.slug}`,
           }
         : undefined,
-      publisher: { "@type": "Organization", name: getVertical(verticalKey).name, url: SITE_URL },
+      publisher: {
+        "@type": "Organization",
+        name: getVertical(verticalKey).name,
+        url: SITE_URL,
+        logo: {
+          "@type": "ImageObject",
+          url: `${SITE_URL}/brand/icon-512.png`,
+          width: 512,
+          height: 512,
+        },
+      },
       reviewRating: {
         "@type": "Rating",
         ratingValue: product.rating_overall,
