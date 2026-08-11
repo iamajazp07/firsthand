@@ -7,16 +7,19 @@ import {
   getReviewers,
 } from "@/lib/db";
 import { listPublishedArticles } from "@/lib/queue";
-import { SITE_URL, verticalUrl } from "@/lib/site";
+import { headers } from "next/headers";
+import { APEX_HOST, SITE_URL, hasOwnHost, verticalUrl } from "@/lib/site";
 import { VERTICALS, verticalHasTool, isContentVertical } from "@/lib/verticals";
 
 /**
- * ONE sitemap for the whole network.
+ * Per-HOST sitemap.
  *
- * Verticals used to be separate subdomain deployments, so each build emitted
- * its own sitemap for its own origin. They are now paths on a single origin, so
- * this file lists the portal, the shared policy pages, and every URL of all
- * five content verticals together.
+ * A sitemap may only list URLs on the host that serves it, so this route reads
+ * the request Host and emits the matching set:
+ *   health.readfirsthand.com/sitemap.xml → only Health URLs
+ *   readfirsthand.com/sitemap.xml        → portal, shared pages, and every
+ *                                          vertical still living on the apex
+ * Reading headers() also keeps this handler dynamic, which it already was.
  *
  * This route has no vertical of its own, so it walks the registry and passes
  * each vertical explicitly to the data layer. Uses the normal `@/lib/db` +
@@ -36,18 +39,31 @@ const SHARED_PAGES = [
 ];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const entries: MetadataRoute.Sitemap = [
-    // Apex brand portal.
-    { url: SITE_URL, changeFrequency: "weekly", priority: 1 },
-    ...SHARED_PAGES.map((path) => ({
-      url: `${SITE_URL}${path}`,
-      changeFrequency: "monthly" as const,
-      priority: 0.5,
-    })),
-  ];
+  const host = ((await headers()).get("host") ?? APEX_HOST)
+    .split(":")[0]
+    .trim()
+    .toLowerCase();
+  const isApex = host === APEX_HOST || host === `www.${APEX_HOST}`;
+
+  // The portal and the shared legal pages belong to the apex sitemap only.
+  const entries: MetadataRoute.Sitemap = isApex
+    ? [
+        { url: SITE_URL, changeFrequency: "weekly", priority: 1 },
+        ...SHARED_PAGES.map((path) => ({
+          url: `${SITE_URL}${path}`,
+          changeFrequency: "monthly" as const,
+          priority: 0.5,
+        })),
+      ]
+    : [];
 
   for (const vertical of Object.values(VERTICALS)) {
     if (!isContentVertical(vertical)) continue;
+    // Only list verticals served by THIS host.
+    const servedHere = hasOwnHost(vertical.key)
+      ? vertical.host.toLowerCase() === host
+      : isApex;
+    if (!servedHere) continue;
 
     const key = vertical.key;
     const url = (path: string) => verticalUrl(key, path);

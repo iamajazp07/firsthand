@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { vHref } from "@/lib/site";
 
 /**
  * Tasteful callout card linking to the sleep-supplement quiz. Shown on the
@@ -26,7 +27,7 @@ export default function SleepQuizCallout({
         </p>
       </div>
       <Link
-        href={`/${verticalKey}/quiz/sleep`}
+        href={vHref(verticalKey, `/quiz/sleep`)}
         className="shrink-0 rounded-md bg-brand-navy px-5 py-2.5 text-sm font-semibold text-white hover:bg-brand-blue"
       >
         Take the sleep quiz →

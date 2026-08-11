@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 
 import InitialsAvatar from "@/components/InitialsAvatar";
 import { getReviewerBySlug, getReviewers } from "@/lib/db";
-import { SITE_URL } from "@/lib/site";
+import { SITE_URL, verticalUrl } from "@/lib/site";
 
 /** Prerender every reviewer page at build time from the data layer. */
 export async function generateStaticParams({
@@ -28,7 +28,7 @@ export async function generateMetadata({
   return {
     title: reviewer.name,
     description: reviewer.bio,
-    alternates: { canonical: `/reviewers/${reviewer.slug}` },
+    alternates: { canonical: verticalUrl(verticalKey, `/reviewers/${reviewer.slug}`) },
   };
 }
 
@@ -50,7 +50,7 @@ export default async function ReviewerPage({
     "@type": "Organization",
     name: reviewer.name,
     description: reviewer.bio,
-    url: `${SITE_URL}/reviewers/${reviewer.slug}`,
+    url: verticalUrl(verticalKey, `/reviewers/${reviewer.slug}`),
   };
 
   return (

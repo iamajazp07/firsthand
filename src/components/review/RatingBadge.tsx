@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { CriterionRatings } from "@/lib/types";
 import { getVertical } from "@/lib/verticals";
+import { vHref } from "@/lib/site";
 
 /**
  * Score displays for reviewed products.
@@ -111,7 +112,7 @@ export function RatingBreakdown({
       <p className="mt-3 text-xs text-brand-ink/70">
         Scored per{" "}
         <Link
-          href={`/${verticalKey}/methodology`}
+          href={vHref(verticalKey, `/methodology`)}
           className="font-semibold text-brand-blue hover:underline"
         >
           our review methodology

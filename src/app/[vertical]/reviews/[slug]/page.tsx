@@ -26,7 +26,7 @@ import {
   getProductsByCategory,
   getReviewerBySlug,
 } from "@/lib/db";
-import { SITE_URL } from "@/lib/site";
+import { SITE_URL, vHref, verticalUrl } from "@/lib/site";
 import { ogImageUrl } from "@/lib/social";
 import { getVertical } from "@/lib/verticals";
 
@@ -55,11 +55,11 @@ export async function generateMetadata({
   return {
     title: ogTitle,
     description: product.verdict_summary.slice(0, 155),
-    alternates: { canonical: `/reviews/${product.slug}` },
+    alternates: { canonical: verticalUrl(verticalKey, `/reviews/${product.slug}`) },
     openGraph: {
       title: ogTitle,
       description: product.verdict_summary.slice(0, 155),
-      url: `${SITE_URL}/reviews/${product.slug}`,
+      url: verticalUrl(verticalKey, `/reviews/${product.slug}`),
       images: [
         {
           url: ogImageUrl(ogTitle, "review"),
@@ -261,7 +261,7 @@ export default async function ReviewPage({
               {" "}
               See where it lands in the full ranking:{" "}
               <Link
-                href={`/${verticalKey}/best/${hub.slug}`}
+                href={vHref(verticalKey, `/best/${hub.slug}`)}
                 className="font-semibold text-brand-blue hover:underline"
               >
                 {hub.title}
@@ -275,7 +275,7 @@ export default async function ReviewPage({
             {alternatives.map((alt) => (
               <li key={alt.id}>
                 <Link
-                  href={`/${verticalKey}/reviews/${alt.slug}`}
+                  href={vHref(verticalKey, `/reviews/${alt.slug}`)}
                   className="font-semibold text-brand-blue hover:underline"
                 >
                   {alt.name} review

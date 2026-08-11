@@ -24,7 +24,7 @@ import {
   getProductBySlug,
   getReviewerBySlug,
 } from "@/lib/db";
-import { SITE_URL } from "@/lib/site";
+import { SITE_URL, vHref, verticalUrl } from "@/lib/site";
 import { ogImageUrl } from "@/lib/social";
 import { getVertical } from "@/lib/verticals";
 
@@ -51,11 +51,11 @@ export async function generateMetadata({
   return {
     title: hub.title,
     description: hub.answer_block.slice(0, 155),
-    alternates: { canonical: `/best/${hub.slug}` },
+    alternates: { canonical: verticalUrl(verticalKey, `/best/${hub.slug}`) },
     openGraph: {
       title: hub.title,
       description: hub.answer_block.slice(0, 155),
-      url: `${SITE_URL}/best/${hub.slug}`,
+      url: verticalUrl(verticalKey, `/best/${hub.slug}`),
       images: [
         {
           url: ogImageUrl(hub.title, "hub"),
@@ -190,7 +190,7 @@ export default async function HubPage({
           scores or rank order; rates and fees are cited to each provider&apos;s
           official disclosures with an as-of date.{" "}
           <Link
-            href={`/${verticalKey}/methodology`}
+            href={vHref(verticalKey, `/methodology`)}
             className="font-semibold text-brand-blue hover:underline"
           >
             Read our full methodology.
@@ -209,7 +209,7 @@ export default async function HubPage({
           a primary source with an as-of date. Affiliate commissions never affect
           scores or rank order.{" "}
           <Link
-            href={`/${verticalKey}/methodology`}
+            href={vHref(verticalKey, `/methodology`)}
             className="font-semibold text-brand-blue hover:underline"
           >
             Read our full methodology.
@@ -228,7 +228,7 @@ export default async function HubPage({
           primary source with an as-of date; self-reported outcomes are labeled
           as such. Affiliate commissions never affect scores or rank order.{" "}
           <Link
-            href={`/${verticalKey}/methodology`}
+            href={vHref(verticalKey, `/methodology`)}
             className="font-semibold text-brand-blue hover:underline"
           >
             Read our full methodology.
@@ -248,7 +248,7 @@ export default async function HubPage({
           is compared on published plan structure. Affiliate commissions never
           affect scores or rank order.{" "}
           <Link
-            href={`/${verticalKey}/methodology`}
+            href={vHref(verticalKey, `/methodology`)}
             className="font-semibold text-brand-blue hover:underline"
           >
             Read our full methodology.
@@ -263,7 +263,7 @@ export default async function HubPage({
           (30%), Evidence (30%), Cost &amp; Value (20%), Transparency (10%), and
           Support (10%). Commissions never affect scores or rank order.{" "}
           <Link
-            href={`/${verticalKey}/methodology`}
+            href={vHref(verticalKey, `/methodology`)}
             className="font-semibold text-brand-blue hover:underline"
           >
             Read our full methodology.
@@ -320,7 +320,7 @@ export default async function HubPage({
               </ul>
               <p className="mt-3">
                 <Link
-                  href={`/${verticalKey}/reviews/${p.slug}`}
+                  href={vHref(verticalKey, `/reviews/${p.slug}`)}
                   className="text-sm font-semibold text-brand-blue hover:underline"
                 >
                   Read full review →

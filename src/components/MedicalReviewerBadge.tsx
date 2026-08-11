@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Reviewer } from "@/lib/types";
+import { vHref } from "@/lib/site";
 
 /**
  * "Fact-checked by …" badge for health content, with a shield-check
@@ -52,7 +53,7 @@ export default function MedicalReviewerBadge({
         <span>
           Fact-checked by{" "}
           <Link
-            href={`/${verticalKey}/reviewers/${reviewer.slug}`}
+            href={vHref(verticalKey, `/reviewers/${reviewer.slug}`)}
             className="font-semibold text-brand-navy hover:text-brand-blue hover:underline"
           >
             {reviewer.name}

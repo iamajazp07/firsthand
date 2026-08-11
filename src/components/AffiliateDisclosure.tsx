@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getVertical } from "@/lib/verticals";
+import { sharedHref } from "@/lib/site";
 
 /**
  * Compact, always-visible monetization disclosure banner for monetized pages.
@@ -28,7 +29,7 @@ export default function AffiliateDisclosure({
     >
       {disclosureBody}{" "}
       <Link
-        href="/affiliate-disclosure"
+        href={sharedHref(verticalKey, "/affiliate-disclosure")}
         className="font-semibold text-brand-blue hover:underline"
       >
         Learn how we make money.

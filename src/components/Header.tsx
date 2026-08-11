@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Logo from "@/components/Logo";
+import { vHref } from "@/lib/site";
 
 /**
  * Sticky news-style header: logo left, category nav center (first 6 + "More"
@@ -27,7 +28,7 @@ export default function Header({
   const [moreOpen, setMoreOpen] = useState(false);
 
   // Portal pages live at the root; vertical pages are nested under /<key>.
-  const base = verticalKey === "portal" ? "" : `/${verticalKey}`;
+  const base = verticalKey === "portal" ? "" : vHref(verticalKey);
   const primary = categories.slice(0, primaryCount);
   const more = categories.slice(primaryCount);
 

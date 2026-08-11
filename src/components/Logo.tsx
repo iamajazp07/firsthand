@@ -1,5 +1,6 @@
 import Link from "next/link";
 import LogoMark from "@/components/LogoMark";
+import { vHref } from "@/lib/site";
 
 /**
  * Firsthand logo — the Ridgeline symbol followed by the wordmark.
@@ -24,7 +25,7 @@ export default function Logo({
   className?: string;
 }) {
   const suffix = brandName.replace(/^Firsthand\s*/i, "").trim();
-  const href = verticalKey === "portal" ? "/" : `/${verticalKey}`;
+  const href = verticalKey === "portal" ? "/" : vHref(verticalKey);
 
   return (
     <Link

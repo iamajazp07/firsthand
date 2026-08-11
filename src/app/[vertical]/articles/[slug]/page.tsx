@@ -17,7 +17,7 @@ import {
 } from "@/lib/db";
 import { renderMarkdown } from "@/lib/markdown";
 import { getPublishedArticleBySlug } from "@/lib/queue";
-import { SITE_URL } from "@/lib/site";
+import { SITE_URL, verticalUrl } from "@/lib/site";
 import { ogImageUrl } from "@/lib/social";
 import { getVertical } from "@/lib/verticals";
 
@@ -48,12 +48,12 @@ export async function generateMetadata({
   return {
     title: article.title,
     description: article.answer_block.slice(0, 155),
-    alternates: { canonical: `/articles/${article.slug}` },
+    alternates: { canonical: verticalUrl(verticalKey, `/articles/${article.slug}`) },
     openGraph: {
       title: article.title,
       description: article.answer_block.slice(0, 155),
       type: "article",
-      url: `${SITE_URL}/articles/${article.slug}`,
+      url: verticalUrl(verticalKey, `/articles/${article.slug}`),
       images: [
         {
           url: ogImageUrl(article.title, "article"),

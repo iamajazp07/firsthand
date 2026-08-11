@@ -9,7 +9,7 @@ import {
   getAuthors,
   getCategories,
 } from "@/lib/db";
-import { SITE_URL } from "@/lib/site";
+import { SITE_URL, verticalUrl } from "@/lib/site";
 
 /** Prerender every author page at build time from the data layer. */
 export async function generateStaticParams({
@@ -34,7 +34,7 @@ export async function generateMetadata({
   return {
     title: author.name,
     description: author.bio,
-    alternates: { canonical: `/authors/${author.slug}` },
+    alternates: { canonical: verticalUrl(verticalKey, `/authors/${author.slug}`) },
   };
 }
 
@@ -60,7 +60,7 @@ export default async function AuthorPage({
     name: author.name,
     jobTitle: "Health Research Analyst",
     description: author.bio,
-    url: `${SITE_URL}/authors/${author.slug}`,
+    url: verticalUrl(verticalKey, `/authors/${author.slug}`),
   };
 
   return (

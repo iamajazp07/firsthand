@@ -66,28 +66,28 @@ export async function GET(
 
   const hubItems: FeedItem[] = hubs.map((h) => ({
     title: h.title,
-    link: `${`/${verticalKey}`}/best/${h.slug}`,
+    link: verticalUrl(verticalKey, `/best/${h.slug}`),
     description: excerpt(h.answer_block),
     pubDate: toPubDate(h.last_updated),
-    guid: `${`/${verticalKey}`}/best/${h.slug}`,
+    guid: verticalUrl(verticalKey, `/best/${h.slug}`),
   }));
 
   const productItems: FeedItem[] = products.map((p) => ({
     title: `${p.name} Review`,
-    link: `${`/${verticalKey}`}/reviews/${p.slug}`,
+    link: verticalUrl(verticalKey, `/reviews/${p.slug}`),
     description: excerpt(p.summary),
     pubDate: toPubDate(p.last_updated),
-    guid: `${`/${verticalKey}`}/reviews/${p.slug}`,
+    guid: verticalUrl(verticalKey, `/reviews/${p.slug}`),
   }));
 
   // Published editorial articles (education | reddit_roundup | news), appended
   // to the existing hub + spoke items, newest-published first.
   const articleItems: FeedItem[] = articles.map((a) => ({
     title: a.title,
-    link: `${`/${verticalKey}`}/articles/${a.slug}`,
+    link: verticalUrl(verticalKey, `/articles/${a.slug}`),
     description: excerpt(a.answer_block),
     pubDate: toPubDate(a.published_at ?? a.updated_at),
-    guid: `${`/${verticalKey}`}/articles/${a.slug}`,
+    guid: verticalUrl(verticalKey, `/articles/${a.slug}`),
   }));
 
   // Hubs first, then spokes newest-updated first, then editorial articles.
@@ -120,7 +120,7 @@ export async function GET(
   <channel>
     <title>${escapeXml(vertical.name)}</title>
     <link>${escapeXml(base)}</link>
-    <atom:link href="${escapeXml(`${`/${verticalKey}`}/feed.xml`)}" rel="self" type="application/rss+xml" />
+    <atom:link href="${escapeXml(verticalUrl(verticalKey, `/feed.xml`))}" rel="self" type="application/rss+xml" />
     <description>${escapeXml(vertical.description)}</description>
     <language>en-us</language>
     <lastBuildDate>${lastBuildDate}</lastBuildDate>

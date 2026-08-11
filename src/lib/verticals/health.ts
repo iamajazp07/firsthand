@@ -22,7 +22,10 @@ export const health: Vertical = {
   // brands as "Firsthand Health" (was bare "Firsthand" on the apex). tagline /
   // description keep the same health-focused copy.
   name: "Firsthand Health",
-  host: "readfirsthand.com",
+  // Health lives on its own subdomain, unlike the other verticals. It is YMYL
+  // content, so a manual action or quality demotion here is contained to this
+  // host instead of reaching money/tech/education/travel on the apex.
+  host: "health.readfirsthand.com",
   tagline: "Independent Health & Wellness Reviews",
   description:
     "Firsthand is an independent health & wellness review site. We analyze clinical research to rank supplements, telehealth providers, and health products — clearly and without hype.",

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getVertical } from "@/lib/verticals";
-import { verticalUrl } from "@/lib/site";
+import { sharedHref, verticalUrl } from "@/lib/site";
 
 export async function generateMetadata({
   params,
@@ -187,7 +187,7 @@ export default async function MethodologyPage({
             considered. Whether a link earns a commission has no input into
             any criterion.{" "}
             <Link
-              href="/affiliate-disclosure"
+              href={sharedHref(verticalKey, "/affiliate-disclosure")}
               className="font-semibold text-brand-blue hover:underline"
             >
               Read our full affiliate disclosure.
@@ -207,7 +207,7 @@ export default async function MethodologyPage({
             Our editorial team checks health claims against their cited sources
             before a monetized health page is published. See our{" "}
             <Link
-              href="/editorial-policy"
+              href={sharedHref(verticalKey, "/editorial-policy")}
               className="font-semibold text-brand-blue hover:underline"
             >
               editorial policy
@@ -382,7 +382,7 @@ function MoneyMethodology({ verticalKey }: { verticalKey: string }) {
             considered. Whether a link earns compensation has no input into any
             criterion.{" "}
             <Link
-              href="/affiliate-disclosure"
+              href={sharedHref(verticalKey, "/affiliate-disclosure")}
               className="font-semibold text-brand-blue hover:underline"
             >
               Read our full advertiser disclosure.
@@ -405,7 +405,7 @@ function MoneyMethodology({ verticalKey }: { verticalKey: string }) {
             licensed financial advisor; this is editorial fact-checking, not
             professional advice. See our{" "}
             <Link
-              href="/editorial-policy"
+              href={sharedHref(verticalKey, "/editorial-policy")}
               className="font-semibold text-brand-blue hover:underline"
             >
               editorial policy
@@ -585,7 +585,7 @@ function TechMethodology({ verticalKey }: { verticalKey: string }) {
             Scoring is completed against the rubric before monetization is
             considered.{" "}
             <Link
-              href="/affiliate-disclosure"
+              href={sharedHref(verticalKey, "/affiliate-disclosure")}
               className="font-semibold text-brand-blue hover:underline"
             >
               Read our full affiliate disclosure.
@@ -608,7 +608,7 @@ function TechMethodology({ verticalKey }: { verticalKey: string }) {
             is documentation analysis and editorial fact-checking, not a hands-on
             test. See our{" "}
             <Link
-              href="/editorial-policy"
+              href={sharedHref(verticalKey, "/editorial-policy")}
               className="font-semibold text-brand-blue hover:underline"
             >
               editorial policy
@@ -793,7 +793,7 @@ function EducationMethodology({ verticalKey }: { verticalKey: string }) {
             Scoring is completed against the rubric before monetization is
             considered.{" "}
             <Link
-              href="/affiliate-disclosure"
+              href={sharedHref(verticalKey, "/affiliate-disclosure")}
               className="font-semibold text-brand-blue hover:underline"
             >
               Read our full affiliate disclosure.
@@ -817,7 +817,7 @@ function EducationMethodology({ verticalKey }: { verticalKey: string }) {
             documentation analysis and editorial fact-checking, not an audit or a
             survey. See our{" "}
             <Link
-              href="/editorial-policy"
+              href={sharedHref(verticalKey, "/editorial-policy")}
               className="font-semibold text-brand-blue hover:underline"
             >
               editorial policy
@@ -1014,7 +1014,7 @@ function TravelMethodology({ verticalKey }: { verticalKey: string }) {
             Scoring is completed against the rubric before monetization is
             considered.{" "}
             <Link
-              href="/affiliate-disclosure"
+              href={sharedHref(verticalKey, "/affiliate-disclosure")}
               className="font-semibold text-brand-blue hover:underline"
             >
               Read our full affiliate disclosure.
@@ -1039,7 +1039,7 @@ function TravelMethodology({ verticalKey }: { verticalKey: string }) {
             partial-reimbursement cap — we state the condition instead of
             presenting the headline benefit alone. See our{" "}
             <Link
-              href="/editorial-policy"
+              href={sharedHref(verticalKey, "/editorial-policy")}
               className="font-semibold text-brand-blue hover:underline"
             >
               editorial policy

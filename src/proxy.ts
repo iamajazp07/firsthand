@@ -19,6 +19,7 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import { createHmac, timingSafeEqual } from "crypto";
+import { VERTICALS } from "@/lib/verticals";
 
 // Mirror of src/lib/admin-auth.ts (kept in sync by hand — both are tiny).
 const ADMIN_COOKIE = "vh_admin_session";
@@ -85,12 +86,54 @@ function adminGate(request: NextRequest): NextResponse {
  * Request proxy — now a single responsibility: the /admin auth gate.
  *
  * Host-based vertical resolution and the apex `/` → `/portal` rewrite are GONE.
- * Verticals are path segments (`/health`, `/money`, …) on one origin, so the
- * active vertical comes from the `[vertical]` route param and the portal is a
- * real page at `/`. Nothing needs to be derived from the Host header any more.
+ * Most verticals are path segments (`/money`, `/tech`, …) on the apex, so their
+ * active vertical comes from the `[vertical]` route param. Health is different:
+ * it serves from health.readfirsthand.com, so this proxy maps that host onto the
+ * internal `/health/*` routes and 301s the retired apex paths to it.
  */
+
+/**
+ * Apex origin, mirroring src/lib/site.ts. Kept as a local constant rather than
+ * an import for the same reason the admin constants above are: this module is
+ * deliberately dependency-light.
+ */
+const SITE_URL = (
+  process.env.NEXT_PUBLIC_SITE_URL || "https://readfirsthand.com"
+).replace(/\/+$/, "");
+const APEX_HOST = new URL(SITE_URL).host;
+
+/**
+ * Verticals served from their own subdomain: request host → vertical key.
+ * Derived from the registry (which is Next-free by design, so it is safe to
+ * import here) so adding a `host` to a vertical config is the only edit needed.
+ */
+const HOST_VERTICALS: Record<string, string> = Object.fromEntries(
+  Object.values(VERTICALS)
+    .filter((v) => v.key !== "portal" && v.host && v.host !== APEX_HOST)
+    .map((v) => [v.host.toLowerCase(), v.key]),
+);
+
+/**
+ * Network-wide pages with exactly one canonical copy, on the apex. Requested on
+ * a vertical's subdomain they would resolve to `/health/about` and 404, so send
+ * the reader to the apex copy instead of duplicating them per host.
+ */
+const APEX_ONLY_PATHS = new Set([
+  "/about",
+  "/editorial-policy",
+  "/affiliate-disclosure",
+  "/contact",
+  "/privacy",
+  "/terms",
+]);
+
+/** Host header minus any port, lowercased. */
+function hostnameOf(request: NextRequest): string {
+  return (request.headers.get("host") ?? "").split(":")[0].trim().toLowerCase();
+}
+
 export function proxy(request: NextRequest): NextResponse {
-  const { pathname } = request.nextUrl;
+  const { pathname, search } = request.nextUrl;
 
   // Admin surfaces run through the unchanged auth gate. The conditions below
   // reproduce the original matcher semantics exactly ("/admin", "/admin/*",
@@ -106,10 +149,54 @@ export function proxy(request: NextRequest): NextResponse {
     return adminGate(request);
   }
 
+  const hostname = hostnameOf(request);
+  const hostVertical = HOST_VERTICALS[hostname];
+
+  if (hostVertical) {
+    // --- On a vertical's own subdomain -------------------------------------
+    // Shared legal pages and the admin console live on the apex only.
+    if (APEX_ONLY_PATHS.has(pathname)) {
+      return NextResponse.redirect(new URL(`${pathname}${search}`, SITE_URL), 301);
+    }
+
+    // Already-prefixed paths are the retired shape; drop the prefix so the
+    // subdomain never serves the same page at two URLs.
+    if (
+      pathname === `/${hostVertical}` ||
+      pathname.startsWith(`/${hostVertical}/`)
+    ) {
+      const stripped = pathname.slice(`/${hostVertical}`.length) || "/";
+      return NextResponse.redirect(
+        new URL(`${stripped}${search}`, request.nextUrl.origin),
+        301,
+      );
+    }
+
+    // Everything else maps onto the internal [vertical] routes. The URL in the
+    // address bar is untouched — this is a rewrite, not a redirect.
+    const target = pathname === "/" ? `/${hostVertical}` : `/${hostVertical}${pathname}`;
+    return NextResponse.rewrite(new URL(`${target}${search}`, request.nextUrl.origin));
+  }
+
+  // --- On the apex ----------------------------------------------------------
+  // A vertical that has moved to its own host must not still answer here, or
+  // the same page exists at two URLs. Send its old paths to the new home.
+  for (const [host, key] of Object.entries(HOST_VERTICALS)) {
+    if (pathname === `/${key}` || pathname.startsWith(`/${key}/`)) {
+      const rest = pathname.slice(`/${key}`.length) || "/";
+      return NextResponse.redirect(
+        new URL(`${rest}${search}`, `https://${host}`),
+        301,
+      );
+    }
+  }
+
   return NextResponse.next();
 }
 
 export const config = {
-  // Only admin surfaces need the proxy now that vertical resolution is routing.
-  matcher: ["/admin", "/admin/:path*", "/api/admin", "/api/admin/:path*"],
+  // Runs on everything except Next internals and static assets, because host
+  // routing has to see ordinary page requests — not just /admin as before.
+  // Without this exclusion the rewrite would also catch /_next/* and break CSS.
+  matcher: ["/((?!_next/static|_next/image|favicon.ico|.*\\.[\\w]+$).*)"],
 };

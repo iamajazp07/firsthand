@@ -1,33 +1,38 @@
 import Link from "next/link";
 import LogoMark from "@/components/LogoMark";
 import { getVertical } from "@/lib/verticals";
-
-/**
- * Network-wide policy pages — one copy, shared by every vertical, living at the
- * site root. (Before path-based routing these were per-subdomain, and the portal
- * had to deep-link into health.readfirsthand.com for them.)
- */
-const LEGAL_LINKS = [
-  { name: "Privacy", href: "/privacy" },
-  { name: "Terms", href: "/terms" },
-  { name: "Affiliate Disclosure", href: "/affiliate-disclosure" },
-];
+import { sharedHref, vHref } from "@/lib/site";
 
 export default function Footer({ verticalKey }: { verticalKey: string }) {
   const vertical = getVertical(verticalKey);
   const isPortal = verticalKey === "portal";
-  const base = isPortal ? "" : `/${verticalKey}`;
+  const base = isPortal ? "" : vHref(verticalKey);
   const categories = vertical.navCategories;
+
+  /**
+   * Network-wide policy pages — one canonical copy each, on the apex. These
+   * have to be built per-render rather than at module scope: a vertical on its
+   * own subdomain (Health) needs them as absolute apex URLs, since a
+   * root-relative `/privacy` would 404 on that host.
+   */
+  const legalLinks = [
+    { name: "Privacy", href: sharedHref(verticalKey, "/privacy") },
+    { name: "Terms", href: sharedHref(verticalKey, "/terms") },
+    {
+      name: "Affiliate Disclosure",
+      href: sharedHref(verticalKey, "/affiliate-disclosure"),
+    },
+  ];
 
   // Methodology documents THIS vertical's rating criteria, so it is
   // vertical-scoped; the rest are network-wide and live at the root.
   const companyLinks = [
-    { name: "About", href: "/about" },
-    { name: "Editorial Policy", href: "/editorial-policy" },
+    { name: "About", href: sharedHref(verticalKey, "/about") },
+    { name: "Editorial Policy", href: sharedHref(verticalKey, "/editorial-policy") },
     ...(isPortal
       ? []
       : [{ name: "Methodology", href: `${base}/methodology` }]),
-    { name: "Contact", href: "/contact" },
+    { name: "Contact", href: sharedHref(verticalKey, "/contact") },
   ];
 
   return (
@@ -87,7 +92,7 @@ export default function Footer({ verticalKey }: { verticalKey: string }) {
               Legal
             </h2>
             <ul className="space-y-2">
-              {LEGAL_LINKS.map((l) => (
+              {legalLinks.map((l) => (
                 <li key={l.href}>
                   <Link
                     href={l.href}

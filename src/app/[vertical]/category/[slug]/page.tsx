@@ -14,6 +14,7 @@ import {
 } from "@/lib/db";
 import { listPublishedArticlesByCategory } from "@/lib/queue";
 import { getVertical } from "@/lib/verticals";
+import { vHref, verticalUrl } from "@/lib/site";
 
 /**
  * Category pages are dynamic so newly PUBLISHED queue articles (which appear
@@ -44,7 +45,7 @@ export async function generateMetadata({
   return {
     title: category.name,
     description: category.description,
-    alternates: { canonical: `/category/${category.slug}` },
+    alternates: { canonical: verticalUrl(verticalKey, `/category/${category.slug}`) },
   };
 }
 
@@ -120,7 +121,7 @@ export default async function CategoryPage({
                 title={h.title}
                 category={category.name}
                 blurb={h.intro_mdx_or_text.split(". ").slice(0, 2).join(". ") + "."}
-                href={`/${verticalKey}/best/${h.slug}`}
+                href={vHref(verticalKey, `/best/${h.slug}`)}
               />
             ))}
           </div>
@@ -142,7 +143,7 @@ export default async function CategoryPage({
                 <div className="flex items-start justify-between gap-3">
                   <h3 className="font-serif text-lg font-bold leading-snug text-brand-navy">
                     <Link
-                      href={`/${verticalKey}/reviews/${p.slug}`}
+                      href={vHref(verticalKey, `/reviews/${p.slug}`)}
                       className="hover:underline"
                     >
                       {p.name} Review
@@ -180,7 +181,7 @@ export default async function CategoryPage({
                     <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
                       <h3 className="font-serif text-xl font-bold leading-snug text-brand-navy">
                         <Link
-                          href={`/${verticalKey}/articles/${a.slug}`}
+                          href={vHref(verticalKey, `/articles/${a.slug}`)}
                           className="hover:underline"
                         >
                           {a.title}
@@ -199,7 +200,7 @@ export default async function CategoryPage({
                       {oneLine(a.answer_block)}
                     </p>
                     <p className="mt-2 text-sm font-semibold text-brand-blue">
-                      <Link href={`/${verticalKey}/articles/${a.slug}`}>Read the analysis →</Link>
+                      <Link href={vHref(verticalKey, `/articles/${a.slug}`)}>Read the analysis →</Link>
                     </p>
                   </li>
                 ))}
@@ -222,7 +223,7 @@ export default async function CategoryPage({
                           "…"
                         : a.answer_block
                     }
-                    href={`/${verticalKey}/articles/${a.slug}`}
+                    href={vHref(verticalKey, `/articles/${a.slug}`)}
                   />
                 ))}
               </div>

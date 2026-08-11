@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { SITE_URL } from "@/lib/site";
 
 type Status = "idle" | "loading" | "success" | "error";
 
@@ -158,7 +159,7 @@ export default function EmailSignup({
 
       <p className={noteClasses}>
         We never sell your email. Unsubscribe anytime. See our{" "}
-        <Link href="/privacy" className={privacyLinkClasses}>
+        <Link href={`${SITE_URL}/privacy`} className={privacyLinkClasses}>
           privacy policy
         </Link>
         .

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import InitialsAvatar from "@/components/InitialsAvatar";
 import type { Author } from "@/lib/types";
+import { vHref } from "@/lib/site";
 
 /**
  * Compact author byline for article pages: small avatar + "By {name}"
@@ -22,7 +23,7 @@ export default function AuthorByline({
       <span className="text-sm text-brand-ink/80">
         By{" "}
         <Link
-          href={`/${verticalKey}/authors/${author.slug}`}
+          href={vHref(verticalKey, `/authors/${author.slug}`)}
           className="font-semibold text-brand-navy hover:text-brand-blue hover:underline"
         >
           {author.name}

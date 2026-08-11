@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import Breadcrumbs from "@/components/review/Breadcrumbs";
 import SleepQuiz, { type QuizProduct } from "@/components/quiz/SleepQuiz";
 import { getProductsByCategory } from "@/lib/db";
-import { verticalUrl } from "@/lib/site";
+import { vHref, verticalUrl } from "@/lib/site";
 import { getVertical, verticalHasTool } from "@/lib/verticals";
 
 export async function generateMetadata({
@@ -76,7 +76,7 @@ export default async function SleepQuizPage({
       </header>
 
       <section className="mt-8 rounded-xl border border-brand-mist bg-white p-5 shadow-sm sm:p-8">
-        <SleepQuiz products={quizProducts} basePath={`/${verticalKey}`} />
+        <SleepQuiz products={quizProducts} basePath={vHref(verticalKey)} />
       </section>
     </div>
   );

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import LogoMark from "@/components/LogoMark";
 import { VERTICALS, contentVerticals } from "@/lib/verticals";
-import { SITE_URL, verticalPath } from "@/lib/site";
+import { SITE_URL, verticalEntryHref, verticalUrl } from "@/lib/site";
 
 /**
  * The readfirsthand.com brand portal — a lightweight hub that introduces the Firsthand
@@ -56,8 +56,10 @@ const websiteJsonLd = {
  */
 function cardLink(key: string): { url: string; label: string } {
   return {
-    url: verticalPath(key),
-    label: `${SITE_URL.replace(/^https?:\/\//, "")}/${key}`,
+    url: verticalEntryHref(key),
+    // Derive the label from the real URL so a vertical on its own subdomain
+    // advertises "health.readfirsthand.com", not "readfirsthand.com/health".
+    label: verticalUrl(key).replace(/^https?:\/\//, ""),
   };
 }
 

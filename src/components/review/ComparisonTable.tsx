@@ -2,6 +2,7 @@ import Link from "next/link";
 import RatingBadge from "@/components/review/RatingBadge";
 import { AFFILIATE_REL, affiliateHref, isAffiliatePlaceholder } from "@/lib/affiliate";
 import type { Product } from "@/lib/types";
+import { vHref } from "@/lib/site";
 
 /**
  * Ranked comparison table for hub pages. Products must already be in rank
@@ -57,7 +58,7 @@ export default function ComparisonTable({
               </td>
               <td className="px-4 py-3">
                 <Link
-                  href={`/${verticalKey}/reviews/${p.slug}`}
+                  href={vHref(verticalKey, `/reviews/${p.slug}`)}
                   className="font-semibold text-brand-navy hover:text-brand-blue hover:underline"
                 >
                   {p.name}
@@ -92,7 +93,7 @@ export default function ComparisonTable({
                     </a>
                   )}
                   <Link
-                    href={`/${verticalKey}/reviews/${p.slug}`}
+                    href={vHref(verticalKey, `/reviews/${p.slug}`)}
                     className="inline-block rounded border border-brand-blue px-3 py-1.5 text-center text-xs font-semibold text-brand-blue transition-colors hover:bg-brand-mist"
                   >
                     Read review
