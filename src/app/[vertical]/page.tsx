@@ -4,7 +4,8 @@ import RankingCard from "@/components/RankingCard";
 import NewsletterBand from "@/components/NewsletterBand";
 import { getArticles, getAuthors, getCategories } from "@/lib/db";
 import { brandFor } from "@/lib/site";
-import { getVertical } from "@/lib/verticals";
+import { getVertical, isVerticalKey } from "@/lib/verticals";
+import { notFound } from "next/navigation";
 
 export async function generateMetadata({
   params,
@@ -12,6 +13,9 @@ export async function generateMetadata({
   params: Promise<{ vertical: string }>;
 }) {
   const { vertical: key } = await params;
+  // brandFor throws on an unknown key, and metadata runs before the component
+  // has a chance to 404, so the guard has to be here too.
+  if (!isVerticalKey(key) || key === "portal") return {};
   const brand = brandFor(key);
   return { title: { absolute: `${brand.name} — ${brand.tagline}` } };
 }
@@ -24,6 +28,12 @@ export default async function HomePage({
   // Pages render in parallel with layouts, so each scopes itself rather than
   // relying on the [vertical] layout having run first.
   const { vertical: verticalKey } = await params;
+
+  // Reject unknown segments before touching the data layer. The layout does the
+  // same check, but layouts and pages render in parallel, so relying on the
+  // layout to have 404'd first is a race: getVertical throws, and a thrown
+  // error is a 500 where this should be a 404.
+  if (!isVerticalKey(verticalKey) || verticalKey === "portal") notFound();
 
   // Homepage static content (hero fallback, trust bullets, top rankings,
   // placeholders, browse-all link) is per-vertical config. For Health these

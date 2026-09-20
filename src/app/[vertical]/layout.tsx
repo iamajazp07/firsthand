@@ -27,7 +27,19 @@ export function generateStaticParams() {
     .map((vertical) => ({ vertical }));
 }
 
-export const dynamicParams = false;
+/**
+ * Unknown segments are handled by this layout's own notFound() call, not by the
+ * router refusing to render them.
+ *
+ * With dynamicParams = false the router rejected any segment missing from
+ * generateStaticParams before rendering started, and threw NoFallbackError to
+ * do it. The visitor still got a 404, but the throw was logged as an internal
+ * error on every junk URL, which on a site that gets scanned constantly meant
+ * hundreds of errors a week and a real 404 was indistinguishable from a fault.
+ * It also made the notFound() below unreachable for the exact case it was
+ * written for.
+ */
+export const dynamicParams = true;
 
 export async function generateMetadata({
   params,
