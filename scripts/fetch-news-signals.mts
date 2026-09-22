@@ -39,6 +39,8 @@ import { promises as fs } from "fs";
 import path from "path";
 import { createHash } from "crypto";
 
+import { appendNews, newsStatePath, type NewsItem } from "../src/lib/news.ts";
+
 // ---------------------------------------------------------------------------
 // Types & paths
 // ---------------------------------------------------------------------------
@@ -49,6 +51,10 @@ interface FeedConfig {
   url: string;
   category_slug: string;
   format?: "rss" | "atom";
+  /** ISO-ish country/bloc tag for the issuing authority ("US", "GB", "EU", "IN", "AU", "global"). */
+  country?: string;
+  /** Which vertical registry this feed was loaded from. Set by loadAllFeeds(). */
+  vertical?: string;
   enabled: boolean;
   blocked_from_env?: boolean;
   note?: string;
@@ -59,6 +65,8 @@ interface Signal {
   feed_id: string;
   feed_name: string;
   category_slug: string;
+  vertical: string;
+  country: string;
   title: string;
   link: string;
   pubDate: string;
@@ -70,15 +78,50 @@ interface SeenStore {
   seen: Record<string, { feed_id: string; title: string; seen_at: string }>;
 }
 
-const FEEDS_FILE = path.join(
-  process.cwd(),
-  "src",
-  "data",
-  "health",
-  "news-feeds.json",
-);
+const VERTICALS = ["health", "money", "tech", "education", "travel"] as const;
+
+function feedsFileFor(vertical: string): string {
+  return path.join(process.cwd(), "src", "data", vertical, "news-feeds.json");
+}
+
+/**
+ * Load every vertical's feed registry into one list, tagging each feed with
+ * the vertical it came from.
+ *
+ * This is the whole categorisation strategy: the vertical IS the field label
+ * and the feed's `country` IS the country label, because we know which door
+ * an item arrived through. No classifier, no model, no cost. Adding a field
+ * means adding a registry; adding a country means adding a feed.
+ */
+async function loadAllFeeds(): Promise<FeedConfig[]> {
+  const all: FeedConfig[] = [];
+  for (const vertical of VERTICALS) {
+    let raw: string;
+    try {
+      raw = await fs.readFile(feedsFileFor(vertical), "utf8");
+    } catch {
+      continue; // a vertical with no registry yet is not an error
+    }
+    const parsed = JSON.parse(raw) as FeedConfig[];
+    for (const f of parsed) {
+      all.push({ ...f, vertical, country: f.country ?? "US" });
+    }
+  }
+  return all;
+}
 const BRIEFS_DIR = path.join(process.cwd(), "data", "briefs");
-const SEEN_FILE = path.join(process.cwd(), "data", "news-seen.local.json");
+/**
+ * Beside the store, so on the server it sits on the same persistent volume.
+ * Inside the container it would be wiped on every deploy, and the fetcher
+ * would then treat the whole backlog as new each time.
+ */
+const SEEN_FILE = newsStatePath("_seen.json");
+
+/** Feeds disagree wildly on date format; normalise to ISO, empty when unparseable. */
+function toIso(raw: string): string {
+  const t = Date.parse(raw);
+  return Number.isNaN(t) ? "" : new Date(t).toISOString();
+}
 
 const DEFAULT_MAX_NEW = 3;
 const USER_AGENT =
@@ -96,19 +139,75 @@ function slugify(s: string): string {
     .slice(0, 70);
 }
 
-function decodeEntities(s: string): string {
+/**
+ * Decode ALL numeric character references, decimal and hex, rather than a
+ * hardcoded shortlist. The shortlist covered curly quotes and dashes but not,
+ * for example, &#8377; (the rupee sign), which left raw entity text on RBI
+ * items. Government feeds use the whole range, so decode the range.
+ */
+function decodeNumeric(s: string): string {
   return s
+    .replace(/&#(\d+);/g, (_, d) => {
+      const code = Number.parseInt(d, 10);
+      return Number.isFinite(code) && code > 0 && code <= 0x10ffff
+        ? String.fromCodePoint(code)
+        : _;
+    })
+    .replace(/&#[xX]([0-9a-fA-F]+);/g, (_, h) => {
+      const code = Number.parseInt(h, 16);
+      return Number.isFinite(code) && code > 0 && code <= 0x10ffff
+        ? String.fromCodePoint(code)
+        : _;
+    });
+}
+
+/** One decoding pass: numeric references, then named, then &amp; last. */
+function decodePass(s: string): string {
+  return decodeNumeric(s)
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")
     .replace(/&quot;/g, '"')
-    .replace(/&#0?39;/g, "'")
     .replace(/&apos;/g, "'")
-    .replace(/&#8217;/g, "’")
-    .replace(/&#8211;/g, "–")
-    .replace(/&#8212;/g, "—")
     .replace(/&nbsp;/g, " ")
+    // Typographic named entities. Government feeds use these constantly:
+    // gov.uk and RBI ship &rsquo; and &ndash; in ordinary prose. Decoded
+    // faithfully rather than normalised, because this text is the source's
+    // own wording quoted on the page, not ours to tidy.
+    .replace(/&[lr]squo;/g, "\u2019")
+    .replace(/&sbquo;/g, "\u201a")
+    .replace(/&ldquo;/g, "\u201c")
+    .replace(/&rdquo;/g, "\u201d")
+    .replace(/&ndash;/g, "\u2013")
+    .replace(/&mdash;/g, "\u2014")
+    .replace(/&hellip;/g, "\u2026")
+    .replace(/&bull;/g, "\u2022")
+    .replace(/&pound;/g, "\u00a3")
+    .replace(/&euro;/g, "\u20ac")
+    .replace(/&deg;/g, "\u00b0")
+    .replace(/&trade;/g, "\u2122")
+    .replace(/&[lr]aquo;/g, '"')
+    // &amp; LAST within a pass, so "&amp;lt;" becomes "&lt;" and not "<".
     .replace(/&amp;/g, "&");
+}
+
+/**
+ * Decode until the string stops changing, capped at 3 passes.
+ *
+ * Feeds double- and occasionally triple-encode: gov.uk ships "&amp;amp;" and
+ * FTC ships "&amp;nbsp;". A single pass peels one layer and leaves the rest
+ * visible on the page, which is what the first version did. Looping peels all
+ * of them. The cap stops a pathological input from spinning, and 3 is one more
+ * than the deepest nesting seen across the 26 feeds we carry.
+ */
+function decodeEntities(s: string): string {
+  let out = s;
+  for (let i = 0; i < 3; i++) {
+    const next = decodePass(out);
+    if (next === out) break;
+    out = next;
+  }
+  return out;
 }
 
 /** Strip tags, collapse whitespace, decode entities. */
@@ -179,6 +278,8 @@ function parseFeed(xml: string, feed: FeedConfig): Signal[] {
       feed_id: feed.id,
       feed_name: feed.name,
       category_slug: feed.category_slug,
+      vertical: feed.vertical ?? "health",
+      country: feed.country ?? "US",
       title,
       link,
       pubDate,
@@ -222,7 +323,7 @@ type: news
 category_slug: ${sig.category_slug}
 target_query: ${slugify(sig.title).replace(/-/g, " ")}
 author_slug: health-research-analyst
-reviewer_slug: dr-elena-marsh
+reviewer_slug: editorial-team
 ---
 
 # News-analysis Brief — ${sig.title}
@@ -279,7 +380,7 @@ be produced by lightly reordering the press release, start over.
   "may support", "is associated with", "cleared for", "small trials suggest".
 - **No fabricated statistics or testimonials.** Every number traces to a source.
 - Flag manufacturer funding / conflicts of interest where they exist.
-- Author \`health-research-analyst\`, reviewer \`dr-elena-marsh\`.
+- Author \`health-research-analyst\`, reviewer \`editorial-team\`.
 
 ## Ingest command (after drafting)
 
@@ -310,7 +411,7 @@ async function main(): Promise<void> {
     process.exit(1);
   }
 
-  const feeds = JSON.parse(await fs.readFile(FEEDS_FILE, "utf8")) as FeedConfig[];
+  const feeds = await loadAllFeeds();
   const active = feeds.filter((f) => f.enabled && !f.blocked_from_env);
   const skippedConfig = feeds.filter((f) => !f.enabled || f.blocked_from_env);
 
@@ -377,6 +478,35 @@ async function main(): Promise<void> {
     return vb - va;
   });
 
+  // ---- Persist EVERY new signal to the news store ----------------------
+  // The store is the tracker, so it takes all of them. The briefs below stay
+  // capped because each brief is the front of a much slower funnel: something
+  // has to write original analysis for it. Two different rates, two outputs.
+  const storeNow = new Date().toISOString();
+  const itemsByVertical = new Map<string, NewsItem[]>();
+  for (const s of freshSignals) {
+    const list = itemsByVertical.get(s.vertical) ?? [];
+    list.push({
+      id: s.key,
+      slug: slugify(s.title).slice(0, 80),
+      title: s.title,
+      link: s.link,
+      source_name: s.feed_name,
+      source_id: s.feed_id,
+      vertical: s.vertical,
+      country: s.country,
+      category_slug: s.category_slug,
+      published_at: toIso(s.pubDate) || storeNow,
+      summary: s.summary,
+      first_seen_at: storeNow,
+    });
+    itemsByVertical.set(s.vertical, list);
+  }
+  const stored: { vertical: string; added: number }[] = [];
+  for (const [vertical, items] of itemsByVertical) {
+    stored.push({ vertical, added: await appendNews(vertical, items) });
+  }
+
   const toWrite = freshSignals.slice(0, maxNew);
 
   await fs.mkdir(BRIEFS_DIR, { recursive: true });
@@ -430,6 +560,26 @@ async function main(): Promise<void> {
         : ""),
   );
   console.log(`    duplicates skipped:   ${duplicates}`);
+
+  // ---- Coverage -------------------------------------------------------
+  const tally = (pick: (f: FeedConfig) => string) => {
+    const m = new Map<string, number>();
+    for (const f of active) m.set(pick(f), (m.get(pick(f)) ?? 0) + 1);
+    return [...m.entries()]
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+      .map(([k, n]) => `${k} ${n}`)
+      .join(", ");
+  };
+  if (stored.length > 0) {
+    console.log("\n  Stored to news tracker:");
+    for (const st of stored.sort((a, b) => b.added - a.added)) {
+      console.log(`    ${st.vertical.padEnd(12)} +${st.added}`);
+    }
+  }
+
+  console.log("\n  Coverage:");
+  console.log(`    by field:    ${tally((f) => f.vertical ?? "?")}`);
+  console.log(`    by country:  ${tally((f) => f.country ?? "?")}`);
 
   if (written.length > 0) {
     console.log("\n  New signal briefs:");

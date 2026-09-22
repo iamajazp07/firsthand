@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "id": "govuk-dfe",
+    "name": "gov.uk \u2014 Department for Education",
+    "url": "https://www.gov.uk/search/news-and-communications.atom?organisations%5B%5D=department-for-education",
+    "category_slug": "education-news",
+    "country": "GB",
+    "format": "atom",
+    "enabled": true,
+    "note": "Verified HTTP 200 + parseable RSS/Atom from this environment on 2026-09-21."
+  }
+]

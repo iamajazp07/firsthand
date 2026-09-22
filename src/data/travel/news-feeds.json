@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "id": "us-state-travel-advisories",
+    "name": "US State Dept Travel Advisories",
+    "url": "https://travel.state.gov/_res/rss/TAsTWs.xml",
+    "category_slug": "travel-news",
+    "country": "US",
+    "format": "rss",
+    "enabled": true,
+    "note": "Verified HTTP 200 + parseable RSS/Atom from this environment on 2026-09-21."
+  },
+  {
+    "id": "uk-fcdo-travel",
+    "name": "UK FCDO Foreign Travel Advice",
+    "url": "https://www.gov.uk/foreign-travel-advice.atom",
+    "category_slug": "travel-news",
+    "country": "GB",
+    "format": "atom",
+    "enabled": true,
+    "note": "Verified HTTP 200 + parseable RSS/Atom from this environment on 2026-09-21."
+  }
+]

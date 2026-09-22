@@ -5,8 +5,10 @@
     "url": "https://www.fcc.gov/news-events/headlines/feed",
     "category_slug": "tech-news",
     "format": "rss",
-    "enabled": true,
-    "note": "Official U.S. Federal Communications Commission headlines feed — equipment authorizations, rules, and enforcement. Primary regulatory source for device (FCC filing) coverage."
+    "enabled": false,
+    "note": "FCC Headlines. DISABLED: returns HTTP 403 to non-browser agents from this environment as of 2026-09-21 (tried the bot UA and a full Chrome UA; /news-events/rss/headlines also 403s). Was reachable on 2026-07-12, so this is a new block, not a bad URL. Same handling as the NIH feed. Re-test periodically.",
+    "country": "US",
+    "blocked_from_env": true
   },
   {
     "id": "bluetooth-sig-blog",
@@ -15,6 +17,57 @@
     "category_slug": "tech-news",
     "format": "rss",
     "enabled": true,
-    "note": "Official Bluetooth Special Interest Group blog — LE Audio, LC3, and wireless-standard updates. Primary standards-body source for audio-codec and connectivity claims."
+    "note": "Official Bluetooth Special Interest Group blog \u2014 LE Audio, LC3, and wireless-standard updates. Primary standards-body source for audio-codec and connectivity claims.",
+    "country": "global"
+  },
+  {
+    "id": "ftc-press",
+    "name": "US FTC Press Releases",
+    "url": "https://www.ftc.gov/feeds/press-release.xml",
+    "category_slug": "tech-news",
+    "country": "US",
+    "format": "rss",
+    "enabled": true,
+    "note": "Verified HTTP 200 + parseable RSS/Atom from this environment on 2026-09-21."
+  },
+  {
+    "id": "arxiv-cs-ai",
+    "name": "arXiv \u2014 cs.AI preprints",
+    "url": "http://export.arxiv.org/rss/cs.AI",
+    "category_slug": "ai-tools",
+    "country": "global",
+    "format": "rss",
+    "enabled": true,
+    "note": "Verified HTTP 200 + parseable RSS/Atom from this environment on 2026-09-21."
+  },
+  {
+    "id": "govuk-dsit",
+    "name": "gov.uk \u2014 Science, Innovation and Technology",
+    "url": "https://www.gov.uk/search/news-and-communications.atom?organisations%5B%5D=department-for-science-innovation-and-technology",
+    "category_slug": "tech-news",
+    "country": "GB",
+    "format": "atom",
+    "enabled": true,
+    "note": "Verified HTTP 200 + parseable RSS/Atom from this environment on 2026-09-21."
+  },
+  {
+    "id": "nasa-news",
+    "name": "NASA News Releases",
+    "url": "https://www.nasa.gov/news-release/feed/",
+    "category_slug": "tech-news",
+    "country": "US",
+    "format": "rss",
+    "enabled": true,
+    "note": "Verified HTTP 200 + parseable RSS/Atom from this environment on 2026-09-21."
+  },
+  {
+    "id": "esa-space-news",
+    "name": "ESA Space News",
+    "url": "https://www.esa.int/rssfeed/Our_Activities/Space_News",
+    "category_slug": "tech-news",
+    "country": "EU",
+    "format": "rss",
+    "enabled": true,
+    "note": "Verified HTTP 200 + parseable RSS/Atom from this environment on 2026-09-21."
   }
 ]

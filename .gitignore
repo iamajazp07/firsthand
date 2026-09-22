@@ -56,3 +56,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# News tracker store — runtime state, rewritten by `npm run news:fetch`
+# every 15 minutes. Committing it would mean a deploy per fetch; the
+# production copy lives on a volume via NEWS_DATA_DIR.
+/data/news/
+
+# Which tracked announcements already have a draft (or were skipped, and why).
+/data/news-written.local.json

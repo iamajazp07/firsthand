@@ -14,7 +14,8 @@
     "news:fetch": "node --experimental-strip-types scripts/fetch-news-signals.mts",
     "social:generate": "node --experimental-strip-types scripts/social-generate.mts",
     "social:autopilot": "node --experimental-strip-types scripts/social-autopilot.mts",
-    "social:send": "node --experimental-strip-types scripts/social-send.mts"
+    "social:send": "node --experimental-strip-types scripts/social-send.mts",
+    "news:write": "node --experimental-strip-types scripts/write-news.mts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.110.2",

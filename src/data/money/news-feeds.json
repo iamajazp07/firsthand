@@ -6,7 +6,8 @@
     "category_slug": "money-news",
     "format": "rss",
     "enabled": true,
-    "note": "Official Federal Reserve Board press releases (FOMC statements, monetary-policy actions). Primary source for rate-related money coverage."
+    "note": "Official Federal Reserve Board press releases (FOMC statements, monetary-policy actions). Primary source for rate-related money coverage.",
+    "country": "US"
   },
   {
     "id": "cfpb-newsroom",
@@ -15,6 +16,97 @@
     "category_slug": "money-news",
     "format": "rss",
     "enabled": true,
-    "note": "Consumer Financial Protection Bureau newsroom feed — enforcement actions, rules, and consumer advisories. Primary regulatory source."
+    "note": "Consumer Financial Protection Bureau newsroom feed \u2014 enforcement actions, rules, and consumer advisories. Primary regulatory source.",
+    "country": "US"
+  },
+  {
+    "id": "sec-edgar-8k",
+    "name": "SEC EDGAR \u2014 8-K filings",
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&company=&dateb=&owner=include&count=40&output=atom",
+    "category_slug": "money-news",
+    "country": "US",
+    "format": "atom",
+    "enabled": true,
+    "note": "Live 8-K filings as they are submitted. NOTE: action=getcurrent, NOT action=getcompany (the latter is a company search and returns a feed with zero entries). SEC asks bots to declare a contact in the User-Agent; the fetcher's UA carries the editorial-policy URL and SEC accepts it. Verified 40 entries parsed on 2026-09-21."
+  },
+  {
+    "id": "bank-of-england",
+    "name": "Bank of England News",
+    "url": "https://www.bankofengland.co.uk/rss/news",
+    "category_slug": "money-news",
+    "country": "GB",
+    "format": "rss",
+    "enabled": true,
+    "note": "Verified HTTP 200 + parseable RSS/Atom from this environment on 2026-09-21."
+  },
+  {
+    "id": "ecb-press",
+    "name": "European Central Bank Press",
+    "url": "https://www.ecb.europa.eu/rss/press.html",
+    "category_slug": "money-news",
+    "country": "EU",
+    "format": "rss",
+    "enabled": true,
+    "note": "Verified HTTP 200 + parseable RSS/Atom from this environment on 2026-09-21."
+  },
+  {
+    "id": "rbi-press",
+    "name": "Reserve Bank of India Press Releases",
+    "url": "https://www.rbi.org.in/pressreleases_rss.xml",
+    "category_slug": "money-news",
+    "country": "IN",
+    "format": "rss",
+    "enabled": true,
+    "note": "Verified HTTP 200 + parseable RSS/Atom from this environment on 2026-09-21."
+  },
+  {
+    "id": "rba-media",
+    "name": "Reserve Bank of Australia Media Releases",
+    "url": "https://www.rba.gov.au/rss/rss-cb-media-releases.xml",
+    "category_slug": "money-news",
+    "country": "AU",
+    "format": "rss",
+    "enabled": true,
+    "note": "Verified HTTP 200 + parseable RSS/Atom from this environment on 2026-09-21."
+  },
+  {
+    "id": "govuk-hmt",
+    "name": "gov.uk \u2014 HM Treasury",
+    "url": "https://www.gov.uk/search/news-and-communications.atom?organisations%5B%5D=hm-treasury",
+    "category_slug": "money-news",
+    "country": "GB",
+    "format": "atom",
+    "enabled": true,
+    "note": "Verified HTTP 200 + parseable RSS/Atom from this environment on 2026-09-21."
+  },
+  {
+    "id": "us-bls",
+    "name": "US Bureau of Labor Statistics",
+    "url": "https://www.bls.gov/feed/bls_latest.rss",
+    "category_slug": "money-news",
+    "country": "US",
+    "format": "rss",
+    "enabled": true,
+    "note": "Verified HTTP 200 + parseable RSS/Atom from this environment on 2026-09-21."
+  },
+  {
+    "id": "uk-ons",
+    "name": "UK Office for National Statistics",
+    "url": "https://www.ons.gov.uk/releasecalendar?rss",
+    "category_slug": "money-news",
+    "country": "GB",
+    "format": "rss",
+    "enabled": true,
+    "note": "Verified HTTP 200 + parseable RSS/Atom from this environment on 2026-09-21."
+  },
+  {
+    "id": "us-eia",
+    "name": "US Energy Information Administration",
+    "url": "https://www.eia.gov/rss/todayinenergy.xml",
+    "category_slug": "money-news",
+    "country": "US",
+    "format": "rss",
+    "enabled": true,
+    "note": "Verified HTTP 200 + parseable RSS/Atom from this environment on 2026-09-21."
   }
 ]

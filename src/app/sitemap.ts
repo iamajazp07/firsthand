@@ -7,6 +7,7 @@ import {
   getReviewers,
 } from "@/lib/db";
 import { listPublishedArticles } from "@/lib/queue";
+import { listNews } from "@/lib/news";
 import { headers } from "next/headers";
 import { APEX_HOST, SITE_URL, hasOwnHost, verticalUrl } from "@/lib/site";
 import { VERTICALS, verticalHasTool, isContentVertical } from "@/lib/verticals";
@@ -38,6 +39,9 @@ const SHARED_PAGES = [
   "/terms",
 ];
 
+/** Most recent announcements per vertical to list in the sitemap. */
+const SITEMAP_NEWS_LIMIT = 500;
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const host = ((await headers()).get("host") ?? APEX_HOST)
     .split(":")[0]
@@ -68,7 +72,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const key = vertical.key;
     const url = (path: string) => verticalUrl(key, path);
 
-    const [categories, authors, reviewers, hubs, products, articles] =
+    const [categories, authors, reviewers, hubs, products, articles, news] =
       await Promise.all([
         getCategories(key),
         getAuthors(key),
@@ -76,6 +80,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         getHubs(key),
         getProducts(key),
         listPublishedArticles(key),
+        // Capped: the tracker holds thousands and the index page links onward
+        // to the rest. A sitemap stuffed with every record buries the pages
+        // that actually earn rankings.
+        listNews(key, { limit: SITEMAP_NEWS_LIMIT }),
       ]);
 
     entries.push(
@@ -106,6 +114,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         url: url(`/category/${c.slug}`),
         changeFrequency: "daily" as const,
         priority: 0.8,
+      })),
+      // Primary-source announcements tracker.
+      {
+        url: url("/news"),
+        changeFrequency: "hourly" as const,
+        priority: 0.9,
+      },
+      ...news.map((n) => ({
+        url: url(`/news/${n.slug}`),
+        lastModified: n.published_at,
+        changeFrequency: "monthly" as const,
+        priority: 0.5,
       })),
       // Each vertical publishes its own rating methodology.
       {
