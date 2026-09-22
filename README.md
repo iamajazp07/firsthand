@@ -276,6 +276,24 @@ These are enforced in code (`src/lib/queue.ts`) and stated on the public
 
 ---
 
+## How this is actually deployed
+
+The live site at https://readfirsthand.com runs on a self-managed Linux VPS
+behind Coolify, not on Vercel. Pushes to `main` deploy automatically: GitHub
+sends a push webhook, Coolify rebuilds with nixpacks and swaps the container.
+
+Two consequences worth knowing:
+
+- The runtime filesystem **persists** between requests, unlike a serverless
+  host, so the local-JSON fallback described below does work here. Supabase is
+  still preferred, but it is not the hard requirement it would be on Vercel.
+- A build takes roughly five minutes. Check the deployment finished before
+  assuming a change is live, and verify by hitting the affected route rather
+  than trusting the status.
+
+The Vercel instructions below are kept because they still work if you want to
+run a copy there.
+
 ## Deploying to Vercel
 
 1. **Import** the repository (this `firsthand/` folder as the project root) into
