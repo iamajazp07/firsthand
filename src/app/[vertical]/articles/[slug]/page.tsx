@@ -146,6 +146,7 @@ export default async function ArticlePage({
       <JsonLd data={articleJsonLd} />
 
       <Breadcrumbs
+        verticalKey={verticalKey}
         items={[
           { name: "Home", href: "/" },
           ...(category

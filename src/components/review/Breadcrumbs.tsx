@@ -1,6 +1,6 @@
 import Link from "next/link";
 import JsonLd from "@/components/review/JsonLd";
-import { SITE_URL } from "@/lib/site";
+import { SITE_URL, vHref, verticalUrl } from "@/lib/site";
 
 export interface Crumb {
   name: string;
@@ -14,11 +14,17 @@ export interface Crumb {
  */
 export default function Breadcrumbs({
   items,
+  verticalKey,
   className = "",
 }: {
   items: Crumb[];
+  /** When set, hrefs are paths inside this vertical and are prefixed for it. */
+  verticalKey?: string;
   className?: string;
 }) {
+  const href = (path: string) => (verticalKey ? vHref(verticalKey, path) : path);
+  const absolute = (path: string) =>
+    verticalKey ? verticalUrl(verticalKey, path) : `${SITE_URL}${path}`;
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -26,7 +32,7 @@ export default function Breadcrumbs({
       "@type": "ListItem",
       position: i + 1,
       name: item.name,
-      item: `${SITE_URL}${item.href}`,
+      item: absolute(item.href),
     })),
   };
 
@@ -49,7 +55,7 @@ export default function Breadcrumbs({
                 </span>
               ) : (
                 <Link
-                  href={item.href}
+                  href={href(item.href)}
                   className="hover:text-brand-blue hover:underline"
                 >
                   {item.name}

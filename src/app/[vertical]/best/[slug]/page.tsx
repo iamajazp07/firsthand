@@ -143,6 +143,7 @@ export default async function HubPage({
       <JsonLd data={itemListJsonLd} />
 
       <Breadcrumbs
+        verticalKey={verticalKey}
         items={[
           { name: "Home", href: "/" },
           ...(category

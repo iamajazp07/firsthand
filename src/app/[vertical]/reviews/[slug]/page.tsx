@@ -163,6 +163,7 @@ export default async function ReviewPage({
       <JsonLd data={productJsonLd} />
 
       <Breadcrumbs
+        verticalKey={verticalKey}
         items={[
           { name: "Home", href: "/" },
           ...(category
