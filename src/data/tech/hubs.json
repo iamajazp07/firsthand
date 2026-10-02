@@ -66,5 +66,141 @@
       }
     ],
     "last_updated": "2026-07-12"
+  },
+  {
+    "id": "hub-best-laptops",
+    "slug": "best-laptops",
+    "title": "Best Laptops of 2026",
+    "category_slug": "laptops",
+    "intro_mdx_or_text": "This guide compares four current premium laptops for 2026: the Apple MacBook Air 13-inch (M5), the Microsoft Surface Laptop 13.8-inch (8th Edition), the Lenovo ThinkPad X1 Carbon Gen 14 Aura Edition, and the Dell XPS 14 (2026). Every price comes from the maker's own US store and is accurate as of 2026-10-02; laptop prices have moved a lot in 2026, so check before you buy. Specs, battery claims and warranty terms come from each maker's official spec sheets, launch pages and warranty documents. Honesty note: Firsthand does not run a hardware lab. We do not benchmark processors or run battery tests. Battery figures are the maker's own claims and are labelled that way. We score each laptop on Performance (30%), Value (25%), Reliability (20%), Ease of Use (15%), and Support (10%), and none of these laptops is monetized.",
+    "answer_block": "For most people the Apple MacBook Air 13-inch (M5) is our top pick: an M5 chip, 16GB of memory, 512GB of storage, Apple-claimed battery life of up to 18 hours of video, and the lowest price here at $1,299 (as of 2026-10-02). The Microsoft Surface Laptop 13.8-inch (8th Edition) is the best Windows value while it is on sale at $1,399.99 (list $1,599.99), with Microsoft-claimed battery life of up to 20 hours of video. The Lenovo ThinkPad X1 Carbon Gen 14 Aura Edition is the lightest (from 2.15 lbs) and has a MIL-STD-810H test record, but starts at $2,534. The Dell XPS 14 (2026) has the biggest battery (70Whr) and Dell claims up to 27 hours of general use, but it starts at $2,149.99 and the product page does not state the warranty length. Firsthand does not conduct lab testing; ratings come from official specifications, prices and warranty terms.",
+    "product_slugs": [
+      "apple-macbook-air-13-m5",
+      "microsoft-surface-laptop-13-8-8th-edition",
+      "lenovo-thinkpad-x1-carbon-gen-14-aura",
+      "dell-xps-14-2026"
+    ],
+    "faq": [
+      {
+        "question": "Which laptop is best in 2026?",
+        "answer": "For most people we rank the MacBook Air 13-inch (M5) first on price, weight and rated battery life. Windows users should look at the Surface Laptop 13.8-inch (8th Edition), frequent travellers at the ThinkPad X1 Carbon Gen 14 Aura Edition, and buyers chasing the longest maker-claimed battery life at the Dell XPS 14 (2026). Prices are from each maker's US store as of 2026-10-02."
+      },
+      {
+        "question": "Do you test these laptops yourselves?",
+        "answer": "No. Firsthand does not run a hardware lab and does not benchmark or battery-test laptops. Every figure is taken from the maker's official spec sheet, store page, launch announcement or warranty document, and battery figures are labelled as the maker's claims."
+      },
+      {
+        "question": "Which laptop has the longest battery life?",
+        "answer": "On makers' claims, the Dell XPS 14 (2026) is highest at up to 27 hours of general use (Dell) and its 70Whr battery is the largest here. Microsoft claims up to 20 hours of video for the Surface Laptop 13.8-inch, Lenovo rates the X1 Carbon at up to 19.2 hours on MobileMark 30, and Apple claims up to 18 hours of video for the MacBook Air. These use different tests, so they are not directly comparable."
+      },
+      {
+        "question": "Which has the best warranty?",
+        "answer": "Apple and Microsoft both state a one-year limited hardware warranty, and the Microsoft Store adds 60-day free returns. Lenovo's ThinkPad base warranty ranges from one to three years depending on model. Dell's product page does not state the warranty length; Dell's terms say it appears on your invoice."
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "hub-best-smart-speakers",
+    "slug": "best-smart-speakers",
+    "title": "Best Smart Speakers of 2026",
+    "category_slug": "smart-home",
+    "intro_mdx_or_text": "A smart speaker is now often the hub of a smart home as well as a way to play music and ask questions. This guide compares four current smart speakers sold in the US: the Amazon Echo Dot Max, Google Home Speaker, Amazon Echo Studio (2025) and Apple HomePod mini. We focus on which smart home standards each one supports (Matter, Thread and Zigbee), the assistant and any subscription it needs, the published hardware, and the warranty. Every price comes from the maker's official store or announcement and is accurate as of 2026-10-02; prices and plans change, so check before you buy. Honesty note: Firsthand does not run a lab. We do not measure sound quality or test hub reliability ourselves; audio claims are reported as the maker's claims and cited. We score each product on five weighted criteria: Performance (30%), Value (25%), Reliability (20%), Ease of Use (15%) and Support (10%).",
+    "answer_block": "For most homes in 2026, the Amazon Echo Dot Max ($99.99 (as of 2026-10-02)) is our top pick: it is the cheapest speaker here with a built-in Zigbee, Matter and Thread hub, though the full Alexa+ assistant needs Prime or $19.99 a month. The Google Home Speaker ($99.99) is the best choice for Google Home users and mixed iPhone and Android homes, with Wi-Fi 6, a Thread border router and Matter hub support, but Gemini Live needs a $10 a month Google Home Premium plan and there is no Zigbee. The Echo Studio (2025, $219.99) has the same hub radios as the Dot Max plus Dolby Atmos and more drivers. The Apple HomePod mini ($129) is a Thread-enabled Matter hub for Apple Home, but it dates from 2020 and needs an iPhone or iPad. Firsthand does not test these devices; ratings are based on official specifications, pricing and warranty terms.",
+    "product_slugs": [
+      "amazon-echo-dot-max",
+      "google-home-speaker",
+      "amazon-echo-studio-2025",
+      "apple-homepod-mini"
+    ],
+    "faq": [
+      {
+        "question": "Which smart speaker is best for Matter in 2026?",
+        "answer": "All four in this guide support Matter. The Amazon Echo Dot Max and Echo Studio (2025) also include Zigbee and Thread, per Amazon. The Google Home Speaker includes a Thread 1.3 border router and works as a Matter hub, per Google. The HomePod mini is a Thread-enabled home hub for Matter in Apple Home, per Apple Support."
+      },
+      {
+        "question": "Do these speakers need a subscription?",
+        "answer": "Basic use does not. Amazon's Alexa+ is included with Prime or costs $19.99 a month without it. Google's Gemini Live needs Google Home Premium from $10 a month. Apple does not list a subscription for HomePod mini hub features (as of 2026-10-02)."
+      },
+      {
+        "question": "Did you test these speakers yourselves?",
+        "answer": "No. Firsthand does not run an audio or smart home lab. Ratings come from each maker's published specifications, prices, support documents and warranty terms, and audio claims are reported as the maker's claims."
+      },
+      {
+        "question": "What warranty do they have?",
+        "answer": "All four carry a one-year limited warranty in the US, per Amazon's device warranty page, Google's US hardware warranty and Apple's US limited warranty."
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "hub-best-smartphones",
+    "slug": "best-smartphones",
+    "title": "Best Smartphones of 2026",
+    "category_slug": "smartphones",
+    "intro_mdx_or_text": "This guide compares four current smartphones sold in the US in 2026: the Google Pixel 11, Apple iPhone 17, Samsung Galaxy S26, and Motorola Edge 2026. Every price and specification is cited from the maker's official store, spec page, or launch release and is accurate as of 2026-10-02; phone prices change often, so check before you buy. Firsthand does not run a phone lab. We do not benchmark chips, test cameras, or measure battery life ourselves. Battery figures are reported as the maker's own claims. We give extra weight to what each maker puts in writing about software updates and warranty, because those decide how long a phone stays safe to use. We score each phone on five weighted criteria: Performance (30%), Value (25%), Reliability (20%), Ease of Use (15%), and Support (10%).",
+    "answer_block": "For most people in 2026, the Google Pixel 11 is our top pick: Google puts 7 years of OS, security, and Pixel Drop updates in writing, and it starts at $899 with 256 GB (as of 2026-10-02). The Apple iPhone 17 is the best fit for iPhone users, with an A19 chip and 120Hz display at $929 unlocked, though the Apple pages we read state no set number of update years. The Samsung Galaxy S26 has seven years of security updates and a 3x telephoto, but lists at $999.99 unlocked and has the smallest battery here. The Motorola Edge 2026 is the value pick at $599.99, with IP68 and IP69 ratings, but only two guaranteed OS upgrades. We weight Performance 30%, Value 25%, Reliability 20%, Ease of Use 15%, and Support 10%. Firsthand does not do hands-on testing; ratings come from each maker's published specs, prices, and policies.",
+    "product_slugs": [
+      "google-pixel-11",
+      "apple-iphone-17",
+      "samsung-galaxy-s26",
+      "motorola-edge-2026"
+    ],
+    "faq": [
+      {
+        "question": "Which smartphone is best in 2026?",
+        "answer": "We rank the Google Pixel 11 first for its 7-year written update promise and $899 starting price, the Apple iPhone 17 second for iPhone users, the Samsung Galaxy S26 third for its seven years of security updates and 3x telephoto, and the Motorola Edge 2026 fourth as the $599.99 value pick. Prices are from each maker's official store as of 2026-10-02."
+      },
+      {
+        "question": "Do you test these phones yourselves?",
+        "answer": "No. Firsthand does not run a lab and does not benchmark, photograph with, or battery-test these phones. Ratings come from each maker's official specifications, prices, warranty terms, and update commitments, and battery figures are labelled as the maker's claims."
+      },
+      {
+        "question": "Which phone gets software updates the longest?",
+        "answer": "Google lists 7 years of OS, security, and Pixel Drop updates for the Pixel 11. Samsung promises seven years of security updates for the Galaxy S26 series. Motorola guarantees two Android OS upgrades for the Edge 2026. The Apple pages we checked do not state a set number of years for the iPhone 17."
+      },
+      {
+        "question": "Why is the OnePlus 15 not in this guide?",
+        "answer": "The OnePlus 15 is still listed on OnePlus's US store, but the store displays an Important OnePlus Business Adjustment Notice. Until we can confirm from OnePlus what that means for US sales and support, we have left it out."
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "hub-best-smartwatches",
+    "slug": "best-smartwatches",
+    "title": "Best Smartwatches of 2026",
+    "category_slug": "wearables",
+    "intro_mdx_or_text": "This guide compares four current smartwatches for 2026: the Samsung Galaxy Watch9, Google Pixel Watch 5, Apple Watch Series 12 and Garmin Forerunner 970. Every price and specification comes from each maker's official store, spec sheet, manual or support page and is accurate as of 2026-10-02; prices change, so check before you buy. Honesty note: Firsthand does not run a lab. We did not wear or test these watches, and we do not measure battery life, heart-rate accuracy or GPS accuracy. Battery figures are reported as each maker's claim and cited to the official source. We score each watch on five weighted criteria: Performance (30%), Value (25%), Reliability (20%), Ease of Use (15%) and Support (10%), using published specs, durability ratings, phone compatibility, warranty terms and stated software update commitments. The single biggest factor in practice is your phone: two of these watches do not work with iPhone at all, and one does not work with Android.",
+    "answer_block": "On documented facts, the Samsung Galaxy Watch9 scores highest (7.9): it has the lowest starting price ($379.99), 5 ATM plus IP68 and MIL-STD-810H ratings, and a security update period listed until 31 July 2031, but many health features need a Samsung Galaxy phone (as of 2026-10-02). The Google Pixel Watch 5 ($399.99) is the pick for other Android phones, with Google's claim of up to 40 hours (45mm) and guaranteed updates until at least October 2029. The Apple Watch Series 12 (from $399) is the choice for iPhone owners, with the S11 chip and a broad health feature list, but Apple claims only up to 24 hours of normal use. The Garmin Forerunner 970 ($749.99) has the longest rated battery (up to 15 days, Garmin's claim) and works with both iPhone and Android, at nearly double the price. Firsthand does not test devices; ratings are based on official specifications and policies. Pick by phone first, then by battery and budget.",
+    "product_slugs": [
+      "samsung-galaxy-watch9",
+      "google-pixel-watch-5",
+      "apple-watch-series-12",
+      "garmin-forerunner-970"
+    ],
+    "faq": [
+      {
+        "question": "Which smartwatch is best in 2026?",
+        "answer": "It depends mostly on your phone. For Samsung Galaxy phone owners we rank the Galaxy Watch9 first; for other Android phones, the Pixel Watch 5; for iPhone, the Apple Watch Series 12; and for runners or anyone who wants multi-day battery on iPhone or Android, the Garmin Forerunner 970. Prices and specs are from official maker sources as of 2026-10-02."
+      },
+      {
+        "question": "Did you test these watches?",
+        "answer": "No. Firsthand does not run a lab and did not wear or test these watches. Every figure is taken from the maker's official spec sheet, store page, manual or support page, and battery figures are reported as the maker's claim."
+      },
+      {
+        "question": "Which smartwatch has the longest battery life?",
+        "answer": "The Garmin Forerunner 970, which Garmin rates at up to 15 days in smartwatch mode. Among the others, Google rates the 45mm Pixel Watch 5 at up to 40 hours with the always-on display, Samsung rates the 44mm Galaxy Watch9 at up to 40 hours with the always-on display off, and Apple rates the Series 12 at up to 24 hours of normal use. All are maker claims (as of 2026-10-02)."
+      },
+      {
+        "question": "Which of these watches work with both iPhone and Android?",
+        "answer": "Only the Garmin Forerunner 970, which Garmin lists as compatible with iPhone and Android. The Apple Watch Series 12 needs an iPhone, and the Pixel Watch 5 and Galaxy Watch9 need an Android phone, with many Galaxy Watch9 features needing a Samsung Galaxy phone."
+      },
+      {
+        "question": "How long will these watches get software updates?",
+        "answer": "Samsung's official Galaxy Watch9 spec sheet lists security updates until 31 July 2031, and Google guarantees Pixel Watch 5 updates until at least October 2029. Apple and Garmin do not publish a minimum update period for these watches."
+      }
+    ],
+    "last_updated": "2026-10-02"
   }
 ]

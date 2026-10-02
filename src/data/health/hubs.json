@@ -140,5 +140,211 @@
       }
     ],
     "last_updated": "2026-07-11"
+  },
+  {
+    "id": "hub-best-fitness-apps",
+    "slug": "best-fitness-apps",
+    "title": "Best Fitness Apps of 2026",
+    "category_slug": "fitness",
+    "intro_mdx_or_text": "Fitness apps make it easier to start exercising at home, but no app does the work for you. Research on smartphone activity apps shows small average gains, strongest in the first few months, so the best app is the one you keep using. The benchmark we score against is the federal Physical Activity Guidelines: 150 to 300 minutes of moderate aerobic activity a week, plus muscle-strengthening work for all major muscle groups on 2 or more days. For this 2026 ranking we compared four apps with official, published pricing, from a free option to a full-access subscription, using our five criteria: Safety 30%, Evidence 30%, Cost & Value 20%, Transparency 10% and Support 10%. None of these apps has a published clinical trial of its own, so evidence scores are equal and reflect exercise research in general. Firsthand does not do hands-on testing; this ranking is based on official documentation and published research. Check with a clinician before starting a new exercise program if you have a heart condition, are pregnant or have other health concerns.",
+    "answer_block": "Our top fitness app for 2026 is Nike Training Club, scoring 7.2/10, mainly because it is free and still covers strength, HIIT and yoga with structured programs. Apple Fitness+ (7.1) is the best paid value for iPhone users at $9.99 a month or $79.99 a year, shareable with up to five family members (as of 2026-10-02). Fitbod (6.9) is the pick for adaptive strength training at $95.99 a year. The Peloton App (6.7) suits people who own a bike, treadmill or rower, but App+ costs $28.99 a month and Peloton's own page quotes two different prices. Keep expectations realistic: a meta-analysis of randomized trials found activity apps raised daily steps by a small, non-significant amount on average, with the best results in the first three months. Aim for the federal target of 150 minutes of moderate activity plus strength work twice a week. Firsthand earns no commission on any app here.",
+    "product_slugs": [
+      "nike-training-club",
+      "apple-fitness-plus",
+      "fitbod",
+      "peloton-app"
+    ],
+    "faq": [
+      {
+        "question": "What is the best fitness app in 2026?",
+        "answer": "Nike Training Club scored highest in our review because it is free and covers strength, HIIT and yoga. If you have an iPhone and want more polish, Apple Fitness+ is good value. For strength training that adapts to your equipment, Fitbod is the strongest choice."
+      },
+      {
+        "question": "Do fitness apps actually work?",
+        "answer": "They can help, but effects are modest. A 2019 meta-analysis of randomized trials found a small, non-significant average rise in daily steps, with apps working best over the first three months. The health benefit comes from the exercise itself."
+      },
+      {
+        "question": "How much exercise do I need each week?",
+        "answer": "The Physical Activity Guidelines for Americans recommend 150 to 300 minutes of moderate-intensity or 75 to 150 minutes of vigorous aerobic activity a week, plus muscle-strengthening activity on 2 or more days."
+      },
+      {
+        "question": "Do you earn money from these recommendations?",
+        "answer": "No. Firsthand earns no commission on any app in this ranking. Scores come only from our published rubric."
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "hub-best-otc-hearing-aids",
+    "slug": "best-otc-hearing-aids",
+    "title": "Best OTC Hearing Aids of 2026",
+    "category_slug": "hearing",
+    "intro_mdx_or_text": "Since FDA created the over-the-counter hearing aid category in 2022, adults with perceived mild to moderate hearing loss can buy a hearing aid without a prescription or exam. For this 2026 ranking we only considered devices with an FDA authorization we could look up in FDA's own databases, and that the maker still sells. Two well-known brands, Eargo and Lexie, were left out because their websites say their US parent is winding down operations. We scored four options against our published methodology, weighting Safety 30% and Evidence 30%, then Cost & Value 20%, Transparency 10% and Support 10%. Firsthand does not test devices by hand; scores come from regulatory records, published studies and the makers' own terms. The research on self-fitting aids is encouraging but young: a 2026 meta-analysis found outcomes comparable to professional fitting with low certainty, and a 2025 trial found full audiologist care still scored higher. FDA advises seeing a clinician first if you have sudden or one-sided hearing loss, ear pain, drainage or dizziness.",
+    "answer_block": "Our top-rated OTC hearing aid for 2026 is Apple AirPods Pro 3 with the Hearing Aid feature, scoring 7.8/10, and Firsthand earns nothing on it. FDA granted the feature De Novo authorization in 2024 after a 118-person study found self-fitting gave similar perceived benefit to professional fitting, and at $249 it is the cheapest FDA-authorized option here, though it needs an iPhone or iPad and has a 14-day return window. Jabra Enhance Select (7.7) is the pick for support, with a 100-day trial and 3 years of remote audiology, at $1,195 to $1,995. Concha Sol (7.3) suits people who prefer disposable batteries, and Sennheiser All-Day Clear (7.1) is the lowest-cost dedicated aid at $999.95 but carries only a 1-year warranty. All four are for adults with perceived mild to moderate loss. Sudden or one-sided hearing changes need a clinician.",
+    "product_slugs": [
+      "apple-airpods-pro-3-hearing-aid-feature",
+      "jabra-enhance-select-m-series",
+      "concha-sol-otc-hearing-aid",
+      "sennheiser-all-day-clear-otc"
+    ],
+    "faq": [
+      {
+        "question": "Who should buy an OTC hearing aid?",
+        "answer": "FDA says OTC hearing aids are for adults 18 and older with perceived mild to moderate hearing loss, the kind where you hear in quiet but struggle in groups or noise. They have limited maximum output and may not be enough for severe loss."
+      },
+      {
+        "question": "Are self-fitting OTC hearing aids as good as ones fitted by an audiologist?",
+        "answer": "Close, on average, but not identical. A 2026 meta-analysis of 15 studies found comparable outcomes with low certainty of evidence, while a 2025 randomized trial of 245 adults found audiologist-fitted care scored modestly higher than OTC models."
+      },
+      {
+        "question": "When should I see a doctor instead?",
+        "answer": "FDA lists sudden hearing change within the past 6 months, hearing loss worse in one ear, ear drainage, pain or dizziness, and ringing in only one ear as reasons to see a healthcare professional before buying an OTC hearing aid."
+      },
+      {
+        "question": "Why are Eargo and Lexie not in this ranking?",
+        "answer": "Both brands' websites carry a notice that their US parent entered an assignment for the benefit of creditors in July 2026 and is winding down, with app support and customer service ending in October 2026. We only rank products that are still sold and supported."
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "hub-best-home-blood-pressure-monitors",
+    "slug": "best-home-blood-pressure-monitors",
+    "title": "Best Home Blood Pressure Monitors of 2026",
+    "category_slug": "heart-health",
+    "intro_mdx_or_text": "A home blood pressure monitor is only useful if its readings are accurate, and many are not. A 2020 study of one national online market found only 18.3% of upper-arm cuff monitors on sale had been validated. For this 2026 ranking we only considered monitors listed on the US Blood Pressure Validated Device Listing (validatebp.org), the AMA-backed list where an independent committee decides whether a device meets accuracy criteria, and that the maker currently sells. We scored four upper-arm monitors against our published methodology, weighting Safety 30% and Evidence 30%, then Cost & Value 20%, Transparency 10% and Support 10%. Firsthand does not test devices by hand; scores come from the validation listing, published research and the makers' own specifications and terms. The AHA and AMA say home monitoring is a validated way to measure blood pressure outside the clinic, and a 52-study review found it lowers blood pressure compared with usual care. A monitor supports care from a clinician; it does not replace it. Check that your arm fits the listed cuff range, and share your readings.",
+    "answer_block": "Our top-rated home blood pressure monitor for 2026 is the OMRON Platinum BP5465, scoring 8.6/10, and Firsthand earns nothing on it. It is on the US Blood Pressure Validated Device Listing, averages three readings automatically, stores readings for two users and carries a six-year warranty for a $90.99 MSRP. The OMRON 5 Series BP7255 (8.4) is a validated single-user option at $83.99 with a 130/80 indicator. Withings BPM Connect (7.9) is the VDL-listed pick for pregnancy and syncs over Wi-Fi, at $129.95. Withings BPM Vision (7.7) is validated to the newest standard here and listed with an XL cuff, but costs $179.95. Every monitor here passed independent validation, which matters more than any app feature. Share your readings with a clinician rather than acting on them alone.",
+    "product_slugs": [
+      "omron-platinum-bp5465",
+      "omron-5-series-bp7255",
+      "withings-bpm-connect",
+      "withings-bpm-vision"
+    ],
+    "faq": [
+      {
+        "question": "What does 'validated' mean for a blood pressure monitor?",
+        "answer": "It means the device's accuracy was tested against a recognized protocol, such as ANSI/AAMI/ISO 81060-2, and reviewed. The US Blood Pressure Validated Device Listing at validatebp.org publishes devices that an independent review committee found meet its criteria. Check your exact model number, since similar-looking models can differ."
+      },
+      {
+        "question": "Are upper-arm monitors better than wrist monitors?",
+        "answer": "The AHA and AMA statement says validated oscillometric devices are preferred for home monitoring. All four picks here are validated upper-arm models, and the validation list also includes some wrist devices."
+      },
+      {
+        "question": "How should I take readings at home?",
+        "answer": "The AHA and AMA recommend following a standardized protocol with a validated device. Monitors like the OMRON Platinum can average three readings for you. Bring your log or app data to your clinician."
+      },
+      {
+        "question": "Can a home monitor diagnose high blood pressure?",
+        "answer": "No. Home readings help a clinician confirm a diagnosis, spot white-coat or masked hypertension and track treatment, but the diagnosis and treatment decisions belong to your clinician."
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "hub-best-mental-health-apps-and-online-therapy",
+    "slug": "best-mental-health-apps-and-online-therapy",
+    "title": "Best Mental Health Apps and Online Therapy of 2026",
+    "category_slug": "mental-wellness",
+    "intro_mdx_or_text": "This ranking covers two different kinds of help. Online therapy services such as Talkspace and BetterHelp connect you with a licensed therapist for treatment. Self-guided apps such as Headspace and Calm teach meditation and stress skills, which can ease everyday stress but do not replace treatment. We scored all four against our five criteria: Safety 30%, Evidence 30%, Cost & Value 20%, Transparency 10% and Support 10%. Safety includes how each company has handled your data, since mental health information is highly sensitive. Evidence favors randomized trials of the product itself, and we note when study authors worked for the company. Firsthand does not test services by hand; this review is based on official pricing and policy pages, regulator actions and published research. None of these services is for emergencies. If you are in crisis or thinking about harming yourself, call or text 988 to reach the 988 Suicide & Crisis Lifeline, which is free, confidential and open 24/7, or call 911.",
+    "answer_block": "Our top pick for 2026 is Headspace at 7.8/10, a self-guided meditation app with published randomized trials and a price of $69.99 a year in the US App Store (as of 2026-10-02). If you need treatment from a licensed therapist, Talkspace (7.5) is our top therapy platform: therapists are licensed in your state, it works with major insurers including Medicare plans, and a randomized trial found its message-based therapy was noninferior to video therapy for depression. Calm (7.4) is a close alternative to Headspace with wider device support. BetterHelp (6.4) ranks last because of its 2023 FTC order to pay $7.8 million over sharing users' health data for advertising, and because its price varies by referral source. Apps help most with everyday stress; a 2024 meta-analysis found small effects on depression and anxiety symptoms. Not for emergencies: call or text 988 in the US. Firsthand earns no commission on any service here.",
+    "product_slugs": [
+      "headspace",
+      "talkspace",
+      "calm-app",
+      "betterhelp"
+    ],
+    "faq": [
+      {
+        "question": "What is the best mental health app in 2026?",
+        "answer": "Headspace scored highest in our review for low cost and published trials. For therapy with a licensed professional, Talkspace scored highest among the platforms we reviewed because of insurance coverage, psychiatry access and randomized trial data."
+      },
+      {
+        "question": "Is online therapy as good as in-person therapy?",
+        "answer": "For some conditions, the research is encouraging. A meta-analysis of 20 trials found guided internet-delivered CBT produced effects equivalent to face-to-face CBT, though few conditions have been studied individually. Severe or complex conditions may still need in-person care."
+      },
+      {
+        "question": "Can a meditation app replace therapy?",
+        "answer": "No. A 2024 meta-analysis of 45 trials found mindfulness apps give small reductions in depression and anxiety symptoms, and they did not beat active therapies. If symptoms persist or affect daily life, see a licensed clinician."
+      },
+      {
+        "question": "What should I do in a mental health emergency?",
+        "answer": "Do not rely on an app or online therapy service. In the US, call or text 988 to reach the 988 Suicide & Crisis Lifeline, which is free, confidential and available 24/7, or call 911 if you are in immediate danger."
+      },
+      {
+        "question": "Do you earn money from these recommendations?",
+        "answer": "No. Firsthand earns no commission on any service in this ranking. Scores come only from our published rubric."
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "hub-best-vitamin-d-supplements",
+    "slug": "best-vitamin-d-supplements",
+    "title": "Best Vitamin D Supplements of 2026",
+    "category_slug": "nutrition-supplements",
+    "intro_mdx_or_text": "Vitamin D is one of the most popular supplements in the US, and the evidence is clearer than the marketing suggests. It is needed for calcium absorption and bone health, and many people fall short because few foods contain it. But large randomized trials in healthy adults who were not deficient, such as VITAL with over 25,000 participants, found that 2,000 IU a day did not reduce cancer, heart events or fractures. For this 2026 ranking we limited the field to single-ingredient vitamin D3 products whose third-party certification we could confirm on the certifier's own database, in this case NSF Certified for Sport. We then scored each against our five criteria: Safety 30%, Evidence 30%, Cost & Value 20%, Transparency 10% and Support 10%. Because every product shares the same ingredient, evidence scores are equal, and the ranking turns on dose, price and buying terms. Firsthand does not test products by hand; this is a documentation and evidence review. Ask a clinician about testing your level before taking vitamin D long term.",
+    "answer_block": "Our top vitamin D supplement for 2026 is dotFIT Vitamin D-3 1,000 IU, scoring 8.0/10. It is NSF Certified for Sport, gives 1,000 IU per softgel (close to the adult RDA of 600 to 800 IU and well under the 4,000 IU upper limit listed by MedlinePlus), and costs $8.95 for 100 softgels, about 9 cents a day (as of 2026-10-02). Klean Athlete Klean-D 1000 (7.7) is the vegetarian tablet alternative, and Momentous Vitamin D3 2000 IU (7.6) is the pick for vegans. Thorne Vitamin D-5,000 (7.0) is well made, but its 5,000 IU dose is above the adult upper limit, so it suits clinician-guided use. Set expectations: in the VITAL trial, 2,000 IU of D3 a day did not lower fractures, cancer or heart events in healthy adults who were not deficient. Vitamin D corrects a shortfall; it is not a general health booster. Firsthand earns no commission on any product here.",
+    "product_slugs": [
+      "dotfit-vitamin-d3-1000",
+      "klean-athlete-klean-d-1000",
+      "momentous-vitamin-d3-2000",
+      "thorne-vitamin-d-5000"
+    ],
+    "faq": [
+      {
+        "question": "What is the best vitamin D supplement in 2026?",
+        "answer": "dotFIT Vitamin D-3 1,000 IU scored highest in our review because it is NSF Certified for Sport, uses a conservative dose, and costs about 9 cents a day. Any certified D3 at 1,000 to 2,000 IU will raise blood levels similarly; price and dietary needs (vegetarian or vegan) are the main differences."
+      },
+      {
+        "question": "How much vitamin D should I take a day?",
+        "answer": "MedlinePlus lists an RDA of 600 IU a day for adults 19 to 70 and 800 IU for adults over 70, with a safe upper limit of 4,000 IU a day. Your clinician may recommend more if a blood test shows a deficiency. Count fortified foods and multivitamins toward your total."
+      },
+      {
+        "question": "Does vitamin D prevent fractures or cancer?",
+        "answer": "Not in healthy adults who are not deficient, according to the best trial data. In VITAL, 2,000 IU of vitamin D3 a day did not lower invasive cancer, major cardiovascular events or fractures compared with placebo over about five years."
+      },
+      {
+        "question": "Is D3 better than D2?",
+        "answer": "A 2012 meta-analysis of randomized trials found D3 raised blood vitamin D levels more than D2 overall, mostly with large bolus doses; with daily dosing the difference was not significant. All four products here use D3."
+      },
+      {
+        "question": "Do you earn money from these recommendations?",
+        "answer": "No. Firsthand earns no commission on any product in this ranking. Scores come only from our published rubric."
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "hub-best-prenatal-vitamins",
+    "slug": "best-prenatal-vitamins",
+    "title": "Best Prenatal Vitamins of 2026",
+    "category_slug": "womens-health",
+    "intro_mdx_or_text": "An independent check on what is in the bottle is the first thing we look for in a supplement. For this 2026 ranking of prenatal vitamins we only considered products that appear in NSF's NSF/ANSI 173 dietary supplement listings and that the maker currently sells. Several USP Verified Nature Made prenatals were left out because Nature Made's own pages mark them as no longer available. We scored four products against our published methodology, weighting Safety 30% and Evidence 30%, then Cost & Value 20%, Transparency 10% and Support 10%. Firsthand does not test supplements by hand; scores come from certification listings, NIH's label database, public health guidance and the makers' own pages. We checked each formula against the nutrients guidance names: folic acid (USPSTF, 400 to 800 mcg), iron (27 mg RDA in pregnancy), iodine (150 mcg advised by the American Thyroid Association), choline (450 mg intake level, rarely met by prenatals) and DHA. No prenatal replaces prenatal care. Agree your supplement plan, especially iron, with your clinician.",
+    "answer_block": "Our top-rated prenatal vitamin for 2026 is TheraNatal Complete, scoring 7.7/10, and Firsthand earns nothing on it. It is NSF listed and covers iron at the 27 mg pregnancy RDA, iodine, 300 mg DHA and 250 mg choline, at about $0.97 a day across three pills. Thorne Basic Prenatal (7.2) is a transparent NSF-listed option with iodine and choline, but its 45 mg of iron equals the adult upper limit and it has no DHA. OLLY Ultra Strength Prenatal (7.0) is the budget pick at $19.99 a month, though its iron is low. SmartyPants Prenatal Plus (6.4) is a pill-free gummy with no iron. USPSTF recommends 400 to 800 mcg of folic acid daily for anyone who could become pregnant. Check iron and folate form with your clinician before choosing.",
+    "product_slugs": [
+      "theranatal-complete-prenatal",
+      "thorne-basic-prenatal",
+      "olly-ultra-strength-prenatal-softgels",
+      "smartypants-prenatal-plus-multi-omegas"
+    ],
+    "faq": [
+      {
+        "question": "What should a prenatal vitamin contain?",
+        "answer": "Guidance points to folic acid (USPSTF recommends 400 to 800 mcg daily for anyone who could become pregnant), iron (the pregnancy RDA is 27 mg), and iodine (the American Thyroid Association advises 150 mcg a day). Choline and DHA are often missing or low, so check the label."
+      },
+      {
+        "question": "Are prenatal gummies as good as pills?",
+        "answer": "Gummies are easier to take, but the two gummies in this ranking contain little or no iron. If you choose a gummy, ask your clinician whether you need iron separately."
+      },
+      {
+        "question": "What does NSF certification mean for a supplement?",
+        "answer": "Products listed under NSF/ANSI 173 have been certified by NSF against that dietary supplement standard. NSF advises confirming any listing directly on its own site."
+      },
+      {
+        "question": "Can I take more than one prenatal or extra iron?",
+        "answer": "Do not stack supplements without advice. The adult upper limit for iron is 45 mg a day, and iron overdose is a leading cause of fatal poisoning in young children, so keep bottles out of reach."
+      }
+    ],
+    "last_updated": "2026-10-02"
   }
 ]

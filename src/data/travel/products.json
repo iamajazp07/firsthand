@@ -658,5 +658,1227 @@
       }
     ],
     "last_updated": "2026-07-18"
+  },
+  {
+    "id": "prod-carnival-cruise-line",
+    "slug": "carnival-cruise-line",
+    "name": "Carnival Cruise Line",
+    "category_slug": "cruises",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.9,
+    "ratings": {
+      "value": 7,
+      "experience": 6,
+      "flexibility": 8,
+      "transparency": 7,
+      "service": 6
+    },
+    "price_summary": "Fares vary by sailing and are not listed here. Recommended gratuities are $17.00 per person per day in standard staterooms and $19.00 in suites; on 6-day and longer cruises, cancelling 91 or more days out costs nothing except non-refundable payments (as of 2026-10-02).",
+    "pros": [
+      "Late cancellation charges step up slowly: on 6-day and longer cruises you lose only the deposit between 90 and 56 days, 50% (or the deposit) from 55 to 30 days, and 75% from 29 to 15 days; the full fare is only lost at 14 days or less",
+      "Short 2 to 5 day cruises have no cancellation charge up to 76 days out, apart from non-refundable payments",
+      "Gratuities are published as daily amounts, $17.00 for standard staterooms and $19.00 for suites (as of 2026-10-02), and can be adjusted onboard before you disembark"
+    ],
+    "cons": [
+      "Early Saver deposits are non-refundable; cancelling before final payment gives a non-refundable, non-transferable future cruise credit worth the deposit minus a $50 per person service fee",
+      "In multi-person cabins, the cancellation schedule applies to the whole cabin even if only one guest cancels",
+      "Gratuities are not part of the fare: the recommended amount posts to your onboard account each day unless you prepay it"
+    ],
+    "best_for": "Cruisers who might cancel late and want the gentlest published penalty steps before sailing.",
+    "summary": "Carnival's ticket contract has the most gradual late cancellation steps of the four lines here, with the full fare lost only within 14 days. Early Saver deposits are non-refundable, and gratuities are extra.",
+    "verdict_summary": "Carnival ranks first on published booking terms. Its ticket contract shows that on 6-day and longer cruises (and all Alaska, Europe, Transatlantic and Panama Canal sailings) you pay nothing except non-refundable payments up to 91 days out, then the deposit, then the greater of the deposit or 50% from 55 days, 75% from 29 days, and 100% only at 14 days or less (as of 2026-10-02). That is the latest full-fare cutoff among the four lines. The trade-offs: Early Saver deposits are non-refundable and turn into a credit minus a $50 fee, the schedule applies to the whole cabin, and gratuities of $17.00 to $19.00 per person per day are extra. Terms change, so read Carnival's current ticket contract before booking. We did not sail with Carnival; this reads its published terms.",
+    "pricing_table": [
+      {
+        "plan": "2 to 5 day cruises (not Alaska, Europe, Transatlantic or Panama Canal)",
+        "price": "Cancellation: none up to 76 days; deposit 75 to 56 days; 50% 55 to 30; 75% 29 to 15; 100% at 14 days or less (as of 2026-10-02)",
+        "notes": "50% and 75% tiers are the deposit or that share of the total fare, whichever is greater."
+      },
+      {
+        "plan": "6 day and longer cruises, plus Alaska, Europe, Transatlantic and Panama Canal",
+        "price": "Cancellation: none up to 91 days; deposit 90 to 56 days; 50% 55 to 30; 75% 29 to 15; 100% at 14 days or less (as of 2026-10-02)",
+        "notes": "Early Saver deposits are non-refundable; cancellations before final payment get a future cruise credit of the deposit minus $50 per person."
+      },
+      {
+        "plan": "Gratuities",
+        "price": "$17.00 per person per day (standard), $19.00 (suites) (as of 2026-10-02)",
+        "notes": "Added daily unless prepaid; adjustable onboard, final after disembarkation."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is Carnival's cancellation policy?",
+        "answer": "For 6-day and longer cruises, Carnival's ticket contract lists no charge up to 91 days before departure (except non-refundable payments), the deposit from 90 to 56 days, the deposit or 50% from 55 to 30 days, the deposit or 75% from 29 to 15 days, and 100% at 14 days or less (as of 2026-10-02). Shorter 2 to 5 day cruises use a 76-day first cutoff."
+      },
+      {
+        "question": "How much are Carnival gratuities?",
+        "answer": "Carnival recommends $17.00 per person per day in standard staterooms and $19.00 in suites (as of 2026-10-02). They post to your onboard account unless prepaid and can be adjusted before you leave the ship."
+      },
+      {
+        "question": "Is an Early Saver deposit refundable?",
+        "answer": "No. The ticket contract says the Early Saver deposit is non-refundable; cancellations before the final payment date receive a non-refundable, non-transferable future cruise credit for the deposit minus a $50 per person service fee."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Cancellation charges per guest: 2 to 5 day cruises none up to 76 days, 6 day and longer cruises none up to 91 days; then deposit, deposit or 50%, deposit or 75%, and 100% at 14 days or less; the schedule applies to the whole cabin (as of 2026-10-02).",
+        "source_name": "Carnival Cruise Line, Cruise Ticket Contract, Section 7 (official)",
+        "source_url": "https://www.carnival.com/about-carnival/legal-notice/ticket-contract"
+      },
+      {
+        "claim": "Early Saver deposits are non-refundable; cancellations before final payment receive a future cruise credit of the deposit less a $50 per person service fee.",
+        "source_name": "Carnival Cruise Line, Cruise Ticket Contract (official)",
+        "source_url": "https://www.carnival.com/about-carnival/legal-notice/ticket-contract"
+      },
+      {
+        "claim": "Recommended gratuities: $17.00 per person per day in standard staterooms and $19.00 in suites; adjustable onboard, final after disembarkation (as of 2026-10-02).",
+        "source_name": "Carnival Cruise Line, gratuities help page (official)",
+        "source_url": "https://www.carnival.com/help?topicid=1202"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-disney-cruise-line",
+    "slug": "disney-cruise-line",
+    "name": "Disney Cruise Line",
+    "category_slug": "cruises",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.7,
+    "ratings": {
+      "value": 6,
+      "experience": 7,
+      "flexibility": 8,
+      "transparency": 6,
+      "service": 6
+    },
+    "price_summary": "Fares vary by sailing and the deposit is set at booking. For U.S. residents, regular staterooms on 6-night and longer cruises can be cancelled with no fee 120 or more days out, and 1 to 5 night cruises 90 or more days out (as of 2026-10-02).",
+    "pros": [
+      "Penalties stay at the deposit until 45 days out (1 to 5 night cruises) or 56 days out (6+ nights), and the full fare is only lost at 14 days or less",
+      "No cancellation fee at all on regular staterooms 90 or more days out for 1 to 5 night cruises, or 120 or more days out for 6+ night cruises (as of 2026-10-02)",
+      "The U.S. terms list what the fare includes: shipboard accommodation, meals and onboard entertainment"
+    ],
+    "cons": [
+      "Restricted Inside, Outside and Verandah categories are non-refundable and non-transferable, with a 100% cancellation fee from the time of payment",
+      "The deposit amount is not published; Disney says it is determined at booking, which makes comparing upfront risk harder",
+      "Gratuities, alcoholic drinks, soft drinks, bottled water, laundry, air, transfers and shore excursions are all excluded from the fare"
+    ],
+    "best_for": "Families booking regular staterooms well ahead who want a long fee-free cancellation window and a late full-fare cutoff.",
+    "summary": "Disney's U.S. terms pair a fee-free window of 90 to 120 days with penalties that stay at the deposit until 45 or 56 days out. Restricted fares are fully non-refundable, and the deposit amount is only set at booking.",
+    "verdict_summary": "Disney Cruise Line ranks second. Its terms for U.S. residents show no fee on regular staterooms 120 or more days before a 6+ night cruise, the deposit only from 119 to 56 days, 50% from 55 to 30 days, 75% from 29 to 15 days, and 100% at 14 days or less (as of 2026-10-02). Like Carnival, the full fare is only lost in the last two weeks. It falls behind Carnival on transparency because the deposit amount is set at booking rather than published, and its restricted stateroom categories are 100% non-refundable from payment. Gratuities and most drinks are extra. Disney says it can change prices and terms without notice, so read the current U.S. terms before booking. We did not sail with Disney; this reads its published terms.",
+    "pricing_table": [
+      {
+        "plan": "Regular staterooms, 1 to 5 nights",
+        "price": "No fee 90+ days; deposit 89 to 45; 50% 44 to 30; 75% 29 to 15; 100% at 14 days or less (as of 2026-10-02)",
+        "notes": "Percentages are of the vacation price per guest."
+      },
+      {
+        "plan": "Regular staterooms, 6+ nights",
+        "price": "No fee 120+ days; deposit 119 to 56; 50% 55 to 30; 75% 29 to 15; 100% at 14 days or less (as of 2026-10-02)",
+        "notes": "Suite and Concierge staterooms: deposit from 45 days or more (1 to 5 nights) or 56 days or more (6+ nights), then the same 50%, 75%, 100% steps."
+      },
+      {
+        "plan": "Restricted Inside, Outside and Verandah",
+        "price": "100% cancellation fee from time of payment (as of 2026-10-02)",
+        "notes": "Non-refundable and non-transferable."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is Disney Cruise Line's cancellation policy?",
+        "answer": "For U.S. residents in regular staterooms on 6+ night cruises: no fee 120 or more days out, the deposit from 119 to 56 days, 50% from 55 to 30 days, 75% from 29 to 15 days, and 100% at 14 days or less (as of 2026-10-02). On 1 to 5 night cruises the no-fee window starts at 90 days."
+      },
+      {
+        "question": "Are Disney cruise gratuities included?",
+        "answer": "No. Disney's U.S. terms list gratuities among the items not included in the fare, along with alcoholic and soft drinks, bottled water, laundry, air, transfers and shore excursions."
+      },
+      {
+        "question": "How much is the Disney Cruise Line deposit?",
+        "answer": "Disney does not publish a fixed amount; its terms say the deposit is determined at the time of booking."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Regular staterooms: 1 to 5 nights no fee 90+ days, deposit 89 to 45, 50% 44 to 30, 75% 29 to 15, 100% at 14 or less; 6+ nights no fee 120+ days, deposit 119 to 56, 50% 55 to 30, 75% 29 to 15, 100% at 14 or less; restricted categories 100% non-refundable from payment (as of 2026-10-02).",
+        "source_name": "Disney Cruise Line, Terms and Conditions for Residents of the United States (official)",
+        "source_url": "https://disneycruise.disney.go.com/contracts-terms-safety/terms-conditions/united-states/"
+      },
+      {
+        "claim": "Deposit amount is determined at booking; fares include shipboard accommodation, meals and onboard entertainment and exclude air, transfers, shore excursions, gratuities, alcoholic and soft drinks, bottled water and laundry; Disney may change prices and terms without notice.",
+        "source_name": "Disney Cruise Line, Terms and Conditions for Residents of the United States (official)",
+        "source_url": "https://disneycruise.disney.go.com/contracts-terms-safety/terms-conditions/united-states/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-royal-caribbean",
+    "slug": "royal-caribbean",
+    "name": "Royal Caribbean International",
+    "category_slug": "cruises",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.6,
+    "ratings": {
+      "value": 6,
+      "experience": 7,
+      "flexibility": 6,
+      "transparency": 8,
+      "service": 6
+    },
+    "price_summary": "Fares vary by sailing. Gratuities are $18.50 per guest per day ($21.00 in suites), with 18% added to drinks, specialty dining and room service and 20% to spa purchases; 5 to 14 night cruises can be cancelled free 90 or more days out, except non-refundable deposits (as of 2026-10-02).",
+    "pros": [
+      "Cancellation schedules are published by cruise length in one plain FAQ, with no charge 75+ days out for 1 to 4 nights, 90+ days for 5 to 14 nights, and 120+ days for 15+ nights (except non-refundable deposits)",
+      "Gratuities and automatic service percentages are all stated up front: $18.50 per guest per day, $21.00 in suites, 18% on drinks, specialty dining, room service and minibar, 20% on spa (as of 2026-10-02)",
+      "Daily gratuities can be adjusted at Guest Relations any time before the morning you disembark"
+    ],
+    "cons": [
+      "The full fare is lost at 30 days or less on every cruise length, earlier than Carnival and Disney's 14-day cutoff",
+      "On non-refundable deposit fares, the whole deposit is kept as a penalty if you cancel",
+      "Automatic 18% and 20% charges on drinks, specialty dining, room service and spa add to the onboard bill on top of daily gratuities"
+    ],
+    "best_for": "Cruisers who book early and want every cancellation tier and service charge published plainly before they pay.",
+    "summary": "Royal Caribbean publishes clear cancellation tiers by cruise length and spells out every gratuity and service percentage. Its penalties bite earlier than Carnival's or Disney's, with the full fare lost at 30 days.",
+    "verdict_summary": "Royal Caribbean ranks third. Its cancellation FAQ shows no charge on 5 to 14 night cruises 90 or more days out except non-refundable deposits, then 25%, 50% and 75% steps, and 100% at 30 days or less (as of 2026-10-02). Its gratuity FAQ is the most complete we read, listing daily amounts and the automatic 18% and 20% charges on extras, which earns a high transparency score. It ranks below Carnival and Disney on flexibility because the full fare is lost at 30 days rather than 14, and non-refundable deposit fares keep the whole deposit. Terms change; check Royal Caribbean's current pages before booking. We did not sail with Royal Caribbean; this reads its published terms.",
+    "pricing_table": [
+      {
+        "plan": "1 to 4 night cruises",
+        "price": "None 75+ days; 50% 74 to 61; 75% 60 to 31; 100% at 30 days or less (as of 2026-10-02)",
+        "notes": "Non-refundable deposit amounts are kept at any time."
+      },
+      {
+        "plan": "5 to 14 night cruises",
+        "price": "None 90+ days; 25% 89 to 75; 50% 74 to 61; 75% 60 to 31; 100% at 30 days or less (as of 2026-10-02)",
+        "notes": "15+ night cruises: none 120+ days, then 25% from 119 days."
+      },
+      {
+        "plan": "Gratuities",
+        "price": "$18.50 per guest per day; $21.00 in suites (as of 2026-10-02)",
+        "notes": "Plus 18% on beverages, specialty dining, room service and minibar, 20% on spa and salon."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is Royal Caribbean's cancellation policy?",
+        "answer": "For 5 to 14 night cruises: no charge 90 or more days out (except non-refundable deposits), 25% from 89 to 75 days, 50% from 74 to 61, 75% from 60 to 31, and 100% at 30 days or less (as of 2026-10-02). Shorter and longer cruises have their own schedules on the same page."
+      },
+      {
+        "question": "How much are Royal Caribbean gratuities?",
+        "answer": "$18.50 per guest per day in most staterooms and $21.00 in suites (as of 2026-10-02). An 18% gratuity is added to drinks, specialty dining, room service and minibar purchases, and 20% to spa and salon purchases."
+      },
+      {
+        "question": "What happens to a non-refundable deposit if I cancel?",
+        "answer": "Royal Caribbean's FAQ says that on non-refundable fare programs the full deposit is held as a penalty, and any extra payments are refunded."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Cancellation schedules: 1 to 4 nights none 75+ days; 5 to 14 nights none 90+ days; 15+ nights none 120+ days (except non-refundable deposit amounts); 100% at 30 days or less; non-refundable deposits are held in full as a penalty (as of 2026-10-02).",
+        "source_name": "Royal Caribbean, booking cancellation and refund policy FAQ (official)",
+        "source_url": "https://www.royalcaribbean.com/faq/questions/booking-cancellation-refund-policy"
+      },
+      {
+        "claim": "Gratuities $21.00 per guest per day for suites and $18.50 for other staterooms; 18% added to beverages, specialty dining, room service and minibar; 20% to spa and salon; adjustable before disembarkation (as of 2026-10-02).",
+        "source_name": "Royal Caribbean, gratuity FAQ (official)",
+        "source_url": "https://www.royalcaribbean.com/faq/questions/onboard-service-gratuity-expense"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-celebrity-cruises",
+    "slug": "celebrity-cruises",
+    "name": "Celebrity Cruises",
+    "category_slug": "cruises",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.4,
+    "ratings": {
+      "value": 6,
+      "experience": 7,
+      "flexibility": 6,
+      "transparency": 7,
+      "service": 6
+    },
+    "price_summary": "Fares vary by sailing. For North American residents, 5 to 14 night cruises can be cancelled with no charge 90 or more days out, except non-refundable deposits; the optional All Included price adds Basic Wi-Fi and a Classic Drink Package (as of 2026-10-02).",
+    "pros": [
+      "All Included pricing bundles Basic Wi-Fi and a Classic Drink Package into the fare, with drink gratuities included, and is available in Inside, Ocean View, Veranda, Concierge Class and AquaClass staterooms",
+      "Retreat suites automatically include the Premium Drinks and Premium Wi-Fi packages",
+      "North American cancellation tiers are published by cruise length, with no charge 90+ days out on 5 to 14 night cruises (except non-refundable deposits) (as of 2026-10-02)"
+    ],
+    "cons": [
+      "Non-refundable deposits on certain fares are never refunded and carry change fees, per Celebrity's cancellation FAQ",
+      "All Included packages bought after October 4, 2023 do not include staff gratuities; Celebrity says onboard staff gratuities are charged separately",
+      "As with Royal Caribbean, the full fare is lost at 30 days or less"
+    ],
+    "best_for": "Cruisers who want drinks and Wi-Fi bundled into the fare and will book far enough ahead to avoid penalties.",
+    "summary": "Celebrity's All Included price bundles drinks and Wi-Fi, and its cancellation tiers match Royal Caribbean's. Staff gratuities are extra, and non-refundable deposits are never returned.",
+    "verdict_summary": "Celebrity ranks fourth. For North American residents its cancellation FAQ shows no charge on 5 to 14 night cruises 90 or more days out except non-refundable deposits, rising to 100% at 30 days or less (as of 2026-10-02). Its All Included price adds Basic Wi-Fi and a Classic Drink Package, a real inclusion the other lines here sell separately. It ranks last because staff gratuities are charged separately even on All Included fares, non-refundable deposits are never refunded and carry change fees, and the 30-day full-fare cutoff matches Royal Caribbean's. We could not find a published daily gratuity amount on the pages we read. Terms change; check Celebrity's current pages before booking. We did not sail with Celebrity; this reads its published terms.",
+    "pricing_table": [
+      {
+        "plan": "1 to 4 night cruises (North America)",
+        "price": "None 75+ days; 50% 74 to 61; 75% 60 to 31; 100% at 30 days or less (as of 2026-10-02)",
+        "notes": "Non-refundable deposit amounts are kept at any time."
+      },
+      {
+        "plan": "5 to 14 night cruises (North America)",
+        "price": "None 90+ days; 25% 89 to 75; 50% 74 to 61; 75% 60 to 31; 100% at 30 days or less (as of 2026-10-02)",
+        "notes": "15+ nights: none 120+ days. Galapagos: full refund 150+ days."
+      },
+      {
+        "plan": "All Included pricing",
+        "price": "Optional fare type; price varies by sailing (as of 2026-10-02)",
+        "notes": "Adds Basic Wi-Fi and Classic Drink Package with drink gratuities; staff gratuities charged separately."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is Celebrity's cancellation policy?",
+        "answer": "For North American residents on 5 to 14 night cruises: no charge 90 or more days out except non-refundable deposit amounts, then rising charges to 100% at 30 days or less (as of 2026-10-02). Celebrity publishes separate schedules for shorter, longer and Galapagos cruises and for other regions."
+      },
+      {
+        "question": "What does Celebrity's All Included include?",
+        "answer": "Celebrity says All Included combines the cruise fare with Basic Wi-Fi and a Classic Drink Package, with drink gratuities included. For packages bought after October 4, 2023, staff tips are not included and onboard staff gratuities are charged separately."
+      },
+      {
+        "question": "Can I get my Celebrity deposit back?",
+        "answer": "On fares with a non-refundable deposit, no. Celebrity's FAQ says those deposits are not refunded at any time and carry change fees. Other fares follow the published cancellation schedule."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "North American residents: 1 to 4 nights no charge 75+ days, 5 to 14 nights 90+ days, 15+ nights 120+ days (except non-refundable deposit amounts), 100% at 30 days or less; non-refundable deposits are not refunded at any time and carry change fees (as of 2026-10-02).",
+        "source_name": "Celebrity Cruises, Cancellation Policy FAQ (official)",
+        "source_url": "https://www.celebritycruises.com/faqs/cancellation-policy"
+      },
+      {
+        "claim": "All Included combines the fare with Basic Wi-Fi and a Classic Drink Package; drink gratuities included; packages bought after October 4, 2023 exclude staff tips, which are charged separately; Retreat staterooms include Premium Drinks and Premium Wi-Fi.",
+        "source_name": "Celebrity Cruises, All Included FAQs (official)",
+        "source_url": "https://www.celebritycruises.com/faqs/all-included"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-southwest-airlines",
+    "slug": "southwest-airlines",
+    "name": "Southwest Airlines",
+    "category_slug": "flights-airlines",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.2,
+    "ratings": {
+      "value": 7,
+      "experience": 6,
+      "flexibility": 9,
+      "transparency": 8,
+      "service": 6
+    },
+    "price_summary": "Fares are dynamic and not listed here. Southwest charges $0 to change or cancel on every fare type; checked bags on Basic, Choice and Choice Preferred cost $45 for the first and $55 for the second bag on U.S. mainland trips booked on or after April 9, 2026 (as of 2026-10-02).",
+    "pros": [
+      "No change or cancellation fee on any fare: Southwest's optional charges page lists both the change fee and the cancellation fee as $0 (as of 2026-10-02)",
+      "Cancelled fares keep their value: Choice, Choice Preferred and Choice Extra cancellations become a Transferable Flight Credit valid 12 months from booking, and Choice Preferred and Choice Extra are fully refundable if cancelled at least 10 minutes before departure",
+      "Choice Extra includes two free checked bags, and Rapid Rewards credit cardmembers get the first bag free, per Southwest's published fee table",
+      "Fare rules for all four fare types sit on one plain page, which makes the trade-offs easy to compare before you book"
+    ],
+    "cons": [
+      "Basic fares are restrictive: no seat selection, changes only by upgrading to a Choice fare, and Basic flight credits expire 6 months from booking",
+      "Checked bags are no longer free on most fares. On U.S. mainland trips booked on or after April 9, 2026, Basic, Choice and Choice Preferred pay $45 for the first bag and $55 for the second (as of 2026-10-02)",
+      "Choice and Basic fares are non-refundable to your card: cancelling gives you a flight credit, not cash, unless the DOT refund rules apply because Southwest cancelled or significantly changed the flight"
+    ],
+    "best_for": "Travelers whose plans often change and who want no change or cancel fees on any fare, and are happy to take a flight credit instead of cash.",
+    "summary": "Southwest is the only airline in this comparison that charges no change or cancellation fee on every fare type, including Basic. The trade-offs are newer: checked bags now cost money on most fares, Basic fares carry no seat selection and a 6-month credit, and only the two highest fares refund to your card.",
+    "verdict_summary": "Southwest ranks first because its published change rules are the most forgiving we found. Its optional charges page lists a $0 change fee and a $0 cancellation fee (as of 2026-10-02), and its fare rules page says every fare type can be cancelled for a flight credit up to 10 minutes before departure. Choice, Choice Preferred and Choice Extra credits are transferable and last 12 months; Choice Preferred and Choice Extra refund to your original payment. The honest trade-offs: Basic fares cannot be changed without upgrading, have no seat selection and give a credit that expires after 6 months, and checked bags now cost $45 and $55 on most fares for mainland trips booked on or after April 9, 2026. Policies change, so check Southwest's fare rules page before you buy. This rating reads Southwest's published rules; we did not fly with any airline here.",
+    "pricing_table": [
+      {
+        "plan": "Basic",
+        "price": "Dynamic fare; bags $45 / $55 (as of 2026-10-02)",
+        "notes": "Non-refundable; cancel 10+ minutes before departure for a flight credit valid 6 months from booking. Changes only by upgrading to a Choice fare. No seat selection."
+      },
+      {
+        "plan": "Choice",
+        "price": "Dynamic fare; bags $45 / $55 (as of 2026-10-02)",
+        "notes": "Changes allowed, fare difference may apply. Non-refundable; cancellation gives a Transferable Flight Credit valid 12 months. Standard seats toward the back of the aircraft."
+      },
+      {
+        "plan": "Choice Preferred",
+        "price": "Dynamic fare; bags $45 / $55 (as of 2026-10-02)",
+        "notes": "Fully refundable if cancelled 10+ minutes before departure. Preferred seat with standard legroom near the front."
+      },
+      {
+        "plan": "Choice Extra",
+        "price": "Dynamic fare; 2 checked bags included (as of 2026-10-02)",
+        "notes": "Fully refundable if cancelled 10+ minutes before departure. Extra Legroom seat selection."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does Southwest charge a change fee?",
+        "answer": "No. Southwest's optional charges page lists the change fee and the cancellation fee as $0 (as of 2026-10-02). You still pay any fare difference, and Basic fares can only be changed by upgrading to a Choice fare."
+      },
+      {
+        "question": "Are Southwest checked bags still free?",
+        "answer": "Not on most fares. For U.S. mainland travel booked on or after April 9, 2026, Basic, Choice and Choice Preferred pay $45 for the first bag and $55 for the second; Choice Extra includes two free bags, and Rapid Rewards credit cardmembers get the first bag free (as of 2026-10-02)."
+      },
+      {
+        "question": "How long do Southwest flight credits last?",
+        "answer": "Credits from Choice, Choice Preferred and Choice Extra fares expire 12 months from the date the fare was booked; Basic fare credits expire after 6 months, per Southwest's fare rules page. Check that page before relying on a date, because policies change."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Fare types: Choice Extra and Choice Preferred are fully refundable if cancelled at least 10 minutes before departure; Choice and Basic cancel to a flight credit; Choice-family credits expire 12 months from booking and Basic credits 6 months; Basic fares have no seat selection and can only change by upgrading.",
+        "source_name": "Southwest Airlines, Fare Information and Rules (official)",
+        "source_url": "https://www.southwest.com/fare-information/"
+      },
+      {
+        "claim": "Change fee $0 and cancellation fee $0; for U.S. mainland travel booked on or after April 9, 2026, first and second checked bags cost $45 and $55 on Basic, Choice and Choice Preferred, and are free on Choice Extra (as of 2026-10-02).",
+        "source_name": "Southwest Airlines, Optional Travel Charges (official)",
+        "source_url": "https://www.southwest.com/html/customer-service/travel-fees.html"
+      },
+      {
+        "claim": "Under U.S. DOT rules, you are owed a refund if the airline cancels or significantly changes your flight (for example a domestic departure moved 3 or more hours earlier or arrival 3 or more hours later) and you do not accept the alternative or a credit; refunds are due within 7 business days for credit card purchases and 20 calendar days for other payment methods.",
+        "source_name": "U.S. Department of Transportation, Refunds (official)",
+        "source_url": "https://www.transportation.gov/individuals/aviation-consumer-protection/refunds"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-delta-air-lines",
+    "slug": "delta-air-lines",
+    "name": "Delta Air Lines",
+    "category_slug": "flights-airlines",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.1,
+    "ratings": {
+      "value": 7,
+      "experience": 7,
+      "flexibility": 8,
+      "transparency": 6,
+      "service": 7
+    },
+    "price_summary": "Fares are dynamic. Domestic checked bags for Delta Main and Delta Comfort cost $45 for the first and $55 for the second bag; Classic and higher fares from the U.S. and Canada have no change fee, while Delta Main Basic tickets carry a $99 change or cancel fee within North America (as of 2026-10-02).",
+    "pros": [
+      "No change or cancel fee on Delta Main Classic and higher fares for trips starting in the U.S. or Canada, per Delta's change and cancel fee table (as of 2026-10-02)",
+      "Basic tickets bought on or after November 6, 2025 can now be changed or cancelled for a fee ($99 within the U.S., Canada, Mexico, the Caribbean and Central America) instead of being fully locked (as of 2026-10-02)",
+      "24-hour Risk-Free Cancellation: tickets booked on delta.com or the Fly Delta app can be cancelled within 24 hours for a full refund with no fees",
+      "Free carry-on bag and personal item on Delta-operated flights, and Same-Day Standby is free on Classic fares"
+    ],
+    "cons": [
+      "Delta's own pages disagree on Basic: the cancel page says Basic customers cannot change or refund after the 24-hour window, while the fee table lists a $99 change or cancel fee for Basic tickets bought on or after November 6, 2025. Confirm with Delta before you rely on either",
+      "Cancelling a non-refundable ticket gives an eCredit, not cash, and that eCredit expires 1 year from the original purchase date",
+      "Checked bags cost $45 and $55 each way on domestic Delta Main and Delta Comfort fares unless you hold status or an eligible Delta SkyMiles Amex card (as of 2026-10-02)"
+    ],
+    "best_for": "Travelers who buy Main Classic or higher fares and want no change fees, plus a fee-based way out of Basic fares.",
+    "summary": "Delta drops change fees on Classic and higher fares from the U.S. and Canada and now publishes a fee to change or cancel Basic tickets. The catches are a 1-year eCredit on cancelled non-refundable fares, standard bag fees, and conflicting wording about Basic between two of its own pages.",
+    "verdict_summary": "Delta ranks second. Its change and cancel fee table shows Classic, Extra and Refundable tickets starting in the U.S. or Canada change for free, and Basic tickets bought on or after November 6, 2025 can be changed or cancelled for $99 within North America and $199 to farther regions (as of 2026-10-02). Tickets booked direct can be cancelled within 24 hours for a full refund. The trade-offs: cancelling a non-refundable fare returns an eCredit that expires 1 year from purchase, domestic bags cost $45 and $55, and Delta's cancel page still says Basic cannot be changed after 24 hours, which contradicts the fee table. Policies change; check Delta's change and cancel pages before you book. We did not fly Delta; this rating reads its published rules.",
+    "pricing_table": [
+      {
+        "plan": "Delta Main Basic / Comfort Basic",
+        "price": "Dynamic fare; $99 change or cancel fee within North America, $199 to Europe, Asia and other long-haul regions (as of 2026-10-02)",
+        "notes": "Fee applies to Basic tickets bought on or after November 6, 2025 for travel from the U.S.; remaining value returned as an eCredit. No Same-Day Confirmed or Same-Day Standby."
+      },
+      {
+        "plan": "Delta Main Classic and higher",
+        "price": "Dynamic fare; $0 change fee from the U.S. and Canada (as of 2026-10-02)",
+        "notes": "Cancellation returns an eCredit valid 1 year from purchase. Same-Day Confirmed $75 on Classic; free on Extra and refundable fares."
+      },
+      {
+        "plan": "Checked bags (domestic, Main and Comfort)",
+        "price": "$45 first bag, $55 second bag, each way (as of 2026-10-02)",
+        "notes": "Waived for Medallion members and eligible Delta SkyMiles Amex cardmembers on the first bag."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can I change a Delta Basic Economy ticket?",
+        "answer": "Delta's fee table says Basic tickets bought on or after November 6, 2025 can be changed or cancelled for $99 on trips from the U.S. within North America, or $199 to farther regions (as of 2026-10-02). Delta's cancel page still says Basic cannot be changed after the 24-hour window, so confirm with Delta for your ticket."
+      },
+      {
+        "question": "How long does a Delta eCredit last?",
+        "answer": "Delta's cancel page says an eCredit from cancelling a non-refundable ticket expires 1 year from the purchase date. eCredits issued because of a flight disruption are valid for 5 years."
+      },
+      {
+        "question": "What does Delta charge for checked bags?",
+        "answer": "For Delta Main and Delta Comfort on domestic flights, $45 for the first and $55 for the second standard bag, each way (as of 2026-10-02). Medallion members and eligible Delta SkyMiles Amex cardmembers check the first bag free."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Domestic checked bags cost $45 (first) and $55 (second); change and cancel are free for Classic, Extra and Refundable tickets from the U.S. and Canada; Delta Main Basic costs $99 to change or cancel within North America and $199 to long-haul regions; Same-Day Confirmed is $75 on Classic (as of 2026-10-02).",
+        "source_name": "Delta Air Lines, Baggage & Travel Fees (official)",
+        "source_url": "https://www.delta.com/us/en/baggage/overview"
+      },
+      {
+        "claim": "Basic tickets cannot be changed or refunded after the Risk-Free Cancellation period; non-refundable eCredits expire 1 year from purchase; tickets booked on delta.com or the Fly Delta app can be cancelled within 24 hours for a full refund.",
+        "source_name": "Delta Air Lines, Cancel a Flight (official)",
+        "source_url": "https://www.delta.com/us/en/change-cancel/cancel-flight"
+      },
+      {
+        "claim": "Under U.S. DOT rules, you are owed a refund if the airline cancels or significantly changes your flight (for example a domestic departure moved 3 or more hours earlier or arrival 3 or more hours later) and you do not accept the alternative or a credit; refunds are due within 7 business days for credit card purchases and 20 calendar days for other payment methods.",
+        "source_name": "U.S. Department of Transportation, Refunds (official)",
+        "source_url": "https://www.transportation.gov/individuals/aviation-consumer-protection/refunds"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-alaska-airlines",
+    "slug": "alaska-airlines",
+    "name": "Alaska Airlines",
+    "category_slug": "flights-airlines",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.8,
+    "ratings": {
+      "value": 7,
+      "experience": 7,
+      "flexibility": 7,
+      "transparency": 6,
+      "service": 6
+    },
+    "price_summary": "Fares are dynamic. Main and First Class have no change or cancel fee (fare difference applies); North America checked bags on Main and Saver cost $45 for the first and $55 for the second bag (as of 2026-10-02).",
+    "pros": [
+      "Free changes and cancellations on Main and First Class tickets issued on or after May 25, 2025; you pay only any fare difference (as of 2026-10-02)",
+      "Business/First Class includes two free checked bags up to 70 lbs, and Atmos Rewards Visa cardholders get a free checked bag when they pay with the card",
+      "Same-day confirmed changes are free for Atmos Gold, Platinum and Titanium members on Main and First Class, per Alaska's fee table"
+    ],
+    "cons": [
+      "Saver fares cannot be changed. Alaska's Saver page offers a 50% credit if you cancel at least 14 days before departure, while its fee table says no changes or cancellations are permitted outside the 24-hour and same-day policies. The two pages do not match",
+      "Saver fares booked for travel after July 31, 2026 earn no Atmos Rewards points, have no standby, and are assigned seats at check-in",
+      "Same-day confirmed changes cost $75 on Main and First Class and $115 on Saver (as of 2026-10-02); checked bags cost $45 and $55 in North America"
+    ],
+    "best_for": "Travelers who book Main or First Class and want free changes, plus Atmos Rewards members who use same-day changes.",
+    "summary": "Alaska's Main and First Class fares change and cancel without a fee, and First Class includes two heavy bags. Its Saver fare is the most restrictive in this comparison, and two official Alaska pages describe Saver cancellations differently.",
+    "verdict_summary": "Alaska ranks third. Its optional fees page lists free changes and cancellations for Main and First Class tickets issued on or after May 25, 2025, with fare differences applying (as of 2026-10-02). Saver is where it falls behind: no changes, no standby, seats assigned at check-in, last boarding group, and no Atmos Rewards points on Saver fares booked for travel after July 31, 2026. Alaska's Saver page says you can get a 50% credit by cancelling at least 14 days out, but its fee table says Saver cannot be cancelled outside the 24-hour and same-day policies; we mark transparency down for that conflict. Policies change, so check Alaska's pages before you book. We did not fly Alaska; this reads its published rules.",
+    "pricing_table": [
+      {
+        "plan": "Saver",
+        "price": "Dynamic fare; bags $45 / $55 in North America (as of 2026-10-02)",
+        "notes": "No changes. Saver page: 50% credit if cancelled 14+ days before departure. Same-day confirmed change $115. Seats assigned at check-in; boards last."
+      },
+      {
+        "plan": "Main",
+        "price": "Dynamic fare; $0 change or cancel fee (as of 2026-10-02)",
+        "notes": "Fare difference may apply. Same-day confirmed change $75 (free for Atmos Gold and above)."
+      },
+      {
+        "plan": "First Class",
+        "price": "Dynamic fare; $0 change or cancel fee; 2 free bags up to 70 lbs (as of 2026-10-02)",
+        "notes": "Same-day confirmed change $75 (free for Atmos Gold and above)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can I cancel an Alaska Saver fare?",
+        "answer": "Alaska's Saver page says you get a 50% credit if you cancel at least 14 days before the first flight, and no other changes are allowed outside the 24-hour and same-day policies. Its fee table says no changes or cancellations are permitted for Saver outside those policies. Confirm with Alaska before booking a Saver fare you might cancel."
+      },
+      {
+        "question": "Does Alaska charge change fees?",
+        "answer": "Not on Main or First Class: the fee table lists change and cancellation as free for tickets issued on or after May 25, 2025, with fare differences applying (as of 2026-10-02)."
+      },
+      {
+        "question": "What are Alaska's checked bag fees?",
+        "answer": "For Main and Saver guests in North America, $45 for the first bag and $55 for the second, each up to 50 lbs and 62 linear inches (as of 2026-10-02). Within Hawaii it is $30 and $40."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "North America checked bags $45 and $55 for Main and Saver; change and cancellation free on Main and First Class tickets issued on or after May 25, 2025; same-day confirmed changes $75 (Main and First) and $115 (Saver); no changes or cancellations permitted for Saver outside the 24-hour and same-day policies (as of 2026-10-02).",
+        "source_name": "Alaska Airlines, Optional Services and Fees (official)",
+        "source_url": "https://www.alaskaair.com/content/travel-info/optional-services-fees"
+      },
+      {
+        "claim": "Saver: other changes not allowed; 50% credit if cancelled at least 14 days before departure; seats assigned at check-in; boarding group F; no standby; newly booked Saver fares for travel after July 31, 2026 do not earn Atmos Rewards points.",
+        "source_name": "Alaska Airlines, Saver fares (official)",
+        "source_url": "https://www.alaskaair.com/content/travel-info/flight-experience/saver"
+      },
+      {
+        "claim": "Under U.S. DOT rules, you are owed a refund if the airline cancels or significantly changes your flight (for example a domestic departure moved 3 or more hours earlier or arrival 3 or more hours later) and you do not accept the alternative or a credit; refunds are due within 7 business days for credit card purchases and 20 calendar days for other payment methods.",
+        "source_name": "U.S. Department of Transportation, Refunds (official)",
+        "source_url": "https://www.transportation.gov/individuals/aviation-consumer-protection/refunds"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-american-airlines",
+    "slug": "american-airlines",
+    "name": "American Airlines",
+    "category_slug": "flights-airlines",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.6,
+    "ratings": {
+      "value": 6,
+      "experience": 7,
+      "flexibility": 7,
+      "transparency": 7,
+      "service": 6
+    },
+    "price_summary": "Fares are dynamic. For tickets issued on or after May 18, 2026, the first checked bag within the U.S. costs $50 ($45 online) and the second $60 ($55 online), with Basic Economy paying $5 more; voluntary changes before the day of travel are $0 on non-Basic fares starting in North or South America (as of 2026-10-02).",
+    "pros": [
+      "Voluntary changes before the day of travel cost $0 on Main Cabin and higher fares for trips beginning in North or South America (as of 2026-10-02)",
+      "Paying for bags online saves $5 on the first and second bag on most routes in the Americas (as of 2026-10-02)",
+      "The full fee schedule, including seat, upgrade and Basic Economy cancellation fees, is published on one page with dates showing when each fee took effect"
+    ],
+    "cons": [
+      "Basic Economy cannot be changed after 24 hours; AAdvantage members can cancel for a travel credit only by paying a fee ($99 within the 48 contiguous states) and get nothing if the fee is higher than the fare (as of 2026-10-02)",
+      "The highest domestic bag fees in this comparison: $50 and $60 at the airport ($45 and $55 online), plus $5 more for Basic Economy, for tickets issued on or after May 18, 2026 (as of 2026-10-02)",
+      "Basic Economy boards last (typically Group 9), and American notes overhead bin space is usually full by then"
+    ],
+    "best_for": "Travelers buying Main Cabin or higher who want free changes and are willing to prepay bags online.",
+    "summary": "American's Main Cabin and higher fares change for free on trips starting in the Americas, and it publishes its whole fee schedule clearly. Basic Economy is locked after 24 hours, and its bag fees are now the highest of the four airlines here.",
+    "verdict_summary": "American ranks fourth. Its fee page lists $0 for voluntary changes before the day of travel on non-Basic fares starting in North or South America, and it shows each fee's effective date, which helps transparency (as of 2026-10-02). Value is the weak spot: for tickets issued on or after May 18, 2026, domestic bags are $50 and $60 at the airport ($45 and $55 online), with Basic Economy paying $5 more. Basic Economy cannot be changed after 24 hours, and cancelling it for credit costs $99 within the 48 contiguous states, for AAdvantage members who booked direct. Policies change; check American's fee page before you book. We did not fly American; this rating reads its published rules.",
+    "pricing_table": [
+      {
+        "plan": "Basic Economy",
+        "price": "Dynamic fare; bags $55 / $65 at airport, $5 less online (as of 2026-10-02)",
+        "notes": "No changes after 24 hours. AAdvantage members can cancel for travel credit for $99 (48 contiguous states), $129 (Hawaii, Alaska, Caribbean and nearby), or $199 (Europe, Asia and other long-haul); no credit if the fee exceeds the fare."
+      },
+      {
+        "plan": "Main Cabin",
+        "price": "Dynamic fare; bags $50 / $60 at airport, $45 / $55 online (as of 2026-10-02)",
+        "notes": "$0 voluntary change before day of travel for trips beginning in North or South America. Same-day change from $60."
+      },
+      {
+        "plan": "Premium Economy, Business, First",
+        "price": "Dynamic fare; first checked bag $0 on domestic routes (as of 2026-10-02)",
+        "notes": "Same-day change $0 on Business and First."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can I change an American Airlines Basic Economy ticket?",
+        "answer": "Only within 24 hours of buying, if you booked at least 7 days before departure. After that, AAdvantage members who booked directly can cancel for travel credit for a fee, $99 within the 48 contiguous states (as of 2026-10-02). If the fee is more than the ticket price, no credit is issued."
+      },
+      {
+        "question": "How much are American's checked bag fees?",
+        "answer": "For tickets issued on or after May 18, 2026, travel within the U.S. costs $50 for the first bag ($45 online) and $60 for the second ($55 online). Basic Economy pays $5 more per bag (as of 2026-10-02)."
+      },
+      {
+        "question": "Does American charge change fees on Main Cabin?",
+        "answer": "No change fee applies to voluntary changes before the day of travel on Main Cabin and higher fares for trips beginning in North or South America; you pay any fare difference. Trips from other origins can carry fees up to $400 (as of 2026-10-02)."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Bag fees for tickets issued on or after May 18, 2026: first bag $50 ($45 online), second $60 ($55 online), Basic Economy $5 more; voluntary change before day of travel $0 for travel beginning in North or South America; Basic Economy cancellation fee $99 within the 48 contiguous states for AAdvantage members (as of 2026-10-02).",
+        "source_name": "American Airlines, Bag and optional fees (official)",
+        "source_url": "https://www.aa.com/i18n/customer-service/support/optional-service-fees.jsp"
+      },
+      {
+        "claim": "Basic Economy tickets cannot be changed after 24 hours; AAdvantage members can cancel for travel credit for a fee if booked in the U.S. directly with American; no credit if the fee exceeds the ticket price; Basic Economy boards last, typically Group 9.",
+        "source_name": "American Airlines, Basic Economy (official)",
+        "source_url": "https://www.aa.com/i18n/travel-info/experience/seats/basic-economy.jsp"
+      },
+      {
+        "claim": "Under U.S. DOT rules, you are owed a refund if the airline cancels or significantly changes your flight (for example a domestic departure moved 3 or more hours earlier or arrival 3 or more hours later) and you do not accept the alternative or a credit; refunds are due within 7 business days for credit card purchases and 20 calendar days for other payment methods.",
+        "source_name": "U.S. Department of Transportation, Refunds (official)",
+        "source_url": "https://www.transportation.gov/individuals/aviation-consumer-protection/refunds"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-world-of-hyatt",
+    "slug": "world-of-hyatt",
+    "name": "World of Hyatt",
+    "category_slug": "hotels-lodging",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.1,
+    "ratings": {
+      "value": 7,
+      "experience": 7,
+      "flexibility": 7,
+      "transparency": 8,
+      "service": 6
+    },
+    "price_summary": "Free to join. Members earn 5 Base Points per eligible U.S. dollar at most Hyatt properties (2.5 at Hyatt Studios); points are forfeited after 24 consecutive months of inactivity (as of 2026-10-02).",
+    "pros": [
+      "The lowest published bar to entry-level status: Discoverist at 10 tier-qualifying nights or 25,000 Base Points in a calendar year, Explorist at 30 nights or 50,000, Globalist at 60 nights or 100,000 (as of 2026-10-02)",
+      "Status earned in one year lasts through February of the second year after you qualify, so a qualifying year covers more than 12 months",
+      "Many ways to keep points alive for 24 months, including earning, redeeming, gifting an award, converting to partner points, or simply holding a Hyatt co-branded credit card",
+      "Resort and destination fees count as Eligible Incidental Charges, so they earn points when charged to the room"
+    ],
+    "cons": [
+      "A cancelled or no-show award stay does not count as activity, so it will not stop the 24-month inactivity clock",
+      "The American Airlines partnership ends on November 15, 2026; no AAdvantage options will be offered for Milestone Rewards earned in 2027",
+      "Earning is quoted as 5 Base Points per dollar, against 10 at Marriott, Hilton and IHG. Point values differ between programmes, so the raw number is not a like-for-like comparison, but it does mean award prices must be compared in each programme's own chart"
+    ],
+    "best_for": "Travelers who stay 10 to 60 nights a year and want status that is reachable on night counts alone.",
+    "summary": "World of Hyatt publishes clear tier rules with reachable night thresholds and status that runs into the second year. The trade-offs are a strict rule that cancelled awards do not count as activity and the end of the American Airlines link in November 2026.",
+    "verdict_summary": "World of Hyatt ranks first on published terms. Its terms (effective August 24, 2026) set Discoverist at 10 nights, Explorist at 30 and Globalist at 60, or Base Point equivalents, and status lasts through February of the second year after qualifying (as of 2026-10-02). Points survive as long as there is activity once every 24 months, and holding a Hyatt co-branded card counts. The honest trade-offs: a cancelled or no-show award does not reset the inactivity clock, the American Airlines partnership ends on November 15, 2026, and its 5 points per dollar earn rate cannot be compared directly with the 10 per dollar quoted by rivals. Programme terms change; read Hyatt's current terms before relying on them. We did not stay at Hyatt hotels; this reads the published terms.",
+    "pricing_table": [
+      {
+        "plan": "Membership",
+        "price": "Free (as of 2026-10-02)",
+        "notes": "5 Base Points per eligible dollar at most properties, 2.5 at Hyatt Studios. Points forfeited after 24 consecutive months without activity."
+      },
+      {
+        "plan": "Discoverist / Explorist / Globalist",
+        "price": "10 / 30 / 60 tier-qualifying nights per calendar year (as of 2026-10-02)",
+        "notes": "Or 25,000 / 50,000 / 100,000 Base Points. Status runs through February of the second year after qualifying."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Do World of Hyatt points expire?",
+        "answer": "Points are forfeited if your account has no activity for 24 consecutive months. Activity includes earning, redeeming and completing an award stay, gifting an award, converting points, buying points, or holding a Hyatt co-branded credit card. A cancelled or no-show award does not count."
+      },
+      {
+        "question": "How many nights do I need for Hyatt status?",
+        "answer": "Per the terms, 10 tier-qualifying nights for Discoverist, 30 for Explorist and 60 for Globalist in a calendar year, or 25,000, 50,000 and 100,000 Base Points (as of 2026-10-02)."
+      },
+      {
+        "question": "Is the Hyatt and American Airlines partnership ending?",
+        "answer": "Yes. Hyatt's terms say the enhanced relationship ends on November 15, 2026. Members who have not linked accounts by then cannot choose AAdvantage awards as Milestone Rewards, and none will be offered for milestones earned in 2027."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Accounts inactive for 24 consecutive months forfeit all points; a cancelled or no-show award reservation does not count as a redemption for activity purposes; holding a Hyatt co-branded credit card counts as activity.",
+        "source_name": "World of Hyatt Terms & Conditions (official)",
+        "source_url": "https://www.hyatt.com/help/terms/world-of-hyatt"
+      },
+      {
+        "claim": "Discoverist: 10 tier-qualifying nights or 25,000 Base Points; Explorist: 30 nights or 50,000; Globalist: 60 nights or 100,000; members earn 5 Base Points per eligible dollar (2.5 at Hyatt Studios) (as of 2026-10-02).",
+        "source_name": "World of Hyatt Terms & Conditions, Appendices A and C (official)",
+        "source_url": "https://www.hyatt.com/help/terms/world-of-hyatt"
+      },
+      {
+        "claim": "Hyatt and American Airlines will end their enhanced relationship on November 15, 2026.",
+        "source_name": "World of Hyatt Terms & Conditions, update of September 9, 2026 (official)",
+        "source_url": "https://www.hyatt.com/help/terms/world-of-hyatt"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-marriott-bonvoy",
+    "slug": "marriott-bonvoy",
+    "name": "Marriott Bonvoy",
+    "category_slug": "hotels-lodging",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.0,
+    "ratings": {
+      "value": 7,
+      "experience": 8,
+      "flexibility": 7,
+      "transparency": 6,
+      "service": 6
+    },
+    "price_summary": "Free to join. Members earn 10 base Points per U.S. dollar on qualifying charges at most brands, 5 at brands such as Residence Inn, TownePlace Suites and Element, and 4 at StudioRes; points are forfeited after 24 consecutive months of inactivity (as of 2026-10-02).",
+    "pros": [
+      "Stay for 5, Pay for 4 is open to every member: redeem points for five consecutive award nights on one reservation and pay points for only four",
+      "10 base Points per dollar at most brands, with the lower-earning brands named in the terms (as of 2026-10-02)",
+      "Platinum Elite members who reach 50 nights pick an Annual Choice Benefit, such as five Nightly Upgrade Awards or five Elite Night Credits"
+    ],
+    "cons": [
+      "Free Night Award certificates cannot be used with Stay for 5, Pay for 4, cannot be applied to premium rooms, and cannot be combined with cash",
+      "Resort charges, taxes and late cancellation or no-show fees do not earn points",
+      "The terms page runs to well over 200,000 characters, which makes finding a single rule slow"
+    ],
+    "best_for": "Travelers planning longer award stays who want a fifth night free without needing elite status.",
+    "summary": "Marriott Bonvoy gives every member a free fifth night on five-night points stays and publishes its earn rates by brand. The terms are long, and Free Night certificates come with several restrictions.",
+    "verdict_summary": "Marriott Bonvoy ranks second. Its terms give every member the Stay for 5, Pay for 4 offer on five consecutive Standard or PointSavers award nights booked on one reservation, and list earning at 10 base Points per dollar at most brands, 5 at brands such as Residence Inn and Element, and 4 at StudioRes (as of 2026-10-02). Points stay active with any earning, redemption or purchase every 24 months. The trade-offs: Free Night Award certificates are excluded from Stay for 5, Pay for 4 and limited to standard rooms; resort charges earn nothing; and the terms document is very long. Terms change; check Marriott's current terms. We did not stay at Marriott hotels; this reads the published terms.",
+    "pricing_table": [
+      {
+        "plan": "Membership",
+        "price": "Free (as of 2026-10-02)",
+        "notes": "10 base Points per dollar at most brands; 5 at Apartments by Marriott Bonvoy, City Express, Element, Four Points Flex, Homes & Villas, Marriott Executive Apartments, Protea, Residence Inn and TownePlace Suites; 4 at StudioRes."
+      },
+      {
+        "plan": "Stay for 5, Pay for 4",
+        "price": "Points for 4 of 5 nights (as of 2026-10-02)",
+        "notes": "Five consecutive Standard Redemption or PointSavers award nights on one reservation; the lowest-priced night is free. Not available with Free Night Award certificates."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Do Marriott Bonvoy points expire?",
+        "answer": "Yes, if your account is inactive for 24 consecutive months, all points are forfeited. Earning, redeeming or buying points at least once every 24 months keeps the account active."
+      },
+      {
+        "question": "Does Marriott give a fifth night free on award stays?",
+        "answer": "Yes. The terms say a member who redeems points for five consecutive nights on one reservation, using a Standard Redemption or PointSavers award, pays points for four nights. The free night is the one with the lowest points price. Free Night Award certificates do not qualify."
+      },
+      {
+        "question": "Do resort fees earn Marriott points?",
+        "answer": "No. The terms list mandatory or automatic charges such as resort charges, along with taxes and late cancellation or no-show fees, among charges that do not earn points."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "A member account inactive for 24 consecutive months forfeits all accumulated points.",
+        "source_name": "Marriott Bonvoy Terms and Conditions, Section 1.6.d (official)",
+        "source_url": "https://www.marriott.com/loyalty/terms/default.mi"
+      },
+      {
+        "claim": "10 base Points per dollar at most brands; 5 at named brands including Residence Inn, TownePlace Suites and Element; 4 at StudioRes; resort charges do not earn points (as of 2026-10-02).",
+        "source_name": "Marriott Bonvoy Terms and Conditions, Section 2.1 (official)",
+        "source_url": "https://www.marriott.com/loyalty/terms/default.mi"
+      },
+      {
+        "claim": "Stay for 5, Pay for 4: a member redeeming points for five consecutive nights on one reservation pays for four; Free Night Awards are not eligible.",
+        "source_name": "Marriott Bonvoy Terms and Conditions, Section 3.3.d (official)",
+        "source_url": "https://www.marriott.com/loyalty/terms/default.mi"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-hilton-honors",
+    "slug": "hilton-honors",
+    "name": "Hilton Honors",
+    "category_slug": "hotels-lodging",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.6,
+    "ratings": {
+      "value": 7,
+      "experience": 7,
+      "flexibility": 6,
+      "transparency": 6,
+      "service": 6
+    },
+    "price_summary": "Free to join. Members earn 10 Base Points per U.S. dollar of eligible spend at most brands and 5 at Homewood Suites, Home2 Suites, Spark, Tru and some others; points are forfeited after 24 consecutive months without qualifying activity (as of 2026-10-02).",
+    "pros": [
+      "Every 5th night free on all-points Standard Room Reward stays of five or more nights, with no annual limit on how many stays use it",
+      "10 Base Points per dollar at most brands (as of 2026-10-02)",
+      "Elite members can roll over qualifying nights above their tier's requirement into the next year"
+    ],
+    "cons": [
+      "The 5th night free benefit sits under Silver Elite Tier Status in the terms, so base members do not get it, unlike Marriott's offer",
+      "If the free 5th night is declined, the stay is cancelled, or you check out early, the free night is forfeited",
+      "The terms say cancellation restrictions, early departure fees and deposits vary by hotel, so you must read each booking's own rules"
+    ],
+    "best_for": "Hilton Silver members and above who book five-night points stays.",
+    "summary": "Hilton Honors offers an unlimited 5th night free on points stays and a clear 24-month activity rule. The free night is an elite benefit, and booking rules vary hotel by hotel.",
+    "verdict_summary": "Hilton Honors ranks third. Its terms give every 5th night free on all-points Standard Room Reward stays of five or more nights, up to four free nights per stay and with no annual cap, and list 10 Base Points per dollar at most brands (as of 2026-10-02). Points are forfeited after 24 consecutive months without activity. The trade-offs: the 5th night free benefit is listed under Silver Elite Tier Status rather than for all members, the free night is lost if the stay is cut short, and cancellation and deposit terms vary by hotel. Terms change; check Hilton's current terms. We did not stay at Hilton hotels; this reads the published terms.",
+    "pricing_table": [
+      {
+        "plan": "Membership",
+        "price": "Free (as of 2026-10-02)",
+        "notes": "10 Base Points per dollar at most brands; 5 at Homewood Suites, Home2 Suites, Spark, Tru, Apartment Collection and others named in the terms."
+      },
+      {
+        "plan": "5th Night Free (Silver Elite and above)",
+        "price": "Every 5th night free on all-points Standard Room Reward stays (as of 2026-10-02)",
+        "notes": "Up to 4 free nights per stay (20 nights), unlimited stays per year; forfeited if declined, cancelled or checked out early."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Do Hilton Honors points expire?",
+        "answer": "Yes, if you take no qualifying action (such as earning or redeeming points, buying points, or donating them) within a 24 consecutive month period, your points are forfeited."
+      },
+      {
+        "question": "Do all Hilton members get the 5th night free?",
+        "answer": "No. In the terms it is listed under Silver Elite Tier Status benefits. It applies to all-points Standard Room Reward stays of five or more consecutive nights at the same property."
+      },
+      {
+        "question": "Can I cancel a Hilton booking for free?",
+        "answer": "It depends on the hotel and rate. The terms say deposit and cancellation restrictions and early departure fees may apply and vary by hotel, so check the rules shown on your booking."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Failure to take a qualifying action within a 24 consecutive month period means the account is inactive and forfeits all accumulated points.",
+        "source_name": "Hilton Honors Terms and Conditions (official)",
+        "source_url": "https://www.hilton.com/en/hilton-honors/terms/"
+      },
+      {
+        "claim": "Under Silver Elite Tier Status: for every all-points Standard Room Reward stay of five or more nights, every 5th night is free, up to four free nights per stay; the free night is forfeited if declined, cancelled or the guest checks out early.",
+        "source_name": "Hilton Honors Terms and Conditions (official)",
+        "source_url": "https://www.hilton.com/en/hilton-honors/terms/"
+      },
+      {
+        "claim": "Members earn 10 Base Points per dollar on eligible spend at most brands and 5 at Homewood Suites, Home2 Suites, Spark, Tru and others; deposit and cancellation restrictions vary by hotel (as of 2026-10-02).",
+        "source_name": "Hilton Honors Terms and Conditions (official)",
+        "source_url": "https://www.hilton.com/en/hilton-honors/terms/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-ihg-one-rewards",
+    "slug": "ihg-one-rewards",
+    "name": "IHG One Rewards",
+    "category_slug": "hotels-lodging",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.2,
+    "ratings": {
+      "value": 6,
+      "experience": 7,
+      "flexibility": 5,
+      "transparency": 7,
+      "service": 6
+    },
+    "price_summary": "Free to join. Members earn 10 Points per U.S. dollar on qualifying stays at most IHG hotels and 5 at Staybridge Suites and Candlewood Suites; Club members' points expire after 12 months with no earn or redeem activity (as of 2026-10-02).",
+    "pros": [
+      "Elite members' points do not expire for as long as they keep elite status",
+      "Elite tier bonus points are published plainly: 20% for Silver, 40% for Gold, 60% for Platinum and 100% for Diamond",
+      "Silver Elite needs only 10 qualifying nights; Gold 20, Platinum 40 and Diamond 70 (as of 2026-10-02)"
+    ],
+    "cons": [
+      "The shortest activity window here: Club members lose their points after any 12-month period with no earn or redeem activity, half the 24 months at Hyatt, Marriott and Hilton",
+      "The free night that IHG credit cardholders receive each year does not count as activity, so it will not keep points from expiring",
+      "Only one night per day counts toward elite nights, so booking two rooms for the same night earns one qualifying night"
+    ],
+    "best_for": "Travelers who will hold IHG elite status, since elite points never expire while status lasts.",
+    "summary": "IHG One Rewards publishes a clear benefits chart with reachable elite tiers and strong bonus percentages. Its 12-month expiry rule for Club members is the strictest in this comparison.",
+    "verdict_summary": "IHG One Rewards ranks fourth. Its benefits chart lists 10 Points per dollar at most hotels (5 at Staybridge and Candlewood) and elite tiers at 10, 20, 40 and 70 nights, with elite bonus points from 20% to 100% (as of 2026-10-02). Elite members' points never expire while they hold status. The ranking falls on flexibility: Club members' points expire after any 12 months without an earn or redeem transaction, half the window of the other three programmes, and the annual cardholder free night does not count as activity. Terms change; check IHG's current terms. We did not stay at IHG hotels; this reads the published terms.",
+    "pricing_table": [
+      {
+        "plan": "Club (base) membership",
+        "price": "Free (as of 2026-10-02)",
+        "notes": "10 Points per dollar at most IHG hotels, 5 at Staybridge Suites and Candlewood Suites. Points expire after 12 months without earn or redeem activity."
+      },
+      {
+        "plan": "Silver / Gold / Platinum / Diamond Elite",
+        "price": "10 / 20 / 40 / 70 qualifying nights (as of 2026-10-02)",
+        "notes": "Or 40,000 / 60,000 / 120,000 qualifying points for Gold, Platinum and Diamond. Bonus points 20% / 40% / 60% / 100%. Elite points do not expire while status is kept."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Do IHG One Rewards points expire?",
+        "answer": "For Club members, yes: points expire if there is no earn or redeem transaction for 12 months or longer. Elite members' points do not expire as long as they keep elite status."
+      },
+      {
+        "question": "How many nights do I need for IHG elite status?",
+        "answer": "10 qualifying nights for Silver, 20 for Gold, 40 for Platinum and 70 for Diamond, or 40,000, 60,000 and 120,000 qualifying points for Gold, Platinum and Diamond (as of 2026-10-02)."
+      },
+      {
+        "question": "Does the IHG credit card free night keep my points active?",
+        "answer": "No. The terms say using the one night per year provided to IHG One Rewards credit card holders is not an earn or redeem activity for preventing points expiration."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Club points expire after any period of 12 months or longer with no earn or redeem transactions; the annual cardholder free night does not count; elite members' points do not expire while elite status is maintained.",
+        "source_name": "IHG One Rewards Member Terms & Conditions (official)",
+        "source_url": "https://www.ihg.com/content/us/en/customer-care/member-tc"
+      },
+      {
+        "claim": "Elite Qualifying Nights: Silver 10, Gold 20, Platinum 40, Diamond 70; Elite Tier Bonus Points: 20%, 40%, 60%, 100% (as of 2026-10-02).",
+        "source_name": "IHG One Rewards Member Terms & Conditions (official)",
+        "source_url": "https://www.ihg.com/content/us/en/customer-care/member-tc"
+      },
+      {
+        "claim": "Members earn 10 Points per dollar on qualifying stays at most IHG hotels and 5 at Staybridge Suites and Candlewood Suites (as of 2026-10-02).",
+        "source_name": "IHG One Rewards Benefits Chart (official)",
+        "source_url": "https://www.ihg.com/content/us/en/customer-care/member-tc/2nd-page"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-chase-sapphire-preferred",
+    "slug": "chase-sapphire-preferred",
+    "name": "Chase Sapphire Preferred Card",
+    "category_slug": "travel-cards",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.4,
+    "ratings": {
+      "value": 6,
+      "experience": 9,
+      "flexibility": 8,
+      "transparency": 7,
+      "service": 7
+    },
+    "price_summary": "$95 annual fee, no foreign transaction fees, 19.49% to 29.99% variable purchase APR (as of 2026-10-02).",
+    "pros": [
+      "The broadest documented travel protections in this comparison: trip cancellation coverage up to $10,000 per covered traveler, auto rental coverage up to $60,000 for theft and collision, and baggage delay cover of up to $100 a day for 5 days",
+      "5x points on Chase Travel, 3x on dining, 3x on gas stations, EV charging and vacation homes, 2x on other travel, 1x on everything else (as of 2026-10-02)",
+      "Up to $100 a year in statement credits for hotel stays booked through Chase Travel, plus points that transfer to airline and hotel programmes such as United, Southwest, British Airways, Marriott Bonvoy, IHG and World of Hyatt",
+      "No foreign transaction fees on purchases outside the U.S."
+    ],
+    "cons": [
+      "The only card here with an annual fee: $95 (as of 2026-10-02)",
+      "No introductory APR, and the 19.49% to 29.99% variable APR is the highest starting range of the four cards",
+      "The best earn rate and the hotel credit both require booking through Chase Travel rather than directly with the airline or hotel",
+      "Welcome offers change often; the current offer of 75,000 points needs $5,000 of spending in 3 months, the highest spend requirement here"
+    ],
+    "best_for": "Travelers who will use the trip cancellation and rental car cover and can get more than $95 a year from the points and hotel credit.",
+    "summary": "The Sapphire Preferred costs $95 a year but is the only card here with documented trip cancellation, rental car and baggage delay cover, plus points that transfer to airline and hotel programmes.",
+    "verdict_summary": "The Chase Sapphire Preferred ranks first because its published benefits do the most when travel plans change. Chase's card page lists trip cancellation coverage up to $10,000 per covered traveler, auto rental coverage up to $60,000, and baggage delay cover of up to $100 a day for 5 days, with no foreign transaction fees (as of 2026-10-02). It also lists 5x points on Chase Travel and 3x on dining. The trade-offs are real: a $95 annual fee, no intro APR, a 19.49% to 29.99% variable APR, and a $5,000 spend needed for the current welcome offer. Each protection comes with conditions, and offers change, so read Chase's current terms and benefit details before applying. For the full card analysis, see Firsthand Money. This rating reads Chase's published terms; we did not hold or test the card.",
+    "pricing_table": [
+      {
+        "plan": "Annual fee",
+        "price": "$95 (as of 2026-10-02)",
+        "notes": "No foreign transaction fees."
+      },
+      {
+        "plan": "Purchase APR",
+        "price": "19.49% to 29.99% variable (as of 2026-10-02)",
+        "notes": "No introductory APR offer shown on the card page."
+      },
+      {
+        "plan": "Welcome offer",
+        "price": "75,000 points after $5,000 spend in 3 months (as of 2026-10-02)",
+        "notes": "Offers change often; check the card page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does the Chase Sapphire Preferred charge foreign transaction fees?",
+        "answer": "No. Chase's card page says there are no foreign transaction fees on purchases made outside the United States (as of 2026-10-02)."
+      },
+      {
+        "question": "What travel insurance comes with the Sapphire Preferred?",
+        "answer": "Chase lists trip cancellation coverage up to $10,000 per covered traveler, auto rental coverage with reimbursement up to $60,000 for theft and collision, and baggage delay reimbursement of up to $100 a day for up to 5 days. Each benefit has conditions set out in Chase's benefit terms."
+      },
+      {
+        "question": "Is the $95 annual fee worth it?",
+        "answer": "It depends on your use. The card page lists up to $100 a year in Chase Travel hotel credits and 3x to 5x earning in travel and dining categories. If you will not book through Chase Travel or use the protections, a no-fee card in this guide may cost you less."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "$95 annual fee; no foreign transaction fees; 19.49% to 29.99% variable APR; 75,000 bonus points after $5,000 spend in 3 months; 5x Chase Travel, 3x dining, 3x gas, EV charging and vacation homes, 2x other travel, 1x other purchases (as of 2026-10-02).",
+        "source_name": "Chase, Sapphire Preferred card page (official)",
+        "source_url": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred"
+      },
+      {
+        "claim": "Trip cancellation coverage up to $10,000 per covered traveler; auto rental coverage reimbursement up to $60,000 for theft and collision; baggage delay up to $100 a day for up to 5 days; up to $100 in annual statement credits for hotel stays through Chase Travel.",
+        "source_name": "Chase, Sapphire Preferred card page (official)",
+        "source_url": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-wells-fargo-autograph",
+    "slug": "wells-fargo-autograph",
+    "name": "Wells Fargo Autograph Card",
+    "category_slug": "travel-cards",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.0,
+    "ratings": {
+      "value": 8,
+      "experience": 7,
+      "flexibility": 6,
+      "transparency": 6,
+      "service": 7
+    },
+    "price_summary": "No annual fee, no foreign transaction fee, 0% intro APR on purchases for 12 months, then 18.74%, 24.74% or 28.74% variable APR (as of 2026-10-02).",
+    "pros": [
+      "3x points on restaurants, travel, gas and transit, streaming services and phone plans with no annual fee (as of 2026-10-02)",
+      "Wide published travel category: airlines, hotels, timeshares, car rental, cruise lines, travel agencies, discount travel sites and campgrounds, plus transit such as trains, taxis, ferries, tolls and parking",
+      "Cell phone protection of up to $600 against damage or theft, subject to a $25 deductible",
+      "No foreign transaction fee"
+    ],
+    "cons": [
+      "Only 1x point on purchases outside the bonus categories",
+      "The card page does not show a balance transfer fee, cash advance fee or late fee; you must open Wells Fargo's Important Credit Terms to find them",
+      "No travel insurance such as trip cancellation is listed on the card page, and the intro APR covers purchases only, for 12 months"
+    ],
+    "best_for": "Travelers who want bonus points on travel, dining and transit abroad without paying an annual fee.",
+    "summary": "The Autograph earns 3x across a wide set of travel and everyday categories with no annual fee and no foreign transaction fee. It lists no trip protections, and key fees are not on the main card page.",
+    "verdict_summary": "The Wells Fargo Autograph ranks second. Wells Fargo's card page lists no annual fee, no foreign transaction fee, 3x points on restaurants, travel, gas and transit, streaming and phone plans, and a 0% intro APR on purchases for 12 months followed by 18.74%, 24.74% or 28.74% variable (as of 2026-10-02). Its definition of travel is broad, covering cruise lines, campgrounds and transit. The trade-offs: no trip cancellation or similar protection is listed, only 1x elsewhere, and balance transfer and other fees are left to a separate terms document. Terms change; read Wells Fargo's Important Credit Terms before applying. For full card analysis, see Firsthand Money. We did not hold or test the card.",
+    "pricing_table": [
+      {
+        "plan": "Annual fee",
+        "price": "$0 (as of 2026-10-02)",
+        "notes": "No foreign transaction fee."
+      },
+      {
+        "plan": "Purchase APR",
+        "price": "0% intro for 12 months, then 18.74%, 24.74% or 28.74% variable (as of 2026-10-02)",
+        "notes": "Intro APR applies to purchases from account opening."
+      },
+      {
+        "plan": "Welcome offer",
+        "price": "20,000 points after $1,000 spend in 3 months (as of 2026-10-02)",
+        "notes": "Wells Fargo's own example values points at $0.01 each."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does the Wells Fargo Autograph have foreign transaction fees?",
+        "answer": "No. Wells Fargo's card page lists no foreign transaction fee and no annual fee (as of 2026-10-02)."
+      },
+      {
+        "question": "What counts as travel for the Autograph's 3x points?",
+        "answer": "Wells Fargo defines travel as airlines, hotels and motels, timeshares, car rental, cruise lines, travel agencies, discount travel sites and campgrounds, and transit as trains, taxis, limousines, ferries, tolls, and parking lots and garages."
+      },
+      {
+        "question": "Does the Autograph include travel insurance?",
+        "answer": "The card page we read lists cell phone protection (up to $600, $25 deductible) but no trip cancellation or similar travel cover. Check Wells Fargo's benefit terms for the current list."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "No annual fee; no foreign transaction fee; 0% intro APR for 12 months on purchases, then 18.74%, 24.74% or 28.74% variable; 20,000 bonus points after $1,000 in 3 months; 3x on restaurants, travel, gas and transit, streaming and phone plans; cell phone protection up to $600 with a $25 deductible (as of 2026-10-02).",
+        "source_name": "Wells Fargo, Autograph card page (official)",
+        "source_url": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/"
+      },
+      {
+        "claim": "Travel includes airline, hotel/motel, timeshare, auto rental, cruise lines, travel agencies, discount travel sites and campgrounds; transit includes passenger railway, taxis, limousines, ferries, tolls and parking.",
+        "source_name": "Wells Fargo, Autograph card page (official)",
+        "source_url": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-bank-of-america-travel-rewards",
+    "slug": "bank-of-america-travel-rewards",
+    "name": "Bank of America Travel Rewards Credit Card",
+    "category_slug": "travel-cards",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.9,
+    "ratings": {
+      "value": 8,
+      "experience": 6,
+      "flexibility": 6,
+      "transparency": 8,
+      "service": 6
+    },
+    "price_summary": "No annual fee, no foreign transaction fees, 0% intro APR for 15 billing cycles on purchases and on balance transfers made in the first 60 days, then 17.49% to 27.49% variable APR (as of 2026-10-02).",
+    "pros": [
+      "The lowest starting APR range of the four cards (17.49% to 27.49% variable) and the longest intro period: 0% for 15 billing cycles on purchases and on balance transfers made within 60 days (as of 2026-10-02)",
+      "Unlimited 1.5 points per dollar on all purchases, with no categories to track (as of 2026-10-02)",
+      "Points redeem as a statement credit against travel and dining purchases such as flights, hotels, vacation rentals, baggage fees and restaurants, so you can book anywhere",
+      "Balance transfer fees are published on the card page: 3% in the first 60 days, then 5%"
+    ],
+    "cons": [
+      "The flat 1.5x rate earns less than the 3x categories on the Autograph or the 3x to 5x categories on the Sapphire Preferred if you spend heavily on travel and dining",
+      "No trip cancellation, rental car or baggage cover is listed on the card page",
+      "The 5% balance transfer fee after the first 60 days is high (as of 2026-10-02)"
+    ],
+    "best_for": "Travelers who want a simple no-fee card with no foreign transaction fees and a long 0% intro period.",
+    "summary": "Bank of America Travel Rewards keeps things simple: no annual fee, no foreign transaction fees, 1.5 points per dollar on everything and a 15-cycle intro APR. It lists no travel protections and earns less than category cards.",
+    "verdict_summary": "Bank of America Travel Rewards ranks third. Its card page lists no annual fee, no foreign transaction fees, 1.5 points per dollar on all purchases, and a 0% intro APR for 15 billing cycles on purchases and on balance transfers made in the first 60 days, then 17.49% to 27.49% variable (as of 2026-10-02). It also publishes the balance transfer fee plainly, 3% then 5%, which earns it a high transparency score. The trade-offs: no listed travel protections and a flat earn rate that trails category cards for frequent travelers. Terms change; check Bank of America's current terms before applying. For full card analysis, see Firsthand Money. We did not hold or test the card.",
+    "pricing_table": [
+      {
+        "plan": "Annual fee",
+        "price": "$0 (as of 2026-10-02)",
+        "notes": "No foreign transaction fees."
+      },
+      {
+        "plan": "APR",
+        "price": "0% intro for 15 billing cycles, then 17.49% to 27.49% variable (as of 2026-10-02)",
+        "notes": "Intro APR covers purchases and balance transfers made in the first 60 days. Balance transfer fee 3% for 60 days, then 5%."
+      },
+      {
+        "plan": "Welcome offer",
+        "price": "25,000 online bonus points after $1,000 spend in 90 days (as of 2026-10-02)",
+        "notes": "Bank of America values the bonus at $250."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does the Bank of America Travel Rewards card charge foreign transaction fees?",
+        "answer": "No. The card page lists no foreign transaction fees and no annual fee (as of 2026-10-02)."
+      },
+      {
+        "question": "How do I use Bank of America Travel Rewards points?",
+        "answer": "The card page says you can redeem points for a statement credit to pay for travel and dining purchases, such as flights, hotel stays, vacation rentals, baggage fees and restaurants."
+      },
+      {
+        "question": "What is the intro APR on the Travel Rewards card?",
+        "answer": "0% for 15 billing cycles on purchases and on balance transfers made within the first 60 days, then 17.49% to 27.49% variable (as of 2026-10-02). Balance transfers cost 3% in the first 60 days and 5% after."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "No annual fee; no foreign transaction fees; 0% intro APR for 15 billing cycles on purchases and on balance transfers made within 60 days; then 17.49% to 27.49% variable; balance transfer fee 3% for 60 days then 5%; 1.5 points per dollar; 25,000 bonus points after $1,000 in 90 days (as of 2026-10-02).",
+        "source_name": "Bank of America, Travel Rewards card page (official)",
+        "source_url": "https://www.bankofamerica.com/credit-cards/products/travel-rewards-credit-card/"
+      },
+      {
+        "claim": "Points can be redeemed as a statement credit for travel and dining purchases, including flights, hotel stays, vacation rentals, baggage fees and restaurants.",
+        "source_name": "Bank of America, Travel Rewards card page (official)",
+        "source_url": "https://www.bankofamerica.com/credit-cards/products/travel-rewards-credit-card/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-capital-one-ventureone",
+    "slug": "capital-one-ventureone",
+    "name": "Capital One VentureOne Rewards Credit Card",
+    "category_slug": "travel-cards",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.8,
+    "ratings": {
+      "value": 8,
+      "experience": 6,
+      "flexibility": 6,
+      "transparency": 7,
+      "service": 6
+    },
+    "price_summary": "No annual fee, no foreign transaction fees, 0% intro APR for 15 months on purchases and balance transfers, then 18.49% to 28.49% variable APR (as of 2026-10-02).",
+    "pros": [
+      "0% intro APR for 15 months on both purchases and balance transfers, with no annual fee (as of 2026-10-02)",
+      "5 miles per dollar on hotels, vacation rentals and rental cars booked through Capital One Travel, and 1.25 miles per dollar on everything else (as of 2026-10-02)",
+      "Miles can be used to book through Capital One Travel or to cover past travel bought elsewhere, within 90 days of the purchase posting",
+      "No transaction fee on purchases made outside the United States"
+    ],
+    "cons": [
+      "The lowest base earn rate here at 1.25 miles per dollar",
+      "Capital One labels it for excellent credit, and the card page does not state the balance transfer fee amount",
+      "No trip cancellation, rental car or baggage cover is listed on the card page, and the 5x rate only applies through Capital One Travel"
+    ],
+    "best_for": "Travelers with excellent credit who want a no-fee card for spending abroad and a 15-month 0% period.",
+    "summary": "VentureOne charges no annual fee and no foreign transaction fees and offers 15 months at 0% on purchases and transfers. Its 1.25x base rate is the lowest here, and it lists no travel protections.",
+    "verdict_summary": "The Capital One VentureOne ranks fourth. Capital One's card page lists a $0 annual fee, no foreign transaction fees, a 0% intro APR for 15 months on purchases and balance transfers, then 18.49% to 28.49% variable, and 5 miles per dollar on hotels, vacation rentals and rental cars through Capital One Travel (as of 2026-10-02). Miles can also cover past travel purchases within 90 days. It ranks last because its 1.25x base rate is the lowest here, no travel protections are listed, and the balance transfer fee is not stated on the card page. Terms change; check Capital One's current terms before applying. For full card analysis, see Firsthand Money. We did not hold or test the card.",
+    "pricing_table": [
+      {
+        "plan": "Annual fee",
+        "price": "$0 (as of 2026-10-02)",
+        "notes": "No foreign transaction fees. Marketed for excellent credit."
+      },
+      {
+        "plan": "APR",
+        "price": "0% intro for 15 months, then 18.49% to 28.49% variable (as of 2026-10-02)",
+        "notes": "Intro APR covers purchases and balance transfers; a balance transfer fee applies but the amount is not shown on the card page."
+      },
+      {
+        "plan": "Welcome offer",
+        "price": "20,000 miles after $500 spend in 3 months (as of 2026-10-02)",
+        "notes": "Offers change; check the card page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does the Capital One VentureOne charge foreign transaction fees?",
+        "answer": "No. Capital One says you won't pay a transaction fee on purchases outside the United States, and the card has no annual fee (as of 2026-10-02)."
+      },
+      {
+        "question": "How can I use VentureOne miles?",
+        "answer": "Book travel through Capital One Travel, or use miles to get reimbursed for past travel purchases made elsewhere, within 90 days of the purchase posting."
+      },
+      {
+        "question": "What credit do I need for the VentureOne?",
+        "answer": "Capital One's card page labels it for excellent credit."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "$0 annual fee; no foreign transaction fees; 1.25 miles per dollar on every purchase; 5 miles per dollar on hotels, vacation rentals and rental cars booked through Capital One Travel; 20,000 bonus miles after $500 in 3 months; 0% intro APR for 15 months on purchases and balance transfers, then 18.49% to 28.49% variable; marketed for excellent credit (as of 2026-10-02).",
+        "source_name": "Capital One, VentureOne card page (official)",
+        "source_url": "https://www.capitalone.com/credit-cards/ventureone/"
+      },
+      {
+        "claim": "Miles can be used to book through Capital One Travel or to be reimbursed for past travel purchases, within 90 days of the purchase posting.",
+        "source_name": "Capital One, VentureOne card page (official)",
+        "source_url": "https://www.capitalone.com/credit-cards/ventureone/"
+      }
+    ],
+    "last_updated": "2026-10-02"
   }
 ]

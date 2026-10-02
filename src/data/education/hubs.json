@@ -75,5 +75,162 @@
       }
     ],
     "last_updated": "2026-07-12"
+  },
+  {
+    "id": "hub-best-coding-bootcamps",
+    "slug": "best-coding-bootcamps",
+    "title": "Best Coding Bootcamps of 2026",
+    "category_slug": "coding-bootcamps",
+    "intro_mdx_or_text": "Coding bootcamps sell a career change, so the outcomes report is the most important page on their site. This guide only covers bootcamps that publish one. Three of the four (Code Platoon, Codesmith and Hacktiv8) publish reports in the format set by CIRR, the Council on Integrity in Results Reporting, whose standards call for annual third-party audits and for every student to be counted. The fourth, TripleTen, publishes its own report built from its own surveys, and we label it as self-reported. We dropped several well-known schools: Hack Reactor states it does not publish placement data publicly, we could not confirm Tech Elevator's outcomes data from its official page, Turing School paused new enrolments in April 2025, and Flatiron School no longer links a jobs report. Outcome figures are quoted exactly as published, with the graduating year they cover. Prices are as of 2026-10-02. We score each one on five weighted criteria: Outcomes (30%), Cost and Value (25%), Academics (20%), Support Services (15%) and Flexibility (10%). Firsthand does not audit programs or survey students. We read the provider's own published pages, and every price carries an as-of date.",
+    "answer_block": "Code Platoon is our top pick for those eligible: a nonprofit for Veterans and military families with CIRR-format outcomes (74.5% in-field at 360 days for 2022 full-time graduates) and $20,000 tuition that most students cover with VA benefits or scholarships (as of 2026-10-02). Codesmith has strong audited results (81.0% in-field at 360 days for 2022 full-time graduates) but does not publish tuition. TripleTen is the most flexible at $9,800 part time with a refund guarantee, but its outcomes are self-reported. Hacktiv8 serves learners in Indonesia. Firsthand does not audit these reports; figures are as published.",
+    "product_slugs": [
+      "code-platoon",
+      "codesmith",
+      "tripleten",
+      "hacktiv8"
+    ],
+    "faq": [
+      {
+        "question": "What is CIRR?",
+        "answer": "The Council on Integrity in Results Reporting is a nonprofit that sets a standard format for bootcamp outcomes reports. Its published standards require schools to track every enrolled student and to have their data reviewed in annual third-party audits."
+      },
+      {
+        "question": "Why are some big bootcamps missing?",
+        "answer": "We only include bootcamps that publish an outcomes report. Hack Reactor states on its site that it does not publish placement data publicly, and Turing School paused new enrolments in April 2025."
+      },
+      {
+        "question": "Why are the reports from 2022 or 2023?",
+        "answer": "Those are the newest report files we could open on the schools' and CIRR's sites on 2026-10-02. Hiring markets change, so ask any school for its latest report before you enrol."
+      },
+      {
+        "question": "Do you verify the outcome numbers?",
+        "answer": "No. Firsthand does not audit schools or survey students. We quote each figure as published and say who published it and whether it was prepared under CIRR's audited standard."
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "hub-best-online-degrees",
+    "slug": "best-online-degrees",
+    "title": "Best Online Degrees of 2026",
+    "category_slug": "online-degrees",
+    "intro_mdx_or_text": "An online degree is a large commitment, so accreditation and total cost matter more than marketing. This guide compares four accredited online computer science degrees: Georgia Tech's OMSCS (a master's), and bachelor's programmes from Western Governors University, University of the People and ASU Online. We confirmed each institution's accreditation in the accreditor's own directory or in the US Department of Education's College Scorecard data, and took prices from each institution's official tuition page as of 2026-10-02. Earnings figures from College Scorecard are institution-wide, not programme-specific. UK options such as the Open University and the University of London are not included yet, because we could not confirm their current fees and course details from their official pages on 2026-10-02. We score each one on five weighted criteria: Outcomes (30%), Cost and Value (25%), Academics (20%), Support Services (15%) and Flexibility (10%). Firsthand does not audit programs or survey students. We read the provider's own published pages, and every price carries an as-of date.",
+    "answer_block": "If you already hold a bachelor's, Georgia Tech's OMSCS is the standout: an accredited computer science master's at $227 per credit hour, or $6,810 in tuition for 30 credit hours before per-semester fees (as of 2026-10-02). For a bachelor's, WGU's BS in Computer Science ($4,125 per six-month term, NWCCU accredited) is the best value for fast, disciplined learners. University of the People is the cheapest at about $7,260 in total fees, but it has no federal aid. ASU Online costs the most at $580 per credit hour plus fees. Firsthand does not survey students; ratings use accreditor records, College Scorecard data and official tuition pages.",
+    "product_slugs": [
+      "georgia-tech-omscs",
+      "wgu-bs-computer-science",
+      "uopeople-bs-computer-science",
+      "asu-online-bs-computer-science"
+    ],
+    "faq": [
+      {
+        "question": "How do I check that an online degree is accredited?",
+        "answer": "Look the institution up in its accreditor's own directory (for example NWCCU, WSCUC or The Commission on Colleges and Universities) or in the US Department of Education's College Scorecard. We did both for the programmes in this guide on 2026-10-02."
+      },
+      {
+        "question": "Which online computer science degree is cheapest?",
+        "answer": "For a bachelor's, University of the People at about $7,260 in total fees. For a master's, Georgia Tech OMSCS at $227 per credit hour plus per-semester fees (as of 2026-10-02)."
+      },
+      {
+        "question": "Can I use federal financial aid?",
+        "answer": "WGU, ASU Online and Georgia Tech appear in College Scorecard. University of the People says it does not receive Title IV funds, so US federal aid does not apply there."
+      },
+      {
+        "question": "Are the earnings figures for these specific degrees?",
+        "answer": "No. The College Scorecard earnings we cite are for each whole institution or online unit, not for the computer science programme."
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "hub-best-professional-certifications",
+    "slug": "best-professional-certifications",
+    "title": "Best Professional Certifications of 2026",
+    "category_slug": "professional-certifications",
+    "intro_mdx_or_text": "A certification is only worth its fee if employers recognise it and you can keep it current without surprise costs. This guide compares four widely recognised IT certifications: AWS Certified Solutions Architect Associate, Google Cloud Associate Cloud Engineer, ISC2 CISSP and CompTIA Security+. Exam fees, formats and renewal rules come from each certifying body's own exam and renewal pages, in US dollars as of 2026-10-02 unless stated. None of these bodies publishes placement or salary outcomes for its credential, so Outcomes reflects the role the credential is built for, its entry bar and the formal recognition each body documents. We left out PMI's PMP because the exam fee did not display on PMI's site when we checked. We score each one on five weighted criteria: Outcomes (30%), Cost and Value (25%), Academics (20%), Support Services (15%) and Flexibility (10%). Firsthand does not audit programs or survey students. We read the provider's own published pages, and every price carries an as-of date.",
+    "answer_block": "For most people starting in cloud, the AWS Certified Solutions Architect Associate is the best value: a $150 exam with a 50% renewal discount (as of 2026-10-02). Google's Associate Cloud Engineer is cheaper at $125 and fits Google Cloud roles. CISSP is the senior security credential, with a five-year experience bar, a $749 exam and a $135 annual fee. CompTIA Security+ ($439) suits people moving into security, especially US government roles, but a new version launches in November 2026. Firsthand does not survey certificate holders; these ratings use the certifying bodies' published documentation.",
+    "product_slugs": [
+      "aws-certified-solutions-architect-associate",
+      "google-cloud-associate-cloud-engineer",
+      "isc2-cissp",
+      "comptia-security-plus"
+    ],
+    "faq": [
+      {
+        "question": "Which IT certification is best value in 2026?",
+        "answer": "On price alone, Google's Associate Cloud Engineer ($125) and AWS Solutions Architect Associate ($150) are the cheapest exams here (as of 2026-10-02). We rank AWS first because it pairs the low fee with a 50% renewal discount and online delivery in 10 languages."
+      },
+      {
+        "question": "Which certifications need renewing?",
+        "answer": "All four. AWS and Google associate exams last 3 years. Security+ renews through CompTIA's continuing education program for $150 per three years. CISSP needs 120 CPE credits per three-year cycle and a $135 annual fee."
+      },
+      {
+        "question": "Why is PMP not included?",
+        "answer": "PMI's PMP page did not show the exam fee when we checked on 2026-10-02, and we only publish prices we can read on the official site."
+      },
+      {
+        "question": "Do you have pass rates or salary data?",
+        "answer": "No. None of these certifying bodies publishes pass rates on the pages we read, and we do not run our own surveys."
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "hub-best-study-tools",
+    "slug": "best-study-tools",
+    "title": "Best Study Tools of 2026",
+    "category_slug": "study-tools",
+    "intro_mdx_or_text": "Study tools range from free open-source apps to subscriptions with AI features. This guide compares four flashcard and study apps: Anki, RemNote, Brainscape and Quizlet. Prices come from each app's official pricing page or official store listing as of 2026-10-02; Quizlet's page showed UK pricing in pounds when we checked. None of these apps publishes independent learning-outcome data on its pricing page, so Outcomes reflects the study method each tool documents rather than results. We score each one on five weighted criteria: Outcomes (30%), Cost and Value (25%), Academics (20%), Support Services (15%) and Flexibility (10%). Firsthand does not audit programs or survey students. We read the provider's own published pages, and every price carries an as-of date.",
+    "answer_block": "Anki is our top pick on value: free on desktop and Android with free sync, and $24.99 once for the official iOS app (as of 2026-10-02). RemNote suits students who want notes and flashcards together, with Pro at $96 a year. Brainscape offers pre-made Certified decks with Pro from $95.88 a year or $199.99 for life. Quizlet Plus starts at £35.99 a year in the UK but caps practice tests and Learn rounds. Firsthand does not test these apps with students; ratings use each provider's published pricing and features.",
+    "product_slugs": [
+      "anki",
+      "remnote",
+      "brainscape",
+      "quizlet"
+    ],
+    "faq": [
+      {
+        "question": "What is the best free flashcard app?",
+        "answer": "Anki is free on desktop and Android with free AnkiWeb sync. RemNote and Brainscape also have free plans, with limits on some features (as of 2026-10-02)."
+      },
+      {
+        "question": "Is a lifetime plan worth it?",
+        "answer": "Brainscape's $199.99 lifetime Pro costs about the same as two years of its $95.88 annual plan (as of 2026-10-02), so it pays off if you will study with it for more than two years."
+      },
+      {
+        "question": "Do you test these apps?",
+        "answer": "No. Firsthand does not run its own trials. We read each provider's official pricing and feature pages and cite them with an as-of date."
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "hub-best-test-prep",
+    "slug": "best-test-prep",
+    "title": "Best Test Prep of 2026",
+    "category_slug": "test-prep",
+    "intro_mdx_or_text": "Test prep ranges from free official materials to full paid courses. This guide covers official or major prep for three named tests: the SAT (College Board's own practice), the LSAT (LSAC's LawHub Advantage) and the GRE (ETS's official POWERPREP tests and Magoosh's GRE Premium course). Prices come from each provider's official page in US dollars as of 2026-10-02. None of these providers publishes audited score-improvement data on the pages we read, so Outcomes reflects how closely the material matches the real test and any stated guarantee, not score gains. We score each one on five weighted criteria: Outcomes (30%), Cost and Value (25%), Academics (20%), Support Services (15%) and Flexibility (10%). Firsthand does not audit programs or survey students. We read the provider's own published pages, and every price carries an as-of date.",
+    "answer_block": "For the SAT, start with College Board's free official practice: scored full-length tests in Bluebook plus Khan Academy's Official SAT Prep (as of 2026-10-02). For the LSAT, LSAC's LawHub Advantage ($124 a year) gives official PrepTests in the real interface. For the GRE, Magoosh Premium ($149 for 1 month, $179 for 6 months) teaches the material, and ETS's POWERPREP tests (two free, then $44.95 each) are the most realistic practice. Firsthand does not run score studies; these ratings analyse published pricing and content.",
+    "product_slugs": [
+      "college-board-official-sat-practice",
+      "lsac-lawhub-advantage",
+      "magoosh-gre",
+      "ets-official-gre-prep"
+    ],
+    "faq": [
+      {
+        "question": "Is official test prep better than a paid course?",
+        "answer": "Official material is the most realistic practice because it comes from the test maker, and for the SAT it is free. Official tools do little teaching, so a course like Magoosh helps if you need lessons and a plan."
+      },
+      {
+        "question": "Do any of these guarantee a higher score?",
+        "answer": "Magoosh advertises a +5 point guarantee on a previous GRE score for its Premium plans. The official providers do not offer score guarantees on the pages we read."
+      },
+      {
+        "question": "Do you test these products?",
+        "answer": "No. Firsthand does not run its own score studies. We read each provider's official pricing and product pages and cite them with an as-of date."
+      }
+    ],
+    "last_updated": "2026-10-02"
   }
 ]

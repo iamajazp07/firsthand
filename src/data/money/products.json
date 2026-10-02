@@ -795,5 +795,1281 @@
       }
     ],
     "last_updated": "2026-07-12"
+  },
+  {
+    "id": "prod-fidelity-brokerage-account",
+    "slug": "fidelity-brokerage-account",
+    "name": "Fidelity Brokerage Account",
+    "category_slug": "brokerages-investing",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 8.7,
+    "ratings": {
+      "fees": 9,
+      "value_returns": 9,
+      "transparency": 9,
+      "security_trust": 9,
+      "support": 7
+    },
+    "price_summary": "$0 online US stock and ETF trades; options $0.65 per contract; no minimum to open (as of 2026-10-02)",
+    "pros": [
+      "$0 commission on online US stock and ETF trades, per Fidelity's commissions page (as of 2026-10-02)",
+      "No minimum to open an account (as of 2026-10-02)",
+      "Margin rates are published with an effective date: base rate 10.825% effective September 18, 2026 (as of 2026-10-02)",
+      "FINRA BrokerCheck lists Fidelity Brokerage Services LLC (CRD 7784) as an active firm, and Fidelity states it is a Member NYSE, SIPC"
+    ],
+    "cons": [
+      "Options cost $0.65 per contract (as of 2026-10-02)",
+      "Transaction fee mutual funds cost $49.95 per purchase, and no transaction fee funds carry a $49.95 charge if redeemed within 60 days (as of 2026-10-02)",
+      "Margin borrowing is expensive at small balances: 12.075% on debit balances under $25,000 (as of 2026-10-02)"
+    ],
+    "best_for": "Self-directed investors who want $0 online stock and ETF trades, no account minimum, and clearly dated margin rates",
+    "summary": "Fidelity charges $0 for online US stock and ETF trades, $0.65 per options contract, and has no minimum to open (as of 2026-10-02). Fidelity Brokerage Services LLC is a Member NYSE, SIPC and is listed as active on FINRA BrokerCheck. Margin rates change; check Fidelity's official page.",
+    "verdict_summary": "Fidelity is our top pick because its core pricing is low and its rate page is specific. The commissions page lists $0 for online US stock and ETF trades, $0 plus $0.65 per contract for options, $1.00 per bond for secondary bond trades, and no minimum to open an account (as of 2026-10-02). Mutual fund costs depend on the fund: no transaction fee funds are $0 to buy but carry a $49.95 charge if redeemed within 60 days, and transaction fee funds cost $49.95 per purchase. Margin is priced from a base rate of 10.825%, effective September 18, 2026, ranging from 12.075% on debit balances under $25,000 to 7.75% at $1 million and above. FINRA BrokerCheck lists Fidelity Brokerage Services LLC (CRD 7784) as active, and Fidelity states the firm is a Member NYSE, SIPC. SIPC protection covers missing assets if a member firm fails; it does not protect against market losses. Rates and fees change, so confirm on Fidelity's site.",
+    "pricing_table": [
+      {
+        "plan": "US stocks and ETFs (online)",
+        "price": "$0",
+        "notes": "Per Fidelity's commissions page (as of 2026-10-02)."
+      },
+      {
+        "plan": "Options",
+        "price": "$0 + $0.65 per contract",
+        "notes": "Per Fidelity's commissions page (as of 2026-10-02)."
+      },
+      {
+        "plan": "Transaction fee mutual funds",
+        "price": "$49.95 per purchase",
+        "notes": "No transaction fee funds: $49.95 if redeemed within 60 days (as of 2026-10-02)."
+      },
+      {
+        "plan": "Margin (under $25,000)",
+        "price": "12.075%",
+        "notes": "Base rate 10.825% effective September 18, 2026 (as of 2026-10-02). Rates change."
+      },
+      {
+        "plan": "Minimum to open",
+        "price": "$0",
+        "notes": "No minimums to open an account (as of 2026-10-02)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is Fidelity a SIPC member?",
+        "answer": "Fidelity states that Fidelity Brokerage Services LLC is a Member NYSE, SIPC, and FINRA BrokerCheck lists the firm (CRD 7784) as active (as of 2026-10-02). SIPC covers missing customer assets if a member firm fails, not investment losses."
+      },
+      {
+        "question": "What does Fidelity charge for options?",
+        "answer": "$0 commission plus $0.65 per contract on online trades (as of 2026-10-02)."
+      },
+      {
+        "question": "What are Fidelity's margin rates?",
+        "answer": "From a 10.825% base rate effective September 18, 2026: 12.075% under $25,000 down to 7.75% at $1 million and above (as of 2026-10-02). Margin rates change often, so check the live table."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "$0 online US stock and ETF trades; options $0.65 per contract; NTF funds $49.95 on redemption within 60 days; TF funds $49.95 per purchase; margin base 10.825% effective September 18, 2026, 12.075% under $25,000, 7.75% at $1M+; no minimums; Fidelity Brokerage Services LLC, Member NYSE, SIPC (as of 2026-10-02).",
+        "source_name": "Fidelity: Commissions and margin rates (official)",
+        "source_url": "https://www.fidelity.com/trading/commissions-margin-rates"
+      },
+      {
+        "claim": "FIDELITY BROKERAGE SERVICES LLC, CRD 7784, SEC 8-23292, status active (as of 2026-10-02).",
+        "source_name": "FINRA BrokerCheck (firm search)",
+        "source_url": "https://api.brokercheck.finra.org/search/firm?query=Fidelity%20Brokerage%20Services&hl=true&nrows=3&start=0&r=25&wt=json"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-charles-schwab-brokerage-account",
+    "slug": "charles-schwab-brokerage-account",
+    "name": "Charles Schwab Brokerage Account",
+    "category_slug": "brokerages-investing",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 8.5,
+    "ratings": {
+      "fees": 9,
+      "value_returns": 9,
+      "transparency": 8,
+      "security_trust": 9,
+      "support": 7
+    },
+    "price_summary": "$0 online listed stock and ETF trades; options $0.65 per contract; no account or trade minimums (as of 2026-10-02)",
+    "pros": [
+      "$0 online commission on listed stocks and ETFs (as of 2026-10-02)",
+      "$0 on thousands of mutual funds through Schwab Mutual Fund OneSource (as of 2026-10-02)",
+      "No account or trade minimums, and Schwab says there are no fees to open and maintain an account (as of 2026-10-02)",
+      "FINRA BrokerCheck lists Charles Schwab & Co., Inc. (CRD 5393) as an active firm, and Schwab states it is a Member SIPC"
+    ],
+    "cons": [
+      "Options cost $0.65 per contract online; broker-assisted trades add a $25 service charge (as of 2026-10-02)",
+      "The pricing page refers you to a separate Schwab Pricing Guide for full fee details, and we could not load a current margin rate table during this check, so margin costs are not confirmed here",
+      "Futures and forex accounts are not protected by SIPC, per Schwab's own disclosure (as of 2026-10-02)"
+    ],
+    "best_for": "Investors who want $0 online stock and ETF trades, a large no transaction fee fund list, and no minimums",
+    "summary": "Schwab charges $0 for online listed stock and ETF trades, $0.65 per options contract, and has no account or trade minimums (as of 2026-10-02). Charles Schwab & Co., Inc. is a Member SIPC and is listed as active on FINRA BrokerCheck. Fees change; check Schwab's pricing page.",
+    "verdict_summary": "Schwab's pricing page lists $0 online commissions on listed stocks and ETFs, $0 plus $0.65 per contract on online options, $0 on thousands of funds in Schwab Mutual Fund OneSource, and $1 per bond for secondary bond trades with a $10 minimum and $250 maximum (as of 2026-10-02). Broker-assisted trades add a $25 service charge. Schwab says there is no minimum investment to open a brokerage account and no fees to open and maintain one. FINRA BrokerCheck lists Charles Schwab & Co., Inc. (CRD 5393) as active, and Schwab states the firm is a Member SIPC; Schwab also notes that futures and forex accounts are not SIPC protected. We score transparency a little lower than Fidelity because the pricing page sends readers to a separate pricing guide for full details, and we could not load a current margin rate table during this check. Confirm details in Schwab's pricing guide before opening.",
+    "pricing_table": [
+      {
+        "plan": "Listed stocks and ETFs (online)",
+        "price": "$0",
+        "notes": "Per Schwab's pricing page (as of 2026-10-02)."
+      },
+      {
+        "plan": "Options (online)",
+        "price": "$0 + $0.65 per contract",
+        "notes": "Broker-assisted adds $25 (as of 2026-10-02)."
+      },
+      {
+        "plan": "Mutual Fund OneSource",
+        "price": "$0",
+        "notes": "On thousands of funds (as of 2026-10-02)."
+      },
+      {
+        "plan": "Minimums",
+        "price": "$0",
+        "notes": "No account or trade minimums (as of 2026-10-02)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is Schwab a SIPC member?",
+        "answer": "Schwab states that Charles Schwab & Co., Inc. is a Member SIPC, and FINRA BrokerCheck lists the firm (CRD 5393) as active (as of 2026-10-02). Schwab notes futures and forex accounts are not SIPC protected."
+      },
+      {
+        "question": "Does Schwab charge account fees?",
+        "answer": "Schwab's pricing page says there are no fees to open and maintain a Schwab account and no account minimums (as of 2026-10-02). Other service fees are in the Schwab Pricing Guide."
+      },
+      {
+        "question": "What are Schwab's margin rates?",
+        "answer": "We could not load a current Schwab margin rate table during this check, so we do not quote one. See the Schwab Pricing Guide at schwab.com/pricingguide or Schwab's margin rate page for current rates."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "$0 online listed stocks and ETFs; options $0 + $0.65 per contract; broker-assisted +$25; $0 OneSource funds; bonds $1 per bond ($10 min, $250 max); no account or trade minimums; no fees to open and maintain; Charles Schwab & Co., Inc. Member SIPC; futures and forex not SIPC protected (as of 2026-10-02).",
+        "source_name": "Charles Schwab: Pricing (official)",
+        "source_url": "https://www.schwab.com/pricing"
+      },
+      {
+        "claim": "CHARLES SCHWAB & CO., INC., CRD 5393, status active (as of 2026-10-02).",
+        "source_name": "FINRA BrokerCheck (firm search)",
+        "source_url": "https://api.brokercheck.finra.org/search/firm?query=Charles%20Schwab%20%26%20Co&hl=true&nrows=3&start=0&r=25&wt=json"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-etrade-brokerage-account",
+    "slug": "etrade-brokerage-account",
+    "name": "E*TRADE from Morgan Stanley Brokerage Account",
+    "category_slug": "brokerages-investing",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 8.2,
+    "ratings": {
+      "fees": 8,
+      "value_returns": 8,
+      "transparency": 9,
+      "security_trust": 9,
+      "support": 7
+    },
+    "price_summary": "$0 online stock, ETF, options and mutual fund commissions; options $0.65 per contract ($0.50 with 30+ trades a quarter) (as of 2026-10-02)",
+    "pros": [
+      "$0 commissions on stocks, options, mutual funds and ETFs (as of 2026-10-02)",
+      "Options contract fee drops from $0.65 to $0.50 for customers with 30 or more trades per quarter (as of 2026-10-02)",
+      "Margin rates are published by tier with a dated base rate (10.20% effective 09/21/2026) (as of 2026-10-02)",
+      "Securities are offered by Morgan Stanley Smith Barney LLC, Member SIPC; a FINRA BrokerCheck search returned MORGAN STANLEY (CRD 149777) as active"
+    ],
+    "cons": [
+      "$75 fee for a full outgoing account transfer (as of 2026-10-02)",
+      "Broker-assisted trades cost an extra $25 (as of 2026-10-02)",
+      "Margin under $10,000 costs 12.70% (as of 2026-10-02)",
+      "Crypto is held at zerohash, outside Morgan Stanley, and is not SIPC protected (as of 2026-10-02)"
+    ],
+    "best_for": "Active options traders and investors who want dated, tiered margin rates and Morgan Stanley research",
+    "summary": "E*TRADE charges $0 commissions on stocks, ETFs, options and mutual funds and $0.65 per options contract, or $0.50 with 30 or more trades a quarter (as of 2026-10-02). Securities are offered by Morgan Stanley Smith Barney LLC, Member SIPC. Fees and margin rates change; check E*TRADE's pricing page.",
+    "verdict_summary": "E*TRADE's pricing page is one of the most detailed we read. It lists $0 commissions on stocks, options, mutual funds and ETFs, an options contract fee of $0.65 that falls to $0.50 with 30 or more trades per quarter, $1 per bond on online secondary trades ($10 minimum, $250 maximum), and 0.50% on crypto trades (as of 2026-10-02). Margin rates are tiered from a base rate of 10.20% effective 09/21/2026, starting at 12.70% for debit balances under $10,000. Account fees are spelled out too: $25 extra for broker-assisted trades and $75 for a full outgoing account transfer. Securities products are offered by Morgan Stanley Smith Barney LLC, Member SIPC, and a FINRA BrokerCheck search returned MORGAN STANLEY (CRD 149777) as active. Crypto is held at zerohash and is not SIPC protected. Confirm current fees on E*TRADE's page.",
+    "pricing_table": [
+      {
+        "plan": "Stocks, ETFs, options, mutual funds (online)",
+        "price": "$0 commission",
+        "notes": "Per E*TRADE's pricing page (as of 2026-10-02)."
+      },
+      {
+        "plan": "Options contract fee",
+        "price": "$0.65 ($0.50 with 30+ trades per quarter)",
+        "notes": "Per E*TRADE's pricing page (as of 2026-10-02)."
+      },
+      {
+        "plan": "Margin (under $10,000)",
+        "price": "12.70%",
+        "notes": "Base rate 10.20% effective 09/21/2026 (as of 2026-10-02). Rates change."
+      },
+      {
+        "plan": "Full outgoing account transfer",
+        "price": "$75",
+        "notes": "Per E*TRADE's fee list (as of 2026-10-02)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Who runs E*TRADE?",
+        "answer": "E*TRADE is part of Morgan Stanley. Its pricing page says securities products are offered by Morgan Stanley Smith Barney LLC, Member SIPC (as of 2026-10-02)."
+      },
+      {
+        "question": "Does E*TRADE charge to transfer out?",
+        "answer": "Yes. The fee list shows $75 for a full outgoing account transfer (as of 2026-10-02)."
+      },
+      {
+        "question": "Is crypto at E*TRADE SIPC protected?",
+        "answer": "No. E*TRADE says digital assets are held at zerohash, outside Morgan Stanley, and are not FDIC insured or SIPC protected (as of 2026-10-02)."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "$0 stocks, options, mutual funds and ETFs; options $0.65 or $0.50 with 30+ trades per quarter; broker-assisted +$25; margin base 10.20% effective 09/21/2026, 12.70% under $10,000; $75 full outgoing transfer; crypto via zerohash not SIPC protected; Morgan Stanley Smith Barney LLC, Member SIPC (as of 2026-10-02).",
+        "source_name": "E*TRADE from Morgan Stanley: Pricing and rates (official)",
+        "source_url": "https://us.etrade.com/what-we-offer/pricing-and-rates"
+      },
+      {
+        "claim": "Search for Morgan Stanley Smith Barney returned MORGAN STANLEY, CRD 149777, status active (as of 2026-10-02).",
+        "source_name": "FINRA BrokerCheck (firm search)",
+        "source_url": "https://api.brokercheck.finra.org/search/firm?query=Morgan%20Stanley%20Smith%20Barney&hl=true&nrows=3&start=0&r=25&wt=json"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-vanguard-brokerage-account",
+    "slug": "vanguard-brokerage-account",
+    "name": "Vanguard Brokerage Account",
+    "category_slug": "brokerages-investing",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.5,
+    "ratings": {
+      "fees": 6,
+      "value_returns": 8,
+      "transparency": 8,
+      "security_trust": 9,
+      "support": 7
+    },
+    "price_summary": "$0 online stock and ETF trades; $0 online Vanguard mutual fund trades; options $1 per contract; $25 annual account service fee unless waived (as of 2026-10-02)",
+    "pros": [
+      "$0 online trades for stocks, ETFs and Vanguard mutual funds (as of 2026-10-02)",
+      "Fee schedule is dated (effective July 10, 2026) and broken out by asset level (as of 2026-10-02)",
+      "The $25 annual account service fee is waived if you choose e-delivery of statements and documents (as of 2026-10-02)",
+      "Vanguard Brokerage Services is a division of Vanguard Marketing Corporation, member FINRA and SIPC; BrokerCheck lists Vanguard Marketing Corporation (CRD 7452) as active"
+    ],
+    "cons": [
+      "Options cost $1 per contract for clients under $1 million in qualifying assets, higher than the other brokers here (as of 2026-10-02)",
+      "Transaction fee mutual funds from other companies cost $20 online (as of 2026-10-02)",
+      "$100 processing fee for each account closure or full transfer to another firm (as of 2026-10-02)",
+      "$25 broker-assisted commission per trade for most clients (as of 2026-10-02)"
+    ],
+    "best_for": "Buy and hold investors in Vanguard funds and ETFs who will sign up for e-delivery",
+    "summary": "Vanguard charges $0 for online stock, ETF and Vanguard mutual fund trades, $1 per options contract, and a $25 annual account service fee that is waived with e-delivery (as of 2026-10-02). Vanguard Marketing Corporation is a member of FINRA and SIPC. Fees change; check Vanguard's fee schedule.",
+    "verdict_summary": "Vanguard's fee schedule, effective July 10, 2026, sets prices by qualifying assets. For clients under $1 million, online stock and ETF trades are $0, Vanguard mutual funds are $0 online, options are $0 plus $1 per contract, and transaction fee funds from other companies are $20 online (as of 2026-10-02). Phone trades carry a $25 broker-assisted commission. Vanguard may charge a $25 annual account service fee, waived for clients who choose e-delivery and in several other cases, and a $100 processing fee for each account closure or full transfer to another firm. Those extra charges are why Vanguard scores lowest on fees here. Brokerage assets are held through Vanguard Brokerage Services, a division of Vanguard Marketing Corporation, member FINRA and SIPC, and FINRA BrokerCheck lists Vanguard Marketing Corporation (CRD 7452) as active. Confirm current fees on Vanguard's page.",
+    "pricing_table": [
+      {
+        "plan": "Stocks and ETFs (online)",
+        "price": "$0",
+        "notes": "Clients under $1M qualifying assets (as of 2026-10-02)."
+      },
+      {
+        "plan": "Options",
+        "price": "$0 + $1 per contract",
+        "notes": "Clients under $1M qualifying assets (as of 2026-10-02)."
+      },
+      {
+        "plan": "Annual account service fee",
+        "price": "$25",
+        "notes": "Waived with e-delivery and in other listed cases (as of 2026-10-02)."
+      },
+      {
+        "plan": "Account closure or full transfer out",
+        "price": "$100",
+        "notes": "Per Vanguard's fee schedule (as of 2026-10-02)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How do I avoid Vanguard's $25 account fee?",
+        "answer": "Vanguard waives it for clients who elect e-delivery of statements, confirmations, reports and notices, among other listed conditions (as of 2026-10-02)."
+      },
+      {
+        "question": "Is Vanguard a SIPC member?",
+        "answer": "Vanguard says brokerage assets are held through Vanguard Brokerage Services, a division of Vanguard Marketing Corporation, member FINRA and SIPC, and FINRA BrokerCheck lists the firm (CRD 7452) as active (as of 2026-10-02)."
+      },
+      {
+        "question": "Does Vanguard charge to leave?",
+        "answer": "It may charge a $100 processing fee for each account closure and full transfer of assets to another firm (as of 2026-10-02)."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Effective July 10, 2026: under $1M QA, $0 online stocks and ETFs, $25 broker-assisted; options $0 + $1 per contract; Vanguard funds $0 online; TF funds $20 online; $25 annual account service fee waived with e-delivery; $100 account closure or full transfer fee; Vanguard Marketing Corporation member FINRA and SIPC (as of 2026-10-02).",
+        "source_name": "Vanguard: Brokerage commission and fee schedules (official)",
+        "source_url": "https://investor.vanguard.com/client-benefits/investment-fees"
+      },
+      {
+        "claim": "VANGUARD MARKETING CORPORATION, CRD 7452, status active (as of 2026-10-02).",
+        "source_name": "FINRA BrokerCheck (firm search)",
+        "source_url": "https://api.brokercheck.finra.org/search/firm?query=Vanguard%20Marketing%20Corporation&hl=true&nrows=3&start=0&r=25&wt=json"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-wells-fargo-active-cash-card",
+    "slug": "wells-fargo-active-cash-card",
+    "name": "Wells Fargo Active Cash Card",
+    "category_slug": "credit-cards",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 8.3,
+    "ratings": {
+      "fees": 8,
+      "value_returns": 9,
+      "transparency": 9,
+      "security_trust": 8,
+      "support": 7
+    },
+    "price_summary": "$0 annual fee; unlimited 2% cash rewards on purchases; variable purchase APR of 18.74%, 24.74% or 28.74% after the intro period (as of 2026-10-02)",
+    "pros": [
+      "Flat, unlimited 2% cash rewards on purchases with no categories to track, per Wells Fargo's card page (as of 2026-10-02)",
+      "No annual fee, per Wells Fargo's Important Credit Terms (as of 2026-10-02)",
+      "0% intro APR for 12 months from account opening on purchases and qualifying balance transfers (as of 2026-10-02)",
+      "Cell phone protection of up to $600 against damage or theft, subject to a $25 deductible (as of 2026-10-02)",
+      "The terms page states its rate and fee information is correct as of September 2026, so the disclosure is recent"
+    ],
+    "cons": [
+      "3% foreign transaction fee on each transaction converted to US dollars, which adds cost abroad (as of 2026-10-02)",
+      "Balance transfers cost 3% (minimum $5) for the first 120 days, then up to 5% (minimum $5), and balance transfers do not earn rewards (as of 2026-10-02)",
+      "Cash advances carry a 29.74% APR and a fee of $10 or 5%, whichever is greater; late payments cost up to $40 (as of 2026-10-02)",
+      "The purchase APR is assigned at one of three fixed tiers based on creditworthiness, so you will not know your rate until approval"
+    ],
+    "best_for": "People who want one flat cash back rate on everything without tracking categories, and who mostly spend in the US",
+    "summary": "The Wells Fargo Active Cash Card pays an unlimited 2% in cash rewards on purchases with no annual fee (as of 2026-10-02). After a 12 month 0% intro APR, the variable purchase APR is 18.74%, 24.74% or 28.74% depending on creditworthiness. APRs change with the market, so confirm on Wells Fargo's terms page.",
+    "verdict_summary": "The Wells Fargo Active Cash Card is our top pick in this group because its rewards are simple and its terms are published clearly. Wells Fargo's card page lists unlimited 2% cash rewards on purchases, a $0 annual fee, a 0% intro APR for 12 months from account opening on purchases and qualifying balance transfers, and a $100 cash rewards bonus after $500 in purchases in the first 3 months (as of 2026-10-02). The Important Credit Terms page, which says its figures are correct as of September 2026, gives a variable purchase APR of 18.74%, 24.74% or 28.74% after the intro period, a cash advance APR of 29.74%, and late fees of up to $40. The trade offs are real: a 3% foreign transaction fee, a balance transfer fee of 3% for the first 120 days and up to 5% after, and no rewards on balance transfers. APRs are variable and can change, so check the official terms page before applying. This is information, not a recommendation for your situation.",
+    "pricing_table": [
+      {
+        "plan": "Annual fee",
+        "price": "$0",
+        "notes": "No annual fee per Wells Fargo's Important Credit Terms (as of 2026-10-02)."
+      },
+      {
+        "plan": "Purchase APR",
+        "price": "18.74%, 24.74% or 28.74% variable",
+        "notes": "After a 0% intro APR for 12 months; tier based on creditworthiness (as of 2026-10-02). Rates change; see the official terms page."
+      },
+      {
+        "plan": "Rewards",
+        "price": "Unlimited 2% cash rewards",
+        "notes": "On purchases; rewards do not expire while the account is open (as of 2026-10-02)."
+      },
+      {
+        "plan": "Balance transfer fee",
+        "price": "3% (min $5) for 120 days, then up to 5% (min $5)",
+        "notes": "Per the Important Credit Terms (as of 2026-10-02)."
+      },
+      {
+        "plan": "Foreign transaction fee",
+        "price": "3%",
+        "notes": "Of each transaction converted to US dollars (as of 2026-10-02)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does the Wells Fargo Active Cash Card have an annual fee?",
+        "answer": "No. Wells Fargo's Important Credit Terms list the annual fee as none (as of 2026-10-02)."
+      },
+      {
+        "question": "What APR will I pay?",
+        "answer": "After the 0% intro period of 12 months, the variable purchase APR is 18.74%, 24.74% or 28.74% based on creditworthiness (as of 2026-10-02). APRs move with the market, so confirm on the Wells Fargo terms page."
+      },
+      {
+        "question": "Is it a good card to use abroad?",
+        "answer": "It charges a 3% foreign transaction fee on transactions converted to US dollars (as of 2026-10-02), so purchases abroad cost more than on a card with no such fee."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Unlimited 2% cash rewards on purchases, $0 annual fee, 0% intro APR for 12 months, $100 bonus after $500 in 3 months, cell phone protection up to $600 with a $25 deductible, 3% foreign transaction fee (as of 2026-10-02).",
+        "source_name": "Wells Fargo: Active Cash Card (official)",
+        "source_url": "https://creditcards.wellsfargo.com/active-cash-credit-card/"
+      },
+      {
+        "claim": "Purchase APR 18.74%, 24.74% or 28.74%; intro balance transfer fee $5 or 3% for 120 days then up to 5%; cash advance APR 29.74% and fee $10 or 5%; late fee up to $40; no annual fee; information correct as of September 2026 (as of 2026-10-02).",
+        "source_name": "Wells Fargo: Active Cash Important Credit Terms (official)",
+        "source_url": "https://www.wellsfargo.com/credit-cards/active-cash/terms/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-chase-freedom-unlimited",
+    "slug": "chase-freedom-unlimited",
+    "name": "Chase Freedom Unlimited",
+    "category_slug": "credit-cards",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.9,
+    "ratings": {
+      "fees": 8,
+      "value_returns": 9,
+      "transparency": 7,
+      "security_trust": 8,
+      "support": 7
+    },
+    "price_summary": "$0 annual fee; 1.5% cash back on all purchases, 3% on dining and drugstores, 5% on travel booked through Chase Travel; variable APR 18.49% to 27.99% after the intro period (as of 2026-10-02)",
+    "pros": [
+      "No annual fee, per Chase's card page and pricing and terms (as of 2026-10-02)",
+      "Earns 1.5% on all purchases, plus 3% on dining (including takeout and eligible delivery) and drugstores, and 5% on travel purchased through Chase Travel (as of 2026-10-02)",
+      "0% intro APR for 15 months from account opening on purchases and balance transfers (as of 2026-10-02)",
+      "$200 bonus after $500 in purchases in the first 3 months from account opening (as of 2026-10-02)"
+    ],
+    "cons": [
+      "3% foreign transaction fee on each transaction (as of 2026-10-02)",
+      "Balance transfer fee is $5 or 3% for transfers in the first 60 days, then $5 or 5%, whichever is greater (as of 2026-10-02)",
+      "The APR range on the card page (18.49% to 27.99%) differs from the range in the linked pricing and terms document (18.24% to 27.74%, based on a December 2025 Prime Rate), so the disclosures were not in sync when we checked",
+      "Cash advances carry a 28.49% APR and a fee of $10 or 5%; the penalty APR is up to 29.99% (as of 2026-10-02)"
+    ],
+    "best_for": "People who spend a lot on dining and drugstores and want a no annual fee card with a long 0% intro period",
+    "summary": "Chase Freedom Unlimited has no annual fee and earns 1.5% on all purchases, with 3% on dining and drugstores and 5% on travel booked through Chase Travel (as of 2026-10-02). Chase's card page shows a variable APR of 18.49% to 27.99% after a 15 month 0% intro period, but its linked terms document showed an older range, so confirm the current figure with Chase.",
+    "verdict_summary": "Chase Freedom Unlimited mixes a 1.5% base rate with higher rates in a few everyday categories. Chase's card page lists 3% on dining, including takeout and eligible delivery, 3% on drugstore purchases, 5% on travel purchased through Chase Travel, and 1.5% on everything else, with a $0 annual fee and a $200 bonus after $500 in purchases in the first 3 months (as of 2026-10-02). The intro offer is 0% APR for 15 months from account opening on purchases and balance transfers. After that, the card page shows a variable APR of 18.49% to 27.99%. The linked pricing and terms document showed 18.24% to 27.74%, calculated from a 6.75% Prime Rate dated 12/16/2025, so the two official pages did not match when we checked and we score transparency lower for that. The terms document lists a balance transfer fee of $5 or 3% in the first 60 days and $5 or 5% after, a cash advance APR of 28.49%, a 3% foreign transaction fee and late fees of up to $40. APRs are variable; confirm on Chase's site before applying.",
+    "pricing_table": [
+      {
+        "plan": "Annual fee",
+        "price": "$0",
+        "notes": "Per Chase's pricing and terms (as of 2026-10-02)."
+      },
+      {
+        "plan": "Purchase APR",
+        "price": "18.49% to 27.99% variable (card page)",
+        "notes": "After 0% intro APR for 15 months (as of 2026-10-02). The linked terms document showed 18.24% to 27.74%; confirm with Chase."
+      },
+      {
+        "plan": "Rewards",
+        "price": "1.5% base; 3% dining and drugstores; 5% Chase Travel",
+        "notes": "Per Chase's card page (as of 2026-10-02)."
+      },
+      {
+        "plan": "Balance transfer fee",
+        "price": "$5 or 3% (first 60 days), then $5 or 5%",
+        "notes": "Whichever is greater (as of 2026-10-02)."
+      },
+      {
+        "plan": "Foreign transaction fee",
+        "price": "3%",
+        "notes": "Of each transaction in US dollars (as of 2026-10-02)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What does Chase Freedom Unlimited earn?",
+        "answer": "1.5% on all purchases, 3% on dining and drugstores, and 5% on travel purchased through Chase Travel, per Chase's card page (as of 2026-10-02)."
+      },
+      {
+        "question": "Why do you show two APR ranges?",
+        "answer": "Chase's card page showed 18.49% to 27.99% variable, while the pricing and terms document it links to showed 18.24% to 27.74% based on a 6.75% Prime Rate from 12/16/2025 (as of 2026-10-02). Your actual APR is set at approval, so check the terms Chase shows when you apply."
+      },
+      {
+        "question": "Is there a balance transfer fee?",
+        "answer": "Yes. It is $5 or 3% of each transfer made within 60 days of account opening, then $5 or 5%, whichever is greater (as of 2026-10-02)."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "$0 annual fee; 1.5% on all purchases, 3% dining and drugstores, 5% Chase Travel; 0% intro APR for 15 months on purchases and balance transfers; variable APR 18.49% to 27.99% after; $200 bonus after $500 in 3 months (as of 2026-10-02).",
+        "source_name": "Chase: Freedom Unlimited card page (official)",
+        "source_url": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited"
+      },
+      {
+        "claim": "Pricing and terms: purchase APR 18.24% to 27.74% based on 6.75% Prime Rate as of 12/16/2025; balance transfer fee $5 or 3% in first 60 days then $5 or 5%; cash advance APR 28.49%, fee $10 or 5%; foreign transactions 3%; late payment up to $40; penalty APR up to 29.99% (as of 2026-10-02).",
+        "source_name": "Chase: Freedom Unlimited pricing and terms (official)",
+        "source_url": "https://sites.chase.com/services/creatives/pricingandterms.html/content/dam/pricingandterms/LGC61498.html"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-bank-of-america-customized-cash-rewards",
+    "slug": "bank-of-america-customized-cash-rewards",
+    "name": "Bank of America Customized Cash Rewards Credit Card",
+    "category_slug": "credit-cards",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.6,
+    "ratings": {
+      "fees": 8,
+      "value_returns": 7,
+      "transparency": 8,
+      "security_trust": 8,
+      "support": 7
+    },
+    "price_summary": "$0 annual fee; 3% in a category you choose (6% in year one), 2% at grocery stores and wholesale clubs, 1% elsewhere; variable APR 17.49% to 27.49% after the intro period (as of 2026-10-02)",
+    "pros": [
+      "No annual fee, per Bank of America's card page (as of 2026-10-02)",
+      "You pick the 3% category, and new cardholders get 6% in that category for the first year (as of 2026-10-02)",
+      "Automatic 2% at grocery stores and wholesale clubs, 1% on everything else (as of 2026-10-02)",
+      "0% intro APR for the first 15 billing cycles on purchases and on balance transfers made in the first 60 days (as of 2026-10-02)",
+      "Lowest variable APR floor of the cards in this group at 17.49% (as of 2026-10-02)"
+    ],
+    "cons": [
+      "The 6%/3% and 2% rates apply only to the first $2,500 in combined purchases each quarter, then drop to 1% (as of 2026-10-02)",
+      "The 6% rate lasts only for the first year, then falls to 3% (as of 2026-10-02)",
+      "Balance transfer fee is 3% for the first 60 days, then 5% (as of 2026-10-02)",
+      "The card page did not show the foreign transaction or cash advance fees, and the linked terms URL returned an error when we checked, so those figures are not confirmed here"
+    ],
+    "best_for": "People who can steer spending into one chosen category and stay under the quarterly cap",
+    "summary": "Bank of America's Customized Cash Rewards card has no annual fee and pays 3% in a category you choose (6% for the first year), 2% at grocery stores and wholesale clubs, and 1% elsewhere, on up to $2,500 a quarter in combined bonus purchases (as of 2026-10-02). The variable APR after the intro period is 17.49% to 27.49%; confirm with Bank of America.",
+    "verdict_summary": "The Customized Cash Rewards card suits people who will manage a category choice. Bank of America's card page lists 6% cash back in the category of your choice for the first year and 3% after, automatic 2% at grocery stores and wholesale clubs, and unlimited 1% on other purchases (as of 2026-10-02). The catch is a cap: the 6% (or 3%) and 2% rates apply to the first $2,500 in combined purchases each quarter, then you earn 1%. The intro offer is 0% APR for the first 15 billing cycles on purchases and on balance transfers made within 60 days, after which a variable APR of 17.49% to 27.49% applies. Balance transfers cost 3% in the first 60 days and 5% after. The card page offers a $200 online bonus after $1,000 in purchases in the first 90 days. We could not confirm the foreign transaction or cash advance fees, because the page did not list them and the linked terms URL returned an error. Rates change, so check the official page before applying.",
+    "pricing_table": [
+      {
+        "plan": "Annual fee",
+        "price": "$0",
+        "notes": "Per Bank of America's card page (as of 2026-10-02)."
+      },
+      {
+        "plan": "Purchase APR",
+        "price": "17.49% to 27.49% variable",
+        "notes": "After 0% intro APR for 15 billing cycles (as of 2026-10-02). Rates change; see the official page."
+      },
+      {
+        "plan": "Rewards",
+        "price": "3% choice category (6% year one), 2% grocery and wholesale, 1% other",
+        "notes": "Bonus rates on the first $2,500 in combined purchases each quarter (as of 2026-10-02)."
+      },
+      {
+        "plan": "Balance transfer fee",
+        "price": "3% for 60 days, then 5%",
+        "notes": "Per Bank of America's card page (as of 2026-10-02)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is there a cap on the bonus cash back?",
+        "answer": "Yes. The 6% or 3% choice category and 2% grocery and wholesale club rates apply to the first $2,500 in combined purchases each quarter, then 1% (as of 2026-10-02)."
+      },
+      {
+        "question": "How long does the 6% rate last?",
+        "answer": "For the first year, after which the choice category earns 3% (as of 2026-10-02)."
+      },
+      {
+        "question": "Does it charge a foreign transaction fee?",
+        "answer": "We could not confirm this. The card page did not list it and the linked terms page returned an error when we checked, so look at the full terms Bank of America shows before you apply."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "$0 annual fee; 0% intro APR for 15 billing cycles; variable APR 17.49% to 27.49%; 3% intro balance transfer fee for 60 days then 5%; 6% choice category first year then 3%, 2% grocery and wholesale clubs, 1% other; $2,500 combined quarterly cap; $200 bonus after $1,000 in 90 days (as of 2026-10-02).",
+        "source_name": "Bank of America: Customized Cash Rewards card page (official)",
+        "source_url": "https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-discover-it-cash-back",
+    "slug": "discover-it-cash-back",
+    "name": "Discover it Cash Back",
+    "category_slug": "credit-cards",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.4,
+    "ratings": {
+      "fees": 8,
+      "value_returns": 7,
+      "transparency": 7,
+      "security_trust": 8,
+      "support": 7
+    },
+    "price_summary": "No annual fee; 5% in rotating quarterly categories up to a quarterly maximum when activated, 1% elsewhere; first year Cashback Match; variable APR 18.49% to 28.49% after the intro period (as of 2026-10-02)",
+    "pros": [
+      "No annual fee, per Discover's card page (as of 2026-10-02)",
+      "Cashback Match: Discover matches all cash back earned in the first 365 days, with no limit on the amount matched (as of 2026-10-02)",
+      "0% intro APR for 15 months on purchases and balance transfers (as of 2026-10-02)",
+      "Rewards never expire, per the Discover it Cashback Bonus program terms"
+    ],
+    "cons": [
+      "The 5% rate needs activation each quarter and applies only up to a quarterly maximum; everything else earns 1% (as of 2026-10-02)",
+      "Cashback Match is a first year offer only, so the ongoing value is lower in year two (as of 2026-10-02)",
+      "The card page says a balance transfer fee applies but does not state the amount (as of 2026-10-02)",
+      "The card runs on the Discover network; the page cites 99% acceptance nationwide but we found no figure for acceptance abroad, so check before relying on it for travel"
+    ],
+    "best_for": "People willing to activate and track rotating categories, especially in the first year while Cashback Match applies",
+    "summary": "Discover it Cash Back has no annual fee, pays 5% on rotating quarterly categories up to a quarterly maximum when activated and 1% elsewhere, and matches all cash back earned in the first year (as of 2026-10-02). The variable APR is 18.49% to 28.49% after a 15 month 0% intro period; confirm with Discover.",
+    "verdict_summary": "Discover it Cash Back rewards effort. Discover's card page lists 5% cash back on purchases at places that change each quarter, up to the quarterly maximum when you activate, and 1% on all other purchases, with no annual fee (as of 2026-10-02). New cardholders get Cashback Match: all cash back earned in the first 365 days is matched with no cap on the amount. The intro offer is 0% APR for 15 months on purchases and balance transfers, then a variable APR of 18.49% to 28.49%; the page says a balance transfer fee applies without giving the amount on the page. The rewards program terms say rewards never expire. Discover is now a Capital One business, and the page footer reads as a Capital One webpage. If you do not want to activate categories every quarter, a flat rate card will likely be simpler. Confirm current terms with Discover before applying.",
+    "pricing_table": [
+      {
+        "plan": "Annual fee",
+        "price": "$0",
+        "notes": "Per Discover's card page (as of 2026-10-02)."
+      },
+      {
+        "plan": "Purchase APR",
+        "price": "18.49% to 28.49% variable",
+        "notes": "After 0% intro APR for 15 months (as of 2026-10-02). Rates change; see the official page."
+      },
+      {
+        "plan": "Rewards",
+        "price": "5% rotating quarterly categories (activation, quarterly max), 1% other",
+        "notes": "Plus first year Cashback Match (as of 2026-10-02)."
+      },
+      {
+        "plan": "Balance transfer fee",
+        "price": "Applies (amount not shown on the card page)",
+        "notes": "See Discover's rates and fees before applying (as of 2026-10-02)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does Cashback Match work?",
+        "answer": "Discover matches all the cash back you earn from the day your account is approved through your first 365 days, with no limit, and adds it within two billing periods (as of 2026-10-02)."
+      },
+      {
+        "question": "Do I need to activate the 5% categories?",
+        "answer": "Yes. The program terms say you must activate each quarter online, through email, in the app or by phone, and the 5% applies up to the quarterly maximum."
+      },
+      {
+        "question": "Who owns Discover now?",
+        "answer": "Discover's card page footer identifies it as a Capital One webpage, and Discover's personal loans page describes Discover as a division of Capital One, N.A. (as of 2026-10-02)."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "No annual fee; 0% intro APR for 15 months on purchases and balance transfers; 18.49% to 28.49% variable APR after; balance transfer fee applies; 5% rotating categories up to the quarterly maximum when activated; 1% other; unlimited first year Cashback Match; 99% nationwide acceptance; Capital One webpage notice (as of 2026-10-02).",
+        "source_name": "Discover: Discover it Cash Back card page (official)",
+        "source_url": "https://www.discover.com/credit-cards/cash-back/it-card.html"
+      },
+      {
+        "claim": "5% requires activation each quarter and applies up to the quarterly maximum; rewards never expire.",
+        "source_name": "Discover: Discover it Cashback Bonus program terms (official PDF)",
+        "source_url": "https://www.discover.com/content/dam/discover/en_us/credit-cards/card-acquisitions/grey-redesign/global/pdf/Ts_Cs_Discover_It_SM.pdf"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-wells-fargo-personal-loan",
+    "slug": "wells-fargo-personal-loan",
+    "name": "Wells Fargo Personal Loan",
+    "category_slug": "personal-loans",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 8.1,
+    "ratings": {
+      "fees": 9,
+      "value_returns": 8,
+      "transparency": 8,
+      "security_trust": 8,
+      "support": 7
+    },
+    "price_summary": "Fixed APR 6.74% to 26.74% (includes a 0.25% relationship discount); $3,000 to $100,000; 12 to 84 months; no origination fee (as of 2026-10-02)",
+    "pros": [
+      "No origination fee, no closing fee and no prepayment penalty, per Wells Fargo's personal loans page (as of 2026-10-02)",
+      "Wide range of amounts ($3,000 to $100,000) and terms (12 to 84 months) (as of 2026-10-02)",
+      "Published APR range of 6.74% to 26.74%, with a top end below most online lenders we checked (as of 2026-10-02)",
+      "Wells Fargo says you can check your rate with no impact to your credit score"
+    ],
+    "cons": [
+      "Only offered to existing Wells Fargo customers (as of 2026-10-02)",
+      "The advertised range includes a 0.25% relationship discount that requires a qualifying Wells Fargo checking account and automatic payments; if autopay is canceled, the rate can rise (as of 2026-10-02)",
+      "The rates on the page are stated as of 07/10/2026, so they were almost three months old when we checked",
+      "Late fees may still be charged (as of 2026-10-02)"
+    ],
+    "best_for": "Existing Wells Fargo checking customers who want a no origination fee loan with a long term option",
+    "summary": "Wells Fargo personal loans have fixed APRs from 6.74% to 26.74%, including a 0.25% relationship discount, amounts from $3,000 to $100,000 and terms of 12 to 84 months, with no origination fee (as of 2026-10-02). They are only available to existing Wells Fargo customers. Rates change; check Wells Fargo's page.",
+    "verdict_summary": "Wells Fargo ranks first here on cost. Its personal loans page lists fixed rates from 6.74% to 26.74% APR, loan amounts from $3,000 to $100,000, terms from 12 to 84 months, and no origination fee, closing fee or prepayment penalty (as of 2026-10-02). Two conditions matter. First, the loans are offered only to existing Wells Fargo customers. Second, the advertised range includes a 0.25% relationship discount that needs a qualifying Wells Fargo consumer checking account and automatic payments from a Wells Fargo deposit account; cancel autopay and the rate and payment may go up. The page says the rates shown are as of 07/10/2026 and apply to a loan of at least $10,000 over 3 years, and that late fees may still be assessed. Your actual APR depends on credit, amount and term. Confirm current terms with Wells Fargo before applying. This is information, not a recommendation for your situation.",
+    "pricing_table": [
+      {
+        "plan": "APR range",
+        "price": "6.74% to 26.74% fixed",
+        "notes": "Includes 0.25% relationship discount; rates on page dated 07/10/2026 (as of 2026-10-02). Rates change."
+      },
+      {
+        "plan": "Loan amounts",
+        "price": "$3,000 to $100,000",
+        "notes": "Per Wells Fargo (as of 2026-10-02)."
+      },
+      {
+        "plan": "Terms",
+        "price": "12 to 84 months",
+        "notes": "12, 24, 36, 48, 60, 72 or 84 months (as of 2026-10-02)."
+      },
+      {
+        "plan": "Origination fee",
+        "price": "$0",
+        "notes": "No origination fee, closing fee or prepayment penalty; late fees may apply (as of 2026-10-02)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can anyone apply for a Wells Fargo personal loan?",
+        "answer": "No. Wells Fargo's page says it only offers personal loans to existing Wells Fargo customers (as of 2026-10-02)."
+      },
+      {
+        "question": "Does Wells Fargo charge an origination fee?",
+        "answer": "No. The page lists no origination fee, no closing fee and no prepayment penalty, though late fees may be assessed (as of 2026-10-02)."
+      },
+      {
+        "question": "What APR will I get?",
+        "answer": "The published range is 6.74% to 26.74% APR, including a 0.25% relationship discount, with rates shown as of 07/10/2026 (as of 2026-10-02). Your rate depends on credit history, amount and term."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Rates 6.74% to 26.74% APR including 0.25% relationship discount; rates as of 07/10/2026; $3,000 to $100,000; 12 to 84 months; no origination, closing or prepayment fee; late fees may be assessed; existing Wells Fargo customers only; Wells Fargo Bank, N.A. Member FDIC (as of 2026-10-02).",
+        "source_name": "Wells Fargo: Personal Loans (official)",
+        "source_url": "https://www.wellsfargo.com/personal-loans/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-discover-personal-loans",
+    "slug": "discover-personal-loans",
+    "name": "Discover Personal Loans",
+    "category_slug": "personal-loans",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.7,
+    "ratings": {
+      "fees": 10,
+      "value_returns": 7,
+      "transparency": 6,
+      "security_trust": 8,
+      "support": 7
+    },
+    "price_summary": "No fees of any kind; $2,500 to $40,000; 36 to 84 month terms; APR range shown as 6.99% to 24.99% in Discover's comparison table (as of 2026-10-02)",
+    "pros": [
+      "No fees of any kind, including no origination fee, per Discover's personal loans page (as of 2026-10-02)",
+      "Lowest maximum APR of the lenders here, at 24.99% in Discover's own comparison table (as of 2026-10-02)",
+      "Terms of 36, 48, 60, 72 or 84 months for all loan amounts (as of 2026-10-02)",
+      "Funds can be sent as early as the next business day after acceptance (as of 2026-10-02)"
+    ],
+    "cons": [
+      "Maximum loan of $40,000, lower than the other lenders here (as of 2026-10-02)",
+      "The main APR text on the page showed placeholder values ('between x and x') when we checked; the 6.99% to 24.99% range comes from the page's competitor comparison table",
+      "A Discover personal loan cannot be used to pay any Capital One account directly, including Discover or Capital One credit cards (as of 2026-10-02)"
+    ],
+    "best_for": "Borrowers who want to avoid all loan fees and need $40,000 or less",
+    "summary": "Discover Personal Loans charge no fees of any kind and lend $2,500 to $40,000 over 36 to 84 months (as of 2026-10-02). Discover's comparison table shows an APR range of 6.99% to 24.99%, but the main rate text displayed placeholders when we checked, so confirm your rate with Discover.",
+    "verdict_summary": "Discover's main draw is cost: its personal loans page says there are no fees of any kind, so the full loan amount reaches you (as of 2026-10-02). Loans run from $2,500 to $40,000 with terms of 36, 48, 60, 72 and 84 months, and funds can be sent as early as the next business day after acceptance. The page's representative example is a $15,000 loan at 11.99% APR over 72 months for $293 a month. We score transparency lower because the page's main APR sentence displayed placeholder values ('between x and x') when we checked; the range of 6.99% to 24.99% comes from Discover's own comparison table on the same page. Discover is now a division of Capital One, N.A., Member FDIC, and a Discover personal loan cannot be used to pay a Capital One or Discover card directly. Confirm your actual rate with Discover before you accept an offer.",
+    "pricing_table": [
+      {
+        "plan": "APR range",
+        "price": "6.99% to 24.99%",
+        "notes": "From Discover's comparison table; main rate text showed placeholders (as of 2026-10-02). Rates change."
+      },
+      {
+        "plan": "Loan amounts",
+        "price": "$2,500 to $40,000",
+        "notes": "Per Discover (as of 2026-10-02)."
+      },
+      {
+        "plan": "Terms",
+        "price": "36 to 84 months",
+        "notes": "36, 48, 60, 72 and 84 months (as of 2026-10-02)."
+      },
+      {
+        "plan": "Fees",
+        "price": "$0",
+        "notes": "No fees of any kind (as of 2026-10-02)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does Discover charge an origination fee?",
+        "answer": "No. Discover's page says there are no fees of any kind on its personal loans (as of 2026-10-02)."
+      },
+      {
+        "question": "How much can I borrow?",
+        "answer": "$2,500 to $40,000, with terms from 36 to 84 months (as of 2026-10-02)."
+      },
+      {
+        "question": "Can I use it to pay off my Discover card?",
+        "answer": "Not directly. Discover says the loan cannot be used to directly pay any Capital One account, including Discover or Capital One credit cards (as of 2026-10-02)."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "No fees of any kind; $2,500 to $40,000; 36, 48, 60, 72 and 84 month terms; comparison table APR 6.99% to 24.99%; main text placeholders; example $15,000 at 11.99% APR for 72 months, $293/month; estimates based on data as of 09/25/2026; cannot directly pay Capital One accounts; Discover, a division of Capital One, N.A., Member FDIC (as of 2026-10-02).",
+        "source_name": "Discover: Personal Loans (official)",
+        "source_url": "https://www.discover.com/personal-loans/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-happen-bank-personal-loan",
+    "slug": "happen-bank-personal-loan",
+    "name": "Happen Bank Personal Loan (lendingclub.com)",
+    "category_slug": "personal-loans",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.1,
+    "ratings": {
+      "fees": 5,
+      "value_returns": 8,
+      "transparency": 8,
+      "security_trust": 8,
+      "support": 7
+    },
+    "price_summary": "APR 5.96% to 35.96%; origination or processing fee 0.00% to 8.00%; $1,000 to $75,000; 24 to 84 months (as of 2026-10-02)",
+    "pros": [
+      "Lowest starting APR of the lenders here, at 5.96% (as of 2026-10-02)",
+      "Loans from $1,000 to $75,000, so small and large amounts are both covered (as of 2026-10-02)",
+      "Clear representative example that shows how the fee reduces the amount you receive (as of 2026-10-02)",
+      "Lender is Happen Bank, N.A., Member FDIC, NMLS ID 167439 (as of 2026-10-02)"
+    ],
+    "cons": [
+      "Origination or processing fee of up to 8.00% of the loan amount (as of 2026-10-02)",
+      "Top APR of 35.96% is high for borrowers with weaker credit (as of 2026-10-02)",
+      "The brand has changed: lendingclub.com/personal-loan now redirects to happen.com, which may confuse existing customers looking for LendingClub"
+    ],
+    "best_for": "Borrowers who want a wide loan size range and are comfortable comparing offers that may include a fee",
+    "summary": "Happen Bank, the lender behind the lendingclub.com personal loan page, offers APRs of 5.96% to 35.96%, an origination or processing fee of 0.00% to 8.00%, and loans of $1,000 to $75,000 over 24 to 84 months (as of 2026-10-02). Rates and fees depend on credit; check Happen's official page.",
+    "verdict_summary": "When we visited lendingclub.com/personal-loan, it redirected to happen.com, and the page names Happen Bank, N.A., Member FDIC (NMLS ID 167439) as the lender (as of 2026-10-02). The disclosures state an APR range of 5.96% to 35.96%, an origination or processing fee of 0.00% to 8.00% of the loan amount, amounts from $1,000 to $75,000, and terms from 24 to 84 months. The representative example is clear: a $15,262 loan over 36 months at 13.99% interest with a 6% fee of $916 gives an 18.40% APR, and the borrower receives $14,346 and pays $522 a month. The fee is the main cost to watch, since it comes out of the loan before you get the money. The low starting APR and wide size range score well on value. Rates and fees are set at application, so confirm your offer with Happen Bank.",
+    "pricing_table": [
+      {
+        "plan": "APR range",
+        "price": "5.96% to 35.96%",
+        "notes": "Per Happen Bank's disclosures (as of 2026-10-02). Rates change."
+      },
+      {
+        "plan": "Origination or processing fee",
+        "price": "0.00% to 8.00%",
+        "notes": "Of the loan amount (as of 2026-10-02)."
+      },
+      {
+        "plan": "Loan amounts",
+        "price": "$1,000 to $75,000",
+        "notes": "Per Happen Bank (as of 2026-10-02)."
+      },
+      {
+        "plan": "Terms",
+        "price": "24 to 84 months",
+        "notes": "Per Happen Bank (as of 2026-10-02)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is this the same as LendingClub?",
+        "answer": "The lendingclub.com personal loan page redirected to happen.com when we checked, and the page names Happen Bank, N.A., Member FDIC, as the lender (as of 2026-10-02)."
+      },
+      {
+        "question": "Is there an origination fee?",
+        "answer": "There can be. Happen Bank discloses an origination or processing fee of 0.00% to 8.00% of the loan amount (as of 2026-10-02)."
+      },
+      {
+        "question": "What does a typical loan cost?",
+        "answer": "Happen's example: $15,262 over 36 months at 13.99% interest with a 6% fee ($916) is an 18.40% APR; you receive $14,346 and pay $522 a month (as of 2026-10-02)."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "lendingclub.com/personal-loan returned an HTTP 308 redirect to happen.com/personal-loan?b=lc (checked 2026-10-02).",
+        "source_name": "LendingClub personal loan URL (official redirect)",
+        "source_url": "https://www.lendingclub.com/personal-loan"
+      },
+      {
+        "claim": "APR 5.96% to 35.96%; origination/processing fee 0.00% to 8.00%; $1,000 to $75,000; 24 to 84 months; representative example $15,262, 36 months, 13.99%, 6% fee $916, 18.40% APR, $522/month; Happen Bank, N.A., Member FDIC, NMLS ID 167439 (as of 2026-10-02).",
+        "source_name": "Happen Bank: Personal Loan (official)",
+        "source_url": "https://www.happen.com/personal-loan?b=lc"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-upgrade-personal-loan",
+    "slug": "upgrade-personal-loan",
+    "name": "Upgrade Personal Loan",
+    "category_slug": "personal-loans",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.2,
+    "ratings": {
+      "fees": 4,
+      "value_returns": 6,
+      "transparency": 8,
+      "security_trust": 7,
+      "support": 7
+    },
+    "price_summary": "APR 7.74% to 35.99%; origination fee 1.85% to 9.99% deducted from proceeds; $1,000 to $50,000; 24 to 84 months (as of 2026-10-02)",
+    "pros": [
+      "No prepayment fees for paying off early (as of 2026-10-02)",
+      "Loans from $1,000 to $50,000 with terms of 24 to 84 months (as of 2026-10-02)",
+      "Representative example states the full cost, including total repaid (as of 2026-10-02)",
+      "Rate discounts are available for autopay, paying creditors directly, or securing the loan with a car or home fixtures (as of 2026-10-02)"
+    ],
+    "cons": [
+      "Origination fee of 1.85% to 9.99% is deducted from the loan, so you receive less than you borrow (as of 2026-10-02)",
+      "APR can reach 35.99% (as of 2026-10-02)",
+      "The lowest rates require autopay and paying off part of existing debt directly, and some discounts require collateral (as of 2026-10-02)",
+      "Upgrade is a financial technology company, not a bank; loans are provided by its bank partners (as of 2026-10-02)"
+    ],
+    "best_for": "Borrowers who may not qualify at a bank and want flexible discount options, and who accept an upfront fee",
+    "summary": "Upgrade personal loans have APRs of 7.74% to 35.99% and an origination fee of 1.85% to 9.99% taken from the proceeds, with loans of $1,000 to $50,000 over 24 to 84 months (as of 2026-10-02). Upgrade is not a bank; loans come from its bank partners. Check Upgrade's page for current terms.",
+    "verdict_summary": "Upgrade's disclosures are clear, but its fees are the highest here. Personal loans made through Upgrade carry APRs of 7.74% to 35.99% and a 1.85% to 9.99% origination fee deducted from the loan proceeds, with terms from 24 to 84 months and amounts from $1,000 to $50,000 (as of 2026-10-02). The example on the page: a $10,000 unsecured loan over 36 months at 17.59% APR, including a 13.94% interest rate and a 5% fee, means you receive $9,500, pay $341.48 a month, and repay $12,293.46 in total. There are no prepayment fees. The lowest rates need autopay and paying part of existing debt directly, and some discounts require collateral such as a car. Upgrade, Inc. (NMLS #1548935) says it is a financial technology company, not a bank, and that loans are provided by its bank partners. Confirm current terms with Upgrade before you accept an offer.",
+    "pricing_table": [
+      {
+        "plan": "APR range",
+        "price": "7.74% to 35.99%",
+        "notes": "Per Upgrade's disclosures (as of 2026-10-02). Rates change."
+      },
+      {
+        "plan": "Origination fee",
+        "price": "1.85% to 9.99%",
+        "notes": "Deducted from loan proceeds (as of 2026-10-02)."
+      },
+      {
+        "plan": "Loan amounts",
+        "price": "$1,000 to $50,000",
+        "notes": "Per Upgrade (as of 2026-10-02)."
+      },
+      {
+        "plan": "Terms",
+        "price": "24 to 84 months",
+        "notes": "Per Upgrade (as of 2026-10-02)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does Upgrade charge an origination fee?",
+        "answer": "Yes, 1.85% to 9.99% of the loan, deducted from the proceeds before you receive the money (as of 2026-10-02)."
+      },
+      {
+        "question": "Is Upgrade a bank?",
+        "answer": "No. Upgrade says it is a financial technology company, not a bank, and that its loans are provided by bank partners. Upgrade, Inc. lists NMLS #1548935 (as of 2026-10-02)."
+      },
+      {
+        "question": "Can I pay off an Upgrade loan early?",
+        "answer": "Yes. Upgrade says there are no prepayment fees (as of 2026-10-02)."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "APR 7.74% to 35.99%; origination fee 1.85% to 9.99% deducted from proceeds; 24 to 84 months; $1,000 to $50,000; no prepayment fees; example $10,000, 36 months, 17.59% APR, receive $9,500, $341.48/month, total $12,293.46; Upgrade, Inc. NMLS #1548935, not a bank, loans via bank partners (as of 2026-10-02).",
+        "source_name": "Upgrade: Personal Loans (official)",
+        "source_url": "https://www.upgrade.com/personal-loans/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-cash-app-taxes",
+    "slug": "cash-app-taxes",
+    "name": "Cash App Taxes",
+    "category_slug": "tax-software",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 8.1,
+    "ratings": {
+      "fees": 10,
+      "value_returns": 9,
+      "transparency": 7,
+      "security_trust": 7,
+      "support": 6
+    },
+    "price_summary": "$0 for federal and state returns, including returns with 1099 income, self-employment, and stock or bitcoin sales (as of 2026-10-02)",
+    "pros": [
+      "Federal and state filing are both free, per Cash App Taxes' own page (as of 2026-10-02)",
+      "Cash App says returns with 1099 income, self-employment, side gigs, and stock or bitcoin sales are still free (as of 2026-10-02)",
+      "Authorized IRS e-file provider; uses 128-bit or higher encryption and supports two-factor authentication with authenticator apps (as of 2026-10-02)",
+      "Offers accurate calculations and maximum refund guarantees (as of 2026-10-02)"
+    ],
+    "cons": [
+      "You must download Cash App and create an account to use it (as of 2026-10-02)",
+      "Cash App Taxes says it is not a tax advisor, and we found no paid or free live expert help on its page",
+      "Its list of supported and unsupported tax situations sits in a help center that did not load for us, so check it before you start if your return involves more than one state or foreign income",
+      "The faster refund (up to 5 days early) applies only if you deposit the refund into Cash App (as of 2026-10-02)"
+    ],
+    "best_for": "Filers who are comfortable doing their own return and want to pay nothing for federal and state filing",
+    "summary": "Cash App Taxes charges $0 for both federal and state returns, and says that holds even with 1099 income, self-employment, or stock and bitcoin sales (as of 2026-10-02). You need a Cash App account to use it. Check its help center for unsupported situations before you start.",
+    "verdict_summary": "Cash App Taxes is our top pick on cost. Its page says filing is 100% free for federal and state returns with no hidden fees, including returns with 1099 income, self-employment and sales of stocks or bitcoin (as of 2026-10-02). It is an authorized IRS e-file provider, uses 128-bit or higher encryption, requires phone verification, and supports two-factor authentication with authenticator apps. It offers accurate calculations and maximum refund guarantees, and a refund deposited into Cash App can arrive up to 5 days early. The trade offs: you must download Cash App and open an account, the service states it is not a tax advisor, and we found no live expert help. Its list of supported situations is in a help center that would not load for us, so we could not confirm which complex situations it excludes. Check that list before you start. This is information, not tax advice.",
+    "pricing_table": [
+      {
+        "plan": "Federal return",
+        "price": "$0",
+        "notes": "Per Cash App Taxes (as of 2026-10-02)."
+      },
+      {
+        "plan": "State return",
+        "price": "$0",
+        "notes": "Per Cash App Taxes (as of 2026-10-02)."
+      },
+      {
+        "plan": "Requirement",
+        "price": "Cash App account",
+        "notes": "You need to download Cash App to log in (as of 2026-10-02)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is Cash App Taxes really free?",
+        "answer": "Its page says it is 100% free for federal and state returns, with no hidden fees, even for 1099 income or stock and bitcoin sales (as of 2026-10-02)."
+      },
+      {
+        "question": "Do I need a Cash App account?",
+        "answer": "Yes. You need to download Cash App and create an account to log in (as of 2026-10-02)."
+      },
+      {
+        "question": "Does it offer help from tax experts?",
+        "answer": "We found no live expert help on its page, and Cash App Taxes states it is not a tax advisor. If you want expert review, a paid product may suit you better."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "100% free federal and state filing; free with 1099s, self-employment, stocks and bitcoin; must download Cash App; authorized IRS e-file provider; 128-bit or higher encryption; 2FA with authenticator apps; accurate calculations and max refund guarantees; refund up to 5 days early into Cash App; not a tax advisor (as of 2026-10-02).",
+        "source_name": "Cash App Taxes (official)",
+        "source_url": "https://cash.app/taxes"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-irs-free-file-fillable-forms",
+    "slug": "irs-free-file-fillable-forms",
+    "name": "IRS Free File Fillable Forms",
+    "category_slug": "tax-software",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.9,
+    "ratings": {
+      "fees": 10,
+      "value_returns": 6,
+      "transparency": 9,
+      "security_trust": 9,
+      "support": 5
+    },
+    "price_summary": "$0 federal e-filing at any income level; no state return; closes Oct. 15, 2026 for this season (as of 2026-10-02)",
+    "pros": [
+      "Free federal e-filing for any income level, offered through IRS.gov (as of 2026-10-02)",
+      "No income limit, unlike the IRS Free File guided software (AGI of $89,000 or less) (as of 2026-10-02)",
+      "Run from IRS.gov rather than a commercial site (as of 2026-10-02)"
+    ],
+    "cons": [
+      "Federal return only; it does not prepare a state return (as of 2026-10-02)",
+      "You fill in IRS forms yourself; it performs basic calculations and has limited error checking (as of 2026-10-02)",
+      "Some forms, statements and attachments are not supported (as of 2026-10-02)",
+      "Requires a 10-digit US cell phone number that can receive texts, and the program closes Oct. 15, 2026 (as of 2026-10-02)"
+    ],
+    "best_for": "Filers who know the IRS forms, do not need a state return, and want a free federal option with no income limit",
+    "summary": "IRS Free File Fillable Forms lets anyone e-file a federal return free, at any income level, by filling in electronic IRS forms (as of 2026-10-02). It has only basic calculations, no state return, and requires a US cell number. The program closes Oct. 15, 2026 for this season.",
+    "verdict_summary": "Free File Fillable Forms is the IRS's no cost option for people who can prepare a return from the forms and instructions. IRS.gov says it is available for any income level, does basic calculations with limited error checking, prepares a current year federal return only, and does not prepare a state return (as of 2026-10-02). Some forms and attachments are not supported, and you need a 10-digit US cell phone number that can receive text messages to create an account. The IRS page, updated 24 September 2026, says the program is open now and will close Oct. 15, 2026. Taxpayers with an adjusted gross income of $89,000 or less can instead use IRS Free File guided software from partner companies, but only by starting at IRS.gov/freefile. Support scores low because the tool expects you to know the forms. This is information, not tax advice.",
+    "pricing_table": [
+      {
+        "plan": "Federal return",
+        "price": "$0",
+        "notes": "Any income level (as of 2026-10-02)."
+      },
+      {
+        "plan": "State return",
+        "price": "Not available",
+        "notes": "Federal only (as of 2026-10-02)."
+      },
+      {
+        "plan": "Season",
+        "price": "Closes Oct. 15, 2026",
+        "notes": "Per IRS.gov (as of 2026-10-02)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Who can use Free File Fillable Forms?",
+        "answer": "Anyone, at any income level, who is comfortable preparing a return from IRS forms and instructions and has a 10-digit US cell phone number (as of 2026-10-02)."
+      },
+      {
+        "question": "Does it do state returns?",
+        "answer": "No. IRS.gov says it prepares a current year federal return only (as of 2026-10-02)."
+      },
+      {
+        "question": "How is it different from IRS Free File guided software?",
+        "answer": "Guided software comes from IRS partner companies and is free for an adjusted gross income of $89,000 or less, with each partner setting its own rules; Fillable Forms has no income limit but offers only basic calculations (as of 2026-10-02)."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Free federal e-file for any income level; basic calculations and limited error checking; federal only, no state return; some forms not supported; requires 10-digit US cell number; open now, closes Oct. 15, 2026; page updated 24-Sep-2026 (as of 2026-10-02).",
+        "source_name": "IRS: Free File Fillable Forms (official)",
+        "source_url": "https://www.irs.gov/e-file-providers/free-file-fillable-forms"
+      },
+      {
+        "claim": "IRS Free File guided software for AGI of $89,000 or less; Fillable Forms for any income level, limited calculations, no state filing; must start at IRS.gov/freefile (as of 2026-10-02).",
+        "source_name": "IRS: Free File (official)",
+        "source_url": "https://www.irs.gov/filing/irs-free-file-do-your-taxes-for-free"
+      },
+      {
+        "claim": "2026 filing season release lists IRS Free File (AGI $89,000 or less, eight partners for 2026), Free File Fillable Forms for any income level, and MilTax; Direct File is not listed (as of 2026-10-02).",
+        "source_name": "IRS newsroom: 2026 tax filing season opens with several free filing options (official)",
+        "source_url": "https://www.irs.gov/newsroom/2026-tax-filing-season-opens-with-several-free-filing-options-available"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-taxact-online",
+    "slug": "taxact-online",
+    "name": "TaxAct Online",
+    "category_slug": "tax-software",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.2,
+    "ratings": {
+      "fees": 7,
+      "value_returns": 7,
+      "transparency": 8,
+      "security_trust": 7,
+      "support": 7
+    },
+    "price_summary": "Free $0, Deluxe $59.99, Premier $99.99, Self-Employed $109.99, each plus state; Xpert Assist $60 (as of 2026-10-02)",
+    "pros": [
+      "Published flat prices for each tier on the homepage: Deluxe $59.99, Premier $99.99, Self-Employed $109.99 (as of 2026-10-02)",
+      "Free federal edition; TaxAct says about 40% of its filers qualified last year (as of 2026-10-02)",
+      "$100k Accuracy Guarantee for self-prepared 1040 products (as of 2026-10-02)",
+      "Unlimited live expert help through the Xpert Assist add-on for $60 (as of 2026-10-02)"
+    ],
+    "cons": [
+      "State returns cost extra on every tier, including Free (as of 2026-10-02)",
+      "Stocks, crypto and rental income need Premier at $99.99 plus state (as of 2026-10-02)",
+      "The current flat $70 offer for federal and all states applies only to first TaxAct returns started on or after September 17, 2026 and filed by October 15, 2026 (as of 2026-10-02)"
+    ],
+    "best_for": "Filers who want posted, fixed prices and lower paid tiers than the best known brand",
+    "summary": "TaxAct lists Free at $0, Deluxe at $59.99, Premier at $99.99 and Self-Employed at $109.99, each plus state, with Xpert Assist expert help for $60 (as of 2026-10-02). About 40% of TaxAct filers qualified for Free last year, per TaxAct. Prices change; check TaxAct's site.",
+    "verdict_summary": "TaxAct shows its prices up front, which is why it scores well on transparency. The homepage lists Free at $0 plus state, Deluxe at $59.99, Premier (for stocks, crypto, home sales and rental income) at $99.99, and Self-Employed at $109.99, each plus state (as of 2026-10-02). TaxAct says about 40% of its filers qualified for the free edition last year. Live help is an add-on: Xpert Assist gives unlimited access to tax experts for $60. TaxAct also offers a $100k Accuracy Guarantee on self-prepared 1040 products. For the extension season it advertises one flat $70 for a first TaxAct federal 1040 and all state returns, started on or after September 17, 2026 and filed by October 15, 2026. State fees add to every tier, so the total depends on your state. Confirm current prices on TaxAct's site. This is information, not tax advice.",
+    "pricing_table": [
+      {
+        "plan": "Free",
+        "price": "$0 + state",
+        "notes": "About 40% of TaxAct filers qualified last year (as of 2026-10-02)."
+      },
+      {
+        "plan": "Deluxe",
+        "price": "$59.99 + state",
+        "notes": "Homeownership, dependents, HSA (as of 2026-10-02)."
+      },
+      {
+        "plan": "Premier",
+        "price": "$99.99 + state",
+        "notes": "Stocks, crypto, home sale, rental income (as of 2026-10-02)."
+      },
+      {
+        "plan": "Self-Employed",
+        "price": "$109.99 + state",
+        "notes": "Freelance and sole proprietor income (as of 2026-10-02)."
+      },
+      {
+        "plan": "Xpert Assist",
+        "price": "$60",
+        "notes": "Unlimited live expert help add-on (as of 2026-10-02)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How much does TaxAct cost?",
+        "answer": "Free is $0, Deluxe $59.99, Premier $99.99 and Self-Employed $109.99, each plus a state fee (as of 2026-10-02)."
+      },
+      {
+        "question": "Can I get help from a tax expert?",
+        "answer": "Yes, through the Xpert Assist add-on, which TaxAct prices at $60 for unlimited access (as of 2026-10-02)."
+      },
+      {
+        "question": "Is there a current offer?",
+        "answer": "TaxAct advertises one flat $70 for a first TaxAct federal and all state returns, if you start on or after September 17, 2026 and file by October 15, 2026 (as of 2026-10-02)."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Free $0 + state (about 40% qualified last year); Deluxe $59.99; Premier $99.99; Self-Employed $109.99; each + state; Xpert Assist $60; flat $70 first-return offer started on or after Sep 17 and filed by Oct 15, 2026; $100k Accuracy Guarantee (as of 2026-10-02).",
+        "source_name": "TaxAct (official)",
+        "source_url": "https://www.taxact.com/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-turbotax-online",
+    "slug": "turbotax-online",
+    "name": "TurboTax Online",
+    "category_slug": "tax-software",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.7,
+    "ratings": {
+      "fees": 5,
+      "value_returns": 8,
+      "transparency": 6,
+      "security_trust": 7,
+      "support": 8
+    },
+    "price_summary": "Free Edition $0 for simple Form 1040 returns; Do It Yourself Deluxe shown at $79 federal plus state; other tiers priced at filing (as of 2026-10-02)",
+    "pros": [
+      "Free Edition is $0 federal, $0 state and $0 to file for simple Form 1040 returns; TurboTax says about 37% of filers qualify (as of 2026-10-02)",
+      "Access to a TurboTax product specialist is included with Deluxe and higher tiers (as of 2026-10-02)",
+      "Expert Assist and Expert Full Service options for people who want a tax expert involved (as of 2026-10-02)"
+    ],
+    "cons": [
+      "Free Edition covers simple Form 1040 returns only, with no schedules beyond those needed for EITC, Child Tax Credit, student loan interest and Schedule 1-A (as of 2026-10-02)",
+      "Prices for paid versions are set when you file and change without notice, and most tier prices are not shown until you build a tax profile (as of 2026-10-02)",
+      "Paying from your refund can add a $40 service fee (as of 2026-10-02)",
+      "State filing costs extra on paid products, on top of the $79 federal Deluxe price shown (as of 2026-10-02)"
+    ],
+    "best_for": "Filers who want a guided interface and the option of live expert help, and who accept higher prices for it",
+    "summary": "TurboTax Free Edition is $0 for simple Form 1040 returns, which TurboTax says about 37% of filers qualify for (as of 2026-10-02). Do It Yourself Deluxe was shown at $79 federal plus state; most other prices appear only after you build a tax profile. Prices change; check TurboTax's site.",
+    "verdict_summary": "TurboTax is the most expensive option here and the least clear on price. Its Free Edition is $0 federal, $0 state and $0 to file, but only for simple Form 1040 returns with no schedules except those needed for the Earned Income Tax Credit, Child Tax Credit, student loan interest and Schedule 1-A; TurboTax says about 37% of filers qualify (as of 2026-10-02). The Deluxe page showed $79 federal with state additional. Other tiers say start for free and pay when you file, and the fine print says paid prices depend on the version and the date you file and change without notice. Paying from your refund can add a $40 service fee. In return you get support options the others lack: a product specialist with Deluxe and higher, and Expert Assist and Expert Full Service tiers. Confirm the price before you file. This is information, not tax advice.",
+    "pricing_table": [
+      {
+        "plan": "Free Edition",
+        "price": "$0 federal + $0 state + $0 to file",
+        "notes": "Simple Form 1040 returns only; about 37% qualify (as of 2026-10-02)."
+      },
+      {
+        "plan": "Do It Yourself Deluxe",
+        "price": "$79 federal + state",
+        "notes": "Price shown on the Deluxe page; final price set at filing (as of 2026-10-02)."
+      },
+      {
+        "plan": "Pay from refund",
+        "price": "$40 service fee may apply",
+        "notes": "Per TurboTax's terms (as of 2026-10-02)."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Who qualifies for TurboTax Free Edition?",
+        "answer": "People filing simple Form 1040 returns only, with no schedules except as needed for EITC, Child Tax Credit, student loan interest and Schedule 1-A. TurboTax says about 37% of taxpayers qualify (as of 2026-10-02)."
+      },
+      {
+        "question": "How much does TurboTax Deluxe cost?",
+        "answer": "The Deluxe page showed $79 federal plus state (as of 2026-10-02). TurboTax says final prices depend on the version and when you file, and change without notice."
+      },
+      {
+        "question": "Is there a fee to pay with my refund?",
+        "answer": "Yes. TurboTax says a $40 service fee may apply if you pay out of your federal or state refund (as of 2026-10-02)."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Free Edition $0 federal + $0 state + $0 to file; simple Form 1040 only; about 37% of filers qualify (as of 2026-10-02).",
+        "source_name": "TurboTax: Free Edition (official)",
+        "source_url": "https://turbotax.intuit.com/personal-taxes/online/free-edition.jsp"
+      },
+      {
+        "claim": "Do It Yourself Deluxe $79 federal, state additional; product specialist included with Deluxe and higher; $40 service fee to pay from refund; prices determined at filing and subject to change (as of 2026-10-02).",
+        "source_name": "TurboTax: Do It Yourself Deluxe (official)",
+        "source_url": "https://turbotax.intuit.com/personal-taxes/online/deluxe.jsp"
+      },
+      {
+        "claim": "Paid tiers priced by tax profile; start for free, pay when you file; Expert Assist and Full Service tiers (as of 2026-10-02).",
+        "source_name": "TurboTax: Online products (official)",
+        "source_url": "https://turbotax.intuit.com/personal-taxes/online/"
+      }
+    ],
+    "last_updated": "2026-10-02"
   }
 ]

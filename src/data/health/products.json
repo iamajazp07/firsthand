@@ -1624,5 +1624,1857 @@
       }
     ],
     "last_updated": "2026-07-11"
+  },
+  {
+    "id": "prod-nike-training-club",
+    "slug": "nike-training-club",
+    "name": "Nike Training Club",
+    "category_slug": "fitness",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.2,
+    "ratings": {
+      "safety": 7.5,
+      "evidence": 6.0,
+      "cost_value": 9.5,
+      "transparency": 7.0,
+      "support": 5.5
+    },
+    "price_summary": "Free (as of 2026-10-02)",
+    "pros": [
+      "Free app with workouts and programs, per Nike's official app page",
+      "Mix of strength, HIIT, yoga and bodyweight sessions that can cover both parts of the federal activity guidelines",
+      "Progressive programs that include nutrition, recovery and mindset tips",
+      "Available on iPhone and Android, with casting to a larger screen"
+    ],
+    "cons": [
+      "No published clinical trial of the app itself; evidence comes from exercise research in general",
+      "No form feedback or personal coaching, so beginners must judge technique on their own",
+      "Nike's page gives little detail on support channels or data use; read the privacy terms before signing up",
+      "Free content is a marketing channel for Nike products"
+    ],
+    "best_for": "Beginners and budget-minded users who want structured home workouts at no cost",
+    "summary": "A free, well-organized workout app from Nike with strength, HIIT and yoga programs. It wins on cost; like every app here, it has no product-specific trial behind it.",
+    "verdict_summary": "Nike Training Club tops our 2026 fitness app ranking at 7.2/10, mostly because it is free. Nike's official app page lists HIIT, yoga and bodyweight workouts, progressive programs with nutrition and recovery tips, workout scheduling and casting to a TV, on both iPhone and Android, with no paid tier mentioned. That mix can cover the federal guideline of 150 minutes of moderate aerobic activity a week plus muscle strengthening on two or more days. The evidence limits are shared by every app here: a meta-analysis of randomized trials found smartphone activity apps raised steps by only a small, non-significant amount on average, with effects strongest in the first three months. The app itself has no published trial, and support details are thin. Start here before paying for anything, and check with a clinician before beginning vigorous exercise if you have a heart condition or other health concerns.",
+    "pricing_table": [
+      {
+        "plan": "Nike Training Club",
+        "price": "Free",
+        "notes": "No paid tier listed on Nike's app page (as of 2026-10-02)"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is Nike Training Club really free?",
+        "answer": "Nike's official app page describes it as a free fitness app and lists no paid tier."
+      },
+      {
+        "question": "Can I meet the exercise guidelines with Nike Training Club?",
+        "answer": "It can help. The federal guidelines call for 150 to 300 minutes of moderate aerobic activity a week plus strength work on 2 or more days. Nike Training Club includes both strength and higher-intensity sessions, but you still need to schedule enough of them."
+      },
+      {
+        "question": "Does Nike Training Club have clinical evidence?",
+        "answer": "Not for the app itself. Research on fitness apps in general shows small, mostly short-term increases in activity. The benefit comes from the exercise you actually do."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "The Physical Activity Guidelines for Americans advise adults to get at least 150 to 300 minutes a week of moderate-intensity (or 75 to 150 minutes of vigorous) aerobic activity, plus muscle-strengthening activity for all major muscle groups on 2 or more days a week.",
+        "source_name": "US HHS Physical Activity Guidelines for Americans, 2nd edition, Executive Summary (ODPHP)",
+        "source_url": "https://odphp.health.gov/sites/default/files/2019-09/PAG_ExecutiveSummary.pdf"
+      },
+      {
+        "claim": "A meta-analysis of randomized trials of smartphone physical activity apps found a non-significant average increase of about 477 steps a day versus control; apps worked best over the short term (up to 3 months).",
+        "source_name": "Romeo et al., J Med Internet Res 2019 (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/30888321/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-apple-fitness-plus",
+    "slug": "apple-fitness-plus",
+    "name": "Apple Fitness+",
+    "category_slug": "fitness",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.1,
+    "ratings": {
+      "safety": 7.5,
+      "evidence": 6.0,
+      "cost_value": 7.5,
+      "transparency": 8.5,
+      "support": 7.0
+    },
+    "price_summary": "$9.99/month or $79.99/year (as of 2026-10-02)",
+    "pros": [
+      "Clear published pricing: $9.99 a month or $79.99 a year after a 1-month free trial",
+      "One subscription can be shared with up to five family members",
+      "12 workout types including strength, HIIT, yoga, Pilates and treadmill, plus meditation, with new sessions weekly",
+      "Shows real-time metrics from Apple Watch, AirPods Pro 3 or supported heart rate monitors"
+    ],
+    "cons": [
+      "Requires an iPhone 8 or later (or Apple Watch paired with an iPhone), so Android users are left out",
+      "No published clinical trial of Fitness+ itself",
+      "Sessions run 5 to 45 minutes and are pre-recorded, with no personal form feedback",
+      "Automatic renewal after the trial unless you cancel"
+    ],
+    "best_for": "iPhone and Apple Watch owners, especially households that can share one plan",
+    "summary": "A polished workout and meditation service at a clear, low price, with family sharing that cuts the per-person cost. Locked to Apple devices.",
+    "verdict_summary": "Apple Fitness+ scores 7.1/10. Apple's official page lists $9.99 a month or $79.99 a year after a one-month free trial, and one plan can be shared with up to five family members, which makes it one of the cheapest paid options per person. It offers 12 workout types plus meditation, from 5 to 45 minutes, and pulls live metrics from an Apple Watch or supported heart rate monitor. The catch is hardware: it needs an iPhone 8 or later, or an Apple Watch paired with an iPhone. As with every app here, there is no trial of Fitness+ itself, and research on activity apps shows modest, mostly short-term effects, so results depend on whether you keep using it. For Apple households that want guided strength and cardio sessions that cover the federal activity guidelines, it is good value. Check with a clinician before starting vigorous exercise if you have health concerns.",
+    "pricing_table": [
+      {
+        "plan": "Monthly",
+        "price": "$9.99/month",
+        "notes": "After 1-month free trial for new subscribers (as of 2026-10-02)"
+      },
+      {
+        "plan": "Annual",
+        "price": "$79.99/year",
+        "notes": "Works out to about $6.67 a month"
+      },
+      {
+        "plan": "Apple One bundle",
+        "price": "Varies",
+        "notes": "Fitness+ is included in some Apple One bundles; confirm price on Apple's site"
+      }
+    ],
+    "faq": [
+      {
+        "question": "How much does Apple Fitness+ cost?",
+        "answer": "Apple lists $9.99 a month or $79.99 a year after a one-month free trial (as of 2026-10-02). New eligible device buyers may get three months free."
+      },
+      {
+        "question": "Do I need an Apple Watch for Fitness+?",
+        "answer": "No. Apple says it works with an iPhone 8 or later on iOS 16.1 or newer, and also on iPad and Apple TV 4K. An Apple Watch adds on-screen metrics."
+      },
+      {
+        "question": "Can my family use one Fitness+ subscription?",
+        "answer": "Yes. Apple says you can share Fitness+ with up to five family members through Family Sharing."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "The Physical Activity Guidelines for Americans advise adults to get at least 150 to 300 minutes a week of moderate-intensity (or 75 to 150 minutes of vigorous) aerobic activity, plus muscle-strengthening activity for all major muscle groups on 2 or more days a week.",
+        "source_name": "US HHS Physical Activity Guidelines for Americans, 2nd edition, Executive Summary (ODPHP)",
+        "source_url": "https://odphp.health.gov/sites/default/files/2019-09/PAG_ExecutiveSummary.pdf"
+      },
+      {
+        "claim": "A meta-analysis of randomized trials of smartphone physical activity apps found a non-significant average increase of about 477 steps a day versus control; apps worked best over the short term (up to 3 months).",
+        "source_name": "Romeo et al., J Med Internet Res 2019 (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/30888321/"
+      },
+      {
+        "claim": "A meta-analysis of 16 cohort studies found muscle-strengthening activity was associated with a 10 to 17% lower risk of all-cause mortality, cardiovascular disease, total cancer and diabetes, with the largest risk reduction at about 30 to 60 minutes a week. These are observational associations, not proof of cause.",
+        "source_name": "Momma et al., Br J Sports Med 2022 (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/35228201/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-fitbod",
+    "slug": "fitbod",
+    "name": "Fitbod",
+    "category_slug": "fitness",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.9,
+    "ratings": {
+      "safety": 7.5,
+      "evidence": 6.0,
+      "cost_value": 7.0,
+      "transparency": 7.5,
+      "support": 7.0
+    },
+    "price_summary": "$15.99/month or $95.99/year (as of 2026-10-02)",
+    "pros": [
+      "Builds strength workouts around your logged history, recovery and available equipment",
+      "Works with bodyweight, bands, dumbbells, barbells or a full gym",
+      "7-day free trial and simple cancellation in the app or on the web, with access kept to the end of the billing cycle",
+      "Syncs with Apple Watch, Apple Health, Health Connect, Garmin, Fitbit and Strava"
+    ],
+    "cons": [
+      "$15.99 a month is the highest monthly price among the standard plans here; the annual plan is much better value",
+      "Focuses on strength training, so you need another plan for aerobic activity",
+      "Workouts are machine-generated with no human coach checking your form",
+      "No published clinical trial of the app's algorithm"
+    ],
+    "best_for": "People who want an adaptive strength-training plan for home or gym",
+    "summary": "An adaptive strength-training app that plans sessions from your history and equipment. Useful for meeting the twice-weekly strength guideline; pricier month to month.",
+    "verdict_summary": "Fitbod scores 6.9/10. Its FAQ says it adjusts each workout to your fitness level, performance history, recovery and equipment, from bodyweight only to a full gym, and syncs with Apple Watch, Garmin and other trackers. That makes it a practical way to meet the federal guideline of muscle-strengthening work on two or more days a week, and cohort studies link 30 to 60 minutes of strength training a week with lower mortality risk, though those findings are associations, not proof of cause. Pricing is published: $15.99 a month or $95.99 a year, with a 7-day trial, and cancellation is self-serve. Points come off because it covers strength only, has no human form checks, and there is no trial of its algorithm. The annual plan is the sensible way to buy it. If you are new to lifting or have joint or heart problems, get advice from a clinician or qualified trainer first.",
+    "pricing_table": [
+      {
+        "plan": "Monthly",
+        "price": "$15.99/month",
+        "notes": "7-day free trial (as of 2026-10-02)"
+      },
+      {
+        "plan": "Annual",
+        "price": "$95.99/year",
+        "notes": "About $8 a month"
+      },
+      {
+        "plan": "HSA/FSA",
+        "price": "Possible",
+        "notes": "Fitbod says subscriptions may qualify with a Letter of Medical Necessity"
+      }
+    ],
+    "faq": [
+      {
+        "question": "How much does Fitbod cost?",
+        "answer": "Fitbod's FAQ lists $15.99 a month or $95.99 a year, with a 7-day free trial (as of 2026-10-02)."
+      },
+      {
+        "question": "Can I use Fitbod without gym equipment?",
+        "answer": "Yes. Fitbod says you can set up bodyweight-only or limited-equipment workouts, and it adjusts plans to the gear you have."
+      },
+      {
+        "question": "How do I cancel Fitbod?",
+        "answer": "Log in at app.fitbod.me or in the app and choose Cancel under Your Plan. Fitbod says access continues to the end of the billing cycle and your data is kept."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "The Physical Activity Guidelines for Americans advise adults to get at least 150 to 300 minutes a week of moderate-intensity (or 75 to 150 minutes of vigorous) aerobic activity, plus muscle-strengthening activity for all major muscle groups on 2 or more days a week.",
+        "source_name": "US HHS Physical Activity Guidelines for Americans, 2nd edition, Executive Summary (ODPHP)",
+        "source_url": "https://odphp.health.gov/sites/default/files/2019-09/PAG_ExecutiveSummary.pdf"
+      },
+      {
+        "claim": "A meta-analysis of 16 cohort studies found muscle-strengthening activity was associated with a 10 to 17% lower risk of all-cause mortality, cardiovascular disease, total cancer and diabetes, with the largest risk reduction at about 30 to 60 minutes a week. These are observational associations, not proof of cause.",
+        "source_name": "Momma et al., Br J Sports Med 2022 (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/35228201/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-peloton-app",
+    "slug": "peloton-app",
+    "name": "Peloton App (App One and App+)",
+    "category_slug": "fitness",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.7,
+    "ratings": {
+      "safety": 7.5,
+      "evidence": 6.0,
+      "cost_value": 6.5,
+      "transparency": 6.0,
+      "support": 7.5
+    },
+    "price_summary": "App One $12.99/month or $129/year; App+ $28.99/month or $289/year (as of 2026-10-02)",
+    "pros": [
+      "30-day free trial for new app members, per Peloton's app page",
+      "No Peloton equipment needed; App One covers strength, yoga, meditation, outdoor running and gym workouts",
+      "App+ adds unlimited cardio classes for any bike, treadmill or rower",
+      "Annual plans save $26 (App One) or $58 (App+) versus paying monthly"
+    ],
+    "cons": [
+      "App+ is the most expensive plan in this ranking at $28.99 a month",
+      "Pricing text is inconsistent: one disclaimer on Peloton's page still says App+ is $24 a month, while current terms say $28.99; confirm at checkout",
+      "App One limits equipment cardio classes to 3 a month",
+      "Some promotions require non-refundable upfront payment for the first three months",
+      "No published trial of the app itself"
+    ],
+    "best_for": "People who own a bike, treadmill or rower and want instructor-led classes",
+    "summary": "A large class library with a generous trial, but the full-access tier is expensive and Peloton's own pricing copy is inconsistent.",
+    "verdict_summary": "The Peloton App scores 6.7/10. Peloton's app page offers a 30-day free trial and two tiers. App One, at $12.99 a month or $129 a year, covers strength, yoga, meditation, outdoor running and gym workouts plus 3 equipment cardio classes a month. App+, at $28.99 a month or $289 a year, unlocks unlimited cardio classes for any bike, treadmill or rower. The content suits people who already own cardio equipment. It loses points on cost and transparency: App+ is the priciest plan in this ranking, and one disclaimer on Peloton's own page still quotes App+ at $24 a month while the current terms say $28.99. Some promotions also require a non-refundable three-month upfront payment. As with every app here, there is no trial of the product itself. Check the final price at checkout, and talk to a clinician before vigorous cardio if you have heart or joint problems.",
+    "pricing_table": [
+      {
+        "plan": "App One monthly",
+        "price": "$12.99/month",
+        "notes": "$15.99/month when billed through the Apple App Store (as of 2026-10-02)"
+      },
+      {
+        "plan": "App One annual",
+        "price": "$129/year",
+        "notes": "Peloton says this saves $26"
+      },
+      {
+        "plan": "App+ monthly",
+        "price": "$28.99/month",
+        "notes": "One older disclaimer on the page says $24; confirm at checkout"
+      },
+      {
+        "plan": "App+ annual",
+        "price": "$289/year",
+        "notes": "Peloton says this saves $58"
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the difference between Peloton App One and App+?",
+        "answer": "App One includes strength, yoga, meditation, outdoor running and gym classes, plus 3 equipment cardio classes a month. App+ adds unlimited cardio classes for any exercise bike, treadmill or rower."
+      },
+      {
+        "question": "Do I need a Peloton bike to use the app?",
+        "answer": "No. Peloton says the app works on a phone, tablet or TV with no equipment, and App+ cardio classes work on any brand of bike, treadmill or rower."
+      },
+      {
+        "question": "Is there a Peloton App free trial?",
+        "answer": "Yes. Peloton advertises a 30-day free trial for new app members. A credit card is required, and the plan renews unless you cancel before the trial ends."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "The Physical Activity Guidelines for Americans advise adults to get at least 150 to 300 minutes a week of moderate-intensity (or 75 to 150 minutes of vigorous) aerobic activity, plus muscle-strengthening activity for all major muscle groups on 2 or more days a week.",
+        "source_name": "US HHS Physical Activity Guidelines for Americans, 2nd edition, Executive Summary (ODPHP)",
+        "source_url": "https://odphp.health.gov/sites/default/files/2019-09/PAG_ExecutiveSummary.pdf"
+      },
+      {
+        "claim": "A meta-analysis of randomized trials of smartphone physical activity apps found a non-significant average increase of about 477 steps a day versus control; apps worked best over the short term (up to 3 months).",
+        "source_name": "Romeo et al., J Med Internet Res 2019 (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/30888321/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-apple-airpods-pro-3-hearing-aid-feature",
+    "slug": "apple-airpods-pro-3-hearing-aid-feature",
+    "name": "Apple AirPods Pro 3 with Hearing Aid feature",
+    "category_slug": "hearing",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.8,
+    "ratings": {
+      "safety": 8.0,
+      "evidence": 7.5,
+      "cost_value": 9.0,
+      "transparency": 8.0,
+      "support": 5.5
+    },
+    "price_summary": "$249 (as of 2026-10-02)",
+    "pros": [
+      "The Hearing Aid feature was granted FDA De Novo authorization (DEN230081) in September 2024 as the first OTC hearing aid software",
+      "In the FDA-reviewed study of 118 adults, self-fitting gave similar perceived benefit to professional fitting of the same device, with no adverse events reported",
+      "At $249 it costs a fraction of dedicated OTC hearing aids, and it is also a pair of everyday earbuds",
+      "Built-in Hearing Test, or you can load an audiogram from your own hearing professional"
+    ],
+    "cons": [
+      "Needs AirPods Pro 2 or 3 plus a compatible iPhone or iPad; there is no Android path",
+      "Apple says amplification only works in Transparency mode and when no media is playing",
+      "Up to 10 hours per charge with the Hearing Aid feature, which is short of an all-day wear for some people",
+      "Apple's standard return window is 14 days, much shorter than the 60 to 100 day trials offered by hearing aid makers, and there is no audiologist support"
+    ],
+    "best_for": "iPhone users with perceived mild to moderate hearing loss who want a low-cost first step",
+    "summary": "The cheapest FDA-authorized route into OTC amplification in this ranking, backed by a device-specific FDA-reviewed study. The trade-offs are an iPhone requirement, earbud-style battery life and a short return window with no audiologist behind it.",
+    "verdict_summary": "Apple AirPods Pro 3 with the Hearing Aid feature leads our 2026 OTC hearing aid ranking at 7.8/10, and Firsthand earns nothing on it. The FDA granted the Hearing Aid feature De Novo authorization in September 2024 for adults 18 and older with perceived mild to moderate hearing loss, after a study of 118 people found self-fitting gave similar perceived benefit to a professional fitting of the same device, with no adverse events reported. A separate 2026 study found Apple's Hearing Test came within 10 dB of booth audiometry on 86.5% of thresholds. At $249 it is the lowest-cost FDA-authorized option here. The limits matter: it needs a compatible iPhone or iPad, amplification only runs in Transparency mode with no media playing, battery life is up to 10 hours, and Apple's return window is 14 days with no audiologist follow-up. If you hear well in quiet but struggle in groups and you already use an iPhone, it is a sensible first step. Sudden, one-sided or painful hearing changes need a clinician, not an earbud.",
+    "pricing_table": [
+      {
+        "plan": "AirPods Pro 3",
+        "price": "$249",
+        "notes": "Apple list price; Hearing Aid feature also runs on AirPods Pro 2 with current firmware"
+      },
+      {
+        "plan": "Hearing Aid feature",
+        "price": "$0",
+        "notes": "Software feature, needs a compatible iPhone or iPad on current software"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Are AirPods Pro really an FDA-authorized hearing aid?",
+        "answer": "The Hearing Aid feature software is. FDA granted it De Novo authorization (DEN230081) on September 12, 2024, as over-the-counter hearing aid software for adults 18 and older with perceived mild to moderate hearing loss. It runs on AirPods Pro 2 and AirPods Pro 3."
+      },
+      {
+        "question": "Can I use it while listening to music?",
+        "answer": "No. Apple's support page says amplification only works in Transparency mode and when no media is playing on the paired device."
+      },
+      {
+        "question": "Do I need a hearing test first?",
+        "answer": "You can take Apple's built-in Hearing Test or enter audiogram results from your own hearing professional. A 2026 study found the built-in test was within 10 dB of standard audiometry for 86.5% of thresholds in 25 adults."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "FDA authorized the Hearing Aid Feature on September 12, 2024 for adults 18+ with perceived mild to moderate hearing loss. In a 118-person study, self-fitting users had similar perceived benefit to those who were professionally fitted, comparable in-ear amplification and speech-in-noise results, and no adverse events.",
+        "source_name": "FDA press release: FDA Authorizes First Over-the-Counter Hearing Aid Software",
+        "source_url": "https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-over-counter-hearing-aid-software"
+      },
+      {
+        "claim": "FDA's De Novo database lists DEN230081, Hearing Aid Feature (HAF), requester Apple Inc., classified as air-conduction hearing aid software, decision granted September 12, 2024.",
+        "source_name": "FDA De Novo database: DEN230081",
+        "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm?id=DEN230081"
+      },
+      {
+        "claim": "In 25 adults with self-reported mild to moderate hearing loss, 86.5% of Apple Hearing Test thresholds on AirPods Pro 2 fell within 10 dB HL of booth audiometry, test-retest was reliable, and the test took a median 5.5 minutes versus 10 minutes.",
+        "source_name": "Kruger et al., Otolaryngol Head Neck Surg 2026 (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/41793292/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-jabra-enhance-select-m-series",
+    "slug": "jabra-enhance-select-m-series",
+    "name": "Jabra Enhance Select (M1, M2, M3)",
+    "category_slug": "hearing",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.7,
+    "ratings": {
+      "safety": 8.5,
+      "evidence": 7.0,
+      "cost_value": 6.5,
+      "transparency": 8.0,
+      "support": 9.0
+    },
+    "price_summary": "$1,195 to $1,995 per pair (as of 2026-10-02)",
+    "pros": [
+      "Jabra states the M-series self-fitting technology is FDA cleared, and FDA's 510(k) database lists a June 2026 self-fitting OTC clearance for a Jabra Enhance Select model",
+      "100-day trial with a full refund, free shipping and no restocking fee",
+      "3-year warranty plus 3 years of unlimited appointments and adjustments with Jabra's audiology team",
+      "Rechargeable with a portable charging case; FSA and HSA payments accepted"
+    ],
+    "cons": [
+      "The most expensive line here, at $1,195 to $1,995 per pair",
+      "We found no published trial of this specific model; the evidence comes from studies of self-fitting OTC aids as a class",
+      "A 2025 randomized trial found audiologist-fitted care scored higher than OTC models on its main outcome, so remote support is not the same as an in-person fitting",
+      "Loss and damage cover carries a $195 deductible"
+    ],
+    "best_for": "Adults with mild to moderate hearing loss who want a long trial and ongoing audiologist support",
+    "summary": "The strongest support package in this ranking: a 100-day trial, a 3-year warranty and 3 years of remote audiology. It costs four to eight times as much as the Apple option, and the evidence base is for self-fitting OTC aids in general rather than this model.",
+    "verdict_summary": "Jabra Enhance Select scores 7.7/10 in our 2026 OTC hearing aid ranking, and Firsthand earns nothing on it. Jabra says these are FDA-cleared self-fitting OTC hearing aids for adults with mild to moderate hearing loss, and FDA's 510(k) database lists clearance K254108 (June 25, 2026) for a Jabra Enhance Select self-fitting model. Where it stands out is support: a 100-day full-refund trial, a 3-year warranty and 3 years of unlimited remote appointments with Jabra's audiology team. The weak points are price, $1,195 to $1,995 per pair, and evidence: we found no published trial of this exact line, so the case rests on class-level research. A 2026 meta-analysis found self-fitting OTC aids give outcomes comparable to professional fitting, but rated certainty as low, and a 2025 trial found full audiologist care still scored higher. It suits buyers who want hand-holding and a long trial window more than the lowest price.",
+    "pricing_table": [
+      {
+        "plan": "Enhance Select M1",
+        "price": "$1,195 per pair",
+        "notes": "Entry model; listed at $39/month with financing"
+      },
+      {
+        "plan": "Enhance Select M2",
+        "price": "$1,695 per pair",
+        "notes": "Mid-range; listed at $55/month with financing"
+      },
+      {
+        "plan": "Enhance Select M3",
+        "price": "$1,995 per pair",
+        "notes": "Top model; listed at $65/month with financing"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Are Jabra Enhance Select hearing aids OTC?",
+        "answer": "Yes. Jabra's FAQ says the hearing aids it sells are categorized as over-the-counter and that the M-series self-fitting technology has been reviewed and cleared by the FDA. They are for adults 18 and older with mild to moderate hearing loss."
+      },
+      {
+        "question": "How long is the trial?",
+        "answer": "Jabra offers a 100-day trial with a full refund, free shipping and no restocking fees."
+      },
+      {
+        "question": "What does the warranty cover?",
+        "answer": "Jabra lists a 3-year warranty plus 3-year loss and damage protection with a $195 deductible, and 3 years of unlimited appointments and adjustments with its audiology team."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "FDA's 510(k) database lists K254108, 'Jabra Enhance Select Self-fit (Jabra Enhance Select 550)', applicant GN Hearing A/S, classified as a Self-Fitting Air-Conduction Hearing Aid, Over The Counter, decision date June 25, 2026.",
+        "source_name": "FDA 510(k) database: K254108",
+        "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254108"
+      },
+      {
+        "claim": "A meta-analysis of 15 studies (774 participants) found no significant differences between self-fitting OTC hearing aids and professionally fitted devices on APHAB, SSQ-12, IOI-HA or QuickSIN, but rated risk of bias moderate to high and certainty low.",
+        "source_name": "De Sousa et al., Otolaryngol Head Neck Surg 2026, systematic review and meta-analysis (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42307981/"
+      },
+      {
+        "claim": "In a 245-person randomized trial of adults over 55, audiologist-fitted hearing aids scored 0.32 to 0.33 points higher on the main outcome than OTC models, though OTC groups still reported positive results; high-end and low-end devices performed similarly.",
+        "source_name": "Wu et al., JAMA Otolaryngol Head Neck Surg 2025, randomized clinical trial (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/40372746/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-concha-sol-otc-hearing-aid",
+    "slug": "concha-sol-otc-hearing-aid",
+    "name": "Concha Sol OTC Hearing Aids",
+    "category_slug": "hearing",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.3,
+    "ratings": {
+      "safety": 8.0,
+      "evidence": 6.5,
+      "cost_value": 7.0,
+      "transparency": 7.5,
+      "support": 7.5
+    },
+    "price_summary": "$1,299 per pair (as of 2026-10-02)",
+    "pros": [
+      "FDA 510(k) clearance K233747 (March 2024) as a self-fitting OTC hearing aid",
+      "Disposable batteries last 5 to 7 days, so there is no nightly charging",
+      "Free 30-minute video consultation with a licensed audiologist before purchase",
+      "60-day money-back trial and a 2-year warranty that covers defects, with shipping paid"
+    ],
+    "cons": [
+      "At $1,299 per pair it costs more than Jabra's entry M1 and more than the Sennheiser option",
+      "Ongoing battery purchases add to the running cost",
+      "The only self-fitting study we found from this maker's researchers does not name the device in its abstract, and its authors are Concha Labs employees",
+      "The warranty does not cover loss or damage"
+    ],
+    "best_for": "People who would rather swap a battery weekly than charge nightly",
+    "summary": "A cleared self-fitting OTC aid with an audiologist video call before you buy and no charger to manage. Price sits at the upper end of the mid-range, and the evidence is class-level.",
+    "verdict_summary": "Concha Sol scores 7.3/10 in our 2026 OTC hearing aid ranking, and Firsthand earns nothing on it. FDA cleared it in March 2024 (K233747) as a self-fitting OTC hearing aid, and Concha says it is for adults 18 and older with perceived mild to moderate hearing loss. It runs on disposable batteries that last 5 to 7 days, streams calls and audio over Bluetooth, and sets up through an in-app hearing test. Support is decent: a free 30-minute audiologist video consultation before purchase, a 60-day money-back trial and a 2-year defect warranty. The drawbacks are a $1,299 price, ongoing battery costs and thin product-specific evidence. A 2025 crossover study by Concha Labs researchers found a commercially available self-fitting OTC aid was not inferior to clinician fitting, but the abstract does not name the device and the authors work for the maker. Choose it if you dislike charging and want to talk to an audiologist before buying.",
+    "pricing_table": [
+      {
+        "plan": "Concha Sol (pair)",
+        "price": "$1,299",
+        "notes": "Official price; includes starter batteries, 60-day money-back guarantee, 2-year warranty"
+      },
+      {
+        "plan": "Replacement batteries",
+        "price": "Confirm on official site",
+        "notes": "Batteries last 5 to 7 days each"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is Concha Sol FDA cleared?",
+        "answer": "Yes. FDA's 510(k) database lists Concha Sol Hearing Aids (CL-1001), K233747, cleared March 15, 2024 as a self-fitting over-the-counter air-conduction hearing aid."
+      },
+      {
+        "question": "Is Concha Sol rechargeable?",
+        "answer": "No. It uses disposable batteries that Concha says last 5 to 7 days."
+      },
+      {
+        "question": "What is the return policy?",
+        "answer": "Concha offers a 60-day money-back guarantee from delivery, as long as both devices and accessories are returned undamaged."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "FDA's 510(k) database lists K233747, Concha Sol Hearing Aids (CL-1001), applicant Concha Labs, classified as a Self-Fitting Air-Conduction Hearing Aid, Over The Counter, decision date March 15, 2024.",
+        "source_name": "FDA 510(k) database: K233747",
+        "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K233747"
+      },
+      {
+        "claim": "A within-subjects crossover study of a commercially available self-fitting OTC hearing aid found the self-fitted setup was not inferior to clinician fitting on self-reported benefit and speech-in-noise; three authors are Concha Labs employees and the abstract does not name the device.",
+        "source_name": "Baltzell et al., Trends in Hearing 2025 (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/40129389/"
+      },
+      {
+        "claim": "A meta-analysis of 15 studies found self-fitting OTC aids gave outcomes comparable to professional fitting, based largely on patient-reported measures, with low certainty of evidence.",
+        "source_name": "De Sousa et al., Otolaryngol Head Neck Surg 2026, systematic review and meta-analysis (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/42307981/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-sennheiser-all-day-clear-otc",
+    "slug": "sennheiser-all-day-clear-otc",
+    "name": "Sennheiser All-Day Clear OTC Hearing Aids",
+    "category_slug": "hearing",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.1,
+    "ratings": {
+      "safety": 8.0,
+      "evidence": 6.5,
+      "cost_value": 7.0,
+      "transparency": 7.0,
+      "support": 6.5
+    },
+    "price_summary": "$999.95 per pair (as of 2026-10-02)",
+    "pros": [
+      "FDA 510(k) clearance K230538 (June 2023) as a self-fitting OTC hearing aid, held by Sonova",
+      "Lowest price among the dedicated hearing aids here at $999.95, with a 90-day trial",
+      "Rechargeable with a charging case; Sennheiser quotes 16 hours with Bluetooth",
+      "App tuning uses real conversation samples, and HSA/FSA payment is accepted"
+    ],
+    "cons": [
+      "Only a 1-year manufacturer warranty, the shortest here",
+      "Sennheiser's product page calls the device 'FDA-approved', but the FDA record shows a 510(k) clearance, which is a different pathway",
+      "No included audiologist appointments; support is a phone line",
+      "No published trial of this model that we could find; evidence is class-level"
+    ],
+    "best_for": "Budget-minded buyers who want a dedicated rechargeable OTC aid without an iPhone",
+    "summary": "The lowest-cost dedicated hearing aid in this ranking, with a fair 90-day trial. A 1-year warranty, no audiologist package and loose 'FDA-approved' wording hold it back.",
+    "verdict_summary": "Sennheiser All-Day Clear scores 7.1/10 in our 2026 OTC hearing aid ranking, and Firsthand earns nothing on it. FDA cleared the All-Day Clear and All-Day Clear Slim through 510(k) K230538 in June 2023 as self-fitting OTC hearing aids. At $999.95 per pair it is the cheapest dedicated device here, it is rechargeable with a quoted 16 hours of use with Bluetooth, and its app tunes sound using real conversation samples rather than tone tests. You get a 90-day trial. The weaker points: a 1-year warranty, no included audiologist sessions, and a product page that says 'FDA-approved' when the device was cleared through a different FDA pathway. We found no published trial of this model, so the evidence is the same class-level research that covers self-fitting aids in general. It fits buyers who want a standalone device at the lowest price and are comfortable fitting it themselves.",
+    "pricing_table": [
+      {
+        "plan": "All-Day Clear (pair)",
+        "price": "$999.95",
+        "notes": "Official price; includes 1-year warranty, free shipping and 90-day trial"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is Sennheiser All-Day Clear FDA approved?",
+        "answer": "It is FDA cleared, not approved. FDA's 510(k) database lists K230538 for the All-Day Clear ADC1 and All-Day Clear Slim ADCS1, cleared June 16, 2023 as self-fitting OTC hearing aids. Sennheiser's page uses the word 'approved'."
+      },
+      {
+        "question": "How long does the battery last?",
+        "answer": "Sennheiser quotes 16 hours with Bluetooth. A charging case with a USB cable is included."
+      },
+      {
+        "question": "What is the trial period?",
+        "answer": "Sennheiser offers a 90-day risk-free trial and a 1-year manufacturer warranty."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "FDA's 510(k) database lists K230538, All-Day Clear Slim ADCS1 and All-Day Clear ADC1, applicant Sonova AG, classified as a Self-Fitting Air-Conduction Hearing Aid, Over The Counter, decision date June 16, 2023.",
+        "source_name": "FDA 510(k) database: K230538",
+        "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230538"
+      },
+      {
+        "claim": "At 8 months, a follow-up of a randomized trial found no significant difference in self-reported benefit (APHAB, IOI-HA) between self-fit OTC aids and the same aids fitted by audiologists; several authors reported fees from the device maker.",
+        "source_name": "De Sousa et al., JAMA Otolaryngol Head Neck Surg 2024, long-term outcomes (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/38990557/"
+      },
+      {
+        "claim": "FDA says OTC hearing aids are for adults 18+ with perceived mild to moderate hearing loss, have limited maximum output, and lists warning signs such as sudden or one-sided hearing loss that need a clinician.",
+        "source_name": "FDA: OTC Hearing Aids: What You Should Know",
+        "source_url": "https://www.fda.gov/medical-devices/hearing-aids/otc-hearing-aids-what-you-should-know"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-omron-platinum-bp5465",
+    "slug": "omron-platinum-bp5465",
+    "name": "OMRON Platinum Upper Arm Blood Pressure Monitor (BP5465)",
+    "category_slug": "heart-health",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 8.6,
+    "ratings": {
+      "safety": 9.0,
+      "evidence": 8.5,
+      "cost_value": 8.5,
+      "transparency": 8.5,
+      "support": 8.0
+    },
+    "price_summary": "$90.99 MSRP (as of 2026-10-02)",
+    "pros": [
+      "Listed on the US Blood Pressure Validated Device Listing (validatebp.org) as model BP5465, validated to ANSI/AAMI/ISO 81060-2:2009",
+      "TruRead takes three readings in a row at a set interval and shows the average",
+      "Stores 200 readings for 2 users, plus Bluetooth sync to the free OMRON connect app",
+      "Six-year limited warranty on the monitor, and both an AC adapter and batteries are included"
+    ],
+    "cons": [
+      "The listed cuff fits 22 to 42 cm (9 to 17 inch) arms; very large or very small arms need a different cuff",
+      "Validated to the older 2009 version of the standard, while newer devices on the list use the 2018 version",
+      "The cuff itself is covered for only one year",
+      "Not listed on the VDL for use in pregnancy"
+    ],
+    "best_for": "Households with two users who want a validated monitor with averaging and a long warranty",
+    "summary": "The best all-round value in this ranking: validated on the US VDL, built-in three-reading averaging, two users, and a six-year warranty for about $91.",
+    "verdict_summary": "The OMRON Platinum BP5465 tops our 2026 home blood pressure monitor ranking at 8.6/10, and Firsthand earns nothing on it. It appears on the US Blood Pressure Validated Device Listing, the AMA-backed list of monitors whose accuracy has been independently reviewed, validated to the ANSI/AAMI/ISO 81060-2:2009 standard. Accuracy is the whole point of a home monitor, and a 2020 study found most cuff monitors sold online had not been validated. The Platinum adds TruRead, which takes three readings at a set interval and averages them, stores 200 readings across two users, syncs by Bluetooth, and comes with both an AC adapter and a six-year monitor warranty at a $90.99 MSRP. The limits: its cuff fits 22 to 42 cm arms, its validation uses an older version of the standard, and it is not listed for pregnancy. The AHA and AMA say home monitoring is a validated way to measure blood pressure outside the clinic. Share readings with your clinician rather than acting on them alone.",
+    "pricing_table": [
+      {
+        "plan": "Platinum BP5465",
+        "price": "$90.99",
+        "notes": "OMRON MSRP; includes D-ring cuff (9 to 17 in), AC adapter and 4 AA batteries"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is the OMRON Platinum clinically validated?",
+        "answer": "Yes. The BP5465 is on the US Blood Pressure Validated Device Listing at validatebp.org for general adult home use, validated to ANSI/AAMI/ISO 81060-2:2009."
+      },
+      {
+        "question": "What does TruRead do?",
+        "answer": "OMRON says TruRead automatically takes three readings at an interval you choose (15, 30 or 60 seconds, or 2 minutes) and shows the average."
+      },
+      {
+        "question": "What is the warranty?",
+        "answer": "OMRON lists a six-year limited warranty on the monitor and one year on the arm cuff."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "The US Blood Pressure Validated Device Listing includes the OMRON Platinum Upper Arm Blood Pressure Monitor (BP5465) for home use in general adults, cuff 22 to 42 cm, validated to ANSI/AAMI/ISO 81060-2:2009.",
+        "source_name": "US Blood Pressure Validated Device Listing (validatebp.org): OMRON BP5465",
+        "source_url": "https://www.validatebp.org/device/platinum-upper-arm-blood-pressure-monitor"
+      },
+      {
+        "claim": "The AHA and AMA state that self-measured BP monitoring at home is a validated approach for out-of-office measurement, that validated oscillometric devices are preferred, and that meta-analyses link it to lower BP and better control.",
+        "source_name": "Shimbo et al., AHA/AMA joint policy statement, Circulation 2020 (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/32567342/"
+      },
+      {
+        "claim": "Of 278 upper-arm cuff monitors found for sale online in one national market, only 18.3% were validated, and validated cuff devices tended to cost more than nonvalidated ones.",
+        "source_name": "Picone et al., Hypertension 2020 (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/32275193/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-omron-5-series-bp7255",
+    "slug": "omron-5-series-bp7255",
+    "name": "OMRON 5 Series Upper Arm Blood Pressure Monitor (BP7255)",
+    "category_slug": "heart-health",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 8.4,
+    "ratings": {
+      "safety": 9.0,
+      "evidence": 8.5,
+      "cost_value": 8.0,
+      "transparency": 8.5,
+      "support": 7.0
+    },
+    "price_summary": "$83.99 MSRP (as of 2026-10-02)",
+    "pros": [
+      "Listed on the US Blood Pressure Validated Device Listing as model BP7255, validated to ANSI/AAMI/ISO 81060-2:2013",
+      "Hypertension indicator flags readings at or above 130/80 mmHg",
+      "Counts up to three irregular heartbeats detected during a reading",
+      "Bluetooth sync to the free OMRON connect app for unlimited stored readings"
+    ],
+    "cons": [
+      "Single user, with only 30 readings stored on the device",
+      "AC adapter is sold separately; it runs on four AA batteries",
+      "Two-year warranty, against six years on the Platinum for about $7 more",
+      "Not listed on the VDL for use in pregnancy"
+    ],
+    "best_for": "One person who wants a validated, app-connected monitor at a lower price",
+    "summary": "A validated single-user monitor with a helpful 130/80 indicator. For only a few dollars more, the Platinum adds a second user, averaging, an AC adapter and a far longer warranty.",
+    "verdict_summary": "The OMRON 5 Series BP7255 scores 8.4/10 in our 2026 home blood pressure monitor ranking, and Firsthand earns nothing on it. It is on the US Blood Pressure Validated Device Listing for general adult home use, validated to ANSI/AAMI/ISO 81060-2:2013, and OMRON says it meets the VDL accuracy criteria. Useful touches include a hypertension indicator that flags readings at or above 130/80 mmHg and an irregular heartbeat counter, plus Bluetooth sync to the free OMRON connect app. At an $83.99 MSRP it is cheaper than the Platinum, but only by a few dollars, and it gives up a lot: one user, 30 on-device readings, no included AC adapter and a two-year warranty. Evidence for the category is solid: a 52-study review found self-measured monitoring lowers blood pressure compared with usual care, more so with added support. Choose it if you are the only user and want a validated monitor from a major maker.",
+    "pricing_table": [
+      {
+        "plan": "5 Series BP7255",
+        "price": "$83.99",
+        "notes": "OMRON MSRP; D-ring cuff (9 to 17 in) and 4 AA batteries included"
+      },
+      {
+        "plan": "AC adapter",
+        "price": "Confirm on official site",
+        "notes": "Sold separately"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is the OMRON 5 Series validated?",
+        "answer": "Yes. The BP7255 is on the US Blood Pressure Validated Device Listing for general adult home use, validated to ANSI/AAMI/ISO 81060-2:2013."
+      },
+      {
+        "question": "What does the hypertension indicator mean?",
+        "answer": "OMRON says it alerts you when the systolic reading is 130 mmHg or higher and/or the diastolic is 80 mmHg or higher. It is a prompt to talk to your clinician, not a diagnosis."
+      },
+      {
+        "question": "Can two people share it?",
+        "answer": "Not well. It stores 30 readings for a single user on the device, though the app stores unlimited readings."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "The US Blood Pressure Validated Device Listing includes the OMRON 5 Series Upper Arm Blood Pressure Monitor (BP7255) for home use in general adults, cuff 22 to 42 cm, validated to ANSI/AAMI/ISO 81060-2:2013.",
+        "source_name": "US Blood Pressure Validated Device Listing (validatebp.org): OMRON BP7255",
+        "source_url": "https://www.validatebp.org/device/omron-5-series-upper-arm-blood-pressure-monitor"
+      },
+      {
+        "claim": "A review of 52 studies found self-measured BP monitoring lowered blood pressure versus usual care, with high-strength evidence for 3.4 to 8.9 mmHg lower systolic BP at 12 months when combined with additional support; evidence for clinical outcomes was insufficient.",
+        "source_name": "Uhlig et al., Ann Intern Med 2013, systematic review and meta-analysis (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/23922064/"
+      },
+      {
+        "claim": "The AHA and AMA prefer validated oscillometric devices for home BP monitoring and recommend following a standardized measurement protocol.",
+        "source_name": "Shimbo et al., AHA/AMA joint policy statement, Circulation 2020 (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/32567342/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-withings-bpm-connect",
+    "slug": "withings-bpm-connect",
+    "name": "Withings BPM Connect (WPM05)",
+    "category_slug": "heart-health",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.9,
+    "ratings": {
+      "safety": 8.5,
+      "evidence": 8.0,
+      "cost_value": 7.0,
+      "transparency": 7.5,
+      "support": 7.5
+    },
+    "price_summary": "$129.95 (as of 2026-10-02)",
+    "pros": [
+      "Listed on the US Blood Pressure Validated Device Listing as model WPM05, including for use in pregnancy",
+      "Wi-Fi and Bluetooth sync with unlimited cloud storage, so readings reach the app without a phone nearby",
+      "Rechargeable battery that Withings rates at up to 6 months",
+      "Compact all-in-one cuff design that travels well"
+    ],
+    "cons": [
+      "$129.95 is about $40 more than the validated OMRON Platinum",
+      "Stores only up to 8 measurements on the device before it needs to sync",
+      "The product page pushes an optional yearly subscription next to the price; confirm what it adds before paying",
+      "Withings notes pacemakers and implantable defibrillators can make readings inconclusive"
+    ],
+    "best_for": "App-first users and pregnant people who want a VDL-listed connected monitor",
+    "summary": "A validated, Wi-Fi connected monitor that the VDL lists for pregnancy. It costs more than the OMRON picks and leans on the cloud, with little on-device memory.",
+    "verdict_summary": "Withings BPM Connect scores 7.9/10 in our 2026 home blood pressure monitor ranking, and Firsthand earns nothing on it. It is on the US Blood Pressure Validated Device Listing as model WPM05, validated to ANSI/AAMI/ISO 81060-2:2013, and the listing covers both general adults and pregnancy, which few connected monitors can claim. It syncs over Wi-Fi or Bluetooth to unlimited cloud storage, runs on a rechargeable battery rated up to 6 months, and fits arms from 22 to 42 cm. The trade-offs are a $129.95 price, about $40 more than the validated OMRON Platinum, space for only 8 readings on the device between syncs, and a product page that places an optional yearly subscription next to the purchase price. Withings also warns that pacemakers and implantable defibrillators can make readings inconclusive. It fits people who want readings to land in an app automatically, or who need a monitor listed for pregnancy.",
+    "pricing_table": [
+      {
+        "plan": "BPM Connect",
+        "price": "$129.95",
+        "notes": "Withings price; 2-year quality guarantee"
+      },
+      {
+        "plan": "Optional subscription",
+        "price": "Confirm on official site",
+        "notes": "Offered on the product page; not required to buy the monitor"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is Withings BPM Connect validated?",
+        "answer": "Yes. The US Blood Pressure Validated Device Listing includes Withings BPM Connect (WPM05) for home use in general adults and in pregnancy, validated to ANSI/AAMI/ISO 81060-2:2013."
+      },
+      {
+        "question": "Does it need a phone to work?",
+        "answer": "Readings sync over Wi-Fi or Bluetooth to Withings' cloud. Withings says the device holds up to 8 measurements before it needs to sync."
+      },
+      {
+        "question": "Can I use it with a pacemaker?",
+        "answer": "Withings states that pacemakers and implantable cardioverter defibrillators can make blood pressure measurements inconclusive. Ask your cardiologist which method to use."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "The US Blood Pressure Validated Device Listing includes Withings BPM Connect (WPM05), integrated cuff 22 to 42 cm, for home use in general adults and pregnant people, validated to ANSI/AAMI/ISO 81060-2:2013.",
+        "source_name": "US Blood Pressure Validated Device Listing (validatebp.org): Withings WPM05",
+        "source_url": "https://www.validatebp.org/device/withings-bpm-connect"
+      },
+      {
+        "claim": "The AHA and AMA list confirming white-coat and masked hypertension and detecting morning hypertension among the uses of self-measured BP monitoring, and call for RCTs on cardiovascular outcomes.",
+        "source_name": "Shimbo et al., AHA/AMA joint policy statement, Circulation 2020 (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/32567342/"
+      },
+      {
+        "claim": "Nonvalidated BP devices dominated one national online marketplace, and the authors advise checking validation before purchase.",
+        "source_name": "Picone et al., Hypertension 2020 (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/32275193/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-withings-bpm-vision",
+    "slug": "withings-bpm-vision",
+    "name": "Withings BPM Vision (WPM07-08)",
+    "category_slug": "heart-health",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.7,
+    "ratings": {
+      "safety": 8.5,
+      "evidence": 8.0,
+      "cost_value": 6.0,
+      "transparency": 7.5,
+      "support": 7.5
+    },
+    "price_summary": "$179.95 (as of 2026-10-02)",
+    "pros": [
+      "Listed on the US Blood Pressure Validated Device Listing as model WPM07-08, validated to the newer ISO 81060-2:2018/AMD1:2020 standard",
+      "VDL listing covers both the standard (22 to 42 cm) and XL (40 to 52 cm) cuff sizes",
+      "Rechargeable battery rated up to 12 months, charged over USB-C",
+      "2.8 inch color screen and up to 16 readings stored between syncs, plus Wi-Fi and Bluetooth"
+    ],
+    "cons": [
+      "The most expensive monitor here at $179.95, roughly double the OMRON Platinum",
+      "The XL cuff is sold separately",
+      "Not listed on the VDL for use in pregnancy, unlike the cheaper BPM Connect",
+      "Withings notes pacemakers and implantable defibrillators can make readings inconclusive"
+    ],
+    "best_for": "People with larger arms who want a validated connected monitor with a screen",
+    "summary": "Validated to the newest protocol in this ranking and listed with an XL cuff option, with a year-long battery. You pay the most here for those extras.",
+    "verdict_summary": "Withings BPM Vision scores 7.7/10 in our 2026 home blood pressure monitor ranking, and Firsthand earns nothing on it. It is on the US Blood Pressure Validated Device Listing as model WPM07-08, validated to ISO 81060-2:2018/AMD1:2020, the most recent standard among our picks, and the listing covers cuffs for 22 to 42 cm and 40 to 52 cm arms. That makes it a reasonable choice for people with larger arms, though the XL cuff costs extra. It has a 2.8 inch color screen, Wi-Fi and Bluetooth sync, room for 16 readings between syncs and a rechargeable battery rated up to 12 months. The catch is price: at $179.95 it costs about twice as much as the validated OMRON Platinum, and unlike the BPM Connect it is not listed for pregnancy. Accuracy, not features, is what matters most, and every monitor in this ranking clears that bar.",
+    "pricing_table": [
+      {
+        "plan": "BPM Vision",
+        "price": "$179.95",
+        "notes": "Withings price; standard cuff included, 2-year quality guarantee"
+      },
+      {
+        "plan": "XL cuff",
+        "price": "Confirm on official site",
+        "notes": "Sold separately; VDL lists 40 to 52 cm range"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is BPM Vision validated for large arms?",
+        "answer": "The US Blood Pressure Validated Device Listing entry for BPM Vision (WPM07-08) lists adult cuff ranges of 22 to 42 cm and 40 to 52 cm. Withings sells the XL cuff separately."
+      },
+      {
+        "question": "How long does the battery last?",
+        "answer": "Withings rates the rechargeable battery at up to 12 months, charged by USB-C."
+      },
+      {
+        "question": "Is it listed for pregnancy?",
+        "answer": "No. Its VDL entry lists general adults only. Withings BPM Connect is the VDL-listed Withings option for pregnancy."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "The US Blood Pressure Validated Device Listing includes Withings BPM Vision (WPM07-08) for home use in general adults, cuffs 22 to 42 cm and 40 to 52 cm, validated to ISO 81060-2:2018/AMD1:2020.",
+        "source_name": "US Blood Pressure Validated Device Listing (validatebp.org): Withings WPM07-08",
+        "source_url": "https://www.validatebp.org/device/bpm-vision-0"
+      },
+      {
+        "claim": "Self-measured BP monitoring with additional support lowered systolic BP by 3.4 to 8.9 mmHg at 12 months versus usual care in good-quality studies; long-term benefits remain uncertain.",
+        "source_name": "Uhlig et al., Ann Intern Med 2013, systematic review and meta-analysis (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/23922064/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-headspace",
+    "slug": "headspace",
+    "name": "Headspace",
+    "category_slug": "mental-wellness",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.8,
+    "ratings": {
+      "safety": 8.5,
+      "evidence": 7.0,
+      "cost_value": 8.5,
+      "transparency": 7.5,
+      "support": 7.0
+    },
+    "price_summary": "$12.99/month or $69.99/year in the US App Store (as of 2026-10-02)",
+    "pros": [
+      "Low cost: $69.99 a year works out to under $6 a month",
+      "Several randomized trials of the Headspace app itself have been published",
+      "Free trial, cancel anytime, plus student and family plans listed on the official subscription page",
+      "Self-guided format carries little risk for most adults"
+    ],
+    "cons": [
+      "Key Headspace trials were small and co-authored by Headspace employees",
+      "Self-guided meditation is not a substitute for treatment of depression, anxiety disorders or other conditions",
+      "The annual plan renews automatically after the trial unless you cancel",
+      "The App Store lists several price points, including a $94.99 Headspace Plus option, so check which plan you are buying",
+      "Not for emergencies. If you are in crisis or thinking about harming yourself, call or text 988 (US) or call 911."
+    ],
+    "best_for": "Adults who want a low-cost, evidence-backed daily meditation and stress app",
+    "summary": "A meditation and mindfulness app with more product-specific trial data than most, at a low annual price. Best for everyday stress, not for treating a mental health condition.",
+    "verdict_summary": "Headspace tops our 2026 mental wellness ranking at 7.8/10. The US App Store lists it at $12.99 a month or $69.99 a year, and Headspace's subscription page offers a free trial, cancel-anytime terms and student and family plans. Its evidence is better than most apps in this space: a randomized trial in healthy adults found 10 to 30 days of Headspace improved self-reported stress, life satisfaction and resilience versus a wait-list, and a 2024 meta-analysis of 45 trials found mindfulness apps give small reductions in depression and anxiety symptoms. Those Headspace trials were small and involved company employees, and apps did not beat active therapy comparisons. Treat it as a daily stress tool, not treatment. It is not for emergencies: if you are in crisis, call or text 988 in the US. If symptoms persist or affect daily life, see a licensed clinician; Headspace also offers separate therapy services.",
+    "pricing_table": [
+      {
+        "plan": "Monthly",
+        "price": "$12.99/month",
+        "notes": "US App Store price (as of 2026-10-02)"
+      },
+      {
+        "plan": "Annual",
+        "price": "$69.99/year",
+        "notes": "Free trial first; renews yearly unless cancelled"
+      },
+      {
+        "plan": "Student and family plans",
+        "price": "Varies",
+        "notes": "Listed on Headspace's subscription page; confirm price on the official site"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does Headspace work for anxiety or depression?",
+        "answer": "It may help a little. A 2024 meta-analysis of 45 trials found mindfulness apps produced small reductions in depression and anxiety symptoms versus control groups, but not more than active therapies. It does not replace care from a licensed clinician."
+      },
+      {
+        "question": "How much does Headspace cost?",
+        "answer": "The US App Store lists $12.99 a month or $69.99 a year (as of 2026-10-02). Headspace's site also offers student and family plans and a free trial."
+      },
+      {
+        "question": "Can I use Headspace in a mental health emergency?",
+        "answer": "No. If you are in crisis, call or text 988 (the Suicide & Crisis Lifeline) or call 911 in the US."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "A pilot randomized trial in adults from the general population found 10 to 30 days of the Headspace app improved self-reported satisfaction with life, stress and resilience versus a wait-list control. One author was employed by Headspace.",
+        "source_name": "Champion et al., PLoS One 2018 (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/30596696/"
+      },
+      {
+        "claim": "A randomized trial found a brief Headspace mindfulness program reduced irritability, negative affect and stress from external pressure more than an audiobook control (between-group d about 0.45). Several authors were Headspace employees.",
+        "source_name": "Economides et al., Mindfulness 2018 (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/30294390/"
+      },
+      {
+        "claim": "An updated meta-analysis of 45 randomized trials found mindfulness apps produced small but significant reductions in depression (g = 0.24) and anxiety (g = 0.28) symptoms versus control groups, but no significant advantage over active therapeutic comparisons.",
+        "source_name": "Linardon et al., Clin Psychol Rev 2024 (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/38056219/"
+      },
+      {
+        "claim": "The 988 Suicide & Crisis Lifeline can be reached by calling or texting 988 or by chat; it says conversations are free and confidential and it is available 24/7/365.",
+        "source_name": "988 Suicide & Crisis Lifeline",
+        "source_url": "https://988lifeline.org/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-talkspace",
+    "slug": "talkspace",
+    "name": "Talkspace",
+    "category_slug": "mental-wellness",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.5,
+    "ratings": {
+      "safety": 8.0,
+      "evidence": 7.5,
+      "cost_value": 7.5,
+      "transparency": 6.5,
+      "support": 7.0
+    },
+    "price_summary": "From $69/week out of pocket; insurance copays vary (as of 2026-10-02)",
+    "pros": [
+      "Therapists are licensed to practice in your state, and the network lists 5,600+ licensed providers",
+      "In-network with major insurers including Aetna, Cigna, Optum, Anthem, TRICARE and Medicare plans",
+      "Offers psychiatry and medication management as well as therapy",
+      "Randomized trials run on the platform found message-based therapy was noninferior to video therapy for depression"
+    ],
+    "cons": [
+      "Copay messaging is inconsistent: the site says most insured members pay $0 and also that copays are typically $15",
+      "Several platform trials had Talkspace employees as co-authors",
+      "Unlimited messaging and other features may vary by insurance coverage",
+      "Not for emergencies. If you are in crisis or thinking about harming yourself, call or text 988 (US) or call 911."
+    ],
+    "best_for": "Insured adults who want licensed therapy, and possibly medication management, online",
+    "summary": "A licensed online therapy and psychiatry platform with wide insurance coverage and the strongest platform-specific trial data in this ranking. Its pricing language could be clearer.",
+    "verdict_summary": "Talkspace scores 7.5/10. It connects you with therapists licensed in your state, lists 5,600+ licensed providers, adds psychiatry and medication management, and is in-network with major insurers including Medicare plans. Out of pocket, therapy plans start at $69 a week. Its evidence is the strongest of the therapy platforms we reviewed: in a randomized trial of 83 adults with depression, message-based therapy was noninferior to weekly video therapy, and a larger 215-person trial on Talkspace found similar results with no adverse events. Talkspace employees co-authored some of this work, and internet-delivered CBT in general has been shown to match face-to-face CBT across 20 trials. It loses points on transparency because the homepage says most insured members pay $0 while also saying copays are typically $15. Talkspace itself says not to use the site in a life-threatening situation: call or text 988 in the US.",
+    "pricing_table": [
+      {
+        "plan": "With insurance",
+        "price": "Copay varies",
+        "notes": "Site says most insured members pay $0 and also that copays are typically $15 (as of 2026-10-02)"
+      },
+      {
+        "plan": "Out of pocket",
+        "price": "From $69/week",
+        "notes": "Therapy plans; psychiatry priced separately, confirm on the official site"
+      },
+      {
+        "plan": "Employer or EAP",
+        "price": "Often free",
+        "notes": "Talkspace says many employers cover it through an employer code or EAP"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does Talkspace take insurance?",
+        "answer": "Yes. Talkspace says it is in-network with many major plans, including Aetna, Cigna, Optum, Anthem, TRICARE and Medicare. Check your coverage on its site before you start."
+      },
+      {
+        "question": "Is texting a therapist as effective as video sessions?",
+        "answer": "In a randomized trial of adults with moderate depression, message-based therapy on the platform was noninferior to weekly video therapy. Some study authors worked for Talkspace, so independent replication would help."
+      },
+      {
+        "question": "Can Talkspace help in a crisis?",
+        "answer": "No. Talkspace says if you are in a life-threatening situation, do not use the site and call 988 instead."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "In a randomized trial of 83 adults with depression, message-based psychotherapy produced medium-to-large improvements in depression and was noninferior to once-weekly video psychotherapy. Two authors were Talkspace employees.",
+        "source_name": "Song et al., J Med Internet Res 2023 (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/37384392/"
+      },
+      {
+        "claim": "In a randomized trial of 215 adults with depression treated on Talkspace, message-based and video-based psychotherapy showed no differences in rates of change in depression or anxiety by 6 or 12 weeks, and neither caused adverse events.",
+        "source_name": "Arean et al., Psychiatric Services 2024 (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/39026468/"
+      },
+      {
+        "claim": "A meta-analysis of 20 trials (1,418 participants) that directly compared guided internet-delivered CBT with face-to-face CBT found equivalent overall effects (Hedges g = 0.05), though the authors say few conditions have been studied individually.",
+        "source_name": "Carlbring et al., Cogn Behav Ther 2018 (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/29215315/"
+      },
+      {
+        "claim": "The 988 Suicide & Crisis Lifeline can be reached by calling or texting 988 or by chat; it says conversations are free and confidential and it is available 24/7/365.",
+        "source_name": "988 Suicide & Crisis Lifeline",
+        "source_url": "https://988lifeline.org/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-calm-app",
+    "slug": "calm-app",
+    "name": "Calm",
+    "category_slug": "mental-wellness",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.4,
+    "ratings": {
+      "safety": 8.5,
+      "evidence": 6.5,
+      "cost_value": 8.0,
+      "transparency": 6.0,
+      "support": 7.0
+    },
+    "price_summary": "Calm Premium $14.99 to $16.99/month or $69.99 to $79.99/year in the US App Store (as of 2026-10-02)",
+    "pros": [
+      "An 8-week randomized trial in stressed college students found Calm reduced stress and improved mindfulness versus a wait-list",
+      "Available on iOS, Android, web, Apple TV, Apple Watch, Wear OS and Samsung Health",
+      "Free trial and auto-renewal can be cancelled at any time from the app",
+      "Low-risk self-guided format"
+    ],
+    "cons": [
+      "The US App Store lists several different Calm Premium prices, so it is unclear which you will be offered",
+      "Main trial was small (88 students) and used a wait-list control; the lead author later became Calm's Director of Science",
+      "Not a treatment for depression, anxiety disorders or other conditions",
+      "Not for emergencies. If you are in crisis or thinking about harming yourself, call or text 988 (US) or call 911."
+    ],
+    "best_for": "People who want guided meditation and sleep content across many devices",
+    "summary": "A popular meditation and sleep app with one small randomized trial behind it and wide device support. Pricing is harder to pin down than its rivals.",
+    "verdict_summary": "Calm scores 7.4/10. In an 8-week randomized trial of 88 stressed college students, using Calm for about 10 minutes a day reduced perceived stress and improved mindfulness and self-compassion versus a wait-list, with effects lasting to 12 weeks. That trial was small, had no active control, and its lead author later became Calm's Director of Science. Broader research finds mindfulness apps give small reductions in depression and anxiety symptoms. Calm's FAQ lists support for iOS, Android, web, Apple TV, Apple Watch, Wear OS and Samsung Health, and says you can cancel a trial or auto-renewal any time. It ranks below Headspace mainly on transparency: the US App Store shows Calm Premium at several prices, from $14.99 to $16.99 a month and $69.99 to $79.99 a year. Calm is not for emergencies; if you are in crisis, call or text 988 in the US.",
+    "pricing_table": [
+      {
+        "plan": "Calm Premium monthly",
+        "price": "$14.99 to $16.99/month",
+        "notes": "Multiple prices listed in the US App Store (as of 2026-10-02)"
+      },
+      {
+        "plan": "Calm Premium annual",
+        "price": "$69.99 to $79.99/year",
+        "notes": "Confirm the price shown to you before the trial converts"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is there evidence that Calm works?",
+        "answer": "Some. An 8-week randomized trial in 88 stressed college students found Calm reduced stress and improved mindfulness versus a wait-list control. Larger reviews of mindfulness apps show small benefits for depression and anxiety symptoms."
+      },
+      {
+        "question": "How much is Calm Premium?",
+        "answer": "The US App Store lists Calm Premium at several prices, from $14.99 to $16.99 a month and $69.99 to $79.99 a year (as of 2026-10-02). Check the price on screen before your trial ends."
+      },
+      {
+        "question": "How do I cancel Calm?",
+        "answer": "Calm's FAQ says you can cancel the trial or auto-renewal any time: tap Profile, then the Settings gear, then Manage Subscription."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "In an 8-week randomized wait-list trial of 88 college students with elevated stress, the Calm app reduced perceived stress and improved mindfulness and self-compassion, with effects persisting at 12 weeks.",
+        "source_name": "Huberty et al., JMIR mHealth uHealth 2019 (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/31237569/"
+      },
+      {
+        "claim": "An updated meta-analysis of 45 randomized trials found mindfulness apps produced small but significant reductions in depression (g = 0.24) and anxiety (g = 0.28) symptoms versus control groups, but no significant advantage over active therapeutic comparisons.",
+        "source_name": "Linardon et al., Clin Psychol Rev 2024 (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/38056219/"
+      },
+      {
+        "claim": "The 988 Suicide & Crisis Lifeline can be reached by calling or texting 988 or by chat; it says conversations are free and confidential and it is available 24/7/365.",
+        "source_name": "988 Suicide & Crisis Lifeline",
+        "source_url": "https://988lifeline.org/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-betterhelp",
+    "slug": "betterhelp",
+    "name": "BetterHelp",
+    "category_slug": "mental-wellness",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.4,
+    "ratings": {
+      "safety": 6.5,
+      "evidence": 6.5,
+      "cost_value": 6.5,
+      "transparency": 5.0,
+      "support": 7.0
+    },
+    "price_summary": "$70 to $100/week, billed every 4 weeks, without insurance (as of 2026-10-02)",
+    "pros": [
+      "Matches you with licensed therapists, with messaging, live chat, phone and video sessions",
+      "Accepts insurance in many states, with an average copay of $23 per session for eligible members",
+      "Cancel any time, per its FAQ",
+      "Accepts HSA and FSA payment for individual and teen therapy"
+    ],
+    "cons": [
+      "In 2023 the FTC ordered BetterHelp to pay $7.8 million over charges that it shared users' mental health data with Facebook and others for advertising",
+      "Subscription price varies with location, referral source and preferences, so the cost is not fixed up front",
+      "Does not directly accept Medicare, Medicaid or TRICARE",
+      "Its main published outcome study was observational, had no control group, and involved people linked to BetterHelp",
+      "Not for emergencies. If you are in crisis or thinking about harming yourself, call or text 988 (US) or call 911."
+    ],
+    "best_for": "Adults paying out of pocket who want flexible messaging plus live sessions with a licensed therapist",
+    "summary": "A large online therapy service with flexible contact options and growing insurance coverage, held back by its FTC privacy settlement and variable pricing.",
+    "verdict_summary": "BetterHelp scores 6.4/10. It matches you with licensed therapists and lets you message, chat, call or video. Without insurance it costs $70 to $100 a week, billed every four weeks, and BetterHelp now accepts insurance in many states with an average copay of $23 for eligible members, though not Medicare, Medicaid or TRICARE. Internet-delivered therapy can work: a meta-analysis of 20 trials found guided online CBT matched face-to-face CBT. BetterHelp's own evidence is weaker, an observational study of 318 users with no control group, written with people tied to the company. The largest deduction is trust: in 2023 the FTC ordered BetterHelp to pay $7.8 million and banned it from sharing health data for advertising after alleging it passed users' information to Facebook and others. Price also depends on factors such as referral source. BetterHelp says it is not for emergencies; in a crisis, call or text 988.",
+    "pricing_table": [
+      {
+        "plan": "Subscription (no insurance)",
+        "price": "$70 to $100/week",
+        "notes": "Billed every 4 weeks; price varies by location, referral source and preferences (as of 2026-10-02)"
+      },
+      {
+        "plan": "With insurance",
+        "price": "Avg. $23 copay/session",
+        "notes": "For eligible members in covered states; one covered live session per week, some features limited"
+      },
+      {
+        "plan": "Medicare, Medicaid, TRICARE",
+        "price": "Not accepted directly",
+        "notes": "Per BetterHelp's insurance page"
+      }
+    ],
+    "faq": [
+      {
+        "question": "How much does BetterHelp cost?",
+        "answer": "BetterHelp says its subscription ranges from $70 to $100 a week, billed every four weeks, depending on location, referral source, preferences and therapist availability (as of 2026-10-02). With insurance, eligible members pay an average $23 copay per session."
+      },
+      {
+        "question": "What was the FTC case against BetterHelp?",
+        "answer": "In March 2023 the FTC announced an order requiring BetterHelp to pay $7.8 million in consumer refunds and banning it from sharing health data for advertising. The FTC alleged it had shared users' sensitive data, such as email addresses and therapy history, with Facebook, Snapchat and others."
+      },
+      {
+        "question": "Is BetterHelp suitable for a crisis?",
+        "answer": "No. BetterHelp's FAQ says it is not the right service if you are in an urgent crisis or emergency. Call or text 988, or call 911."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "The FTC ordered BetterHelp to pay $7.8 million in consumer refunds and banned it from sharing health data for advertising, after alleging it disclosed consumers' sensitive mental health information to Facebook, Snapchat, Criteo and Pinterest despite privacy promises.",
+        "source_name": "US Federal Trade Commission press release, March 2, 2023",
+        "source_url": "https://www.ftc.gov/news-events/news/press-releases/2023/03/ftc-ban-betterhelp-revealing-consumers-data-including-sensitive-mental-health-information-facebook"
+      },
+      {
+        "claim": "An observational study of 318 BetterHelp users found depression symptom scores fell significantly over 3 months, but there was no control group, the authors called for experimental trials, and two authors had ties to BetterHelp.",
+        "source_name": "Marcelle et al., JMIR mHealth uHealth 2019 (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/30674448/"
+      },
+      {
+        "claim": "A meta-analysis of 20 trials (1,418 participants) that directly compared guided internet-delivered CBT with face-to-face CBT found equivalent overall effects (Hedges g = 0.05), though the authors say few conditions have been studied individually.",
+        "source_name": "Carlbring et al., Cogn Behav Ther 2018 (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/29215315/"
+      },
+      {
+        "claim": "The 988 Suicide & Crisis Lifeline can be reached by calling or texting 988 or by chat; it says conversations are free and confidential and it is available 24/7/365.",
+        "source_name": "988 Suicide & Crisis Lifeline",
+        "source_url": "https://988lifeline.org/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-dotfit-vitamin-d3-1000",
+    "slug": "dotfit-vitamin-d3-1000",
+    "name": "dotFIT Vitamin D-3 1,000 IU",
+    "category_slug": "nutrition-supplements",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 8.0,
+    "ratings": {
+      "safety": 9.0,
+      "evidence": 6.5,
+      "cost_value": 9.5,
+      "transparency": 8.5,
+      "support": 6.0
+    },
+    "price_summary": "$8.95 / 100 softgels (~$0.09/day) (as of 2026-10-02)",
+    "pros": [
+      "NSF Certified for Sport, listed on NSF's own certified product database",
+      "1,000 IU (25 mcg) per softgel sits close to the adult RDA and well under the 4,000 IU upper limit",
+      "Lowest cost per day in this ranking at about 9 cents",
+      "Short ingredient list (vitamin D3, safflower oil, softgel shell) with no sugar or artificial colors"
+    ],
+    "cons": [
+      "Softgel is made with gelatin, so it does not suit vegetarians or vegans",
+      "Return terms are not shown on the product page; check dotFIT's return policy before ordering",
+      "Sold mainly through dotFIT's own site and partner gyms, so it is harder to find in stores",
+      "Like every vitamin D product, large trials in healthy adults have not shown fewer fractures, cancers or heart events"
+    ],
+    "best_for": "Adults who want a low-cost, low-dose, third-party certified vitamin D3",
+    "summary": "A plain 1,000 IU vitamin D3 softgel with NSF Certified for Sport status and the lowest daily cost in this ranking. It earns the top spot on safety margin and value, not on any special formula.",
+    "verdict_summary": "dotFIT Vitamin D-3 tops our 2026 vitamin D ranking at 8.0/10. Each softgel gives 1,000 IU (25 mcg) of vitamin D3, which is close to the adult RDA of 600 to 800 IU listed by MedlinePlus and far below the 4,000 IU daily upper limit. It is listed on NSF's Certified for Sport database, so an outside body has checked that the contents match the label and that it is free of banned substances, and it costs $8.95 for 100 softgels, about 9 cents a day. The evidence caveat applies to every product here: vitamin D3 reliably raises blood vitamin D levels, but in the large VITAL trial, 2,000 IU a day did not reduce cancer, heart events or fractures in healthy older adults who were not deficient. The gelatin softgel rules it out for vegetarians, and return terms are not on the product page. Ask a clinician about testing your level before you take any vitamin D long term.",
+    "pricing_table": [
+      {
+        "plan": "One-time (100 softgels)",
+        "price": "$8.95",
+        "notes": "About $0.09 per daily softgel (as of 2026-10-02)"
+      },
+      {
+        "plan": "Subscribe & Save",
+        "price": "20% off",
+        "notes": "Discount shown on dotFIT product page; confirm current terms at checkout"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is dotFIT Vitamin D-3 third-party tested?",
+        "answer": "Yes. dotFIT Vitamin D-3 appears on NSF's Certified for Sport listing. NSF says certified products are checked for label accuracy, unsafe contaminants and 290 banned substances, and are made in facilities NSF audits."
+      },
+      {
+        "question": "Is 1,000 IU of vitamin D a day safe?",
+        "answer": "For most adults, yes. MedlinePlus lists 4,000 IU a day as the safe upper limit for adults, so 1,000 IU leaves a wide margin. Your total includes fortified foods and any multivitamin, and people with kidney disease or high calcium should ask a clinician first."
+      },
+      {
+        "question": "Is dotFIT Vitamin D-3 vegan?",
+        "answer": "No. The softgel shell contains gelatin. If you avoid animal products, look for a plant-based D3 such as the Momentous softgel in this ranking."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "dotFIT Vitamin D-3 appears on NSF's Certified for Sport product listing. NSF says the mark means the contents match the label, no unsafe levels of contaminants were found, the product is free of 290 substances banned by major athletic organizations, and the factory is GMP certified and audited by NSF.",
+        "source_name": "NSF Certified for Sport official listing",
+        "source_url": "https://www.nsfsport.com/certified-products/listing-detail.php?id=1221174"
+      },
+      {
+        "claim": "MedlinePlus (NIH) lists an adult RDA of 600 IU (15 mcg) a day for ages 19 to 70 and 800 IU for adults over 70, and a safe upper limit of 4,000 IU (100 mcg) a day for adults. It says vitamin D toxicity almost always comes from too many supplements and can raise blood calcium.",
+        "source_name": "MedlinePlus (NIH National Library of Medicine): Vitamin D",
+        "source_url": "https://medlineplus.gov/ency/article/002405.htm"
+      },
+      {
+        "claim": "In the VITAL randomized trial of 25,871 US adults aged 50 and over (men) or 55 and over (women), 2,000 IU of vitamin D3 a day for a median 5.3 years did not lower the rate of invasive cancer or major cardiovascular events compared with placebo, and no excess hypercalcemia was seen.",
+        "source_name": "Manson et al., N Engl J Med 2019, VITAL trial (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/30415629/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-klean-athlete-klean-d-1000",
+    "slug": "klean-athlete-klean-d-1000",
+    "name": "Klean Athlete Klean-D 1000",
+    "category_slug": "nutrition-supplements",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.7,
+    "ratings": {
+      "safety": 9.0,
+      "evidence": 6.5,
+      "cost_value": 8.5,
+      "transparency": 8.5,
+      "support": 5.0
+    },
+    "price_summary": "$14.00 / 100 tablets (~$0.14/day) (as of 2026-10-02)",
+    "pros": [
+      "NSF Certified for Sport, confirmed on NSF's certified product database",
+      "1,000 IU (25 mcg) of vitamin D3 per tablet, a conservative dose under the 4,000 IU upper limit",
+      "Vegetarian, gluten-free tablet with a short list of other ingredients",
+      "100 tablets per bottle keeps the daily cost near 14 cents"
+    ],
+    "cons": [
+      "The official site shows a 'log in to add to cart' button, so buying direct requires an account",
+      "No return or guarantee terms appear on the product page",
+      "Marketing copy links vitamin D to training quality and recovery, which goes further than the large trials in general adults support",
+      "Tablet form without added fat; take it with a meal as the label directs"
+    ],
+    "best_for": "Vegetarian athletes who want a certified, moderate-dose D3 tablet",
+    "summary": "A certified 1,000 IU vitamin D3 tablet from a sports-focused brand. Strong on safety margin and testing, weaker on how easy it is to buy and on stated return terms.",
+    "verdict_summary": "Klean Athlete Klean-D 1000 scores 7.7/10. Each tablet supplies 25 mcg (1,000 IU) of vitamin D3, a conservative dose that stays well under the 4,000 IU adult upper limit listed by MedlinePlus, and the product is on NSF's Certified for Sport database. It is vegetarian and gluten-free, and $14.00 for 100 tablets works out to about 14 cents a day. It ranks below dotFIT mainly on cost and support: the brand's own store asks you to log in before adding to cart, and the product page lists no return terms. The product copy suggests vitamin D may help training and recovery, but large trials such as VITAL found that 2,000 IU a day did not reduce fractures in healthy adults who were not deficient, so treat it as a way to cover a shortfall, not a performance aid. Check your level with a clinician first.",
+    "pricing_table": [
+      {
+        "plan": "Official site (100 tablets)",
+        "price": "$14.00",
+        "notes": "Account login required to add to cart (as of 2026-10-02)"
+      },
+      {
+        "plan": "Other authorized retailers",
+        "price": "Varies",
+        "notes": "Confirm the price on the official site or the retailer"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is Klean-D NSF Certified for Sport?",
+        "answer": "Yes. Klean-D 25 mcg (1,000 IU) appears on NSF's Certified for Sport listing, which covers label accuracy, contaminant limits and 290 banned substances."
+      },
+      {
+        "question": "Will Klean-D improve my athletic performance?",
+        "answer": "There is no good evidence that it will if your vitamin D level is already adequate. Its value is in correcting a low intake. Ask a clinician whether a blood test makes sense for you."
+      },
+      {
+        "question": "Is Klean-D vegetarian?",
+        "answer": "Yes. The product page labels it vegetarian, gluten-free and GMO-free. Other ingredients are microcrystalline cellulose, stearic acid, vegetable stearate and silica."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Klean-D 25 mcg (1,000 IU) appears on NSF's Certified for Sport product listing. NSF says the mark means the contents match the label, no unsafe levels of contaminants were found, the product is free of 290 substances banned by major athletic organizations, and the factory is GMP certified and audited by NSF.",
+        "source_name": "NSF Certified for Sport official listing",
+        "source_url": "https://www.nsfsport.com/certified-products/listing-detail.php?id=1299220"
+      },
+      {
+        "claim": "MedlinePlus (NIH) lists an adult RDA of 600 IU (15 mcg) a day for ages 19 to 70 and 800 IU for adults over 70, and a safe upper limit of 4,000 IU (100 mcg) a day for adults. It says vitamin D toxicity almost always comes from too many supplements and can raise blood calcium.",
+        "source_name": "MedlinePlus (NIH National Library of Medicine): Vitamin D",
+        "source_url": "https://medlineplus.gov/ency/article/002405.htm"
+      },
+      {
+        "claim": "A VITAL ancillary analysis found 2,000 IU of vitamin D3 a day did not significantly lower total, nonvertebral or hip fractures versus placebo in generally healthy midlife and older adults who were not selected for deficiency or osteoporosis.",
+        "source_name": "LeBoff et al., N Engl J Med 2022 (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/35939577/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-momentous-vitamin-d3-2000",
+    "slug": "momentous-vitamin-d3-2000",
+    "name": "Momentous Vitamin D3 2000 IU",
+    "category_slug": "nutrition-supplements",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.6,
+    "ratings": {
+      "safety": 8.5,
+      "evidence": 6.5,
+      "cost_value": 7.0,
+      "transparency": 9.0,
+      "support": 8.0
+    },
+    "price_summary": "$19.99 / 60 softgels (~$0.33/day); $14.99 with subscription (as of 2026-10-02)",
+    "pros": [
+      "NSF Certified for Sport, confirmed on NSF's certified product database",
+      "Plant-based (vegan) cholecalciferol in organic olive oil, suitable for vegans",
+      "2,000 IU matches the daily dose tested in the VITAL trial and stays under the 4,000 IU upper limit",
+      "Product page states a money-back guarantee"
+    ],
+    "cons": [
+      "About $0.33 a day at full price, more than three times the cost of dotFIT",
+      "2,000 IU is above the adult RDA; people already taking a multivitamin or fortified foods should add up their total",
+      "Benefit claims about immune health and inflammation go beyond what large trials in healthy adults have shown",
+      "Only 60 servings per container"
+    ],
+    "best_for": "Vegans who want a certified D3 at the dose used in the largest trial",
+    "summary": "A vegan 2,000 IU vitamin D3 softgel with NSF Certified for Sport status and a stated money-back guarantee. Good transparency and support, but you pay a premium for the plant-based source.",
+    "verdict_summary": "Momentous Vitamin D3 2000 IU scores 7.6/10. It is one of the few certified options made with plant-based cholecalciferol, delivered in organic olive oil, and it is listed on NSF's Certified for Sport database. Its 2,000 IU dose is the same daily amount used in the VITAL trial, which found it safe over about five years, with no excess hypercalcemia, but also found no reduction in cancer or heart events in healthy older adults. The main drawback is cost: $19.99 for 60 softgels is about 33 cents a day, or $14.99 on subscription, well above the 1,000 IU options here. The product page offers a money-back guarantee, which lifts its support score. Choose it if you need a vegan D3; otherwise a cheaper certified product does the same job. Ask a clinician before you take 2,000 IU daily long term.",
+    "pricing_table": [
+      {
+        "plan": "One-time (60 softgels)",
+        "price": "$19.99",
+        "notes": "About $0.33 per day (as of 2026-10-02)"
+      },
+      {
+        "plan": "Subscribe & Save",
+        "price": "$14.99",
+        "notes": "25% off shown on the product page; confirm ongoing subscription terms at checkout"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is Momentous Vitamin D3 vegan?",
+        "answer": "Yes. The product page lists plant-based cholecalciferol, organic extra virgin olive oil, a hypromellose capsule and candelilla wax, and labels it vegan."
+      },
+      {
+        "question": "Is 2,000 IU of vitamin D too much?",
+        "answer": "It is above the adult RDA of 600 to 800 IU but half the 4,000 IU adult upper limit listed by MedlinePlus. In the VITAL trial, 2,000 IU a day for about five years caused no excess hypercalcemia. Count fortified foods and multivitamins toward your total."
+      },
+      {
+        "question": "Do I need to take it with food?",
+        "answer": "The product page says the olive oil carrier means it can be taken without a meal."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Momentous Vitamin D3 2000IU appears on NSF's Certified for Sport product listing. NSF says the mark means the contents match the label, no unsafe levels of contaminants were found, the product is free of 290 substances banned by major athletic organizations, and the factory is GMP certified and audited by NSF.",
+        "source_name": "NSF Certified for Sport official listing",
+        "source_url": "https://www.nsfsport.com/certified-products/listing-detail.php?id=1671925"
+      },
+      {
+        "claim": "In the VITAL randomized trial of 25,871 US adults aged 50 and over (men) or 55 and over (women), 2,000 IU of vitamin D3 a day for a median 5.3 years did not lower the rate of invasive cancer or major cardiovascular events compared with placebo, and no excess hypercalcemia was seen.",
+        "source_name": "Manson et al., N Engl J Med 2019, VITAL trial (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/30415629/"
+      },
+      {
+        "claim": "A meta-analysis of randomized trials found vitamin D3 raised blood 25(OH)D more than vitamin D2 overall, though the advantage was clearest with large bolus doses and was lost in the daily-dosing comparison.",
+        "source_name": "Tripkovic et al., Am J Clin Nutr 2012 (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/22552031/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-thorne-vitamin-d-5000",
+    "slug": "thorne-vitamin-d-5000",
+    "name": "Thorne Vitamin D-5,000",
+    "category_slug": "nutrition-supplements",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.0,
+    "ratings": {
+      "safety": 6.5,
+      "evidence": 6.5,
+      "cost_value": 8.0,
+      "transparency": 9.0,
+      "support": 6.0
+    },
+    "price_summary": "$20 / 60 capsules (~$0.33/day); $39 / 120 capsules (as of 2026-10-02)",
+    "pros": [
+      "NSF Certified for Sport, confirmed on NSF's certified product database",
+      "Clear label: 125 mcg (5,000 IU) vitamin D3 with all other ingredients listed",
+      "Gluten-free, dairy-free and soy-free capsule",
+      "Thorne offers a 60-day satisfaction return window"
+    ],
+    "cons": [
+      "5,000 IU a day is above the 4,000 IU adult upper limit listed by MedlinePlus, so daily long-term use should be clinician-guided",
+      "Approved returns carry a 25% restocking fee",
+      "A high dose adds risk without added benefit for people whose vitamin D level is already normal",
+      "Large trials at 2,000 IU found no drop in fractures, cancer or heart events in healthy adults"
+    ],
+    "best_for": "People whose clinician has recommended a higher-dose D3 after a blood test",
+    "summary": "A well-made, NSF-certified vitamin D3 at 5,000 IU per capsule. The quality is not in question; the dose is above the adult upper limit, which pulls its safety score down for unsupervised use.",
+    "verdict_summary": "Thorne Vitamin D-5,000 scores 7.0/10. Thorne's manufacturing and labeling are strong: the capsule is on NSF's Certified for Sport database, lists every ingredient, and is free of gluten, dairy and soy. The problem is the dose. Each capsule has 125 mcg (5,000 IU), which is above the 4,000 IU daily upper limit for adults listed by MedlinePlus, and MedlinePlus notes that vitamin D toxicity almost always comes from supplements and can raise blood calcium. Clinicians sometimes use higher doses to correct a measured deficiency, which is the use case this product fits. At $20 for 60 capsules it is not expensive, but returns within 60 days carry a 25% restocking fee. If you have not had your level tested, a 1,000 to 2,000 IU product is the safer default. Talk to a clinician before taking 5,000 IU daily.",
+    "pricing_table": [
+      {
+        "plan": "One-time (60 capsules)",
+        "price": "$20",
+        "notes": "About $0.33 per day (as of 2026-10-02)"
+      },
+      {
+        "plan": "One-time (120 capsules)",
+        "price": "$39",
+        "notes": "Larger bottle, about $0.33 per day"
+      },
+      {
+        "plan": "Returns",
+        "price": "25% restocking fee",
+        "notes": "Return requests accepted within 60 days of purchase"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is 5,000 IU of vitamin D safe to take every day?",
+        "answer": "MedlinePlus lists 4,000 IU a day as the safe upper limit for adults, so 5,000 IU daily is above it. Clinicians sometimes prescribe higher doses short term to correct a deficiency found on a blood test. Do not take it daily without medical advice."
+      },
+      {
+        "question": "Is Thorne Vitamin D-5,000 NSF certified?",
+        "answer": "Yes. Thorne D-5,000 appears on NSF's Certified for Sport listing, and Thorne's product page carries the NSF mark."
+      },
+      {
+        "question": "Can I return Thorne products?",
+        "answer": "Thorne's returns FAQ says you can request a return within 60 days of purchase, and approved returns are subject to a 25% restocking fee."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Thorne D-5,000 appears on NSF's Certified for Sport product listing. NSF says the mark means the contents match the label, no unsafe levels of contaminants were found, the product is free of 290 substances banned by major athletic organizations, and the factory is GMP certified and audited by NSF.",
+        "source_name": "NSF Certified for Sport official listing",
+        "source_url": "https://www.nsfsport.com/certified-products/listing-detail.php?id=1221010"
+      },
+      {
+        "claim": "MedlinePlus (NIH) lists an adult RDA of 600 IU (15 mcg) a day for ages 19 to 70 and 800 IU for adults over 70, and a safe upper limit of 4,000 IU (100 mcg) a day for adults. It says vitamin D toxicity almost always comes from too many supplements and can raise blood calcium.",
+        "source_name": "MedlinePlus (NIH National Library of Medicine): Vitamin D",
+        "source_url": "https://medlineplus.gov/ency/article/002405.htm"
+      },
+      {
+        "claim": "A VITAL ancillary analysis found 2,000 IU of vitamin D3 a day did not significantly lower total, nonvertebral or hip fractures versus placebo in generally healthy midlife and older adults who were not selected for deficiency or osteoporosis.",
+        "source_name": "LeBoff et al., N Engl J Med 2022 (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/35939577/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-theranatal-complete-prenatal",
+    "slug": "theranatal-complete-prenatal",
+    "name": "TheraNatal Complete Prenatal Vitamin",
+    "category_slug": "womens-health",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.7,
+    "ratings": {
+      "safety": 8.0,
+      "evidence": 8.0,
+      "cost_value": 6.5,
+      "transparency": 8.5,
+      "support": 7.0
+    },
+    "price_summary": "$88.23 per 13-week supply, about $0.97/day (as of 2026-10-02)",
+    "pros": [
+      "Listed by NSF under NSF/ANSI 173, and Theralogix says it is independently tested by NSF for content accuracy and purity",
+      "Covers the nutrients most cheap prenatals miss: 27 mg iron, iodine, 300 mg DHA and 250 mg choline per day",
+      "Iron matches the 27 mg pregnancy RDA and stays well under the 45 mg upper limit",
+      "Iodine, choline and DHA all come in one daily pack, so you do not need separate add-ons"
+    ],
+    "cons": [
+      "Three pills a day: two tablets and one softgel",
+      "About $0.97 a day, several times the cost of a basic prenatal",
+      "250 mg choline is still well short of the 450 mg pregnancy intake level",
+      "The NIH label record lists folate as L-methylfolate; the USPSTF recommendation is based on folic acid, so ask your clinician which form they want you on"
+    ],
+    "best_for": "People who want one NSF-certified pack that includes iron, iodine, DHA and choline",
+    "summary": "The most complete formula in this ranking, NSF certified, with iron at the pregnancy RDA plus iodine, DHA and choline. It costs more and means three pills a day.",
+    "verdict_summary": "TheraNatal Complete tops our 2026 prenatal vitamin ranking at 7.7/10, and Firsthand earns nothing on it. It is listed under NSF/ANSI 173, and Theralogix says NSF tests it for content accuracy and purity. The formula covers the gaps that show up in many prenatals: 27 mg of iron, which matches the pregnancy RDA, 300 mg DHA, 250 mg choline and iodine, with 75 mcg (3,000 IU) of vitamin D3. NIH notes that prenatal supplements often contain little or no choline, and the American Thyroid Association advises 150 mcg of supplemental iodine in pregnancy. A Cochrane review of 70 trials found omega-3 supplementation in pregnancy was linked to fewer preterm births. Downsides: three pills a day, about $0.97 a day, and choline that still falls short of the 450 mg intake level. NIH's label record lists the folate as L-methylfolate, while USPSTF's advice is based on folic acid. Agree the plan with your prenatal clinician.",
+    "pricing_table": [
+      {
+        "plan": "13-week supply",
+        "price": "$88.23",
+        "notes": "Official listed price; the page also shows $75.00, which appears tied to subscription. Confirm at checkout"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is TheraNatal Complete third-party tested?",
+        "answer": "Yes. TheraNatal Complete appears in NSF's NSF/ANSI 173 dietary supplement listings, and Theralogix says it is independently tested and certified by NSF for content accuracy and purity."
+      },
+      {
+        "question": "How many pills do I take?",
+        "answer": "Theralogix says two tablets and one softgel a day with food."
+      },
+      {
+        "question": "Does it contain iron and DHA?",
+        "answer": "Yes. Theralogix lists 27 mg of iron and 300 mg of DHA per daily serving, plus 250 mg of choline and iodine."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "NSF's NSF/ANSI 173 dietary supplement listings include TheraNatal Complete Prenatal Vitamin & Mineral supplement from Theralogix, daily serving one multipack.",
+        "source_name": "NSF Listings: NSF/ANSI 173 dietary supplements matching 'prenatal'",
+        "source_url": "https://info.nsf.org/Certified/Dietary/Listings.asp?TradeName=prenatal"
+      },
+      {
+        "claim": "The RDA for iron in pregnancy is 27 mg and the adult upper limit is 45 mg; ACOG recommends low-dose iron supplementation starting in the first trimester.",
+        "source_name": "NIH Office of Dietary Supplements: Iron Fact Sheet for Health Professionals",
+        "source_url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
+      },
+      {
+        "claim": "The AI for choline in pregnancy is 450 mg/day, and NIH notes that prenatal supplements typically contain little if any choline.",
+        "source_name": "NIH Office of Dietary Supplements: Choline Fact Sheet for Health Professionals",
+        "source_url": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/"
+      },
+      {
+        "claim": "A Cochrane review of 70 randomized trials (19,927 women) found preterm birth before 37 weeks was lower with omega-3 supplementation (13.4% vs 11.9%, RR 0.89), rated high-quality evidence.",
+        "source_name": "Middleton et al., Cochrane review of omega-3 in pregnancy, 2018 (PubMed)",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/30480773/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-thorne-basic-prenatal",
+    "slug": "thorne-basic-prenatal",
+    "name": "Thorne Basic Prenatal",
+    "category_slug": "womens-health",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.2,
+    "ratings": {
+      "safety": 7.5,
+      "evidence": 7.0,
+      "cost_value": 7.0,
+      "transparency": 8.5,
+      "support": 6.0
+    },
+    "price_summary": "$37 per 90 capsules (30 days), about $1.23/day (as of 2026-10-02)",
+    "pros": [
+      "Listed by NSF under NSF/ANSI 173, and Thorne also states NSF Certified for Sport",
+      "Includes iodine (150 mcg) and choline (110 mg), which many prenatals skip",
+      "Uses chelated iron and active folate (5-MTHF), a full mineral panel, and no gluten, dairy or soy",
+      "Clear label with every amount listed, no proprietary blend"
+    ],
+    "cons": [
+      "Iron is 45 mg per serving, which equals the adult upper limit; ask your clinician whether you need that much",
+      "No DHA; Thorne sells it separately as Prenatal DHA",
+      "Three capsules a day, and choline at 110 mg is far below the 450 mg pregnancy intake level",
+      "We found no return policy on the product page"
+    ],
+    "best_for": "People whose clinician wants higher iron and who prefer active folate forms",
+    "summary": "A transparent, NSF-listed formula with iodine and some choline. The 45 mg iron dose sits at the upper limit, and DHA costs extra.",
+    "verdict_summary": "Thorne Basic Prenatal scores 7.2/10 in our 2026 prenatal vitamin ranking, and Firsthand earns nothing on it. It appears in NSF's NSF/ANSI 173 listings, Thorne also states NSF Certified for Sport, and the label is fully disclosed. The formula includes 150 mcg of iodine, which the American Thyroid Association advises in pregnancy, 110 mg of choline, and folate as 5-MTHF, at $37 for a 30-day supply. Two points pull the score down. First, it has 45 mg of iron per serving, the same as the adult upper limit and well above the 27 mg pregnancy RDA, which may suit someone a clinician has told to take more iron but is more than many people need. Second, there is no DHA, so you would buy it separately. USPSTF's folic acid advice is based on folic acid itself, so confirm with your clinician that 5-MTHF fits your plan. It suits people under clinical guidance who want a clean, tested label.",
+    "pricing_table": [
+      {
+        "plan": "Basic Prenatal, 90 capsules",
+        "price": "$37",
+        "notes": "Official price; 30 servings of 3 capsules"
+      },
+      {
+        "plan": "Prenatal DHA (separate)",
+        "price": "Confirm on official site",
+        "notes": "Not included in Basic Prenatal"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is Thorne Basic Prenatal NSF certified?",
+        "answer": "NSF's NSF/ANSI 173 listings include Thorne Basic Prenatal at a 3-capsule serving, and Thorne's product page states NSF Certified for Sport."
+      },
+      {
+        "question": "Is 45 mg of iron too much?",
+        "answer": "It equals the 45 mg adult upper limit set for iron, and the pregnancy RDA is 27 mg. Some people need more iron, but that is a call for your clinician based on your blood work."
+      },
+      {
+        "question": "Does it include DHA?",
+        "answer": "No. Thorne sells DHA separately as Prenatal DHA."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "NSF's NSF/ANSI 173 listings include Thorne Basic Prenatal (3 capsules) and Thorne Prenatal DHA (2 gelcaps).",
+        "source_name": "NSF Listings: NSF/ANSI 173 dietary supplements matching 'prenatal'",
+        "source_url": "https://info.nsf.org/Certified/Dietary/Listings.asp?TradeName=prenatal"
+      },
+      {
+        "claim": "NIH's label database lists Thorne Basic Prenatal (3 capsules) at 45 mg iron, 150 mcg iodine, 110 mg choline, 1.7 mg DFE folate and 25 mcg vitamin D.",
+        "source_name": "NIH Dietary Supplement Label Database (DSLD), Thorne Basic Prenatal label 328830",
+        "source_url": "https://api.ods.od.nih.gov/dsld/v9/label/328830"
+      },
+      {
+        "claim": "The adult Tolerable Upper Intake Level for iron is 45 mg, and the pregnancy RDA is 27 mg.",
+        "source_name": "NIH Office of Dietary Supplements: Iron Fact Sheet for Health Professionals",
+        "source_url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
+      },
+      {
+        "claim": "The American Thyroid Association recommends 150 mcg/day of iodine as potassium iodide for people planning pregnancy, pregnant or lactating; not all prenatal supplements contain iodine.",
+        "source_name": "NIH Office of Dietary Supplements: Iodine Fact Sheet for Health Professionals",
+        "source_url": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-olly-ultra-strength-prenatal-softgels",
+    "slug": "olly-ultra-strength-prenatal-softgels",
+    "name": "OLLY Ultra Strength Prenatal Softgels",
+    "category_slug": "womens-health",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.0,
+    "ratings": {
+      "safety": 7.5,
+      "evidence": 5.5,
+      "cost_value": 8.5,
+      "transparency": 7.0,
+      "support": 7.0
+    },
+    "price_summary": "$19.99 per 60 softgels (30 days), about $0.67/day (as of 2026-10-02)",
+    "pros": [
+      "Listed by NSF under NSF/ANSI 173, the cheapest NSF-listed option in this ranking",
+      "Folate of 667 mcg DFE sits inside the USPSTF folic acid range, with 150 mcg iodine and 260 mg omega-3 per serving on its NIH label record",
+      "Sugar free and gluten free",
+      "30-day returns"
+    ],
+    "cons": [
+      "Iron is 7.6 mg per serving on its NIH label record, well below the 27 mg pregnancy RDA",
+      "No choline listed on that label record",
+      "Two softgels a day, and the product page does not list nutrient amounts in text, so check the bottle",
+      "Our nutrient figures come from a 2023 NIH label entry; formulas can change, so compare with your bottle"
+    ],
+    "best_for": "Budget buyers whose clinician has said they do not need extra iron",
+    "summary": "An inexpensive NSF-listed softgel with iodine and omega-3, but low iron and no choline. Fine as a base if your clinician is handling iron separately.",
+    "verdict_summary": "OLLY Ultra Strength Prenatal Softgels score 7.0/10 in our 2026 prenatal vitamin ranking. Firsthand earns nothing on it. It is in NSF's NSF/ANSI 173 listings and costs $19.99 for a 30-day supply, the lowest price here. Its NIH label record lists 667 mcg DFE folate, inside the USPSTF range, 150 mcg iodine, 260 mg omega-3 from fish oil and 25 mg ginger root extract per two softgels. The weak spots are iron and choline: 7.6 mg of iron is well below the 27 mg pregnancy RDA, and no choline is listed. OLLY's product page also does not show nutrient amounts in text, so our figures come from a 2023 NIH label entry that may not match a current bottle. It suits people on a tight budget whose clinician is managing iron separately.",
+    "pricing_table": [
+      {
+        "plan": "60 softgels (30 days)",
+        "price": "$19.99",
+        "notes": "Official price"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is OLLY Ultra Strength Prenatal third-party certified?",
+        "answer": "NSF's NSF/ANSI 173 listings include OLLY Ultra Strength Prenatal Softgel at a 2-softgel serving, and its NIH label record shows an NSF Contents Certified seal."
+      },
+      {
+        "question": "Does it have enough iron?",
+        "answer": "Its NIH label record lists 7.6 mg of iron per serving, against a pregnancy RDA of 27 mg. Ask your clinician whether you need a separate iron supplement."
+      },
+      {
+        "question": "Does it contain fish?",
+        "answer": "Yes. OLLY lists fish (tuna, anchovy, sardine) as an allergen."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "NSF's NSF/ANSI 173 listings include OLLY ULTRA STRENGTH PRENATAL SOFTGEL at a 2-softgel serving.",
+        "source_name": "NSF Listings: NSF/ANSI 173 dietary supplements matching 'prenatal'",
+        "source_url": "https://info.nsf.org/Certified/Dietary/Listings.asp?TradeName=prenatal"
+      },
+      {
+        "claim": "NIH's label database lists OLLY Ultra Strength Prenatal (2 softgels) at 667 mcg DFE folate, 7.6 mg iron, 150 mcg iodine, 260 mg omega-3 fatty acids and 25 mg ginger root extract, with no choline listed.",
+        "source_name": "NIH Dietary Supplement Label Database (DSLD), OLLY Ultra Strength Prenatal label 291375",
+        "source_url": "https://api.ods.od.nih.gov/dsld/v9/label/291375"
+      },
+      {
+        "claim": "USPSTF recommends that all persons planning to or who could become pregnant take a daily supplement with 0.4 to 0.8 mg (400 to 800 mcg) of folic acid (Grade A).",
+        "source_name": "USPSTF: Folic Acid Supplementation recommendation statement (2023)",
+        "source_url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/folic-acid-for-the-prevention-of-neural-tube-defects-preventive-medication"
+      },
+      {
+        "claim": "The RDA for iron during pregnancy is 27 mg per day.",
+        "source_name": "NIH Office of Dietary Supplements: Iron Fact Sheet for Health Professionals",
+        "source_url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-smartypants-prenatal-plus-multi-omegas",
+    "slug": "smartypants-prenatal-plus-multi-omegas",
+    "name": "SmartyPants Prenatal Plus Multi & Omegas",
+    "category_slug": "womens-health",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.4,
+    "ratings": {
+      "safety": 7.5,
+      "evidence": 5.5,
+      "cost_value": 6.5,
+      "transparency": 6.5,
+      "support": 5.5
+    },
+    "price_summary": "$34.99 per 90 gummies (30 days), about $1.17/day (as of 2026-10-02)",
+    "pros": [
+      "Listed by NSF under NSF/ANSI 173, and SmartyPants states NSF Contents Certified",
+      "Folate as L-methylfolate, plus iodine and omega-3 DHA and EPA from algal oil",
+      "Gummy format for people who cannot swallow pills",
+      "SmartyPants says it is free from the 9 major allergens"
+    ],
+    "cons": [
+      "No iron; the page says prenatal gummies are usually made without it",
+      "Three gummies a day, at about $1.17 a day",
+      "The product page does not list nutrient amounts in text, so we could not check doses against guidelines",
+      "We found no return policy on the product page"
+    ],
+    "best_for": "People who cannot swallow pills and will take iron separately if needed",
+    "summary": "An NSF-listed gummy with iodine and algal omega-3, but no iron and amounts we could not verify from the page. Treat it as a partial prenatal.",
+    "verdict_summary": "SmartyPants Prenatal Plus Multi & Omegas scores 6.4/10 in our 2026 prenatal vitamin ranking, and Firsthand earns nothing on it. It appears in NSF's NSF/ANSI 173 listings at a 3-gummy serving, and SmartyPants states it is NSF Contents Certified. The formula uses L-methylfolate, includes iodine and adds omega-3 DHA and EPA from algal oil, and the gummy format helps people who struggle with pills. It ranks last for two reasons. It has no iron, which matters because the pregnancy RDA is 27 mg and ACOG recommends low-dose iron from the first trimester. And the product page does not list nutrient amounts in text, so we could not check its doses against guidelines. At $34.99 for 30 days it also costs more than OLLY. If you choose it, ask your clinician about separate iron.",
+    "pricing_table": [
+      {
+        "plan": "90 gummies (30 days)",
+        "price": "$34.99",
+        "notes": "Official price"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does SmartyPants Prenatal Plus contain iron?",
+        "answer": "No. SmartyPants says prenatal gummy formulas are usually made without iron. The pregnancy RDA for iron is 27 mg, so ask your clinician whether to add a separate iron supplement."
+      },
+      {
+        "question": "Is it third-party certified?",
+        "answer": "NSF's NSF/ANSI 173 listings include SmartyPants Prenatal Plus Multi & Omegas at a 3-gummy serving, and SmartyPants states it is NSF Contents Certified."
+      },
+      {
+        "question": "What form of folate does it use?",
+        "answer": "SmartyPants says it uses L-methylfolate rather than folic acid. USPSTF's recommendation is based on folic acid, so confirm the plan with your clinician."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "NSF's NSF/ANSI 173 listings include SmartyPants Prenatal Plus Multi & Omegas at a 3-gummy serving.",
+        "source_name": "NSF Listings: NSF/ANSI 173 dietary supplements matching 'prenatal'",
+        "source_url": "https://info.nsf.org/Certified/Dietary/Listings.asp?TradeName=prenatal"
+      },
+      {
+        "claim": "The RDA for iron in pregnancy is 27 mg, and ACOG recommends low-dose iron supplementation starting in the first trimester.",
+        "source_name": "NIH Office of Dietary Supplements: Iron Fact Sheet for Health Professionals",
+        "source_url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
+      },
+      {
+        "claim": "USPSTF recommends a daily supplement with 0.4 to 0.8 mg of folic acid for persons who plan to or could become pregnant (Grade A, 2023).",
+        "source_name": "USPSTF: Folic Acid Supplementation recommendation statement (2023)",
+        "source_url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/folic-acid-for-the-prevention-of-neural-tube-defects-preventive-medication"
+      }
+    ],
+    "last_updated": "2026-10-02"
   }
 ]

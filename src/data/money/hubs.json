@@ -66,5 +66,137 @@
       }
     ],
     "last_updated": "2026-07-12"
+  },
+  {
+    "id": "hub-best-online-brokerages",
+    "slug": "best-online-brokerages",
+    "title": "Best Online Brokerages of 2026",
+    "category_slug": "brokerages-investing",
+    "intro_mdx_or_text": "An online brokerage account lets you buy and sell stocks, ETFs, mutual funds and other securities yourself. All four brokers here charge $0 commission on online US stock and ETF trades, so the differences show up in options contract fees, mutual fund fees, margin rates and account fees such as transfer out charges. Each broker dealer here states it is a SIPC member, and we confirmed each firm is listed as active on FINRA BrokerCheck (as of 2026-10-02). SIPC protection covers customer cash and securities if a member firm fails, up to its limits; it does not protect against investment losses. Fees and margin rates change, so confirm current figures on each broker's official page. We score each broker on Fees 25%, Value & Returns 25%, Transparency 20%, Security & Trust 15%, and Support 15%. This is information, not investment advice.",
+    "answer_block": "Our top pick is Fidelity, which charges $0 for online US stock and ETF trades, $0.65 per options contract, has no minimum to open, and publishes dated margin rates (as of 2026-10-02). Schwab is close behind with $0 online trades, no minimums and a large no transaction fee fund list. E*TRADE has the clearest fee list and cheaper options for frequent traders, while Vanguard suits buy and hold investors in its own funds but charges $1 per options contract and a $25 account fee unless you choose e-delivery. All four firms are active on FINRA BrokerCheck and state SIPC membership. Fees change, so confirm on each broker's official page.",
+    "product_slugs": [
+      "fidelity-brokerage-account",
+      "charles-schwab-brokerage-account",
+      "etrade-brokerage-account",
+      "vanguard-brokerage-account"
+    ],
+    "faq": [
+      {
+        "question": "What does SIPC protection cover?",
+        "answer": "SIPC protects customer cash and securities held at a member broker dealer if the firm fails, up to its limits. It does not cover losses from market declines, and some products such as futures, forex and crypto held outside the broker dealer are not covered, as Schwab and E*TRADE note on their pricing pages."
+      },
+      {
+        "question": "How did you verify each broker?",
+        "answer": "We read each broker's official pricing page and searched FINRA BrokerCheck for its broker dealer: Fidelity Brokerage Services LLC (CRD 7784), Charles Schwab & Co., Inc. (CRD 5393), Vanguard Marketing Corporation (CRD 7452), and MORGAN STANLEY (CRD 149777) for E*TRADE's securities. All were listed as active (as of 2026-10-02)."
+      },
+      {
+        "question": "Are $0 commissions really free?",
+        "answer": "Commission free online stock and ETF trades are standard at all four brokers, but other costs remain: options contract fees, transaction fee mutual funds, broker-assisted trade charges, margin interest, and account transfer fees. Fund expense ratios are separate and set by each fund."
+      },
+      {
+        "question": "How do we rank these brokers?",
+        "answer": "We use a fixed methodology weighting Fees (25%), Value & Returns (25%), Transparency (20%), Security & Trust (15%), and Support (15%). We have no affiliate relationship with these brokers on this page."
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "hub-best-cash-back-credit-cards",
+    "slug": "best-cash-back-credit-cards",
+    "title": "Best No-Annual-Fee Cash Back Credit Cards of 2026",
+    "category_slug": "credit-cards",
+    "intro_mdx_or_text": "A cash back credit card returns a percentage of what you spend as a statement credit, deposit or similar reward. Every card on this list is a mainstream card from a large US issuer with no annual fee. We read each issuer's own card page and, where available, its pricing and terms document, and every figure here is (as of 2026-10-02). Credit card APRs are variable: they move with the Prime Rate and the rate you get depends on your credit, so treat any APR here as a reference and confirm it on the issuer's page before you apply. Carrying a balance at these APRs will usually cost more than the rewards earn. We score each card on five weighted criteria: Fees 25%, Value & Returns 25%, Transparency 20%, Security & Trust 15%, and Support 15%. This is information, not financial advice.",
+    "answer_block": "Our top pick is the Wells Fargo Active Cash Card, which pays an unlimited 2% in cash rewards on purchases with no annual fee and publishes a clear, recently dated terms page (as of 2026-10-02). Chase Freedom Unlimited earns more in dining and drugstore categories, Bank of America Customized Cash Rewards lets you choose a 3% category within a $2,500 quarterly cap, and Discover it Cash Back pays 5% on rotating categories you activate plus a first year match. All four have no annual fee. APRs are variable and depend on your credit, so confirm current rates on each issuer's official page. Rankings follow our published, weighted methodology and no issuer paid for placement.",
+    "product_slugs": [
+      "wells-fargo-active-cash-card",
+      "chase-freedom-unlimited",
+      "bank-of-america-customized-cash-rewards",
+      "discover-it-cash-back"
+    ],
+    "faq": [
+      {
+        "question": "Why are Citi Double Cash and Capital One Quicksilver not on this list?",
+        "answer": "Both are real, currently offered no annual fee cards, but when we checked (as of 2026-10-02) their official pages did not display the APR figures to us (the numbers loaded as blanks), so we could not verify their rates from a primary source. We only rank cards whose key terms we could read on the issuer's own page."
+      },
+      {
+        "question": "Do these cards charge a foreign transaction fee?",
+        "answer": "Wells Fargo Active Cash and Chase Freedom Unlimited each charge 3% (as of 2026-10-02). We could not confirm the fee for Bank of America Customized Cash Rewards or Discover it Cash Back from the pages we read, so check their full terms."
+      },
+      {
+        "question": "Is a 0% intro APR free money?",
+        "answer": "No. It delays interest on purchases or transfers for a set period. On the cards here where we could read the fee, balance transfers cost 3% to 5% of the amount, and the regular variable APR applies to any balance left after the intro period ends."
+      },
+      {
+        "question": "How do we rank these cards?",
+        "answer": "We use a fixed methodology weighting Fees (25%), Value & Returns (25%), Transparency (20%), Security & Trust (15%), and Support (15%). Facts come only from each issuer's official pages. We have no affiliate relationship with these issuers on this page."
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "hub-best-personal-loans",
+    "slug": "best-personal-loans",
+    "title": "Best Personal Loans of 2026",
+    "category_slug": "personal-loans",
+    "intro_mdx_or_text": "A personal loan is a fixed rate installment loan, usually unsecured, that you repay in equal monthly payments over a set term. The two numbers that matter most are the APR, which includes any origination fee, and the fee itself, because an origination fee is often taken out of the loan before you receive it. We read each lender's own disclosures for APR ranges, fees, amounts and terms, and every figure here is (as of 2026-10-02). APRs depend on your credit, the amount and the term, and lenders change their ranges often, so treat these figures as a reference and confirm your offer before accepting. We score each lender on Fees 25%, Value & Returns 25%, Transparency 20%, Security & Trust 15%, and Support 15%. This is information, not financial advice.",
+    "answer_block": "Our top pick is the Wells Fargo Personal Loan, which has a published APR range of 6.74% to 26.74% and no origination fee, though it is only available to existing Wells Fargo customers (as of 2026-10-02). Discover Personal Loans charge no fees of any kind but top out at $40,000. Happen Bank (the lender now behind lendingclub.com's loan page) has the lowest starting APR at 5.96% but charges a fee of up to 8%, and Upgrade charges a 1.85% to 9.99% fee. APRs depend on credit and change often, so confirm with each lender. Rankings follow our published methodology and no lender paid for placement.",
+    "product_slugs": [
+      "wells-fargo-personal-loan",
+      "discover-personal-loans",
+      "happen-bank-personal-loan",
+      "upgrade-personal-loan"
+    ],
+    "faq": [
+      {
+        "question": "What is an origination fee?",
+        "answer": "It is a one-time charge for making the loan, usually a percentage of the amount. Happen Bank (0.00% to 8.00%) and Upgrade (1.85% to 9.99%) deduct it from the proceeds, so you receive less than you borrow. Wells Fargo and Discover list no origination fee."
+      },
+      {
+        "question": "Why are SoFi and LightStream not on this list?",
+        "answer": "Both are real lenders, but when we checked (as of 2026-10-02) SoFi's site refused our request and LightStream's rate page displayed a blank maximum APR, so we could not read their current APR ranges from an official page. We only rank lenders whose key terms we could verify."
+      },
+      {
+        "question": "Does checking my rate hurt my credit?",
+        "answer": "Wells Fargo and Discover both say checking your rate does not affect your credit score. A hard inquiry generally happens only if you go ahead with an application or a loan is issued, so read each lender's disclosure before you proceed."
+      },
+      {
+        "question": "How do we rank these lenders?",
+        "answer": "We use a fixed methodology weighting Fees (25%), Value & Returns (25%), Transparency (20%), Security & Trust (15%), and Support (15%). Facts come only from each lender's own pages. We have no affiliate relationship with these lenders on this page."
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "hub-best-tax-software",
+    "slug": "best-tax-software",
+    "title": "Best Tax Software of 2026",
+    "category_slug": "tax-software",
+    "intro_mdx_or_text": "Tax software walks you through your federal and state income tax return and e-files it with the IRS. Prices vary widely: some products are free for everyone, some are free only for simple returns, and paid tiers can add a separate state fee. The IRS also runs free options. IRS Free File gives taxpayers with an adjusted gross income of $89,000 or less access to guided software from partner companies (eight partners for 2026, each with its own eligibility rules), but only if you start at IRS.gov/freefile. Free File Fillable Forms is available at any income level. IRS Direct File was not listed among the free options in the IRS's 2026 filing season announcement, and its former IRS.gov page returned a not found error when we checked (as of 2026-10-02). Every price here is (as of 2026-10-02); tax software prices change during the season, so confirm before you file. We score each product on Fees 25%, Value & Returns 25%, Transparency 20%, Security & Trust 15%, and Support 15%. This is information, not tax advice.",
+    "answer_block": "Our top pick is Cash App Taxes, which charges $0 for federal and state returns, including returns with self-employment or investment income, though it needs a Cash App account and offers no live expert help (as of 2026-10-02). IRS Free File Fillable Forms is free at any income level but is federal only and closes Oct. 15, 2026. TaxAct posts fixed prices from $0 to $109.99 plus state, and TurboTax is free only for simple Form 1040 returns, with Deluxe shown at $79 plus state. If your adjusted gross income is $89,000 or less, check IRS Free File guided software at IRS.gov/freefile first. Prices change, so confirm before you file.",
+    "product_slugs": [
+      "cash-app-taxes",
+      "irs-free-file-fillable-forms",
+      "taxact-online",
+      "turbotax-online"
+    ],
+    "faq": [
+      {
+        "question": "What is IRS Free File?",
+        "answer": "A program that gives eligible taxpayers free access to guided software from IRS partner tax software companies. For the 2026 season, taxpayers with an adjusted gross income of $89,000 or less in 2025 could use guided software from eight partners at no cost, with each partner setting its own rules. You must start at IRS.gov/freefile; going straight to a partner's site will not get you the Free File version (as of 2026-10-02)."
+      },
+      {
+        "question": "Is IRS Direct File still available?",
+        "answer": "We could not find it. The IRS's 2026 filing season announcement listed IRS Free File, Free File Fillable Forms and other free options but not Direct File, and the former Direct File page on IRS.gov returned a not found error (as of 2026-10-02). Check IRS.gov for the latest before next season."
+      },
+      {
+        "question": "Why are H&R Block, FreeTaxUSA and TaxSlayer not on this list?",
+        "answer": "They are real, currently offered products, but we could not confirm their current prices from their official sites (as of 2026-10-02). We only rank products whose prices we could verify."
+      },
+      {
+        "question": "How do we rank tax software?",
+        "answer": "We use a fixed methodology weighting Fees (25%), Value & Returns (25%), Transparency (20%), Security & Trust (15%), and Support (15%). Prices come only from each provider's own pages and IRS.gov. We have no affiliate relationship with these providers on this page."
+      }
+    ],
+    "last_updated": "2026-10-02"
   }
 ]

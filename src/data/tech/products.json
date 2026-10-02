@@ -693,5 +693,1233 @@
       }
     ],
     "last_updated": "2026-07-12"
+  },
+  {
+    "id": "prod-apple-macbook-air-13-m5",
+    "slug": "apple-macbook-air-13-m5",
+    "name": "Apple MacBook Air 13-inch (M5)",
+    "category_slug": "laptops",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.5,
+    "ratings": {
+      "performance": 8,
+      "value": 7,
+      "reliability": 7,
+      "ease_of_use": 9,
+      "support": 6
+    },
+    "price_summary": "From $1,299 for the 13-inch model; 15-inch from $1,499 (as of 2026-10-02)",
+    "pros": [
+      "Apple M5 chip with a 10-core CPU and 8-core or 10-core GPU, per Apple's official tech specs",
+      "Apple claims up to 18 hours of video streaming and up to 15 hours of wireless web browsing on a charge, per Apple's tech specs",
+      "Light at 2.7 pounds (1.23 kg) for the 13-inch model, per Apple",
+      "512GB of storage is now standard, and Apple's N1 wireless chip adds Wi-Fi 7 and Bluetooth 6, per Apple's March 2026 announcement"
+    ],
+    "cons": [
+      "The 13-inch model now starts at $1,299 on Apple's store (as of 2026-10-02), up from the $1,099 launch price Apple announced in March 2026",
+      "Only two Thunderbolt 4 (USB-C) ports plus MagSafe and a headphone jack, per Apple's specs, so there is no HDMI or USB-A without an adapter",
+      "Apple's standard limited warranty is one year from purchase; longer cover and accidental damage need paid AppleCare",
+      "Memory and storage are chosen at purchase (16GB to 32GB memory, 512GB to 4TB storage) and Apple lists no way to upgrade them later"
+    ],
+    "best_for": "People who want a light, quiet everyday laptop with long rated battery life, especially if they already use an iPhone.",
+    "summary": "The MacBook Air with M5 pairs Apple's newest base chip with 16GB of memory, 512GB of storage and Apple-claimed battery life of up to 18 hours of video. It is the lightest and most affordable laptop in this group, though its price has risen since launch.",
+    "verdict_summary": "The 13-inch MacBook Air with M5 is our top pick for most people. Apple's official tech specs list a 10-core M5 CPU with an 8-core or 10-core GPU, 16GB of unified memory and 512GB of storage in the base model, a 13.6-inch 500-nit display, and a weight of 2.7 pounds. Apple claims up to 18 hours of video streaming and up to 15 hours of wireless web browsing; those are the maker's figures, not ours. Apple's March 2026 announcement adds the N1 wireless chip for Wi-Fi 7 and Bluetooth 6. The trade-offs: the 13-inch model is listed at $1,299 on Apple's store (as of 2026-10-02), $200 more than the $1,099 launch price, ports are limited to two Thunderbolt 4 ports plus MagSafe, and Apple's standard warranty is one year. This rating reflects analysis of published specifications and official documentation, not hands-on or lab testing.",
+    "pricing_table": [
+      {
+        "plan": "13-inch, M5 (10-core CPU, 8-core GPU), 16GB, 512GB",
+        "price": "$1,299 (as of 2026-10-02)",
+        "notes": "Starting price shown on Apple's US online store for the 13-inch model."
+      },
+      {
+        "plan": "15-inch, M5 (10-core CPU, 10-core GPU)",
+        "price": "From $1,499 (as of 2026-10-02)",
+        "notes": "Starting price shown on Apple's US online store for the 15-inch model."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How long does the MacBook Air M5 battery last?",
+        "answer": "Apple claims up to 18 hours of video streaming and up to 15 hours of wireless web browsing for the MacBook Air with M5. These are Apple's own figures from its tech specs page; Firsthand does not run battery tests."
+      },
+      {
+        "question": "How much does the MacBook Air M5 cost?",
+        "answer": "Apple's US store lists the 13-inch model from $1,299 and the 15-inch model from $1,499 (as of 2026-10-02). Apple's March 2026 launch release gave starting prices of $1,099 and $1,299, so prices have gone up since launch."
+      },
+      {
+        "question": "What warranty comes with it?",
+        "answer": "Apple's limited warranty for Mac covers defects for one year from the date of original retail purchase. AppleCare+ is a paid add-on that covers accidental damage."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "MacBook Air 13-inch base model: M5 with 10-core CPU and 8-core GPU, 16GB memory, 512GB SSD, 13.6-inch 500-nit display, 2.7 lb, MagSafe 3 plus two Thunderbolt 4 ports; Apple claims up to 18 hours video streaming and up to 15 hours wireless web.",
+        "source_name": "Apple: MacBook Air Tech Specs (official)",
+        "source_url": "https://www.apple.com/macbook-air/specs/"
+      },
+      {
+        "claim": "13-inch MacBook Air buy from $1,299, 15-inch from $1,499; memory 16GB, 24GB or 32GB; storage 512GB to 4TB (as of 2026-10-02).",
+        "source_name": "Apple Store: Buy 13-inch MacBook Air (official)",
+        "source_url": "https://www.apple.com/shop/buy-mac/macbook-air/13-inch"
+      },
+      {
+        "claim": "MacBook Air with M5 announced March 2026 at $1,099 (13-inch) and $1,299 (15-inch), 512GB storage standard, N1 chip with Wi-Fi 7 and Bluetooth 6.",
+        "source_name": "Apple Newsroom: Apple introduces the new MacBook Air with M5",
+        "source_url": "https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-macbook-air-with-m5/"
+      },
+      {
+        "claim": "Apple warrants Mac hardware against defects for one year from the date of original retail purchase.",
+        "source_name": "Apple: Mac limited warranty (US, official)",
+        "source_url": "https://www.apple.com/legal/warranty/products/embedded-mac-warranty-us.html"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-microsoft-surface-laptop-13-8-8th-edition",
+    "slug": "microsoft-surface-laptop-13-8-8th-edition",
+    "name": "Microsoft Surface Laptop 13.8-inch (8th Edition)",
+    "category_slug": "laptops",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.3,
+    "ratings": {
+      "performance": 8,
+      "value": 7,
+      "reliability": 7,
+      "ease_of_use": 7,
+      "support": 7
+    },
+    "price_summary": "$1,399.99 on sale (list $1,599.99) for Snapdragon X2 Plus, 16GB, 512GB; Snapdragon X2 Elite from $1,526.23 (as of 2026-10-02)",
+    "pros": [
+      "Snapdragon X2 Plus (10-core) or X2 Elite (12-core) processors, per Microsoft's official product page",
+      "Microsoft claims up to 20 hours of video playback and up to 16 hours of web browsing on the 13.8-inch model",
+      "2304 x 1536, 120Hz HDR touchscreen, per Microsoft's specs",
+      "Microsoft lists replacement components through the Microsoft Store and iFixit, and the Microsoft Store offers 60-day free returns on physical products"
+    ],
+    "cons": [
+      "The display is LCD, not OLED, per Microsoft's specs, while the Lenovo and Dell models in this guide offer OLED options",
+      "It runs Windows on Snapdragon (Arm) processors, so check that any specialist software or drivers you rely on support Windows on Arm before buying",
+      "The $1,399.99 price is a sale price; the list price for the same 16GB/512GB configuration is $1,599.99 (as of 2026-10-02)",
+      "At 2.96 pounds it is heavier than the 13-inch MacBook Air (2.7 pounds)"
+    ],
+    "best_for": "Windows users who want long rated battery life and a high-refresh touchscreen at a lower price than most premium Windows ultrabooks.",
+    "summary": "The 13.8-inch Surface Laptop (8th Edition) uses Qualcomm's Snapdragon X2 chips, a 120Hz touchscreen and Microsoft-claimed battery life of up to 20 hours of video. It is good value while on sale, but buyers should confirm their apps run on Windows on Arm.",
+    "verdict_summary": "The 13.8-inch Surface Laptop (8th Edition) is the strongest Windows value in this guide on paper. Microsoft's official pages list a 10-core Snapdragon X2 Plus or 12-core X2 Elite, a 2304 x 1536 120Hz HDR touchscreen, two Thunderbolt 4 USB-C ports plus USB-A, and a weight of 2.96 pounds. Microsoft claims up to 20 hours of video playback and up to 16 hours of web browsing; those are the maker's figures. The Microsoft Store lists the X2 Plus model with 16GB and 512GB at $1,399.99, down from $1,599.99 (as of 2026-10-02), with 60-day free returns, and every Surface comes with at least a one-year limited hardware warranty. The trade-offs: an LCD rather than OLED panel, a sale price that may not last, and Arm-based processors, so specialist Windows software should be checked for compatibility. This rating reflects analysis of published specifications and official documentation, not hands-on or lab testing.",
+    "pricing_table": [
+      {
+        "plan": "Snapdragon X2 Plus (10-core), 16GB RAM, 512GB SSD",
+        "price": "$1,399.99 sale, $1,599.99 list (as of 2026-10-02)",
+        "notes": "Microsoft Store US configuration page."
+      },
+      {
+        "plan": "Snapdragon X2 Elite (12-core)",
+        "price": "From $1,526.23 (as of 2026-10-02)",
+        "notes": "Microsoft Store US 'from' price for the X2 Elite option."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How long does the Surface Laptop 13.8-inch battery last?",
+        "answer": "Microsoft claims up to 20 hours of video playback and up to 16 hours of web browsing for the 13.8-inch 8th Edition. These are Microsoft's figures; Firsthand does not test battery life."
+      },
+      {
+        "question": "What warranty and returns does it have?",
+        "answer": "Microsoft states every Surface device comes with a minimum one-year Microsoft Hardware Limited Warranty. The Microsoft Store also lists 60-day free returns on physical products."
+      },
+      {
+        "question": "Can the Surface Laptop be repaired?",
+        "answer": "Microsoft's product page says replacement components are available through the Microsoft Store and iFixit, and self-repair is possible using its service guides, though damage caused during a repair is not covered."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Surface Laptop 8th Edition 13.8-inch: Snapdragon X2 Plus (10-core) or X2 Elite (12-core), 2304 x 1536 120Hz HDR touchscreen, 2.96 lb, two USB-C Thunderbolt 4 plus USB-A; Microsoft claims up to 20 hours video and up to 16 hours browsing; replacement components via Microsoft Store and iFixit.",
+        "source_name": "Microsoft: Surface Laptop 8th Edition (official)",
+        "source_url": "https://www.microsoft.com/en-us/surface/devices/surface-laptop"
+      },
+      {
+        "claim": "X2 Plus, 16GB RAM, 512GB SSD: full price $1,599.99, now $1,399.99; X2 Elite from $1,526.23; 60-day free returns (as of 2026-10-02).",
+        "source_name": "Microsoft Store: Surface Laptop 13.8-inch (8th Edition) configurator",
+        "source_url": "https://www.microsoft.com/en-us/store/configure/surface-laptop-13-8-inch-8th-edition/8mzbmmcjzpmf"
+      },
+      {
+        "claim": "Every Surface device comes with a minimum of 1-year Microsoft Hardware Limited Warranty.",
+        "source_name": "Microsoft: Surface warranty, protection plans and support (official)",
+        "source_url": "https://www.microsoft.com/en-us/surface/business/warranty-protection-plans-and-support"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-lenovo-thinkpad-x1-carbon-gen-14-aura",
+    "slug": "lenovo-thinkpad-x1-carbon-gen-14-aura",
+    "name": "Lenovo ThinkPad X1 Carbon Gen 14 Aura Edition",
+    "category_slug": "laptops",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.2,
+    "ratings": {
+      "performance": 8,
+      "value": 5,
+      "reliability": 9,
+      "ease_of_use": 7,
+      "support": 7
+    },
+    "price_summary": "From $2,534 (Core Ultra 5 335, 32GB, 256GB, WUXGA touch) (as of 2026-10-02)",
+    "pros": [
+      "Starting weight of 0.977 kg (2.15 lbs), the lightest laptop in this guide, per Lenovo's PSREF spec sheet",
+      "Lenovo rates the 58Wh battery at up to 19.2 hours on the MobileMark 30 benchmark (Core Ultra 5 325, WUXGA configuration), per PSREF",
+      "Passed MIL-STD-810H military testing, per Lenovo's PSREF",
+      "Three Thunderbolt 4 ports plus HDMI, a 5MP IR camera with privacy shutter, and optional 2.8K OLED display, per PSREF"
+    ],
+    "cons": [
+      "The most expensive laptop here: $2,534 for a configuration with only 256GB of storage on Lenovo's US store (as of 2026-10-02)",
+      "Memory is soldered and not upgradable (16GB to 64GB options), per Lenovo's PSREF",
+      "Base warranty varies by model, from 1-year carry-in to 3-year onsite (with 1-year battery cover), so check the exact configuration, per PSREF",
+      "Lenovo's MobileMark battery figure is for one specific low-power configuration; Lenovo lists 11.4 hours for its 2.8K, Core Ultra X7 configuration"
+    ],
+    "best_for": "Business users and frequent travellers who put low weight, a durability test record and a business-class support offer ahead of price.",
+    "summary": "The ThinkPad X1 Carbon Gen 14 Aura Edition is the lightest laptop here at about 2.15 pounds and has a MIL-STD-810H test record, but at $2,534 for 256GB of storage it is the weakest value.",
+    "verdict_summary": "The ThinkPad X1 Carbon Gen 14 Aura Edition is the pick for travellers who want the lightest machine. Lenovo's PSREF spec sheet (dated September 21, 2026) lists Intel Core Ultra Series 3 processors, 16GB to 64GB of soldered memory, a 58Wh battery, three Thunderbolt 4 ports plus HDMI, a starting weight of 0.977 kg (2.15 lbs), and a passed MIL-STD-810H test. Lenovo rates battery life at up to 19.2 hours on MobileMark 30 for a low-power Core Ultra 5 configuration, dropping to 11.4 hours for its 2.8K OLED, Core Ultra X7 configuration; these are Lenovo's figures. The catch is price: Lenovo's US store lists the cheapest model at $2,534 with 32GB of memory but only 256GB of storage (as of 2026-10-02). The base warranty depends on the model, from one year carry-in to three years onsite. This rating reflects analysis of published specifications and official documentation, not hands-on or lab testing.",
+    "pricing_table": [
+      {
+        "plan": "Core Ultra 5 335, 32GB, 256GB, 14-inch WUXGA touch",
+        "price": "$2,534.00 (as of 2026-10-02)",
+        "notes": "Lowest listed model on Lenovo's US product page."
+      },
+      {
+        "plan": "Core Ultra 5 335, 32GB, 256GB, 14-inch 2.8K OLED",
+        "price": "$2,549.00 (as of 2026-10-02)",
+        "notes": "OLED model listed on Lenovo's US product page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How long does the X1 Carbon Gen 14 Aura Edition battery last?",
+        "answer": "Lenovo's PSREF rates it at up to 19.2 hours on MobileMark 30 in a low-power Core Ultra 5 configuration, 16.0 hours in a Core Ultra 7 configuration, and 11.4 hours in a 2.8K Core Ultra X7 configuration. These are Lenovo's figures; Firsthand does not test battery life."
+      },
+      {
+        "question": "Can I upgrade the memory later?",
+        "answer": "No. Lenovo's PSREF lists memory as soldered to the system board and not upgradable, in 16GB, 24GB, 32GB or 64GB options."
+      },
+      {
+        "question": "What warranty does it come with?",
+        "answer": "Lenovo's PSREF lists base warranty options from 1-year courier or carry-in service up to 3-year limited onsite service (1-year on the battery). The term depends on the model you buy."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Intel Core Ultra Series 3; 16GB to 64GB soldered, not upgradable; 58Wh battery, MobileMark 30 up to 19.2 hr (config 1) to 11.4 hr (config 3); starting weight 0.977 kg (2.15 lbs); 3x Thunderbolt 4; MIL-STD-810H passed; base warranty 1-year to 3-year depending on model.",
+        "source_name": "Lenovo PSREF: ThinkPad X1 Carbon Gen 14 Aura Edition spec sheet (September 21, 2026)",
+        "source_url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_X1_Carbon_Gen_14_Aura_Edition/ThinkPad_X1_Carbon_Gen_14_Aura_Edition_Spec.PDF"
+      },
+      {
+        "claim": "US models listed at $2,534.00 (Core Ultra 5 335, 32GB, 256GB, WUXGA touch) and $2,549.00 (same with 2.8K OLED) (as of 2026-10-02).",
+        "source_name": "Lenovo US: ThinkPad X1 Carbon Gen 14 Aura Edition (official store)",
+        "source_url": "https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpadx1/lenovo-thinkpad-x1-carbon-gen-14-aura-edition-14-inch-intel/len101t0159"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-dell-xps-14-2026",
+    "slug": "dell-xps-14-2026",
+    "name": "Dell XPS 14 (2026)",
+    "category_slug": "laptops",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.7,
+    "ratings": {
+      "performance": 8,
+      "value": 6,
+      "reliability": 6,
+      "ease_of_use": 7,
+      "support": 5
+    },
+    "price_summary": "From $2,149.99 (Core Ultra 5 325, 16GB, 512GB, 1920 x 1200 display) (as of 2026-10-02)",
+    "pros": [
+      "Dell claims up to 27 hours of general use and more than 40 hours of local video playback (at 150 nits), per Dell's launch blog",
+      "70Whr battery, the largest here, per Dell's US tech specs",
+      "Intel Core Ultra Series 3 processors, a 1-120Hz 500-nit display, and Wi-Fi 7 with Bluetooth 6.0, per Dell's specs",
+      "Dell says it is more than half a pound lighter than the previous generation, and the first XPS with modular USB-C ports for easier repair"
+    ],
+    "cons": [
+      "At 3.00 to 3.05 pounds it is the heaviest laptop in this guide, per Dell's specs",
+      "Dell's January 2026 blog promised configurations 'well under $2000', but the cheapest model on Dell's US store is $2,149.99 (as of 2026-10-02)",
+      "Dell's product page lists the base warranty only as 'Basic Hardware Service with Mail-In', and Dell's warranty terms say the length is shown on your invoice, so the term is not clear before purchase",
+      "The base $2,149.99 model pairs an 8-core Core Ultra 5 325 with 16GB of memory"
+    ],
+    "best_for": "Windows buyers who want the longest maker-claimed battery life in a premium 14-inch laptop and do not mind about 3 pounds.",
+    "summary": "The 2026 XPS 14 has a 70Whr battery and Dell-claimed battery life of up to 27 hours of general use. It is let down by a price above Dell's own launch promise and unclear warranty terms on the product page.",
+    "verdict_summary": "The 2026 Dell XPS 14 has the biggest battery in this guide. Dell's US tech specs list Intel Core Ultra Series 3 processors, a 14-inch 1-120Hz 500-nit display, a 70Whr battery, Wi-Fi 7 and Bluetooth 6.0, and a starting weight of 3.00 pounds with the OLED panel. Dell's launch blog claims up to 27 hours of general use and more than 40 hours of local video playback at 150 nits, and says actual battery life may be much lower; these are Dell's figures, not ours. The trade-offs: the cheapest configuration on Dell's US store is $2,149.99 (as of 2026-10-02), above the 'well under $2000' Dell promised for February, it is the heaviest laptop here, and the product page names only 'Basic Hardware Service with Mail-In' without stating the warranty length. This rating reflects analysis of published specifications and official documentation, not hands-on or lab testing.",
+    "pricing_table": [
+      {
+        "plan": "Core Ultra 5 325, 16GB, 512GB, 14-inch 1920 x 1200 non-touch",
+        "price": "$2,149.99 (as of 2026-10-02)",
+        "notes": "Lowest preset configuration on Dell's US product page."
+      },
+      {
+        "plan": "Core Ultra 7 358H, 32GB, 1TB",
+        "price": "$2,619.99 (Dell lists estimated value $2,999.99) (as of 2026-10-02)",
+        "notes": "Preset configuration on Dell's US product page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How long does the XPS 14 (2026) battery last?",
+        "answer": "Dell claims up to 27 hours of general use and more than 40 hours of local video playback at 150 nits brightness, and notes actual battery life may be significantly less. Firsthand does not test battery life."
+      },
+      {
+        "question": "What warranty does the XPS 14 come with?",
+        "answer": "Dell's product page lists the base warranty as 'Basic Hardware Service with Mail-In'. Dell's limited hardware warranty terms say US products may come with warranties from 90 days to 5 years, with the exact term shown on the packing slip or invoice."
+      },
+      {
+        "question": "How much does it weigh?",
+        "answer": "Dell's specs list a starting weight of 3.00 lb (1.36 kg) with the 2.8K OLED display and 3.05 lb (1.38 kg) with the LCD."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Lowest configuration $2,149.99 (Core Ultra 5 325, 16GB, 512GB, 1920 x 1200 1-120Hz 500-nit display) (as of 2026-10-02); 70Whr battery; 3.00 lb (OLED) to 3.05 lb (LCD); Wi-Fi 7 and Bluetooth 6.0; base warranty 'Basic Hardware Service with Mail-In'.",
+        "source_name": "Dell US: XPS 14 laptop (official store)",
+        "source_url": "https://www.dell.com/en-us/shop/dell-laptops/xps-14-laptop-2026/spd/xps-da14260-laptop"
+      },
+      {
+        "claim": "Dell claims up to 27 hours general use and 40+ hours local video at 150 nits; launch configuration $2,049.99 with configurations well under $2000 promised for February; modular USB-C ports.",
+        "source_name": "Dell blog: This is XPS Now (official)",
+        "source_url": "https://www.dell.com/en-us/blog/this-is-xps-now/"
+      },
+      {
+        "claim": "Dell-branded hardware bought in the US may come with a 90-day to 5-year limited warranty; the term is shown on the packing slip or invoice.",
+        "source_name": "Dell: Limited Hardware Warranty (official)",
+        "source_url": "https://www.dell.com/en-us/legal/lp/art-limited-hardware-warranties"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-amazon-echo-dot-max",
+    "slug": "amazon-echo-dot-max",
+    "name": "Amazon Echo Dot Max",
+    "category_slug": "smart-home",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.8,
+    "ratings": {
+      "performance": 8,
+      "value": 9,
+      "reliability": 7,
+      "ease_of_use": 7,
+      "support": 7
+    },
+    "price_summary": "$99.99 (as of 2026-10-02); Alexa+ included with Prime or $19.99/month without Prime (as of 2026-10-02)",
+    "pros": [
+      "Built-in smart home hub with Zigbee, Matter and Thread, so compatible devices can connect without a separate bridge, per Amazon (as of 2026-10-02)",
+      "First Echo Dot with a two-way speaker system (high-excursion woofer plus custom tweeter); Amazon claims nearly 3x the bass of the Echo Dot (5th Gen)",
+      "Runs on Amazon's AZ3 chip and includes Omnisense sensing (audio, ultrasound, Wi-Fi radar, accelerometer) for presence-based automations, per Amazon",
+      "At $99.99 (as of 2026-10-02) it is the lowest-priced speaker here that covers Zigbee as well as Matter and Thread"
+    ],
+    "cons": [
+      "The full Alexa+ assistant costs $19.99 per month unless you pay for Amazon Prime, per Amazon's Alexa+ pricing page",
+      "Warranty is Amazon's one-year limited warranty, no longer than rivals and with no extended cover included",
+      "Omnisense presence detection relies on several sensors, including Wi-Fi radar, which some buyers may not want in a bedroom or living room"
+    ],
+    "best_for": "Alexa households that want an affordable speaker that also acts as a Zigbee, Matter and Thread hub.",
+    "summary": "The Echo Dot Max pairs a $99.99 price with a built-in Zigbee, Matter and Thread hub and Amazon's first two-way speaker in the Dot range. The main catch is that the newest Alexa+ assistant is tied to Prime or a $19.99 monthly fee.",
+    "verdict_summary": "The Echo Dot Max is our top pick because it covers the most smart home protocols for the least money. Amazon's launch announcement lists a $99.99 price (as of 2026-10-02), the AZ3 chip, a two-way speaker system with a high-excursion woofer and custom tweeter, and a built-in smart home hub supporting Zigbee, Matter and Thread. Amazon claims nearly 3x the bass of the Echo Dot (5th Gen); we report that as the maker's claim, since Firsthand does not run an audio lab. Omnisense uses audio, ultrasound, Wi-Fi radar and accelerometer signals to detect presence for automations, per Amazon. The trade-offs: Alexa+ is included with Amazon Prime at no additional cost; without Prime it is $19.99 per month, with a limited free text chat at Alexa.com and in the Alexa app, per Amazon (as of 2026-10-02), so the headline assistant can carry an ongoing cost, and the device is covered by Amazon's standard one-year limited warranty. This rating is based on Amazon's published documentation, not hands-on testing.",
+    "pricing_table": [
+      {
+        "plan": "Echo Dot Max",
+        "price": "$99.99 (as of 2026-10-02)",
+        "notes": "Amazon list price at launch; includes the built-in Zigbee, Matter and Thread hub."
+      },
+      {
+        "plan": "Alexa+ (with Prime)",
+        "price": "Included with Prime (as of 2026-10-02)",
+        "notes": "Amazon describes Alexa+ as a Prime benefit at no additional cost."
+      },
+      {
+        "plan": "Alexa+ (without Prime)",
+        "price": "$19.99/month (as of 2026-10-02)",
+        "notes": "A limited free text chat is also offered at Alexa.com and in the Alexa app."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does the Echo Dot Max work as a Matter hub?",
+        "answer": "Yes. Amazon states the Echo Dot Max has a built-in smart home hub supporting Zigbee, Matter and Thread, letting it control compatible devices from many makers without a separate gateway."
+      },
+      {
+        "question": "Do I need to pay for Alexa+?",
+        "answer": "Not if you have Amazon Prime. Amazon says Alexa+ is a Prime benefit at no additional cost; without Prime it is $19.99 per month, with a limited free text chat at Alexa.com and in the Alexa app (as of 2026-10-02)."
+      },
+      {
+        "question": "What warranty does it have?",
+        "answer": "Amazon's device warranty page lists the Echo Dot Max under its One-Year Limited Warranty for Amazon Devices or Accessories."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Echo Dot Max costs $99.99 (as of 2026-10-02), uses the AZ3 chip, has a two-way speaker system and a built-in Zigbee, Matter and Thread hub, plus Omnisense sensing.",
+        "source_name": "About Amazon, Echo Dot Max and Echo Studio announcement (official)",
+        "source_url": "https://www.aboutamazon.com/news/devices/amazon-new-echo-devices-alexa-plus"
+      },
+      {
+        "claim": "Amazon claims nearly 3x bass versus Echo Dot (5th Gen); Echo Dot Max is the first in its line with a built-in smart home hub; microphone on/off button included.",
+        "source_name": "Amazon Press Center, Echo Dot Max and Echo Studio launch (official)",
+        "source_url": "https://press.aboutamazon.com/in/2026/6/amazon-launches-echo-dot-max-and-echo-studio-featuring-premium-audio-and-new-modern-design"
+      },
+      {
+        "claim": "Echo Dot Max is covered by Amazon's One-Year Limited Warranty for Amazon Devices or Accessories.",
+        "source_name": "Amazon, Device Warranty for Alexa Devices and Accessories (official)",
+        "source_url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=TinAkuz1r93YId3WWz"
+      },
+      {
+        "claim": "Alexa+ is included with Prime; $19.99 per month without Prime (as of 2026-10-02).",
+        "source_name": "About Amazon, Alexa+ availability and pricing (official)",
+        "source_url": "https://www.aboutamazon.com/news/devices/alexa-plus-available-free-prime-members-us"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-google-home-speaker",
+    "slug": "google-home-speaker",
+    "name": "Google Home Speaker",
+    "category_slug": "smart-home",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.7,
+    "ratings": {
+      "performance": 8,
+      "value": 8,
+      "reliability": 7,
+      "ease_of_use": 8,
+      "support": 7
+    },
+    "price_summary": "$99.99 (as of 2026-10-02); optional Google Home Premium Standard $10/month or Advanced $20/month (as of 2026-10-02)",
+    "pros": [
+      "Works as a hub for Matter with Google Home and has a Thread 1.3 border router built in, per Google's official spec sheet",
+      "Newest connectivity in this group: Wi-Fi 6 (2.4 GHz/5 GHz) and Bluetooth 5.4, per Google",
+      "Quad Core A55 2.0 GHz processor with an NPU, 1 GB memory and 4 GB storage, per Google",
+      "2-stage hardware microphone mute switch and Google Home app support on both iOS and Android, per Google"
+    ],
+    "cons": [
+      "Gemini Live and some smart home features need Google Home Premium, at $10/month or $100/year (Standard) or $20/month or $200/year (Advanced) (as of 2026-10-02)",
+      "No Zigbee radio is listed, so Zigbee-only devices need a separate bridge, unlike the Echo Dot Max",
+      "A single 58 mm full-range driver, a simpler speaker layout than the two-way Echo Dot Max or the multi-driver Echo Studio"
+    ],
+    "best_for": "Google Home users, or mixed iPhone and Android households, who want a Matter hub and Thread border router at a low price.",
+    "summary": "The Google Home Speaker brings Gemini for Home, Wi-Fi 6, Bluetooth 5.4 and a Thread border router for $99.99. Its weak points are the extra subscription for Gemini Live and the lack of Zigbee.",
+    "verdict_summary": "Google's official spec sheet lists the Google Home Speaker at $99.99 (as of 2026-10-02) with a Quad Core A55 2.0 GHz processor and NPU, 1 GB of memory, a 58 mm full-range driver, three far-field microphones, Wi-Fi 6, Bluetooth 5.4 and a Thread 1.3 border router. Google states it works as a hub for Matter with Google Home, and the Google Home app runs on iOS and Android, which helps households with mixed phones. Gemini for Home, media playback, broadcast and parental controls are included, but Gemini Live, 'Help me create' automations and sound detection need Google Home Premium Standard at $10/month or $100/year, with Advanced at $20/month or $200/year (as of 2026-10-02). There is no Zigbee radio listed, and Google's US hardware warranty is one year. Firsthand did not test this speaker; the rating reflects Google's published specifications and terms.",
+    "pricing_table": [
+      {
+        "plan": "Google Home Speaker",
+        "price": "$99.99 (as of 2026-10-02)",
+        "notes": "Google Store list price; Gemini for Home included."
+      },
+      {
+        "plan": "Google Home Premium Standard",
+        "price": "$10/month or $100/year (as of 2026-10-02)",
+        "notes": "Adds Gemini Live, 'Help me create' automations and sound detection."
+      },
+      {
+        "plan": "Google Home Premium Advanced",
+        "price": "$20/month or $200/year (as of 2026-10-02)",
+        "notes": "Adds camera video history search and daily summaries on top of Standard."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is the Google Home Speaker a Matter hub?",
+        "answer": "Yes. Google's spec sheet says it 'works as a hub for Matter with Google Home' and includes a Thread 1.3 border router (2.4 GHz)."
+      },
+      {
+        "question": "Do I need a subscription?",
+        "answer": "Not for the basics. Google lists Gemini for Home, media playback, broadcast and parental controls as included. Gemini Live and some automation and detection features need Google Home Premium at $10/month (Standard) or $20/month (Advanced) (as of 2026-10-02)."
+      },
+      {
+        "question": "Does it work with an iPhone?",
+        "answer": "Google lists iOS and Android as supported operating systems for the Google Home app used to set it up."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "$99.99 (as of 2026-10-02); Quad Core A55 2.0 GHz with NPU; 1 GB LPDDR4; 4 GB storage; 58 mm driver; 3 far-field mics; 2-stage hardware mic mute; Wi-Fi 6; Bluetooth 5.4; Thread 1.3 border router; works as a hub for Matter; Google Home app on iOS and Android.",
+        "source_name": "Google Store, Google Home Speaker specs (official)",
+        "source_url": "https://store.google.com/us/product/google_home_speaker_specs?hl=en-US"
+      },
+      {
+        "claim": "Included features versus Google Home Premium Standard ($10/month or $100/year) and Advanced ($20/month or $200/year) (as of 2026-10-02).",
+        "source_name": "Google Store, Google Home Speaker overview (official)",
+        "source_url": "https://store.google.com/us/product/google_home_speaker?hl=en-US"
+      },
+      {
+        "claim": "New Google devices bought in the US or Canada carry a one-year limited warranty.",
+        "source_name": "Google Hardware Limited Warranty, United States and Canada (official)",
+        "source_url": "https://support.google.com/product-documentation/answer/9155764?hl=en"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-amazon-echo-studio-2025",
+    "slug": "amazon-echo-studio-2025",
+    "name": "Amazon Echo Studio (2025)",
+    "category_slug": "smart-home",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.6,
+    "ratings": {
+      "performance": 9,
+      "value": 7,
+      "reliability": 7,
+      "ease_of_use": 7,
+      "support": 7
+    },
+    "price_summary": "$219.99 (as of 2026-10-02); Alexa+ included with Prime or $19.99/month without Prime (as of 2026-10-02)",
+    "pros": [
+      "Most capable audio hardware here: a high-excursion woofer plus three full-range drivers, with spatial audio and Dolby Atmos support, per Amazon",
+      "Same built-in Zigbee, Matter and Thread smart home hub as the Echo Dot Max, per Amazon",
+      "Uses Amazon's AZ3 Pro chip, a step up from the AZ3 in the Echo Dot Max, and includes Omnisense sensing, per Amazon"
+    ],
+    "cons": [
+      "At $219.99 (as of 2026-10-02) it costs more than twice the Echo Dot Max for the same smart home hub radios",
+      "The full Alexa+ assistant costs $19.99 per month without Prime, per Amazon",
+      "Covered only by Amazon's one-year limited warranty, the same as the much cheaper Echo Dot Max"
+    ],
+    "best_for": "Alexa households that want one speaker to handle both music and the smart home hub role.",
+    "summary": "The 2025 Echo Studio adds Dolby Atmos, a woofer plus three full-range drivers and the AZ3 Pro chip to the same Zigbee, Matter and Thread hub found in the Echo Dot Max. It costs $219.99, so you pay mainly for audio hardware.",
+    "verdict_summary": "The Echo Studio (2025) is Amazon's larger speaker and hub. Amazon's announcement lists it at $219.99 (as of 2026-10-02) with the AZ3 Pro chip, a high-excursion woofer and three full-range drivers, spatial audio with Dolby Atmos, Omnisense sensing, and a built-in hub supporting Zigbee, Matter and Thread. Amazon describes a new compact spherical design. As a smart home hub it documents the same radios as the $99.99 Echo Dot Max, so the extra money goes toward audio hardware, which Firsthand does not measure. Other trade-offs: Alexa+ is included with Amazon Prime at no additional cost; without Prime it is $19.99 per month, with a limited free text chat at Alexa.com and in the Alexa app, per Amazon (as of 2026-10-02), and Amazon lists it under its standard one-year limited warranty. Scores reflect Amazon's published documentation, not testing.",
+    "pricing_table": [
+      {
+        "plan": "Echo Studio (2025)",
+        "price": "$219.99 (as of 2026-10-02)",
+        "notes": "Amazon list price at launch; includes the built-in Zigbee, Matter and Thread hub."
+      },
+      {
+        "plan": "Alexa+ (without Prime)",
+        "price": "$19.99/month (as of 2026-10-02)",
+        "notes": "Included at no additional cost with Amazon Prime."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is the Echo Studio a smart home hub?",
+        "answer": "Yes. Amazon states both the Echo Studio and Echo Dot Max include a built-in smart home hub with Zigbee, Matter and Thread support."
+      },
+      {
+        "question": "How is it different from the Echo Dot Max?",
+        "answer": "Amazon lists the Echo Studio with the AZ3 Pro chip, a woofer plus three full-range drivers and Dolby Atmos support, versus the Dot Max's AZ3 chip and two-way speaker. Hub radios are the same. Prices are $219.99 and $99.99 (as of 2026-10-02)."
+      },
+      {
+        "question": "What warranty does it have?",
+        "answer": "Amazon's warranty page lists the Echo Studio (2025 release) under its One-Year Limited Warranty for Amazon Devices or Accessories."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Echo Studio costs $219.99 (as of 2026-10-02), uses the AZ3 Pro chip, a high-excursion woofer and three full-range drivers, supports spatial audio and Dolby Atmos, and has a built-in Zigbee, Matter and Thread hub.",
+        "source_name": "About Amazon, Echo Dot Max and Echo Studio announcement (official)",
+        "source_url": "https://www.aboutamazon.com/news/devices/amazon-new-echo-devices-alexa-plus"
+      },
+      {
+        "claim": "New compact spherical design with 3D knit fabric; microphone on/off button.",
+        "source_name": "Amazon Press Center, Echo Dot Max and Echo Studio launch (official)",
+        "source_url": "https://press.aboutamazon.com/in/2026/6/amazon-launches-echo-dot-max-and-echo-studio-featuring-premium-audio-and-new-modern-design"
+      },
+      {
+        "claim": "Echo Studio (2025 release) is covered by Amazon's One-Year Limited Warranty.",
+        "source_name": "Amazon, Device Warranty for Alexa Devices and Accessories (official)",
+        "source_url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=TinAkuz1r93YId3WWz"
+      },
+      {
+        "claim": "Alexa+ is included with Prime; $19.99 per month without Prime (as of 2026-10-02).",
+        "source_name": "About Amazon, Alexa+ availability and pricing (official)",
+        "source_url": "https://www.aboutamazon.com/news/devices/alexa-plus-available-free-prime-members-us"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-apple-homepod-mini",
+    "slug": "apple-homepod-mini",
+    "name": "Apple HomePod mini",
+    "category_slug": "smart-home",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.3,
+    "ratings": {
+      "performance": 6,
+      "value": 6,
+      "reliability": 7,
+      "ease_of_use": 6,
+      "support": 7
+    },
+    "price_summary": "$129 (as of 2026-10-02)",
+    "pros": [
+      "Automatically becomes a home hub for HomeKit and Matter accessories when set up, and is a Thread-enabled hub, per Apple Support",
+      "Built-in temperature and humidity sensors and an Ultra Wideband chip, per Apple's tech specs",
+      "Apple S5 chip for computational audio, with a full-range driver and dual passive radiators, per Apple"
+    ],
+    "cons": [
+      "Introduced in 2020, with older radios than rivals: 802.11n Wi-Fi and Bluetooth 5.0, per Apple's tech specs",
+      "Setup requires an iPhone or iPad, per Apple's system requirements, so Android households cannot use it",
+      "At $129 (as of 2026-10-02) it costs more than the Echo Dot Max and Google Home Speaker ($99.99 each) and has no Zigbee radio"
+    ],
+    "best_for": "iPhone households that already use the Apple Home app and want a small Matter and Thread hub.",
+    "summary": "The HomePod mini is the simplest way to add a Thread-enabled Matter hub to an Apple Home setup, with temperature and humidity sensing built in. It is also the oldest design here, has older Wi-Fi and Bluetooth, and needs an iPhone or iPad.",
+    "verdict_summary": "Apple sells the HomePod mini for $129 (as of 2026-10-02). Apple Support states that HomePod mini automatically becomes a home hub when set up, that a home hub is needed for the best Matter experience, and that HomePod mini is a Thread-enabled home hub for Thread-based Matter accessories. Apple's tech specs list the S5 chip, a full-range driver with dual passive radiators, four microphones, temperature and humidity sensors, an Ultra Wideband chip, Thread, 802.11n Wi-Fi and Bluetooth 5.0, and show it was introduced in 2020. Those radios trail the Wi-Fi 6 and Bluetooth 5.4 on the Google Home Speaker, there is no Zigbee radio, and setup needs an iPhone or iPad. HomePod is covered by Apple's one-year limited warranty. This rating comes from Apple's documentation, not hands-on testing.",
+    "pricing_table": [
+      {
+        "plan": "HomePod mini",
+        "price": "$129 (as of 2026-10-02)",
+        "notes": "Apple Store list price; Blue, Yellow, Midnight, White and Orange."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does HomePod mini support Matter?",
+        "answer": "Yes. Apple Support says HomePod mini automatically becomes a home hub and lists it as a Thread-enabled home hub for Matter and Thread-based accessories in the Apple Home app."
+      },
+      {
+        "question": "Can I use it with Android?",
+        "answer": "No. Apple's system requirements call for an iPhone or iPad running the latest iOS or iPadOS."
+      },
+      {
+        "question": "What warranty does it have?",
+        "answer": "Apple's US limited warranty for iPhone, iPad, Apple TV and HomePod runs one year from the original retail purchase. AppleCare+ is sold separately."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "HomePod mini is $129 (as of 2026-10-02) in five colours.",
+        "source_name": "Apple Store, Buy HomePod mini (official)",
+        "source_url": "https://www.apple.com/shop/buy-homepod/homepod-mini"
+      },
+      {
+        "claim": "Apple S5 chip; acts as a hub for HomeKit and Matter-enabled accessories; temperature and humidity sensing.",
+        "source_name": "Apple, HomePod mini (official)",
+        "source_url": "https://www.apple.com/homepod-mini/"
+      },
+      {
+        "claim": "Introduced 2020; 802.11n Wi-Fi; Bluetooth 5.0; Thread; temperature and humidity sensors; requires iPhone or iPad.",
+        "source_name": "Apple Support, HomePod mini Tech Specs (official)",
+        "source_url": "https://support.apple.com/en-us/111914"
+      },
+      {
+        "claim": "HomePod mini automatically becomes a home hub; Thread-enabled Matter accessories need a Thread-enabled hub such as HomePod mini.",
+        "source_name": "Apple Support, Set up a home hub (official)",
+        "source_url": "https://support.apple.com/en-us/102557"
+      },
+      {
+        "claim": "Thread-enabled home hubs include HomePod mini; supported Matter accessory types listed.",
+        "source_name": "Apple Support, Pair and manage Matter accessories (official)",
+        "source_url": "https://support.apple.com/en-us/102135"
+      },
+      {
+        "claim": "HomePod is covered by Apple's one-year limited warranty in the US.",
+        "source_name": "Apple Legal, US limited warranty (official)",
+        "source_url": "https://www.apple.com/legal/warranty/products/ios-warranty-document-us.html"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-google-pixel-11",
+    "slug": "google-pixel-11",
+    "name": "Google Pixel 11",
+    "category_slug": "smartphones",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 8.2,
+    "ratings": {
+      "performance": 8,
+      "value": 8,
+      "reliability": 8,
+      "ease_of_use": 8,
+      "support": 10
+    },
+    "price_summary": "From $899 (256 GB) at launch, per Google (as of 2026-10-02)",
+    "pros": [
+      "Google states 7 years of OS, security, and Pixel Drop updates, which covers OS upgrades as well as security patches, the broadest written update commitment in this guide, per the Google Store spec page",
+      "Storage starts at 256 GB with 12 GB of RAM, and the starting price is $899, per Google's launch post and spec page (as of 2026-10-02)",
+      "Google Tensor G6 chip with a Titan M3 security coprocessor, per Google's specifications",
+      "Triple rear camera including a 10.8 MP 5x telephoto, plus a 48 MP wide and 13 MP ultrawide, per Google's specifications",
+      "Typical 4985 mAh battery (minimum 4840 mAh), with Google's own claim of 30+ hour battery life, plus Qi2.2-certified Pixelsnap wireless charging up to 25W"
+    ],
+    "cons": [
+      "The warranty listed on Google's spec page is 1 year, no longer than the other phones here",
+      "The 30+ hour battery figure is Google's own claim and we have not measured it",
+      "The starting price of $899 is $300 more than the Motorola Edge 2026 ($599.99), so it is not a budget phone"
+    ],
+    "best_for": "Android buyers who want to keep one phone for many years and value a long written update promise.",
+    "summary": "The Pixel 11 pairs Google's Tensor G6 chip and a 5x telephoto camera with Google's written promise of 7 years of OS, security, and Pixel Drop updates. It starts at $899 for 256 GB. The warranty is a standard 1 year.",
+    "verdict_summary": "The Pixel 11 takes our top spot because its support promise is the clearest and longest in this group. The Google Store spec page lists 7 years of OS, security, and Pixel Drop updates, a 1-year warranty, Google Tensor G6 with a Titan M3 security coprocessor, 256 GB or 512 GB of storage with 12 GB of RAM, a 6.3-inch 60-120Hz OLED display rated up to 3000 nits peak, IP68 dust and water resistance, and a triple camera with a 10.8 MP 5x telephoto. Google rates the typical battery at 4985 mAh and claims 30+ hours of battery life; that is the maker's claim, not our measurement. Google's launch post gives a starting price of $899 (as of 2026-10-02). The trade-offs: the warranty is only 1 year, and $899 is well above mid-range phones such as the Motorola Edge 2026. Firsthand does not run a phone lab; this rating comes from Google's published specifications and policies.",
+    "pricing_table": [
+      {
+        "plan": "Pixel 11 (256 GB / 12 GB RAM)",
+        "price": "From $899 (as of 2026-10-02)",
+        "notes": "Starting price from Google's launch post; 256 GB is the entry storage on the Google Store spec page."
+      },
+      {
+        "plan": "Pixel 11 (512 GB / 12 GB RAM)",
+        "price": "Not confirmed",
+        "notes": "Listed on the Google Store spec page; we could not confirm its price on an official page during this check."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How long will the Pixel 11 get updates?",
+        "answer": "Google's Pixel 11 spec page lists 7 years of OS, security, and Pixel Drop updates. The phone launched with Android 17, per the same page (as of 2026-10-02)."
+      },
+      {
+        "question": "What is the Pixel 11 battery life?",
+        "answer": "Google rates the typical battery capacity at 4985 mAh (minimum 4840 mAh) and claims 30+ hour battery life. These are Google's own figures; Firsthand does not run battery tests."
+      },
+      {
+        "question": "What warranty does the Pixel 11 have?",
+        "answer": "The Google Store spec page lists a 1-year warranty (as of 2026-10-02)."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Pixel 11 specs: 6.3-inch 60-120Hz OLED, Tensor G6, Titan M3, 256 GB or 512 GB with 12 GB RAM, typical 4985 mAh battery and 30+ hour battery life claim, Qi2.2 wireless up to 25W, IP68, 7 years of OS, security, and Pixel Drop updates, 1-year warranty (as of 2026-10-02).",
+        "source_name": "Google Store, Pixel 11 tech specs (official)",
+        "source_url": "https://store.google.com/us/product/pixel_11_specs"
+      },
+      {
+        "claim": "Pixel 11 starts at $899; Pixel 11 Pro at $1,099 and Pixel 11 Pro XL at $1,299; available from August 20 (as of 2026-10-02).",
+        "source_name": "Google, The Keyword blog, Pixel 11 launch (official)",
+        "source_url": "https://blog.google/products-and-platforms/devices/pixel/pixel-11-features/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-apple-iphone-17",
+    "slug": "apple-iphone-17",
+    "name": "Apple iPhone 17",
+    "category_slug": "smartphones",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.9,
+    "ratings": {
+      "performance": 8,
+      "value": 8,
+      "reliability": 8,
+      "ease_of_use": 8,
+      "support": 7
+    },
+    "price_summary": "$929 unlocked (256 GB) or $899 with carrier activation; $1,129 unlocked (512 GB) (as of 2026-10-02)",
+    "pros": [
+      "Apple A19 chip with a 6-core CPU and 5-core GPU, per Apple's official specifications",
+      "6.3-inch OLED display with ProMotion adaptive refresh up to 120Hz, per Apple",
+      "IP68 rated (maximum depth of 6 meters up to 30 minutes) under IEC 60529, per Apple",
+      "Storage starts at 256 GB; Apple's store lists $929 unlocked, or $899 with a $30 discount that requires activation on AT&T, T-Mobile, or Verizon (as of 2026-10-02)",
+      "Apple rates video playback at up to 30 hours (up to 27 hours streamed); these are Apple's own figures"
+    ],
+    "cons": [
+      "Apple's US product, specs, and warranty pages we read do not state a set number of years of iOS updates, unlike Google and Samsung",
+      "The USB-C port supports only USB 2 speeds (up to 480Mb/s), per Apple's specifications",
+      "The standard warranty is Apple's One (1) Year Limited Warranty, and the specs page notes liquid damage is not covered"
+    ],
+    "best_for": "iPhone users who want a current-generation phone with a 120Hz display without paying Pro prices.",
+    "summary": "The iPhone 17 brings Apple's A19 chip, a 6.3-inch 120Hz ProMotion display, and IP68 water resistance, starting at $929 unlocked with 256 GB (as of 2026-10-02). The main gaps are USB 2 speeds and no stated number of update years on the Apple pages we read.",
+    "verdict_summary": "The iPhone 17 is the mainstream iPhone in Apple's current line-up. Apple's specifications list the A19 chip (6-core CPU, 5-core GPU, 16-core Neural Engine), a 6.3-inch OLED display with ProMotion up to 120Hz, 256 GB or 512 GB of storage, a 48MP Dual Fusion camera system, an 18MP Center Stage front camera, and an IP68 rating. Apple rates video playback at up to 30 hours; that is Apple's own claim. Apple's online store lists $929 unlocked for 256 GB and $1,129 for 512 GB, or from $899 with a $30 discount that requires carrier activation (as of 2026-10-02). The honest drawbacks: the USB-C port is limited to USB 2 speeds, the warranty is Apple's standard one-year limited warranty, and the Apple pages we read do not commit to a specific number of years of iOS updates, so it scores lower on Support than the Pixel 11 and Galaxy S26. Firsthand does not test phones; this rating is based on Apple's published documentation.",
+    "pricing_table": [
+      {
+        "plan": "iPhone 17 (256 GB)",
+        "price": "$929 unlocked; $899 with carrier activation (as of 2026-10-02)",
+        "notes": "The $899 price includes a $30 connectivity discount that requires activation with AT&T, T-Mobile, or Verizon, per Apple's store."
+      },
+      {
+        "plan": "iPhone 17 (512 GB)",
+        "price": "$1,129 unlocked (as of 2026-10-02)",
+        "notes": "Apple official store price."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How much does the iPhone 17 cost?",
+        "answer": "Apple's online store lists the 256 GB iPhone 17 at $929 unlocked, or $899 with a $30 discount that requires activation on AT&T, T-Mobile, or Verizon. The 512 GB model is $1,129 unlocked (as of 2026-10-02)."
+      },
+      {
+        "question": "How long does the iPhone 17 battery last?",
+        "answer": "Apple rates it at up to 30 hours of video playback and up to 27 hours of streamed video playback. These are Apple's own figures. Firsthand does not run its own battery tests."
+      },
+      {
+        "question": "How many years of updates will the iPhone 17 get?",
+        "answer": "The Apple product, specs, and warranty pages we checked do not state a set number of years of iOS updates. Google (7 years) and Samsung (7 years of security updates) put a number in writing for their phones."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "iPhone 17 specs: A19 chip, 6.3-inch OLED with ProMotion up to 120Hz, 256 GB or 512 GB, IP68, up to 30 hours video playback (Apple claim), USB 2 (up to 480Mb/s), MagSafe up to 25W.",
+        "source_name": "Apple, iPhone 17 Tech Specs (official)",
+        "source_url": "https://www.apple.com/iphone-17/specs/"
+      },
+      {
+        "claim": "iPhone 17 256 GB is $929 unlocked and 512 GB is $1,129; from $899 includes a $30 connectivity discount requiring AT&T, T-Mobile, or Verizon activation (as of 2026-10-02).",
+        "source_name": "Apple, Buy iPhone 17 (official store)",
+        "source_url": "https://www.apple.com/shop/buy-iphone/iphone-17"
+      },
+      {
+        "claim": "iPhone is covered by the Apple One (1) Year Limited Warranty.",
+        "source_name": "Apple, One Year Limited Warranty for iPhone (official)",
+        "source_url": "https://www.apple.com/legal/warranty/products/ios-warranty-document-us.html"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-samsung-galaxy-s26",
+    "slug": "samsung-galaxy-s26",
+    "name": "Samsung Galaxy S26",
+    "category_slug": "smartphones",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.6,
+    "ratings": {
+      "performance": 8,
+      "value": 6,
+      "reliability": 8,
+      "ease_of_use": 8,
+      "support": 9
+    },
+    "price_summary": "$999.99 unlocked (256 GB) and $1,199.99 (512 GB) on Samsung's US store product page (as of 2026-10-02)",
+    "pros": [
+      "Samsung promises seven years of security updates for the Galaxy S26 series, per Samsung's official launch release",
+      "6.3-inch FHD+ display with a 1 to 120Hz adaptive refresh rate, per Samsung's launch release",
+      "IP68 rating, with Armor Aluminum frame and Corning Gorilla Glass Victus 2 on front and back, per Samsung",
+      "12 GB of memory with 256 GB or 512 GB of storage, and a 50 MP wide, 12 MP ultra wide, and 10 MP 3x telephoto camera, per Samsung's US product page"
+    ],
+    "cons": [
+      "Smallest battery here: typical 4300 mAh (rated 4175 mAh), against 4985 mAh typical on the Pixel 11 and 5000mAh on the Motorola Edge 2026, per each maker",
+      "At $999.99 unlocked for 256 GB, it lists for $100 more than the Pixel 11's $899 starting price (as of 2026-10-02)",
+      "Samsung's US mobile warranty terms say the warranty period depends on the model, and we could not confirm a fixed term on the pages we read",
+      "US Galaxy S26 models use the Exynos 2600 chip per Samsung's US FAQ, while some other markets get Snapdragon, so specs vary by region"
+    ],
+    "best_for": "Android users who want a compact flagship with a 3x telephoto and a long security-update promise, and can shop around on price.",
+    "summary": "The Galaxy S26 is Samsung's compact flagship, with a 6.3-inch 120Hz display, IP68 rating, a 3x telephoto camera, and seven years of security updates. Samsung's US store lists it at $999.99 unlocked for 256 GB (as of 2026-10-02), and it has the smallest battery in this group.",
+    "verdict_summary": "The Galaxy S26 earns a strong Support score because Samsung's launch release commits to seven years of security updates. Samsung lists a 6.3-inch FHD+ display with a 1 to 120Hz adaptive refresh rate, an IP68 rating, Armor Aluminum and Gorilla Glass Victus 2, 12 GB of memory, and 256 GB or 512 GB of storage. Samsung's US FAQ says US Galaxy S26 models run the Exynos 2600. Samsung rates the typical battery at 4300 mAh and claims 30 hours of video playback based on its internal tests; that is Samsung's claim. Price is the weak spot: the US unlocked product page lists $999.99 for 256 GB and $1,199.99 for 512 GB (as of 2026-10-02), though Samsung's S26 overview page showed a 'From $899.99 before trade-in' figure on the same day, so check the live price. Samsung's US mobile terms say the warranty period depends on the model. Firsthand does not run a lab; this rating comes from Samsung's published material.",
+    "pricing_table": [
+      {
+        "plan": "Galaxy S26 (256 GB, unlocked)",
+        "price": "$999.99 (as of 2026-10-02)",
+        "notes": "Samsung US store product page. The S26 overview page also displayed 'From $899.99 before trade-in' on the same date."
+      },
+      {
+        "plan": "Galaxy S26 (512 GB, unlocked)",
+        "price": "$1,199.99 (as of 2026-10-02)",
+        "notes": "Samsung US store product page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How many years of updates does the Galaxy S26 get?",
+        "answer": "Samsung's official launch release promises seven years of security updates for the Galaxy S26 series."
+      },
+      {
+        "question": "Which chip does the US Galaxy S26 use?",
+        "answer": "Samsung's US Galaxy S26 page says the Galaxy S26 and S26+ run on the Exynos 2600. Samsung's global release notes that the chip varies by device and market."
+      },
+      {
+        "question": "How big is the Galaxy S26 battery?",
+        "answer": "Samsung lists a typical capacity of 4300 mAh (rated 4175 mAh) and claims 30 hours of video playback, based on Samsung's internal lab tests. Firsthand has not measured it."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Galaxy S26: 6.3-inch display, typical 4300 mAh (rated 4175 mAh) battery, 30 hours video playback claim, Exynos 2600 in the US, 12 GB memory with 256 GB or 512 GB, Armor Aluminum and Gorilla Glass Victus 2, water and dust resistance tested to 1.5 m for 30 minutes.",
+        "source_name": "Samsung US, Galaxy S26 and S26+ (official)",
+        "source_url": "https://www.samsung.com/us/smartphones/galaxy-s26/"
+      },
+      {
+        "claim": "Galaxy S26 unlocked is $999.99 for 256 GB and $1,199.99 for 512 GB (as of 2026-10-02).",
+        "source_name": "Samsung US, Buy Galaxy S26 256GB unlocked (official store)",
+        "source_url": "https://www.samsung.com/us/smartphones/galaxy-s26/buy/galaxy-s26-256gb-unlocked-sku-sm-s942uzkexaa/"
+      },
+      {
+        "claim": "Galaxy S26 series gets seven years of security updates; S26 has a 6.3-inch FHD+ 1-120Hz display and IP68 rating.",
+        "source_name": "Samsung Newsroom, Galaxy S26 series launch (official)",
+        "source_url": "https://news.samsung.com/global/samsung-unveils-galaxy-s26-series-the-most-intuitive-galaxy-ai-phone-yet"
+      },
+      {
+        "claim": "Samsung's US mobile limited warranty period varies by model and is looked up by model number.",
+        "source_name": "Samsung US, Terms and Conditions for Mobile (official)",
+        "source_url": "https://www.samsung.com/us/support/legal/LGL10000282/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-motorola-edge-2026",
+    "slug": "motorola-edge-2026",
+    "name": "Motorola Edge 2026",
+    "category_slug": "smartphones",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.1,
+    "ratings": {
+      "performance": 6,
+      "value": 8,
+      "reliability": 8,
+      "ease_of_use": 8,
+      "support": 5
+    },
+    "price_summary": "$599.99 unlocked (128 GB) on Motorola's US store (as of 2026-10-02)",
+    "pros": [
+      "Lowest price in this guide at $599.99, about $300 less than the Pixel 11, per Motorola's US store (as of 2026-10-02)",
+      "IP68 and IP69 ratings plus Corning Gorilla Glass 7i, per Motorola",
+      "5000mAh battery with 60W TurboPower wired and 15W wireless charging, per Motorola",
+      "6.3-inch display with a 120Hz refresh rate and up to 5200 nits peak brightness, per Motorola's product page"
+    ],
+    "cons": [
+      "Motorola guarantees only two Android OS upgrades, and its product page does not state how many years of security updates it gets",
+      "The MediaTek Dimensity 7450 is a mid-range chip, and RAM is up to 8 GB, per Motorola, below the flagship chips in the other phones here",
+      "Only a 128 GB storage option is offered on Motorola's US store page, half the 256 GB entry storage of the other three phones",
+      "Motorola's product page does not state the base warranty length, only that its moto care add-on extends the warranty by 1 year"
+    ],
+    "best_for": "Buyers who want a durable, well-specified phone for about $600 and do not plan to keep it for many years.",
+    "summary": "The Motorola Edge 2026 costs $599.99 (as of 2026-10-02) and brings IP68 and IP69 ratings, a 5000mAh battery, and 60W charging. The trade-offs are a mid-range chip, 128 GB of storage, and only two guaranteed Android OS upgrades.",
+    "verdict_summary": "The Motorola Edge 2026 is the value pick. Motorola's US store lists it at $599.99 unlocked with 128 GB (as of 2026-10-02). Motorola's product page lists a 6.3-inch display with a 120Hz refresh rate and up to 5200 nits peak brightness, a MediaTek Dimensity 7450 with up to 8 GB of RAM, a 5000mAh battery with 60W wired and 15W wireless charging, three 50MP cameras, IP68 and IP69 ratings, and Corning Gorilla Glass 7i. Brightness and charging figures are Motorola's own claims. The reasons it ranks last: Motorola guarantees two Android OS upgrades and does not state a number of years of security updates on the product page, storage tops out at 128 GB on the US store page, and the chip is a mid-range part. Firsthand does not test phones; this rating comes from Motorola's published product information.",
+    "pricing_table": [
+      {
+        "plan": "Motorola Edge 2026 (128 GB, unlocked)",
+        "price": "$599.99 (as of 2026-10-02)",
+        "notes": "Motorola US store; a free moto watch and moto buds loop promotion was running on the same date."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How many updates will the Motorola Edge 2026 get?",
+        "answer": "Motorola's product page promises two guaranteed Android OS upgrades. It does not state how many years of security updates the phone will receive (as of 2026-10-02)."
+      },
+      {
+        "question": "Is the Motorola Edge 2026 waterproof?",
+        "answer": "Motorola lists IP68 and IP69 ratings for protection against water, dust, dirt, and sand. Water resistance can decrease with wear, so treat it as protection, not a guarantee."
+      },
+      {
+        "question": "How much storage does it have?",
+        "answer": "Motorola's US store page offers it with 128 GB of storage at $599.99 (as of 2026-10-02)."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Motorola Edge 2026: $599.99 unlocked, 128 GB, MediaTek Dimensity 7450 with up to 8 GB RAM, 6.3-inch 120Hz display up to 5200 nits, 5000mAh battery, 60W wired and 15W wireless charging, IP68 and IP69, Gorilla Glass 7i, two guaranteed Android OS upgrades (as of 2026-10-02).",
+        "source_name": "Motorola US, motorola edge 2026 product page (official)",
+        "source_url": "https://www.motorola.com/us/en/p/phones/motorola-edge/edge-2026/pmipmjr44mu"
+      },
+      {
+        "claim": "Motorola Edge 2026 is listed for sale on Motorola's US smartphone store at $599.99 (as of 2026-10-02).",
+        "source_name": "Motorola US, shop smartphones (official)",
+        "source_url": "https://www.motorola.com/us/en/smartphones"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-samsung-galaxy-watch9",
+    "slug": "samsung-galaxy-watch9",
+    "name": "Samsung Galaxy Watch9",
+    "category_slug": "wearables",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.9,
+    "ratings": {
+      "performance": 8,
+      "value": 8,
+      "reliability": 9,
+      "ease_of_use": 5,
+      "support": 9
+    },
+    "price_summary": "From $379.99 (40mm Bluetooth); other US configurations listed at $409.99, $429.99 and $459.99 (as of 2026-10-02)",
+    "pros": [
+      "Lowest starting price of the four watches here at $379.99 for the 40mm Bluetooth model, per Samsung's US store (as of 2026-10-02)",
+      "Samsung lists 5 ATM water resistance plus IP68 and MIL-STD-810H on its US Galaxy Watch9 page",
+      "Samsung's own spec sheet rates the 44mm model at up to 40 hours with the always-on display off and up to 30 hours with it on (maker's claim)",
+      "Samsung's official spec sheet lists a security update period valid until 31 July 2031, the longest stated support window in this guide",
+      "Snapdragon Wear Elite platform (3 nm, five-core), 2 GB memory and 32 GB storage, up to 3,000 nits display brightness, per Samsung"
+    ],
+    "cons": [
+      "Many headline health features, including Energy Score coaching, Vitals and the Heart Health Score, require a compatible Samsung Galaxy phone, per Samsung's footnotes, so owners of other Android phones lose part of the advertised experience",
+      "No iPhone support: Samsung's footnotes require an Android phone for setup, and several features need Android 13 or later",
+      "The blood pressure feature needs calibration every 28 days with a separately sold third-party cuff, per Samsung",
+      "The standard warranty is 1 year, per Samsung's US warranty page"
+    ],
+    "best_for": "Samsung Galaxy phone owners who want the longest stated security support and strong durability ratings at the lowest starting price here.",
+    "summary": "The Galaxy Watch9 has the lowest starting price in this guide, strong durability ratings and the longest stated security update window, but many of its health features only work fully with a Samsung Galaxy phone.",
+    "verdict_summary": "The Galaxy Watch9 scores highest overall in this guide on documented facts, with one big condition: you get the most from it with a Samsung Galaxy phone. Samsung's US store lists it from $379.99 for the 40mm Bluetooth model, with other configurations at $409.99, $429.99 and $459.99 (as of 2026-10-02). Samsung's spec pages list a 3 nm, five-core Snapdragon Wear Elite platform, 2 GB of memory and 32 GB of storage, up to 3,000 nits brightness, and 5 ATM plus IP68 and MIL-STD-810H durability. Samsung claims the 44mm model runs up to 40 hours with the always-on display off and up to 30 hours with it on; that is the maker's rating, not something we measured. Samsung's official spec sheet also lists a security update period valid until 31 July 2031. The trade-offs are real. Samsung's footnotes say features such as Energy Score coaching, Vitals and the Heart Health Score need a compatible Samsung Galaxy phone, there is no iPhone support, and the blood pressure feature needs a separately sold cuff for calibration every 28 days. The warranty is the standard 1 year. Firsthand did not test this watch; the rating comes from Samsung's published specifications, prices and support terms.",
+    "pricing_table": [
+      {
+        "plan": "Galaxy Watch9 40mm Bluetooth",
+        "price": "$379.99 (as of 2026-10-02)",
+        "notes": "Lowest listed configuration on Samsung's US store; 390 mAh battery per Samsung."
+      },
+      {
+        "plan": "Other Galaxy Watch9 configurations (44mm and LTE)",
+        "price": "$409.99, $429.99 and $459.99 (as of 2026-10-02)",
+        "notes": "Prices listed for the other size and connectivity options on Samsung's US store; LTE needs a separate carrier plan, per Samsung."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How long does the Galaxy Watch9 battery last?",
+        "answer": "Samsung's official spec sheet rates the 44mm Galaxy Watch9 (445 mAh) at up to 40 hours with the always-on display off and up to 30 hours with it on. The 40mm model has a 390 mAh battery. These are Samsung's own ratings, not lab measurements (as of 2026-10-02)."
+      },
+      {
+        "question": "Does the Galaxy Watch9 work with an iPhone?",
+        "answer": "No. Samsung's footnotes require initial setup with a compatible Android phone, and many health features, including Energy Score coaching, Vitals and the Heart Health Score, require a compatible Samsung Galaxy phone, the Samsung Health app and a Samsung account."
+      },
+      {
+        "question": "How long will Samsung support the Galaxy Watch9 with updates?",
+        "answer": "Samsung's official Galaxy Watch9 spec sheet lists a security update period valid until 31 July 2031. That is the longest stated update window among the watches in this guide."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Galaxy Watch9 starts at $379.99 (40mm Bluetooth); other US configurations are listed at $409.99, $429.99 and $459.99 (as of 2026-10-02).",
+        "source_name": "Samsung US: Galaxy Watch9 buy page (official)",
+        "source_url": "https://www.samsung.com/us/watches/galaxy-watch9/buy/"
+      },
+      {
+        "claim": "Galaxy Watch9 lists 5 ATM + IP68 / MIL-STD-810H durability, a 3 nm five-core processor, 2 GB / 32 GB memory and storage, up to 3,000 nits, and footnotes that several features require a compatible Samsung Galaxy phone and that blood pressure needs cuff calibration every 28 days.",
+        "source_name": "Samsung US: Galaxy Watch9 (official)",
+        "source_url": "https://www.samsung.com/us/watches/galaxy-watch9/"
+      },
+      {
+        "claim": "44mm Galaxy Watch9: 445 mAh, usage time up to 40 hours (AOD off) and up to 30 hours (AOD on), Super AMOLED 480 x 480, Wear OS powered by Samsung, security update period valid until 31 July 2031.",
+        "source_name": "Samsung: Galaxy Watch9 44mm specifications (official)",
+        "source_url": "https://www.samsung.com/in/watches/galaxy-watch/galaxy-watch9-44mm-graphite-bluetooth-sm-l350nzkains/"
+      },
+      {
+        "claim": "Samsung's limited warranty period for smartphones, tablets and wearables is 1 year.",
+        "source_name": "Samsung US: Warranty (official)",
+        "source_url": "https://www.samsung.com/us/support/warranty/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-google-pixel-watch-5",
+    "slug": "google-pixel-watch-5",
+    "name": "Google Pixel Watch 5",
+    "category_slug": "wearables",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.8,
+    "ratings": {
+      "performance": 8,
+      "value": 8,
+      "reliability": 8,
+      "ease_of_use": 6,
+      "support": 9
+    },
+    "price_summary": "From $399.99 (as of 2026-10-02)",
+    "pros": [
+      "Google rates the 45mm model at up to 40 hours with the always-on display and up to 72 hours with Battery Saver (maker's claim); the 41mm model is rated at up to 30 and 48 hours",
+      "Google guarantees software updates until at least October 2029, at least 3 years from US Google Store availability, per its official support page",
+      "Satellite SOS communication, Ultra-Wideband, dual-frequency GPS and an ECG-compatible sensor are all listed on Google's spec sheet",
+      "Fast charging: Google states about 15 minutes to 50% on the Quick Charge Dock for both sizes",
+      "IP68 and 5 ATM ratings, per Google"
+    ],
+    "cons": [
+      "Android only: Google's spec sheet says it works with most phones running Android 12.0 or newer, so iPhone owners cannot use it",
+      "The 41mm model's rated battery (up to 30 hours with always-on display) is a quarter lower than the 45mm model's, per Google",
+      "Personalized coaching is part of Google Health Premium, a separate membership; the watch includes 3 months, per Google's store page",
+      "Warranty is 1 year, per Google's spec sheet"
+    ],
+    "best_for": "Android owners who want the clearest published software update commitment and long rated battery life in the 45mm size.",
+    "summary": "The Pixel Watch 5 pairs a long rated battery (45mm) and satellite SOS with a published guarantee of updates until at least October 2029. It only works with Android phones.",
+    "verdict_summary": "The Pixel Watch 5 is the easiest Wear OS watch to recommend to Android owners who do not use a Samsung phone. Google's store lists it from $399.99 (as of 2026-10-02). Google's spec sheet lists a Qualcomm Snapdragon W5 Gen 2 chip with a Cortex-M55 co-processor, Wear OS 7.0, 64 GB of storage, a display up to 3,000 nits, IP68 and 5 ATM, dual-frequency GPS, Ultra-Wideband and satellite SOS communication. Google rates the 45mm model at up to 40 hours with the always-on display and up to 72 hours with Battery Saver, and the 41mm model at up to 30 and 48 hours; these are Google's claims, not our measurements. Its support story is the clearest in this guide: Google's support page guarantees updates until at least October 2029. The downsides: it works only with phones on Android 12.0 or newer, the smaller size has notably less rated battery, coaching sits behind the separate Google Health Premium membership (3 months included), and the warranty is 1 year. Firsthand did not test this watch; the rating is based on Google's published specifications, price and policies.",
+    "pricing_table": [
+      {
+        "plan": "Pixel Watch 5 (41mm or 45mm)",
+        "price": "From $399.99 (as of 2026-10-02)",
+        "notes": "Google Store starting price. LTE versions are sold; Google's page says LTE models include 2 years of Google Fi data, calling not supported."
+      },
+      {
+        "plan": "Google Health Premium",
+        "price": "3 months included with purchase (as of 2026-10-02)",
+        "notes": "Membership for personalized coaching built with Gemini, per Google's store page."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How long does the Pixel Watch 5 battery last?",
+        "answer": "Google rates the 45mm Pixel Watch 5 at up to 40 hours with the always-on display and up to 72 hours with Battery Saver, and the 41mm at up to 30 hours and up to 48 hours. Google also states about 15 minutes to 50% on the Quick Charge Dock. These are Google's ratings, not lab results (as of 2026-10-02)."
+      },
+      {
+        "question": "Does the Pixel Watch 5 work with an iPhone?",
+        "answer": "No. Google's spec sheet says it works with most phones running Android 12.0 or newer and requires a Google Account and the Google Pixel Watch app."
+      },
+      {
+        "question": "How long will the Pixel Watch 5 get software updates?",
+        "answer": "Google's official support page guarantees Pixel Watch 5 software updates until at least October 2029, at least 3 years from when it first went on sale on the US Google Store."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Pixel Watch 5: Snapdragon W5 Gen 2, Wear OS 7.0, 64 GB, up to 3000 nits, IP68 and 5 ATM, satellite SOS, works with most phones running Android 12.0 or newer, battery up to 40 hours AOD / 72 hours Battery Saver (45mm) and up to 30 / 48 hours (41mm), 1 year warranty, from $399.99 (as of 2026-10-02).",
+        "source_name": "Google Store: Pixel Watch 5 Tech Specs (official)",
+        "source_url": "https://store.google.com/us/product/pixel_watch_5_specs?hl=en-US"
+      },
+      {
+        "claim": "From $399.99; 3 months of Google Health Premium included; LTE models include 2 years of Google Fi data (as of 2026-10-02).",
+        "source_name": "Google Store: Pixel Watch 5 (official)",
+        "source_url": "https://store.google.com/us/product/pixel_watch_5?hl=en-US"
+      },
+      {
+        "claim": "Pixel Watch 5 guaranteed software updates until at least October 2029 (at least 3 years from US Google Store availability).",
+        "source_name": "Google Help: Pixel Watch software updates (official)",
+        "source_url": "https://support.google.com/product-documentation/answer/12799779?hl=en"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-apple-watch-series-12",
+    "slug": "apple-watch-series-12",
+    "name": "Apple Watch Series 12",
+    "category_slug": "wearables",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.8,
+    "ratings": {
+      "performance": 8,
+      "value": 8,
+      "reliability": 9,
+      "ease_of_use": 6,
+      "support": 7
+    },
+    "price_summary": "From $399 (42mm or 46mm aluminum, GPS) (as of 2026-10-02)",
+    "pros": [
+      "S11 chip with a 64-bit dual-core processor and 4-core Neural Engine, and up to 2000 nits peak brightness, per Apple's spec sheet",
+      "Apple lists ECG, Blood Oxygen, a temperature sensor, Sleep apnea notifications and Hypertension notifications",
+      "Water resistant to 50m under ISO 22810:2010 plus IP6X dust resistance, per Apple",
+      "Fast charging: Apple states up to 80% in about 30 minutes",
+      "GPS + Cellular models support 5G and LTE, per Apple"
+    ],
+    "cons": [
+      "iPhone only: Apple requires iPhone 11 or later with iOS 27 or later, so Android owners cannot use it",
+      "Shortest rated battery in this guide: Apple claims up to 24 hours of normal use and up to 38 hours in Low Power Mode",
+      "Apple does not publish a minimum number of years of watchOS updates, unlike Google and Samsung",
+      "Warranty is 1 year and does not cover accidental damage, per Apple's support page; wider cover means paying for AppleCare"
+    ],
+    "best_for": "iPhone owners who want the Apple Watch health feature set and do not mind charging every day.",
+    "summary": "The Series 12 adds the S11 chip and keeps Apple's broad health feature list, with good durability ratings. It needs an iPhone and has the shortest rated battery here.",
+    "verdict_summary": "For iPhone owners the Apple Watch Series 12 is the default choice, because the only other watch in this guide that works with iPhone is the Garmin. Apple's store lists it from $399 for the 42mm or 46mm aluminum GPS model (as of 2026-10-02). Apple's spec sheet lists the S11 chip (64-bit dual-core, 4-core Neural Engine), up to 2000 nits peak brightness, water resistance to 50m under ISO 22810:2010, IP6X dust resistance, and health features including ECG, Blood Oxygen, a temperature sensor, Sleep apnea notifications and Hypertension notifications. Apple claims up to 24 hours of normal use and up to 38 hours in Low Power Mode, with up to 80% charge in about 30 minutes; these are Apple's ratings, not our measurements, and they are the shortest in this guide. It requires iPhone 11 or later with iOS 27 or later. Apple does not publish a set number of years of software updates, and its 1-year limited warranty excludes accidental damage. Firsthand did not test this watch; the rating comes from Apple's published specifications, price and warranty terms.",
+    "pricing_table": [
+      {
+        "plan": "Series 12 aluminum, GPS (42mm or 46mm)",
+        "price": "From $399 (as of 2026-10-02)",
+        "notes": "Apple Store starting price. GPS + Cellular, titanium and ceramic versions cost more."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How long does the Apple Watch Series 12 battery last?",
+        "answer": "Apple claims up to 24 hours of normal use and up to 38 hours in Low Power Mode, with up to 80% charge in about 30 minutes. These are Apple's own figures, not lab measurements (as of 2026-10-02)."
+      },
+      {
+        "question": "Does the Apple Watch Series 12 work with Android?",
+        "answer": "No. Apple states the Series 12 requires iPhone 11 or later, including iPhone SE (2nd generation or later), with iOS 27 or later."
+      },
+      {
+        "question": "What warranty does the Apple Watch Series 12 have?",
+        "answer": "Apple's support page says the Apple Limited Warranty covers the device and in-box accessories against manufacturing issues for one year, and does not cover accidental damage or normal battery wear."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Series 12: S11 chip, 2000 nits peak, up to 24 hours normal use and up to 38 hours in Low Power Mode, up to 80% in about 30 minutes, 50m water resistance (ISO 22810:2010), IP6X, ECG, Blood Oxygen, temperature sensor, Sleep apnea and Hypertension notifications, requires iPhone 11 or later with iOS 27 or later.",
+        "source_name": "Apple: Apple Watch Series 12 Tech Specs (official)",
+        "source_url": "https://www.apple.com/apple-watch-series-12/specs/"
+      },
+      {
+        "claim": "Apple Watch Series 12 from $399 (42mm or 46mm aluminum) (as of 2026-10-02).",
+        "source_name": "Apple Store: Buy Apple Watch (official)",
+        "source_url": "https://www.apple.com/shop/buy-watch/apple-watch"
+      },
+      {
+        "claim": "Apple Limited Warranty covers the device against manufacturing issues for one year; it does not cover accidental damage or normal battery wear.",
+        "source_name": "Apple Support: Apple Watch repair (official)",
+        "source_url": "https://support.apple.com/watch/repair"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-garmin-forerunner-970",
+    "slug": "garmin-forerunner-970",
+    "name": "Garmin Forerunner 970",
+    "category_slug": "wearables",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.6,
+    "ratings": {
+      "performance": 9,
+      "value": 6,
+      "reliability": 8,
+      "ease_of_use": 8,
+      "support": 6
+    },
+    "price_summary": "$749.99 (as of 2026-10-02)",
+    "pros": [
+      "By far the longest rated battery here: Garmin claims up to 15 days in smartwatch mode and up to 26 hours in GPS-only mode",
+      "Works with both iPhone and Android, per Garmin's smartphone compatibility listing",
+      "Sapphire crystal lens and titanium bezel, 5 ATM water rating, per Garmin",
+      "Garmin lists an ECG app, skin temperature, Pulse Ox, an LED flashlight, a built-in speaker and microphone, and 32 GB of storage"
+    ],
+    "cons": [
+      "At $749.99 it costs nearly twice the other watches in this guide (as of 2026-10-02)",
+      "No cellular option: Garmin lists Bluetooth, ANT+ and Wi-Fi connectivity only",
+      "Some phone features, such as replying to texts from the watch and viewing images in notifications, are Android only, per Garmin",
+      "Garmin's warranty is one year and it does not publish a minimum software update period"
+    ],
+    "best_for": "Runners and triathletes, on iPhone or Android, who care most about battery life and training features.",
+    "summary": "The Forerunner 970 has the longest rated battery and the only full iPhone and Android support in this guide, plus a sapphire lens. It is also the most expensive by a wide margin.",
+    "verdict_summary": "The Forerunner 970 is a training watch first, and on battery it is in a different class from the other three. Garmin lists it at $749.99 (as of 2026-10-02). Garmin rates it at up to 15 days in smartwatch mode, up to 26 hours in GPS-only mode and up to 21 hours with all-systems multi-band GNSS; these are Garmin's claims, not our measurements. Garmin's spec listing includes a 1.4-inch 454 x 454 AMOLED display, sapphire crystal lens, titanium bezel, 5 ATM water rating, 32 GB of storage, an ECG app, skin temperature, Pulse Ox, an LED flashlight and a built-in speaker and microphone. It is the only watch in this guide that Garmin lists as compatible with both iPhone and Android, though some notification features are Android only. The trade-offs: it costs close to double the others, has no cellular option, carries a one-year warranty, and Garmin does not publish a minimum update period. Firsthand did not test this watch; the rating is based on Garmin's published specifications, manual, price and warranty.",
+    "pricing_table": [
+      {
+        "plan": "Forerunner 970",
+        "price": "$749.99 (as of 2026-10-02)",
+        "notes": "Garmin US list price; no sale price shown at the time of checking."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How long does the Forerunner 970 battery last?",
+        "answer": "Garmin's owner's manual rates it at up to 15 days in smartwatch mode, up to 26 hours in GPS-only mode, up to 23 hours in auto select mode and up to 21 hours in all-systems multi-band mode, with shorter times when playing music. These are Garmin's ratings, not lab results (as of 2026-10-02)."
+      },
+      {
+        "question": "Does the Forerunner 970 work with an iPhone?",
+        "answer": "Yes. Garmin lists iPhone and Android smartphone compatibility. A few features, such as replying to texts from the watch, are listed by Garmin as Android only."
+      },
+      {
+        "question": "Does the Forerunner 970 have LTE?",
+        "answer": "No. Garmin lists Bluetooth, ANT+ and Wi-Fi connectivity. Calls and texts by voice work through a paired compatible smartphone."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Forerunner 970: $749.99, not discontinued, sapphire crystal lens, titanium bezel, 5 ATM, 1.4-inch 454 x 454 AMOLED, 32 GB, ECG app, Pulse Ox, skin temperature, LED flashlight, speaker and mic, Bluetooth / ANT+ / Wi-Fi, iPhone and Android compatible, some features Android only (as of 2026-10-02).",
+        "source_name": "Garmin: Forerunner 970 (official)",
+        "source_url": "https://www.garmin.com/en-US/p/1462801/"
+      },
+      {
+        "claim": "Battery life: up to 15 days smartwatch mode; up to 26 / 23 / 21 hours in GPS-only / auto select / all + multi-band GNSS; up to 14 / 13 / 12 hours with music.",
+        "source_name": "Garmin: Forerunner 970 Owner's Manual, Battery Life (official)",
+        "source_url": "https://www8.garmin.com/manuals/webhelp/GUID-025D75CF-3445-49E1-8D81-1AA74AB4E00F/EN-US/GUID-1933DAC3-8171-4995-A1F0-CD298E1F5A33.html"
+      },
+      {
+        "claim": "Non-aviation products are warranted to be free from defects in materials or workmanship for one year from the date of purchase.",
+        "source_name": "Garmin: Consumer Limited Warranty (official)",
+        "source_url": "https://www.garmin.com/en-US/legal/consumer-limited-warranty/"
+      }
+    ],
+    "last_updated": "2026-10-02"
   }
 ]

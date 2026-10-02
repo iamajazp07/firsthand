@@ -783,5 +783,1559 @@
       }
     ],
     "last_updated": "2026-07-12"
+  },
+  {
+    "id": "prod-code-platoon",
+    "slug": "code-platoon",
+    "name": "Code Platoon",
+    "category_slug": "coding-bootcamps",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.5,
+    "ratings": {
+      "outcomes": 7,
+      "cost_value": 9,
+      "academics": 7,
+      "support_services": 8,
+      "flexibility": 5
+    },
+    "price_summary": "$20,000 tuition for all programs, with a $500 deposit; most students use GI Bill or VR&E benefits, and need-based pay-what-you-can scholarships can cover up to 100% (as of 2026-10-02)",
+    "pros": [
+      "Reports outcomes to CIRR, whose standards call for annual third-party audits. Its CIRR report for 2022 graduates of the full-time Chicago Full-Stack Web Development program shows 74.5% employed in-field at 360 days and a $85,000 median base salary",
+      "Mission-driven nonprofit pricing: tuition is $20,000, but Code Platoon says most students pay with VA benefits, and its pay-what-you-can scholarships can cover up to 100% of tuition (as of 2026-10-02)",
+      "Two schedules for the same AI + Fullstack curriculum: a 15-week full-time immersive or a 28-week evening and weekend track",
+      "Code Platoon says remote GI Bill students get a Code Platoon housing stipend, and it will not bill VET TEC 2.0 students for tuition the VA does not pay"
+    ],
+    "cons": [
+      "Only open to Veterans, Servicemembers, military spouses and families, so most career changers cannot enrol",
+      "The most recent CIRR report we could open covers 2022 graduates, so it predates the current AI-focused curriculum and today's hiring market",
+      "Its own pages quote different salary figures: the outcomes page says $80,000 median starting salary, while the FAQ says $85,000 within six months. Check the CIRR report rather than the headline",
+      "Fixed cohort calendars in Central Time; the immersive runs Monday to Friday, 8:30 a.m. to 5:30 p.m. CT"
+    ],
+    "best_for": "Veterans, Servicemembers and military families who want a coding bootcamp with audited outcomes and can use VA education benefits.",
+    "summary": "Code Platoon is a nonprofit bootcamp for the military community that reports its results to CIRR. Its 2022 full-time report shows 74.5% in-field employment at 360 days. The big limit is eligibility: if you are not a Veteran, Servicemember or military family member, it is not open to you.",
+    "verdict_summary": "Code Platoon is our top pick because it pairs audited outcomes with the lowest real cost in this group for the people it serves. It reports to the Council on Integrity in Results Reporting (CIRR), whose published standards require annual third-party audits and that every student is counted. Its CIRR report for 2022 graduates of the full-time Chicago Full-Stack Web Development program (98 graduates) shows 67.3% employed in-field at 180 days and 74.5% at 360 days, with a $85,000 median annual base salary; the smaller evening and weekend cohort (15 graduates) shows 90.5% at 360 days. Tuition is $20,000 for every program, but Code Platoon says most students use GI Bill or VR&E benefits and offers pay-what-you-can scholarships covering up to 100% (as of 2026-10-02). The trade-offs are real: enrolment is limited to the military community, the newest report we could open covers 2022 graduates, and the school's own pages quote different salary headlines. Firsthand did not audit these figures; they are as published in the CIRR report.",
+    "pricing_table": [
+      {
+        "plan": "Tuition (all programs)",
+        "price": "$20,000 (as of 2026-10-02)",
+        "notes": "Applies to AI + Fullstack Engineering and AI Cloud and DevOps Engineering. A $500 deposit reserves a seat and counts toward tuition."
+      },
+      {
+        "plan": "VA benefits",
+        "price": "Up to 100% of tuition (as of 2026-10-02)",
+        "notes": "Approved for GI Bill, VR&E and other VA benefits; the in-person immersive is approved for VET TEC 2.0."
+      },
+      {
+        "plan": "Pay-what-you-can scholarship",
+        "price": "Need-based, up to 100% of tuition (as of 2026-10-02)",
+        "notes": "Decided after admission; a payment plan of up to a year is available for your contribution."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Who can attend Code Platoon?",
+        "answer": "Code Platoon says it is dedicated exclusively to Veterans, Servicemembers and military families. Spouses and children of Veterans may qualify for Chapter 35 benefits or a scholarship."
+      },
+      {
+        "question": "Are Code Platoon's outcomes audited?",
+        "answer": "Code Platoon reports to CIRR, whose standards require annual third-party audits. Its CIRR report for 2022 full-time Chicago graduates shows 74.5% employed in-field at 360 days and a $85,000 median base salary. Firsthand did not audit these figures."
+      },
+      {
+        "question": "How long is the program?",
+        "answer": "The AI + Fullstack Engineering immersive runs 15 weeks full time. The evening and weekend version covers the same curriculum over 28 weeks."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "CIRR report, 2022 graduates of the full-time Chicago Full-Stack Web Development program: 98 graduates, 67.3% employed in-field at 180 days, 74.5% at 360 days, median annual base salary $85,000.",
+        "source_name": "CIRR: Code Platoon 2022 Full-Stack Web Development report",
+        "source_url": "https://drive.google.com/file/d/1q6mtZe_02tdPxlzNgSCDq2X-27jr3zlN/view"
+      },
+      {
+        "claim": "CIRR standards include annual third-party audits of all reported data and tracking of every enrolled student.",
+        "source_name": "CIRR: Our standards (official)",
+        "source_url": "https://www.cirr.org/our-standards"
+      },
+      {
+        "claim": "Tuition for all Code Platoon programs is $20,000; a $500 deposit is required; pay-what-you-can scholarships can cover up to 100% of tuition (as of 2026-10-02).",
+        "source_name": "Code Platoon: FAQs (official)",
+        "source_url": "https://www.codeplatoon.org/frequently-asked-questions"
+      },
+      {
+        "claim": "The immersive is 15 weeks full time and the evening and weekend program is 28 weeks part time.",
+        "source_name": "Code Platoon: AI + Fullstack Engineering (official)",
+        "source_url": "https://www.codeplatoon.org/full-stack"
+      },
+      {
+        "claim": "Code Platoon's outcomes page states 72% of graduates land software development jobs within one year, an $80,000 median starting salary, and that outcomes are verified by CIRR.",
+        "source_name": "Code Platoon: Outcomes (official)",
+        "source_url": "https://www.codeplatoon.org/outcomes"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-codesmith",
+    "slug": "codesmith",
+    "name": "Codesmith Software Engineering Immersive",
+    "category_slug": "coding-bootcamps",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.4,
+    "ratings": {
+      "outcomes": 7,
+      "cost_value": 4,
+      "academics": 8,
+      "support_services": 7,
+      "flexibility": 6
+    },
+    "price_summary": "Tuition for the Software Engineering + AI/ML Immersive is not listed on Codesmith's public pages (as of 2026-10-02); ask admissions. Some free programs exist for eligible NYC residents",
+    "pros": [
+      "Reports to CIRR. Its CIRR report for 2022 graduates of the Full-Time Remote immersive (732 graduates) shows 81.0% employed in-field at 360 days and a $120,000 median base salary",
+      "Advanced curriculum for people who already code a little: TypeScript, data structures, state management and an AI/ML module covering RAG, fine-tuning and MLOps, per its August 2024 syllabus",
+      "Full-time (14 weeks) and part-time (39 weeks) live remote formats, per the syllabus",
+      "Codesmith lists lifetime hiring support for immersive graduates"
+    ],
+    "cons": [
+      "No tuition figure on its public site as of 2026-10-02, which makes cost comparison hard",
+      "Even in the audited report, 23.4% of full-time graduates were still job hunting at 180 days and 12.2% at 360 days",
+      "The newest CIRR report file we could open covers 2022 graduates; the CIRR site's 2023-2024 download link did not lead to a file",
+      "Live sessions run on fixed Pacific Time hours, including Saturdays"
+    ],
+    "best_for": "People with some coding background who want a demanding remote immersive with audited outcomes and are willing to ask admissions for the price.",
+    "summary": "Codesmith runs a rigorous remote software engineering immersive and reports outcomes to CIRR. Its 2022 full-time report shows strong salaries and 81.0% in-field employment at 360 days. The main problem for a buyer is that tuition is not published on its site.",
+    "verdict_summary": "Codesmith has some of the strongest audited numbers we found. Its CIRR report for 2022 graduates of the Full-Time Remote Software Engineering Immersive covers 732 graduates and shows 70.1% employed in-field at 180 days, 81.0% at 360 days, and a $120,000 median annual base salary at 360 days; the part-time remote report (104 graduates) shows 80.2% at 360 days. CIRR's standards call for annual third-party audits. The curriculum is advanced, with an AI/ML module added in 2024, and runs 14 weeks full time or 39 weeks part time. It ranks second because tuition is not listed anywhere on its public pages as of 2026-10-02, so cost and value cannot be checked, and because the newest report we could open covers 2022 graduates. Firsthand did not audit these figures.",
+    "pricing_table": [
+      {
+        "plan": "Software Engineering + AI/ML Immersive (full time, remote)",
+        "price": "Not published (as of 2026-10-02)",
+        "notes": "14 weeks, live remote, per the August 2024 syllabus. Ask admissions for current tuition and financing."
+      },
+      {
+        "plan": "Software Engineering + AI/ML Immersive (part time, remote)",
+        "price": "Not published (as of 2026-10-02)",
+        "notes": "39 weeks, evenings and Saturdays, per the syllabus."
+      },
+      {
+        "plan": "Future Code NYC / Foundational Launchpad",
+        "price": "$0 for eligible NYC residents (as of 2026-10-02)",
+        "notes": "Separate programs with eligibility rules; Future Code is 42 weeks full time."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How much does Codesmith cost?",
+        "answer": "Codesmith does not list immersive tuition on its public pages as of 2026-10-02. Contact admissions for the current price. Two programs, Future Code NYC and Foundational Launchpad, are free for eligible NYC residents."
+      },
+      {
+        "question": "What do Codesmith's audited outcomes show?",
+        "answer": "Its CIRR report for 2022 Full-Time Remote graduates shows 70.1% employed in-field at 180 days, 81.0% at 360 days, and a $120,000 median base salary at 360 days. Firsthand did not audit these figures."
+      },
+      {
+        "question": "Is Codesmith for beginners?",
+        "answer": "Codesmith describes itself as for serious learners and offers free prep resources such as CSX and workshops before the immersive. Beginners will likely need that prep first."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "CIRR report, 2022 graduates of the Full-Time Remote Software Engineering Immersive: 732 graduates, 70.1% employed in-field at 180 days, 81.0% at 360 days, median annual base salary $120,000 at 360 days, 12.2% still seeking at 360 days.",
+        "source_name": "CIRR: Codesmith FTRI 2022-23 Outcomes Report",
+        "source_url": "https://drive.google.com/file/d/1v8Inb1xS_ExbOjTAKwP08lFisifHofHi/view"
+      },
+      {
+        "claim": "CIRR report, 2022 graduates of the Part-Time Remote immersive: 104 graduates, 80.2% employed in-field at 360 days.",
+        "source_name": "CIRR: Codesmith PTRI 2022-23 Outcomes Report",
+        "source_url": "https://drive.google.com/file/d/1O-GG4H7i_zUYa-eQggBXXXwbDhSEgKx3/view"
+      },
+      {
+        "claim": "Codesmith offers a 14-week full-time immersive and a 39-week part-time remote immersive, with an AI/ML module added in August 2024.",
+        "source_name": "Codesmith: Software Engineering Immersive syllabus (official)",
+        "source_url": "https://codesmith.io/assets/codesmith/docs/codesmith-software-engineering-immersive-syllabus.pdf"
+      },
+      {
+        "claim": "Codesmith's individuals page lists the immersive with lifetime hiring support and free NYC programs, without a tuition figure (as of 2026-10-02).",
+        "source_name": "Codesmith: For Individuals (official)",
+        "source_url": "https://codesmith.io/individuals"
+      },
+      {
+        "claim": "Codesmith states its 2023-24 outcomes were verified and published by CIRR and audited by independent CPAs.",
+        "source_name": "Codesmith blog: 2023-24 salary outcomes (official)",
+        "source_url": "https://codesmith.io/blog/against-the-odds-codesmith-2023-24-salary-outcomes-prove-its-still-worth-it-to-invest-in-tech-education"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-tripleten",
+    "slug": "tripleten",
+    "name": "TripleTen AI Software Engineering",
+    "category_slug": "coding-bootcamps",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.3,
+    "ratings": {
+      "outcomes": 5,
+      "cost_value": 7,
+      "academics": 6,
+      "support_services": 7,
+      "flexibility": 8
+    },
+    "price_summary": "$9,800 with upfront payment for the 7-month part-time AI Software Engineering program; instalments and financing offered (as of 2026-10-02)",
+    "pros": [
+      "Lowest listed upfront price in this group at $9,800 (as of 2026-10-02)",
+      "Part time and fully online at about 20 hours a week, so you can keep a job",
+      "Money-back guarantee: a full tuition refund if you complete its career services and do not land a relevant job within 10 months, plus a 2-week withdrawal window with a full refund",
+      "Publishes an annual outcomes report with its methodology spelled out"
+    ],
+    "cons": [
+      "Its outcomes are self-reported and not audited: TripleTen says the data comes from its own career team's follow-up surveys",
+      "Its 2026 report says 63% of 2024 graduates got a tech job offer within their 6- or 10-month search period, while the program page says two-thirds, so the headline varies",
+      "The employment rate counts only graduates who kept money-back guarantee eligibility, which can exclude people who stopped following the job-search rules"
+    ],
+    "best_for": "Working adults who need a part-time online program with a refund guarantee and can accept self-reported outcomes.",
+    "summary": "TripleTen is a part-time online bootcamp with a $9,800 price and a 10-month money-back guarantee. It publishes an outcomes report, but the figures come from its own surveys and are not audited.",
+    "verdict_summary": "TripleTen is the most flexible and lowest-priced option here: the AI Software Engineering program is 7 months part time at about 20 hours a week for $9,800 upfront (as of 2026-10-02), with a legally binding money-back guarantee if you complete its career services and do not find a relevant job in 10 months. It publishes a Student Achievement Highlights report, which says 63% of graduates from 2024 got a tech job offer within their 6- or 10-month search period, with a $68,300 median first-role salary. Unlike the CIRR schools in this guide, that data comes from TripleTen's own follow-up surveys and is not audited, and the employment rate only counts graduates who stayed eligible for the guarantee. We score its outcomes lower for that reason.",
+    "pricing_table": [
+      {
+        "plan": "AI Software Engineering (upfront)",
+        "price": "$9,800 (as of 2026-10-02)",
+        "notes": "7 months part time, about 20 hours per week, online. Instalments and financing available."
+      },
+      {
+        "plan": "Money-back guarantee",
+        "price": "Included",
+        "notes": "100% tuition refund if you complete the career services package and make a good-faith job search but have no relevant job after 10 months."
+      },
+      {
+        "plan": "Refund window",
+        "price": "Included",
+        "notes": "Withdraw within 2 weeks of starting for a 100% refund."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Are TripleTen's outcomes audited?",
+        "answer": "No. TripleTen says its report data was collected by its career team through follow-up surveys. It reports 63% of 2024 graduates receiving a tech job offer within their search period. Firsthand did not verify these figures."
+      },
+      {
+        "question": "How much is TripleTen's software engineering program?",
+        "answer": "$9,800 with upfront payment for the 7-month part-time program (as of 2026-10-02). Instalments and financing are offered."
+      },
+      {
+        "question": "How does the money-back guarantee work?",
+        "answer": "TripleTen says it refunds 100% of tuition if you graduate, complete its career prep and coaching, apply and network as required, and still have no relevant job after 10 months. Read its Terms of Use for the conditions."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Student Achievement Highlights 2026: 63% of graduates found jobs in tech within their 6- or 10-month search period; median first-role salary $68,300; data collected by TripleTen's career team via follow-up surveys for 2024 graduates; rate counts graduates eligible for the money-back guarantee.",
+        "source_name": "TripleTen: Student Achievement Highlights 2026 (official PDF)",
+        "source_url": "https://tripleten.com/usa-documents/TripleTen_Student_Achievement_Highlights.pdf"
+      },
+      {
+        "claim": "The AI Software Engineering program costs $9,800 upfront, runs 7 months part time at 20 hours per week, offers a 10-month money-back guarantee and a 2-week full-refund window (as of 2026-10-02).",
+        "source_name": "TripleTen: AI Software Engineering (official)",
+        "source_url": "https://tripleten.com/software-engineer/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-hacktiv8",
+    "slug": "hacktiv8",
+    "name": "Hacktiv8 AI-Enhanced Full Stack Developer Bootcamp",
+    "category_slug": "coding-bootcamps",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 5.9,
+    "ratings": {
+      "outcomes": 6,
+      "cost_value": 6,
+      "academics": 6,
+      "support_services": 6,
+      "flexibility": 5
+    },
+    "price_summary": "Rp45,000,000 in Jakarta or Rp43,000,000 remote, plus a Rp100,000 registration fee; income share agreement and 0% instalments offered (as of 2026-10-02)",
+    "pros": [
+      "Publishes CIRR-format outcomes reports. Its H1 2023 report for the Full-Stack Web Development program (194 graduates) shows 86.9% employed in-field at 180 days",
+      "Several ways to pay: upfront, 0% instalments through registered finance partners, study now pay later, or an income share agreement",
+      "Choice of the Jakarta campus or remote, and a 16-week format (4 weeks prep plus 12 weeks bootcamp)"
+    ],
+    "cons": [
+      "Read the detail: in the same report only 51.5% were in full-time jobs of 6+ months at 180 days; 33.1% were in apprenticeships, internships or contracts",
+      "The report file is labelled \"Subject to CIRR\", and the newest one linked from Hacktiv8's site covers January to June 2023",
+      "The site and programme are in Indonesian and salaries are in rupiah, so it mainly serves learners in Indonesia",
+      "Full-time commitment, 09:00 to 18:00 WIB on weekdays"
+    ],
+    "best_for": "Learners in Indonesia who want a full-time bootcamp with CIRR-format outcomes reporting and flexible payment options.",
+    "summary": "Hacktiv8 is a Jakarta bootcamp that publishes CIRR-format outcomes. The headline 86.9% in-field rate at 180 days includes a large share of contracts and apprenticeships, and the newest report covers early 2023. It is built for the Indonesian market.",
+    "verdict_summary": "Hacktiv8 is the one bootcamp outside the US in this guide, and it links CIRR-format reports from its own site. Its H1 2023 report for the Jakarta Full-Stack Web Development program covers 194 graduates: 73.8% graduated on time, 86.9% were employed in-field at 180 days, and the median annual base salary was Rp85,545,384. The breakdown matters: 51.5% were full-time employees in roles of six months or more, while 33.1% were in apprenticeships, internships or contracts. The file is labelled \"Subject to CIRR\", so treat it as published by Hacktiv8 in CIRR's format. The bootcamp costs Rp45,000,000 in Jakarta or Rp43,000,000 remote (as of 2026-10-02), with an ISA option. It ranks last here because its newest report is from 2023, the headline rate mixes in short contracts, and it serves a narrower market. Firsthand did not audit these figures.",
+    "pricing_table": [
+      {
+        "plan": "Jakarta campus",
+        "price": "Rp45,000,000 (as of 2026-10-02)",
+        "notes": "Full time, 16 weeks. Early-bird discounts for payment 14 days before class."
+      },
+      {
+        "plan": "Remote",
+        "price": "Rp43,000,000 (as of 2026-10-02)",
+        "notes": "Same curriculum and schedule, online."
+      },
+      {
+        "plan": "Registration fee",
+        "price": "Rp100,000 (as of 2026-10-02)",
+        "notes": "Paid after submitting the application form."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is Hacktiv8 CIRR-audited?",
+        "answer": "Hacktiv8 publishes reports in the CIRR format; the newest linked file, for January to June 2023, is labelled \"Subject to CIRR\". It shows 86.9% employed in-field at 180 days, of whom many were in contracts or apprenticeships rather than long-term full-time roles."
+      },
+      {
+        "question": "How much does Hacktiv8 cost?",
+        "answer": "Rp45,000,000 at the Jakarta campus or Rp43,000,000 remote, plus a Rp100,000 registration fee (as of 2026-10-02). Hacktiv8 also offers 0% instalments, study now pay later and an income share agreement."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "H1 2023 report, Full-Stack Web Development, Jakarta: 194 graduates, 73.8% on-time graduation, 86.9% employed in-field at 180 days (51.5% full-time 6+ months, 33.1% apprenticeship/internship/contract), median annual base salary Rp85,545,384. File labelled \"Subject to CIRR\".",
+        "source_name": "Hacktiv8: IDR [2023-H1] FSJS outcomes report",
+        "source_url": "https://statics.hacktiv8.com/cirr/IDR+%5B2023-H1%5D+FSJS+-+Subject+to+CIRR.pdf"
+      },
+      {
+        "claim": "Programme fee Rp45,000,000 (Jakarta) or Rp43,000,000 (remote), Rp100,000 registration fee, 16 weeks, ISA and 0% instalment options (as of 2026-10-02).",
+        "source_name": "Hacktiv8: AI-Enhanced Full Stack Developer Bootcamp (official)",
+        "source_url": "https://www.hacktiv8.com/full-stack-javascript-immersive"
+      },
+      {
+        "claim": "Hacktiv8's outcomes page links its CIRR report files.",
+        "source_name": "Hacktiv8: Outcomes (official)",
+        "source_url": "https://www.hacktiv8.com/outcomes"
+      },
+      {
+        "claim": "CIRR lists Hacktiv8 among the schools with reports on its school data page.",
+        "source_name": "CIRR: School data (official)",
+        "source_url": "https://www.cirr.org/schooldata"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-georgia-tech-omscs",
+    "slug": "georgia-tech-omscs",
+    "name": "Georgia Tech Online Master of Science in Computer Science (OMSCS)",
+    "category_slug": "online-degrees",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 8.4,
+    "ratings": {
+      "outcomes": 8,
+      "cost_value": 10,
+      "academics": 9,
+      "support_services": 6,
+      "flexibility": 8
+    },
+    "price_summary": "$227 per credit hour (Fall 2026) plus an online learning fee of $212 (under 4 credit hours) or $531 (4+ hours) per semester; 30 credit hours means $6,810 in tuition before fees (as of 2026-10-02)",
+    "pros": [
+      "Very low cost for an accredited master's: $227 per credit hour in Fall 2026, or $6,810 in tuition for the 30 required credit hours before per-semester fees (as of 2026-10-02)",
+      "Georgia Institute of Technology is listed as Accredited by its institutional accreditor, and the US Department of Education's College Scorecard data names the same accreditor",
+      "Specialization-based degree: 15 to 18 credit hours in one specialization plus free electives",
+      "Students can qualify for financial aid like other Georgia Tech graduate students, and OMSCS says modest employer tuition subsidies may cover the whole cost"
+    ],
+    "cons": [
+      "It is a master's degree, so you need a bachelor's first; it is not comparable to the bachelor's programmes in this guide",
+      "Per-semester online learning fees ($212 or $531) add up if you take one course at a time over many terms",
+      "Courses follow the Georgia Tech semester calendar rather than fully self-paced terms",
+      "A B or above is required in specialization courses and a 3.0 GPA to graduate"
+    ],
+    "best_for": "Working professionals with a bachelor's degree who want an accredited computer science master's at a fraction of typical cost.",
+    "summary": "Georgia Tech's OMSCS is an accredited online master's in computer science at $227 per credit hour. For 30 credit hours that is $6,810 in tuition before fees. It is a graduate degree, so it suits people who already hold a bachelor's.",
+    "verdict_summary": "Georgia Tech's OMSCS is our top pick and the best value in this guide. The degree needs 30 credit hours (10 courses), including one specialization of 15 to 18 hours, with a 3.0 GPA to graduate. Georgia Tech's Bursar lists Fall 2026 OMSCS tuition at $227 per credit hour plus a per-semester online learning fee of $212 (under 4 hours) or $531 (4 or more), so tuition for the full programme is $6,810 before those fees (as of 2026-10-02). Georgia Institute of Technology shows as Accredited in the directory of its regional accreditor (the Southern Association of Colleges and Schools Commission on Colleges, now operating as The Commission on Colleges and Universities). Keep in mind that it is a master's degree, the semester calendar sets the pace, and per-semester fees add up for students who take one course at a time.",
+    "pricing_table": [
+      {
+        "plan": "Tuition (Fall 2026)",
+        "price": "$227 per credit hour (as of 2026-10-02)",
+        "notes": "30 credit hours required, so $6,810 in tuition before fees."
+      },
+      {
+        "plan": "Online learning fee, under 4 credit hours",
+        "price": "$212 per semester (as of 2026-10-02)",
+        "notes": "Mandatory student fee."
+      },
+      {
+        "plan": "Online learning fee, 4+ credit hours",
+        "price": "$531 per semester (as of 2026-10-02)",
+        "notes": "Mandatory student fee."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How much does Georgia Tech OMSCS cost?",
+        "answer": "Fall 2026 tuition is $227 per credit hour plus a per-semester online learning fee of $212 or $531, per Georgia Tech's Bursar (as of 2026-10-02). The 30 required credit hours come to $6,810 in tuition before fees."
+      },
+      {
+        "question": "Is OMSCS accredited?",
+        "answer": "Georgia Institute of Technology is listed as Accredited in the institutional directory of The Commission on Colleges and Universities (formerly SACSCOC), and College Scorecard data lists the Southern Association of Colleges and Schools Commission on Colleges as its accreditor."
+      },
+      {
+        "question": "How many courses is OMSCS?",
+        "answer": "30 credit hours, or 10 courses, including one specialization of 15 to 18 credit hours."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "OMSCS Fall 2026 tuition is $227 per semester credit hour; online learning fee $212 (<4 hours) or $531 (4+ hours) per semester.",
+        "source_name": "Georgia Tech Bursar: Fall 2026 OMSCS tuition and fees (official PDF)",
+        "source_url": "https://bursar.gatech.edu/student/tuition/fa26/fa26_omscs.pdf"
+      },
+      {
+        "claim": "The OMSCS degree requires 30 credit hours (10 courses), one specialization of 15-18 credit hours, and a 3.0 GPA.",
+        "source_name": "Georgia Tech OMSCS: Degree Requirements (official)",
+        "source_url": "https://omscs.gatech.edu/degree-requirements"
+      },
+      {
+        "claim": "OMSCS students can qualify for financial aid like other graduate students; employer reimbursement may cover the program.",
+        "source_name": "Georgia Tech OMSCS: Cost and Payment Schedule (official)",
+        "source_url": "https://omscs.gatech.edu/cost-and-payment-schedule"
+      },
+      {
+        "claim": "Georgia Institute of Technology, Atlanta: status Accredited, highest degree Doctorate.",
+        "source_name": "The Commission on Colleges and Universities: Institution directory",
+        "source_url": "https://commissioncu.org/institutions/?si_q=Georgia+Institute+of+Technology"
+      },
+      {
+        "claim": "College Scorecard lists the accreditor for Georgia Institute of Technology-Main Campus as the Southern Association of Colleges and Schools Commission on Colleges.",
+        "source_name": "US Department of Education: College Scorecard API",
+        "source_url": "https://api.data.gov/ed/collegescorecard/v1/schools?id=139755&fields=school.name,school.accreditor,latest.earnings.10_yrs_after_entry.median&api_key=DEMO_KEY"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-wgu-bs-computer-science",
+    "slug": "wgu-bs-computer-science",
+    "name": "WGU Bachelor of Science in Computer Science",
+    "category_slug": "online-degrees",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.3,
+    "ratings": {
+      "outcomes": 7,
+      "cost_value": 8,
+      "academics": 7,
+      "support_services": 6,
+      "flexibility": 9
+    },
+    "price_summary": "$4,125 tuition per six-month term plus a $200 e-books and resources fee; flat rate however many courses you complete (as of 2026-10-02)",
+    "pros": [
+      "Flat-rate tuition: $4,125 per six-month term covers as many courses as you complete, so faster students pay less (as of 2026-10-02)",
+      "Accredited by the Northwest Commission on Colleges and Universities, confirmed in NWCCU's directory",
+      "Competency-based and online with no class times or assignment deadlines",
+      "Certification exam vouchers are included in tuition, with Linux Essentials and AWS Certified Developer Associate among the listed certifications"
+    ],
+    "cons": [
+      "WGU states the programme has ABET accreditation, but ABET's search page did not load for us, so we could not confirm it there",
+      "No fixed deadlines suits self-starters but makes it easy to fall behind; WGU says 62% of graduates finish within 25 months, which leaves many who take longer",
+      "Fees are not refunded, and tuition refunds stop after the 60% point of a term",
+      "College Scorecard's median earnings figure ($60,615, 10 years after entry) covers all WGU students, not computer science graduates"
+    ],
+    "best_for": "Self-motivated adults who want an accredited computer science bachelor's and can move quickly through material they already know.",
+    "summary": "WGU's online BS in Computer Science charges $4,125 per six-month term with no cap on courses per term. It is accredited by NWCCU and suits fast, disciplined learners.",
+    "verdict_summary": "WGU's BS in Computer Science is the best-value bachelor's in this guide for disciplined students. Tuition is a flat $4,125 per six-month term plus a $200 e-books and resources fee (as of 2026-10-02), and the 39-course programme lets you finish as many courses as you can in each term. WGU says 62% of graduates finish within 25 months. Western Governors University is listed as Accredited in the NWCCU directory, first accredited in 2003, and WGU states the programme itself has ABET accreditation, which we could not confirm in ABET's own search. The trade-offs: self-pacing without deadlines does not suit everyone, refunds are limited, and College Scorecard's $60,615 median earnings 10 years after entry is an all-WGU figure.",
+    "pricing_table": [
+      {
+        "plan": "Tuition per six-month term",
+        "price": "$4,125 (as of 2026-10-02)",
+        "notes": "Flat rate for 12+ competency units; complete as many courses as you can."
+      },
+      {
+        "plan": "E-books and resources fee",
+        "price": "$200 per term (as of 2026-10-02)",
+        "notes": "Covers e-textbooks and course materials."
+      },
+      {
+        "plan": "Certification exam vouchers",
+        "price": "Included in tuition (as of 2026-10-02)",
+        "notes": "Some certifications may need a paid membership."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How much is WGU's computer science degree?",
+        "answer": "$4,125 per six-month term plus a $200 e-books and resources fee (as of 2026-10-02). Total cost depends on how many terms you need."
+      },
+      {
+        "question": "Is WGU accredited?",
+        "answer": "Yes. Western Governors University is listed as Accredited by the Northwest Commission on Colleges and Universities, first accredited in 2003, per NWCCU's directory."
+      },
+      {
+        "question": "How long does it take?",
+        "answer": "The programme has 39 courses. WGU says 62% of graduates finish within 25 months."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "B.S. Computer Science tuition $4,125 per term plus $200 e-books and resources fee; tuition charged at a flat rate every six months; refund prorated until the 60% point of a term, fees not refunded (as of 2026-10-02).",
+        "source_name": "WGU: Tuition for IT degrees (official)",
+        "source_url": "https://www.wgu.edu/financial-aid-tuition/tuition-it-degrees.html"
+      },
+      {
+        "claim": "39 courses; 62% of graduates finish within 25 months; WGU states ABET accreditation; included certifications include Linux Essentials and AWS Certified Developer Associate; exam vouchers included in tuition.",
+        "source_name": "WGU: B.S. Computer Science (official)",
+        "source_url": "https://www.wgu.edu/online-it-degrees/computer-science.html"
+      },
+      {
+        "claim": "Western Governors University: current accreditation status Accredited; first accredited 2003; private not-for-profit.",
+        "source_name": "NWCCU: Institutional directory",
+        "source_url": "https://nwccu.org/institutional-directory/western-governors-university/"
+      },
+      {
+        "claim": "College Scorecard lists WGU's accreditor as NWCCU and median earnings 10 years after entry of $60,615 (institution-wide).",
+        "source_name": "US Department of Education: College Scorecard API",
+        "source_url": "https://api.data.gov/ed/collegescorecard/v1/schools?id=433387&fields=school.name,school.accreditor,latest.earnings.10_yrs_after_entry.median&api_key=DEMO_KEY"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-uopeople-bs-computer-science",
+    "slug": "uopeople-bs-computer-science",
+    "name": "University of the People Bachelor of Science in Computer Science",
+    "category_slug": "online-degrees",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.6,
+    "ratings": {
+      "outcomes": 5,
+      "cost_value": 9,
+      "academics": 6,
+      "support_services": 5,
+      "flexibility": 9
+    },
+    "price_summary": "Tuition-free; $60 one-time application fee plus $180 assessment fee per course, about $7,260 in total for the 40-course degree (as of 2026-10-02)",
+    "pros": [
+      "Lowest total price for a bachelor's here: about $7,260 for the whole degree in assessment fees, with no tuition (as of 2026-10-02)",
+      "Accredited by the WASC Senior College and University Commission (WSCUC), which lists it as Accredited",
+      "Fully asynchronous with no live lectures, and you pay per course as you go",
+      "Open admission for anyone 16 or older with a high-school education, proficient English and the Foundations courses"
+    ],
+    "cons": [
+      "Not eligible for US federal student aid: UoPeople says it does not receive Title IV funds, and it does not appear in College Scorecard",
+      "No programme-level outcome data in the official sources we checked",
+      "Its own CS page gives two different transfer limits (75% and 50% of credits), so confirm before you rely on transfer credit",
+      "Accreditation changed recently: UoPeople withdrew from DEAC accreditation as of December 31, 2025 and now relies on WSCUC"
+    ],
+    "best_for": "Budget-limited students anywhere in the world who want an accredited US bachelor's and can study on their own.",
+    "summary": "University of the People offers a tuition-free, WSCUC-accredited online BS in Computer Science for about $7,260 in fees. It is the cheapest bachelor's here, but it has no federal aid and little published outcome data.",
+    "verdict_summary": "University of the People is the lowest-cost route to an accredited bachelor's in this guide. There is no tuition: the BS in Computer Science charges a $60 application fee and $180 per course assessment, about $7,260 in total for 40 courses (as of 2026-10-02), with grants and scholarships available. It is accredited by the WASC Senior College and University Commission, which lists it as Accredited, and it voluntarily withdrew its earlier DEAC accreditation as of December 31, 2025. It ranks third because outcome evidence is thin: it takes no Title IV federal aid, so it is not in College Scorecard, and we found no programme-level outcome data in the sources we checked.",
+    "pricing_table": [
+      {
+        "plan": "Application fee",
+        "price": "$60 one-time (as of 2026-10-02)",
+        "notes": "Non-refundable."
+      },
+      {
+        "plan": "Undergraduate assessment fee",
+        "price": "$180 per course (as of 2026-10-02)",
+        "notes": "40 courses for the BS in Computer Science."
+      },
+      {
+        "plan": "Approximate total, BS Computer Science",
+        "price": "$7,260 (as of 2026-10-02)",
+        "notes": "Less if you transfer credits in; scholarships may cover fees."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is University of the People really free?",
+        "answer": "There is no tuition, but there is a $60 application fee and a $180 assessment fee per undergraduate course. UoPeople puts the BS in Computer Science at about $7,260 in total (as of 2026-10-02)."
+      },
+      {
+        "question": "Is University of the People accredited?",
+        "answer": "Yes. It is accredited by the WASC Senior College and University Commission, which lists its status as Accredited. It was previously accredited by DEAC and withdrew from that relationship as of December 31, 2025."
+      },
+      {
+        "question": "Can I use US federal financial aid?",
+        "answer": "No. UoPeople says that because it does not charge tuition, it does not receive Title IV funds and does not take part in federal or state aid programs."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "$60 application fee; $180 undergraduate assessment fee per course; bachelor's in Computer Science about $7,260 total; no Title IV funds (as of 2026-10-02).",
+        "source_name": "University of the People: Fees (official)",
+        "source_url": "https://www.uopeople.edu/tuition-free/processing-fees/"
+      },
+      {
+        "claim": "40 courses, under two and a half years, no live lectures, $180 per course assessment, total about $7,260; transfer stated as up to 75% and up to 50% of credits in different sections.",
+        "source_name": "University of the People: BS Computer Science (official)",
+        "source_url": "https://www.uopeople.edu/programs/online-bachelors/computer-science/"
+      },
+      {
+        "claim": "Accredited by WSCUC; previously accredited by DEAC, voluntarily withdrawn as of December 31, 2025.",
+        "source_name": "University of the People: Accreditation (official)",
+        "source_url": "https://www.uopeople.edu/student-experience/quality/accreditation/"
+      },
+      {
+        "claim": "University of the People: current accreditation status Accredited; most recent Commission action March 24, 2026.",
+        "source_name": "WSCUC: Institution directory",
+        "source_url": "https://www.wscuc.org/institutions/university-of-the-people/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-asu-online-bs-computer-science",
+    "slug": "asu-online-bs-computer-science",
+    "name": "ASU Online Bachelor of Science in Computer Science",
+    "category_slug": "online-degrees",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.6,
+    "ratings": {
+      "outcomes": 7,
+      "cost_value": 5,
+      "academics": 8,
+      "support_services": 6,
+      "flexibility": 7
+    },
+    "price_summary": "$580 per credit hour for most undergraduate programmes in 2026-27, plus programme fees; 120 credit hours (as of 2026-10-02)",
+    "pros": [
+      "Arizona State University's online degree; ASU states the programme is ABET accredited",
+      "College Scorecard lists the Higher Learning Commission as accreditor for ASU Digital Immersion, ASU's online unit",
+      "Asynchronous coursework with no set log-in times, in 7.5- to 15-week classes",
+      "The same degree is also offered in person at ASU"
+    ],
+    "cons": [
+      "The most expensive option here: 120 credit hours at $580 is $69,600 in tuition before programme fees (as of 2026-10-02)",
+      "Programme fees vary and are not shown on the cost page we read, so the full price needs ASU's estimator",
+      "Asynchronous, but you still work to instructor deadlines",
+      "Scorecard data for ASU Digital Immersion covers all its online programmes, not computer science alone"
+    ],
+    "best_for": "Students who want a public university's online CS degree and can use federal aid or employer support to cover the higher price.",
+    "summary": "ASU Online's BS in Computer Science is a 120-credit online degree from Arizona State University at $580 per credit hour plus fees. It comes from a public university and has the highest price here.",
+    "verdict_summary": "ASU Online's BS in Computer Science is a 41-class, 120-credit-hour degree with 7.5- to 15-week classes, also offered on campus. ASU states the programme is ABET accredited, and College Scorecard lists the Higher Learning Commission as the accreditor for ASU Digital Immersion; Scorecard shows median earnings of $62,668 10 years after entry for that whole unit. Cost is the issue: ASU lists 2026-27 online tuition at $580 per credit hour for most undergraduate programmes plus programme fees, which puts tuition alone near $69,600 for 120 credits before transfer credit or aid (as of 2026-10-02). It ranks last on value, though it may suit students who qualify for federal aid or have employer funding.",
+    "pricing_table": [
+      {
+        "plan": "Undergraduate tuition (most programmes, 2026-27)",
+        "price": "$580 per credit hour (as of 2026-10-02)",
+        "notes": "Plus programme fees, which vary by programme."
+      },
+      {
+        "plan": "BS Computer Science length",
+        "price": "120 credit hours, 41 classes",
+        "notes": "Classes run 7.5 to 15 weeks."
+      },
+      {
+        "plan": "ASU payment plan",
+        "price": "$50 to $200 to enrol (as of 2026-10-02)",
+        "notes": "Three instalments per semester; fee depends on residency."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How much is ASU Online's computer science degree?",
+        "answer": "ASU lists 2026-27 online undergraduate tuition at $580 per credit hour for most programmes plus programme fees (as of 2026-10-02). The BS in Computer Science is 120 credit hours."
+      },
+      {
+        "question": "Is ASU Online accredited?",
+        "answer": "College Scorecard lists the Higher Learning Commission as accreditor for Arizona State University Digital Immersion, and ASU states the computer science programme is ABET accredited. We could not confirm this in the HLC directory itself, so we relied on the US Department of Education's College Scorecard record."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "BS Computer Science: 41 classes, 7.5-15 weeks per class, 120 credit hours, ABET accredited per ASU, also available in person.",
+        "source_name": "ASU Online: Computer Science (BS) (official)",
+        "source_url": "https://asuonline.asu.edu/online-degree-programs/undergraduate/bachelor-science-computer-science/"
+      },
+      {
+        "claim": "2026-27 ASU Online tuition for most programmes: undergraduate $580 per credit hour plus programme fees; payment plan enrolment $50-$200 (as of 2026-10-02).",
+        "source_name": "ASU Online: What it costs (official)",
+        "source_url": "https://asuonline.asu.edu/what-it-costs/"
+      },
+      {
+        "claim": "College Scorecard lists the Higher Learning Commission as accreditor for Arizona State University Digital Immersion; median earnings 10 years after entry $62,668 (institution-wide).",
+        "source_name": "US Department of Education: College Scorecard API",
+        "source_url": "https://api.data.gov/ed/collegescorecard/v1/schools?id=483124&fields=school.name,school.accreditor,latest.earnings.10_yrs_after_entry.median&api_key=DEMO_KEY"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-aws-certified-solutions-architect-associate",
+    "slug": "aws-certified-solutions-architect-associate",
+    "name": "AWS Certified Solutions Architect Associate",
+    "category_slug": "professional-certifications",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.6,
+    "ratings": {
+      "outcomes": 7,
+      "cost_value": 9,
+      "academics": 7,
+      "support_services": 6,
+      "flexibility": 9
+    },
+    "price_summary": "$150 exam fee; valid 3 years; renew by retaking with a 50% discount voucher, passing the Professional exam, or Skill Builder maintenance with a paid subscription (as of 2026-10-02)",
+    "pros": [
+      "Low exam fee: $150 (as of 2026-10-02)",
+      "Renewal is cheap: AWS gives a 50% discount voucher for the recertification exam",
+      "Take it at a Pearson VUE test centre or online with a remote proctor, in 10 languages",
+      "Clear entry bar: AWS recommends at least 1 year of hands-on experience designing cloud solutions on AWS"
+    ],
+    "cons": [
+      "Tied to one vendor; the skills transfer, but the badge only speaks to AWS",
+      "Expires after 3 years, and the Skill Builder maintenance route needs a paid subscription and only extends it by 1 year",
+      "AWS publishes no pass-rate or salary outcome data for the credential, so its value has to be judged from job adverts"
+    ],
+    "best_for": "Engineers and analysts who work on AWS and want a respected, low-cost associate-level cloud credential.",
+    "summary": "The AWS Solutions Architect Associate is a $150 exam that tests cloud design on AWS, with cheap renewal and online or test-centre delivery. It is the best value here, but it only covers one cloud vendor.",
+    "verdict_summary": "The AWS Certified Solutions Architect Associate is our top pick on value. The exam costs $150, lasts 130 minutes with 65 multiple-choice or multiple-response questions, and can be taken at a Pearson VUE centre or online in 10 languages (as of 2026-10-02). AWS recommends at least a year of hands-on experience designing AWS solutions. The credential is valid for 3 years, and AWS's recertification page says you can renew by retaking the latest exam with a 50% discount voucher, by passing the Professional-level exam, or through Skill Builder maintenance (which needs a paid subscription and gives 1 year). The trade-offs are vendor lock-in and the lack of any published outcome data, so we score outcomes on what the credential is designed to show rather than on placement figures.",
+    "pricing_table": [
+      {
+        "plan": "Exam (SAA)",
+        "price": "$150 (as of 2026-10-02)",
+        "notes": "65 questions, 130 minutes, multiple choice or multiple response; Pearson VUE test centre or online proctored."
+      },
+      {
+        "plan": "Recertification exam",
+        "price": "50% off with voucher (as of 2026-10-02)",
+        "notes": "Voucher is in your AWS Certification Account. Renewal by exam keeps the credential for 3 years."
+      },
+      {
+        "plan": "Skill Builder maintenance",
+        "price": "Paid Skill Builder subscription required (as of 2026-10-02)",
+        "notes": "Extends validity by 1 year."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How much is the AWS Solutions Architect Associate exam?",
+        "answer": "$150 (as of 2026-10-02), per AWS's official exam page."
+      },
+      {
+        "question": "How long is the AWS Solutions Architect Associate valid?",
+        "answer": "3 years. You can renew by retaking the latest exam with a 50% discount voucher, by passing the Professional exam, or through Skill Builder maintenance with a paid subscription, which extends it by 1 year."
+      },
+      {
+        "question": "Can I take it online?",
+        "answer": "Yes. AWS offers it at Pearson VUE testing centres or as an online proctored exam."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Exam cost $150, 130 minutes, 65 questions, multiple choice or multiple response, 10 languages, Pearson VUE centre or online proctored, valid 3 years, at least 1 year hands-on experience recommended (as of 2026-10-02).",
+        "source_name": "AWS: Solutions Architect Associate (official)",
+        "source_url": "https://aws.amazon.com/certification/certified-solutions-architect-associate/"
+      },
+      {
+        "claim": "Associate certifications can be renewed by retaking the exam with a 50% discount voucher, passing the Professional exam, or Skill Builder maintenance with a paid subscription (1-year validity).",
+        "source_name": "AWS: Recertification (official)",
+        "source_url": "https://aws.amazon.com/certification/recertification/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-google-cloud-associate-cloud-engineer",
+    "slug": "google-cloud-associate-cloud-engineer",
+    "name": "Google Cloud Associate Cloud Engineer",
+    "category_slug": "professional-certifications",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.0,
+    "ratings": {
+      "outcomes": 6,
+      "cost_value": 9,
+      "academics": 6,
+      "support_services": 6,
+      "flexibility": 8
+    },
+    "price_summary": "$125 exam fee plus tax; valid 3 years; renewal exam $75 plus tax, or renewal through Google Skills courses and badges (as of 2026-10-02)",
+    "pros": [
+      "Cheapest exam in this group at $125 plus tax (as of 2026-10-02)",
+      "Low-cost renewal: a 1-hour, $75 renewal exam, or designated Google Skills courses and skill badges",
+      "No prerequisites, and Google recommends only 6+ months of hands-on Google Cloud experience",
+      "Online-proctored or onsite at a testing centre"
+    ],
+    "cons": [
+      "Covers Google Cloud only, so check that your target employers use it before you pay",
+      "Only 4 exam languages, and the renewal exam is offered only in English and Japanese",
+      "Renewing through Google Skills gives just 1 year of validity"
+    ],
+    "best_for": "People working on Google Cloud, or early in a cloud career, who want an inexpensive associate-level credential.",
+    "summary": "Google's Associate Cloud Engineer exam costs $125 and has a cheap $75 renewal exam. It is a good entry credential for Google Cloud work, with fewer language options than AWS.",
+    "verdict_summary": "The Google Cloud Associate Cloud Engineer is the lowest-cost exam in this guide at $125 plus tax (as of 2026-10-02). It is a 2-hour exam with 50 to 60 multiple-choice and multiple-select questions, offered online or at a testing centre in English, Japanese, Spanish and Portuguese. There are no prerequisites and Google recommends 6+ months of hands-on experience. It is valid for 3 years; you can renew with a 1-hour, $75 renewal exam (English and Japanese only) or through designated Google Skills courses and badges, which renew it for 1 year. It ranks below AWS because the documented entry bar is lower (6 months versus 1 year of hands-on experience) and the exam and renewal come in fewer languages; like every vendor exam here it comes with no published outcome data.",
+    "pricing_table": [
+      {
+        "plan": "Exam",
+        "price": "$125 plus tax (as of 2026-10-02)",
+        "notes": "2 hours, 50 to 60 multiple-choice and multiple-select questions; online or onsite proctored."
+      },
+      {
+        "plan": "Renewal exam",
+        "price": "$75 plus tax (as of 2026-10-02)",
+        "notes": "1 hour, 20 multiple-choice and multiple-select questions, English and Japanese only."
+      },
+      {
+        "plan": "Renewal via Google Skills",
+        "price": "Varies (as of 2026-10-02)",
+        "notes": "Designated courses or skill badges in the last year of validity; renews for 1 year."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How much is the Google Associate Cloud Engineer exam?",
+        "answer": "$125 plus tax where applicable (as of 2026-10-02)."
+      },
+      {
+        "question": "How do I renew it?",
+        "answer": "Take the $75 renewal exam (1 hour, English or Japanese) or complete designated Google Skills courses and skill badges in the last year of your certification, which gives 1 year of validity."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Exam fee $125 plus tax, 2 hours, 50 to 60 questions, English/Japanese/Spanish/Portuguese, online or onsite, valid 3 years, renewal exam $75 (1 hour, 20 questions, English and Japanese), renewal via Google Skills gives 1-year validity, 6+ months experience recommended, no prerequisites (as of 2026-10-02).",
+        "source_name": "Google Cloud: Associate Cloud Engineer (official)",
+        "source_url": "https://cloud.google.com/learn/certification/cloud-engineer"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-isc2-cissp",
+    "slug": "isc2-cissp",
+    "name": "ISC2 CISSP",
+    "category_slug": "professional-certifications",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.9,
+    "ratings": {
+      "outcomes": 8,
+      "cost_value": 5,
+      "academics": 9,
+      "support_services": 6,
+      "flexibility": 5
+    },
+    "price_summary": "$749 standard exam registration in the Americas; $135 annual maintenance fee once certified; 120 CPE credits per three-year cycle (as of 2026-10-02)",
+    "pros": [
+      "Senior credential with a high bar: five years of cumulative full-time experience in two or more of the eight CISSP domains",
+      "ISC2 states it is ANAB accredited to ISO/IEC 17024 and approved under US DoDM 8140.03",
+      "If you pass without the experience you can become an Associate of ISC2 and have six years to earn it",
+      "Adaptive exam of 100 to 150 items over 3 hours, so the test adjusts to your level"
+    ],
+    "cons": [
+      "Expensive: $749 to sit the exam, then $135 every year once certified (as of 2026-10-02)",
+      "Ongoing work to keep it: 120 CPE credits per three-year cycle, at least 90 of them in Group A",
+      "Not a starter credential; most newcomers cannot meet the experience requirement",
+      "Rescheduling costs $50 and cancelling costs $100"
+    ],
+    "best_for": "Experienced security professionals moving into senior, management or architecture roles.",
+    "summary": "CISSP is the senior security credential in this group, with a five-year experience requirement, a $749 exam and a $135 annual fee. It carries the most weight here but costs the most to earn and keep.",
+    "verdict_summary": "The ISC2 CISSP scores highest here on academics and recognition: ISC2 requires five years of cumulative full-time experience across at least two of eight domains, uses an adaptive exam of 100 to 150 items over 3 hours with a 700 of 1000 passing grade, and states the credential is ANAB accredited to ISO/IEC 17024 and approved under US DoDM 8140.03. It ranks third on cost: standard registration is $749 in the Americas, certified members pay a $135 annual maintenance fee, and holders must earn 120 CPE credits each three-year cycle (as of 2026-10-02). Pick it when you have the experience and a senior role in view; earlier in a career, Security+ or a cloud associate exam is the better first step.",
+    "pricing_table": [
+      {
+        "plan": "Exam registration (Americas)",
+        "price": "$749 (as of 2026-10-02)",
+        "notes": "Same US dollar price listed for Asia Pacific, Middle East and Africa; UK GBP 606.69."
+      },
+      {
+        "plan": "Annual maintenance fee",
+        "price": "$135 per year (as of 2026-10-02)",
+        "notes": "Associates of ISC2 pay $50."
+      },
+      {
+        "plan": "Reschedule / cancel",
+        "price": "$50 / $100 (as of 2026-10-02)",
+        "notes": "Per ISC2's fee structure."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How much does CISSP cost?",
+        "answer": "Standard exam registration is $749 in the Americas, and certified members pay a $135 annual maintenance fee (as of 2026-10-02)."
+      },
+      {
+        "question": "What experience does CISSP require?",
+        "answer": "A minimum of five years of cumulative full-time experience in two or more of the eight CISSP domains. Passing without it makes you an Associate of ISC2, with six years to gain the experience."
+      },
+      {
+        "question": "How do I keep CISSP?",
+        "answer": "Earn 120 CPE credits each three-year cycle, at least 90 in Group A, and pay the annual maintenance fee."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "CISSP standard registration U.S. $749 in the Americas; reschedule $50, cancel $100 (as of 2026-10-02).",
+        "source_name": "ISC2: Exam pricing (official)",
+        "source_url": "https://www.isc2.org/register-for-exam/isc2-exam-pricing"
+      },
+      {
+        "claim": "AMF is U.S. $135 for CISSP holders and $50 for Associates; ISC2 cites ANAB ISO/IEC 17024 accreditation and DoDM 8140.03 approval.",
+        "source_name": "ISC2: Annual Maintenance Fees FAQ (official)",
+        "source_url": "https://www.isc2.org/policies-procedures/amfs-overview"
+      },
+      {
+        "claim": "Exam uses CAT, 3 hours, 100-150 items, passing grade 700/1000; five years experience required; Associate route with six years to gain experience.",
+        "source_name": "ISC2: CISSP exam outline (official)",
+        "source_url": "https://www.isc2.org/certifications/cissp/cissp-certification-exam-outline"
+      },
+      {
+        "claim": "CISSP requires 120 CPE credits over three years: 90 Group A and 30 Group A or B.",
+        "source_name": "ISC2: Member policies (official)",
+        "source_url": "https://www.isc2.org/policies-procedures/member-policies"
+      },
+      {
+        "claim": "CISSP page lists 5 years required experience, ANAB ISO/IEC 17024 accreditation and DoDM 8140.03 approval.",
+        "source_name": "ISC2: CISSP (official)",
+        "source_url": "https://www.isc2.org/certifications/cissp"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-comptia-security-plus",
+    "slug": "comptia-security-plus",
+    "name": "CompTIA Security+",
+    "category_slug": "professional-certifications",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.6,
+    "ratings": {
+      "outcomes": 7,
+      "cost_value": 6,
+      "academics": 7,
+      "support_services": 6,
+      "flexibility": 7
+    },
+    "price_summary": "$439 exam voucher, or $579 with Retake Assurance; $150 continuing education fee per three-year renewal cycle (as of 2026-10-02)",
+    "pros": [
+      "Vendor-neutral, so it applies across employers and tools",
+      "CompTIA lists it against several DoD 8140 work roles, including cyber defense analyst and system administrator",
+      "Renewal through continuing education costs $150 for the three-year period, so you do not have to resit the exam",
+      "A $579 voucher with Retake Assurance includes a second attempt (as of 2026-10-02)"
+    ],
+    "cons": [
+      "At $439 it costs nearly three times the AWS associate exam (as of 2026-10-02)",
+      "Timing: the current SY0-701 exam is due to be replaced by SY0-801 on or around November 17, 2026, and SY0-801 launches in English only",
+      "CompTIA recommends Network+ and two years of security or systems admin experience, which many beginners lack"
+    ],
+    "best_for": "IT staff moving into security, especially anyone targeting US government or defence contractor roles that reference DoD 8140.",
+    "summary": "Security+ is a vendor-neutral security exam with a $439 voucher and a $150 renewal fee every three years. It is widely referenced in US government work roles, but a new exam version arrives in November 2026.",
+    "verdict_summary": "CompTIA Security+ is the standard vendor-neutral security credential. The current SY0-701 exam has up to 90 multiple-choice and performance-based questions in 90 minutes, a passing score of 750 on a 100 to 900 scale, and CompTIA maps it to DoD 8140 work roles such as cyber defense analyst and incident responder. A voucher costs $439, or $579 with Retake Assurance, and renewing through continuing education costs $150 for each three-year period (as of 2026-10-02). The value is in recognition, especially for US government roles; the cost is higher than the cloud exams here, and buyers should note that SY0-801 launches around November 17, 2026 in English only, with the English SY0-701 retiring June 11, 2027.",
+    "pricing_table": [
+      {
+        "plan": "Exam voucher (SY0-701)",
+        "price": "$439 (as of 2026-10-02)",
+        "notes": "Up to 90 questions, 90 minutes, pass mark 750 of 900."
+      },
+      {
+        "plan": "Voucher with Retake Assurance",
+        "price": "$579 (as of 2026-10-02)",
+        "notes": "Includes a second attempt."
+      },
+      {
+        "plan": "Continuing education fee",
+        "price": "$150 per three-year cycle (as of 2026-10-02)",
+        "notes": "Paid when renewing by uploading CEUs; CE tokens can be bought from CompTIA."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How much does Security+ cost?",
+        "answer": "$439 for a voucher on CompTIA's US page, or $579 with Retake Assurance (as of 2026-10-02)."
+      },
+      {
+        "question": "Should I wait for Security+ V8?",
+        "answer": "CompTIA says SY0-801 launches on or around November 17, 2026, in English only at launch. The English SY0-701 exam retires June 11, 2027, so either version is available through mid-2027."
+      },
+      {
+        "question": "How do I renew Security+?",
+        "answer": "Through CompTIA's continuing education program. The CE fee for Security+ is $150 for the three-year period (as of 2026-10-02)."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "SY0-701: up to 90 questions, 90 minutes, passing score 750 (100-900), five languages, recommended Network+ and two years of experience, DoD 8140 work roles listed, English retirement June 11, 2027; voucher $439 and $579 with Retake Assurance shown on the page (as of 2026-10-02).",
+        "source_name": "CompTIA: Security+ V7 (official)",
+        "source_url": "https://www.comptia.org/en-us/certifications/security/v7/"
+      },
+      {
+        "claim": "SY0-801 launches November 17, 2026, up to 90 questions, 90 minutes, English, ISO 17024 accredited through ANAB.",
+        "source_name": "CompTIA: Security+ V8 (official)",
+        "source_url": "https://www.comptia.org/en-us/certifications/security/v8/"
+      },
+      {
+        "claim": "Security+ continuing education fee is $150 for the three-year period (as of 2026-10-02).",
+        "source_name": "CompTIA: Continuing Education Renewal Fees (official)",
+        "source_url": "https://www.comptia.org/en-us/resources/ce/learn/continuing-education-renewal-fees/"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-anki",
+    "slug": "anki",
+    "name": "Anki",
+    "category_slug": "study-tools",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.2,
+    "ratings": {
+      "outcomes": 7,
+      "cost_value": 9,
+      "academics": 6,
+      "support_services": 5,
+      "flexibility": 9
+    },
+    "price_summary": "Free on Windows, macOS and Linux, free AnkiDroid on Android, free AnkiWeb sync; AnkiMobile for iOS $24.99 one-time on the US App Store (as of 2026-10-02)",
+    "pros": [
+      "Free on desktop and Android, with free AnkiWeb sync across devices (as of 2026-10-02)",
+      "The iOS app is a one-time $24.99 purchase on the US App Store, not a subscription, and its sales fund Anki's development",
+      "Schedules reviews so you spend more time on hard cards and less on ones you know",
+      "Cards can hold audio, images, video and scientific markup"
+    ],
+    "cons": [
+      "You make or find your own cards; there is no built-in course content",
+      "No AI card generation or paid support tier is listed on the official site",
+      "AnkiDroid is developed by outside contributors, separate from the desktop and iOS apps"
+    ],
+    "best_for": "Students who want a free, long-term spaced repetition tool and are willing to build or import their own decks.",
+    "summary": "Anki is a spaced repetition flashcard app that is free on desktop and Android, with free sync and a one-time $24.99 iOS app. It is the best value here if you are happy to make your own cards.",
+    "verdict_summary": "Anki is our top pick on value. The desktop app is free on Windows, macOS and Linux, AnkiDroid is free on Android, and AnkiWeb sync between devices is free; the official iOS app, AnkiMobile, is a one-time $24.99 purchase on the US App Store (as of 2026-10-02). It schedules reviews around what you find hard and supports audio, images, video and scientific markup on cards. The trade-offs are effort and polish: you build or import your own decks, there is no AI card maker or formal support plan on the official site, and the Android app comes from a separate contributor project.",
+    "pricing_table": [
+      {
+        "plan": "Anki desktop",
+        "price": "Free (as of 2026-10-02)",
+        "notes": "Windows, macOS and Linux."
+      },
+      {
+        "plan": "AnkiDroid (Android)",
+        "price": "Free (as of 2026-10-02)",
+        "notes": "Developed by contributors; donations fund it."
+      },
+      {
+        "plan": "AnkiWeb sync",
+        "price": "Free (as of 2026-10-02)",
+        "notes": "Syncs cards across devices."
+      },
+      {
+        "plan": "AnkiMobile (iOS)",
+        "price": "$24.99 one-time, US App Store (as of 2026-10-02)",
+        "notes": "Official iOS app; purchases fund Anki development."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is Anki free?",
+        "answer": "Yes on desktop and Android, and AnkiWeb sync is free. The official iOS app, AnkiMobile, costs $24.99 once on the US App Store (as of 2026-10-02)."
+      },
+      {
+        "question": "Does Anki have ready-made content?",
+        "answer": "The official site describes Anki as a flashcard program for your own cards; it does not list built-in courses."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Desktop version is free on all major platforms; AnkiWeb sync is free; AnkiMobile is the official iOS app and purchases fund development; AnkiDroid is free and built by contributors; media and scientific markup supported.",
+        "source_name": "Anki: Official site",
+        "source_url": "https://apps.ankiweb.net/"
+      },
+      {
+        "claim": "AnkiMobile Flashcards lists at $24.99 on the US App Store (as of 2026-10-02).",
+        "source_name": "Apple App Store: AnkiMobile Flashcards",
+        "source_url": "https://apps.apple.com/us/app/ankimobile-flashcards/id373493387"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-remnote",
+    "slug": "remnote",
+    "name": "RemNote",
+    "category_slug": "study-tools",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.4,
+    "ratings": {
+      "outcomes": 6,
+      "cost_value": 7,
+      "academics": 6,
+      "support_services": 6,
+      "flexibility": 7
+    },
+    "price_summary": "Free plan; Pro $8/month billed $96/year; Pro with AI $18/month billed $216/year (as of 2026-10-02)",
+    "pros": [
+      "Notes and flashcards in one place, with unlimited notes, flashcards and synced devices on the free plan",
+      "Pro adds PDF annotation, image occlusion, an exam scheduler and handwritten notes for $96 a year (as of 2026-10-02)",
+      "The top plan bundles AI flashcards, quizzes and a lecture recorder"
+    ],
+    "cons": [
+      "Key study features are capped on the free plan: 3 annotated PDFs, 5 image occlusion cards and 1 handwritten document",
+      "The AI plan costs $216 a year, more than double Pro (as of 2026-10-02)",
+      "The web app does not work without JavaScript enabled"
+    ],
+    "best_for": "Students who want lecture notes and flashcards in one tool and will use PDF annotation or exam scheduling.",
+    "summary": "RemNote combines note-taking and spaced repetition flashcards, with a usable free plan and Pro at $96 a year. Its best features sit behind the paid tiers.",
+    "verdict_summary": "RemNote suits students who want notes and flashcards linked in one tool. The free plan includes unlimited notes, flashcards and synced devices but caps PDF annotation (3 documents), image occlusion (5 images) and handwritten notes (1 document). Pro costs $8 a month billed $96 a year and lifts those caps and adds an exam scheduler; Pro with AI is $18 a month billed $216 a year (as of 2026-10-02). It ranks second because it costs more than Anki once you need the paid features, and the AI tier is a large step up in price.",
+    "pricing_table": [
+      {
+        "plan": "Free",
+        "price": "$0 (as of 2026-10-02)",
+        "notes": "Unlimited notes and flashcards, unlimited synced devices, 3 annotated PDFs, 5 image occlusion cards, 1 handwritten document."
+      },
+      {
+        "plan": "Pro",
+        "price": "$8/month billed $96/year (as of 2026-10-02)",
+        "notes": "PDF annotation, image occlusion, tables and templates, exam scheduler, handwritten notes, 1,000 AI credits."
+      },
+      {
+        "plan": "Pro with AI",
+        "price": "$18/month billed $216/year (as of 2026-10-02)",
+        "notes": "20,000 AI credits, AI flashcards, quizzes and summaries, lecture recorder."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is RemNote free?",
+        "answer": "Yes, there is a free plan with unlimited notes, flashcards and synced devices, but PDF annotation, image occlusion and handwritten notes are capped (as of 2026-10-02)."
+      },
+      {
+        "question": "How much is RemNote Pro?",
+        "answer": "$8 per month billed $96 a year, or $18 per month billed $216 a year for Pro with AI (as of 2026-10-02)."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Free plan with unlimited notes and flashcards, unlimited synced devices, 3 annotated PDFs, 5 image occlusion cards, 1 handwritten document; Pro $8/month billed $96 yearly; Pro with AI $18/month billed $216 yearly (as of 2026-10-02).",
+        "source_name": "RemNote: Pricing (official)",
+        "source_url": "https://www.remnote.com/pricing"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-brainscape",
+    "slug": "brainscape",
+    "name": "Brainscape",
+    "category_slug": "study-tools",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.1,
+    "ratings": {
+      "outcomes": 6,
+      "cost_value": 6,
+      "academics": 6,
+      "support_services": 6,
+      "flexibility": 7
+    },
+    "price_summary": "Free Basic plan; Pro $19.99/month, $59.94 per 6 months, $95.88/year, or $199.99 lifetime (as of 2026-10-02)",
+    "pros": [
+      "Making, importing and sharing your own flashcards is free, with spaced repetition and progress tracking",
+      "Pro unlocks unlimited AI flashcard creation and Brainscape's Certified flashcard decks",
+      "A $199.99 lifetime option avoids a recurring subscription (as of 2026-10-02)",
+      "iOS and Android apps"
+    ],
+    "cons": [
+      "Paying monthly costs $19.99, about two and a half times the $7.99 per month of the annual plan (as of 2026-10-02)",
+      "Studying content made by others and Certified decks is limited on the free plan",
+      "Images and sounds on your own cards require Pro"
+    ],
+    "best_for": "Students who want pre-made, exam-focused flashcard decks and are happy to pay for Pro.",
+    "summary": "Brainscape is a spaced repetition flashcard app with free card creation and a Pro plan from $95.88 a year that unlocks AI cards and Certified decks. Monthly Pro is expensive.",
+    "verdict_summary": "Brainscape lets you make, import and share flashcards for free with spaced repetition and study reminders. Pro adds unlimited AI-made flashcards, unlimited Certified flashcards, images and sounds on cards and reverse-card study, at $19.99 a month, $59.94 every 6 months, $95.88 a year or $199.99 for life (as of 2026-10-02). It ranks behind Anki and RemNote because media on cards and Certified decks sit behind Pro, and monthly billing is expensive.",
+    "pricing_table": [
+      {
+        "plan": "Basic",
+        "price": "Free (as of 2026-10-02)",
+        "notes": "Unlimited flashcards you make, import, share; spaced repetition; progress tracking."
+      },
+      {
+        "plan": "Pro, monthly",
+        "price": "$19.99/month (as of 2026-10-02)",
+        "notes": "Unlimited AI flashcards, Certified flashcards and content made by others; images and sounds."
+      },
+      {
+        "plan": "Pro, 6 months",
+        "price": "$59.94 every 6 months (as of 2026-10-02)",
+        "notes": "Same features."
+      },
+      {
+        "plan": "Pro, yearly",
+        "price": "$95.88/year (as of 2026-10-02)",
+        "notes": "Shown as $7.99/month."
+      },
+      {
+        "plan": "Pro, lifetime",
+        "price": "$199.99 one-time (as of 2026-10-02)",
+        "notes": "Same features, no renewal."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is Brainscape free?",
+        "answer": "Making and studying your own flashcards is free. Pro costs $19.99 a month, $95.88 a year or $199.99 for life (as of 2026-10-02)."
+      },
+      {
+        "question": "What does Brainscape Pro add?",
+        "answer": "Unlimited AI flashcard creation, unlimited Certified flashcards and content made by others, images and sounds on cards, and reverse-card study."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Basic is free; Pro is $19.99 billed monthly, $59.94 every 6 months, $95.88 every 12 months (shown as $7.99/mo), or $199.99 lifetime; Pro adds unlimited AI flashcards, Certified flashcards, content by others, images and sounds (as of 2026-10-02).",
+        "source_name": "Brainscape: Pricing (official)",
+        "source_url": "https://www.brainscape.com/pricing"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-quizlet",
+    "slug": "quizlet",
+    "name": "Quizlet",
+    "category_slug": "study-tools",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.0,
+    "ratings": {
+      "outcomes": 6,
+      "cost_value": 7,
+      "academics": 5,
+      "support_services": 5,
+      "flexibility": 7
+    },
+    "price_summary": "Quizlet Plus £35.99/year; Plus Unlimited £44.99/year; Family £83.99/year for up to 5 accounts (UK prices shown on Quizlet's upgrade page, as of 2026-10-02)",
+    "pros": [
+      "Low annual price: Quizlet Plus is £35.99 a year on the UK page (as of 2026-10-02)",
+      "Plus Unlimited adds complete access to practice tests, unlimited Learn rounds and textbook solutions",
+      "A Family plan covers up to 5 accounts",
+      "7-day free trial on annual plans"
+    ],
+    "cons": [
+      "Quizlet Plus is capped: 3 practice tests, 3 Q&A or textbook solutions and 20 Learn rounds a month",
+      "Monthly plans have no free trial",
+      "Our check showed UK pricing only; the upgrade page blocked automated access, so we could not confirm US prices"
+    ],
+    "best_for": "Students who want quick, low-cost practice tests and Learn mode and are fine with a subscription.",
+    "summary": "Quizlet's paid plans add practice tests, Learn rounds and textbook solutions, from £35.99 a year in the UK. The cheaper Plus tier has tight monthly caps.",
+    "verdict_summary": "Quizlet's upgrade page in the UK lists Quizlet Plus at £35.99 a year, Plus Unlimited at £44.99 a year and a Family plan at £83.99 a year for up to 5 accounts (as of 2026-10-02). Plus includes ad-free study but caps practice tests at 3, textbook or Q&A solutions at 3 and Learn rounds at 20 per month; Plus Unlimited removes those caps. Annual plans come with a 7-day free trial, monthly plans do not. It ranks last because the cheaper tier is tightly capped and we could only confirm UK pricing.",
+    "pricing_table": [
+      {
+        "plan": "Quizlet Plus",
+        "price": "£35.99/year (UK, as of 2026-10-02)",
+        "notes": "3 practice tests, 3 Q&A or textbook solutions and 20 Learn rounds per month; ad-free."
+      },
+      {
+        "plan": "Quizlet Plus Unlimited",
+        "price": "£44.99/year (UK, as of 2026-10-02)",
+        "notes": "Complete access to practice tests, textbook solutions, unlimited Learn rounds; ad-free."
+      },
+      {
+        "plan": "Quizlet Family",
+        "price": "£83.99/year (UK, as of 2026-10-02)",
+        "notes": "Plus Unlimited features for up to 5 accounts."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How much is Quizlet Plus?",
+        "answer": "£35.99 a year for Plus and £44.99 a year for Plus Unlimited on Quizlet's UK upgrade page (as of 2026-10-02)."
+      },
+      {
+        "question": "Does Quizlet have a free trial?",
+        "answer": "Yes, a 7-day trial when you subscribe to an annual plan. Quizlet says monthly plans are not eligible."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Quizlet Plus £35.99/year with 3 practice tests, 3 Q&A or textbook solutions and 20 Learn rounds per month; Plus Unlimited £44.99/year; Family £83.99/year up to 5 accounts; 7-day trial on annual plans only (UK, as of 2026-10-02).",
+        "source_name": "Quizlet: Upgrade (official)",
+        "source_url": "https://quizlet.com/upgrade"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-college-board-official-sat-practice",
+    "slug": "college-board-official-sat-practice",
+    "name": "College Board Official SAT Practice (Bluebook and Khan Academy)",
+    "category_slug": "test-prep",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.8,
+    "ratings": {
+      "outcomes": 6,
+      "cost_value": 10,
+      "academics": 9,
+      "support_services": 6,
+      "flexibility": 8
+    },
+    "price_summary": "Free: full-length Bluebook practice tests, the Student Question Bank, Official SAT Prep on Khan Academy and Schoolhouse.world peer tutoring (as of 2026-10-02)",
+    "pros": [
+      "Free and official: College Board, which makes the SAT, provides the practice tests and question bank at no cost",
+      "Full-length practice tests in Bluebook are timed like the real test and scored, using the same app you test in",
+      "Results link to Khan Academy's Official SAT Prep, built in partnership with College Board, with walk-throughs of every practice test question",
+      "Free live small-group peer tutoring through Schoolhouse.world"
+    ],
+    "cons": [
+      "No human instructor or structured course; you build your own plan from the pieces",
+      "Live tutoring is led by trained peer tutors, not professional teachers",
+      "College Board publishes no score-improvement data for these tools on the pages we read"
+    ],
+    "best_for": "Any SAT student, and especially anyone who wants official practice without paying for a course.",
+    "summary": "College Board's own SAT practice is free and official: scored full-length tests in Bluebook, a large question bank and a Khan Academy course built with College Board. It lacks a teacher, so self-starters do best with it.",
+    "verdict_summary": "College Board's official practice is our top pick because it is free and comes from the test maker. Full-length practice tests run in Bluebook, the same app used on test day, are timed like a real test and are scored; you can then review results in My Practice, get tailored question sets, and use the Student Question Bank. College Board says Khan Academy's Official SAT Prep is developed in partnership with it and is free, with leveled practice and walk-throughs of every practice-test question. Free peer tutoring is offered through Schoolhouse.world (as of 2026-10-02). The limits are support and proof: there is no instructor-led course, and College Board does not publish score-gain data for these tools.",
+    "pricing_table": [
+      {
+        "plan": "Bluebook practice tests",
+        "price": "Free (as of 2026-10-02)",
+        "notes": "Full-length, timed and scored; results in My Practice."
+      },
+      {
+        "plan": "Official SAT Prep on Khan Academy",
+        "price": "Free (as of 2026-10-02)",
+        "notes": "Developed in partnership with College Board; leveled practice and test walk-throughs."
+      },
+      {
+        "plan": "Schoolhouse.world tutoring",
+        "price": "Free (as of 2026-10-02)",
+        "notes": "Live small-group sessions led by trained peer tutors."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is official SAT practice really free?",
+        "answer": "Yes. College Board lists its Bluebook practice tests, Student Question Bank, Official SAT Prep on Khan Academy and Schoolhouse.world tutoring as free (as of 2026-10-02)."
+      },
+      {
+        "question": "Are Bluebook practice tests scored?",
+        "answer": "Yes. Full-length practice tests are scored, and you can view and download scores in My Practice."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Free official practice resources, Bluebook practice tests, Student Question Bank and free Schoolhouse.world peer tutoring (as of 2026-10-02).",
+        "source_name": "College Board: SAT Practice and Preparation (official)",
+        "source_url": "https://satsuite.collegeboard.org/practice"
+      },
+      {
+        "claim": "Full-length Bluebook practice tests are timed like a real test and scored; results feed My Practice and Khan Academy practice.",
+        "source_name": "College Board: Bluebook practice tests (official)",
+        "source_url": "https://satsuite.collegeboard.org/practice/practice-tests/bluebook"
+      },
+      {
+        "claim": "Official SAT Prep on Khan Academy is developed in partnership with College Board and is free.",
+        "source_name": "College Board: Khan Academy (official)",
+        "source_url": "https://satsuite.collegeboard.org/practice/khan-academy"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-lsac-lawhub-advantage",
+    "slug": "lsac-lawhub-advantage",
+    "name": "LSAC LawHub Advantage (LSAT)",
+    "category_slug": "test-prep",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 7.1,
+    "ratings": {
+      "outcomes": 6,
+      "cost_value": 8,
+      "academics": 9,
+      "support_services": 5,
+      "flexibility": 7
+    },
+    "price_summary": "Free LawHub account; LawHub Advantage $124 per year (as of 2026-10-02)",
+    "pros": [
+      "Made by LSAC, the Law School Admission Council, with practice in the authentic LSAT test interface",
+      "LawHub Advantage adds an extensive library of official LSAT PrepTests for $124 a year (as of 2026-10-02)",
+      "A free account already includes practice in the test interface and free webinars",
+      "Extras beyond the test: an application status tracker and on-demand courses for the first year of law school"
+    ],
+    "cons": [
+      "Practice material only: there is no instructor or teaching of LSAT strategy in the plan as described",
+      "Annual subscription only on the page we read, with no monthly option listed",
+      "LSAC publishes no score-improvement data for LawHub on that page"
+    ],
+    "best_for": "LSAT takers who want the official practice tests in the real interface and will pair them with their own study method.",
+    "summary": "LawHub Advantage is LSAC's own $124-a-year subscription for official LSAT PrepTests in the real test interface. It is the source material, not a course.",
+    "verdict_summary": "LawHub Advantage is LSAC's official LSAT practice product. LSAC offers a free LawHub account for practice in the authentic interface, and LawHub Advantage at $124 a year adds an extensive library of Official LSAT PrepTests, an application status tracker and on-demand law school prep courses (as of 2026-10-02). For realistic practice it is hard to beat. It does not teach, though: there is no instructor or strategy course in the plan, so plan to pair it with a book, course or tutor. LSAC does not publish score-gain data for it.",
+    "pricing_table": [
+      {
+        "plan": "LawHub (free account)",
+        "price": "Free (as of 2026-10-02)",
+        "notes": "Practice in the authentic LSAT interface, free webinars, school list tools."
+      },
+      {
+        "plan": "LawHub Advantage",
+        "price": "$124 per year (as of 2026-10-02)",
+        "notes": "Extensive library of Official LSAT PrepTests, Application Status Tracker, on-demand courses."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How much is LawHub Advantage?",
+        "answer": "$124 per year (as of 2026-10-02). A basic LawHub account is free."
+      },
+      {
+        "question": "Does LawHub Advantage teach the LSAT?",
+        "answer": "It provides official PrepTests in the real interface plus law school courses. The LSAC page we read does not describe LSAT strategy instruction."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "A LawHub account is free; LawHub Advantage costs $124/year and adds an extensive library of Official LSAT PrepTests, the Application Status Tracker and on-demand courses (as of 2026-10-02).",
+        "source_name": "LSAC: LawHub (official)",
+        "source_url": "https://www.lsac.org/lawhub"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-magoosh-gre",
+    "slug": "magoosh-gre",
+    "name": "Magoosh GRE Premium",
+    "category_slug": "test-prep",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.8,
+    "ratings": {
+      "outcomes": 6,
+      "cost_value": 7,
+      "academics": 7,
+      "support_services": 7,
+      "flexibility": 8
+    },
+    "price_summary": "Premium 1 month $149; Premium 6 months $179 (or 4 payments of $44.75); Premium + Admissions $219 (US list prices as of 2026-10-02; promo codes often run)",
+    "pros": [
+      "A full course rather than just tests: 290+ video lessons, 1,600+ practice questions and up to 6 practice tests",
+      "Includes 8 full sections of official GRE questions licensed from ETS",
+      "The 6-month plan is $179, only $30 more than one month (as of 2026-10-02)",
+      "7-day no-questions-asked money-back guarantee and a +5 point score-improvement guarantee on your previous GRE score"
+    ],
+    "cons": [
+      "Most practice tests come from Magoosh's own question pool, not ETS",
+      "The +5 guarantee is measured against a previous official GRE score, so it does little for first-time takers",
+      "Prices change with frequent promo codes, so the list price may not be what you pay",
+      "Magoosh publishes no audited score-gain data on its plans page"
+    ],
+    "best_for": "GRE students who want a structured, self-paced video course with plenty of practice at a moderate price.",
+    "summary": "Magoosh GRE Premium is a self-paced video course with 1,600+ questions, up to 6 practice tests and some official ETS questions, from $149. It teaches, which ETS's own materials do not, but its practice tests are not official.",
+    "verdict_summary": "Magoosh GRE Premium is the best taught option for the GRE here. For $149 (1 month) or $179 (6 months) you get 290+ video lessons, 1,600+ practice questions, up to 6 practice tests, study schedules, 8 full sections of official GRE questions licensed from ETS, and ask-an-expert support (US list prices as of 2026-10-02). It also offers a 7-day no-questions-asked refund and a +5 point improvement guarantee on your previous GRE score. The limits: most practice tests are Magoosh-written, the score guarantee assumes you have sat the GRE before, and there is no audited outcome data. Pair it with ETS's free POWERPREP tests for an official benchmark.",
+    "pricing_table": [
+      {
+        "plan": "Premium, 1 month",
+        "price": "$149 (as of 2026-10-02)",
+        "notes": "All content, +5 score guarantee, ask an expert, pause your plan."
+      },
+      {
+        "plan": "Premium, 6 months",
+        "price": "$179, or 4 payments of $44.75 (as of 2026-10-02)",
+        "notes": "Same content with 6 months of access."
+      },
+      {
+        "plan": "Premium + Admissions",
+        "price": "$219, or 4 payments of $54.75 (as of 2026-10-02)",
+        "notes": "6 months GRE Premium plus 12 months of admissions support."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How much does Magoosh GRE cost?",
+        "answer": "Premium is $149 for 1 month or $179 for 6 months; Premium + Admissions is $219 (US list prices as of 2026-10-02). Promo codes often reduce these."
+      },
+      {
+        "question": "What is the Magoosh score guarantee?",
+        "answer": "Magoosh advertises a +5 point improvement on your previous GRE score for Premium plans, plus a 7-day no-questions-asked money-back guarantee. Check its terms before you buy."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "Premium 1 month $149; 6 months $179 or 4 x $44.75; Premium + Admissions $219 or 4 x $54.75; 290+ video lessons, 1,600+ questions, up to 6 practice tests, 8 full sections of official GRE questions from ETS, +5 total score guarantee, 7-day money-back guarantee (as of 2026-10-02).",
+        "source_name": "Magoosh: GRE Plans and Pricing (official)",
+        "source_url": "https://gre.magoosh.com/plans"
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "prod-ets-official-gre-prep",
+    "slug": "ets-official-gre-prep",
+    "name": "ETS Official GRE Prep (POWERPREP)",
+    "category_slug": "test-prep",
+    "is_monetized": false,
+    "affiliate_url": null,
+    "rating_overall": 6.7,
+    "ratings": {
+      "outcomes": 6,
+      "cost_value": 7,
+      "academics": 9,
+      "support_services": 4,
+      "flexibility": 7
+    },
+    "price_summary": "Two free POWERPREP Online practice tests; POWERPREP PLUS Online $44.95 per test; Official Guide to the GRE $45 plus shipping (as of 2026-10-02)",
+    "pros": [
+      "Written by ETS, which makes the GRE, so every question is real",
+      "Two free full-length POWERPREP Online tests, one timed and one untimed, with scored sample essays",
+      "POWERPREP PLUS tests give instant scores, answer explanations and difficulty levels for $44.95 each (as of 2026-10-02)",
+      "The Official Guide ($45 plus shipping) includes two more POWERPREP Online tests at no extra cost"
+    ],
+    "cons": [
+      "No teaching: these are tests and books, not lessons or a study plan",
+      "Costs add up if you buy several POWERPREP PLUS tests at $44.95 each",
+      "The free untimed test gives no Verbal or Quant score",
+      "The ETS books page labels the Official Guide as the Fourth Edition in one place and the third edition in another, so check the edition before you buy"
+    ],
+    "best_for": "GRE takers who want official practice tests to measure progress, alongside another study method.",
+    "summary": "ETS's own GRE practice gives two free full-length tests and paid POWERPREP PLUS tests at $44.95 each. It is the most realistic practice available but does not teach.",
+    "verdict_summary": "ETS makes the GRE, so its practice is the benchmark for realism. Two POWERPREP Online tests are free (one timed, one untimed), and POWERPREP PLUS Online tests cost $44.95 each and add instant scoring, explanations, difficulty levels and scored sample essays (as of 2026-10-02). The Official Guide to the GRE General Test costs $45 plus shipping and includes two more POWERPREP Online tests. It ranks behind Magoosh here because there is no instruction or study plan and paid tests are priced one at a time.",
+    "pricing_table": [
+      {
+        "plan": "POWERPREP Online",
+        "price": "Free (as of 2026-10-02)",
+        "notes": "Two full-length tests: one untimed (no Verbal or Quant scores), one timed."
+      },
+      {
+        "plan": "POWERPREP PLUS Online",
+        "price": "$44.95 per test (as of 2026-10-02)",
+        "notes": "Instant scores, answer explanations, difficulty levels, scored essays."
+      },
+      {
+        "plan": "Official Guide to the GRE General Test",
+        "price": "$45 plus shipping (as of 2026-10-02)",
+        "notes": "Includes two simulated POWERPREP Online tests at no extra cost."
+      },
+      {
+        "plan": "Official GRE Super Power Pack",
+        "price": "$80 plus shipping (as of 2026-10-02)",
+        "notes": "Official Guide plus Verbal and Quant practice books."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Are ETS GRE practice tests free?",
+        "answer": "Two POWERPREP Online practice tests are free. POWERPREP PLUS Online tests cost $44.95 each (as of 2026-10-02)."
+      },
+      {
+        "question": "What does POWERPREP PLUS add?",
+        "answer": "Instant scoring with detailed reports, answer explanations and difficulty levels, scored Analytical Writing essays with commentary, and the on-screen calculator, per ETS."
+      }
+    ],
+    "evidence_points": [
+      {
+        "claim": "POWERPREP PLUS Online costs $44.95 per practice test; POWERPREP Online tests 1 (untimed) and 2 (timed) are free (as of 2026-10-02).",
+        "source_name": "ETS: POWERPREP (official)",
+        "source_url": "https://www.ets.org/gre/test-takers/general-test/prepare/powerprep.html"
+      },
+      {
+        "claim": "Official Guide to the GRE General Test $45 plus shipping with two POWERPREP Online tests; Verbal and Quant books $25 each; Super Power Pack $80; ScoreItNow! $20 (as of 2026-10-02).",
+        "source_name": "ETS: Books and services (official)",
+        "source_url": "https://www.ets.org/gre/test-takers/general-test/prepare/prep-books-services.html"
+      }
+    ],
+    "last_updated": "2026-10-02"
   }
 ]

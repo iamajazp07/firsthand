@@ -73,5 +73,137 @@
       }
     ],
     "last_updated": "2026-07-18"
+  },
+  {
+    "id": "hub-best-cruise-lines-booking-terms",
+    "slug": "best-cruise-lines-booking-terms",
+    "title": "Best Cruise Lines for Flexible Booking Terms of 2026",
+    "category_slug": "cruises",
+    "intro_mdx_or_text": "Cruise fares change constantly, but the rules about what you lose if you cancel, and what costs extra once you are onboard, are published. This guide compares Carnival, Disney Cruise Line, Royal Caribbean and Celebrity on their own cancellation schedules, deposit rules, gratuities and what the fare includes, read from each line's official U.S. or North American terms and FAQs as of 2026-10-02. For ship hygiene, the U.S. Centers for Disease Control and Prevention's Vessel Sanitation Program covers ships carrying 13 or more passengers on foreign itineraries with U.S. ports, and publishes inspection scores and reports through its online query tool. Firsthand did not sail with these lines and does not survey passengers. Terms change, so check each line's current terms before paying. We score each line on Value (30%), Experience (25%), Flexibility (20%), Transparency (15%) and Service (10%).",
+    "answer_block": "Carnival is our top pick on booking terms: on 6-day and longer cruises it charges nothing up to 91 days out (except non-refundable payments) and keeps the full fare only within 14 days of sailing (as of 2026-10-02). Disney Cruise Line is second, with a 90 to 120 day fee-free window and the same 14-day full-fare cutoff, but restricted categories are 100% non-refundable and the deposit is set at booking. Royal Caribbean is third: the clearest gratuity disclosure we read, but the full fare is lost at 30 days. Celebrity is fourth: its All Included price bundles drinks and Wi-Fi, but staff gratuities are extra and it shares Royal Caribbean's 30-day cutoff.",
+    "product_slugs": [
+      "carnival-cruise-line",
+      "disney-cruise-line",
+      "royal-caribbean",
+      "celebrity-cruises"
+    ],
+    "faq": [
+      {
+        "question": "Which cruise line has the most flexible cancellation policy?",
+        "answer": "On published U.S. terms, Carnival and Disney keep the full fare only within 14 days of sailing, while Royal Caribbean and Celebrity charge 100% at 30 days or less (as of 2026-10-02). Carnival ranks first here because its deposit is the only penalty from 90 to 56 days on longer cruises and its gratuities are published."
+      },
+      {
+        "question": "Are cruise gratuities included in the fare?",
+        "answer": "Not on these four lines. Carnival recommends $17.00 to $19.00 per person per day, Royal Caribbean charges $18.50 to $21.00, Disney lists gratuities as excluded from the fare, and Celebrity charges staff gratuities separately even on All Included fares (as of 2026-10-02)."
+      },
+      {
+        "question": "How can I check a cruise ship's sanitation record?",
+        "answer": "The CDC's Vessel Sanitation Program inspects ships carrying 13 or more passengers on foreign itineraries with U.S. ports, and publishes inspection scores and reports, including violations, through its Inspection Query Tool on the CDC website."
+      },
+      {
+        "question": "Do you sail with these cruise lines to review them?",
+        "answer": "No. Firsthand reads each line's published contracts and FAQs, cites them with an as-of date, and does not take sailings, press trips or passenger surveys. Terms change, so check the line's current terms before you book."
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "hub-best-airlines-flexible-fares",
+    "slug": "best-airlines-flexible-fares",
+    "title": "Best U.S. Airlines for Flexible Fares of 2026",
+    "category_slug": "flights-airlines",
+    "intro_mdx_or_text": "Airfares change by the minute, so this guide does not compare ticket prices. It compares the rules that decide what happens when your plans change: change and cancellation fees by fare type, how long credits last, what the cheapest fare gives up, and checked bag fees. We read each airline's own fare and fee pages for Southwest, Delta, Alaska and American as of 2026-10-02, and the U.S. Department of Transportation's refund rules, which apply whatever fare you buy. Where an airline's own pages contradict each other, we say so and mark transparency down. Firsthand did not fly these airlines and does not survey passengers. Airline policies change often, so check the linked official page before you book. We score each airline on Value (30%), Experience (25%), Flexibility (20%), Transparency (15%) and Service (10%).",
+    "answer_block": "Southwest is our top pick for flexible fares: it lists a $0 change fee and a $0 cancellation fee on every fare type, and Choice-family credits last 12 months (as of 2026-10-02). Delta is second, with free changes on Classic and higher fares from the U.S. and Canada and a $99 fee to change or cancel Basic within North America. Alaska is third: Main and First Class change free, but Saver is the most restrictive fare here. American is fourth: Main Cabin changes free on trips starting in the Americas, but Basic Economy is locked after 24 hours and its bag fees are the highest we found. Whatever you buy, U.S. DOT rules require a refund if the airline cancels or significantly changes your flight and you decline the alternative.",
+    "product_slugs": [
+      "southwest-airlines",
+      "delta-air-lines",
+      "alaska-airlines",
+      "american-airlines"
+    ],
+    "faq": [
+      {
+        "question": "Which U.S. airline has the most flexible fares in 2026?",
+        "answer": "On published rules, Southwest: its optional charges page lists the change fee and cancellation fee as $0 on all fares (as of 2026-10-02). Delta, Alaska and American also drop change fees on their main fares, but their basic fares are more restricted."
+      },
+      {
+        "question": "When must an airline give me a cash refund?",
+        "answer": "Under U.S. DOT rules, when the airline cancels or significantly changes your flight and you do not accept the new flight, a rebooking, or a credit. A significant change includes a domestic departure 3 or more hours earlier or arrival 3 or more hours later, a different airport, more connections, or a downgrade. Refunds are due within 7 business days for card purchases and 20 calendar days for other payment methods."
+      },
+      {
+        "question": "Can I cancel any flight within 24 hours?",
+        "answer": "DOT rules require airlines to either let you cancel for a full refund within 24 hours or hold the fare for 24 hours, for tickets bought at least 7 days before departure. The rule does not apply to tickets bought through online travel agencies. Delta, Alaska and American each describe a 24-hour cancellation policy on their own pages."
+      },
+      {
+        "question": "Do you fly these airlines to review them?",
+        "answer": "No. Firsthand reads each airline's published fare rules and fee tables and the DOT's rules, cites them with an as-of date, and does not take flights or survey passengers. Policies change, so treat this as a reading of the official record and check the airline's page before you buy."
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "hub-best-hotel-loyalty-programs",
+    "slug": "best-hotel-loyalty-programs",
+    "title": "Best Hotel Loyalty Programs of 2026",
+    "category_slug": "hotels-lodging",
+    "intro_mdx_or_text": "Hotel loyalty programmes are free to join, so the real cost shows up in the fine print: how fast points expire, which free-night offers you actually qualify for, how many nights status takes, and which fees earn nothing. This guide compares World of Hyatt, Marriott Bonvoy, Hilton Honors and IHG One Rewards using only each programme's own published terms as of 2026-10-02. We do not compare room rates, which change daily, and we do not treat points as equal across programmes, because a point is worth a different amount in each. Cancellation rules for paid stays are not set by the programme: Hilton's terms, for example, say deposit and cancellation restrictions vary by hotel. Firsthand did not stay at these hotels and does not survey guests. Terms change often, so read the linked official terms before relying on any rule. We score each programme on Value (30%), Experience (25%), Flexibility (20%), Transparency (15%) and Service (10%).",
+    "answer_block": "World of Hyatt is our top pick on published terms: status starts at 10 nights, lasts into the second year, and points survive 24 months of inactivity (as of 2026-10-02). Marriott Bonvoy is second, mainly because every member gets Stay for 5, Pay for 4 on five-night points stays. Hilton Honors is third: its every-5th-night-free benefit has no annual cap but is listed as a Silver Elite benefit. IHG One Rewards is fourth because Club members' points expire after just 12 months without activity, although elite members' points never expire while they keep status.",
+    "product_slugs": [
+      "world-of-hyatt",
+      "marriott-bonvoy",
+      "hilton-honors",
+      "ihg-one-rewards"
+    ],
+    "faq": [
+      {
+        "question": "Which hotel loyalty programme has the friendliest points expiry?",
+        "answer": "Hyatt, Marriott and Hilton all forfeit points after 24 consecutive months without activity. IHG is stricter for base members at 12 months, though IHG elite members' points do not expire while they hold status. Hyatt also counts holding its co-branded credit card as activity."
+      },
+      {
+        "question": "Which programmes give a free night on longer award stays?",
+        "answer": "Marriott gives all members Stay for 5, Pay for 4 on five consecutive points nights booked on one reservation. Hilton gives every 5th night free on all-points Standard Room Reward stays, listed as a Silver Elite benefit. We did not find a programme-wide equivalent in Hyatt's or IHG's member terms."
+      },
+      {
+        "question": "Can I compare points between programmes?",
+        "answer": "Not directly. Hyatt quotes 5 Base Points per dollar while Marriott, Hilton and IHG quote 10, but each programme prices awards on its own chart, so compare the points cost of the specific stay you want."
+      },
+      {
+        "question": "Do you stay at these hotels to review them?",
+        "answer": "No. Firsthand reads each programme's published terms, cites them with an as-of date, and does not take stays, press trips or guest surveys. Terms change; check the official terms before you rely on them."
+      }
+    ],
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "hub-best-no-foreign-transaction-fee-cards",
+    "slug": "best-no-foreign-transaction-fee-cards",
+    "title": "Best No Foreign Transaction Fee Travel Cards of 2026",
+    "category_slug": "travel-cards",
+    "intro_mdx_or_text": "A foreign transaction fee adds a percentage to every purchase you make abroad, so for travel spending it is the first thing to rule out. All four cards in this guide charge no foreign transaction fee: the Chase Sapphire Preferred, the Wells Fargo Autograph, the Bank of America Travel Rewards card and the Capital One VentureOne. We compare them on what the issuers publish on their own card pages as of 2026-10-02: annual fees, APR ranges and intro periods, earn rates, welcome offers and any listed travel protections. Rates and offers change often, so check each issuer's page before applying. Firsthand did not hold or test these cards, and this is not financial advice. For full card-by-card analysis, see Firsthand Money. We score each card on Value (30%), Experience (25%), Flexibility (20%), Transparency (15%) and Service (10%); for cards, flexibility credits published protections that help when travel plans change.",
+    "answer_block": "All four cards charge no foreign transaction fee (as of 2026-10-02). The Chase Sapphire Preferred ranks first for travelers: it costs $95 a year but is the only card here listing trip cancellation (up to $10,000 per traveler), rental car and baggage delay cover. The Wells Fargo Autograph is the best no-fee pick for earning, with 3x on travel, dining, gas and transit. Bank of America Travel Rewards has the lowest APR range and a 15-cycle 0% intro period with plainly published balance transfer fees. The Capital One VentureOne offers 15 months at 0% on purchases and transfers but the lowest base earn rate.",
+    "product_slugs": [
+      "chase-sapphire-preferred",
+      "wells-fargo-autograph",
+      "bank-of-america-travel-rewards",
+      "capital-one-ventureone"
+    ],
+    "faq": [
+      {
+        "question": "Which travel card has no foreign transaction fee and no annual fee?",
+        "answer": "Three cards in this guide: the Wells Fargo Autograph, the Bank of America Travel Rewards card and the Capital One VentureOne all list $0 annual fees and no foreign transaction fees (as of 2026-10-02). The Chase Sapphire Preferred also has no foreign transaction fees but costs $95 a year."
+      },
+      {
+        "question": "Which of these cards includes trip cancellation insurance?",
+        "answer": "Of the four card pages we read, only the Chase Sapphire Preferred lists trip cancellation coverage (up to $10,000 per covered traveler), along with auto rental and baggage delay cover. Benefits have terms and limits, so read the issuer's benefit guide."
+      },
+      {
+        "question": "Are these welcome offers and APRs fixed?",
+        "answer": "No. Issuers change welcome offers and APR ranges often, and your APR depends on your credit. Every figure here is cited with the date we read it; check the issuer's page before you apply."
+      },
+      {
+        "question": "Is this financial advice?",
+        "answer": "No. Firsthand reads issuers' published terms and does not hold or test cards. It is not personalized financial advice; choose a card based on your own spending and credit, and see Firsthand Money for fuller card analysis."
+      }
+    ],
+    "last_updated": "2026-10-02"
   }
 ]
