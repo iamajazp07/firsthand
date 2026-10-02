@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { activeCategorySlugs } from "@/lib/active-categories";
 import {
   getAuthors,
   getCategories,
@@ -72,7 +73,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const key = vertical.key;
     const url = (path: string) => verticalUrl(key, path);
 
-    const [categories, authors, reviewers, hubs, products, articles, news] =
+    const [allCategories, authors, reviewers, hubs, products, articles, news, active] =
       await Promise.all([
         getCategories(key),
         getAuthors(key),
@@ -84,7 +85,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         // to the rest. A sitemap stuffed with every record buries the pages
         // that actually earn rankings.
         listNews(key, { limit: SITEMAP_NEWS_LIMIT }),
+        activeCategorySlugs(key),
       ]);
+    const categories = allCategories.filter((c) => active.has(c.slug));
 
     entries.push(
       // Vertical homepage.

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { activeCategorySlugs } from "@/lib/active-categories";
 import { notFound } from "next/navigation";
 
 import Header from "@/components/Header";
@@ -85,6 +86,8 @@ export default async function VerticalLayout({
   if (!isVerticalKey(key) || key === "portal") notFound();
 
   const v = getVertical(key);
+  const active = await activeCategorySlugs(key);
+  const categories = v.navCategories.filter((c) => active.has(c.slug));
 
   const organizationJsonLd = {
     "@context": "https://schema.org",
@@ -103,11 +106,11 @@ export default async function VerticalLayout({
       <Header
         verticalKey={key}
         brandName={v.name}
-        categories={v.navCategories}
+        categories={categories}
         primaryCount={v.navPrimaryCount}
       />
       <main className="flex-1">{children}</main>
-      <Footer verticalKey={key} />
+      <Footer verticalKey={key} categories={categories} />
     </>
   );
 }

@@ -3,11 +3,17 @@ import LogoMark from "@/components/LogoMark";
 import { getVertical } from "@/lib/verticals";
 import { sharedHref, vHref } from "@/lib/site";
 
-export default function Footer({ verticalKey }: { verticalKey: string }) {
+export default function Footer({
+  verticalKey,
+  categories: activeCategories,
+}: {
+  verticalKey: string;
+  categories?: Array<{ name: string; slug: string }>;
+}) {
   const vertical = getVertical(verticalKey);
   const isPortal = verticalKey === "portal";
   const base = isPortal ? "" : vHref(verticalKey).replace(/\/$/, "");
-  const categories = vertical.navCategories;
+  const categories = activeCategories ?? vertical.navCategories;
 
   /**
    * Network-wide policy pages — one canonical copy each, on the apex. These

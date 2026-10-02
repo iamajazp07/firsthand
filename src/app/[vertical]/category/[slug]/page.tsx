@@ -13,6 +13,8 @@ import {
   getProductsByCategory,
 } from "@/lib/db";
 import { listPublishedArticlesByCategory } from "@/lib/queue";
+import { listNews } from "@/lib/news";
+import { activeCategorySlugs } from "@/lib/active-categories";
 import { getVertical } from "@/lib/verticals";
 import { vHref, verticalUrl } from "@/lib/site";
 
@@ -58,12 +60,16 @@ export default async function CategoryPage({
   const category = await getCategoryBySlug(verticalKey, slug);
   if (!category) notFound();
 
-  const [articles, publishedArticles, hubs, products] = await Promise.all([
+  const [articles, publishedArticles, hubs, products, news, active] = await Promise.all([
     getArticlesByCategory(verticalKey, category.id),
     listPublishedArticlesByCategory(verticalKey, category.slug),
     getHubsByCategory(verticalKey, category.slug),
     getProductsByCategory(verticalKey, category.slug),
+    listNews(verticalKey, { category_slug: category.slug, limit: 30 }),
+    activeCategorySlugs(verticalKey),
   ]);
+  // Nothing to show yet: 404 rather than publish an empty page.
+  if (!active.has(category.slug)) notFound();
 
   // The timely "news" layer: original analysis of primary-source announcements.
   // Config-driven per vertical (health: health-news/health-tech-ai;
@@ -160,6 +166,51 @@ export default async function CategoryPage({
               </article>
             ))}
           </div>
+        </section>
+      )}
+
+      {news.length > 0 && (
+        <section className="mx-auto max-w-7xl px-4 pt-12 sm:px-6">
+          <h2 className="font-serif text-2xl font-bold text-brand-navy">
+            Latest official announcements
+          </h2>
+          <p className="mt-2 max-w-3xl text-sm text-brand-ink/70">
+            Straight from the bodies that issue them, in their own words, with a
+            link to the original.
+          </p>
+          <ul className="mt-6 divide-y divide-brand-mist border-t border-brand-mist">
+            {news.map((n) => (
+              <li key={n.id} className="py-5">
+                <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                  <h3 className="font-serif text-lg font-bold leading-snug text-brand-navy">
+                    <Link
+                      href={vHref(verticalKey, `/news/${n.slug}`)}
+                      className="hover:underline"
+                    >
+                      {n.title}
+                    </Link>
+                  </h3>
+                  {formatDate(n.published_at) && (
+                    <time
+                      dateTime={n.published_at}
+                      className="text-xs font-semibold uppercase tracking-wider text-brand-ink/50"
+                    >
+                      {formatDate(n.published_at)}
+                    </time>
+                  )}
+                </div>
+                <p className="mt-1 text-xs text-brand-ink/60">{n.source_name}</p>
+                {n.summary && (
+                  <p className="mt-2 max-w-3xl text-sm leading-relaxed text-brand-ink/80">
+                    {oneLine(n.summary)}
+                  </p>
+                )}
+              </li>
+            ))}
+          </ul>
+          <p className="mt-6 text-sm font-semibold text-brand-blue">
+            <Link href={vHref(verticalKey, "/news")}>All announcements →</Link>
+          </p>
         </section>
       )}
 
