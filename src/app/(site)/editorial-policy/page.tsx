@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Editorial Policy",
   description:
-    "Firsthand's editorial standards: primary-source research (PubMed, NIH, FDA), no disease-cure claims, a corrections policy, human review before publishing, and mandatory medical review for health money pages.",
+    "Firsthand's editorial standards: primary-source research (PubMed, NIH, FDA), no disease-cure claims, a corrections policy, human review before publishing, and a mandatory editorial fact-check for health money pages.",
   alternates: { canonical: "/editorial-policy" },
 };
 
@@ -76,10 +76,13 @@ export default function EditorialPolicyPage() {
             Human review before publishing
           </h2>
           <p>
-            Every article is reviewed by a human editor before publication —
-            no piece of content goes live automatically. Editors check claims
-            against the cited sources, verify links, and confirm the article
-            meets this policy.
+            Every article, review and ranking is reviewed by a human editor
+            before publication. Editors check claims against the cited
+            sources, verify links, and confirm the article meets this policy.
+            The one exception is the news tracker: it republishes official
+            announcements automatically, as an excerpt in the words of the body
+            that issued them, with a link to the original. Those pages are labelled
+            as such and carry no Firsthand analysis unless a human has added it.
           </p>
 
           <h2 className="pt-6 font-serif text-2xl font-bold text-brand-navy">

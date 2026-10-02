@@ -93,7 +93,7 @@ export default async function HomePage({
                   home?.trustPoints ?? [
                     "Rankings built from published clinical research, not sponsorships.",
                     "Clear methodology on every comparison page.",
-                    "Medical review before any health claim is published.",
+                    "Every health claim fact-checked against its cited source.",
                   ]
                 ).map((point) => (
                   <li key={point}>{`• ${point}`}</li>

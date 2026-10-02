@@ -117,9 +117,9 @@ export default async function ReviewPage({
       datePublished: product.last_updated,
       author: author
         ? {
-            "@type": "Person",
+            "@type": "Organization",
             name: author.name,
-            url: `${SITE_URL}/authors/${author.slug}`,
+            url: verticalUrl(verticalKey, `/authors/${author.slug}`),
           }
         : undefined,
       publisher: {

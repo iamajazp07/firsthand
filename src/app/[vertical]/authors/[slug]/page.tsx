@@ -56,9 +56,8 @@ export default async function AuthorPage({
 
   const personJsonLd = {
     "@context": "https://schema.org",
-    "@type": "Person",
+    "@type": "Organization",
     name: author.name,
-    jobTitle: "Health Research Analyst",
     description: author.bio,
     url: verticalUrl(verticalKey, `/authors/${author.slug}`),
   };
@@ -106,8 +105,8 @@ export default async function AuthorPage({
               to the studies behind them, effect sizes are put in plain
               language, and weak or missing evidence is called out rather than
               papered over. Nothing written here is medical advice — health
-              content is checked by a medical reviewer before it reaches money
-              pages, and readers are always pointed to their own clinicians for
+              content is fact-checked against its cited sources before it
+              reaches money pages (this is not medical review), and readers are always pointed to their own clinicians for
               decisions about their care.
             </p>
           </div>

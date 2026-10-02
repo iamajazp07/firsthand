@@ -7,7 +7,7 @@ import { getAuthors, getReviewers } from "@/lib/db";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Firsthand is an independent health & wellness review directory. Evidence-based analysis, honest cons, medical review — and a published methodology behind every ranking.",
+    "Firsthand publishes independent, evidence-first reviews and rankings across health, money, tech, education and travel, with honest cons and a published methodology behind every ranking.",
   alternates: { canonical: "/about" },
 };
 
@@ -34,8 +34,8 @@ export default async function AboutPage() {
             About Firsthand
           </h1>
           <p className="mt-3 max-w-3xl text-base leading-relaxed text-brand-ink/80">
-            An independent health &amp; wellness review directory built on
-            clinical evidence, not hype.
+            Independent, evidence-first reviews and rankings across health,
+            money, tech, education and travel.
           </p>
         </div>
       </section>
@@ -46,7 +46,7 @@ export default async function AboutPage() {
             What Firsthand is
           </h2>
           <p>
-            Firsthand is an independent review directory for health and
+            Firsthand started as an independent review directory for health and
             wellness products and services — supplements, telehealth
             providers, sleep aids, dental and hearing products, and more. The
             health market is crowded with bold claims and thin evidence, and

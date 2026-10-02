@@ -105,9 +105,9 @@ export default async function HubPage({
     dateModified: hub.last_updated,
     author: author
       ? {
-          "@type": "Person",
+          "@type": "Organization",
           name: author.name,
-          url: `${SITE_URL}/authors/${author.slug}`,
+          url: verticalUrl(verticalKey, `/authors/${author.slug}`),
         }
       : undefined,
     publisher: {

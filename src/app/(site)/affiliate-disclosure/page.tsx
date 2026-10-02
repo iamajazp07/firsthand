@@ -68,8 +68,8 @@ export default function AffiliateDisclosurePage() {
             What commissions do — and don&apos;t — affect
           </h2>
           <p>
-            Commissions pay for the research time, editorial work, and medical
-            review behind this site. They do not buy placement. Specifically:
+            Commissions pay for the research time and editorial fact-checking
+            behind this site. They do not buy placement. Specifically:
           </p>
           <ul className="list-disc space-y-2 pl-6">
             <li>

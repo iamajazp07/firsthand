@@ -114,13 +114,13 @@ export default async function ArticlePage({
     dateModified: modifiedIso,
     author: author
       ? {
-          "@type": "Person",
+          "@type": "Organization",
           name: author.name,
-          url: `${SITE_URL}/authors/${author.slug}`,
+          url: verticalUrl(verticalKey, `/authors/${author.slug}`),
         }
       : undefined,
     reviewedBy: reviewer
-      ? { "@type": "Person", name: reviewer.name }
+      ? { "@type": "Organization", name: reviewer.name }
       : undefined,
     publisher: {
       "@type": "Organization",

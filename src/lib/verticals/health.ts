@@ -180,7 +180,7 @@ export const health: Vertical = {
     trustPoints: [
       "Rankings built from published clinical research, not sponsorships.",
       "Clear methodology on every comparison page.",
-      "Medical review before any health claim is published.",
+      "Every health claim fact-checked against its cited source.",
     ],
     rankingsLabel: "2026 editions",
     rankings: [
