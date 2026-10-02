@@ -6,7 +6,7 @@ import { sharedHref, vHref } from "@/lib/site";
 export default function Footer({ verticalKey }: { verticalKey: string }) {
   const vertical = getVertical(verticalKey);
   const isPortal = verticalKey === "portal";
-  const base = isPortal ? "" : vHref(verticalKey);
+  const base = isPortal ? "" : vHref(verticalKey).replace(/\/$/, "");
   const categories = vertical.navCategories;
 
   /**

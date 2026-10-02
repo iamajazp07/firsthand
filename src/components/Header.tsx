@@ -28,7 +28,7 @@ export default function Header({
   const [moreOpen, setMoreOpen] = useState(false);
 
   // Portal pages live at the root; vertical pages are nested under /<key>.
-  const base = verticalKey === "portal" ? "" : vHref(verticalKey);
+  const base = verticalKey === "portal" ? "" : vHref(verticalKey).replace(/\/$/, "");
   const primary = categories.slice(0, primaryCount);
   const more = categories.slice(primaryCount);
 

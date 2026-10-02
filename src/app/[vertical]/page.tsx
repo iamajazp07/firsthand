@@ -3,9 +3,14 @@ import ArticleCard from "@/components/ArticleCard";
 import RankingCard from "@/components/RankingCard";
 import NewsletterBand from "@/components/NewsletterBand";
 import { getArticles, getAuthors, getCategories } from "@/lib/db";
-import { brandFor } from "@/lib/site";
+import { brandFor, vHref } from "@/lib/site";
+import { listNews } from "@/lib/news";
 import { getVertical, isVerticalKey } from "@/lib/verticals";
 import { notFound } from "next/navigation";
+
+// News is read from the mounted volume at request time, so the home stays
+// current between deploys.
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
   params,
@@ -42,11 +47,14 @@ export default async function HomePage({
   // health-specific string (or broken link to a health-only hub) ever appears.
   const home = getVertical(verticalKey).homepage;
 
-  const [articles, categories, authors] = await Promise.all([
+  const [allArticles, categories, authors, news] = await Promise.all([
     getArticles(verticalKey),
     getCategories(verticalKey),
     getAuthors(verticalKey),
+    listNews(verticalKey, { limit: 6 }),
   ]);
+  // Drafts never appear on the home page; their own pages 404.
+  const articles = allArticles.filter((a) => a.status === "published");
 
   const categoryName = (id: string) =>
     categories.find((c) => c.id === id)?.name ?? "Health";
@@ -145,57 +153,57 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* Latest Analysis */}
+      {/* Latest analysis (published articles) and official announcements */}
       <section className="bg-brand-mist/60">
         <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
+          {rest.length > 0 && (
+            <>
+              <h2 className="font-serif text-2xl font-bold text-brand-navy">
+                Latest Analysis
+              </h2>
+              <div className="mt-6 mb-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                {rest.map((a) => (
+                  <ArticleCard
+                    key={a.id}
+                    title={a.title}
+                    category={categoryName(a.category_id)}
+                    excerpt={a.body_mdx}
+                    byline={authorName(a.author_id)}
+                    href={vHref(verticalKey, `/articles/${a.slug}`)}
+                  />
+                ))}
+              </div>
+            </>
+          )}
           <h2 className="font-serif text-2xl font-bold text-brand-navy">
-            Latest Analysis
+            Latest official announcements
           </h2>
+          <p className="mt-2 text-sm text-brand-ink/70">
+            Straight from the bodies that issue them, in their own words, with a
+            link to the original.
+          </p>
           <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {(rest.length ? rest : articles).map((a) => (
+            {news.map((n) => (
               <ArticleCard
-                key={a.id}
-                title={a.title}
-                category={categoryName(a.category_id)}
-                excerpt={a.body_mdx}
-                byline={authorName(a.author_id)}
-              />
-            ))}
-            {/* Placeholder cards until more content exists (per-vertical) */}
-            {(
-              home?.latestPlaceholders ?? [
-                {
-                  title: "Magnesium for Sleep: Separating Signal from Noise",
-                  category: "Nutrition & Supplements",
-                  excerpt:
-                    "Placeholder — a deep dive into the trial data behind magnesium's sleep claims arrives in a later step.",
-                  byline: "Firsthand Staff",
-                },
-                {
-                  title:
-                    "OTC Hearing Aids in 2026: What Changed and Who Benefits",
-                  category: "Hearing",
-                  excerpt:
-                    "Placeholder — our guide to the post-regulation OTC hearing-aid market arrives in a later step.",
-                  byline: "Firsthand Staff",
-                },
-              ]
-            ).map((p) => (
-              <ArticleCard
-                key={p.title}
-                title={p.title}
-                category={p.category}
-                excerpt={p.excerpt}
-                byline={p.byline}
+                key={n.id}
+                title={n.title}
+                category={n.source_name}
+                excerpt={n.summary}
+                byline={new Date(n.published_at).toLocaleDateString("en-GB", {
+                  day: "numeric",
+                  month: "short",
+                  year: "numeric",
+                })}
+                href={vHref(verticalKey, `/news/${n.slug}`)}
               />
             ))}
           </div>
           <div className="mt-8">
             <Link
-              href={home?.browseAllHref ?? "/category/health-news"}
+              href={vHref(verticalKey, "/news")}
               className="text-sm font-semibold text-brand-blue hover:underline"
             >
-              {home?.browseAllLabel ?? "Browse all coverage →"}
+              All announcements →
             </Link>
           </div>
         </div>

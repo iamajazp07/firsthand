@@ -247,8 +247,10 @@ function parseFeed(xml: string, feed: FeedConfig): Signal[] {
     (/<entry[\s>]/i.test(xml) && !/<item[\s>]/i.test(xml));
 
   const blocks = isAtom
-    ? xml.match(/<entry[\s\S]*?<\/entry>/gi) ?? []
-    : xml.match(/<item[\s\S]*?<\/item>/gi) ?? [];
+    ? xml.match(/<entry(?:\s[^>]*)?>[\s\S]*?<\/entry>/gi) ?? []
+    : // Whole <item> tags only: RSS 1.0 feeds (medRxiv) also carry an <items>
+      // list, which a bare /<item/ match swallows along with the feed's logo.
+      xml.match(/<item(?:\s[^>]*)?>[\s\S]*?<\/item>/gi) ?? [];
 
   const out: Signal[] = [];
   for (const b of blocks) {

@@ -198,5 +198,7 @@ export const config = {
   // Runs on everything except Next internals and static assets, because host
   // routing has to see ordinary page requests — not just /admin as before.
   // Without this exclusion the rewrite would also catch /_next/* and break CSS.
-  matcher: ["/((?!_next/static|_next/image|favicon.ico|.*\\.[\\w]+$).*)"],
+  // /feed.xml is listed on its own because the extension rule above skips it,
+  // and on a vertical subdomain it has to be rewritten like any page.
+  matcher: ["/((?!_next/static|_next/image|favicon.ico|.*\\.[\\w]+$).*)", "/feed.xml"],
 };

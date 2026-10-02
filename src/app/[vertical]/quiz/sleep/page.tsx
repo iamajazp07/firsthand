@@ -76,7 +76,7 @@ export default async function SleepQuizPage({
       </header>
 
       <section className="mt-8 rounded-xl border border-brand-mist bg-white p-5 shadow-sm sm:p-8">
-        <SleepQuiz products={quizProducts} basePath={vHref(verticalKey)} />
+        <SleepQuiz products={quizProducts} basePath={vHref(verticalKey).replace(/\/$/, "")} />
       </section>
     </div>
   );
