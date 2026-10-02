@@ -148,7 +148,7 @@ export default async function HomePage({
               },
             ]
           ).map((r) => (
-            <RankingCard key={r.title} {...r} />
+            <RankingCard key={r.title} {...r} href={vHref(verticalKey, r.href)} />
           ))}
         </div>
       </section>
