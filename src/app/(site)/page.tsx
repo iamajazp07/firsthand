@@ -71,7 +71,13 @@ function ago(iso: string): string {
   if (hrs < 24) return `${hrs}h ago`;
   const days = Math.round(hrs / 24);
   if (days < 8) return `${days}d ago`;
-  return new Date(t).toLocaleDateString("en-GB", { day: "numeric", month: "short" });
+  const d = new Date(t);
+  // Show the year once it is not this year, or a 2025 item reads as next month.
+  return d.toLocaleDateString("en-GB", {
+    day: "numeric",
+    month: "short",
+    ...(d.getFullYear() !== new Date().getFullYear() ? { year: "numeric" } : {}),
+  });
 }
 
 /** A short plain-text dek from an official summary. */
