@@ -59,6 +59,8 @@ const MAX_SOURCE_CHARS = 14000;
 const CALL_GAP_MS = 8000;
 /** One short wait for a 503 "overloaded" before moving to the next model. */
 const OVERLOAD_WAIT_MS = 15000;
+/** Only write about announcements this recent. Some feeds return years of back catalogue. */
+const MAX_AGE_DAYS = 14;
 /** Never examine more than this many candidates in one run. */
 const MAX_CANDIDATES_SCANNED = 40;
 
@@ -327,8 +329,10 @@ async function main(): Promise<void> {
 
   const all: NewsItem[] = [];
   for (const v of VERTICALS) all.push(...(await readNews(v)));
+  const cutoff = new Date(Date.now() - MAX_AGE_DAYS * 86_400_000).toISOString();
   const candidates = all
     .filter((i) => !i.analysis && !written[i.id] && !SKIP_FEEDS.has(i.source_id) && i.link)
+    .filter((i) => i.published_at >= cutoff)
     .sort((a, b) => b.published_at.localeCompare(a.published_at));
 
   // Articles already written today (UTC), per vertical, and a newest-first
