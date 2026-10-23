@@ -81,10 +81,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         getHubs(key),
         getProducts(key),
         listPublishedArticles(key),
-        // Capped: the tracker holds thousands and the index page links onward
-        // to the rest. A sitemap stuffed with every record buries the pages
-        // that actually earn rankings.
-        listNews(key, { limit: SITEMAP_NEWS_LIMIT }),
+        // Bare announcements are capped below: the tracker holds thousands and
+        // a sitemap stuffed with every record buries the pages that earn
+        // rankings. Analysed articles are always listed.
+        listNews(key),
         activeCategorySlugs(key),
       ]);
     const categories = allCategories.filter((c) => active.has(c.slug));
@@ -124,12 +124,24 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         changeFrequency: "hourly" as const,
         priority: 0.9,
       },
-      ...news.map((n) => ({
-        url: url(`/news/${n.slug}`),
-        lastModified: n.published_at,
-        changeFrequency: "monthly" as const,
-        priority: 0.5,
-      })),
+      // Every analysed article, however old, then the newest bare announcements.
+      ...news
+        .filter((n) => n.analysis)
+        .map((n) => ({
+          url: url(`/news/${n.slug}`),
+          lastModified: n.analysis!.written_at,
+          changeFrequency: "monthly" as const,
+          priority: 0.7,
+        })),
+      ...news
+        .filter((n) => !n.analysis)
+        .slice(0, SITEMAP_NEWS_LIMIT)
+        .map((n) => ({
+          url: url(`/news/${n.slug}`),
+          lastModified: n.published_at,
+          changeFrequency: "monthly" as const,
+          priority: 0.5,
+        })),
       // Each vertical publishes its own rating methodology.
       {
         url: url("/methodology"),

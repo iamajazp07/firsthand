@@ -165,11 +165,13 @@ export async function appendNews(
     ),
   );
 
+  // The cap only applies to bare announcements. An item with written analysis
+  // is a page we want indexed, so it is never pushed out.
+  let bare = 0;
+  const kept = merged.filter((i) => i.analysis || bare++ < MAX_PER_VERTICAL);
+
   await fs.mkdir(newsDir(), { recursive: true });
-  await fs.writeFile(
-    fileFor(vertical),
-    JSON.stringify(merged.slice(0, MAX_PER_VERTICAL), null, 2) + "\n",
-  );
+  await fs.writeFile(fileFor(vertical), JSON.stringify(kept, null, 2) + "\n");
   // Drop the cache we just invalidated, so a second append in the same process
   // reads what we actually wrote rather than the pre-write list.
   cache.delete(vertical);
