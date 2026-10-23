@@ -62,8 +62,30 @@ const OVERLOAD_WAIT_MS = 15000;
 /** Never examine more than this many candidates in one run. */
 const MAX_CANDIDATES_SCANNED = 40;
 
-/** Feeds whose linked pages are bare records with nothing to analyse. */
-const SKIP_FEEDS = new Set(["sec-edgar-8k"]);
+/**
+ * Feeds the writer never covers. 8-K filings are bare records with nothing to
+ * analyse; preprints are not peer reviewed and would otherwise swamp the mix
+ * (about 90% of new items). They still appear on the news pages as headlines.
+ */
+const SKIP_FEEDS = new Set([
+  "sec-edgar-8k",
+  "arxiv-cs-ai",
+  "arxiv-ai-healthcare",
+  "medrxiv-preprints",
+]);
+
+/**
+ * Share of each day's articles per vertical. The writer fills whichever
+ * vertical is furthest behind its share; when one runs out of candidates its
+ * slots go to the rest, so a thin day never wastes the quota.
+ */
+const DAILY_SHARE: Record<string, number> = {
+  health: 0.5,
+  money: 0.125,
+  tech: 0.125,
+  travel: 0.125,
+  education: 0.125,
+};
 
 const UA =
   "Mozilla/5.0 (compatible; FirsthandNewsBot/1.0; +https://readfirsthand.com/editorial-policy)";
@@ -309,14 +331,34 @@ async function main(): Promise<void> {
     .filter((i) => !i.analysis && !written[i.id] && !SKIP_FEEDS.has(i.source_id) && i.link)
     .sort((a, b) => b.published_at.localeCompare(a.published_at));
 
+  // Articles already written today (UTC), per vertical, and a newest-first
+  // queue of candidates per vertical.
+  const today = new Date().toISOString().slice(0, 10);
+  const doneToday: Record<string, number> = {};
+  const queues: Record<string, NewsItem[]> = {};
+  for (const v of VERTICALS) { doneToday[v] = 0; queues[v] = []; }
+  for (const i of all) {
+    if (i.analysis?.written_at.startsWith(today)) doneToday[i.vertical] = (doneToday[i.vertical] ?? 0) + 1;
+  }
+  for (const i of candidates) queues[i.vertical]?.push(i);
+
+  /** Next candidate from the vertical furthest behind its daily share. */
+  const nextCandidate = (): NewsItem | undefined => {
+    const open = VERTICALS.filter((v) => queues[v].length > 0);
+    if (open.length === 0) return undefined;
+    open.sort((a, b) => doneToday[a] / DAILY_SHARE[a] - doneToday[b] / DAILY_SHARE[b] || DAILY_SHARE[b] - DAILY_SHARE[a]);
+    return queues[open[0]].shift();
+  };
+
   console.log(`write-news ${new Date().toISOString()}`);
-  console.log(`  ${candidates.length} candidates, target ${n}, models ${MODELS.join(" > ")}\n`);
+  console.log(`  ${candidates.length} candidates, target ${n}, models ${MODELS.join(" > ")}`);
+  console.log(`  written today: ${VERTICALS.map((v) => `${v} ${doneToday[v]}`).join(", ")}\n`);
 
   let made = 0;
   let scanned = 0;
   let stopReason = "";
 
-  for (const item of candidates) {
+  for (let item = nextCandidate(); item; item = nextCandidate()) {
     if (made >= n) break;
     if (scanned++ >= MAX_CANDIDATES_SCANNED) { stopReason = `scanned ${MAX_CANDIDATES_SCANNED} candidates`; break; }
     const label = `[${item.vertical}/${item.country}] ${item.title.slice(0, 60)}`;
@@ -371,6 +413,7 @@ async function main(): Promise<void> {
 
     written[item.id] = `published by ${draft.model}`;
     made++;
+    doneToday[item.vertical]++;
     console.log(
       `  LIVE  ${label}\n` +
         `        "${draft.title.slice(0, 80)}"\n` +

@@ -8,5 +8,35 @@
     "format": "atom",
     "enabled": true,
     "note": "Verified HTTP 200 + parseable RSS/Atom from this environment on 2026-09-21."
+  },
+  {
+    "id": "govuk-ofsted",
+    "name": "gov.uk: Ofsted",
+    "url": "https://www.gov.uk/search/news-and-communications.atom?organisations%5B%5D=ofsted",
+    "category_slug": "education-news",
+    "country": "GB",
+    "format": "atom",
+    "enabled": true,
+    "note": "Verified HTTP 200 + parseable feed from the Contabo VPS on 2026-10-23."
+  },
+  {
+    "id": "govuk-ofqual",
+    "name": "gov.uk: Ofqual",
+    "url": "https://www.gov.uk/search/news-and-communications.atom?organisations%5B%5D=ofqual",
+    "category_slug": "education-news",
+    "country": "GB",
+    "format": "atom",
+    "enabled": true,
+    "note": "Verified HTTP 200 + parseable feed from the Contabo VPS on 2026-10-23."
+  },
+  {
+    "id": "govuk-slc",
+    "name": "gov.uk: Student Loans Company",
+    "url": "https://www.gov.uk/search/news-and-communications.atom?organisations%5B%5D=student-loans-company",
+    "category_slug": "education-news",
+    "country": "GB",
+    "format": "atom",
+    "enabled": true,
+    "note": "Verified HTTP 200 + parseable feed from the Contabo VPS on 2026-10-23."
   }
 ]
