@@ -155,7 +155,7 @@ export default async function NewsItemPage({
           <blockquote className="mt-6 border-l-2 border-brand-mist pl-4 text-base leading-relaxed text-brand-ink/90">
             {item.summary}
             <footer className="mt-2 text-sm text-brand-ink/60">
-              — {item.source_name}
+              Source: {item.source_name}
             </footer>
           </blockquote>
         )}

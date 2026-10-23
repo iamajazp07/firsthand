@@ -37,8 +37,8 @@ export default function PrimarySourceNote({
         </a>
       ) : (
         <span className="italic">see the linked sources below</span>
-      )}{" "}
-      — Firsthand analysis is original commentary; always read the source.
+      )}
+      . Firsthand analysis is original commentary; always read the source.
     </aside>
   );
 }
