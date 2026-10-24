@@ -12,7 +12,7 @@ import { portal } from "@/lib/verticals/portal";
  */
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: `${NETWORK_NAME} — ${portal.tagline}`,
+    name: `${NETWORK_NAME}: ${portal.tagline}`,
     short_name: NETWORK_NAME,
     description: portal.description,
     start_url: "/",

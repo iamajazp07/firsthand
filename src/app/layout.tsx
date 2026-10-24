@@ -30,8 +30,8 @@ const sourceSerif = Source_Serif_4({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    template: `${NETWORK_NAME} — %s`,
-    default: `${NETWORK_NAME} — Independent, evidence-first reviews and rankings`,
+    template: `${NETWORK_NAME} | %s`,
+    default: `${NETWORK_NAME}: Independent, evidence-first reviews and rankings`,
   },
   description:
     "Firsthand publishes independent, evidence-first reviews and rankings across health, money, tech, education, and travel.",

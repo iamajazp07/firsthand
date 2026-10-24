@@ -25,19 +25,19 @@ const portal = VERTICALS.portal;
 const PORTAL_URL = SITE_URL;
 
 export const metadata: Metadata = {
-  title: { absolute: `${portal.name} — ${portal.tagline}` },
+  title: { absolute: `${portal.name}: ${portal.tagline}` },
   description: portal.description,
   alternates: { canonical: PORTAL_URL },
   openGraph: {
     siteName: portal.name,
     type: "website",
     url: PORTAL_URL,
-    title: `${portal.name} — ${portal.tagline}`,
+    title: `${portal.name}: ${portal.tagline}`,
     description: portal.description,
   },
   twitter: {
     card: "summary_large_image",
-    title: `${portal.name} — ${portal.tagline}`,
+    title: `${portal.name}: ${portal.tagline}`,
     description: portal.description,
   },
   robots: { index: true, follow: true },

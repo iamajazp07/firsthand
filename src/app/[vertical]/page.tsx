@@ -22,7 +22,7 @@ export async function generateMetadata({
   // has a chance to 404, so the guard has to be here too.
   if (!isVerticalKey(key) || key === "portal") return {};
   const brand = brandFor(key);
-  return { title: { absolute: `${brand.name} — ${brand.tagline}` } };
+  return { title: { absolute: `${brand.name}: ${brand.tagline}` } };
 }
 
 export default async function HomePage({

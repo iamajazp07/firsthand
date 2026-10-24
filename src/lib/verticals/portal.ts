@@ -22,7 +22,7 @@ export const portal: Vertical = {
   host: "readfirsthand.com",
   tagline: "Independent, evidence-first reviews and rankings",
   description:
-    "Firsthand publishes independent, evidence-first reviews and rankings — clear analysis and transparent methodology across health, money, tech, education and travel. No hype, no pay-to-play.",
+    "Firsthand publishes independent, evidence-first reviews and rankings, with clear analysis and transparent methodology across health, money, tech, education and travel. No hype, no pay-to-play.",
 
   // Same brand tokens as the content verticals so shared chrome stays on-brand.
   theme: {

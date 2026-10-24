@@ -14,7 +14,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { vertical: key } = await params;
   return {
-    title: "Find Your Sleep Supplement — 60-Second Quiz",
+    title: "Find Your Sleep Supplement: 60-Second Quiz",
     description:
       "Answer five quick questions and get an evidence-based sleep supplement match — no email required to see your result.",
     alternates: { canonical: verticalUrl(key, "/quiz/sleep") },
