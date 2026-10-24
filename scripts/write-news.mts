@@ -84,6 +84,10 @@ const SKIP_FEEDS = new Set([
   "medrxiv-preprints",
 ]);
 
+/** Items that are not announcements even though their feed is official (NASA's daily picture). */
+const isSkippedItem = (i: NewsItem) =>
+  /^APOD:/i.test(i.title) || i.link.includes("/image-article/apod-");
+
 /**
  * Share of each day's articles per vertical. The writer fills whichever
  * vertical is furthest behind its share; when one runs out of candidates its
@@ -339,7 +343,7 @@ async function main(): Promise<void> {
   for (const v of VERTICALS) all.push(...(await readNews(v)));
   const cutoff = new Date(Date.now() - MAX_AGE_DAYS * 86_400_000).toISOString();
   const candidates = all
-    .filter((i) => !i.analysis && !written[i.id] && !SKIP_FEEDS.has(i.source_id) && i.link)
+    .filter((i) => !i.analysis && !written[i.id] && !SKIP_FEEDS.has(i.source_id) && i.link && !isSkippedItem(i))
     .filter((i) => i.published_at >= cutoff)
     .sort((a, b) => b.published_at.localeCompare(a.published_at));
 
