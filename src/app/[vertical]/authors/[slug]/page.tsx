@@ -83,7 +83,7 @@ export default async function AuthorPage({
                 {author.name}
               </h1>
               <p className="mt-2 text-sm font-semibold text-brand-ink/70">
-                Health Research Analyst, MSc — Data Science
+                Health Research Analyst, MSc: Data Science
               </p>
             </div>
           </div>
@@ -91,7 +91,7 @@ export default async function AuthorPage({
           <div className="mt-8 max-w-3xl space-y-4 text-base leading-relaxed text-brand-ink/90">
             <p>
               The Health Research Analyst behind Firsthand is a data scientist
-              (MSc) who evaluates clinical evidence — not a physician, and not
+              (MSc) who evaluates clinical evidence, not a physician, and not
               a marketer. Their work centers on reading the primary research
               directly: peer-reviewed studies indexed on PubMed, trial data
               from NIH registries, and safety communications from regulators.
@@ -104,7 +104,7 @@ export default async function AuthorPage({
               telehealth providers, and health products: claims are traced back
               to the studies behind them, effect sizes are put in plain
               language, and weak or missing evidence is called out rather than
-              papered over. Nothing written here is medical advice — health
+              papered over. Nothing written here is medical advice: health
               content is fact-checked against its cited sources before it
               reaches money pages (this is not medical review), and readers are always pointed to their own clinicians for
               decisions about their care.

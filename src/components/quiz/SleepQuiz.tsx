@@ -82,7 +82,7 @@ const QUESTIONS: Question[] = [
       { value: "onset", label: "Trouble falling asleep" },
       { value: "maintenance", label: "Waking up during the night" },
       { value: "jetlag", label: "Jet lag or shift-work schedule" },
-      { value: "restlessness", label: "General restlessness — can't wind down" },
+      { value: "restlessness", label: "General restlessness: can't wind down" },
     ],
   },
   {
@@ -108,8 +108,8 @@ const QUESTIONS: Question[] = [
     id: "grogginess",
     prompt: "How sensitive are you to next-day grogginess?",
     choices: [
-      { value: "sensitive", label: "Very — I want to avoid morning fog" },
-      { value: "tolerant", label: "Not really — it doesn't bother me" },
+      { value: "sensitive", label: "Very: I want to avoid morning fog" },
+      { value: "tolerant", label: "Not really: it doesn't bother me" },
     ],
   },
   {
@@ -118,7 +118,7 @@ const QUESTIONS: Question[] = [
     choices: [
       {
         value: "prescription",
-        label: "Yes — prescription sleep or psychiatric medication",
+        label: "Yes: prescription sleep or psychiatric medication",
       },
       { value: "other", label: "Other prescription medication" },
       { value: "none", label: "No prescription medication" },
@@ -257,7 +257,7 @@ export default function SleepQuiz({
             </h2>
             <p className="mt-3 text-base leading-relaxed text-brand-ink/85">
               Because you&apos;re taking a prescription sleep or psychiatric
-              medication, the responsible next step isn&apos;t a supplement —
+              medication, the responsible next step isn&apos;t a supplement:
               it&apos;s a conversation with your prescriber or pharmacist.
               Common sleep supplements like melatonin, magnesium, and
               L-theanine can interact with sedatives, antidepressants, and
@@ -289,7 +289,7 @@ export default function SleepQuiz({
             </h2>
             <p className="mt-3 text-base leading-relaxed text-brand-ink/80">
               Based on your answers, here&apos;s where the research points. These
-              may support better sleep for your situation — they aren&apos;t a
+              may support better sleep for your situation: they aren&apos;t a
               treatment or a cure, and results vary from person to person.
             </p>
 
@@ -346,8 +346,7 @@ export default function SleepQuiz({
             Want the full comparison guide?
           </h3>
           <p className="mt-1 text-sm text-brand-ink/75">
-            Get our side-by-side breakdown of every sleep supplement — dosing,
-            evidence, and value — plus new research as it lands.
+            Get our side-by-side breakdown of every sleep supplement (dosing, evidence, and value) plus new research as it lands.
           </p>
           <EmailSignup source="quiz" variant="compact" className="mt-4" />
         </div>

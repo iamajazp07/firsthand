@@ -26,7 +26,7 @@ export const tech: Vertical = {
   host: "readfirsthand.com",
   tagline: "Evidence-First Technology & Software Reviews",
   description:
-    "Firsthand Tech is an independent technology review site. We read the primary documentation — manufacturer spec sheets, official pricing pages, and published security audits — to rank laptops, earbuds, apps, and other tech clearly and without hype. We do not run a hardware lab; our ratings come from analysis of published specifications and official documentation, not independent benchmarks.",
+    "Firsthand Tech is an independent technology review site. We read the primary documentation (manufacturer spec sheets, official pricing pages, and published security audits) to rank laptops, earbuds, apps, and other tech clearly and without hype. We do not run a hardware lab; our ratings come from analysis of published specifications and official documentation, not independent benchmarks.",
 
   // SAME shared Firsthand brand palette as Health/Money (brand consistency).
   theme: {
@@ -76,7 +76,7 @@ export const tech: Vertical = {
       longLabel: "Performance",
       weight: 0.3,
       description:
-        "Assessed from manufacturer-published specifications and documented capabilities — processors and silicon, battery ratings, noise-cancellation and connectivity claims, storage and throughput figures — not from independent lab benchmarks. We report manufacturer-rated figures as manufacturer-rated, cite them to the official spec sheet with an as-of date, and never present a subjective quality judgment as a test result.",
+        "Assessed from manufacturer-published specifications and documented capabilities (processors and silicon, battery ratings, noise-cancellation and connectivity claims, storage and throughput figures) not from independent lab benchmarks. We report manufacturer-rated figures as manufacturer-rated, cite them to the official spec sheet with an as-of date, and never present a subjective quality judgment as a test result.",
     },
     {
       key: "value",
@@ -92,7 +92,7 @@ export const tech: Vertical = {
       longLabel: "Reliability & Security",
       weight: 0.2,
       description:
-        "For software: documented security posture — encryption, zero-knowledge architecture, and independent third-party audits or certifications (SOC 2, ISO 27001, FedRAMP) read from official documentation. For hardware: build and durability signals such as manufacturer water/dust (IP) ratings and warranty terms. We credit only what is documented, never assumed.",
+        "For software: documented security posture: encryption, zero-knowledge architecture, and independent third-party audits or certifications (SOC 2, ISO 27001, FedRAMP) read from official documentation. For hardware: build and durability signals such as manufacturer water/dust (IP) ratings and warranty terms. We credit only what is documented, never assumed.",
     },
     {
       key: "ease_of_use",
@@ -100,7 +100,7 @@ export const tech: Vertical = {
       longLabel: "Ease of Use",
       weight: 0.15,
       description:
-        "Setup friction, platform and cross-device availability, and how much of the advertised experience works without a specific phone or ecosystem — all drawn from official documentation and platform/availability listings. Ecosystem lock-in that gates advertised features to one vendor's devices lowers the score.",
+        "Setup friction, platform and cross-device availability, and how much of the advertised experience works without a specific phone or ecosystem: all drawn from official documentation and platform/availability listings. Ecosystem lock-in that gates advertised features to one vendor's devices lowers the score.",
     },
     {
       key: "support",
@@ -113,11 +113,11 @@ export const tech: Vertical = {
   ],
 
   methodologyIntro:
-    "Technology reviews are only as trustworthy as the evidence behind them, so we are explicit about ours. Firsthand Tech does not operate a hardware lab: we do not run independent benchmarks, and we do not conduct hands-on audio, battery, or performance testing. Instead, every rating is built from analysis of primary documentation — manufacturer-published specification sheets, official pricing pages, official security and audit documentation, FCC filings, and publicly documented third-party audits and certifications. Because specs and prices change, every number in our reviews is cited to a primary source with an 'as of' date, and where we cannot verify a figure we describe it qualitatively or omit it rather than guess. We never present a subjective judgment as if it came from testing we did not do.",
+    "Technology reviews are only as trustworthy as the evidence behind them, so we are explicit about ours. Firsthand Tech does not operate a hardware lab: we do not run independent benchmarks, and we do not conduct hands-on audio, battery, or performance testing. Instead, every rating is built from analysis of primary documentation: manufacturer-published specification sheets, official pricing pages, official security and audit documentation, FCC filings, and publicly documented third-party audits and certifications. Because specs and prices change, every number in our reviews is cited to a primary source with an 'as of' date, and where we cannot verify a figure we describe it qualitatively or omit it rather than guess. We never present a subjective judgment as if it came from testing we did not do.",
 
   disclosureLabel: "Affiliate Disclosure",
   disclosureBody:
-    "Firsthand Tech is reader-supported. We may earn a commission if you buy through links on this page — at no extra cost to you. Commissions never affect our rankings, ratings, or which products we cover: placement follows the published methodology, not payment.",
+    "Firsthand Tech is reader-supported. We may earn a commission if you buy through links on this page, at no extra cost to you. Commissions never affect our rankings, ratings, or which products we cover: placement follows the published methodology, not payment.",
 
   // General editorial disclaimer (replaces the medical/financial one).
   contentDisclaimer:
@@ -133,24 +133,24 @@ export const tech: Vertical = {
     "Firsthand Tech content is for informational purposes only and is not professional advice; ratings are based on published documentation, not independent lab testing.",
 
   methodologyMetaDescription:
-    "The published methodology behind every Firsthand Tech ranking: Performance, Value, Reliability & Security, Ease of Use, and Support — rated from manufacturer specifications and official documentation, not independent lab testing.",
+    "The published methodology behind every Firsthand Tech ranking: Performance, Value, Reliability & Security, Ease of Use, and Support: rated from manufacturer specifications and official documentation, not independent lab testing.",
 
   newsletter: {
     brandName: "The Firsthand Tech Brief",
     bandBlurb:
-      "One weekly email: what changed in the specs, prices, and security documentation behind the tech you use — read from the primary sources. No hype, no spam.",
-    ctaHeading: "Get evidence-based tech picks in your inbox — no hype.",
+      "One weekly email: what changed in the specs, prices, and security documentation behind the tech you use, read from the primary sources. No hype, no spam.",
+    ctaHeading: "Get evidence-based tech picks in your inbox, no hype.",
     ctaBlurb: "Join The Firsthand Tech Brief for a weekly, research-first read.",
   },
 
   homepage: {
     heroFallbackTitle: "Tech decisions deserve better evidence.",
     heroFallbackBody:
-      "Firsthand Tech reads the primary documentation — manufacturer spec sheets, official pricing pages, and published security audits — to rank laptops, earbuds, apps, and other tech clearly and without hype. We don't run a lab; our ratings come from published specifications and official documentation.",
+      "Firsthand Tech reads the primary documentation (manufacturer spec sheets, official pricing pages, and published security audits) to rank laptops, earbuds, apps, and other tech clearly and without hype. We don't run a lab; our ratings come from published specifications and official documentation.",
     trustHeading: "Why trust Firsthand Tech",
     trustPoints: [
       "Rankings built from manufacturer specs and official documentation, not sponsorships.",
-      "Clear methodology and cited, as-of-dated figures on every page — no invented benchmarks.",
+      "Clear methodology and cited, as-of-dated figures on every page, no invented benchmarks.",
       "We are explicit that we do not run independent lab testing; every review lists at least one genuine con.",
     ],
     rankingsLabel: "2026 editions",
@@ -159,14 +159,14 @@ export const tech: Vertical = {
         title: "Best Password Managers of 2026",
         category: "Software & SaaS",
         blurb:
-          "We compared the leading password managers on official pricing, documented security audits and certifications, and platform support — with every price and claim cited to a primary source.",
+          "We compared the leading password managers on official pricing, documented security audits and certifications, and platform support, with every price and claim cited to a primary source.",
         href: "/best/best-password-managers",
       },
       {
         title: "Best Wireless Earbuds of 2026",
         category: "Headphones & Audio",
         blurb:
-          "A side-by-side look at flagship wireless earbuds using manufacturer-rated battery life, published specs, and official prices — reported as manufacturer-rated, not lab-tested.",
+          "A side-by-side look at flagship wireless earbuds using manufacturer-rated battery life, published specs, and official prices, reported as manufacturer-rated, not lab-tested.",
         href: "/best/best-wireless-earbuds",
       },
     ],

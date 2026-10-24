@@ -230,7 +230,7 @@ export default async function ArticlePage({
       >
         <h2 className="font-serif text-lg font-bold text-brand-navy">
           {getVertical(verticalKey).newsletter?.ctaHeading ??
-            "Get evidence-based health picks in your inbox — no hype."}
+            "Get evidence-based health picks in your inbox, no hype."}
         </h2>
         <p className="mt-1 text-sm text-brand-ink/75">
           {getVertical(verticalKey).newsletter?.ctaBlurb ??

@@ -22,7 +22,7 @@ export const money: Vertical = {
   host: "readfirsthand.com",
   tagline: "Evidence-First Personal Finance Reviews",
   description:
-    "Firsthand Money is an independent personal-finance review site. We read primary disclosures — bank rate and fee schedules, official pricing pages, and regulator publications — to rank savings accounts, budgeting apps, and money tools clearly and without hype.",
+    "Firsthand Money is an independent personal-finance review site. We read primary disclosures (bank rate and fee schedules, official pricing pages, and regulator publications) to rank savings accounts, budgeting apps, and money tools clearly and without hype.",
 
   // SAME shared Firsthand brand palette as Health (brand consistency for now).
   theme: {
@@ -68,7 +68,7 @@ export const money: Vertical = {
       longLabel: "Fees",
       weight: 0.25,
       description:
-        "Monthly maintenance fees, minimums, and the avoidable and unavoidable charges disclosed in the provider's official fee schedule — overdraft, transfer, early-withdrawal, origination, and subscription costs. Lower and clearer wins; buried or hard-to-avoid fees lower the score.",
+        "Monthly maintenance fees, minimums, and the avoidable and unavoidable charges disclosed in the provider's official fee schedule: overdraft, transfer, early-withdrawal, origination, and subscription costs. Lower and clearer wins; buried or hard-to-avoid fees lower the score.",
     },
     {
       key: "value_returns",
@@ -92,7 +92,7 @@ export const money: Vertical = {
       longLabel: "Security & Trust",
       weight: 0.15,
       description:
-        "FDIC or NCUA insurance for deposit products (confirmed at the institution level), plus data-security posture for apps — encryption, read-only account aggregation, multi-factor authentication, and a clear stance on not selling customer data, sourced from official documentation.",
+        "FDIC or NCUA insurance for deposit products (confirmed at the institution level), plus data-security posture for apps: encryption, read-only account aggregation, multi-factor authentication, and a clear stance on not selling customer data, sourced from official documentation.",
     },
     {
       key: "support",
@@ -105,12 +105,12 @@ export const money: Vertical = {
   ],
 
   methodologyIntro:
-    "Personal-finance content is only as trustworthy as its sources, so we publish ours. The exact criteria and weights behind every Firsthand Money ranking are on this page, and they apply to every provider in a category — whether or not we have any financial relationship with it. Rates and fees change, so every number in our reviews is cited to a primary source with an 'as of' date, and we describe a figure qualitatively rather than guess when we cannot verify it.",
+    "Personal-finance content is only as trustworthy as its sources, so we publish ours. The exact criteria and weights behind every Firsthand Money ranking are on this page, and they apply to every provider in a category, whether or not we have any financial relationship with it. Rates and fees change, so every number in our reviews is cited to a primary source with an 'as of' date, and we describe a figure qualitatively rather than guess when we cannot verify it.",
 
   // Advertiser-disclosure language (replaces the health "Affiliate disclosure").
   disclosureLabel: "Advertiser Disclosure",
   disclosureBody:
-    "Firsthand Money is reader-supported. We may earn compensation from some of the partners whose products appear on this page — at no extra cost to you. That compensation never affects our rankings, ratings, or which products we cover: placement follows the published methodology, not payment.",
+    "Firsthand Money is reader-supported. We may earn compensation from some of the partners whose products appear on this page, at no extra cost to you. That compensation never affects our rankings, ratings, or which products we cover: placement follows the published methodology, not payment.",
 
   // Not-financial-advice content disclaimer (replaces the medical disclaimer).
   contentDisclaimer:
@@ -126,20 +126,20 @@ export const money: Vertical = {
     "Firsthand Money content is for informational purposes only and is not financial, investment, tax, or legal advice.",
 
   methodologyMetaDescription:
-    "The published methodology behind every Firsthand Money ranking: Fees, Value & Returns, Transparency, Security & Trust, and Customer Support — with fixed weights that advertiser compensation never changes.",
+    "The published methodology behind every Firsthand Money ranking: Fees, Value & Returns, Transparency, Security & Trust, and Customer Support, with fixed weights that advertiser compensation never changes.",
 
   newsletter: {
     brandName: "The Firsthand Money Brief",
     bandBlurb:
-      "One weekly email: what changed in savings rates, fees, and money tools — read from the primary sources. No hype, no spam.",
-    ctaHeading: "Get evidence-based money picks in your inbox — no hype.",
+      "One weekly email: what changed in savings rates, fees, and money tools, read from the primary sources. No hype, no spam.",
+    ctaHeading: "Get evidence-based money picks in your inbox, no hype.",
     ctaBlurb: "Join The Firsthand Money Brief for a weekly, research-first read.",
   },
 
   homepage: {
     heroFallbackTitle: "Money decisions deserve better evidence.",
     heroFallbackBody:
-      "Firsthand Money reads the primary disclosures — bank rate and fee schedules, official pricing pages, and regulator publications — to rank savings accounts, budgeting apps, and money tools clearly and without hype.",
+      "Firsthand Money reads the primary disclosures (bank rate and fee schedules, official pricing pages, and regulator publications) to rank savings accounts, budgeting apps, and money tools clearly and without hype.",
     trustHeading: "Why trust Firsthand Money",
     trustPoints: [
       "Rankings built from primary financial disclosures, not sponsorships.",

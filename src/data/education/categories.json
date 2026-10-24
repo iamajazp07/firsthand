@@ -3,14 +3,14 @@
     "id": "cat-online-learning-platforms",
     "slug": "online-learning-platforms",
     "name": "Online Learning Platforms",
-    "description": "Evidence-first coverage of online course platforms — pricing, curriculum, credentialing, and support read from each provider's official documentation, not independent audits or student surveys.",
+    "description": "Evidence-first coverage of online course platforms: pricing, curriculum, credentialing, and support read from each provider's official documentation, not independent audits or student surveys.",
     "sort_order": 1
   },
   {
     "id": "cat-coding-bootcamps",
     "slug": "coding-bootcamps",
     "name": "Coding Bootcamps",
-    "description": "Neutral analysis of coding and tech bootcamps based on published pricing, curriculum, and standardized outcomes reporting (e.g. CIRR) — with self-reported figures clearly labeled as self-reported.",
+    "description": "Neutral analysis of coding and tech bootcamps based on published pricing, curriculum, and standardized outcomes reporting (e.g. CIRR), with self-reported figures clearly labeled as self-reported.",
     "sort_order": 2
   },
   {
@@ -24,14 +24,14 @@
     "id": "cat-test-prep",
     "slug": "test-prep",
     "name": "Test Prep",
-    "description": "Test-preparation platforms and courses reviewed from official pricing, published content coverage, and stated guarantees — not from our own score studies.",
+    "description": "Test-preparation platforms and courses reviewed from official pricing, published content coverage, and stated guarantees, not from our own score studies.",
     "sort_order": 4
   },
   {
     "id": "cat-language-learning",
     "slug": "language-learning",
     "name": "Language Learning",
-    "description": "Language-learning apps and programs compared on official pricing, documented teaching methods and features, and free-tier limits — reported from each provider's own documentation, not efficacy marketing.",
+    "description": "Language-learning apps and programs compared on official pricing, documented teaching methods and features, and free-tier limits, reported from each provider's own documentation, not efficacy marketing.",
     "sort_order": 5
   },
   {
@@ -52,7 +52,7 @@
     "id": "cat-education-news",
     "slug": "education-news",
     "name": "Education News",
-    "description": "Original analysis of primary-source education announcements — pricing changes, accreditation decisions, published outcomes data, and policy from the U.S. Department of Education and standards bodies. We read the source, not the headlines.",
+    "description": "Original analysis of primary-source education announcements: pricing changes, accreditation decisions, published outcomes data, and policy from the U.S. Department of Education and standards bodies. We read the source, not the headlines.",
     "sort_order": 8
   }
 ]

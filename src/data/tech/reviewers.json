@@ -4,7 +4,7 @@
     "name": "Firsthand Editorial Team",
     "slug": "editorial-team",
     "photo_url": null,
-    "bio": "Firsthand's editorial team fact-checks every technology article against the primary sources it cites — manufacturer specification sheets, official pricing pages, published third-party security audits and certifications (SOC 2, ISO 27001, FedRAMP), FCC filings, and standards-body documentation — before publication. Firsthand Tech does NOT conduct independent lab testing, hands-on benchmarking, or audio/battery measurement: our ratings are based on analysis of published documentation, and this is editorial fact-checking against primary sources, not a hands-on lab review.",
+    "bio": "Firsthand's editorial team fact-checks every technology article against the primary sources it cites (manufacturer specification sheets, official pricing pages, published third-party security audits and certifications (SOC 2, ISO 27001, FedRAMP), FCC filings, and standards-body documentation) before publication. Firsthand Tech does NOT conduct independent lab testing, hands-on benchmarking, or audio/battery measurement: our ratings are based on analysis of published documentation, and this is editorial fact-checking against primary sources, not a hands-on lab review.",
     "credentials": "Editorial fact-check",
     "credential_type": "Editorial",
     "is_placeholder": false

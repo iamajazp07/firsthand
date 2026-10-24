@@ -50,7 +50,7 @@ export default function EmailSignup({
 
       if (res.ok && data.ok) {
         setStatus("success");
-        setMessage("You're subscribed — welcome to Firsthand.");
+        setMessage("You're subscribed: welcome to Firsthand.");
         setEmail("");
       } else {
         setStatus("error");
@@ -60,7 +60,7 @@ export default function EmailSignup({
       }
     } catch {
       setStatus("error");
-      setMessage("Network error — please try again.");
+      setMessage("Network error: please try again.");
     }
   }
 

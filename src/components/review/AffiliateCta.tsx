@@ -34,7 +34,7 @@ export default function AffiliateCta({
           role="alert"
           className="mb-3 rounded border border-amber-400 bg-amber-50 px-3 py-1.5 text-xs font-semibold text-amber-800"
         >
-          AFFILIATE LINK PLACEHOLDER — wire real affiliate URL before launch
+          AFFILIATE LINK PLACEHOLDER: wire real affiliate URL before launch
         </p>
       )}
       <a

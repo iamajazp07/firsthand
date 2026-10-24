@@ -185,7 +185,7 @@ export default async function HubPage({
           <strong className="font-semibold text-brand-navy">
             How we scored:
           </strong>{" "}
-          every product below was rated 0–10 on five weighted criteria — Fees
+          every product below was rated 0–10 on five weighted criteria: Fees
           (25%), Value &amp; Returns (25%), Transparency (20%), Security &amp;
           Trust (15%), and Support (15%). Advertiser compensation never affects
           scores or rank order; rates and fees are cited to each provider&apos;s
@@ -202,7 +202,7 @@ export default async function HubPage({
           <strong className="font-semibold text-brand-navy">
             How we scored:
           </strong>{" "}
-          every product below was rated 0–10 on five weighted criteria —
+          every product below was rated 0–10 on five weighted criteria:
           Performance (30%), Value (25%), Reliability &amp; Security (20%), Ease
           of Use (15%), and Support (10%). Firsthand does not run a lab: ratings
           analyze manufacturer-published specifications and official
@@ -221,7 +221,7 @@ export default async function HubPage({
           <strong className="font-semibold text-brand-navy">
             How we scored:
           </strong>{" "}
-          every program below was rated 0–10 on five weighted criteria —
+          every program below was rated 0–10 on five weighted criteria:
           Outcomes (30%), Cost &amp; Value (25%), Academics (20%), Support
           Services (15%), and Flexibility (10%). Firsthand does not audit schools
           or survey students: ratings analyze officially published data and each
@@ -240,7 +240,7 @@ export default async function HubPage({
           <strong className="font-semibold text-brand-navy">
             How we scored:
           </strong>{" "}
-          every product below was rated 0–10 on five weighted criteria — Value
+          every product below was rated 0–10 on five weighted criteria: Value
           (30%), Experience (25%), Flexibility (20%), Transparency (15%), and
           Service (10%). Firsthand does not take trips, file claims, or lab-test
           gear: ratings analyze official published documentation (plan wording,
@@ -260,7 +260,7 @@ export default async function HubPage({
           <strong className="font-semibold text-brand-navy">
             How we scored:
           </strong>{" "}
-          every product below was rated 0–10 on five weighted criteria — Safety
+          every product below was rated 0–10 on five weighted criteria: Safety
           (30%), Evidence (30%), Cost &amp; Value (20%), Transparency (10%), and
           Support (10%). Commissions never affect scores or rank order.{" "}
           <Link

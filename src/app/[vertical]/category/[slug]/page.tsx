@@ -223,7 +223,7 @@ export default async function CategoryPage({
                 Latest analysis
               </h2>
               <p className="mt-2 max-w-3xl text-sm text-brand-ink/70">
-                Original commentary on primary-source announcements — not
+                Original commentary on primary-source announcements, not
                 aggregated headlines.
               </p>
               <ul className="mt-6 divide-y divide-brand-mist border-t border-brand-mist">
@@ -305,7 +305,7 @@ export default async function CategoryPage({
             </p>
             <p className="mx-auto mt-2 max-w-lg text-sm text-brand-ink/70">
               {isNewsCategory
-                ? "This section publishes original, data-analyst commentary on primary-source announcements — NIH and CDC studies, FDA clearances and safety actions, and peer-reviewed journals. We analyze the source and its limitations; we don't aggregate headlines. New analysis is on the way."
+                ? "This section publishes original, data-analyst commentary on primary-source announcements: NIH and CDC studies, FDA clearances and safety actions, and peer-reviewed journals. We analyze the source and its limitations; we don't aggregate headlines. New analysis is on the way."
                 : `Our ${category.name.toLowerCase()} rankings and analysis are in progress. Check back shortly.`}
             </p>
           </div>

@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Affiliate Disclosure",
   description:
-    "How Firsthand makes money: affiliate commissions from programs like ClickBank and telehealth partner programs — disclosed plainly, with rankings that commissions never influence.",
+    "How Firsthand makes money: affiliate commissions from programs like ClickBank and telehealth partner programs: disclosed plainly, with rankings that commissions never influence.",
   alternates: { canonical: "/affiliate-disclosure" },
 };
 
@@ -30,7 +30,7 @@ export default function AffiliateDisclosurePage() {
           <p>
             Firsthand is reader-supported. When you click certain links on this
             site and buy a product or sign up for a service, we may earn a
-            commission from the seller. You never pay more because of this —
+            commission from the seller. You never pay more because of this:
             the commission comes out of the seller&apos;s side of the
             transaction, not yours.
           </p>
@@ -65,7 +65,7 @@ export default function AffiliateDisclosurePage() {
           </ul>
 
           <h2 className="pt-6 font-serif text-2xl font-bold text-brand-navy">
-            What commissions do — and don&apos;t — affect
+            What commissions do (and don&apos;t) affect
           </h2>
           <p>
             Commissions pay for the research time and editorial fact-checking
@@ -103,7 +103,7 @@ export default function AffiliateDisclosurePage() {
           <p>
             In line with the FTC&apos;s endorsement guides, every page that
             contains affiliate links carries a clear disclosure banner near the
-            top of the page — before the links themselves — so you know the
+            top of the page (before the links themselves) so you know the
             relationship exists before you click. We don&apos;t hide
             disclosures in footers, tooltips, or collapsed sections.
           </p>

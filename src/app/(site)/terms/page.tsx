@@ -38,8 +38,7 @@ export default function TermsPage() {
               Not medical advice
             </h2>
             <p className="mt-2">
-              Firsthand content — including every ranking, review, comparison,
-              and article — is provided for general informational purposes
+              Firsthand content (including every ranking, review, comparison, and article) is provided for general informational purposes
               only. It is <strong className="font-semibold">not</strong>{" "}
               medical advice, and it is not a substitute for diagnosis,
               treatment, or guidance from a qualified healthcare professional.
@@ -66,8 +65,7 @@ export default function TermsPage() {
             Content and intellectual property
           </h2>
           <p>
-            The Site&apos;s content — text, rankings, scores, graphics, and
-            design — is owned by Firsthand and protected by copyright. You may
+            The Site&apos;s content (text, rankings, scores, graphics, and design) is owned by Firsthand and protected by copyright. You may
             quote brief excerpts with attribution and a link; republishing
             whole articles or rankings requires our written permission.
             Third-party trademarks and product names mentioned on the Site
@@ -109,7 +107,7 @@ export default function TermsPage() {
           <p>
             To the fullest extent permitted by law, Firsthand and its
             contributors are not liable for any damages arising from your use
-            of the Site or reliance on its content — including decisions about
+            of the Site or reliance on its content, including decisions about
             products, services, or health made on the basis of information
             found here.
           </p>

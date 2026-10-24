@@ -14,7 +14,7 @@ export async function generateMetadata({
     title: "How Firsthand Ranks and Reviews Products",
     description:
       v.methodologyMetaDescription ??
-      "The published methodology behind every Firsthand ranking: Safety, Evidence Quality, Cost & Value, Transparency, and Customer Support — with fixed weights that affiliate partnerships never change.",
+      "The published methodology behind every Firsthand ranking: Safety, Evidence Quality, Cost & Value, Transparency, and Customer Support, with fixed weights that affiliate partnerships never change.",
     alternates: { canonical: verticalUrl(key, "/methodology") },
   };
 }
@@ -85,7 +85,7 @@ export default async function MethodologyPage({
             lists cons and red flags alongside benefits, is medically reviewed
             before publication, and carries a visible last-updated date. The
             same rubric applies to every product in a category, so scores are
-            directly comparable — a product can rank first while Firsthand earns
+            directly comparable: a product can rank first while Firsthand earns
             nothing from it. The full rubric below explains each criterion in
             detail, including how manufacturer-funded studies and regulatory
             warnings are handled.
@@ -98,7 +98,7 @@ export default async function MethodologyPage({
             impossible to tell an honest recommendation from a paid one. We
             take the opposite approach: the exact criteria and weights behind
             every Firsthand ranking are published on this page, and they apply
-            to every product in a category — whether or not we have any
+            to every product in a category, whether or not we have any
             financial relationship with its maker.
           </p>
         </div>
@@ -156,7 +156,7 @@ export default async function MethodologyPage({
           <p>
             Safety scoring starts with the same literature and adds regulatory
             signals: FDA warning letters, recalls, adverse-event reports, and
-            — for telehealth providers — the clinical oversight built into
+ (for telehealth providers) the clinical oversight built into
             their prescribing process.
           </p>
         </div>
@@ -232,7 +232,7 @@ export default async function MethodologyPage({
           its weight, and summed into a final score out of 10. Products in the
           same category are scored against the same rubric on the same day, so
           scores are directly comparable within a ranking. A high score is not
-          a medical endorsement — it means the product performed well on
+          a medical endorsement: it means the product performed well on
           safety, evidence, value, transparency, and support relative to its
           competitors. Talk to your clinician before acting on any ranking.
         </p>
@@ -276,14 +276,14 @@ function MoneyMethodology({ verticalKey }: { verticalKey: string }) {
             Returns (25%), Transparency (20%), Security &amp; Trust (15%), and
             Customer Support &amp; Experience (15%). Facts about fees, minimums,
             and APYs are drawn only from each provider&apos;s official
-            disclosures — bank rate and fee schedules, official pricing pages —
+            disclosures (bank rate and fee schedules, official pricing pages) 
             and from regulators (CFPB, FDIC, NCUA, SEC, FINRA, IRS, and the
             Federal Reserve), never from aggregators. Because rates and fees
             change, every number in a review is cited to a primary source with
             an &quot;as of&quot; date; where a figure cannot be verified, we
             describe it qualitatively rather than guess. Firsthand Money is
             reader-supported and may earn advertiser compensation, but that
-            compensation never changes a score or a ranking — placement follows
+            compensation never changes a score or a ranking: placement follows
             this published methodology. Every review lists at least one genuine
             con, and content is editorially fact-checked against its cited
             sources before publication. This is informational content, not
@@ -341,7 +341,7 @@ function MoneyMethodology({ verticalKey }: { verticalKey: string }) {
             or a regulator&apos;s publication. Savings APYs are variable and
             banks publish them dynamically, so we cite each rate to the
             bank&apos;s official page with an &quot;as of&quot; date rather than
-            repeat a number that may already be stale — and we link that page so
+            repeat a number that may already be stale, and we link that page so
             you can confirm the current figure before you open an account.
           </p>
           <p>
@@ -349,7 +349,7 @@ function MoneyMethodology({ verticalKey }: { verticalKey: string }) {
             confirm FDIC (or, for credit unions, NCUA) coverage at the
             institution level using FDIC BankFind, and note the standard
             $250,000-per-depositor, per-ownership-category limit. For apps we
-            read the company&apos;s official security documentation — encryption,
+            read the company&apos;s official security documentation: encryption,
             read-only account aggregation, multi-factor authentication, and
             whether the company sells customer data. Where a claim cannot be
             verified from a primary source, we describe it qualitatively or omit
@@ -392,7 +392,7 @@ function MoneyMethodology({ verticalKey }: { verticalKey: string }) {
             <strong className="font-semibold">
               Every review lists at least one genuine con.
             </strong>{" "}
-            If we recommend a product, we also tell you where it falls short —
+            If we recommend a product, we also tell you where it falls short:
             a variable rate that can drop, a subscription cost, a learning
             curve, or a missing feature.
           </li>
@@ -430,7 +430,7 @@ function MoneyMethodology({ verticalKey }: { verticalKey: string }) {
           its weight, and summed into a final score out of 10. Providers in the
           same category are scored against the same rubric, so scores are
           directly comparable within a ranking. A high score is not a
-          recommendation to buy — it means the product performed well on fees,
+          recommendation to buy: it means the product performed well on fees,
           value, transparency, security, and support relative to its
           competitors. This content is informational only and is not financial,
           investment, tax, or legal advice; consider consulting a qualified
@@ -478,7 +478,7 @@ function TechMethodology({ verticalKey }: { verticalKey: string }) {
             does NOT operate a hardware or audio lab: we do not run independent
             benchmarks and we do not conduct hands-on performance, audio, or
             battery testing. Every rating is built from analysis of primary
-            documentation — manufacturer-published specification sheets, official
+            documentation: manufacturer-published specification sheets, official
             pricing pages, official security and audit documentation (SOC 2, ISO
             27001, FedRAMP), FCC filings, and publicly documented third-party
             audits and certifications. Because specs and prices change, every
@@ -535,7 +535,7 @@ function TechMethodology({ verticalKey }: { verticalKey: string }) {
         </div>
 
         <h2 className="mt-12 font-serif text-2xl font-bold text-brand-navy">
-          We analyze documentation — we do not run a lab
+          We analyze documentation: we do not run a lab
         </h2>
         <div className="mt-4 space-y-4 text-base leading-relaxed text-brand-ink/90">
           <p>
@@ -553,7 +553,7 @@ function TechMethodology({ verticalKey }: { verticalKey: string }) {
             pages, published security and audit reports, FCC equipment filings,
             and standards-body publications. When a manufacturer rates a battery
             at &quot;up to 8 hours,&quot; we report it as a manufacturer-rated
-            figure and cite the official source with an &quot;as of&quot; date —
+            figure and cite the official source with an &quot;as of&quot; date:
             we do not restate it as a measured result. Where a claim cannot be
             verified from a primary source, we describe it qualitatively or leave
             it out. We never invent a specification, a benchmark, or a test
@@ -595,7 +595,7 @@ function TechMethodology({ verticalKey }: { verticalKey: string }) {
             <strong className="font-semibold">
               Every review lists at least one genuine con.
             </strong>{" "}
-            If we recommend a product, we also tell you where it falls short —
+            If we recommend a product, we also tell you where it falls short:
             ecosystem lock-in, a subscription cost, a shorter battery rating, or
             a missing feature.
           </li>
@@ -633,7 +633,7 @@ function TechMethodology({ verticalKey }: { verticalKey: string }) {
           its weight, and summed into a final score out of 10. Products in the
           same category are scored against the same rubric, so scores are
           directly comparable within a ranking. A high score is not a guarantee
-          of quality — it means the product looked strong, on its documented
+          of quality: it means the product looked strong, on its documented
           specifications and official pricing, on performance, value,
           reliability and security, ease of use, and support relative to its
           competitors. This content is informational only and is not
@@ -683,7 +683,7 @@ function EducationMethodology({ verticalKey }: { verticalKey: string }) {
             (25%), Academics (20%), Support Services (15%), and Flexibility
             (10%). Crucially, Firsthand does NOT independently audit schools or
             programs, and it does NOT conduct student surveys. Every rating is
-            built from analysis of officially published data — accreditor
+            built from analysis of officially published data: accreditor
             databases and the U.S. Department of Education&apos;s Database of
             Accredited Postsecondary Institutions and Programs (DAPIP), U.S.
             Department of Education sources such as College Scorecard, the Bureau
@@ -744,7 +744,7 @@ function EducationMethodology({ verticalKey }: { verticalKey: string }) {
         </div>
 
         <h2 className="mt-12 font-serif text-2xl font-bold text-brand-navy">
-          We analyze published data — we do not audit schools or survey students
+          We analyze published data: we do not audit schools or survey students
         </h2>
         <div className="mt-4 space-y-4 text-base leading-relaxed text-brand-ink/90">
           <p>
@@ -777,7 +777,7 @@ function EducationMethodology({ verticalKey }: { verticalKey: string }) {
             <strong className="font-semibold">
               We review programs we don&apos;t earn from.
             </strong>{" "}
-            Category rankings include programs with no affiliate relationship —
+            Category rankings include programs with no affiliate relationship,
             including free, nonprofit options. If the best option in a category
             pays us nothing, it still ranks where the rubric puts it.
           </li>
@@ -803,7 +803,7 @@ function EducationMethodology({ verticalKey }: { verticalKey: string }) {
             <strong className="font-semibold">
               Every review lists at least one genuine con.
             </strong>{" "}
-            If we recommend a program, we also tell you where it falls short — a
+            If we recommend a program, we also tell you where it falls short: a
             missing free tier, a certificate that isn&apos;t accreditation, an
             open marketplace with variable quality, or a subscription cost.
           </li>
@@ -843,7 +843,7 @@ function EducationMethodology({ verticalKey }: { verticalKey: string }) {
           its weight, and summed into a final score out of 10. Programs in the
           same category are scored against the same rubric, so scores are
           directly comparable within a ranking. A high score is not a guarantee
-          of a job, a credential&apos;s value, or a learning outcome — it means
+          of a job, a credential&apos;s value, or a learning outcome: it means
           the program looked strong, on its published pricing, curriculum,
           accreditation, and documented outcomes, on outcomes, cost and value,
           academics, support, and flexibility relative to its competitors. This
@@ -894,15 +894,14 @@ function TravelMethodology({ verticalKey }: { verticalKey: string }) {
             published, fixed-weight criteria: Value (30%), Experience (25%),
             Flexibility (20%), Transparency (15%), and Service (10%).
             Crucially, Firsthand does NOT take press trips, stay in hotels for
-            review, file insurance claims, lab-test gear, or survey travelers —
+            review, file insurance claims, lab-test gear, or survey travelers,
             and it is not an insurance agency, broker, or producer. Every
             rating is built from analysis of officially published
             documentation: U.S. Department of Transportation aviation consumer
             protection rules, each insurer&apos;s own published plan pages and
             policy wording, each manufacturer&apos;s published specifications
             and warranty terms, and each provider&apos;s official policy pages.
-            Travel pricing is unusually dynamic — insurance premiums are
-            quote-based and vary by trip cost, traveler age, dates, and state —
+            Travel pricing is unusually dynamic (insurance premiums are quote-based and vary by trip cost, traveler age, dates, and state) 
             so quote-based products are compared on published plan structure
             rather than a single price, every verifiable figure is cited to a
             primary source with an &quot;as of&quot; date, and where a figure
@@ -958,7 +957,7 @@ function TravelMethodology({ verticalKey }: { verticalKey: string }) {
         </div>
 
         <h2 className="mt-12 font-serif text-2xl font-bold text-brand-navy">
-          We analyze published documentation — we do not test, travel, or file
+          We analyze published documentation: we do not test, travel, or file
           claims
         </h2>
         <div className="mt-4 space-y-4 text-base leading-relaxed text-brand-ink/90">
@@ -980,8 +979,7 @@ function TravelMethodology({ verticalKey }: { verticalKey: string }) {
             covers, each manufacturer&apos;s published dimensions, weights,
             materials, warranty, and trial terms for gear, and each
             provider&apos;s official policy pages for cancellation, change, and
-            support commitments. Where pricing is quote-based — as travel
-            insurance is — we compare published plan structures and say the
+            support commitments. Where pricing is quote-based (as travel insurance is) we compare published plan structures and say the
             price varies rather than inventing a representative premium. Where
             a claim cannot be verified from a primary source, we describe it
             qualitatively or leave it out. We never invent a price, a coverage
@@ -1025,7 +1023,7 @@ function TravelMethodology({ verticalKey }: { verticalKey: string }) {
               Every review lists at least one genuine con.
             </strong>{" "}
             If we recommend a product or provider, we also tell you where it
-            falls short — a quote-only price you can&apos;t compare easily, a
+            falls short: a quote-only price you can&apos;t compare easily, a
             warranty that excludes airline damage, a short review period, or a
             benefit that varies by state.
           </li>
@@ -1035,8 +1033,7 @@ function TravelMethodology({ verticalKey }: { verticalKey: string }) {
             </strong>{" "}
             Travel insurance benefits, Cancel For Any Reason availability, and
             policy terms vary by state and by traveler. When a benefit is
-            conditional — a purchase window, a cancellation deadline, a
-            partial-reimbursement cap — we state the condition instead of
+            conditional (a purchase window, a cancellation deadline, a partial-reimbursement cap) we state the condition instead of
             presenting the headline benefit alone. See our{" "}
             <Link
               href={sharedHref(verticalKey, "/editorial-policy")}
@@ -1065,7 +1062,7 @@ function TravelMethodology({ verticalKey }: { verticalKey: string }) {
           its weight, and summed into a final score out of 10. Products and
           providers in the same category are scored against the same rubric, so
           scores are directly comparable within a ranking. A high score is not a
-          guarantee of a smooth trip, an approved claim, or a durable product —
+          guarantee of a smooth trip, an approved claim, or a durable product:
           it means the product or service looked strong, on its published
           pricing, documentation, policies, and support commitments, on value,
           experience, flexibility, transparency, and service relative to its

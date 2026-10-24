@@ -282,7 +282,7 @@ export default async function ReviewPage({
                   {alt.name} review
                 </Link>{" "}
                 <span className="text-brand-ink/70">
-                  — {alt.rating_overall.toFixed(1)}/10, {alt.best_for.toLowerCase()}
+                  · {alt.rating_overall.toFixed(1)}/10, {alt.best_for.toLowerCase()}
                 </span>
               </li>
             ))}

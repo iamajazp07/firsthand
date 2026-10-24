@@ -5,7 +5,7 @@
     "type": "education",
     "category_id": "cat-software-saas",
     "title": "What SOC 2 and Third-Party Audits Actually Tell You About an App's Security",
-    "body_mdx": "When a software company says it is \"SOC 2 certified,\" it is pointing to a specific, defined thing — and knowing what that thing is (and isn't) helps you judge the claim. SOC 2 is a framework developed by the American Institute of Certified Public Accountants (AICPA) as part of its System and Organization Controls (SOC) suite. A SOC 2 report is an independent attestation, produced by a licensed CPA firm, on the controls a service organization has in place relevant to one or more of the five Trust Services Criteria: Security, Availability, Processing Integrity, Confidentiality, and Privacy.\n\nOne distinction matters most: Type I versus Type II. A SOC 2 Type I report evaluates whether controls are suitably designed at a single point in time. A SOC 2 Type II report goes further, testing whether those controls actually operated effectively over a period of time (often 6–12 months). When a vendor advertises \"SOC 2 Type II,\" it is claiming an auditor tested its controls over time, which is a stronger signal than Type I.\n\nSOC 2 is not the only credential you may see. ISO/IEC 27001 is an international standard for information security management systems, and FedRAMP is a U.S. government program authorizing cloud services for federal use, with impact levels (Low, Moderate, High). A password manager that lists FedRAMP High, for example, has met a demanding federal bar — though that authorization applies to specific government offerings, so read what exactly is covered.\n\nA few honest caveats. A SOC 2 report is only as current as its audit period, and the detailed report is usually shared under NDA, so a public \"SOC 2 badge\" is a summary, not proof you can independently inspect. Certifications also describe process and controls, not a guarantee that no breach can ever happen. Open-source code and published independent penetration-test or cryptography audits (which some vendors post publicly) add a different, complementary kind of transparency. The practical takeaway: treat SOC 2 Type II, ISO 27001, and FedRAMP as meaningful, verifiable signals of a mature security program — and check the vendor's own trust or security page for what is covered and how recently it was assessed. This article is educational and cites the frameworks' official descriptions; it is not a security audit.",
+    "body_mdx": "When a software company says it is \"SOC 2 certified,\" it is pointing to a specific, defined thing, and knowing what that thing is (and isn't) helps you judge the claim. SOC 2 is a framework developed by the American Institute of Certified Public Accountants (AICPA) as part of its System and Organization Controls (SOC) suite. A SOC 2 report is an independent attestation, produced by a licensed CPA firm, on the controls a service organization has in place relevant to one or more of the five Trust Services Criteria: Security, Availability, Processing Integrity, Confidentiality, and Privacy.\n\nOne distinction matters most: Type I versus Type II. A SOC 2 Type I report evaluates whether controls are suitably designed at a single point in time. A SOC 2 Type II report goes further, testing whether those controls actually operated effectively over a period of time (often 6–12 months). When a vendor advertises \"SOC 2 Type II,\" it is claiming an auditor tested its controls over time, which is a stronger signal than Type I.\n\nSOC 2 is not the only credential you may see. ISO/IEC 27001 is an international standard for information security management systems, and FedRAMP is a U.S. government program authorizing cloud services for federal use, with impact levels (Low, Moderate, High). A password manager that lists FedRAMP High, for example, has met a demanding federal bar, though that authorization applies to specific government offerings, so read what exactly is covered.\n\nA few honest caveats. A SOC 2 report is only as current as its audit period, and the detailed report is usually shared under NDA, so a public \"SOC 2 badge\" is a summary, not proof you can independently inspect. Certifications also describe process and controls, not a guarantee that no breach can ever happen. Open-source code and published independent penetration-test or cryptography audits (which some vendors post publicly) add a different, complementary kind of transparency. The practical takeaway: treat SOC 2 Type II, ISO 27001, and FedRAMP as meaningful, verifiable signals of a mature security program, and check the vendor's own trust or security page for what is covered and how recently it was assessed. This article is educational and cites the frameworks' official descriptions; it is not a security audit.",
     "author_id": "author-technology-research-analyst",
     "reviewer_id": "reviewer-editorial-team",
     "status": "draft",
@@ -15,19 +15,19 @@
     "compliance_json": null,
     "sources_json": [
       {
-        "name": "AICPA & CIMA — System and Organization Controls (SOC) Suite of Services (official)",
+        "name": "AICPA & CIMA: System and Organization Controls (SOC) Suite of Services (official)",
         "url": "https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services"
       },
       {
-        "name": "AICPA & CIMA — SOC 2 Reporting on an Examination of Controls (official publication)",
+        "name": "AICPA & CIMA: SOC 2 Reporting on an Examination of Controls (official publication)",
         "url": "https://www.aicpa-cima.com/cpe-learning/publication/soc-2-reporting-on-an-examination-of-controls-at-a-service-organization-relevant-to-security-availability-processing-integrity-confidentiality-or-privacy"
       },
       {
-        "name": "ISO — ISO/IEC 27001 Information security management (official)",
+        "name": "ISO: ISO/IEC 27001 Information security management (official)",
         "url": "https://www.iso.org/standard/27001"
       },
       {
-        "name": "FedRAMP — official program site",
+        "name": "FedRAMP: official program site",
         "url": "https://www.fedramp.gov/"
       }
     ]
@@ -38,7 +38,7 @@
     "type": "education",
     "category_id": "cat-headphones-audio",
     "title": "Wireless Earbud Codecs and Battery Claims Explained",
-    "body_mdx": "Two of the most confusing lines on a wireless earbud spec sheet are the audio codec and the battery rating. Understanding both helps you read manufacturer claims without over-reading them.\n\nA Bluetooth audio codec is the method used to compress and transmit sound wirelessly. For years the universal baseline has been SBC. Newer options aim to improve efficiency or quality: as part of Bluetooth LE Audio, the Bluetooth Special Interest Group (the standards body that governs Bluetooth) introduced LC3, the Low Complexity Communication Codec, which it adopted in 2020 with Bluetooth 5.2. LC3 is designed to deliver good audio quality at lower bitrates than SBC. Vendors also promote their own or licensed codecs (for example higher-bitrate options aimed at hi-res streaming), but a codec only works if both the earbuds and the source device support it — so a codec listed on the earbuds is not usable unless your phone supports it too. That is why we verify codec support against the manufacturer's official spec sheet and, when a launch document doesn't state a specific codec, we don't assume it.\n\nBattery ratings deserve similar care. A manufacturer's \"up to X hours\" is a rated figure measured under the company's own conditions — typically a specific volume level, and often with features like spatial/immersive audio or active noise cancellation turned off or on in ways the fine print specifies. This is why the same earbuds can be rated, say, up to 6 hours normally but only up to 4 hours with an immersive-audio mode enabled. Two numbers usually appear: per-earbud playback on a single charge, and total playback including the charging case's extra charges. When comparing products, compare like with like (ANC-on to ANC-on) and treat every figure as manufacturer-rated rather than a measured outcome.\n\nFirsthand does not run an audio lab, so we report these figures exactly as the manufacturer rates them and cite the official source. The practical takeaway: check that a codec is supported on both ends, read whether a battery rating is with ANC or immersive audio on or off, and separate per-earbud from with-case totals. This article is educational and cites the Bluetooth SIG and manufacturer documentation; it is not a measurement.",
+    "body_mdx": "Two of the most confusing lines on a wireless earbud spec sheet are the audio codec and the battery rating. Understanding both helps you read manufacturer claims without over-reading them.\n\nA Bluetooth audio codec is the method used to compress and transmit sound wirelessly. For years the universal baseline has been SBC. Newer options aim to improve efficiency or quality: as part of Bluetooth LE Audio, the Bluetooth Special Interest Group (the standards body that governs Bluetooth) introduced LC3, the Low Complexity Communication Codec, which it adopted in 2020 with Bluetooth 5.2. LC3 is designed to deliver good audio quality at lower bitrates than SBC. Vendors also promote their own or licensed codecs (for example higher-bitrate options aimed at hi-res streaming), but a codec only works if both the earbuds and the source device support it, so a codec listed on the earbuds is not usable unless your phone supports it too. That is why we verify codec support against the manufacturer's official spec sheet and, when a launch document doesn't state a specific codec, we don't assume it.\n\nBattery ratings deserve similar care. A manufacturer's \"up to X hours\" is a rated figure measured under the company's own conditions: typically a specific volume level, and often with features like spatial/immersive audio or active noise cancellation turned off or on in ways the fine print specifies. This is why the same earbuds can be rated, say, up to 6 hours normally but only up to 4 hours with an immersive-audio mode enabled. Two numbers usually appear: per-earbud playback on a single charge, and total playback including the charging case's extra charges. When comparing products, compare like with like (ANC-on to ANC-on) and treat every figure as manufacturer-rated rather than a measured outcome.\n\nFirsthand does not run an audio lab, so we report these figures exactly as the manufacturer rates them and cite the official source. The practical takeaway: check that a codec is supported on both ends, read whether a battery rating is with ANC or immersive audio on or off, and separate per-earbud from with-case totals. This article is educational and cites the Bluetooth SIG and manufacturer documentation; it is not a measurement.",
     "author_id": "author-technology-research-analyst",
     "reviewer_id": "reviewer-editorial-team",
     "status": "draft",
@@ -48,15 +48,15 @@
     "compliance_json": null,
     "sources_json": [
       {
-        "name": "Bluetooth SIG — LE Audio (official specifications)",
+        "name": "Bluetooth SIG: LE Audio (official specifications)",
         "url": "https://www.bluetooth.com/specifications/le-audio/"
       },
       {
-        "name": "Bluetooth SIG — A technical overview of LC3 (official blog)",
+        "name": "Bluetooth SIG: A technical overview of LC3 (official blog)",
         "url": "https://www.bluetooth.com/blog/a-technical-overview-of-lc3/"
       },
       {
-        "name": "Bluetooth SIG — Low Complexity Communication Codec (LC3) specification (official)",
+        "name": "Bluetooth SIG: Low Complexity Communication Codec (LC3) specification (official)",
         "url": "https://www.bluetooth.com/specifications/specs/low-complexity-communication-codec-1-0/"
       }
     ]
@@ -67,7 +67,7 @@
     "type": "education",
     "category_id": "cat-laptops",
     "title": "How to Read a Laptop Spec Sheet",
-    "body_mdx": "A laptop spec sheet packs a lot of decision-relevant information into a few lines. Here is how to read the ones that matter, using the manufacturers' and standards bodies' own definitions rather than marketing shorthand.\n\nThe processor (CPU) line names the chip family and model. Intel and AMD both publish official databases (Intel's ARK and AMD's product pages) that list a given model's core and thread counts, base and boost clock speeds, and cache — the authoritative place to confirm what a model number actually means rather than trusting a retailer's summary. More cores and higher clocks generally help sustained and parallel work, but the specific model and its power envelope matter more than the family name alone.\n\nMemory (RAM) and storage are distinct. RAM is working memory used while the laptop is on; storage (typically an SSD) holds your files and persists when powered off. Note whether RAM is soldered or user-upgradeable, because many thin laptops solder it, fixing your capacity at purchase. For storage, an NVMe SSD connected over PCIe is generally faster than a SATA SSD; the spec sheet usually states the interface.\n\nThe display line lists resolution, panel type, refresh rate, and sometimes brightness (in nits). Ports and their capabilities are a common source of confusion: USB-C is a connector shape, while the data standard behind it (USB, or Thunderbolt/USB4) determines actual speed and features. The USB Implementers Forum, which governs USB, publishes the current branding and speed tiers, so if throughput matters, confirm the underlying standard rather than assuming from the connector shape.\n\nFinally, battery capacity is often given in watt-hours (Wh); a larger Wh number is more energy on board, but real endurance depends on the display, processor, and workload, so treat any \"up to X hours\" claim as a manufacturer rating under specific conditions. Firsthand does not run a hardware lab; we read these specs from the manufacturers' official sheets and standards-body definitions, and we cite them. The takeaway: verify the exact CPU model in Intel's or AMD's official database, check whether RAM is upgradeable, confirm the SSD interface and the real USB/Thunderbolt standard behind a USB-C port, and read battery claims as rated figures. This article is educational and not a benchmark.",
+    "body_mdx": "A laptop spec sheet packs a lot of decision-relevant information into a few lines. Here is how to read the ones that matter, using the manufacturers' and standards bodies' own definitions rather than marketing shorthand.\n\nThe processor (CPU) line names the chip family and model. Intel and AMD both publish official databases (Intel's ARK and AMD's product pages) that list a given model's core and thread counts, base and boost clock speeds, and cache: the authoritative place to confirm what a model number actually means rather than trusting a retailer's summary. More cores and higher clocks generally help sustained and parallel work, but the specific model and its power envelope matter more than the family name alone.\n\nMemory (RAM) and storage are distinct. RAM is working memory used while the laptop is on; storage (typically an SSD) holds your files and persists when powered off. Note whether RAM is soldered or user-upgradeable, because many thin laptops solder it, fixing your capacity at purchase. For storage, an NVMe SSD connected over PCIe is generally faster than a SATA SSD; the spec sheet usually states the interface.\n\nThe display line lists resolution, panel type, refresh rate, and sometimes brightness (in nits). Ports and their capabilities are a common source of confusion: USB-C is a connector shape, while the data standard behind it (USB, or Thunderbolt/USB4) determines actual speed and features. The USB Implementers Forum, which governs USB, publishes the current branding and speed tiers, so if throughput matters, confirm the underlying standard rather than assuming from the connector shape.\n\nFinally, battery capacity is often given in watt-hours (Wh); a larger Wh number is more energy on board, but real endurance depends on the display, processor, and workload, so treat any \"up to X hours\" claim as a manufacturer rating under specific conditions. Firsthand does not run a hardware lab; we read these specs from the manufacturers' official sheets and standards-body definitions, and we cite them. The takeaway: verify the exact CPU model in Intel's or AMD's official database, check whether RAM is upgradeable, confirm the SSD interface and the real USB/Thunderbolt standard behind a USB-C port, and read battery claims as rated figures. This article is educational and not a benchmark.",
     "author_id": "author-technology-research-analyst",
     "reviewer_id": "reviewer-editorial-team",
     "status": "draft",
@@ -77,15 +77,15 @@
     "compliance_json": null,
     "sources_json": [
       {
-        "name": "Intel — Product Specifications (ARK) (official)",
+        "name": "Intel: Product Specifications (ARK) (official)",
         "url": "https://ark.intel.com/"
       },
       {
-        "name": "AMD — Processors (official product pages)",
+        "name": "AMD: Processors (official product pages)",
         "url": "https://www.amd.com/en/products/processors.html"
       },
       {
-        "name": "USB Implementers Forum — USB-C and USB standards (official)",
+        "name": "USB Implementers Forum: USB-C and USB standards (official)",
         "url": "https://www.usb.org/usb-c"
       }
     ]

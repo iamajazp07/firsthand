@@ -69,7 +69,7 @@ export default async function ReviewerPage({
               role="alert"
               className="mb-6 rounded border border-amber-400 bg-amber-50 px-3 py-1.5 text-xs font-semibold text-amber-800"
             >
-              PLACEHOLDER REVIEWER — attach real reviewer before publishing
+              PLACEHOLDER REVIEWER: attach real reviewer before publishing
             </p>
           )}
 
@@ -105,7 +105,7 @@ export default async function ReviewerPage({
               This editorial fact-check is a verification step, not medical
               advice and not authorship of the rankings. The team has no
               financial stake in the products covered. Its role is to catch
-              inaccuracies before publication — the content is still
+              inaccuracies before publication: the content is still
               informational only and is never a substitute for advice from a
               licensed healthcare professional. Firsthand does not currently
               retain a licensed physician reviewer, and we do not claim medical

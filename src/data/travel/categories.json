@@ -3,56 +3,56 @@
     "id": "cat-travel-insurance",
     "slug": "travel-insurance",
     "name": "Travel Insurance",
-    "description": "Evidence-first coverage of travel insurance providers — plan structures, Cancel For Any Reason terms, review periods, and assistance services read from each insurer's official plan documents and policy wording, not from claims experience or customer surveys. Firsthand is not an insurance agency or broker; benefits and availability vary by state.",
+    "description": "Evidence-first coverage of travel insurance providers: plan structures, Cancel For Any Reason terms, review periods, and assistance services read from each insurer's official plan documents and policy wording, not from claims experience or customer surveys. Firsthand is not an insurance agency or broker; benefits and availability vary by state.",
     "sort_order": 1
   },
   {
     "id": "cat-travel-gear",
     "slug": "travel-gear",
     "name": "Travel Gear",
-    "description": "Luggage and travel gear compared on official list prices, published dimensions, weight, materials, and each brand's own warranty and trial terms — reported from official product pages, not hands-on lab testing.",
+    "description": "Luggage and travel gear compared on official list prices, published dimensions, weight, materials, and each brand's own warranty and trial terms, reported from official product pages, not hands-on lab testing.",
     "sort_order": 2
   },
   {
     "id": "cat-flights-airlines",
     "slug": "flights-airlines",
     "name": "Flights & Airlines",
-    "description": "Air travel explained from the primary sources — U.S. Department of Transportation consumer protection rules and airlines' own published policies on refunds, changes, baggage, and carry-on limits.",
+    "description": "Air travel explained from the primary sources: U.S. Department of Transportation consumer protection rules and airlines' own published policies on refunds, changes, baggage, and carry-on limits.",
     "sort_order": 3
   },
   {
     "id": "cat-hotels-lodging",
     "slug": "hotels-lodging",
     "name": "Hotels & Lodging",
-    "description": "Hotels and lodging services analyzed from published loyalty program terms, cancellation policies, and fee disclosures — not from stays, press trips, or guest surveys.",
+    "description": "Hotels and lodging services analyzed from published loyalty program terms, cancellation policies, and fee disclosures, not from stays, press trips, or guest surveys.",
     "sort_order": 4
   },
   {
     "id": "cat-travel-cards",
     "slug": "travel-cards",
     "name": "Travel Cards",
-    "description": "Travel credit cards and their published rewards, fees, and protections. For full card-by-card analysis, see Firsthand Money — our personal-finance vertical — which covers fees, rates, and terms from official card agreements.",
+    "description": "Travel credit cards and their published rewards, fees, and protections. For full card-by-card analysis, see Firsthand Money (our personal-finance vertical) which covers fees, rates, and terms from official card agreements.",
     "sort_order": 5
   },
   {
     "id": "cat-cruises",
     "slug": "cruises",
     "name": "Cruises",
-    "description": "Cruise lines and cruise planning covered from published cruise contracts, cancellation schedules, and official line policies — not from sailings or passenger surveys.",
+    "description": "Cruise lines and cruise planning covered from published cruise contracts, cancellation schedules, and official line policies, not from sailings or passenger surveys.",
     "sort_order": 6
   },
   {
     "id": "cat-destinations",
     "slug": "destinations",
     "name": "Destinations",
-    "description": "Destination guidance sourced from official tourism boards, government travel advisories, and entry-requirement pages — never invented itineraries or unsourced 'hidden gems'.",
+    "description": "Destination guidance sourced from official tourism boards, government travel advisories, and entry-requirement pages, never invented itineraries or unsourced 'hidden gems'.",
     "sort_order": 7
   },
   {
     "id": "cat-travel-news",
     "slug": "travel-news",
     "name": "Travel News",
-    "description": "Original analysis of primary-source travel announcements — DOT rulemaking, airline and insurer policy changes, and published pricing changes. We read the source, not the headlines.",
+    "description": "Original analysis of primary-source travel announcements: DOT rulemaking, airline and insurer policy changes, and published pricing changes. We read the source, not the headlines.",
     "sort_order": 8
   }
 ]

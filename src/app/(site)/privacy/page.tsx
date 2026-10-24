@@ -41,26 +41,26 @@ export default function PrivacyPage() {
             <li>
               <strong className="font-semibold">Analytics data.</strong> We use
               website analytics to understand which pages are read and how
-              visitors find us — page views, referring sites, approximate
+              visitors find us: page views, referring sites, approximate
               (city-level) location, device and browser type. This data is
               aggregated; we don&apos;t use it to identify you personally.
             </li>
             <li>
-              <strong className="font-semibold">Email address</strong> — only
+              <strong className="font-semibold">Email address</strong>, only
               if you choose to join our newsletter. We record the address you
               provide and where on the site you signed up.
             </li>
             <li>
               <strong className="font-semibold">
                 Messages you send us
-              </strong>{" "}
-              — if you contact us, we keep the message and your email so we can
+              </strong>:
+              if you contact us, we keep the message and your email so we can
               reply.
             </li>
           </ul>
           <p>
             We do not collect health information, and we do not ask for
-            payment details — purchases made through links on this site happen
+            payment details: purchases made through links on this site happen
             on the seller&apos;s website under the seller&apos;s privacy
             policy.
           </p>
@@ -72,7 +72,7 @@ export default function PrivacyPage() {
             Firsthand uses a small number of cookies and similar technologies:
             analytics cookies that help us count visits, and affiliate-tracking
             parameters that let a seller credit a purchase to a link on this
-            site (that&apos;s how we&apos;re paid — see our{" "}
+            site (that&apos;s how we&apos;re paid: see our{" "}
             <Link
               href="/affiliate-disclosure"
               className="font-semibold text-brand-blue hover:underline"
@@ -104,7 +104,7 @@ export default function PrivacyPage() {
             Third-party services
           </h2>
           <p>
-            We rely on a small set of service providers to run the site —
+            We rely on a small set of service providers to run the site:
             hosting, analytics, and email delivery. They process data on our
             behalf under their own contractual and legal obligations. Links on
             Firsthand lead to third-party sites we don&apos;t control; their
@@ -119,7 +119,7 @@ export default function PrivacyPage() {
             blocked, and ask us to access or delete the personal information we
             hold about you (your newsletter email and any messages you&apos;ve
             sent). Depending on where you live, you may have additional rights
-            under local privacy law — we honor deletion and access requests
+            under local privacy law: we honor deletion and access requests
             regardless of jurisdiction. To exercise any of these, use our{" "}
             <Link
               href="/contact"

@@ -29,7 +29,7 @@ export const education: Vertical = {
   host: "readfirsthand.com",
   tagline: "Evidence-First Reviews of Learning Programs & Education Tools",
   description:
-    "Firsthand Education is an independent education review site. We read the official record — accreditor databases, U.S. Department of Education sources, and each provider's own published pricing, curriculum, and outcomes documentation — to rank online learning platforms, bootcamps, certifications, and study tools clearly and without hype. We do not audit schools or survey students; our ratings analyze published data, not independent audits.",
+    "Firsthand Education is an independent education review site. We read the official record: accreditor databases, U.S. Department of Education sources, and each provider's own published pricing, curriculum, and outcomes documentation: to rank online learning platforms, bootcamps, certifications, and study tools clearly and without hype. We do not audit schools or survey students; our ratings analyze published data, not independent audits.",
 
   // SAME shared Firsthand brand palette as Health/Money/Tech (brand consistency).
   theme: {
@@ -80,7 +80,7 @@ export const education: Vertical = {
       longLabel: "Outcomes",
       weight: 0.3,
       description:
-        "What the credential or program is designed to lead to — and what the officially published or provider-disclosed data shows. We read outcomes evidence from primary sources: the U.S. Department of Education's College Scorecard, accreditor databases, and, for bootcamps, standardized reports (e.g. CIRR). When a provider's completion, placement, or salary figures are self-reported and not independently audited, we say so explicitly and never present them as verified. Firsthand does not survey students or audit outcomes; where a figure cannot be verified from a primary source we describe it qualitatively or omit it.",
+        "What the credential or program is designed to lead to, and what the officially published or provider-disclosed data shows. We read outcomes evidence from primary sources: the U.S. Department of Education's College Scorecard, accreditor databases, and, for bootcamps, standardized reports (e.g. CIRR). When a provider's completion, placement, or salary figures are self-reported and not independently audited, we say so explicitly and never present them as verified. Firsthand does not survey students or audit outcomes; where a figure cannot be verified from a primary source we describe it qualitatively or omit it.",
     },
     {
       key: "cost_value",
@@ -112,16 +112,16 @@ export const education: Vertical = {
       longLabel: "Flexibility & Access",
       weight: 0.1,
       description:
-        "How easily a learner can fit the program into real life: self-paced versus cohort schedules, mobile and offline access, device and platform availability, language options, and how much of the advertised experience works without a specific device or subscription tier — all drawn from official documentation.",
+        "How easily a learner can fit the program into real life: self-paced versus cohort schedules, mobile and offline access, device and platform availability, language options, and how much of the advertised experience works without a specific device or subscription tier: all drawn from official documentation.",
     },
   ],
 
   methodologyIntro:
-    "Education reviews carry real weight because they touch careers and money, so we are explicit about our evidence. Firsthand Education does not independently audit schools or programs, and it does not conduct student surveys. Instead, every rating is built from analysis of officially published data — accreditor databases and the U.S. Department of Education's Database of Accredited Postsecondary Institutions and Programs (DAPIP), U.S. Department of Education sources such as College Scorecard, the Bureau of Labor Statistics, and each provider's own published pricing, curriculum, accreditation, and outcomes documentation. Because prices and programs change, every number in our reviews is cited to a primary source with an 'as of' date, and where we cannot verify a figure we describe it qualitatively or omit it rather than guess. When a provider's completion, placement, or salary numbers are self-reported and unaudited, we label them as self-reported and never present them as independently verified.",
+    "Education reviews carry real weight because they touch careers and money, so we are explicit about our evidence. Firsthand Education does not independently audit schools or programs, and it does not conduct student surveys. Instead, every rating is built from analysis of officially published data: accreditor databases and the U.S. Department of Education's Database of Accredited Postsecondary Institutions and Programs (DAPIP), U.S. Department of Education sources such as College Scorecard, the Bureau of Labor Statistics, and each provider's own published pricing, curriculum, accreditation, and outcomes documentation. Because prices and programs change, every number in our reviews is cited to a primary source with an 'as of' date, and where we cannot verify a figure we describe it qualitatively or omit it rather than guess. When a provider's completion, placement, or salary numbers are self-reported and unaudited, we label them as self-reported and never present them as independently verified.",
 
   disclosureLabel: "Affiliate Disclosure",
   disclosureBody:
-    "Firsthand Education is reader-supported. We may earn a commission if you enroll or subscribe through links on this page — at no extra cost to you. Commissions never affect our rankings, ratings, or which programs we cover: placement follows the published methodology, not payment.",
+    "Firsthand Education is reader-supported. We may earn a commission if you enroll or subscribe through links on this page, at no extra cost to you. Commissions never affect our rankings, ratings, or which programs we cover: placement follows the published methodology, not payment.",
 
   // Not-academic/career/financial-advice content disclaimer.
   contentDisclaimer:
@@ -137,13 +137,13 @@ export const education: Vertical = {
     "Firsthand Education content is for informational purposes only and is not academic, career, or financial advice; ratings are based on published data, not independent audits of schools or programs.",
 
   methodologyMetaDescription:
-    "The published methodology behind every Firsthand Education ranking: Outcomes, Cost & Value, Academics, Support Services, and Flexibility — rated from officially published data and provider documentation, not independent audits or student surveys.",
+    "The published methodology behind every Firsthand Education ranking: Outcomes, Cost & Value, Academics, Support Services, and Flexibility: rated from officially published data and provider documentation, not independent audits or student surveys.",
 
   newsletter: {
     brandName: "The Firsthand Education Brief",
     bandBlurb:
-      "One weekly email: what changed in the pricing, accreditation, and published outcomes behind the learning programs and tools you're considering — read from the primary sources. No hype, no spam.",
-    ctaHeading: "Get evidence-based education picks in your inbox — no hype.",
+      "One weekly email: what changed in the pricing, accreditation, and published outcomes behind the learning programs and tools you're considering, read from the primary sources. No hype, no spam.",
+    ctaHeading: "Get evidence-based education picks in your inbox, no hype.",
     ctaBlurb:
       "Join The Firsthand Education Brief for a weekly, research-first read.",
   },
@@ -151,11 +151,11 @@ export const education: Vertical = {
   homepage: {
     heroFallbackTitle: "Education decisions deserve better evidence.",
     heroFallbackBody:
-      "Firsthand Education reads the official record — accreditor databases, U.S. Department of Education sources, and each provider's own published pricing, curriculum, and outcomes documentation — to rank online learning platforms, bootcamps, certifications, and study tools clearly and without hype. We don't audit schools or survey students; our ratings come from published data.",
+      "Firsthand Education reads the official record: accreditor databases, U.S. Department of Education sources, and each provider's own published pricing, curriculum, and outcomes documentation: to rank online learning platforms, bootcamps, certifications, and study tools clearly and without hype. We don't audit schools or survey students; our ratings come from published data.",
     trustHeading: "Why trust Firsthand Education",
     trustPoints: [
       "Rankings built from officially published data and provider documentation, not sponsorships.",
-      "Clear methodology and cited, as-of-dated figures on every page — self-reported outcomes are labeled as self-reported.",
+      "Clear methodology and cited, as-of-dated figures on every page: self-reported outcomes are labeled as self-reported.",
       "We are explicit that we do not audit schools or survey students; every review lists at least one genuine con.",
     ],
     rankingsLabel: "2026 editions",
@@ -164,14 +164,14 @@ export const education: Vertical = {
         title: "Best Online Learning Platforms of 2026",
         category: "Online Learning Platforms",
         blurb:
-          "We compared the leading online learning platforms on official pricing, published curriculum and credentialing, and support — with every price and claim cited to a primary source.",
+          "We compared the leading online learning platforms on official pricing, published curriculum and credentialing, and support, with every price and claim cited to a primary source.",
         href: "/best/best-online-learning-platforms",
       },
       {
         title: "Best Language Learning Apps of 2026",
         category: "Language Learning",
         blurb:
-          "A side-by-side look at the major language-learning apps using official pricing, documented methods and features, and free-tier limits — reported from each app's own documentation, not efficacy marketing.",
+          "A side-by-side look at the major language-learning apps using official pricing, documented methods and features, and free-tier limits, reported from each app's own documentation, not efficacy marketing.",
         href: "/best/best-language-learning-apps",
       },
     ],

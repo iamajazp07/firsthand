@@ -16,7 +16,7 @@ export async function generateMetadata({
   return {
     title: "Find Your Sleep Supplement: 60-Second Quiz",
     description:
-      "Answer five quick questions and get an evidence-based sleep supplement match — no email required to see your result.",
+      "Answer five quick questions and get an evidence-based sleep supplement match, no email required to see your result.",
     alternates: { canonical: verticalUrl(key, "/quiz/sleep") },
   };
 }
@@ -70,7 +70,7 @@ export default async function SleepQuizPage({
         </h1>
         <p className="mt-3 max-w-2xl text-base leading-relaxed text-brand-ink/80">
           Answer a few questions and we&apos;ll point you to the real,
-          evidence-based sleep picks that best fit your situation — drawn from
+          evidence-based sleep picks that best fit your situation: drawn from
           our independent reviews. Your result shows instantly; no email
           required.
         </p>

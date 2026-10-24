@@ -28,7 +28,7 @@ export const health: Vertical = {
   host: "health.readfirsthand.com",
   tagline: "Independent Health & Wellness Reviews",
   description:
-    "Firsthand is an independent health & wellness review site. We analyze clinical research to rank supplements, telehealth providers, and health products — clearly and without hype.",
+    "Firsthand is an independent health & wellness review site. We analyze clinical research to rank supplements, telehealth providers, and health products: clearly and without hype.",
 
   // Brand color tokens copied from globals.css (@theme --color-brand-*).
   theme: {
@@ -129,16 +129,16 @@ export const health: Vertical = {
 
   // Intro paragraph copied from /methodology page.
   methodologyIntro:
-    "Most review sites keep their scoring rules vague, which makes it impossible to tell an honest recommendation from a paid one. We take the opposite approach: the exact criteria and weights behind every Firsthand ranking are published on this page, and they apply to every product in a category — whether or not we have any financial relationship with its maker.",
+    "Most review sites keep their scoring rules vague, which makes it impossible to tell an honest recommendation from a paid one. We take the opposite approach: the exact criteria and weights behind every Firsthand ranking are published on this page, and they apply to every product in a category, whether or not we have any financial relationship with its maker.",
 
   // Affiliate disclosure copied from AffiliateDisclosure.tsx (banner body).
   disclosureLabel: "Affiliate disclosure",
   disclosureBody:
-    "Firsthand is reader-supported. We earn a commission if you buy through links on this page — at no extra cost to you. Commissions never influence our rankings.",
+    "Firsthand is reader-supported. We earn a commission if you buy through links on this page, at no extra cost to you. Commissions never influence our rankings.",
 
   // Medical disclaimer copied from MedicalDisclaimer.tsx.
   contentDisclaimer:
-    "This content is for informational purposes only and is not medical advice. It is not intended to diagnose, treat, cure, or prevent any disease. Consult a healthcare professional before starting any supplement, treatment, or program — especially if you are pregnant, nursing, taking medication, or managing a health condition.",
+    "This content is for informational purposes only and is not medical advice. It is not intended to diagnose, treat, cure, or prevent any disease. Consult a healthcare professional before starting any supplement, treatment, or program: especially if you are pregnant, nursing, taking medication, or managing a health condition.",
   // Bold/aria label — VERBATIM "Medical disclaimer" from MedicalDisclaimer.tsx.
   contentDisclaimerLabel: "Medical disclaimer",
 
@@ -159,14 +159,14 @@ export const health: Vertical = {
 
   // /methodology meta description — VERBATIM from the previous page metadata.
   methodologyMetaDescription:
-    "The published methodology behind every Firsthand ranking: Safety, Evidence Quality, Cost & Value, Transparency, and Customer Support — with fixed weights that affiliate partnerships never change.",
+    "The published methodology behind every Firsthand ranking: Safety, Evidence Quality, Cost & Value, Transparency, and Customer Support, with fixed weights that affiliate partnerships never change.",
 
   // Newsletter copy — VERBATIM from NewsletterBand.tsx / ArticleNewsletterCta.tsx.
   newsletter: {
     brandName: "The Firsthand Brief",
     bandBlurb:
       "One weekly email: what the newest health research actually says, and which products hold up. No hype, no spam.",
-    ctaHeading: "Get evidence-based health picks in your inbox — no hype.",
+    ctaHeading: "Get evidence-based health picks in your inbox, no hype.",
     ctaBlurb: "Join The Firsthand Brief for a weekly, research-first read.",
   },
 
@@ -175,7 +175,7 @@ export const health: Vertical = {
   homepage: {
     heroFallbackTitle: "Health decisions deserve better evidence.",
     heroFallbackBody:
-      "Firsthand analyzes clinical research to rank supplements, telehealth providers, and health products — clearly and without hype.",
+      "Firsthand analyzes clinical research to rank supplements, telehealth providers, and health products: clearly and without hype.",
     trustHeading: "Why trust Firsthand",
     trustPoints: [
       "Rankings built from published clinical research, not sponsorships.",
@@ -202,7 +202,7 @@ export const health: Vertical = {
         title: "Best Whitening & Oral Health Picks 2026",
         category: "Dental & Oral Health",
         blurb:
-          "Whitening kits and oral-care picks that hold up to dental research — and the popular ones that don't.",
+          "Whitening kits and oral-care picks that hold up to dental research, and the popular ones that don't.",
         href: "/best/best-teeth-whitening-products",
       },
     ],
@@ -211,14 +211,14 @@ export const health: Vertical = {
         title: "Magnesium for Sleep: Separating Signal from Noise",
         category: "Nutrition & Supplements",
         excerpt:
-          "Placeholder — a deep dive into the trial data behind magnesium's sleep claims arrives in a later step.",
+          "Placeholder: a deep dive into the trial data behind magnesium's sleep claims arrives in a later step.",
         byline: "Firsthand Staff",
       },
       {
         title: "OTC Hearing Aids in 2026: What Changed and Who Benefits",
         category: "Hearing",
         excerpt:
-          "Placeholder — our guide to the post-regulation OTC hearing-aid market arrives in a later step.",
+          "Placeholder: our guide to the post-regulation OTC hearing-aid market arrives in a later step.",
         byline: "Firsthand Staff",
       },
     ],

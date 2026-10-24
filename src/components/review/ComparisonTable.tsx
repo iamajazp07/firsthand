@@ -65,7 +65,7 @@ export default function ComparisonTable({
                 </Link>
                 {!p.is_monetized && (
                   <span className="mt-0.5 block text-xs text-brand-ink/60">
-                    Not an affiliate — no commission earned
+                    Not an affiliate, no commission earned
                   </span>
                 )}
               </td>

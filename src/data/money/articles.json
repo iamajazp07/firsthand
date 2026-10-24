@@ -5,7 +5,7 @@
     "type": "education",
     "category_id": "cat-high-yield-savings",
     "title": "How FDIC Insurance Actually Works",
-    "body_mdx": "If an FDIC-insured bank fails, your covered deposits are protected up to at least $250,000 — automatically, with no application required. The Federal Deposit Insurance Corporation sets that standard limit as $250,000 per depositor, per insured bank, per ownership category. The last phrase matters: because coverage is calculated separately for each ownership category, the same person can be insured for more than $250,000 at a single bank when funds are held in different categories (for example, single accounts and joint accounts are insured separately).\n\nCoverage applies to deposit products: checking accounts, savings accounts, money market deposit accounts, and certificates of deposit (CDs). It does not extend to investment products even when bought at a bank — stocks, bonds, mutual funds, annuities, life insurance policies, crypto assets, and the contents of a safe deposit box are not FDIC-insured.\n\nTo see exactly how the rules apply to your own accounts, the FDIC offers a free tool called EDIE, the Electronic Deposit Insurance Estimator, at edie.fdic.gov. It lets you enter your accounts and ownership categories to calculate your insured and any uninsured amounts.\n\nThis article is educational and not financial advice; confirm details for your situation against the FDIC's official resources.",
+    "body_mdx": "If an FDIC-insured bank fails, your covered deposits are protected up to at least $250,000: automatically, with no application required. The Federal Deposit Insurance Corporation sets that standard limit as $250,000 per depositor, per insured bank, per ownership category. The last phrase matters: because coverage is calculated separately for each ownership category, the same person can be insured for more than $250,000 at a single bank when funds are held in different categories (for example, single accounts and joint accounts are insured separately).\n\nCoverage applies to deposit products: checking accounts, savings accounts, money market deposit accounts, and certificates of deposit (CDs). It does not extend to investment products even when bought at a bank: stocks, bonds, mutual funds, annuities, life insurance policies, crypto assets, and the contents of a safe deposit box are not FDIC-insured.\n\nTo see exactly how the rules apply to your own accounts, the FDIC offers a free tool called EDIE, the Electronic Deposit Insurance Estimator, at edie.fdic.gov. It lets you enter your accounts and ownership categories to calculate your insured and any uninsured amounts.\n\nThis article is educational and not financial advice; confirm details for your situation against the FDIC's official resources.",
     "author_id": "author-consumer-finance-analyst",
     "reviewer_id": "reviewer-editorial-team",
     "status": "draft",
@@ -15,19 +15,19 @@
     "compliance_json": null,
     "sources_json": [
       {
-        "name": "FDIC — Understanding Deposit Insurance (official)",
+        "name": "FDIC: Understanding Deposit Insurance (official)",
         "url": "https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance"
       },
       {
-        "name": "FDIC — Are My Deposit Accounts Insured by the FDIC?",
+        "name": "FDIC: Are My Deposit Accounts Insured by the FDIC?",
         "url": "https://www.fdic.gov/resources/deposit-insurance/financial-products-insured"
       },
       {
-        "name": "FDIC — Deposit Insurance FAQs",
+        "name": "FDIC: Deposit Insurance FAQs",
         "url": "https://www.fdic.gov/resources/deposit-insurance/faq"
       },
       {
-        "name": "FDIC — Electronic Deposit Insurance Estimator (EDIE)",
+        "name": "FDIC: Electronic Deposit Insurance Estimator (EDIE)",
         "url": "https://edie.fdic.gov/"
       }
     ]
@@ -38,7 +38,7 @@
     "type": "education",
     "category_id": "cat-high-yield-savings",
     "title": "HYSA vs. Money Market Accounts vs. CDs: Which Savings Vehicle Fits",
-    "body_mdx": "High-yield savings accounts, money market deposit accounts, and certificates of deposit are all bank deposit products — and when held at an FDIC-insured bank, each is insured up to at least $250,000 per depositor, per ownership category. The differences come down to access and rate structure, not safety. A high-yield savings account (a savings account marketed with a competitive rate) and a money market deposit account both let you withdraw funds on demand and typically pay a variable rate that can change at any time.\n\nOne naming trap is worth stressing: a money market DEPOSIT account (offered by a bank and FDIC-insured) is not the same thing as a money market FUND. The U.S. Securities and Exchange Commission notes that a money market fund is a type of mutual fund and has no FDIC insurance; as with any investment, you can lose money. If you are choosing among insured savings vehicles, confirm you are looking at a bank deposit account, not a fund.\n\nCertificates of deposit trade liquidity for rate certainty. Investor.gov describes a CD as a savings account that holds a fixed amount for a fixed term, after which you receive your principal plus interest. In exchange for locking the money up, you generally accept an early-withdrawal penalty for taking funds out before maturity — the bank's disclosure statement should spell out that penalty before you commit.\n\nThe practical tradeoff: savings and money market deposit accounts keep your cash liquid but leave the rate free to move, while a CD fixes the rate for the term at the cost of easy access. This is educational information, not financial advice.",
+    "body_mdx": "High-yield savings accounts, money market deposit accounts, and certificates of deposit are all bank deposit products, and when held at an FDIC-insured bank, each is insured up to at least $250,000 per depositor, per ownership category. The differences come down to access and rate structure, not safety. A high-yield savings account (a savings account marketed with a competitive rate) and a money market deposit account both let you withdraw funds on demand and typically pay a variable rate that can change at any time.\n\nOne naming trap is worth stressing: a money market DEPOSIT account (offered by a bank and FDIC-insured) is not the same thing as a money market FUND. The U.S. Securities and Exchange Commission notes that a money market fund is a type of mutual fund and has no FDIC insurance; as with any investment, you can lose money. If you are choosing among insured savings vehicles, confirm you are looking at a bank deposit account, not a fund.\n\nCertificates of deposit trade liquidity for rate certainty. Investor.gov describes a CD as a savings account that holds a fixed amount for a fixed term, after which you receive your principal plus interest. In exchange for locking the money up, you generally accept an early-withdrawal penalty for taking funds out before maturity: the bank's disclosure statement should spell out that penalty before you commit.\n\nThe practical tradeoff: savings and money market deposit accounts keep your cash liquid but leave the rate free to move, while a CD fixes the rate for the term at the cost of easy access. This is educational information, not financial advice.",
     "author_id": "author-consumer-finance-analyst",
     "reviewer_id": "reviewer-editorial-team",
     "status": "draft",
@@ -48,19 +48,19 @@
     "compliance_json": null,
     "sources_json": [
       {
-        "name": "FDIC — Are My Deposit Accounts Insured by the FDIC?",
+        "name": "FDIC: Are My Deposit Accounts Insured by the FDIC?",
         "url": "https://www.fdic.gov/resources/deposit-insurance/financial-products-insured"
       },
       {
-        "name": "Investor.gov (SEC) — Money Market Funds: Investor Bulletin",
+        "name": "Investor.gov (SEC): Money Market Funds: Investor Bulletin",
         "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated-12"
       },
       {
-        "name": "Investor.gov (SEC) — Certificates of Deposit (CDs)",
+        "name": "Investor.gov (SEC): Certificates of Deposit (CDs)",
         "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/certificates-deposit-cds"
       },
       {
-        "name": "FDIC — Understanding Deposit Insurance",
+        "name": "FDIC: Understanding Deposit Insurance",
         "url": "https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance"
       }
     ]
@@ -71,7 +71,7 @@
     "type": "news",
     "category_id": "cat-money-news",
     "title": "What the Fed's Rate Decisions Mean for Your Savings APY",
-    "body_mdx": "When people say \"the Fed raised rates\" or \"cut rates,\" they are usually referring to a decision by the Federal Open Market Committee about the federal funds rate — and that decision can ripple through to the APY on your savings account. The Federal Reserve defines the federal funds rate as the interest rate at which depository institutions lend balances held at the Federal Reserve to one another overnight. The FOMC, which holds eight regularly scheduled meetings per year, sets a target range for this rate.\n\nThe FOMC does not directly set the interest rate your bank pays you. Instead, it uses open market operations to influence the supply of and demand for reserve balances, steering the effective federal funds rate into its target range. Because that rate anchors the broader cost of short-term money in the banking system, banks tend to adjust the yields they offer on deposit accounts in the same general direction over time.\n\nIn practice, this means deposit APYs often drift higher after the FOMC moves its target range up, and lower after it moves the range down — but the timing, size, and pass-through vary by bank and product, and are never guaranteed. Rates on variable products like savings and money market deposit accounts can change at any time, while a CD locks in its rate for the term.\n\nTo see where policy stands, check the Federal Reserve's own statements rather than secondhand summaries: the FOMC publishes its target range and meeting statements at federalreserve.gov. This is educational information, not financial advice.",
+    "body_mdx": "When people say \"the Fed raised rates\" or \"cut rates,\" they are usually referring to a decision by the Federal Open Market Committee about the federal funds rate, and that decision can ripple through to the APY on your savings account. The Federal Reserve defines the federal funds rate as the interest rate at which depository institutions lend balances held at the Federal Reserve to one another overnight. The FOMC, which holds eight regularly scheduled meetings per year, sets a target range for this rate.\n\nThe FOMC does not directly set the interest rate your bank pays you. Instead, it uses open market operations to influence the supply of and demand for reserve balances, steering the effective federal funds rate into its target range. Because that rate anchors the broader cost of short-term money in the banking system, banks tend to adjust the yields they offer on deposit accounts in the same general direction over time.\n\nIn practice, this means deposit APYs often drift higher after the FOMC moves its target range up, and lower after it moves the range down, but the timing, size, and pass-through vary by bank and product, and are never guaranteed. Rates on variable products like savings and money market deposit accounts can change at any time, while a CD locks in its rate for the term.\n\nTo see where policy stands, check the Federal Reserve's own statements rather than secondhand summaries: the FOMC publishes its target range and meeting statements at federalreserve.gov. This is educational information, not financial advice.",
     "author_id": "author-consumer-finance-analyst",
     "reviewer_id": "reviewer-editorial-team",
     "status": "draft",
@@ -81,11 +81,11 @@
     "compliance_json": null,
     "sources_json": [
       {
-        "name": "Federal Reserve — Federal Open Market Committee (FOMC)",
+        "name": "Federal Reserve: Federal Open Market Committee (FOMC)",
         "url": "https://www.federalreserve.gov/monetarypolicy/fomc.htm"
       },
       {
-        "name": "Federal Reserve — Open Market Operations",
+        "name": "Federal Reserve: Open Market Operations",
         "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm"
       }
     ]

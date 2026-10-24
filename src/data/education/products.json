@@ -18,7 +18,7 @@
     "pros": [
       "Courses and content are developed with named universities and companies (Coursera lists 350+ university and industry partners), so the academic provenance is documented and verifiable",
       "Coursera Plus offers subscription access to thousands of courses and Specializations, and finishing a course can earn a shareable certificate, per Coursera's official pricing page (as of 2026-07-12)",
-      "Offers a genuine credential ladder — from certificates to industry Professional Certificates to fully online, accredited university degrees — so learners can pick the level that matches their goal",
+      "Offers a genuine credential ladder (from certificates to industry Professional Certificates to fully online, accredited university degrees) so learners can pick the level that matches their goal",
       "Many individual courses can be audited free, letting you evaluate the material before paying"
     ],
     "cons": [
@@ -27,8 +27,8 @@
       "Advertised pricing is promotion-heavy and region-dependent, so the number you see may differ from the standard list price"
     ],
     "best_for": "Learners who want university- and industry-backed courses with a clear path from a certificate up to an accredited online degree.",
-    "summary": "Coursera pairs the strongest academic provenance in this group — courses built with named universities and companies — with a real credential ladder from certificates to accredited degrees. The trade-offs are a subscription that doesn't cover degrees or every certificate, and promotion-heavy pricing.",
-    "verdict_summary": "Coursera is our top overall pick because it combines documented academic provenance with a genuine credential ladder. Its content is developed with named universities and companies (Coursera's site lists 350+ partners), and the platform spans free-to-audit courses, subscription access through Coursera Plus, industry Professional Certificates, and fully online accredited university degrees — so a learner can match the credential to the goal. Coursera's official pricing page describes Coursera Plus as a monthly or annual subscription (about $59/month or $399/year US list price, as of 2026-07-12) that unlocks thousands of courses and Specializations, with certificates for courses you complete. The honest trade-offs: Coursera Plus explicitly does not include every Professional Certificate, Specialization, or any degree program, so it is not all-access; auditing usually withholds graded work and the certificate; and pricing is promotion-heavy and region-dependent. Note this rating reflects analysis of Coursera's published documentation, not an audit of learning outcomes. For breadth, provenance, and credentialing, Coursera leads.",
+    "summary": "Coursera pairs the strongest academic provenance in this group (courses built with named universities and companies) with a real credential ladder from certificates to accredited degrees. The trade-offs are a subscription that doesn't cover degrees or every certificate, and promotion-heavy pricing.",
+    "verdict_summary": "Coursera is our top overall pick because it combines documented academic provenance with a genuine credential ladder. Its content is developed with named universities and companies (Coursera's site lists 350+ partners), and the platform spans free-to-audit courses, subscription access through Coursera Plus, industry Professional Certificates, and fully online accredited university degrees, so a learner can match the credential to the goal. Coursera's official pricing page describes Coursera Plus as a monthly or annual subscription (about $59/month or $399/year US list price, as of 2026-07-12) that unlocks thousands of courses and Specializations, with certificates for courses you complete. The honest trade-offs: Coursera Plus explicitly does not include every Professional Certificate, Specialization, or any degree program, so it is not all-access; auditing usually withholds graded work and the certificate; and pricing is promotion-heavy and region-dependent. Note this rating reflects analysis of Coursera's published documentation, not an audit of learning outcomes. For breadth, provenance, and credentialing, Coursera leads.",
     "pricing_table": [
       {
         "plan": "Audit (free)",
@@ -63,12 +63,12 @@
     "evidence_points": [
       {
         "claim": "Coursera Plus is a monthly or annual subscription (about $59/month or $399/year US list price, as of 2026-07-12) offering access to thousands of courses and Specializations, with certificates on completion; it does not include some Professional Certificates or degree programs.",
-        "source_name": "Coursera — Coursera Plus (official)",
+        "source_name": "Coursera: Coursera Plus (official)",
         "source_url": "https://www.coursera.org/courseraplus"
       },
       {
         "claim": "Coursera hosts fully online degrees from partner universities alongside courses and certificates; degrees are conferred by the accredited institutions.",
-        "source_name": "Coursera — Online Degrees (official)",
+        "source_name": "Coursera: Online Degrees (official)",
         "source_url": "https://www.coursera.org/degrees"
       }
     ],
@@ -97,13 +97,13 @@
       "Publishes financial assistance options for verified certificates, lowering the cost barrier for eligible learners"
     ],
     "cons": [
-      "Since edX was acquired by the for-profit company 2U in 2021, the audit experience has tightened on many courses — audit access windows can be time-limited and graded assignments and the certificate are withheld unless you pay",
+      "Since edX was acquired by the for-profit company 2U in 2021, the audit experience has tightened on many courses: audit access windows can be time-limited and graded assignments and the certificate are withheld unless you pay",
       "Verified-certificate pricing varies widely by course ($50–$300 is typical) and full programs can cost substantially more",
       "Support and mentorship are lighter than a cohort bootcamp; the model is largely self-directed"
     ],
     "best_for": "Learners who want free access to university-created courses and the option to pay only when they need a verified credential.",
-    "summary": "edX offers university-created courses — it was founded by MIT and Harvard — with most courses free to audit and paid verified certificates when you need a credential. The trade-offs are a tightened audit experience since the 2U acquisition and course-by-course certificate pricing.",
-    "verdict_summary": "edX earns a high place on academic provenance and value. Founded by MIT and Harvard, it still hosts courses from many named universities, and its official help center confirms most courses can be audited for free — you pay only when you want the verified certificate, which typically runs $50–$300 per course, with larger stackable programs (MicroBachelors, MicroMasters, Professional Certificates) priced higher. edX also publishes financial-assistance options that can reduce verified-certificate costs for eligible learners. The honest trade-offs: since edX was acquired by the for-profit company 2U in 2021, the free audit experience has tightened on many courses — audit windows can be time-limited, and graded assignments and certificates are gated behind payment — and certificate pricing varies widely course to course. Support is largely self-directed rather than mentored. This rating analyzes edX's published documentation, not learning outcomes we measured. For free university-created content with an optional paid credential, edX is a strong, lower-cost choice.",
+    "summary": "edX offers university-created courses (it was founded by MIT and Harvard) with most courses free to audit and paid verified certificates when you need a credential. The trade-offs are a tightened audit experience since the 2U acquisition and course-by-course certificate pricing.",
+    "verdict_summary": "edX earns a high place on academic provenance and value. Founded by MIT and Harvard, it still hosts courses from many named universities, and its official help center confirms most courses can be audited for free: you pay only when you want the verified certificate, which typically runs $50–$300 per course, with larger stackable programs (MicroBachelors, MicroMasters, Professional Certificates) priced higher. edX also publishes financial-assistance options that can reduce verified-certificate costs for eligible learners. The honest trade-offs: since edX was acquired by the for-profit company 2U in 2021, the free audit experience has tightened on many courses (audit windows can be time-limited, and graded assignments and certificates are gated behind payment) and certificate pricing varies widely course to course. Support is largely self-directed rather than mentored. This rating analyzes edX's published documentation, not learning outcomes we measured. For free university-created content with an optional paid credential, edX is a strong, lower-cost choice.",
     "pricing_table": [
       {
         "plan": "Audit (free)",
@@ -138,12 +138,12 @@
     "evidence_points": [
       {
         "claim": "Most edX courses can be audited for free; the verified (paid) track adds graded assignments, a certificate, and full access.",
-        "source_name": "edX Learner Help Center — audit vs. verified courses (official)",
+        "source_name": "edX Learner Help Center: audit vs. verified courses (official)",
         "source_url": "https://help.edx.org/edxlearner/s/article/What-are-the-differences-between-audit-free-and-verified-paid-courses"
       },
       {
         "claim": "edX offers verified certificates as a paid upgrade to the free audit track.",
-        "source_name": "edX — Verified Certificate (official)",
+        "source_name": "edX: Verified Certificate (official)",
         "source_url": "https://www.edx.org/verified-certificate"
       }
     ],
@@ -164,21 +164,21 @@
       "support_services": 6,
       "flexibility": 9
     },
-    "price_summary": "Completely free — Khan Academy is a 501(c)(3) nonprofit funded by donations; no ads, no subscription (as of 2026-07-12)",
+    "price_summary": "Completely free: Khan Academy is a 501(c)(3) nonprofit funded by donations; no ads, no subscription (as of 2026-07-12)",
     "pros": [
-      "Completely free with no ads and no subscription — Khan Academy's help center states its materials are available for free and it is a 501(c)(3) nonprofit funded by donations",
+      "Completely free with no ads and no subscription: Khan Academy's help center states its materials are available for free and it is a 501(c)(3) nonprofit funded by donations",
       "Deep, standards-aligned coverage of math, science, and other academic subjects from preschool through early college, with videos, practice, and mastery tracking",
       "Because it is a nonprofit with no ads, there is no upsell pressure and no monetization of learner attention",
       "Excellent as a free supplement for K-12 and early-college coursework and for brushing up on fundamentals"
     ],
     "cons": [
-      "Khan Academy does not grant accredited degrees or widely recognized professional certificates, so it is a learning resource rather than a credentialing path — a real limitation if you need a credential for a job or transfer",
+      "Khan Academy does not grant accredited degrees or widely recognized professional certificates, so it is a learning resource rather than a credentialing path: a real limitation if you need a credential for a job or transfer",
       "Its focus is academic subjects (heavily math and science) rather than career or professional skills, so it is not a substitute for a bootcamp or professional course",
       "Support is self-directed with limited instructor interaction; there are no cohorts, mentors, or graded human feedback"
     ],
     "best_for": "Students, parents, and self-learners who want genuinely free, high-quality academic instruction with no ads or upsells.",
-    "summary": "Khan Academy is the best free option here: a 501(c)(3) nonprofit offering ad-free, standards-aligned academic instruction from preschool through early college. Its clear limitation is credentialing — it grants no accredited degrees or professional certificates.",
-    "verdict_summary": "Khan Academy is unmatched on cost and academic value, which is why it ranks this high despite offering no credential. Its help center confirms it is a 501(c)(3) nonprofit whose materials are free, with no ads and no subscription, funded by donations. The content is deep and standards-aligned — math, science, and other academic subjects from preschool through early college, with instructional videos, practice, and mastery tracking. Because it is a nonprofit with no advertising, there is no upsell and no monetization of learner attention. The honest limitation is credentialing and scope: Khan Academy does not grant accredited degrees or widely recognized professional certificates, so it is a learning resource rather than a path to a job-ready credential, and its focus is academic subjects rather than professional skills. Support is self-directed with limited human feedback. This rating analyzes Khan Academy's published documentation, not outcomes we measured. As a free academic supplement, nothing here beats it; as a credentialing path, look elsewhere.",
+    "summary": "Khan Academy is the best free option here: a 501(c)(3) nonprofit offering ad-free, standards-aligned academic instruction from preschool through early college. Its clear limitation is credentialing: it grants no accredited degrees or professional certificates.",
+    "verdict_summary": "Khan Academy is unmatched on cost and academic value, which is why it ranks this high despite offering no credential. Its help center confirms it is a 501(c)(3) nonprofit whose materials are free, with no ads and no subscription, funded by donations. The content is deep and standards-aligned: math, science, and other academic subjects from preschool through early college, with instructional videos, practice, and mastery tracking. Because it is a nonprofit with no advertising, there is no upsell and no monetization of learner attention. The honest limitation is credentialing and scope: Khan Academy does not grant accredited degrees or widely recognized professional certificates, so it is a learning resource rather than a path to a job-ready credential, and its focus is academic subjects rather than professional skills. Support is self-directed with limited human feedback. This rating analyzes Khan Academy's published documentation, not outcomes we measured. As a free academic supplement, nothing here beats it; as a credentialing path, look elsewhere.",
     "pricing_table": [
       {
         "plan": "Free (nonprofit)",
@@ -197,18 +197,18 @@
       },
       {
         "question": "What subjects does Khan Academy cover?",
-        "answer": "Khan Academy focuses on standards-aligned academic subjects — heavily math and science, plus others — from preschool through early college. It is not oriented toward career or professional-skills training the way a bootcamp or professional course platform is."
+        "answer": "Khan Academy focuses on standards-aligned academic subjects (heavily math and science, plus others) from preschool through early college. It is not oriented toward career or professional-skills training the way a bootcamp or professional course platform is."
       }
     ],
     "evidence_points": [
       {
         "claim": "Khan Academy's materials are free with no ads, and it is a 501(c)(3) not-for-profit organization funded by donations.",
-        "source_name": "Khan Academy Help Center — Does it cost money to use Khan Academy? (official)",
+        "source_name": "Khan Academy Help Center: Does it cost money to use Khan Academy? (official)",
         "source_url": "https://support.khanacademy.org/hc/en-us/articles/202260114-Does-it-cost-money-to-use-Khan-Academy"
       },
       {
         "claim": "Khan Academy is an IRS-recognized 501(c)(3) not-for-profit on a mission to provide free, world-class education for anyone, anywhere.",
-        "source_name": "Khan Academy Help Center — What makes Khan Academy a not-for-profit? (official)",
+        "source_name": "Khan Academy Help Center: What makes Khan Academy a not-for-profit? (official)",
         "source_url": "https://support.khanacademy.org/hc/en-us/articles/202483500-What-makes-Khan-Academy-a-not-for-profit"
       }
     ],
@@ -237,13 +237,13 @@
       "Certificates post directly to your LinkedIn profile, which is convenient for professional visibility"
     ],
     "cons": [
-      "LinkedIn Learning issues certificates of completion, not accredited credentials or college credit — they signal effort, not a recognized qualification, so do not mistake them for accreditation",
+      "LinkedIn Learning issues certificates of completion, not accredited credentials or college credit: they signal effort, not a recognized qualification, so do not mistake them for accreditation",
       "Depth is uneven: it is strong for practical, introductory-to-intermediate professional skills but not a substitute for rigorous or advanced academic coursework",
       "Month-to-month pricing is notably higher than the annual rate, so the cheapest price requires an annual commitment"
     ],
-    "best_for": "Working professionals building practical job skills who want a convenient, LinkedIn-integrated library — especially those who already have LinkedIn Premium.",
+    "best_for": "Working professionals building practical job skills who want a convenient, LinkedIn-integrated library: especially those who already have LinkedIn Premium.",
     "summary": "LinkedIn Learning is a convenient, practitioner-taught library of professional skills that integrates with your LinkedIn profile and is bundled with LinkedIn Premium. Its key limitation: certificates are completion certificates, not accredited credentials.",
-    "verdict_summary": "LinkedIn Learning is a practical choice for working professionals building job skills. Its catalog covers software, business, management, and creative topics taught by industry practitioners, and finishing a course produces a certificate of completion you can display on your LinkedIn profile. LinkedIn's documentation describes an individual subscription billed monthly or annually (about $239.88/year, roughly $19.99/month billed annually, with a higher month-to-month rate) plus a one-month free trial, and the service is included at no extra charge with LinkedIn Premium — so many professionals already have it. Many public libraries also offer free access. The honest trade-offs: these are certificates of completion, not accredited credentials or college credit, so they signal effort rather than a recognized qualification; depth is uneven and skews introductory-to-intermediate; and the lowest price requires an annual commitment. This rating analyzes LinkedIn's published documentation, not outcomes we measured. For convenient, profile-integrated professional upskilling, it is a solid pick.",
+    "verdict_summary": "LinkedIn Learning is a practical choice for working professionals building job skills. Its catalog covers software, business, management, and creative topics taught by industry practitioners, and finishing a course produces a certificate of completion you can display on your LinkedIn profile. LinkedIn's documentation describes an individual subscription billed monthly or annually (about $239.88/year, roughly $19.99/month billed annually, with a higher month-to-month rate) plus a one-month free trial, and the service is included at no extra charge with LinkedIn Premium, so many professionals already have it. Many public libraries also offer free access. The honest trade-offs: these are certificates of completion, not accredited credentials or college credit, so they signal effort rather than a recognized qualification; depth is uneven and skews introductory-to-intermediate; and the lowest price requires an annual commitment. This rating analyzes LinkedIn's published documentation, not outcomes we measured. For convenient, profile-integrated professional upskilling, it is a solid pick.",
     "pricing_table": [
       {
         "plan": "Free trial",
@@ -278,7 +278,7 @@
     "evidence_points": [
       {
         "claim": "LinkedIn Learning is offered as an individual subscription with a free trial and is included with LinkedIn Premium; completing a course produces a certificate you can add to your LinkedIn profile.",
-        "source_name": "LinkedIn Learning — Subscription & free trial (official)",
+        "source_name": "LinkedIn Learning: Subscription & free trial (official)",
         "source_url": "https://www.linkedin.com/learning/subscription/products"
       }
     ],
@@ -307,13 +307,13 @@
       "Most course purchases carry a 30-day refund policy, per Udemy's documentation, reducing the risk of a bad buy"
     ],
     "cons": [
-      "Udemy is an open marketplace where almost anyone can publish a course, so quality is highly variable from course to course — the single biggest caveat, and it means you must vet each instructor and course individually rather than trust the platform name",
+      "Udemy is an open marketplace where almost anyone can publish a course, so quality is highly variable from course to course: the single biggest caveat, and it means you must vet each instructor and course individually rather than trust the platform name",
       "Courses are not accredited and do not carry recognized academic or professional credentials",
       "List prices are heavily promotion-driven; the 'original' price is often far above what courses actually sell for, so headline discounts can be misleading"
     ],
     "best_for": "Self-directed learners who want an inexpensive, on-demand way to pick up a specific practical skill and are willing to vet individual courses.",
     "summary": "Udemy is a vast, inexpensive marketplace for picking up specific practical skills, with lifetime access to purchased courses and frequent discounts. The central caveat is quality: it is an open marketplace, so course quality varies widely and you must vet each one.",
-    "verdict_summary": "Udemy is the go-to marketplace for inexpensively picking up a specific, practical skill. Its catalog is enormous, individual courses come with lifetime access once purchased, and prices are frequently discounted, so a targeted skill can cost very little. An optional Personal Plan subscription bundles a large course selection for a monthly or annual fee, and most course purchases carry a 30-day refund policy per Udemy's documentation. The central, documentable caveat is quality control: Udemy is an open marketplace where almost anyone can become an instructor and publish a course, so quality varies widely from course to course — you must vet each instructor and course individually rather than trust the platform name. Courses are also not accredited, and list prices are heavily promotion-driven, so headline 'discounts' can be misleading. This rating analyzes Udemy's published model and policies, not outcomes we measured. For cheap, self-directed, skill-specific learning — with careful vetting — Udemy delivers.",
+    "verdict_summary": "Udemy is the go-to marketplace for inexpensively picking up a specific, practical skill. Its catalog is enormous, individual courses come with lifetime access once purchased, and prices are frequently discounted, so a targeted skill can cost very little. An optional Personal Plan subscription bundles a large course selection for a monthly or annual fee, and most course purchases carry a 30-day refund policy per Udemy's documentation. The central, documentable caveat is quality control: Udemy is an open marketplace where almost anyone can become an instructor and publish a course, so quality varies widely from course to course: you must vet each instructor and course individually rather than trust the platform name. Courses are also not accredited, and list prices are heavily promotion-driven, so headline 'discounts' can be misleading. This rating analyzes Udemy's published model and policies, not outcomes we measured. For cheap, self-directed, skill-specific learning (with careful vetting) Udemy delivers.",
     "pricing_table": [
       {
         "plan": "Individual course",
@@ -329,7 +329,7 @@
     "faq": [
       {
         "question": "Is course quality consistent on Udemy?",
-        "answer": "No, and this is the main thing to know. Udemy is an open marketplace where almost anyone can publish a course, so quality varies widely from one course and instructor to the next. Vet each course individually — check the instructor, curriculum, ratings, and reviews — rather than assuming a consistent standard (as of 2026-07-12)."
+        "answer": "No, and this is the main thing to know. Udemy is an open marketplace where almost anyone can publish a course, so quality varies widely from one course and instructor to the next. Vet each course individually (check the instructor, curriculum, ratings, and reviews) rather than assuming a consistent standard (as of 2026-07-12)."
       },
       {
         "question": "Do I keep Udemy courses forever?",
@@ -343,12 +343,12 @@
     "evidence_points": [
       {
         "claim": "Udemy offers individual course purchases and an optional Personal Plan subscription; most course purchases are covered by a 30-day refund policy.",
-        "source_name": "Udemy — Plans & pricing (official)",
+        "source_name": "Udemy: Plans & pricing (official)",
         "source_url": "https://www.udemy.com/pricing/"
       },
       {
         "claim": "Udemy is an open marketplace in which instructors create and publish their own courses.",
-        "source_name": "Udemy — Teach on Udemy (official instructor model)",
+        "source_name": "Udemy: Teach on Udemy (official instructor model)",
         "source_url": "https://www.udemy.com/teaching/"
       }
     ],
@@ -371,19 +371,19 @@
     },
     "price_summary": "Subscription only: about $167.88/year ($13.99/month billed annually); month-to-month is higher; free trial for new members but no permanent free tier (US list price as of 2026-07-12; varies by region and promotions)",
     "pros": [
-      "Strong for creative and practical skills — design, illustration, photography, video, and entrepreneurship — with a project-based, learn-by-doing format",
+      "Strong for creative and practical skills (design, illustration, photography, video, and entrepreneurship) with a project-based, learn-by-doing format",
       "A single subscription unlocks the full class library, and classes include hands-on projects and a community for sharing work",
       "Offers a free trial for new members so you can evaluate the library before committing, per Skillshare's pricing page",
       "Annual billing brings the effective monthly cost down to about $13.99"
     ],
     "cons": [
-      "There is no permanent free tier — only a trial — so once the trial ends, all access requires a paid subscription (unlike Coursera, edX, or Khan Academy, which each offer some free access)",
+      "There is no permanent free tier (only a trial) so once the trial ends, all access requires a paid subscription (unlike Coursera, edX, or Khan Academy, which each offer some free access)",
       "Classes are not accredited and do not carry recognized credentials; the focus is skill-building and creative projects, not qualifications",
       "Content skews creative and introductory; it is not designed for rigorous academic or advanced technical study"
     ],
     "best_for": "Creative hobbyists and professionals who want project-based classes in design, video, and related skills under one subscription.",
     "summary": "Skillshare is a subscription library focused on creative, project-based classes with a supportive community. Its limitations: no permanent free tier, no accredited credentials, and a creative, introductory skew.",
-    "verdict_summary": "Skillshare is a subscription library built around creative, project-based learning — design, illustration, photography, video, and entrepreneurship — taught in a hands-on, learn-by-doing format with a community for sharing work. A single subscription unlocks the full class library; Skillshare's pricing page lists it at about $167.88/year ($13.99/month billed annually), with a higher month-to-month rate and a free trial for new members (US list price as of 2026-07-12, varies by region and promotions). The honest trade-offs: there is no permanent free tier, only a trial, so continued access requires paying — a contrast with Coursera, edX, and Khan Academy, which each offer some free access. Classes are not accredited and carry no recognized credential, and the catalog skews creative and introductory rather than rigorous or advanced. This rating analyzes Skillshare's published documentation, not outcomes we measured. For creative, project-driven skill-building under one subscription, Skillshare fits; for credentials or academic depth, it does not.",
+    "verdict_summary": "Skillshare is a subscription library built around creative, project-based learning (design, illustration, photography, video, and entrepreneurship) taught in a hands-on, learn-by-doing format with a community for sharing work. A single subscription unlocks the full class library; Skillshare's pricing page lists it at about $167.88/year ($13.99/month billed annually), with a higher month-to-month rate and a free trial for new members (US list price as of 2026-07-12, varies by region and promotions). The honest trade-offs: there is no permanent free tier, only a trial, so continued access requires paying: a contrast with Coursera, edX, and Khan Academy, which each offer some free access. Classes are not accredited and carry no recognized credential, and the catalog skews creative and introductory rather than rigorous or advanced. This rating analyzes Skillshare's published documentation, not outcomes we measured. For creative, project-driven skill-building under one subscription, Skillshare fits; for credentials or academic depth, it does not.",
     "pricing_table": [
       {
         "plan": "Free trial",
@@ -404,7 +404,7 @@
     "faq": [
       {
         "question": "Does Skillshare have a free tier?",
-        "answer": "No permanent free tier — Skillshare offers a free trial for new members, but after it ends, all class access requires a paid subscription. This differs from Coursera, edX, and Khan Academy, which each provide some ongoing free access (as of 2026-07-12)."
+        "answer": "No permanent free tier: Skillshare offers a free trial for new members, but after it ends, all class access requires a paid subscription. This differs from Coursera, edX, and Khan Academy, which each provide some ongoing free access (as of 2026-07-12)."
       },
       {
         "question": "Are Skillshare classes accredited?",
@@ -412,13 +412,13 @@
       },
       {
         "question": "What is Skillshare best for?",
-        "answer": "Creative and practical skills — design, illustration, photography, video editing, and entrepreneurship — taught in a hands-on, project-based format with a community for feedback. It is less suited to rigorous academic or advanced technical study."
+        "answer": "Creative and practical skills (design, illustration, photography, video editing, and entrepreneurship) taught in a hands-on, project-based format with a community for feedback. It is less suited to rigorous academic or advanced technical study."
       }
     ],
     "evidence_points": [
       {
         "claim": "Skillshare is a subscription (about $167.88/year, $13.99/month billed annually, US list price as of 2026-07-12) that unlocks its full class library, with a free trial for new members and no permanent free tier.",
-        "source_name": "Skillshare — Pricing (official)",
+        "source_name": "Skillshare: Pricing (official)",
         "source_url": "https://www.skillshare.com/en/pricing"
       }
     ],
@@ -447,13 +447,13 @@
       "Optional Babbel Live adds real-time classes with teachers for learners who want speaking practice with a human"
     ],
     "cons": [
-      "Only a small amount of content (typically the first lesson of a course) is free — beyond that, everything requires a paid subscription, so there is no meaningful free tier to learn on long-term",
+      "Only a small amount of content (typically the first lesson of a course) is free: beyond that, everything requires a paid subscription, so there is no meaningful free tier to learn on long-term",
       "Subscriptions auto-renew, and the low promotional per-month rate is tied to committing up front to a longer term (e.g. 12 months)",
       "Babbel Live real-time classes are an added cost on top of the standard subscription"
     ],
     "best_for": "Adult learners who want structured, conversation-first lessons with clear grammar and are ready to pay for a subscription.",
     "summary": "Babbel offers structured, conversation-first lessons with explicit grammar, built by teaching experts, at a reasonable annual price. Its limitations: almost no free content, up-front longer-term commitments for the best rate, and paid extra for live classes.",
-    "verdict_summary": "Babbel is our top language-app pick for structured, adult-oriented learning. Its lessons are conversation-first but also teach explicit grammar, organized in a clear beginner-to-advanced path and developed by language-teaching experts — a good fit for learners who want to understand the language, not just drill vocabulary. Babbel's pricing is a subscription: about $14.99/month month-to-month, dropping to roughly $7.99/month on a 12-month plan (~$95.88/year), with a lifetime all-languages plan frequently around $249–$299 (US list prices as of 2026-07-12, varying by language and promotions). The honest trade-offs: only a small amount of content (typically the first lesson) is free, so there is no meaningful long-term free tier; the low per-month rate requires committing up front to a longer term; subscriptions auto-renew; and Babbel Live real-time classes cost extra. This rating analyzes Babbel's published documentation, not any efficacy study, and we do not cite company-commissioned research. For structured, conversation-and-grammar learning, Babbel leads.",
+    "verdict_summary": "Babbel is our top language-app pick for structured, adult-oriented learning. Its lessons are conversation-first but also teach explicit grammar, organized in a clear beginner-to-advanced path and developed by language-teaching experts: a good fit for learners who want to understand the language, not just drill vocabulary. Babbel's pricing is a subscription: about $14.99/month month-to-month, dropping to roughly $7.99/month on a 12-month plan (~$95.88/year), with a lifetime all-languages plan frequently around $249–$299 (US list prices as of 2026-07-12, varying by language and promotions). The honest trade-offs: only a small amount of content (typically the first lesson) is free, so there is no meaningful long-term free tier; the low per-month rate requires committing up front to a longer term; subscriptions auto-renew; and Babbel Live real-time classes cost extra. This rating analyzes Babbel's published documentation, not any efficacy study, and we do not cite company-commissioned research. For structured, conversation-and-grammar learning, Babbel leads.",
     "pricing_table": [
       {
         "plan": "Month-to-month",
@@ -493,12 +493,12 @@
     "evidence_points": [
       {
         "claim": "Babbel is a subscription product (about $14.99/month month-to-month, lower on longer plans) with an optional lifetime plan and paid Babbel Live classes; only a small amount of content is free.",
-        "source_name": "Babbel — Prices (official)",
+        "source_name": "Babbel: Prices (official)",
         "source_url": "https://www.babbel.com/prices"
       },
       {
         "claim": "Babbel documents its subscription pricing and plan terms in its official Help Center.",
-        "source_name": "Babbel Help Center — Pricing (official)",
+        "source_name": "Babbel Help Center: Pricing (official)",
         "source_url": "https://support.babbel.com/hc/en-us/articles/19650417983378-Pricing"
       }
     ],
@@ -521,19 +521,19 @@
     },
     "price_summary": "Free tier with ads; Super Duolingo (ad-free) about $12.99/month or $95.99/year; Duolingo Max (adds AI features) about $29.99/month or $167.99/year; Family plan about $119.99/year for up to 6 (US list price as of 2026-07-12; varies by region and promotions)",
     "pros": [
-      "Genuinely capable free tier — you can learn a language without paying, which no other app here matches at this scale",
+      "Genuinely capable free tier: you can learn a language without paying, which no other app here matches at this scale",
       "Short, gamified lessons with streaks and reminders make it easy to build a daily habit across many languages",
       "Super Duolingo removes ads and adds practice features; a Family plan spreads the cost across up to six people (about $119.99/year)",
       "Available across web, iOS, and Android with broad language coverage and offline lessons on paid tiers"
     ],
     "cons": [
-      "The free tier is ad-supported and includes interruptions and (historically) limits like hearts, which the paid Super tier removes — so the free experience is deliberately friction-laden",
+      "The free tier is ad-supported and includes interruptions and (historically) limits like hearts, which the paid Super tier removes, so the free experience is deliberately friction-laden",
       "Its bite-sized, translation-and-recognition style builds vocabulary and habit well but provides limited real conversational and speaking practice, so it is better as a supplement than a sole path to fluency",
       "Duolingo Max's headline AI features cost roughly double Super, and some previously Max-only features have shifted over time, so weigh what you actually get"
     ],
     "best_for": "Beginners and casual learners who want a free, habit-building way to start a language across many options.",
     "summary": "Duolingo's standout is a genuinely useful free tier and habit-building, gamified lessons across many languages. Its limits: ads and friction on the free tier, and limited real speaking practice in its core format.",
-    "verdict_summary": "Duolingo's defining strength is access: its free tier is genuinely capable, letting you learn a language without paying — something no other app here matches at this scale — with short, gamified lessons and reminders that make a daily habit easy across many languages. Paid tiers layer on top: Super Duolingo removes ads and adds practice features (about $12.99/month or $95.99/year), Duolingo Max adds AI-driven features (about $29.99/month or $167.99/year), and a Family plan covers up to six people for about $119.99/year (US list prices as of 2026-07-12, varying by region and promotions). The honest trade-offs: the free tier is ad-supported and deliberately friction-laden to nudge upgrades; the core translation-and-recognition style builds vocabulary and habit but offers limited real conversational and speaking practice, so it works best as a supplement rather than a sole route to fluency; and Max costs roughly double Super. This rating analyzes Duolingo's published documentation, not any efficacy study. For a free, low-friction start, Duolingo is hard to beat.",
+    "verdict_summary": "Duolingo's defining strength is access: its free tier is genuinely capable, letting you learn a language without paying (something no other app here matches at this scale) with short, gamified lessons and reminders that make a daily habit easy across many languages. Paid tiers layer on top: Super Duolingo removes ads and adds practice features (about $12.99/month or $95.99/year), Duolingo Max adds AI-driven features (about $29.99/month or $167.99/year), and a Family plan covers up to six people for about $119.99/year (US list prices as of 2026-07-12, varying by region and promotions). The honest trade-offs: the free tier is ad-supported and deliberately friction-laden to nudge upgrades; the core translation-and-recognition style builds vocabulary and habit but offers limited real conversational and speaking practice, so it works best as a supplement rather than a sole route to fluency; and Max costs roughly double Super. This rating analyzes Duolingo's published documentation, not any efficacy study. For a free, low-friction start, Duolingo is hard to beat.",
     "pricing_table": [
       {
         "plan": "Free",
@@ -554,7 +554,7 @@
     "faq": [
       {
         "question": "Is Duolingo free?",
-        "answer": "Yes — Duolingo has a genuinely usable free tier supported by ads and some usage limits, which is its biggest advantage among these apps. Paid Super and Max tiers remove ads and add features (as of 2026-07-12)."
+        "answer": "Yes: Duolingo has a genuinely usable free tier supported by ads and some usage limits, which is its biggest advantage among these apps. Paid Super and Max tiers remove ads and add features (as of 2026-07-12)."
       },
       {
         "question": "What is the difference between Super and Max?",
@@ -568,7 +568,7 @@
     "evidence_points": [
       {
         "claim": "Duolingo offers a free ad-supported tier plus paid Super (ad-free) and Max (AI features) subscriptions and a Family plan.",
-        "source_name": "Duolingo — Super Duolingo (official)",
+        "source_name": "Duolingo: Super Duolingo (official)",
         "source_url": "https://www.duolingo.com/super"
       }
     ],
@@ -597,13 +597,13 @@
       "Longer Premium commitments lower the effective monthly cost"
     ],
     "cons": [
-      "The community-correction quality is uneven — anyone can correct your work regardless of their own proficiency, so feedback ranges from excellent to unreliable, which matters most for languages with complex politeness or grammar systems",
+      "The community-correction quality is uneven: anyone can correct your work regardless of their own proficiency, so feedback ranges from excellent to unreliable, which matters most for languages with complex politeness or grammar systems",
       "The free Basic tier is limited: personalized study plans, grammar lessons, offline mode, and community feedback are gated behind Premium",
       "Language selection (14) is narrower than some competitors, so less common languages may not be available"
     ],
     "best_for": "Learners who value feedback from native speakers and want a structured course with a usable free tier to start.",
     "summary": "Busuu pairs a structured, CEFR-referenced course with a distinctive native-speaker community-correction feature and a usable free tier. Its trade-offs: uneven community-feedback quality and a limited free tier.",
-    "verdict_summary": "Busuu's differentiator is its community: you can submit writing and speaking exercises for correction by native speakers and correct others' work in return, which adds a human-feedback layer most apps lack. On top of that, Busuu offers structured courses across 14 languages with grammar lessons, study plans, and an official CEFR-referenced progression on Premium (per its documentation), plus a free Basic tier so you can start without paying. Premium runs roughly $5–$14/month depending on plan length (US list prices as of 2026-07-12, varying by term, region, and promotions). The honest trade-offs: community-correction quality is uneven because anyone can correct your work regardless of their own proficiency, so feedback ranges from excellent to unreliable — especially for languages with complex politeness or grammar; the free Basic tier is limited, with study plans, grammar, offline mode, and community feedback gated behind Premium; and its 14-language selection is narrower than some rivals. This rating analyzes Busuu's published documentation, not any efficacy study. For structured learning with native-speaker feedback, Busuu is a strong value.",
+    "verdict_summary": "Busuu's differentiator is its community: you can submit writing and speaking exercises for correction by native speakers and correct others' work in return, which adds a human-feedback layer most apps lack. On top of that, Busuu offers structured courses across 14 languages with grammar lessons, study plans, and an official CEFR-referenced progression on Premium (per its documentation), plus a free Basic tier so you can start without paying. Premium runs roughly $5–$14/month depending on plan length (US list prices as of 2026-07-12, varying by term, region, and promotions). The honest trade-offs: community-correction quality is uneven because anyone can correct your work regardless of their own proficiency, so feedback ranges from excellent to unreliable: especially for languages with complex politeness or grammar; the free Basic tier is limited, with study plans, grammar, offline mode, and community feedback gated behind Premium; and its 14-language selection is narrower than some rivals. This rating analyzes Busuu's published documentation, not any efficacy study. For structured learning with native-speaker feedback, Busuu is a strong value.",
     "pricing_table": [
       {
         "plan": "Basic (free)",
@@ -623,7 +623,7 @@
       },
       {
         "question": "How reliable is Busuu's community feedback?",
-        "answer": "It varies. Busuu's community-correction feature lets native speakers review your writing and speaking, which is valuable, but anyone can offer corrections regardless of their own proficiency, so quality is uneven — treat corrections as helpful input rather than authoritative, especially for languages with complex grammar or politeness levels."
+        "answer": "It varies. Busuu's community-correction feature lets native speakers review your writing and speaking, which is valuable, but anyone can offer corrections regardless of their own proficiency, so quality is uneven: treat corrections as helpful input rather than authoritative, especially for languages with complex grammar or politeness levels."
       },
       {
         "question": "How much does Busuu Premium cost?",
@@ -633,12 +633,12 @@
     "evidence_points": [
       {
         "claim": "Busuu offers a free Basic tier and a paid Premium tier that adds study plans, grammar, offline mode, and community feedback across 14 languages.",
-        "source_name": "Busuu — Premium Plans (official)",
+        "source_name": "Busuu: Premium Plans (official)",
         "source_url": "https://www.busuu.com/en/premium-plans"
       },
       {
         "claim": "Busuu documents what Premium includes, including community feedback and offline features, in its official support center.",
-        "source_name": "Busuu Support — What is Premium? (official)",
+        "source_name": "Busuu Support: What is Premium? (official)",
         "source_url": "https://help.busuu.com/hc/en-us/articles/16269241908497-What-is-Premium"
       }
     ],
@@ -662,18 +662,18 @@
     "price_summary": "Subscription: Premium (single language) about $19.95/month; All Access (all languages) about $20.95/month; a 7-day free trial applies (US list price as of 2026-07-12; varies by platform and promotions)",
     "pros": [
       "A distinctive audio-first method built around short, spoken listening-and-repeat sessions that emphasize speaking and listening from the start",
-      "The audio focus makes it genuinely usable hands-free — while commuting, walking, or driving — which few other apps match",
+      "The audio focus makes it genuinely usable hands-free (while commuting, walking, or driving) which few other apps match",
       "All Access adds every Pimsleur language for roughly the same monthly price as a single-language Premium plan",
       "A 7-day free trial lets you evaluate the method before committing, per Pimsleur's documentation"
     ],
     "cons": [
-      "The audio-centric method provides limited reading, writing, and visual practice, so it develops speaking and listening far more than literacy — a real gap if your goal includes reading or writing the language",
+      "The audio-centric method provides limited reading, writing, and visual practice, so it develops speaking and listening far more than literacy: a real gap if your goal includes reading or writing the language",
       "At about $19.95–$20.95/month it is among the pricier subscriptions here, and there is no substantial free tier beyond the trial",
       "The structured, linear audio format offers less gamification and flexibility than app-first competitors"
     ],
     "best_for": "Learners who want to prioritize speaking and listening and prefer a hands-free, audio-driven course.",
     "summary": "Pimsleur's audio-first, speak-from-the-start method is excellent for listening and speaking and uniquely hands-free. Its trade-offs: limited reading/writing practice, a higher monthly price, and no real free tier.",
-    "verdict_summary": "Pimsleur takes a distinctive approach: an audio-first method built around short, spoken listening-and-repeat sessions that push speaking and listening from the very first lesson. That design makes it uniquely usable hands-free — on a commute, a walk, or a drive — which sets it apart from screen-bound competitors. Pimsleur is sold as a subscription: Premium for a single language runs about $19.95/month, and All Access (every Pimsleur language) about $20.95/month, with a 7-day free trial (US list prices as of 2026-07-12, varying by platform and promotions). The honest trade-offs: the audio-centric method provides limited reading, writing, and visual practice, so it builds speaking and listening far more than literacy — a real gap if reading or writing is part of your goal; at roughly $20/month it is among the pricier options here with no substantial free tier beyond the trial; and its linear format offers less gamification and flexibility than app-first rivals. This rating analyzes Pimsleur's published documentation, not any efficacy study. For speaking-and-listening focus, hands-free, Pimsleur excels.",
+    "verdict_summary": "Pimsleur takes a distinctive approach: an audio-first method built around short, spoken listening-and-repeat sessions that push speaking and listening from the very first lesson. That design makes it uniquely usable hands-free (on a commute, a walk, or a drive) which sets it apart from screen-bound competitors. Pimsleur is sold as a subscription: Premium for a single language runs about $19.95/month, and All Access (every Pimsleur language) about $20.95/month, with a 7-day free trial (US list prices as of 2026-07-12, varying by platform and promotions). The honest trade-offs: the audio-centric method provides limited reading, writing, and visual practice, so it builds speaking and listening far more than literacy: a real gap if reading or writing is part of your goal; at roughly $20/month it is among the pricier options here with no substantial free tier beyond the trial; and its linear format offers less gamification and flexibility than app-first rivals. This rating analyzes Pimsleur's published documentation, not any efficacy study. For speaking-and-listening focus, hands-free, Pimsleur excels.",
     "pricing_table": [
       {
         "plan": "Free trial",
@@ -708,7 +708,7 @@
     "evidence_points": [
       {
         "claim": "Pimsleur is sold as a subscription (Premium single-language about $19.95/month; All Access about $20.95/month) with a 7-day free trial, built around an audio-first listening-and-speaking method.",
-        "source_name": "Pimsleur — official site (pricing & method)",
+        "source_name": "Pimsleur: official site (pricing & method)",
         "source_url": "https://www.pimsleur.com/"
       }
     ],
@@ -778,7 +778,7 @@
     "evidence_points": [
       {
         "claim": "Rosetta Stone sells subscription and Lifetime plans and includes TruAccent speech-recognition pronunciation feedback in its immersion courses.",
-        "source_name": "Rosetta Stone — Plans and Pricing (official)",
+        "source_name": "Rosetta Stone: Plans and Pricing (official)",
         "source_url": "https://www.rosettastone.com/buy"
       }
     ],

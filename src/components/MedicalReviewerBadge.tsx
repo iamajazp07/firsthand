@@ -31,7 +31,7 @@ export default function MedicalReviewerBadge({
           role="alert"
           className="mb-2 rounded border border-amber-400 bg-amber-50 px-3 py-1.5 text-xs font-semibold text-amber-800"
         >
-          PLACEHOLDER REVIEWER — attach real reviewer before publishing
+          PLACEHOLDER REVIEWER: attach real reviewer before publishing
         </p>
       )}
       <div className="flex items-center gap-2 text-sm text-brand-ink/80">

@@ -82,7 +82,7 @@ export default async function HomePage({
               {featured
                 ? featured.body_mdx
                 : home?.heroFallbackBody ??
-                  "Firsthand analyzes clinical research to rank supplements, telehealth providers, and health products — clearly and without hype."}
+                  "Firsthand analyzes clinical research to rank supplements, telehealth providers, and health products: clearly and without hype."}
             </p>
             {featured && (
               <p className="mt-4 text-sm text-slate-500">
@@ -143,7 +143,7 @@ export default async function HomePage({
                 title: "Best Whitening & Oral Health Picks 2026",
                 category: "Dental & Oral Health",
                 blurb:
-                  "Whitening kits and oral-care picks that hold up to dental research — and the popular ones that don't.",
+                  "Whitening kits and oral-care picks that hold up to dental research, and the popular ones that don't.",
                 href: "/best/best-teeth-whitening-products",
               },
             ]

@@ -32,7 +32,7 @@
     "pricing_table": [
       {
         "plan": "APY",
-        "price": "Variable — see official rate page (as of 2026-07-12)",
+        "price": "Variable: see official rate page (as of 2026-07-12)",
         "notes": "Set by Ally; can change before or after opening. Confirm current APY at ally.com/bank/savings-account-rates."
       },
       {
@@ -63,17 +63,17 @@
     "evidence_points": [
       {
         "claim": "No monthly maintenance fee and no minimum balance required to open or earn APY; the rate is variable (as of 2026-07-12).",
-        "source_name": "Ally Bank — Savings Account rates (official)",
+        "source_name": "Ally Bank: Savings Account rates (official)",
         "source_url": "https://www.ally.com/bank/savings-account-rates/"
       },
       {
         "claim": "Ally Bank Online Savings Account overview, including no monthly fee and free ATM access via Allpoint/MoneyPass (as of 2026-07-12).",
-        "source_name": "Ally Bank — Online Savings Account (official)",
+        "source_name": "Ally Bank: Online Savings Account (official)",
         "source_url": "https://www.ally.com/bank/online-savings-account/"
       },
       {
         "claim": "Ally Bank is an active FDIC-insured institution, FDIC Cert #57803 (Sandy, UT).",
-        "source_name": "FDIC BankFind — Ally Bank (Cert #57803)",
+        "source_name": "FDIC BankFind: Ally Bank (Cert #57803)",
         "source_url": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/57803"
       }
     ],
@@ -112,7 +112,7 @@
     "pricing_table": [
       {
         "plan": "APY",
-        "price": "Variable — see official rate page (as of 2026-07-12)",
+        "price": "Variable: see official rate page (as of 2026-07-12)",
         "notes": "Set by Goldman Sachs Bank USA; can change at any time. Confirm at marcus.com/us/en/savings/high-yield-savings."
       },
       {
@@ -143,12 +143,12 @@
     "evidence_points": [
       {
         "claim": "No monthly fees, no minimum deposit, and same-day transfers of $100,000 or less; variable APY (as of 2026-07-12).",
-        "source_name": "Marcus by Goldman Sachs — High Yield Online Savings (official)",
+        "source_name": "Marcus by Goldman Sachs: High Yield Online Savings (official)",
         "source_url": "https://www.marcus.com/us/en/savings/high-yield-savings"
       },
       {
         "claim": "Goldman Sachs Bank USA is an active FDIC-insured institution, FDIC Cert #33124 (New York, NY).",
-        "source_name": "FDIC BankFind — Goldman Sachs Bank USA (Cert #33124)",
+        "source_name": "FDIC BankFind: Goldman Sachs Bank USA (Cert #33124)",
         "source_url": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/33124"
       }
     ],
@@ -187,7 +187,7 @@
     "pricing_table": [
       {
         "plan": "APY",
-        "price": "Variable — see official rate page (as of 2026-07-12)",
+        "price": "Variable: see official rate page (as of 2026-07-12)",
         "notes": "Capital One states advertised rates are variable and effective 7/10/2026. Confirm at capitalone.com/bank/savings-accounts/online-performance-savings-account."
       },
       {
@@ -218,17 +218,17 @@
     "evidence_points": [
       {
         "claim": "No monthly cycle service charge, no minimum balance to open or maintain, and advertised variable rates effective 7/10/2026 (as of 2026-07-12).",
-        "source_name": "Capital One — 360 Performance Savings (official)",
+        "source_name": "Capital One: 360 Performance Savings (official)",
         "source_url": "https://www.capitalone.com/bank/savings-accounts/online-performance-savings-account/"
       },
       {
         "claim": "Products and services offered by Capital One, N.A., Member FDIC; account disclosures.",
-        "source_name": "Capital One — 360 Performance Savings Disclosures (official)",
+        "source_name": "Capital One: 360 Performance Savings Disclosures (official)",
         "source_url": "https://www.capitalone.com/bank/disclosures/savings-accounts/online-performance-savings-account/"
       },
       {
         "claim": "Capital One, National Association is an active FDIC-insured institution, FDIC Cert #4297 (McLean, VA).",
-        "source_name": "FDIC BankFind — Capital One, N.A. (Cert #4297)",
+        "source_name": "FDIC BankFind: Capital One, N.A. (Cert #4297)",
         "source_url": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/4297"
       }
     ],
@@ -267,7 +267,7 @@
     "pricing_table": [
       {
         "plan": "APY",
-        "price": "Variable — see official rate page (as of 2026-07-12)",
+        "price": "Variable: see official rate page (as of 2026-07-12)",
         "notes": "Amex states rate/APY are variable and subject to change without notice. The page notes the APY is accurate as of 7/10/2026; confirm the live figure before opening."
       },
       {
@@ -298,17 +298,17 @@
     "evidence_points": [
       {
         "claim": "No fee to open, no minimum deposit, interest compounded daily and posted monthly, and a variable APY subject to change without notice; APY accurate as of 7/10/2026 (as of 2026-07-12).",
-        "source_name": "American Express — High Yield Savings Account (official)",
+        "source_name": "American Express: High Yield Savings Account (official)",
         "source_url": "https://www.americanexpress.com/en-us/banking/online-savings/high-yield-savings-account/"
       },
       {
         "claim": "Accounts offered by American Express National Bank, Member FDIC.",
-        "source_name": "American Express — Online Savings (official)",
+        "source_name": "American Express: Online Savings (official)",
         "source_url": "https://www.americanexpress.com/en-us/banking/online-savings/account/"
       },
       {
         "claim": "American Express National Bank is an active FDIC-insured institution, FDIC Cert #27471 (Sandy, UT).",
-        "source_name": "FDIC BankFind — American Express National Bank (Cert #27471)",
+        "source_name": "FDIC BankFind: American Express National Bank (Cert #27471)",
         "source_url": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/27471"
       }
     ],
@@ -329,7 +329,7 @@
       "security_trust": 8,
       "support": 7
     },
-    "price_summary": "No monthly maintenance fee; $0 minimum to open (as of 2026-07-12) — now part of Capital One, N.A.",
+    "price_summary": "No monthly maintenance fee; $0 minimum to open (as of 2026-07-12): now part of Capital One, N.A.",
     "pros": [
       "Long-standing reputation for no monthly maintenance fee and no minimum balance on the Online Savings Account (as of 2026-07-12)",
       "No fees on many common services historically (official checks, stop payments, insufficient funds)",
@@ -347,7 +347,7 @@
     "pricing_table": [
       {
         "plan": "APY",
-        "price": "Variable — see official rate page (as of 2026-07-12)",
+        "price": "Variable: see official rate page (as of 2026-07-12)",
         "notes": "Rate is variable and not reliably shown in static page content. Confirm current terms via discover.com/online-banking following the Capital One merger."
       },
       {
@@ -378,17 +378,17 @@
     "evidence_points": [
       {
         "claim": "On May 18, 2025, Discover merged into Capital One; the site states they are now one company under Capital One, N.A. (as of 2026-07-12).",
-        "source_name": "Discover — Online Banking (official)",
+        "source_name": "Discover: Online Banking (official)",
         "source_url": "https://www.discover.com/online-banking/"
       },
       {
         "claim": "Discover Bank's FDIC charter (Cert #5649, Greenwood, DE) is inactive, consistent with the merger into Capital One, N.A.",
-        "source_name": "FDIC BankFind — Discover Bank (Cert #5649)",
+        "source_name": "FDIC BankFind: Discover Bank (Cert #5649)",
         "source_url": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/5649"
       },
       {
         "claim": "Discover-branded deposits are FDIC-insured through Capital One, N.A., an active FDIC-insured institution (FDIC Cert #4297).",
-        "source_name": "FDIC BankFind — Capital One, N.A. (Cert #4297)",
+        "source_name": "FDIC BankFind: Capital One, N.A. (Cert #4297)",
         "source_url": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/4297"
       }
     ],
@@ -458,17 +458,17 @@
     "evidence_points": [
       {
         "claim": "YNAB costs $14.99/month or $109/year with a 34-day free trial and no credit card required (as of 2026-07-12).",
-        "source_name": "YNAB — official pricing",
+        "source_name": "YNAB: official pricing",
         "source_url": "https://www.ynab.com/pricing"
       },
       {
         "claim": "YNAB uses encryption in transit and at rest and connects via OAuth, stating it does not view or store bank credentials.",
-        "source_name": "YNAB — official security",
+        "source_name": "YNAB: official security",
         "source_url": "https://www.ynab.com/security"
       },
       {
         "claim": "One YNAB subscription can be shared with up to six people at no additional cost.",
-        "source_name": "YNAB — official pricing",
+        "source_name": "YNAB: official pricing",
         "source_url": "https://www.ynab.com/pricing"
       }
     ],
@@ -538,17 +538,17 @@
     "evidence_points": [
       {
         "claim": "Monarch Core is $14.99/month or $99.99/year with a 7-day free trial; Plus is $199/year (as of 2026-07-12).",
-        "source_name": "Monarch — official pricing",
+        "source_name": "Monarch: official pricing",
         "source_url": "https://www.monarch.com/pricing"
       },
       {
         "claim": "Monarch documents SOC 2 Type 2, 256-bit TLS encryption, and read-only connections via Plaid, Finicity, and MX without storing bank passwords.",
-        "source_name": "Monarch — official Privacy and Security help",
+        "source_name": "Monarch: official Privacy and Security help",
         "source_url": "https://help.monarch.com/hc/en-us/articles/360048393572-Privacy-and-Security"
       },
       {
         "claim": "Monarch offers multi-factor authentication to protect account login.",
-        "source_name": "Monarch — official Multi-Factor Authentication help",
+        "source_name": "Monarch: official Multi-Factor Authentication help",
         "source_url": "https://help.monarch.com/hc/en-us/articles/360054392152-Multi-Factor-Authentication"
       }
     ],
@@ -618,17 +618,17 @@
     "evidence_points": [
       {
         "claim": "Copilot Money is $13/month or $95/year with a one-month free trial (as of 2026-07-12).",
-        "source_name": "Copilot Money — official pricing",
+        "source_name": "Copilot Money: official pricing",
         "source_url": "https://copilot.money/pricing/"
       },
       {
         "claim": "Copilot uses 256-bit encryption and TLS, connects read-only via Plaid, MX, Mastercard, and Akoya, and does not store bank credentials or sell data.",
-        "source_name": "Copilot Money — official Privacy and Security",
+        "source_name": "Copilot Money: official Privacy and Security",
         "source_url": "https://www.copilot.money/privacy-and-security"
       },
       {
         "claim": "Copilot is available on iPhone, iPad, Mac, and Web, with no Android app (as of 2026-07-12).",
-        "source_name": "Copilot Money — official pricing",
+        "source_name": "Copilot Money: official pricing",
         "source_url": "https://copilot.money/pricing/"
       }
     ],
@@ -699,17 +699,17 @@
     "evidence_points": [
       {
         "claim": "Empower states the Personal Dashboard and its features are free and will remain free (as of 2026-07-12).",
-        "source_name": "Empower — official Personal Wealth transition page",
+        "source_name": "Empower: official Personal Wealth transition page",
         "source_url": "https://www.empower.com/empower-personal-wealth-transition"
       },
       {
         "claim": "Empower's paid wealth-management advisory charges a tiered annual percentage-of-AUM fee with minimums ($100K Investment Services, $250K Wealth Management, $1M Private Client).",
-        "source_name": "Empower — official wealth management",
+        "source_name": "Empower: official wealth management",
         "source_url": "https://www.empower.com/products-solutions/wealth-management"
       },
       {
         "claim": "Empower's free financial tools use read-only account aggregation with bank-level encryption to track net worth and investments.",
-        "source_name": "Empower — official financial tools",
+        "source_name": "Empower: official financial tools",
         "source_url": "https://www.empower.com/tools"
       }
     ],
@@ -780,17 +780,17 @@
     "evidence_points": [
       {
         "claim": "Goodbudget offers a free tier (20 envelopes, 1 account, 2 devices, no automatic bank sync) and Premium at $10/month or $80/year (as of 2026-07-12).",
-        "source_name": "Goodbudget — official plans and pricing",
+        "source_name": "Goodbudget: official plans and pricing",
         "source_url": "https://goodbudget.com/plans-pricing/"
       },
       {
         "claim": "Goodbudget states it secures information with bank-grade 256-bit SSL and does not sell or rent personally identifiable information.",
-        "source_name": "Goodbudget — official 'Is my information safe?' help",
+        "source_name": "Goodbudget: official 'Is my information safe?' help",
         "source_url": "https://goodbudget.com/help/billing/is-my-information-safe/"
       },
       {
         "claim": "Automatic bank sync (US banks only) is available only on the paid Premium plan; the free tier is manual entry.",
-        "source_name": "Goodbudget — official plans and pricing",
+        "source_name": "Goodbudget: official plans and pricing",
         "source_url": "https://goodbudget.com/plans-pricing/"
       }
     ],

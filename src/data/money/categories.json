@@ -3,7 +3,7 @@
     "id": "cat-high-yield-savings",
     "slug": "high-yield-savings",
     "name": "High-Yield Savings",
-    "description": "Independent, evidence-first rankings of high-yield savings accounts — FDIC-insured, fee structures, and variable APYs cited from each bank's official disclosures.",
+    "description": "Independent, evidence-first rankings of high-yield savings accounts: FDIC-insured, fee structures, and variable APYs cited from each bank's official disclosures.",
     "sort_order": 1
   },
   {
@@ -17,7 +17,7 @@
     "id": "cat-credit-cards",
     "slug": "credit-cards",
     "name": "Credit Cards",
-    "description": "Analysis of credit cards on fees, APRs, and rewards value — with the fine print read from each issuer's official terms.",
+    "description": "Analysis of credit cards on fees, APRs, and rewards value, with the fine print read from each issuer's official terms.",
     "sort_order": 3
   },
   {
@@ -45,7 +45,7 @@
     "id": "cat-money-news",
     "slug": "money-news",
     "name": "Money News",
-    "description": "Original analysis of primary-source financial announcements — from the Federal Reserve, CFPB, FDIC, SEC, and IRS. We read the source, not the headlines.",
+    "description": "Original analysis of primary-source financial announcements, from the Federal Reserve, CFPB, FDIC, SEC, and IRS. We read the source, not the headlines.",
     "sort_order": 7
   }
 ]

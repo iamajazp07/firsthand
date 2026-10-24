@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Contact Firsthand — questions, corrections, partnership inquiries, or feedback on our health and wellness reviews.",
+    "Contact Firsthand: questions, corrections, partnership inquiries, or feedback on our health and wellness reviews.",
   alternates: { canonical: "/contact" },
 };
 
@@ -25,7 +25,7 @@ export default function ContactPage() {
           </h1>
           <p className="mt-3 max-w-3xl text-base leading-relaxed text-brand-ink/80">
             Questions about a review, a correction to report, or a partnership
-            inquiry — we read everything.
+            inquiry: we read everything.
           </p>
         </div>
       </section>
@@ -44,7 +44,7 @@ export default function ContactPage() {
               {CONTACT_EMAIL}
             </a>
             . For corrections, please include the page URL and the specific
-            claim you believe is wrong — we review every correction report
+            claim you believe is wrong: we review every correction report
             under our editorial policy.
           </p>
         </div>
@@ -111,7 +111,7 @@ export default function ContactPage() {
               Send message
             </button>
             <p className="text-xs text-brand-ink/60">
-              This form isn&apos;t connected yet — please use the email address
+              This form isn&apos;t connected yet: please use the email address
               above for now.
             </p>
           </form>

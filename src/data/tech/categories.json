@@ -3,7 +3,7 @@
     "id": "cat-laptops",
     "slug": "laptops",
     "name": "Laptops",
-    "description": "Evidence-first laptop coverage — processors, memory, storage, display, and battery read from each manufacturer's official specification sheet, not from lab benchmarks.",
+    "description": "Evidence-first laptop coverage: processors, memory, storage, display, and battery read from each manufacturer's official specification sheet, not from lab benchmarks.",
     "sort_order": 1
   },
   {
@@ -31,7 +31,7 @@
     "id": "cat-headphones-audio",
     "slug": "headphones-audio",
     "name": "Headphones & Audio",
-    "description": "Headphones and wireless earbuds compared on manufacturer-rated battery life, published audio and noise-cancellation specs, and official prices — reported as manufacturer-rated, not lab-tested.",
+    "description": "Headphones and wireless earbuds compared on manufacturer-rated battery life, published audio and noise-cancellation specs, and official prices, reported as manufacturer-rated, not lab-tested.",
     "sort_order": 5
   },
   {
@@ -52,7 +52,7 @@
     "id": "cat-tech-news",
     "slug": "tech-news",
     "name": "Tech News",
-    "description": "Original analysis of primary-source technology announcements — manufacturer spec sheets, official pricing changes, security disclosures, and standards-body publications. We read the source, not the headlines.",
+    "description": "Original analysis of primary-source technology announcements: manufacturer spec sheets, official pricing changes, security disclosures, and standards-body publications. We read the source, not the headlines.",
     "sort_order": 8
   }
 ]

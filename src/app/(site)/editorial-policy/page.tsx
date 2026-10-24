@@ -39,19 +39,19 @@ export default function EditorialPolicyPage() {
             <li>
               <strong className="font-semibold">
                 Peer-reviewed research indexed on PubMed
-              </strong>{" "}
-              — randomized controlled trials and systematic reviews first,
+              </strong>:
+              randomized controlled trials and systematic reviews first,
               then observational studies.
             </li>
             <li>
               <strong className="font-semibold">
                 NIH resources and trial registries
-              </strong>{" "}
-              — including ClinicalTrials.gov and the NIH Office of Dietary
+              </strong>,
+              including ClinicalTrials.gov and the NIH Office of Dietary
               Supplements fact sheets.
             </li>
             <li>
-              <strong className="font-semibold">FDA materials</strong> —
+              <strong className="font-semibold">FDA materials</strong>:
               approvals, warning letters, recalls, and safety communications.
             </li>
           </ul>
@@ -67,7 +67,7 @@ export default function EditorialPolicyPage() {
           <p>
             Firsthand never states or implies that a supplement or wellness
             product diagnoses, treats, cures, or prevents any disease. We
-            describe what published research found — including its limits —
+            describe what published research found (including its limits) 
             and nothing more. Content that can&apos;t meet this standard
             doesn&apos;t get published.
           </p>
@@ -89,8 +89,7 @@ export default function EditorialPolicyPage() {
             Editorial fact-check for health money pages
           </h2>
           <p>
-            Any monetized page that makes health-related claims — product
-            rankings, reviews, and comparisons — must additionally be
+            Any monetized page that makes health-related claims (product rankings, reviews, and comparisons) must additionally be
             fact-checked by our editorial team before publication. The team
             checks that claims match the cited evidence, that safety
             information is complete and fairly presented, and that the page
@@ -127,8 +126,7 @@ export default function EditorialPolicyPage() {
           </h2>
           <p>
             When we get something wrong, we fix it quickly and visibly.
-            Material errors — a wrong dose, a misread study, an outdated
-            safety warning — are corrected in the article, and the page&apos;s
+            Material errors (a wrong dose, a misread study, an outdated safety warning) are corrected in the article, and the page&apos;s
             last-updated date reflects the change. Significant corrections are
             noted in the article itself. To report an error, use our{" "}
             <Link

@@ -47,7 +47,7 @@ export default async function AboutPage() {
           </h2>
           <p>
             Firsthand started as an independent review directory for health and
-            wellness products and services — supplements, telehealth
+            wellness products and services: supplements, telehealth
             providers, sleep aids, dental and hearing products, and more. The
             health market is crowded with bold claims and thin evidence, and
             most &quot;review&quot; sites simply repeat whatever the
@@ -70,8 +70,8 @@ export default async function AboutPage() {
               </Link>
             ) : (
               "Health Research Analyst"
-            )}{" "}
-            — a data scientist (MSc) who evaluates clinical evidence from
+            )},
+            a data scientist (MSc) who evaluates clinical evidence from
             PubMed, NIH trial registries, and regulatory sources. The analyst
             is not a physician and doesn&apos;t give medical advice; their job
             is to weigh studies honestly and translate them into clear
@@ -103,7 +103,7 @@ export default async function AboutPage() {
                   {author.name}
                 </Link>
                 <p className="text-sm text-brand-ink/70">
-                  {author.credentials} — analyzes clinical research on
+                  {author.credentials}: analyzes clinical research on
                   supplements and telehealth
                 </p>
               </div>
@@ -131,7 +131,7 @@ export default async function AboutPage() {
             </li>
             <li>
               <strong className="font-semibold">Honest cons.</strong> Every
-              product page lists drawbacks, side effects, and red flags — even
+              product page lists drawbacks, side effects, and red flags, even
               for products we recommend, and even when a commission is at
               stake. How we make money is explained in our{" "}
               <Link
