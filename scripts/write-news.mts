@@ -35,6 +35,7 @@ import {
   type NewsItem,
 } from "../src/lib/news.ts";
 import { lintLines } from "../src/lib/lint-human.ts";
+import { submitUrls } from "./indexnow.mts";
 
 // ---------------------------------------------------------------------------
 // Config
@@ -50,6 +51,13 @@ const endpointFor = (m: string) =>
   `https://generativelanguage.googleapis.com/v1beta/models/${m}:generateContent`;
 
 const VERTICALS = ["health", "money", "tech", "education", "travel"];
+
+/** Public URL of a news article. Health has its own host; the rest are paths on the apex. */
+const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://readfirsthand.com").replace(/\/$/, "");
+const articleUrl = (i: NewsItem) =>
+  i.vertical === "health"
+    ? `https://health.${new URL(SITE_URL).host}/news/${i.slug}`
+    : `${SITE_URL}/${i.vertical}/news/${i.slug}`;
 const WRITTEN_FILE = newsStatePath("_written.json");
 
 /** Below this much real text there is not enough to analyse without inventing. */
@@ -359,6 +367,7 @@ async function main(): Promise<void> {
   console.log(`  written today: ${VERTICALS.map((v) => `${v} ${doneToday[v]}`).join(", ")}\n`);
 
   let made = 0;
+  const publishedUrls: string[] = [];
   let scanned = 0;
   let stopReason = "";
 
@@ -416,6 +425,7 @@ async function main(): Promise<void> {
     if (!ok) { written[item.id] = "skipped: item left the store"; continue; }
 
     written[item.id] = `published by ${draft.model}`;
+    publishedUrls.push(articleUrl(item));
     made++;
     doneToday[item.vertical]++;
     console.log(
@@ -429,6 +439,10 @@ async function main(): Promise<void> {
 
   await fs.writeFile(WRITTEN_FILE, JSON.stringify(written, null, 2) + "\n");
   console.log(`\n  ${made} published` + (stopReason ? `. Stopped: ${stopReason}.` : "."));
+
+  if (publishedUrls.length > 0) {
+    for (const line of await submitUrls(publishedUrls)) console.log(`  IndexNow ${line}`);
+  }
 }
 
 main().catch((err) => {
