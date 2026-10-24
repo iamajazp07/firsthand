@@ -117,11 +117,13 @@ export async function readNews(vertical: string): Promise<NewsItem[]> {
 
   try {
     const parsed = JSON.parse(await fs.readFile(file, "utf8")) as NewsItem[];
-    // Feed names like "gov.uk — HM Treasury" are stored as fetched; show them
-    // without the em dash.
+    // Feed names like "gov.uk — HM Treasury", and some feed titles and
+    // summaries, are stored as fetched; show them without the em dash.
     const items = (Array.isArray(parsed) ? parsed : []).map((i) => ({
       ...i,
       source_name: (i.source_name ?? "").replace(/\s*—\s*/g, ": "),
+      title: (i.title ?? "").replace(/\s*—\s*/g, ", "),
+      summary: (i.summary ?? "").replace(/\s*—\s*/g, ", "),
     }));
     cache.set(vertical, { items, loadedAt: Date.now(), mtimeMs });
     return items;
